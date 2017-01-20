@@ -57,11 +57,12 @@ function main(start, end) {
 	end = parseInt(end,10);
 	var array =  perm_array(start, end),
 		result = [],
-		i,j, bool;
+		i,j, bool, str;
 	for(i=0;i<array.length;i+=1){
 		for(j=1;j<=Math.sqrt(array[i]);j+=1){
 			if((array[i] % j === 0)){
-				if(pandigital( String(j) + String(array[i] / j),end) ){
+				str = String(j) + String(array[i] / j);
+				if(pandigital( str,end) ){
 					result.push(array[i],j,array[i] / j);
 					j = Math.sqrt(array[i]) + 1;
 				}
