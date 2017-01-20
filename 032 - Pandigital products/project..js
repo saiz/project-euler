@@ -34,8 +34,6 @@ function nextPerm(array){
 }
 function perm_array(start, end) {
 	'use strict';
-	start = parseInt(start,10);
-	end = parseInt(end,10);
 	var array = create_array(start,end),
 	matrix = [];
 	while( nextPerm(array)){
@@ -55,6 +53,8 @@ function pandigital(n){
 	return bool;
 }
 function main(start, end) {
+	start = parseInt(start,10);
+	end = parseInt(end,10);
 	var array =  perm_array(start, end),
 	i, bool;
 	for(i=0;i<array.length;i+=1){
