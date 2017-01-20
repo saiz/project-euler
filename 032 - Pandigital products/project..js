@@ -55,7 +55,12 @@ function pandigital(n){
 	return bool;
 }
 function main(start, end) {
-	return perm_array(start, end);
+	var array =  perm_array(start, end),
+	i, bool;
+	for(i=0;i<array.length;i+=1){
+		bool = pandigital(String(array[i]));
+		console.log(array[i],v);
+	}
 }
 
 console.log(main(process.argv[2],process.argv[3],process.argv[4]));
