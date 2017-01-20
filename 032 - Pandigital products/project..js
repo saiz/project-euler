@@ -71,14 +71,18 @@ function main(start, end) {
 	end = parseInt(end,10);
 	var array =  perm_array(start, end),
 		comb =  combinations(create_array(start,end).join("")),
-	i, bool;
+	i,j, bool;
 	for(i=0;i<comb.length;i+=1){
 		comb[i] = parseInt(comb[i],10);
 	}
 	console.log(comb);
 	for(i=0;i<array.length;i+=1){
 		bool = pandigital(String(array[i]));
-		//if()
+		for(j=0;j<comb.length;j+=1){
+			if((array[i] % comb[j] === 0) && pandigital(String(comb[j]) + String(array[i] / comb[j]))){
+				console.log(array[i],comb[j],array[i] / comb[j]);
+			}
+		}
 		//console.log(array[i],bool);
 	}
 	return;
