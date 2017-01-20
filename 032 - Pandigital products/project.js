@@ -44,7 +44,9 @@ function perm_array(start, end) {
 function next_split(array,length){
 	array[2]-=1;
 	if(array[2] === 0){
+		console.log(array);
 		array[1] += 1;
+		console.log(array);
 		array[2] = length - array[1] - array[0];
 	}
 	if(array[1] === length - 1){
