@@ -31,6 +31,7 @@ function main() {
 					if(e/d === c/d){
 						console.log("hit",c,d,e,f);
 					}
+					console.log("hit",c,d,e,f);
 				}
 			}
 		}
