@@ -76,7 +76,6 @@ function main(start, end) {
 		comb[i] = parseInt(comb[i],10);
 	}
 	for(i=0;i<array.length;i+=1){
-		bool = pandigital(String(array[i]));
 		for(j=0;j<comb.length;j+=1){
 			if((array[i] % comb[j] === 0) && pandigital(String(comb[j]) + String(array[i] / comb[j]))){
 				console.log(array[i],comb[j],array[i] / comb[j]);
