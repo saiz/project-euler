@@ -61,9 +61,9 @@ function main(start, end) {
 	for(i=0;i<array.length;i+=1){
 		sqrt = Math.sqrt(array[i]);
 		for(j=1;j<sqrt;j+=1){
-			if((array[i] % j === 0)){
-				str = String(j) + String(array[i] / j);
-				if(pandigital( str,end) && str.length === end ){
+			str = String(j) + String(array[i] / j);
+			if((array[i] % j === 0)  && str.length === end){
+				if(pandigital( str,end) ){
 					result.push([array[i],j,array[i] / j]);
 					j = sqrt;
 				}
