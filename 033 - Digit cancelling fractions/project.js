@@ -23,6 +23,7 @@ function main() {
 		b = parseInt(str2,10);
 		c = a/gcd(a,b);
 		d =	b/gcd(a,b);
+		console.log(a,b);
 		if(a<b){
 			for(j=0;j<str1.length;j+=1){
 				if(str2.indexOf(str[j]) >= 0){
