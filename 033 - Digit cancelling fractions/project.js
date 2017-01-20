@@ -12,7 +12,7 @@ function main() {
 		i,a,b;
 	for (i=0;i<array.length;i+=1){
 		a = String(array[i]).substring(0,2);
-		b = String(array[i]).substring(2,3);
+		b = String(array[i]).substring(2,4);
 		console.log(a,b);
 	}
 	return;
