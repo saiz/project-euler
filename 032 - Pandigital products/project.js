@@ -72,7 +72,6 @@ function main(start, end) {
 			b = parseInt(array[i].substring(temp[0],temp[0] + temp[1]),10);
 			c = parseInt(array[i].substring(temp[0] + temp[1]),10);
 			if(a*b === c){
-				console.log("here")
 				result.push(c);
 			}
 		}
