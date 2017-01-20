@@ -1,3 +1,11 @@
+function create_array(start,end){
+	'use strict';
+	var array=[],i;
+	for(i=start;i<=end;i+=1){
+		array.push(i);
+	}
+	return array;
+}
 function nextPerm(array){
 	'use strict';
 	var i = array.length -1;
@@ -23,15 +31,6 @@ function nextPerm(array){
         j-=1;
     }
     return true;
-
-}
-function create_array(start,end){
-	'use strict';
-	var array=[],i;
-	for(i=start;i<=end;i+=1){
-		array.push(i);
-	}
-	return array;
 }
 function perm_array(start, end) {
 	'use strict';
@@ -43,6 +42,19 @@ function perm_array(start, end) {
 		matrix.push(parseInt(array.slice(0).join(""),10));
 	}
 	return matrix;
+}
+function pandigital(n){
+	'use strict';
+	var i=1, bool = true;
+	while(i <= n.length && bool){
+		if(n.indexOf(i) === -1){
+			bool = false;
+		}
+		i+=1;
+	}
+	return bool;
+
+
 }
 function main(start, end) {
 	return perm_array(start, end);
