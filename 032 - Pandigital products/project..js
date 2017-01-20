@@ -79,7 +79,7 @@ function main(start, end) {
 	for(i=0;i<array.length;i+=1){
 		bool = pandigital(String(array[i]));
 		//if()
-		console.log(array[i],bool);
+		//console.log(array[i],bool);
 	}
 	return;
 }
