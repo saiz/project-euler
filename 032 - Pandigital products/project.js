@@ -41,49 +41,14 @@ function perm_array(start, end) {
 	}
 	return matrix;
 }
-function pandigital(n){
-	'use strict';
-	var i=0, bool = true;
-	while(i < n.length && bool){
-		if( n.split(n[i]).length - 1 !== 1){
-			bool = false;
-		}
-		if( n[i] > n.length){
-			bool = false;
-		}
-		if( n[i] <= 0){
-			bool = false;
-		}
-		i+=1;
-	}
-	return bool;
-}
-function divsors_below_sqrt(number) {
-	'use strict';
-	var i,start=[],end=[];
-	for(i=1;i<=Math.sqrt(number);i+=1){
-		if(number%i === 0){
-		    start.push(i);
-		}
-	}
-	return start;
-}
 function main(start, end) {
 	start = parseInt(start,10);
 	end = parseInt(end,10);
 	var array =  perm_array(start, end),
 		result = [],
-		i,j, bool, str, div;
+		i;
 	for(i=0;i<array.length;i+=1){
-		div = divsors_below_sqrt(array[i]);
-		for(j=0;j<div.length;j+=1){
-			str = String(div[j]) + String(array[i] / div[j]);
-			if((str.length === String(array[i]).length) && pandigital(str)){
-				result.push([array[i],div[j],array[i] / div[j]]);
-				j = div.length;
-			}
-		}
-		//console.log(array[i],bool);
+		//console.log(array[i]);
 	}
 	return result;
 }
