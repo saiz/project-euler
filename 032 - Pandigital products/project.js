@@ -76,6 +76,7 @@ function main(start, end) {
 		i,j, bool, str, div;
 	for(i=0;i<array.length;i+=1){
 		div = divsors_below_sqrt(array[i]);
+		console.log(div)
 		for(j=0;j<div.length;j+=1){
 			str = String(div[j]) + String(array[i] / div[j]);
 			if(str.length === String(array[i]).length){
@@ -91,4 +92,4 @@ function main(start, end) {
 	return result;
 }
 
-console.log(main(process.argv[2],process.argv[3],process.argv[4]));
+console.log(main(process.argv[2],process.argv[3],process.argv[4]));218479356,,,
