@@ -14,7 +14,7 @@ function main() {
 		a = parseInt(String(array[i]).substring(0,2),10);
 		b = parseInt(String(array[i]).substring(2,4),10);
 		if(a<b){
-			console.log(a,b);
+			console.log(array[i],a,b);
 		}
 	}
 	return;
