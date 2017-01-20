@@ -81,8 +81,8 @@ function main(start, end) {
 			str = String(div[j]) + String(array[i] / div[j]);
 			if(str.length === String(array[i]).length){
 				if(pandigital(str) ){
-					console.log([array[i],j,array[i] / j]);
-					result.push([array[i],j,array[i] / j]);
+					console.log([array[i],j,array[i] / div[j]]);
+					result.push([array[i],j,array[i] / div[j]]);
 					j = div.length;
 				}
 			}
