@@ -48,7 +48,7 @@ function main(start, end) {
 		result = [],
 		i;
 	for(i=0;i<array.length;i+=1){
-		//console.log(array[i]);
+		console.log(array[i]);
 	}
 	return result;
 }
