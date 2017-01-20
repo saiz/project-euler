@@ -45,7 +45,13 @@ function pandigital(n){
 	'use strict';
 	var i=0, bool = true;
 	while(i <= n.length && bool){
-		if((n.split(String(n[i])).length-1 !== 1) || n[i] > n.length){
+		if( n.split(n[i]).length - 1 !== 1){
+			bool = false;
+		}
+		if( n[i] > n.length){
+			bool = false;
+		}
+		if( n[i] <= 0){
 			bool = false;
 		}
 		i+=1;
