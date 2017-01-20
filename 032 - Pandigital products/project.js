@@ -92,4 +92,4 @@ function main(start, end) {
 	return result;
 }
 
-console.log(main(process.argv[2],process.argv[3],process.argv[4]));218479356,,,
+console.log(main(process.argv[2],process.argv[3],process.argv[4]));
