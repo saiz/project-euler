@@ -22,7 +22,6 @@ function main() {
 		c = a/gcd(a,b);
 		d =	b/gcd(a,b);
 		if(a<b){
-
 				console.log(c+"/" +d);
 		}
 	}
