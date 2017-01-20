@@ -10,7 +10,6 @@ function count( arr, index, remainder) {
 	}
 	return count(arr,index,remainder - arr[index]) + count(arr,index+1,remainder);
 }
-
 function main(n){
 	'use strict';
 	var money =[1,2,5,10,20,50,100,200];
