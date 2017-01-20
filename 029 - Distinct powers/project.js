@@ -1,3 +1,4 @@
+var BigNumber = require('big-number');
 function locationOf(element, array, start, end) {
 	'use strict';
 	start = start || 0;
@@ -23,7 +24,7 @@ function array_of_powers(a,b) {
 	power,i,j;
 	for(i=a;i<=b;i+=1){
 		for(j=a;j<=b;j+=1){
-			power = Math.pow(i,j);
+			power = new BigNumber(i).toPower(j);
 			if(array.indexOf(power) === -1){
 				insert(power,array);
 			}
