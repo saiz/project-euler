@@ -68,10 +68,10 @@ function main(start, end) {
 	for(i=0;i<array.length;i+=1){
 		temp = [1,1,end -2];
 		while(next_split(temp,end)){
-			console.log(temp);
 			a = array[i].substring(0,temp[0]);
 			b = array[i].substring(temp[0],temp[0] + temp[1]);
 			c = array[i].substring(temp[0] + temp[1]);
+			console.log(a,b,c);
 		}
 		console.log("here")
 	}
