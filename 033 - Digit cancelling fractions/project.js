@@ -29,7 +29,7 @@ function main() {
 					e = parseInt(str1.replace(str1[j], ""),10);
 					f = parseInt(str2.replace(str1[j], ""),10);
 					if(e/d === c/d){
-						console.log("hit",c,d,e,f);
+						console.log("hit",a,b,e,f);
 					}
 				}
 			}
