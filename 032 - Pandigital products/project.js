@@ -71,6 +71,7 @@ function main(start, end) {
 			b = array[i].substring(temp[0],temp[0] + temp[1]);
 			c = array[i].substring(temp[0] + temp[1]);
 			console.log(a,b,c);
+			console.log(temp);
 		}
 	}
 	return result;
