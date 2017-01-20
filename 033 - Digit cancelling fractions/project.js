@@ -17,8 +17,6 @@ function main() {
 	var array = generate_array(),
 		i,j,a,b,c,d,fract,str1,str2,e,f;
 	for (i=0;i<array.length;i+=1){
-		temp1 = null;
-		temp2 = null;
 		str1 = String(array[i]).substring(0,2);
 		str2 = String(array[i]).substring(0,2);
 		a = parseInt(str1.slice(0),10);
