@@ -52,6 +52,20 @@ function pandigital(n){
 	}
 	return bool;
 }
+function combinations(str) {
+    var fn = function(active, rest, a) {
+        if (!active && !rest)
+            return;
+        if (!rest) {
+            a.push(active);
+        } else {
+            fn(active + rest[0], rest.slice(1), a);
+            fn(active, rest.slice(1), a);
+        }
+        return a;
+    }
+    return fn("", str, []);
+}
 function main(start, end) {
 	start = parseInt(start,10);
 	end = parseInt(end,10);
