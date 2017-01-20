@@ -58,7 +58,7 @@ function main(start, end) {
 	var array =  perm_array(start, end),
 	i, bool;
 	for(i=0;i<array.length;i+=1){
-		bool = pandigital(String(array[i]));
+		bool = pandigital(String(array[i])+"1");
 		console.log(array[i],bool);
 	}
 	return;
