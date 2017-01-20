@@ -77,6 +77,7 @@ function main(start, end) {
 	for(i=0;i<comb.length;i+=1){
 		comb[i] = parseInt(comb[i],10);
 	}
+	numArray = numArray.sort(function (a, b) {  return a - b;  });
 	for(i=0;i<array.length;i+=1){
 		for(j=0;j<comb.length;j+=1){
 			if((array[i] % comb[j] === 0) && (Math.sqrt(array[i]) >= comb[j])){
