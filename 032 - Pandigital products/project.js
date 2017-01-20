@@ -60,13 +60,16 @@ function main(start, end) {
 	start = parseInt(start,10);
 	end = parseInt(end,10);
 	var array =  perm_array(start, end),
-		temp [],
+		temp = [],
 		result = [],
-		i;
+		i, a,b,c;
 	for(i=0;i<array.length;i+=1){
-		temp = array.splice(0);
+		array[i] = array[i].join("");
+		temp = [1,1,array.length-1];
 		while(next_split(temp,temp.length)){
-
+			a = array[i].substring(0,temp[0]);
+			b = array[i].substring(temp[0],temp[0] + temp[1]);
+			c = array[i].substring(temp[0] + temp[1]);
 		}
 	}
 	return result;
