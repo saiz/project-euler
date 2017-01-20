@@ -15,9 +15,10 @@ function gcd(a, b) {
 function main() {
 	'use strict';
 	var array = generate_array(),
-		i,j,a,b,c,d,fract,str1,str2,bool;
+		i,j,a,b,c,d,fract,str1,str2,temp1,temp2;
 	for (i=0;i<array.length;i+=1){
-		bool = false;
+		temp1 = null;
+		temp2 = null;
 		str1 = String(array[i]).substring(0,2);
 		str2 = String(array[i]).substring(0,2);
 		a = parseInt(str1.slice(0),10);
@@ -26,11 +27,9 @@ function main() {
 		d =	b/gcd(a,b);
 		for(j=0;j<str1.length;j+=1){
 			if(str2.indexOf(str[j]) >= 0){
-				bool = true;
+				temp1 = str1.replace(str[j], "");
+				temp2 = str1.replace(str[j], "");
 			}
-		}
-		if(bool){
-			str1
 		}
 		if(a<b){
 			console.log(c+"/" +d);
