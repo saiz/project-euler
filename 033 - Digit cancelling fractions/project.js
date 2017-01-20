@@ -11,7 +11,7 @@ function main() {
 	var array = generate_array(),
 		i;
 	for (i=0;i<array.length;i+=1){
-		console.log(i);
+		console.log(array[i]);
 	}
 	return;
 }
