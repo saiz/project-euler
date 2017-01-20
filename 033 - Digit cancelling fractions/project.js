@@ -20,8 +20,8 @@ function main() {
 		bool = false;
 		str1 = String(array[i]).substring(0,2);
 		str2 = String(array[i]).substring(0,2);
-		a = parseInt(str1.slice(0)),10);
-		b = parseInt(str2.slice(0)),10);
+		a = parseInt(str1.slice(0),10);
+		b = parseInt(str2.slice(0),10);
 		c = a/gcd(a,b);
 		d =	b/gcd(a,b);
 		for(j=0;j<str1.length;j+=1){
