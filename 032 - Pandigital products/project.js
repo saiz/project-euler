@@ -42,8 +42,10 @@ function perm_array(start, end) {
 	return matrix;
 }
 function next_split(array,length){
+	console.log(array)
 	array[2]-=1;
-	if(parseInt(array[2],10) <= 0){
+	console.log(array)
+	if(array[2] === 0){
 		array[1]+=1;
 		array[2] = length - array[1] - array[0];
 	}
