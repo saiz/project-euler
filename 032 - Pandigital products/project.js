@@ -41,6 +41,21 @@ function perm_array(start, end) {
 	}
 	return matrix;
 }
+function next_split(array,length){
+	array[2]-=1;
+	if(array[2]===0){
+		array[1]+=1;
+		array[2] = length - array[1] - array[0];
+	}
+	if(array[1]===length -1){
+		array[0]+=1;
+		array[1] = length - array[0] - array[2];
+	}
+	if(array[1]===length -1){
+		return false;
+	}
+	return true;
+}
 function main(start, end) {
 	start = parseInt(start,10);
 	end = parseInt(end,10);
