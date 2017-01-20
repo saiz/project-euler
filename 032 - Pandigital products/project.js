@@ -63,7 +63,7 @@ function main(start, end) {
 			if((array[i] % j === 0)){
 				str = String(j) + String(array[i] / j);
 				console.log(str);
-				if(pandigital( parseInt(str,10),end) ){
+				if(pandigital( str,end) ){
 					result.push([array[i],j,array[i] / j]);
 					j = Math.sqrt(array[i]) + 1;
 				}
