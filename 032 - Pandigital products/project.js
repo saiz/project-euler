@@ -42,8 +42,12 @@ function perm_array(start, end) {
 	return matrix;
 }
 function next_split(array,length){
+	if(array[2]-1 === 0){
+		array[1]+=1;
+	} else {
+		array[1]+=1;
+	}
 	console.log(array);
-	array[2]-=1;
 	return true;
 }
 function main(start, end) {
