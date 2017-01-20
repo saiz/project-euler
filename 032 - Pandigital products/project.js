@@ -52,31 +52,12 @@ function pandigital(n){
 	}
 	return bool;
 }
-function combinations(str) {
-    var fn = function(active, rest, a) {
-        if (!active && !rest)
-            return;
-        if (!rest) {
-            a.push(active);
-        } else {
-            fn(active + rest[0], rest.slice(1), a);
-            fn(active, rest.slice(1), a);
-        }
-        return a;
-    };
-    return fn("", str, []);
-}
 function main(start, end) {
 	start = parseInt(start,10);
 	end = parseInt(end,10);
 	var array =  perm_array(start, end),
 		result = [],
 		i,j, bool;
-	for(i=0;i<comb.length;i+=1){
-		comb[i] = parseInt(comb[i],10);
-	}
-	comb = comb.sort(function (a, b) {  return a - b;  });
-	console.log(comb);
 	for(i=0;i<array.length;i+=1){
 		for(j=1;j<=Math.sqrt(array[i]);j+=1){
 			if(array[i] % j === 0){
