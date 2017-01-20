@@ -72,8 +72,8 @@ function main(start, end) {
 		div = divsors_below_sqrt(array[i]);
 		for(j=0;j<div.length;j+=1){
 			str = String(div[j]) + String(array[i] / div[j]);
-			console.log(str);
 			if(str.length === String(array[i]).length){
+				console.log(str);
 				if(pandigital(str) ){
 					console.log([array[i],j,array[i] / j]);
 					result.push([array[i],j,array[i] / j]);
