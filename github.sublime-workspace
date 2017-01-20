@@ -16,13 +16,12 @@
 			}
 		},
 		{
-			"file": "/C/Workspace/pizzabot/chat/app.js",
+			"file": "030 - Digit fifth powers/project.js",
 			"settings":
 			{
-				"buffer_size": 550,
+				"buffer_size": 259,
 				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "var SlackBot = require('slackbots');"
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -33,12 +32,52 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 0.0,
-		"last_filter": "",
+		"height": 150.0,
+		"last_filter": "mode",
 		"selected_items":
 		[
+			[
+				"mode",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"sublimelinter: save",
+				"SublimeLinter: Show Errors on Save"
+			],
+			[
+				"linter",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			]
 		],
-		"width": 0.0
+		"width": 416.0
 	},
 	"console":
 	{
@@ -58,10 +97,17 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Workspace/github"
+		"/C/Workspace/project-euler",
+		"/C/Workspace/project-euler/030 - Digit fifth powers"
 	],
 	"file_history":
 	[
+		"/C/Users/Nes99/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/Nes99/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/Nes99/AppData/Roaming/Sublime Text 3/Packages/JSLint/JSLint.sublime-settings",
+		"/C/Workspace/project-euler/030 - Digit fifth powers/project.js",
+		"/C/Workspace/pizzabot/chat/app.js",
+		"/C/Workspace/project-euler/github.sublime-project"
 	],
 	"find":
 	{
@@ -79,6 +125,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\"]",
 			"\t",
 			"Righteous Smite",
 			"Visage of The Deity",
@@ -162,27 +209,24 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/C/Workspace/pizzabot/chat/app.js",
+					"file": "030 - Digit fifth powers/project.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 550,
+						"buffer_size": 259,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								550,
-								550
+								259,
+								259
 							]
 						],
 						"settings":
 						{
-							"auto_name": "var SlackBot = require('slackbots');",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -200,7 +244,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"layout":
 	{
@@ -225,6 +269,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 124.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
