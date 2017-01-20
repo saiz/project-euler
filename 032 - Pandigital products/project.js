@@ -47,7 +47,7 @@ function add(a, b) {
 function next_split(array,length){
 	if(array[2] -1 !== 0){
 		array[2] -= 1;
-		array[1] += 1
+		array[1] += 1;
 	} else {
 		array[0] +=1;
 		array[1] = 1;
