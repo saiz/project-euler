@@ -60,10 +60,14 @@ function main(start, end) {
 	start = parseInt(start,10);
 	end = parseInt(end,10);
 	var array =  perm_array(start, end),
+		temp [],
 		result = [],
 		i;
 	for(i=0;i<array.length;i+=1){
-		console.log(array[i]);
+		temp = array.splice(0);
+		while(next_split(temp,temp.length)){
+
+		}
 	}
 	return result;
 }
