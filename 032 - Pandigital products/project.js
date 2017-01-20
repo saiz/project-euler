@@ -78,7 +78,7 @@ function main(start, end) {
 	}
 	for(i=0;i<array.length;i+=1){
 		for(j=0;j<comb.length;j+=1){
-			if(array[i] % comb[j] === 0){
+			if((array[i] % comb[j] === 0) && (Math.sqrt(array[i]) >= comb[j])){
 				if(pandigital( String(comb[j]) + String(array[i] / comb[j]) ) ){
 					console.log(array[i],comb[j],array[i] / comb[j]);
 				}
