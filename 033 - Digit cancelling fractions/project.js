@@ -15,7 +15,7 @@ function gcd(a, b) {
 function main() {
 	'use strict';
 	var array = generate_array(),
-		i,j,a,b,c,d,fract,str1,str2,temp1,temp2;
+		i,j,a,b,c,d,fract,str1,str2,e,f;
 	for (i=0;i<array.length;i+=1){
 		temp1 = null;
 		temp2 = null;
@@ -25,14 +25,16 @@ function main() {
 		b = parseInt(str2.slice(0),10);
 		c = a/gcd(a,b);
 		d =	b/gcd(a,b);
-		for(j=0;j<str1.length;j+=1){
-			if(str2.indexOf(str[j]) >= 0){
-				temp1 = str1.replace(str[j], "");
-				temp2 = str1.replace(str[j], "");
-			}
-		}
 		if(a<b){
-			console.log(c+"/" +d);
+			for(j=0;j<str1.length;j+=1){
+				if(str2.indexOf(str[j]) >= 0){
+					e = parseInt(str1.replace(str[j], ""),10);
+					f = parseInt(str1.replace(str[j], ""),10);
+					if(e/d === c/d){
+						console.log("hit");
+					}
+				}
+			}
 		}
 	}
 	return;
