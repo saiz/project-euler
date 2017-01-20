@@ -46,8 +46,9 @@ function next_split(array,length){
 	if(array[2] === 0){
 		console.log(array);
 		array[1] += 1;
+		console.log(length - array[1] - array[0]);
 		array[2] = length - array[1] - array[0];
-		console.log(array,length);
+		console.log(length - array[1] - array[0]);
 	}
 	if(array[1] === length - 1){
 		array[0] = array[0] + 1;
