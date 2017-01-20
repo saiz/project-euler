@@ -56,14 +56,11 @@ function divsors(number) {
 	'use strict';
 	var i,start=[],end=[];
 	for(i=1;i<=Math.sqrt(number);i+=1){
-		if(number/i === i){
-			start.push(i);
-		} else if(number%i === 0){
+		if(number%i === 0){
 		    start.push(i);
-		    end.unshift(number/i);
 		}
 	}
-	return start.concat(end);
+	return star;
 }
 function main(start, end) {
 	start = parseInt(start,10);
