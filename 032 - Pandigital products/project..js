@@ -61,6 +61,7 @@ function main(start, end) {
 		bool = pandigital(String(array[i]));
 		console.log(array[i],v);
 	}
+	return;
 }
 
 console.log(main(process.argv[2],process.argv[3],process.argv[4]));
