@@ -60,9 +60,10 @@ function main(start, end) {
 		i,j, bool;
 	for(i=0;i<array.length;i+=1){
 		for(j=1;j<=Math.sqrt(array[i]);j+=1){
-			if((array[i] % j === 0) && (result.indexOf(array[i]) === -1)){
+			if((array[i] % j === 0)){
 				if(pandigital( String(j) + String(array[i] / j) ) ){
 					result.push(array[i]);
+					j = Math.sqrt(array[i]) + 1;
 				}
 			}
 		}
