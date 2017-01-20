@@ -80,13 +80,13 @@ function main(start, end) {
 		for(j=0;j<comb.length;j+=1){
 			if((array[i] % comb[j] === 0) && (Math.sqrt(array[i]) >= comb[j])){
 				if(pandigital( String(comb[j]) + String(array[i] / comb[j]) ) ){
-					console.log(array[i],comb[j],array[i] / comb[j]);
+					result.push([array[i],comb[j],array[i] / comb[j]])
 				}
 			}
 		}
 		//console.log(array[i],bool);
 	}
-	return;
+	return result;
 }
 
 console.log(main(process.argv[2],process.argv[3],process.argv[4]));
