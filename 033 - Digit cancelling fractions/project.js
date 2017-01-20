@@ -28,7 +28,7 @@ function main() {
 				if(str2.indexOf(str1[j]) >= 0){
 					e = parseInt(str1.replace(str1[j], ""),10);
 					f = parseInt(str2.replace(str1[j], ""),10);
-					if(c/d === e/f){
+					if((c/d === e/f) && (gcd(a,b) !== 10)){
 						console.log("hit",a,b,e,f);
 					}
 				}
