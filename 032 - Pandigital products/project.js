@@ -68,9 +68,9 @@ function main(start, end) {
 	for(i=0;i<array.length;i+=1){
 		temp = [1,1,end -2];
 		while(next_split(temp,end)){
-			a = array[i].substring(0,temp[0]);
-			b = array[i].substring(temp[0],temp[0] + temp[1]);
-			c = array[i].substring(temp[0] + temp[1]);
+			a = parseInt(array[i].substring(0,temp[0]),10);
+			b = parseInt(array[i].substring(temp[0],temp[0] + temp[1]),10);
+			c = parseInt(array[i].substring(temp[0] + temp[1]),10);
 			if(a*b === c){
 				console.log("here")
 				result.push(c);
