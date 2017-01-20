@@ -12,6 +12,10 @@ function gcd(a, b) {
 
     return gcd(b, a % b);
 }
+function mod(a,b){
+	var bool1 = false;
+	var bool2 = false;
+}
 function main() {
 	'use strict';
 	var array = generate_array(),
