@@ -73,11 +73,11 @@ function main(start, end) {
 		comb =  combinations(create_array(start,end).join("")),
 		result = [],
 		i,j, bool;
-		console.log(comb)
 	for(i=0;i<comb.length;i+=1){
 		comb[i] = parseInt(comb[i],10);
 	}
-	numArray = numArray.sort(function (a, b) {  return a - b;  });
+	comb = comb.sort(function (a, b) {  return a - b;  });
+	console.log(comb)
 	for(i=0;i<array.length;i+=1){
 		for(j=0;j<comb.length;j+=1){
 			if((array[i] % comb[j] === 0) && (Math.sqrt(array[i]) >= comb[j])){
