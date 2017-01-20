@@ -27,7 +27,7 @@ function array_of_powers(a,b) {
 			power = new BigNumber(i).power(j);
 			console.log(power);
 			//power = Math.pow(i,j);
-			if(array.indexOf(power.number.join("")) === -1){
+			if(array.indexOf(power.number.reverse().join("")) === -1){
 				insert(power.number.reverse().join(""),array);
 			}
 		}
