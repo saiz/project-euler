@@ -18,7 +18,7 @@ function main() {
 		i,j,a,b,c,d,fract,str1,str2,e,f;
 	for (i=0;i<array.length;i+=1){
 		str1 = String(array[i]).substring(0,2);
-		str2 = String(array[i]).substring(0,2);
+		str2 = String(array[i]).substring(3,4);
 		a = parseInt(str1,10);
 		b = parseInt(str2,10);
 		c = a/gcd(a,b);
