@@ -33,21 +33,19 @@ function create_array(start,end){
 	}
 	return array;
 }
-function main(start, end, goal) {
+function perm_array(start, end) {
 	'use strict';
 	start = parseInt(start,10);
 	end = parseInt(end,10);
-	goal = parseInt(goal,10);
 	var array = create_array(start,end),
-		count = 1;
+	matrix = [];
 	while( nextPerm(array)){
-		count+=1;
-		if(goal === count){
-			return array.join("");
-		}
+		matrix.push(array);
 	}
-	array = [];
-	return array.join("");
+	return matrix;
+}
+function main(start, end) {
+	return perm_array(start, end);
 }
 
 console.log(main(process.argv[2],process.argv[3],process.argv[4]));
