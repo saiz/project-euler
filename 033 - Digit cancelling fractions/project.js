@@ -31,7 +31,7 @@ function main() {
 					e = parseInt(str1.replace(str[j], ""),10);
 					f = parseInt(str1.replace(str[j], ""),10);
 					if(e/d === c/d){
-						console.log("hit");
+						console.log("hit",c,d,e,f);
 					}
 				}
 			}
