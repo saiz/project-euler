@@ -70,6 +70,7 @@ function main(start, end) {
 	start = parseInt(start,10);
 	end = parseInt(end,10);
 	var array =  perm_array(start, end),
+		comb =  create_array(start,end).join(""),
 	i, bool;
 	for(i=0;i<array.length;i+=1){
 		bool = pandigital(String(array[i]));
