@@ -59,7 +59,7 @@ function main(start, end) {
 		result = [],
 		i,j, bool, str;
 	for(i=0;i<array.length;i+=1){
-		for(j=1;j<=Math.sqrt(array[i]);j+=1){
+		for(j=1;j<Math.sqrt(array[i]);j+=1){
 			if((array[i] % j === 0)){
 				str = String(j) + String(array[i] / j);
 				if(pandigital( str,end) ){
