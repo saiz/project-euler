@@ -51,7 +51,7 @@ function next_split(array,length){
 	if(array[1]+1 === length){
 		array[1]=1;
 	} else {
-		array[2]-=1;
+		array[0]+=1;
 	}
 	return true;
 }
