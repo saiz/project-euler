@@ -72,9 +72,9 @@ function main(start, end) {
 	var array =  perm_array(start, end),
 		comb =  combinations(create_array(start,end).join("")),
 	i, bool;
-	comb = comb.forEach(function(obj) {
-	  return parseInt(obj,10);
-	});
+	for(i=0;i<comb.length;i+=1){
+		comb[i] = parseInt(comb[i],10);
+	}
 	console.log(comb);
 	for(i=0;i<array.length;i+=1){
 		bool = pandigital(String(array[i]));
