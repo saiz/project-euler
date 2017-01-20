@@ -18,8 +18,8 @@ function main() {
 		i,j,a,b,c,d,fract,str1,str2,bool;
 	for (i=0;i<array.length;i+=1){
 		bool = false;
-		str1 = String(array[i]).substring(0,2)
-		str2 = String(array[i]).substring(0,2)
+		str1 = String(array[i]).substring(0,2);
+		str2 = String(array[i]).substring(0,2);
 		a = parseInt(str1.slice(0)),10);
 		b = parseInt(str2.slice(0)),10);
 		c = a/gcd(a,b);
