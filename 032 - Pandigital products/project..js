@@ -53,8 +53,6 @@ function pandigital(n){
 		i+=1;
 	}
 	return bool;
-
-
 }
 function main(start, end) {
 	return perm_array(start, end);
