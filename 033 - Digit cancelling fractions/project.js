@@ -13,7 +13,7 @@ function main() {
 	for (i=0;i<array.length;i+=1){
 		console.log(i);
 	}
-	return i;
+	return;
 }
 
 console.log(main(process.argv[2]));
