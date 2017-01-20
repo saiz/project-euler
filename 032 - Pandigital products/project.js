@@ -45,7 +45,7 @@ function pandigital(n, number){
 	'use strict';
 	var i=1, bool = true;
 	while(i <= number && bool){
-		if(n.split(String(i)).length-1 === 2){
+		if((n.indexOf(i) === -1) || (n.split(String(i)).length-1 > 1){
 			bool = false;
 		}
 		i+=1;
