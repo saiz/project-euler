@@ -43,15 +43,13 @@ function perm_array(start, end) {
 }
 function next_split(array,length){
 	console.log(array);
-	if(array[2]-1 === 0){
-		array[1]+=1;
+	if(array[2] -1 !== 0){
+		array[2] -= 1;
+		array[1] += 1
 	} else {
-		array[2]-=1;
-	}
-	if(array[1]+1 === length){
-		array[1]=1;
-	} else {
-		array[0]+=1;
+		array[0] +=1;
+		array[1] = 1;
+		array[2] = length - array[0] - 1;
 	}
 	return true;
 }
