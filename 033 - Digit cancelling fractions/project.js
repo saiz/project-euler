@@ -35,6 +35,7 @@ function main() {
 				}
 			}
 		}
+		console.log("hit");
 	}
 	return;
 }
