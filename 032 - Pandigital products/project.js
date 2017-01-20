@@ -62,8 +62,8 @@ function main(start, end) {
 		for(j=1;j<=Math.sqrt(array[i]);j+=1){
 			if((array[i] % j === 0)){
 				str = String(j) + String(array[i] / j);
-				console.log(str);
 				if(pandigital( str,end) ){
+					console.log(str);
 					result.push([array[i],j,array[i] / j]);
 					j = Math.sqrt(array[i]) + 1;
 				}
