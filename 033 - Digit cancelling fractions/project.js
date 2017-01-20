@@ -34,8 +34,8 @@ function main() {
 					console.log("hit",c,d,e,f);
 				}
 			}
+			console.log("hit");
 		}
-		console.log("hit");
 	}
 	return;
 }
