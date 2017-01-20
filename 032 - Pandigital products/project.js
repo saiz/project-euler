@@ -45,7 +45,6 @@ function add(a, b) {
     return a + b;
 }
 function next_split(array,length){
-	console.log(array);
 	if(array[2] -1 !== 0){
 		array[2] -= 1;
 		array[1] += 1
