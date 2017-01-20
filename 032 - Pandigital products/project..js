@@ -63,7 +63,7 @@ function combinations(str) {
             fn(active, rest.slice(1), a);
         }
         return a;
-    }
+    };
     return fn("", str, []);
 }
 function main(start, end) {
