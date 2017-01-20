@@ -40,7 +40,6 @@ function main(n,m) {
 	m = parseInt(m,10);
 	n = parseInt(n,10);
 	var array = array_of_powers(n,m);
-	console.log(array);
 	return array.length;
 }
 
