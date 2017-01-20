@@ -72,7 +72,7 @@ function main(start, end) {
 	var array =  perm_array(start, end),
 		comb =  combinations(create_array(start,end).join("")),
 	i, bool;
-	comb.forEach(function(obj) {
+	comb = comb.forEach(function(obj) {
 	  return parseInt(obj,10);
 	});
 	console.log(comb);
