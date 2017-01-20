@@ -23,7 +23,7 @@ function main() {
 		d =	b/gcd(a,b);
 		if(a<b){
 
-				console.log(c+"" +d);
+				console.log(c+"/" +d);
 		}
 	}
 	return;
