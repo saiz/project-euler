@@ -45,7 +45,7 @@ function next_split(array,length){
 	if(array[2]-1 === 0){
 		array[1]+=1;
 	} else {
-		array[1]+=1;
+		array[2]-=1;
 	}
 	console.log(array);
 	return true;
