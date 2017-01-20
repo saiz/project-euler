@@ -75,7 +75,7 @@ function main(start, end) {
 	comb.forEach(function(obj) {
 	  return parseInt(obj,10);
 	});
-	console.log(comb)
+	console.log(comb);
 	for(i=0;i<array.length;i+=1){
 		bool = pandigital(String(array[i]));
 		if()
