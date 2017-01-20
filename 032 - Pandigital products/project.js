@@ -72,6 +72,7 @@ function main(start, end) {
 			b = array[i].substring(temp[0],temp[0] + temp[1]);
 			c = array[i].substring(temp[0] + temp[1]);
 			if(a*b === c){
+				console.log("here")
 				result.push(c);
 			}
 		}
