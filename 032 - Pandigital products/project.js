@@ -73,9 +73,9 @@ function main(start, end) {
 		for(j=0;j<div;j+=1){
 			str = String(array[i]) + String(array[i] / div[j]);
 			if(str.length === array[i].length){
-				if(pandigital( str) ){
+				if(pandigital(str) ){
 					result.push([array[i],j,array[i] / j]);
-					j = sqrt;
+					j = div.length;
 				}
 			}
 		}
