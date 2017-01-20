@@ -65,7 +65,7 @@ function main(start, end) {
 		i, a,b,c;
 	for(i=0;i<array.length;i+=1){
 		array[i] = String(array[i]);
-		console.log(array[i],array.length);
+		console.log(array[i],String(array).length);
 		temp = [1,1,array.length-1];
 		while(next_split(temp,temp.length)){
 			a = array[i].substring(0,temp[0]);
