@@ -11,7 +11,7 @@ function gcd(a, b) {
     }
 
     return gcd(b, a % b);
-};
+}
 function main() {
 	'use strict';
 	var array = generate_array(),
