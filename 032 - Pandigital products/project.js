@@ -52,17 +52,30 @@ function pandigital(n, number){
 	}
 	return bool;
 }
+function divsors(number) {
+	'use strict';
+	var i,start=[],end=[];
+	for(i=1;i<=Math.sqrt(number);i+=1){
+		if(number/i === i){
+			start.push(i);
+		} else if(number%i === 0){
+		    start.push(i);
+		    end.unshift(number/i);
+		}
+	}
+	return start.concat(end);
+}
 function main(start, end) {
 	start = parseInt(start,10);
 	end = parseInt(end,10);
 	var array =  perm_array(start, end),
 		result = [],
-		i,j, bool, str, sqrt;
+		i,j, bool, str, div;
 	for(i=0;i<array.length;i+=1){
-		sqrt = Math.sqrt(array[i]);
-		for(j=1;j<sqrt;j+=1){
-			str = String(j) + String(array[i] / j);
-			if((array[i] % j === 0)  && (str.length === end)){
+		div = divsors(array[i]);
+		for(j=0;j<div;j+=1){
+			str = String(array[i]) + String(array[i] / div[j]);
+			if(str.length === end){
 				if(pandigital( str,end) ){
 					result.push([array[i],j,array[i] / j]);
 					j = sqrt;
