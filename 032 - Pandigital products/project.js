@@ -76,7 +76,7 @@ function main(start, end) {
 			}
 		}
 	}
-	return result;
+	return result.reduce(add, 0);
 }
 
 console.log(main(process.argv[2],process.argv[3],process.argv[4]));
