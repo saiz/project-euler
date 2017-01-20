@@ -64,7 +64,6 @@ function main(start, end) {
 		result = [],
 		i, a,b,c;
 	for(i=0;i<array.length;i+=1){
-		array[i] = array[i].join("");
 		temp = [1,1,array.length-1];
 		while(next_split(temp,temp.length)){
 			a = array[i].substring(0,temp[0]);
