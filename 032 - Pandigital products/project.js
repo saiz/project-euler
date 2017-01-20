@@ -70,7 +70,6 @@ function main(start, end) {
 	start = parseInt(start,10);
 	end = parseInt(end,10);
 	var array =  perm_array(start, end),
-		comb =  combinations(create_array(start,end).join("")),
 		result = [],
 		i,j, bool;
 	for(i=0;i<comb.length;i+=1){
@@ -79,10 +78,10 @@ function main(start, end) {
 	comb = comb.sort(function (a, b) {  return a - b;  });
 	console.log(comb);
 	for(i=0;i<array.length;i+=1){
-		for(j=0;j<comb.length;j+=1){
-			if((array[i] % comb[j] === 0) && (Math.sqrt(array[i]) >= comb[j])){
-				if(pandigital( String(comb[j]) + String(array[i] / comb[j]) ) ){
-					result.push([array[i],comb[j],array[i] / comb[j]]);
+		for(j=1;j<=Math.sqrt(array[i]);j+=1){
+			if(array[i] % j === 0){
+				if(pandigital( String(j) + String(array[i] / j) ) ){
+					result.push([array[i],j,array[i] / j]);
 				}
 			}
 		}
