@@ -11,9 +11,11 @@ function main() {
 	var array = generate_array(),
 		i,a,b;
 	for (i=0;i<array.length;i+=1){
-		a = String(array[i]).substring(0,2);
-		b = String(array[i]).substring(2,4);
-		console.log(a,b);
+		a = parseInt(String(array[i]).substring(0,2),10);
+		b = parseInt(String(array[i]).substring(2,4),10);
+		if(a<b){
+			console.log(a,b);
+		}
 	}
 	return;
 }
