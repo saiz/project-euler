@@ -76,6 +76,7 @@ function main(start, end) {
 			}
 		}
 	}
+	console.log(result);
 	return result.reduce(add, 0);
 }
 
