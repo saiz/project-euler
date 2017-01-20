@@ -21,6 +21,7 @@ function main() {
 		b = parseInt(String(array[i]).substring(2,4),10);
 		if(a<b){
 			console.log(a,b);
+			console.log(gcd(a,b));
 		}
 	}
 	return;
