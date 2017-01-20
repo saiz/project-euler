@@ -25,7 +25,7 @@ function array_of_powers(a,b) {
 	for(i=a;i<=b;i+=1){
 		for(j=a;j<=b;j+=1){
 			power = new BigNumber(i);
-			power.toPower(j);
+			power.power(j);
 			console.log(power);
 			if(array.indexOf(power) === -1){
 				insert(power,array);
