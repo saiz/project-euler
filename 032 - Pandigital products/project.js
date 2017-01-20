@@ -71,7 +71,8 @@ function main(start, end) {
 	end = parseInt(end,10);
 	var array =  perm_array(start, end),
 		comb =  combinations(create_array(start,end).join("")),
-	i,j, bool;
+		result = [],
+		i,j, bool;
 	for(i=0;i<comb.length;i+=1){
 		comb[i] = parseInt(comb[i],10);
 	}
