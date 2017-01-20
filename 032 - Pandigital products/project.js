@@ -41,10 +41,10 @@ function perm_array(start, end) {
 	}
 	return matrix;
 }
-function pandigital(n, number){
+function pandigital(n){
 	'use strict';
 	var i=1, bool = true;
-	while(i <= number && bool){
+	while(i <= n.length && bool){
 		if((n.split(String(i)).length-1 !== 1) || n[i] > number){
 			bool = false;
 		}
@@ -73,7 +73,7 @@ function main(start, end) {
 		for(j=0;j<div;j+=1){
 			str = String(array[i]) + String(array[i] / div[j]);
 			if(str.length === array[i].length){
-				if(pandigital( str,end) ){
+				if(pandigital( str) ){
 					result.push([array[i],j,array[i] / j]);
 					j = sqrt;
 				}
