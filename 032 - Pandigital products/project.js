@@ -52,7 +52,7 @@ function pandigital(n, number){
 	}
 	return bool;
 }
-function divsors(number) {
+function divsors_below_sqrt(number) {
 	'use strict';
 	var i,start=[],end=[];
 	for(i=1;i<=Math.sqrt(number);i+=1){
@@ -60,7 +60,7 @@ function divsors(number) {
 		    start.push(i);
 		}
 	}
-	return star;
+	return start;
 }
 function main(start, end) {
 	start = parseInt(start,10);
@@ -69,7 +69,7 @@ function main(start, end) {
 		result = [],
 		i,j, bool, str, div;
 	for(i=0;i<array.length;i+=1){
-		div = divsors(array[i]);
+		div = divsors_below_sqrt(array[i]);
 		console.log(array[i]);
 		console.log(div);
 		for(j=0;j<div;j+=1){
