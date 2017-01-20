@@ -15,13 +15,15 @@ function gcd(a, b) {
 function main() {
 	'use strict';
 	var array = generate_array(),
-		i,a,b,fract;
+		i,a,b,c,d,fract
 	for (i=0;i<array.length;i+=1){
 		a = parseInt(String(array[i]).substring(0,2),10);
 		b = parseInt(String(array[i]).substring(2,4),10);
+		c = a/gcd(a,b);
+		d =	b/gcd(a,b);
 		if(a<b){
-				fract = a/gcd(a,b) + "/" + b/gcd(a,b)
-				console.log(fract);
+
+				console.log(c+"" +d);
 		}
 	}
 	return;
