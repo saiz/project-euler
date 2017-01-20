@@ -62,7 +62,7 @@ function main(start, end) {
 		sqrt = Math.sqrt(array[i]);
 		for(j=1;j<sqrt;j+=1){
 			str = String(j) + String(array[i] / j);
-			if((array[i] % j === 0)  && str.length === end){
+			if((array[i] % j === 0)  && (str.length === end)){
 				if(pandigital( str,end) ){
 					result.push([array[i],j,array[i] / j]);
 					j = sqrt;
