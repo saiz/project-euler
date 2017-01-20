@@ -77,12 +77,12 @@ function main(start, end) {
 		comb[i] = parseInt(comb[i],10);
 	}
 	comb = comb.sort(function (a, b) {  return a - b;  });
-	console.log(comb)
+	console.log(comb);
 	for(i=0;i<array.length;i+=1){
 		for(j=0;j<comb.length;j+=1){
 			if((array[i] % comb[j] === 0) && (Math.sqrt(array[i]) >= comb[j])){
 				if(pandigital( String(comb[j]) + String(array[i] / comb[j]) ) ){
-					result.push([array[i],comb[j],array[i] / comb[j]])
+					result.push([array[i],comb[j],array[i] / comb[j]]);
 				}
 			}
 		}
