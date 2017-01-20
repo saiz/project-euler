@@ -40,7 +40,7 @@ function perm_array(start, end) {
 	var array = create_array(start,end),
 	matrix = [];
 	while( nextPerm(array)){
-		matrix.push(array);
+		matrix.push(array.slice(0));
 	}
 	return matrix;
 }
