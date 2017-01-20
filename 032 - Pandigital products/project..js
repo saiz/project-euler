@@ -72,6 +72,7 @@ function main(start, end) {
 	var array =  perm_array(start, end),
 		comb =  create_array(start,end).join(""),
 	i, bool;
+	console.log(comb)
 	for(i=0;i<array.length;i+=1){
 		bool = pandigital(String(array[i]));
 		console.log(array[i],bool);
