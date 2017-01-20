@@ -44,9 +44,6 @@ function perm_array(start, end) {
 function pandigital(n, number){
 	'use strict';
 	var i=1, bool = true;
-	if(n.length > number){
-		return false;
-	}
 	while(i <= number && bool){
 		if((n.split(String(i)).length-1 !== 1) || n[i] > number){
 			bool = false;
