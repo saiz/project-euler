@@ -73,6 +73,7 @@ function main(start, end) {
 		comb =  combinations(create_array(start,end).join("")),
 		result = [],
 		i,j, bool;
+		console.log(comb)
 	for(i=0;i<comb.length;i+=1){
 		comb[i] = parseInt(comb[i],10);
 	}
