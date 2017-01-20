@@ -23,7 +23,6 @@ function main() {
 		b = parseInt(str2,10);
 		c = a/gcd(a,b);
 		d =	b/gcd(a,b);
-		console.log(a,b);
 		if(a<b){
 			for(j=0;j<str1.length;j+=1){
 				if(str2.indexOf(str1[j]) >= 0){
@@ -32,10 +31,8 @@ function main() {
 					if(e/d === c/d){
 						console.log("hit",c,d,e,f);
 					}
-					console.log("hit",c,d,e,f);
 				}
 			}
-			console.log("hit");
 		}
 	}
 	return;
