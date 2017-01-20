@@ -64,7 +64,7 @@ function main(start, end) {
 				str = String(j) + String(array[i] / j);
 				if(pandigital( str,end) ){
 					result.push([array[i],j,array[i] / j]);
-					j = Math.sqrt(array[i]) + 1;
+					j = Math.sqrt(array[i]);
 				}
 			}
 		}
