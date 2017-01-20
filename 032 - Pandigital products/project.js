@@ -41,10 +41,10 @@ function perm_array(start, end) {
 	}
 	return matrix;
 }
-function pandigital(n){
+function pandigital(n, number){
 	'use strict';
 	var i=1, bool = true;
-	while(i <= n.length && bool){
+	while(i <= number && bool){
 		if(n.indexOf(i) === -1){
 			bool = false;
 		}
