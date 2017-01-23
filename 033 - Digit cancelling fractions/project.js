@@ -28,7 +28,7 @@ function main() {
 	'use strict';
 	var array = generate_array(),
 		result = [],
-		i,j,a,b,c,d,str1,str2,_gcd;
+		i,j,a,b,c,d,str1,str2,_gcd,_lcm;
 	for (i=0;i<array.length;i+=1){
 		str1 = String(array[i]).substring(0,2);
 		str2 = String(array[i]).substring(2,4);
@@ -48,6 +48,10 @@ function main() {
 				}
 			}
 		}
+	}
+	_lcm = lcm(results[0],results[1])
+	for(i=1;i<result.length-1;i+=1){
+		_lcm = lcm(results[i]_lcm);
 	}
 	return result;
 }
