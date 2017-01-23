@@ -81,6 +81,7 @@ function main() {
 		while(results.length < 11){
 			temp = trunc_prime(i);
 			bool = true;
+			console.log(temp);
 			for(j =0;j< temp.length;j+=1){
 				if(!test_prim(temp[i],prime_array)){
 					bool = false;
