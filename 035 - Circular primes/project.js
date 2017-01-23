@@ -37,6 +37,7 @@ function insert(element, array) {
 }
 //1000000 - 1
 function main(n) {
+	n = parseInt(n,10);
 	'use strict';
 	var array=[2];
 	var i,j, num,
