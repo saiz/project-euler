@@ -23,7 +23,8 @@ function mod(a,b){
 function main() {
 	'use strict';
 	var array = generate_array(),
-		i,j,a,b,c,d,str1,str2,e,f, sum = 0;
+		result = [],
+		i,j,a,b,c,d,str1,str2,e,f;
 	for (i=0;i<array.length;i+=1){
 		str1 = String(array[i]).substring(0,2);
 		str2 = String(array[i]).substring(2,4);
@@ -36,8 +37,9 @@ function main() {
 				if(str2.indexOf(str1[j]) >= 0){
 					e = parseInt(str1.replace(str1[j], ""),10);
 					f = parseInt(str2.replace(str1[j], ""),10);
-					if((c/d === e/f) && (gcd(a,b) !== 10)){
+					if(c/d === e/f){
 						console.log("hit",a,b,e,f);
+						array.push()
 					}
 				}
 			}
