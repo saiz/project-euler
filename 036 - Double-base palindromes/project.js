@@ -14,10 +14,10 @@ function main(n) {
 	var i;
 	n= parseInt(n,10);
 	for(i=1;i<n;i+=2){
+		console.log(i)
 		if(palindromes(String(i)) && palindromes((i >>> 0).toString(2))){
 			console.log(i,(i >>> 0).toString(2));
 		}
-		console.log(i)
 	}
 	return;
 }
