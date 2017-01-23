@@ -38,7 +38,6 @@ function insert(element, array) {
 function nextStr(ori,curr){
 	var copy = curr.slice(0) + curr[0];
 	curr = copy.slice(1);
-	console.log(curr)
 	if(curr === ori){
 		return false;
 	}
