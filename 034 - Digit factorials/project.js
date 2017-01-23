@@ -28,7 +28,7 @@ function main() {
 		if(i %1000000 ===0){
 			console.log(i);
 		}
-		i+=1;000
+		i+=1;
 	}
 	return array;
 }
