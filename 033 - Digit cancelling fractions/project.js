@@ -45,8 +45,7 @@ function main() {
 			}
 		}
 	}
-	console.log(result);
-	return;
+	return result;
 }
 
 console.log(main(process.argv[2]));
