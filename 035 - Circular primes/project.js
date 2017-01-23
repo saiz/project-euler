@@ -43,12 +43,12 @@ function main() {
 		end = 1000000;
 	for(i=3;i<end;i+=2){
 		j =parseInt(reverse(String(i)),10);
-		if(isPrime3(i) &&isPrime3(j)){
+		if(isPrime3(i) && isPrime3(j)){
 			insert(i,array);
 			insert(j,array);
 		}
 	}
-	return ;
+	return array;
 }
 
 console.log(main(process.argv[2]));
