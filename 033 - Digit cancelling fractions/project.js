@@ -39,13 +39,13 @@ function main() {
 					c = c/_gcd;
 					d =	d/_gcd;
 					if(a/b === c/d){
-						console.log("hit",a,b,c,d);
-						array.push(d);
+						array.push([c,d]);
 					}
 				}
 			}
 		}
 	}
+	console.log("hit",a,b,c,d);
 	return;
 }
 
