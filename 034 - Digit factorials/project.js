@@ -8,7 +8,7 @@ function fact(array,n) {
 	} else{
 		array.push( array[array.length - 2] * array[array.length - 1]);
 	}
-	return fib(array,n);
+	return fact(array,n);
 }
 function main() {
 	'use strict';
