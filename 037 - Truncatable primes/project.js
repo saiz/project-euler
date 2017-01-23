@@ -10,12 +10,6 @@ function isPrime3(n) {
 	}
 	return true;
 }
-function reverse(s) {
-	var o = [];
-	for (var i = 0, len = s.length; i <= len; i++)
-		o.push(s.charAt(len - i));
-	return o.join('');
-}
 function locationOf(element, array, start, end) {
 	'use strict';
 	start = start || 0;
@@ -71,6 +65,9 @@ function test_prim(n,array){
 	}
 	return false;
 }
+function add(a,b){
+	return a+b;
+}
 function main(n) {
 	'use strict';
 	n = parseInt(n,10);
@@ -89,11 +86,10 @@ function main(n) {
 			}
 			if(bool){
 				results.push(i);
-				console.log(results);
 			}
 			i+=1;
 		}
-	return i;
+	return results.reduce(add, 0);
 }
 
 console.log(main(process.argv[2]));
