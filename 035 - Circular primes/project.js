@@ -47,7 +47,7 @@ function main(n) {
 		bool = true;
 		for(j=0;j<curr.length;j++){
 			curr +=curr[0];
-			curr = curr.splice(1);
+			curr = curr.slice(1);
 			j = parseInt(curr,10);
 			if(!isPrime3(j)){
 				bool = false;
@@ -57,7 +57,7 @@ function main(n) {
 			curr = String(i);
 			for(j=0;j<curr.length;j++){
 				curr +=curr[0];
-				curr = curr.splice(1);
+				curr = curr.slice(1);
 				j = parseInt(curr,10);
 				if(array.indexOf(j)=== -1){
 					insert(j,array);
