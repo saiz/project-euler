@@ -86,7 +86,6 @@ function main() {
 					j = temp.length;
 				}
 			}
-			console.log(results);
 			if(prime_array){
 				results.push(i);
 				console.log(results);
