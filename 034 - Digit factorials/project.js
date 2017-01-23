@@ -13,7 +13,7 @@ function fact(array,n) {
 function main() {
 	'use strict';
 	var array = [];
-	fib (array, 7);
+	fact(array, 7);
 	return array;
 }
 
