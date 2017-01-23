@@ -54,7 +54,6 @@ function trunc_prime(str){
 
 }
 function test_prim(n,array){
-	console.log(n,array);
 	if(array.indexOf(n) >= 0){
 		return true;
 	}
