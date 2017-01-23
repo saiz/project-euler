@@ -12,8 +12,8 @@ function fib(array,n) {
 }
 function main() {
 	'use strict';
-	var i = fib (10);
-	return i;
+	var array = [];
+	return 	fib (array, 10);
 }
 
 console.log(main(process.argv[2]));
