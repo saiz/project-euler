@@ -82,7 +82,7 @@ function main() {
 			temp = trunc_prime(String(i));
 			bool = true;
 			for(j =0;j< temp.length;j+=1){
-				if(!test_prim(temp[i],prime_array)){
+				if(!test_prim(temp[j],prime_array)){
 					bool = false;
 					j = temp.length;
 				}
