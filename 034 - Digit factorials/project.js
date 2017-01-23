@@ -8,7 +8,7 @@ function fib(array,n) {
 	} else{
 		array.push( array[array.length - 2] + array[array.length - 1]);
 	}
-	fib(array,n);
+	return fib(array,n);
 }
 function main() {
 	'use strict';
