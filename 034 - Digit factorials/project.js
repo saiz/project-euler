@@ -4,4 +4,4 @@ function main() {
 	return i;
 }
 
-console.log(main(process.argv[2]));ss
+console.log(main(process.argv[2]));
