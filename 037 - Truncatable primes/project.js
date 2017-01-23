@@ -71,13 +71,14 @@ function test_prim(n,array){
 	}
 	return false;
 }
-function main() {
+function main(n) {
 	'use strict';
+	n = parseInt(n,10);
 	var prime_array = [2],
 		results = [],
 		temp, j, bool,
 		i= 11;
-		while(results.length <= 11){
+		while(results.length <= n){
 			temp = trunc_prime(String(i));
 			bool = true;
 			for(j =0;j< temp.length;j+=1){
