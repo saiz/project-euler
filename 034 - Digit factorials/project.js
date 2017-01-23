@@ -4,7 +4,7 @@ function fact(array,n) {
 		return array[n];
 	}
 	if(array.length < 1){
-		array.push(i);
+		array.push(array.length);
 	} else{
 		array.push( array[array.length - 1] * (array.length + 1));
 	}
