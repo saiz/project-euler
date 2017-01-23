@@ -58,7 +58,7 @@ function main(n) {
 			if(!isPrime3(j)){
 				bool = false;
 			}
-			console.log('here', curr);
+			console.log(String(i), curr);
 		}
 		curr = String(i);
 		while(nextStr(String(i),curr) && bool){
