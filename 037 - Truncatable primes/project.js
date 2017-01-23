@@ -50,6 +50,7 @@ function trunc_prime(str){
 		}
 		i+=1;
 	}
+	console.log(array);
 	return array;
 
 }
