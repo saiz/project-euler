@@ -41,7 +41,7 @@ function list(str){
 		head,tail;
 	while(str.length > i){
 		head = str.substring(i, str.length);
-		tail = str.substring(str.length - i);
+		tail = str.substring(str.length - i,str.length);
 		if(array.indexOf(head) === -1){
 			array.push(head);
 		}
