@@ -10,6 +10,9 @@ function fact(array,n) {
 	}
 	return fact(array,n);
 }
+function sum(a,b){
+	return a+b;
+}
 function main() {
 	'use strict';
 	var array = [], result = [], i= 3,j,temp = [], sum;
@@ -18,9 +21,7 @@ function main() {
 		for(j=0;j<temp.length;j+=1){
 			temp[j] = fact(array, parseInt(temp[j],10));
 		}
-		sum = temp.reduce(function(a,b){
-			return a+b;
-		});
+		sum = temp.reduce(sum(a,b));
 
 		if(i === sum){
 			result.push(i);
