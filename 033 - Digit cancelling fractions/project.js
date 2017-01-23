@@ -29,9 +29,9 @@ function main() {
 		str2 = String(array[i]).substring(2,4);
 		a = parseInt(str1,10);
 		b = parseInt(str2,10);
-		c = a/gcd(a,b);
+		c = a/gcd(a,b)
 		d =	b/gcd(a,b);
-		if(a<b){
+		if(a<b && !mod(a,b)){
 			for(j=0;j<str1.length;j+=1){
 				if(str2.indexOf(str1[j]) >= 0){
 					e = parseInt(str1.replace(str1[j], ""),10);
