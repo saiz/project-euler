@@ -23,7 +23,7 @@ function mod(a,b){
 function main() {
 	'use strict';
 	var array = generate_array(),
-		i,j,a,b,c,d,fract,str1,str2,e,f;
+		i,j,a,b,c,d,str1,str2,e,f;
 	for (i=0;i<array.length;i+=1){
 		str1 = String(array[i]).substring(0,2);
 		str2 = String(array[i]).substring(2,4);
