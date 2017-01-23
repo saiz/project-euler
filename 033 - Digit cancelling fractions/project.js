@@ -12,10 +12,6 @@ function gcd(a, b) {
 
     return gcd(b, a % b);
 }
-function lcm(a, b) {
-    return (a * b) / gcd(a, b);
-}
-
 function mod(a,b){
 	'use strict';
 	var bool = false;
@@ -28,7 +24,7 @@ function main() {
 	'use strict';
 	var array = generate_array(),
 		result = [],
-		i,j,a,b,c,d,str1,str2,_gcd,_lcm;
+		i,j,a,b,c,d,str1,str2,_gcd,_num = 1,_dem = 1;
 	for (i=0;i<array.length;i+=1){
 		str1 = String(array[i]).substring(0,2);
 		str2 = String(array[i]).substring(2,4);
@@ -49,12 +45,14 @@ function main() {
 			}
 		}
 	}
-	_lcm = lcm(result[0][1],result[1][1]);
-	console.log(result);
-	for(i=2;i<result.length;i+=1){
-		_lcm = lcm(result[i][1],_lcm);
+	for(i=0;i<result.length;i+=1){
+		_num *= result[i][0];
+		_dem *= result[i][1];
 	}
-	return _lcm;
+	_gcd = gcd(_num,_dem);
+	_num = _num/_gcd;
+	_dem =	_dem/_gcd;
+	return _num + '/' + _dem;
 }
 
 console.log(main(process.argv[2]));
