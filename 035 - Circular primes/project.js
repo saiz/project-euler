@@ -47,7 +47,7 @@ function main(n) {
 	'use strict';
 	var array=[2];
 	var i,j,
-		end = n
+		end = n,
 		curr,ori,bool;
 	for(i=3;i<end;i+=2){
 		curr = String(i);
@@ -64,12 +64,6 @@ function main(n) {
 			if(array.indexOf(i)=== -1){
 				insert(j,array);
 			}
-		}
-		if((isPrime3(i) && isPrime3(j)) && (array.indexOf(i)=== -1)){
-			if(i!==j){
-				insert(j,array);
-			}
-			insert(i,array);
 		}
 	}
 	return array.length;
