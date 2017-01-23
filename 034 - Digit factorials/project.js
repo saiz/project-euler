@@ -16,7 +16,7 @@ function add(a,b){
 function main() {
 	'use strict';
 	var array = [], result = [], i= 3,j,temp = [];
-	while(i < Math.max()){
+	while(i < Number.MAX_SAFE_INTEGER){
 		temp = String(i).split("");
 		for(j=0;j<temp.length;j+=1){
 			temp[j] = fact(array, parseInt(temp[j],10));
