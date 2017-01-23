@@ -36,11 +36,11 @@ function insert(element, array) {
   return array;
 }
 //1000000 - 1
-function main() {
+function main(n) {
 	'use strict';
 	var array=[2];
 	var i,j,
-		end = 1000000;
+		end = n;
 	for(i=3;i<end;i+=2){
 		j = parseInt(reverse(String(i)),10);
 		if((isPrime3(i) && isPrime3(j)) && (array.indexOf(i)=== -1)){
