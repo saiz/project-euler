@@ -21,7 +21,7 @@ function main() {
 		for(j=0;j<temp.length;j+=1){
 			temp[j] = fact(array, parseInt(temp[j],10));
 		}
-		sum = temp.reduce(sum(a,b));
+		sum = temp.reduce(sum);
 
 		if(i === sum){
 			result.push(i);
