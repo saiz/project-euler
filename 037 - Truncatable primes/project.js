@@ -91,7 +91,6 @@ function main() {
 			}
 			i+=1;
 		}
-
 	return i;
 }
 
