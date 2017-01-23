@@ -13,7 +13,7 @@ function fact(array,n) {
 function main() {
 	'use strict';
 	var array = [], result = [], i= 3,j,temp = [], sum;
-	while(i < Number.MAX_SAFE_INTEGER){
+	while(i < 2540161){
 		temp = String(i).split("");
 		for(j=0;j<temp.length;j+=1){
 			temp[j] = fact(array, parseInt(temp[j],10));
