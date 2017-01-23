@@ -46,12 +46,13 @@ function main(n) {
 		curr = String(i);
 		bool = true;
 		for(j=0;j<curr.length;j++){
-			curr +=curr[0];
-			curr = curr.slice(1);
 			j = parseInt(curr,10);
 			if(!isPrime3(j)){
 				bool = false;
 			}
+			console.log(curr);
+			curr +=curr[0];
+			curr = curr.slice(1);
 		}
 		if(bool){
 			curr = String(i);
