@@ -35,8 +35,6 @@ function main() {
 				if(str2.indexOf(str1[j]) >= 0){
 					c = parseInt(str1.replace(str1[j], ""),10);
 					d = parseInt(str2.replace(str1[j], ""),10);
-					c = c/gcd(c,d);
-					d =	d/gcd(c,d);
 					if(a/b === c/d){
 						console.log("hit",a,b,c,d);
 						array.push();
