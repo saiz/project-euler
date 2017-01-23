@@ -35,14 +35,36 @@ function insert(element, array) {
   array.splice(locationOf(element, array) + 1, 0, element);
   return array;
 }
+function nextStr(ori,curr){
+	curr = curr.substring(1) + curr[0];
+	if(curr == ori){
+		return false;
+	}
+	return true;
+}
 //1000000 - 1
 function main(n) {
 	'use strict';
 	var array=[2];
 	var i,j,
-		end = n;
+		end = n
+		curr,ori,bool;
 	for(i=3;i<end;i+=2){
-		j = parseInt(reverse(String(i)),10);
+		curr = String(i);
+		bool = true;
+		while(nextStr(String(i),curr) && bool){
+			j = parseInt(curr,10);
+			if(!isPrime3(j)){
+				bool = false;
+			}
+		}
+		curr = String(i);
+		while(nextStr(String(i),curr) && bool){
+			j = parseInt(curr,10);
+			if(array.indexOf(i)=== -1){
+				insert(j,array);
+			}
+		}
 		if((isPrime3(i) && isPrime3(j)) && (array.indexOf(i)=== -1)){
 			if(i!==j){
 				insert(j,array);
