@@ -77,7 +77,7 @@ function main() {
 		results = [],
 		temp, j, bool,
 		i= 11;
-		while(results.length < 11){
+		while(results.length <= 11){
 			temp = trunc_prime(String(i));
 			bool = true;
 			for(j =0;j< temp.length;j+=1){
