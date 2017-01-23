@@ -30,11 +30,11 @@ function main() {
 		str2 = String(array[i]).substring(2,4);
 		a = parseInt(str1,10);
 		b = parseInt(str2,10);
-		c = a/gcd(a,b);
-		d =	b/gcd(a,b);
 		if(a<b && !mod(a,b)){
 			for(j=0;j<str1.length;j+=1){
 				if(str2.indexOf(str1[j]) >= 0){
+					c = a/gcd(a,b);
+					d =	b/gcd(a,b);
 					e = parseInt(str1.replace(str1[j], ""),10);
 					f = parseInt(str2.replace(str1[j], ""),10);
 					if(c/d === e/f){
