@@ -55,7 +55,7 @@ function trunc_prime(str){
 }
 function main() {
 	'use strict';
-	var i =list('');
+	var i =trunc_prime('');
 	return i;
 }
 
