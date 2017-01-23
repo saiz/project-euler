@@ -39,7 +39,7 @@ function main() {
 					f = parseInt(str2.replace(str1[j], ""),10);
 					if(c/d === e/f){
 						console.log("hit",a,b,e,f);
-						array.push()
+						array.push();
 					}
 				}
 			}
