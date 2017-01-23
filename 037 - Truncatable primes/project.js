@@ -79,7 +79,7 @@ function main() {
 		temp, j, bool,
 		i= 11;
 		while(results.length < 11){
-			temp = trunc_prime(i);
+			temp = trunc_prime(String(i));
 			bool = true;
 			console.log(temp);
 			for(j =0;j< temp.length;j+=1){
