@@ -9,7 +9,9 @@ function palindromes(str){
 	}
 	return bool;
 }
-
+function add(a,b){
+	return a+b;
+}
 function main(n) {
 	'use strict';
 	n= parseInt(n,10);
@@ -17,10 +19,10 @@ function main(n) {
 		i;
 	for(i=1;i<n;i+=2){
 		if(palindromes(String(i)) && palindromes((i >>> 0).toString(2))){
-			console.log(i,(i >>> 0).toString(2));
+			array.push(i);
 		}
 	}
-	return;
+	return array.reduce(add, 0);
 }
 
 console.log(main(process.argv[2]));
