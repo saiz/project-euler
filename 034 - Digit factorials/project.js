@@ -28,8 +28,7 @@ function main() {
 		}
 		i+=1;
 	}
-	console.log(array.length, i);
-	return result;
+	return result.reduce(add, 0);
 }
 
 console.log(main(process.argv[2]));
