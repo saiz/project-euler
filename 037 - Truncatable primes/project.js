@@ -87,7 +87,7 @@ function main() {
 				}
 			}
 			console.log(results);
-			if(bool){
+			if(prime_array){
 				results.push(i);
 				console.log(results);
 				console.log(prime_array);
