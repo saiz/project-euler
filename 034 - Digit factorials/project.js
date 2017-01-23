@@ -28,7 +28,7 @@ function main() {
 		}
 		i+=1;
 	}
-	console.log(array.length);
+	console.log(array.length, i);
 	return result;
 }
 
