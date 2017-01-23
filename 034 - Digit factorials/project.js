@@ -16,7 +16,7 @@ function add(a,b){
 function main() {
 	'use strict';
 	var array = [], result = [], i= 3,j,temp = [];
-	while(i < 2540161){
+	while(i < Math.max()){
 		temp = String(i).split("");
 		for(j=0;j<temp.length;j+=1){
 			temp[j] = fact(array, parseInt(temp[j],10));
