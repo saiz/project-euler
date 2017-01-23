@@ -12,7 +12,7 @@ function fib(array,n) {
 }
 function main() {
 	'use strict';
-	var i ='test';
+	var i = fib (10);
 	return i;
 }
 
