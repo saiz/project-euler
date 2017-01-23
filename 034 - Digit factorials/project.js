@@ -1,5 +1,8 @@
 function fact(array,n) {
 	'use strict';
+	if(n === 0 ){
+		return 0;
+	}
 	if(n <= array.length){
 		return array[n -1];
 	}
