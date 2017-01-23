@@ -40,7 +40,7 @@ function main() {
 					d =	d/_gcd;
 					if(a/b === c/d){
 						console.log("hit",a,b,c,d);
-						array.push(c/d);
+						array.push(d);
 					}
 				}
 			}
