@@ -61,8 +61,8 @@ function test_prim(n,array){
 	if(n < array[array.length -1]){
 		return false;
 	}
-	var start;
-	for(start = array[array.length -1] + 1;start<=n;start+=1){
+	var i;
+	for(i = array[array.length -1] + 1;i<=n;i+=1){
 		if(isPrime3(start)){
 			array.push(parseInt(n,10));
 		}
