@@ -12,7 +12,7 @@ function fact(array,n) {
 }
 function main() {
 	'use strict';
-	var array = [], i= 3,j,temp = [], sum;
+	var array = [], result = [], i= 3,j,temp = [], sum;
 	while(i < Number.MAX_SAFE_INTEGER){
 		temp = String(i).split("");
 		for(j=0;j<temp.length;j+=1){
@@ -23,11 +23,11 @@ function main() {
 		});
 
 		if(i === sum){
-			console.log(i);
+			result.push(i);
 		}
 		i+=1;
 	}
-	return array;
+	return result;
 }
 
 console.log(main(process.argv[2]));
