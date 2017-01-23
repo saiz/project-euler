@@ -49,9 +49,9 @@ function main() {
 			}
 		}
 	}
-	_lcm = lcm(results[0],results[1]);
+	_lcm = lcm(result[0],result[1]);
 	for(i=2;i<result.length;i+=1){
-		_lcm = lcm(results[i],_lcm);
+		_lcm = lcm(result[i],_lcm);
 	}
 	return _lcm;
 }
