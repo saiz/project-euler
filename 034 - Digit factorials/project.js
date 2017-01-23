@@ -3,7 +3,11 @@ function fact(array,n) {
 	if(n < array.length){
 		return array[n];
 	}
-	array.push( array[array.length - 1] * array.length);
+	if(array.length < 1){
+		array.push(1);
+	} else{
+		array.push( array[array.length - 1] * array.length);
+	}
 	return fact(array,n);
 }
 function main() {
