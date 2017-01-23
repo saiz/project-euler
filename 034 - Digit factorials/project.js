@@ -1,13 +1,10 @@
 function fact(array,n) {
 	'use strict';
-	if(n === 0 ){
-		return 0;
-	}
 	if(n <= array.length){
 		return array[n -1];
 	}
 	if(array.length < 1){
-		array.push(1);
+		array.push(i);
 	} else{
 		array.push( array[array.length - 1] * (array.length + 1));
 	}
