@@ -24,7 +24,7 @@ function main() {
 	'use strict';
 	var array = generate_array(),
 		result = [],
-		i,j,a,b,c,d,str1,str2,gcd;
+		i,j,a,b,c,d,str1,str2,_gcd;
 	for (i=0;i<array.length;i+=1){
 		str1 = String(array[i]).substring(0,2);
 		str2 = String(array[i]).substring(2,4);
@@ -35,7 +35,7 @@ function main() {
 				if(str2.indexOf(str1[j]) >= 0){
 					c = parseInt(str1.replace(str1[j], ""),10);
 					d = parseInt(str2.replace(str1[j], ""),10);
-					gcd = gcd(c,d);
+					_gcd = gcd(c,d);
 					c = c/gcd;
 					d =	d/gcd;
 					if(a/b === c/d){
