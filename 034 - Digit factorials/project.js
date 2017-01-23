@@ -3,8 +3,8 @@ function fact(array,n) {
 	if(n < array.length){
 		return array[n];
 	}
-	if(array.length < 1){
-		array.push(array.length);
+	if(array.length <= 1){
+		array.push(1);
 	} else{
 		array.push( array[array.length - 1] * (array.length ));
 	}
@@ -15,7 +15,7 @@ function add(a,b){
 }
 function main() {
 	'use strict';
-	var array = [1,1], result = [], i= 3,j,temp = [], sum;
+	var array = [], result = [], i= 3,j,temp = [], sum;
 	while(i < 2540161){
 		temp = String(i).split("");
 		for(j=0;j<temp.length;j+=1){
