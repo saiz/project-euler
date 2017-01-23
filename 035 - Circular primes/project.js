@@ -43,7 +43,7 @@ function main() {
 		end = 1000000;
 	for(i=3;i<end;i+=2){
 		j = parseInt(reverse(String(i)),10);
-		if(isPrime3(i) && isPrime3(j)){
+		if((isPrime3(i) && isPrime3(j)) && (array.indexOf(i)=== -1)){
 			if(i!==j){
 				insert(j,array);
 			}
