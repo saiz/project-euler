@@ -24,7 +24,7 @@ function main() {
 	'use strict';
 	var array = generate_array(),
 		result = [],
-		i,j,a,b,c,d,str1,str2,e,f;
+		i,j,a,b,c,d,str1,str2;
 	for (i=0;i<array.length;i+=1){
 		str1 = String(array[i]).substring(0,2);
 		str2 = String(array[i]).substring(2,4);
@@ -33,12 +33,12 @@ function main() {
 		if(a<b && !mod(a,b)){
 			for(j=0;j<str1.length;j+=1){
 				if(str2.indexOf(str1[j]) >= 0){
-					c = a/gcd(a,b);
-					d =	b/gcd(a,b);
-					e = parseInt(str1.replace(str1[j], ""),10);
-					f = parseInt(str2.replace(str1[j], ""),10);
-					if(c/d === e/f){
-						console.log("hit",a,b,e,f);
+					c = parseInt(str1.replace(str1[j], ""),10);
+					d = parseInt(str2.replace(str1[j], ""),10);
+					c = c/gcd(c,d);
+					d =	d/gcd(c,d);
+					if(a/b === c/d){
+						console.log("hit",a,b,c,d);
 						array.push();
 					}
 				}
