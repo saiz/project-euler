@@ -24,7 +24,8 @@ function main() {
 	'use strict';
 	var array = generate_array(),
 		result = [],
-		i,j,a,b,c,d,str1,str2,_gcd,_num = 1,_dem = 1;
+		_num = 1,_dem = 1,
+		i,j,a,b,c,d,str1,str2,_gcd;
 	for (i=0;i<array.length;i+=1){
 		str1 = String(array[i]).substring(0,2);
 		str2 = String(array[i]).substring(2,4);
