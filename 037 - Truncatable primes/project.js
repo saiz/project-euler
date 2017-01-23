@@ -86,6 +86,7 @@ function main() {
 					j = temp.length;
 				}
 			}
+			console.log(results);
 			if(bool){
 				results.push(i);
 				console.log(results);
