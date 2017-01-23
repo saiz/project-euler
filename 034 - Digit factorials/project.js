@@ -15,7 +15,7 @@ function add(a,b){
 }
 function main() {
 	'use strict';
-	var array = [0,1], result = [], i= 3,j,temp = [], sum;
+	var array = [1,1], result = [], i= 3,j,temp = [], sum;
 	while(i < 2540161){
 		temp = String(i).split("");
 		for(j=0;j<temp.length;j+=1){
