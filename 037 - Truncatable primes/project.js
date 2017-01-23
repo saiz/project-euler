@@ -89,7 +89,6 @@ function main() {
 			if(prime_array){
 				results.push(i);
 				console.log(results);
-				console.log(prime_array);
 			}
 			i+=1;
 		}
