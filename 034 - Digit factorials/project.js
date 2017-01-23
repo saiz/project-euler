@@ -1,7 +1,7 @@
 function fib(array,n) {
 	'use strict';
 	if(n < array.length){
-		return array[n - 1];
+		return array[n];
 	}
 	if(array.length < 2){
 		array.push(1);
