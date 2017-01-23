@@ -65,7 +65,7 @@ function main(n) {
 			}
 		}
 	}
-	return array;
+	return array.length;
 }
 
 console.log(main(process.argv[2]));
