@@ -88,6 +88,7 @@ function main() {
 			}
 			if(bool){
 				results.push(i);
+				console.log(results);
 			}
 			i+=1;
 		}
