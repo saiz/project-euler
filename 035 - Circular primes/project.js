@@ -32,8 +32,8 @@ function locationOf(element, array, start, end) {
 }
 function insert(element, array) {
 	'use strict';
-  array.splice(locationOf(element, array) + 1, 0, element);
-  return array;
+	array.splice(locationOf(element, array) + 1, 0, element);
+	return array;
 }
 //1000000 - 1
 function main(n) {
