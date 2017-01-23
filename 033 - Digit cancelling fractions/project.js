@@ -13,8 +13,12 @@ function gcd(a, b) {
     return gcd(b, a % b);
 }
 function mod(a,b){
-	var bool1 = false;
-	var bool2 = false;
+	'use strict';
+	var bool = false;
+	if((a%10 ===0) && b%10 ===0){
+		bool = true;
+	}
+	return bool;
 }
 function main() {
 	'use strict';
