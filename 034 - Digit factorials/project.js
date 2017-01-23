@@ -25,7 +25,7 @@ function main() {
 		if(i === sum){
 			console.log(i);
 		}
-		if(i %1000 ==0 0){
+		if(i %1000 ===0){
 			console.log(i);
 		}
 		i+=1;
