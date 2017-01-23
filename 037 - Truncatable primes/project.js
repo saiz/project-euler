@@ -73,7 +73,7 @@ function test_prim(n,array){
 }
 function main() {
 	'use strict';
-	var prime_array = [2,3,5,7],
+	var prime_array = [2],
 		results = [],
 		temp, j, bool,
 		i= 11;
@@ -89,6 +89,7 @@ function main() {
 			if(bool){
 				results.push(i);
 				console.log(results);
+				console.log(prime_array);
 			}
 			i+=1;
 		}
