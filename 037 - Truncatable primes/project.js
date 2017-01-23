@@ -55,7 +55,7 @@ function trunc_prime(str){
 }
 function main() {
 	'use strict';
-	var i =trunc_prime('');
+	var i =trunc_prime('13123');
 	return i;
 }
 
