@@ -49,10 +49,10 @@ function main() {
 			}
 		}
 	}
-	_lcm = lcm(result[0],result[1]);
+	_lcm = lcm(result[0][1],result[1][1]);
 	console.log(_lcm);
 	for(i=2;i<result.length;i+=1){
-		_lcm = lcm(result[i],_lcm);
+		_lcm = lcm(result[i][1],_lcm);
 	}
 	return _lcm;
 }
