@@ -12,9 +12,17 @@ function fact(array,n) {
 }
 function main() {
 	'use strict';
-	var array = [], i= 3;
+	var array = [], i= 3,j,temp = [], sum;
 	while(true){
-		if(i === fact(array, i)){
+		temp = String(i).split("");
+		for(j=0;j<temp.length;j+=1){
+			temp[j] = fact(array, parseInt(temp[j],10));
+		};
+		sum = temp.reduce(function(a,b){
+			return a+b;
+		});
+
+		if(i === sum){
 			console.log(i);
 		}
 		i+=1;
