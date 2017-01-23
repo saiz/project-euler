@@ -53,9 +53,24 @@ function trunc_prime(str){
 	return array;
 
 }
+function test_prim(n,array){
+	if(array.indexOf(n) >= 0){
+		return true;
+	}
+	if(n < array[array.length -1]){
+		return false;
+	}
+	var start;
+	for(start = array[array.length -1] + 1;start<=n;start+=1){
+		if(isPrime3(start)){
+			array.push(n);
+		}
+	}
+}
 function main() {
 	'use strict';
-	var i =trunc_prime('13123');
+	var prime_array = [2];
+
 	return i;
 }
 
