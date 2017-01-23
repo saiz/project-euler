@@ -55,7 +55,7 @@ function list(str){
 }
 function main() {
 	'use strict';
-	var i =list('test');
+	var i =list('1234566');
 	return i;
 }
 
