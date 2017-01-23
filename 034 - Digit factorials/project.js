@@ -12,8 +12,13 @@ function fact(array,n) {
 }
 function main() {
 	'use strict';
-	var array = [];
-	console.log(fact(array, 7));
+	var array = [], i= 3;
+	while(true){
+		if(i === fact(array, i)){
+			console.log(i);
+		}
+		i+=1;
+	}
 	return array;
 }
 
