@@ -66,10 +66,31 @@ function test_prim(n,array){
 			array.push(n);
 		}
 	}
+	if(array.indexOf(n) >= 0){
+		return true;
+	}
+	return false;
 }
 function main() {
 	'use strict';
-	var prime_array = [2];
+	var prime_array = [2],
+		results = [],
+		temp, j, bool,
+		i= 11;
+		while(results.length < 11){
+			temp = trunc_prime(i);
+			bool = true;
+			for(j =0;j< temp.length;j+=1){
+				if(!test_prim(temp[i],prime_array)){
+					bool = false;
+					j = temp.length;
+				}
+			}
+			if(bool){
+				results.push(i);
+			}
+			i+=1;
+		}
 
 	return i;
 }
