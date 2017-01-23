@@ -40,8 +40,8 @@ function list(str){
 		i = 0,
 		head,tail;
 	while(str.length > i){
-		head = str.substring(i, str.length);
-		tail = str.substring(str.length - i,str.length);
+		head = str.substring(0,str.length - i);
+		tail = str.substring(i, str.length);
 		if((array.indexOf(head) === -1) && head !== ""){
 			array.push(head);
 		}
