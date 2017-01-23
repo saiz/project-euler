@@ -39,9 +39,9 @@ function nextStr(ori,curr){
 	var copy = curr.slice(0) + curr[0];
 	curr = copy.slice(1);
 	if(curr === ori){
-		return false;
+		return true;
 	}
-	return true;
+	return false;
 }
 //1000000 - 1
 function main(n) {
