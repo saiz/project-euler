@@ -6,7 +6,7 @@ function fact(array,n) {
 	if(array.length < 1){
 		array.push(1);
 	} else{
-		array.push( array[array.length - 2] * array[array.length - 1]);
+		array.push( array[array.length - 1] * array.length);
 	}
 	return fact(array,n);
 }
