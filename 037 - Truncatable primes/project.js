@@ -39,9 +39,6 @@ function trunc_prime(str){
 	var array = [],
 		i = 0,
 		head,tail;
-	if(str.length <=0){
-		return	[];
-	}
 	while(str.length > i){
 		head = str.substring(0,str.length - i);
 		tail = str.substring(i, str.length);
@@ -58,7 +55,7 @@ function trunc_prime(str){
 }
 function main() {
 	'use strict';
-	var i =list('1234566');
+	var i =list('');
 	return i;
 }
 
