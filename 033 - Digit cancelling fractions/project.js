@@ -12,6 +12,10 @@ function gcd(a, b) {
 
     return gcd(b, a % b);
 }
+function lcm(a, b) {
+    return (a * b) / gcd(a, b);
+}
+
 function mod(a,b){
 	'use strict';
 	var bool = false;
