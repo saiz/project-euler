@@ -43,10 +43,10 @@ function trunc_prime(str){
 		head = str.substring(0,str.length - i);
 		tail = str.substring(i, str.length);
 		if((array.indexOf(head) === -1) && head !== ""){
-			array.push(head);
+			insert(parseInt(head,10), array);
 		}
 		if((array.indexOf(tail) === -1) && tail !== ""){
-			array.push(tail);
+			insert(parseInt(tail,10), array);
 		}
 		i+=1;
 	}
