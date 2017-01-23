@@ -51,7 +51,7 @@ function main() {
 	}
 	_lcm = lcm(results[0],results[1]);
 	for(i=1;i<result.length-1;i+=1){
-		_lcm = lcm(results[i]_lcm);
+		_lcm = lcm(results[i],_lcm);
 	}
 	return result;
 }
