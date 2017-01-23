@@ -43,10 +43,10 @@ function list(str){
 		head = str.substring(i, str.length);
 		tail = str.substring(str.length - i);
 		if(array.indexOf(head) === -1){
-			insert(head,array);
+			array.push(head);
 		}
 		if(array.indexOf(tail) === -1){
-			insert(tail,array);
+			array.push(tail);
 		}
 		i+=1;
 	}
