@@ -39,15 +39,15 @@ function insert(element, array) {
 function main(n) {
 	'use strict';
 	var array=[2];
-	var i,j,
+	var i,j, num,
 		end = n,
 		curr,ori,bool;
 	for(i=3;i<end;i+=2){
 		curr = String(i);
 		bool = true;
 		for(j=0;j<curr.length;j++){
-			j = parseInt(curr,10);
-			if(!isPrime3(j)){
+			num = parseInt(curr,10);
+			if(!isPrime3(num)){
 				bool = false;
 			}
 			console.log(curr);
@@ -59,9 +59,9 @@ function main(n) {
 			for(j=0;j<curr.length;j++){
 				curr +=curr[0];
 				curr = curr.slice(1);
-				j = parseInt(curr,10);
-				if(array.indexOf(j)=== -1){
-					insert(j,array);
+				num = parseInt(curr,10);
+				if(array.indexOf(num)=== -1){
+					insert(num,array);
 				}
 			}
 		}
