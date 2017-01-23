@@ -86,7 +86,6 @@ function main(n) {
 			}
 			if(bool){
 				results.push(i);
-				console.log(results);
 			}
 			i+=1;
 		}
