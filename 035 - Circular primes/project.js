@@ -54,11 +54,11 @@ function main(n) {
 		curr = String(i);
 		bool = true;
 		while(nextStr(String(i),curr) && bool){
+			console.log(String(i), curr);
 			j = parseInt(curr,10);
 			if(!isPrime3(j)){
 				bool = false;
 			}
-			console.log(String(i), curr);
 		}
 		curr = String(i);
 		while(nextStr(String(i),curr) && bool){
