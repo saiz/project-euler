@@ -50,7 +50,6 @@ function main(n) {
 			if(!isPrime3(num)){
 				bool = false;
 			}
-			console.log(curr);
 			curr +=curr[0];
 			curr = curr.slice(1);
 		}
