@@ -79,6 +79,7 @@ function main() {
 		i= 11;
 		while(results.length < 11){
 			temp = trunc_prime(String(i));
+			console.log(temp);
 			bool = true;
 			for(j =0;j< temp.length;j+=1){
 				if(!test_prim(temp[j],prime_array)){
