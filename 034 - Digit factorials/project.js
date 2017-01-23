@@ -13,7 +13,8 @@ function fib(array,n) {
 function main() {
 	'use strict';
 	var array = [];
-	return 	fib (array, 7);
+	fib (array, 7);
+	return array;
 }
 
 console.log(main(process.argv[2]));
