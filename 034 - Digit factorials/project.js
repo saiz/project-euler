@@ -1,12 +1,12 @@
-function fib(array,n) {
+function fact(array,n) {
 	'use strict';
 	if(n < array.length){
 		return array[n];
 	}
-	if(array.length < 2){
+	if(array.length < 1){
 		array.push(1);
 	} else{
-		array.push( array[array.length - 2] + array[array.length - 1]);
+		array.push( array[array.length - 2] * array[array.length - 1]);
 	}
 	return fib(array,n);
 }
