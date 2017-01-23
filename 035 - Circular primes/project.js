@@ -35,14 +35,6 @@ function insert(element, array) {
   array.splice(locationOf(element, array) + 1, 0, element);
   return array;
 }
-function nextStr(ori,curr){
-	var copy = curr.slice(0) + curr[0];
-	curr = copy.slice(1);
-	if(curr === ori){
-		return false;
-	}
-	return true;
-}
 //1000000 - 1
 function main(n) {
 	'use strict';
@@ -53,18 +45,23 @@ function main(n) {
 	for(i=3;i<end;i+=2){
 		curr = String(i);
 		bool = true;
-		while(nextStr(String(i),curr) && bool){
-			console.log(String(i), curr);
+		for(j=0;j<curr.length;j++){
+			curr +=curr[0];
+			curr = curr.splice(1);
 			j = parseInt(curr,10);
 			if(!isPrime3(j)){
 				bool = false;
 			}
 		}
-		curr = String(i);
-		while(nextStr(String(i),curr) && bool){
-			j = parseInt(curr,10);
-			if(array.indexOf(i)=== -1){
-				insert(j,array);
+		if(bool){
+			curr = String(i);
+			for(j=0;j<curr.length;j++){
+				curr +=curr[0];
+				curr = curr.splice(1);
+				j = parseInt(curr,10);
+				if(array.indexOf(j)=== -1){
+					insert(j,array);
+				}
 			}
 		}
 	}
