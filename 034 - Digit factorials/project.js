@@ -27,6 +27,7 @@ function main() {
 		}
 		i+=1;
 	}
+	console.log(array.length)
 	return result;
 }
 
