@@ -50,7 +50,7 @@ function main(n) {
 			insert(i,array);
 		}
 	}
-	return array;
+	return array.length;
 }
 
 console.log(main(process.argv[2]));
