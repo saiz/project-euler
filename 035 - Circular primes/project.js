@@ -36,7 +36,8 @@ function insert(element, array) {
   return array;
 }
 function nextStr(ori,curr){
-	curr = curr.substring(1) + curr[0];
+	var copy = curr.slice(0);
+	curr = copy.substring(1) + copy[0];
 	if(curr == ori){
 		return false;
 	}
