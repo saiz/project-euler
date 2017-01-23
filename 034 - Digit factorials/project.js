@@ -17,7 +17,7 @@ function main() {
 		temp = String(i).split("");
 		for(j=0;j<temp.length;j+=1){
 			temp[j] = fact(array, parseInt(temp[j],10));
-		};
+		}
 		sum = temp.reduce(function(a,b){
 			return a+b;
 		});
