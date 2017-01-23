@@ -53,7 +53,7 @@ function main() {
 	for(i=2;i<result.length;i+=1){
 		_lcm = lcm(results[i],_lcm);
 	}
-	return result;
+	return _lcm;
 }
 
 console.log(main(process.argv[2]));
