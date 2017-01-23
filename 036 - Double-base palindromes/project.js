@@ -12,7 +12,8 @@ function palindromes(str){
 
 function main(n) {
 	'use strict';
-	var i;
+	var array = [],
+		i;
 	n= parseInt(n,10);
 	for(i=1;i<n;i+=2){
 		if(palindromes(String(i)) && palindromes((i >>> 0).toString(2))){
