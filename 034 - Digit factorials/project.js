@@ -10,7 +10,7 @@ function fact(array,n) {
 	}
 	return fact(array,n);
 }
-function sum(a,b){
+function add(a,b){
 	return a+b;
 }
 function main() {
@@ -21,7 +21,7 @@ function main() {
 		for(j=0;j<temp.length;j+=1){
 			temp[j] = fact(array, parseInt(temp[j],10));
 		}
-		sum = temp.reduce(sum(a,b));
+		sum = temp.reduce(add, 0);
 
 		if(i === sum){
 			result.push(i);
