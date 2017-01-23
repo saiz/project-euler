@@ -45,7 +45,7 @@ function list(str){
 		if(array.indexOf(head) === -1){
 			insert(head,array);
 		}
-		if(array.indexOf(head) === -1){
+		if(array.indexOf(tail) === -1){
 			insert(tail,array);
 		}
 		i+=1;
