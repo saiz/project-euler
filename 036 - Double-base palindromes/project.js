@@ -17,6 +17,7 @@ function main(n) {
 		if(palindromes(String(i)) && palindromes((i >>> 0).toString(2))){
 			console.log(i,(i >>> 0).toString(2));
 		}
+		console.log(i)
 	}
 	return;
 }
