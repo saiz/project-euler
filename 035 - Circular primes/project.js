@@ -16,6 +16,25 @@ function reverse(s) {
 		o.push(s.charAt(len - i));
 	return o.join('');
 }
+function locationOf(element, array, start, end) {
+	'use strict';
+	start = start || 0;
+	end = end || array.length;
+	var pivot = parseInt(start + (end - start) / 2, 10);
+	if (end-start <= 1 || array[pivot] === element){
+		return pivot;
+	}
+	if (array[pivot] < element) {
+		return locationOf(element, array, pivot, end);
+	} else {
+		return locationOf(element, array, start, pivot);
+	}
+}
+function insert(element, array) {
+	'use strict';
+  array.splice(locationOf(element, array) + 1, 0, element);
+  return array;
+}
 //1000000 - 1
 function main() {
 	'use strict';
@@ -25,7 +44,8 @@ function main() {
 	for(i=3;i<end;i+=2){
 		j =parseInt(reverse(String(i)),10);
 		if(isPrime3(i) &&isPrime3(j)){
-
+			insert(i,array);
+			insert(j,array);
 		}
 	}
 	return ;
