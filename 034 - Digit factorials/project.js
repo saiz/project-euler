@@ -25,9 +25,6 @@ function main() {
 		if(i === sum){
 			console.log(i);
 		}
-		if(i %1000000 ===0){
-			console.log(i);
-		}
 		i+=1;
 	}
 	return array;
