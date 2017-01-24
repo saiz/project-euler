@@ -14,7 +14,7 @@ function main(n) {
 		i = 1;
 		d(n,i,str);
 		console.log(str);
-	return str[n]
+	return str[n];
 }
 
 console.log(main(process.argv[2]));
