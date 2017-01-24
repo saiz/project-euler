@@ -12,7 +12,7 @@ function main(n) {
 	n = parseInt(n) || 0;
 	var i = 1,
 		sum =1;
-		while(i < n){
+		while(i <= n){
 			sum *= d(i,1,'');
 			i*=10;
 		}
