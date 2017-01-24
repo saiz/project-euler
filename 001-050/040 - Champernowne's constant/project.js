@@ -1,5 +1,6 @@
 function d(n,i, str){
 	if(n < str.length){
+		console.log(n);
 		return;
 	}
 	var temp = String(i).split(""),
