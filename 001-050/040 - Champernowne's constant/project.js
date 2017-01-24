@@ -2,9 +2,10 @@ function d(n,i, str){
 	if(n < str.length){
 		return parseInt(str[n-1],10);
 	}
-	str.concat(String(i).split(""));
+	var temp = String(i).split("");
+	str.concat(temp);
 	i+=1;
-	console.log(str);
+	console.log(str,temp);
 	d(n, i, str);
 }
 function main(n) {
