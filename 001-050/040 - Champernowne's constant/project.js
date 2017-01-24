@@ -1,5 +1,9 @@
 function d(n, str){
-	if(str.lengtr)
+	if(n < str.length){
+		return str[n];
+	}
+	str += str.length-1;
+	d(n, str)
 }
 function main() {
 	'use strict';
