@@ -5,7 +5,7 @@ function p(n){
 	return n*(3*n-1)/2;
 }
 function h(n){
-	return n*(2n -1);
+	return n*(2*n -1);
 }
 
 function main() {
@@ -17,6 +17,10 @@ function main() {
 	while(bool){
 		if((t(c) === h(a)) && (p(c) === h(a))){
 			console.log(a,b,c);
+			bool = true;
+		}
+		if((t(c) > h(a)) || (p(c) > h(a))){
+			a+=1;
 		}
 		if(p(b)< h(a)){
 			b+=1;
