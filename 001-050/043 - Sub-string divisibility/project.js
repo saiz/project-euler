@@ -63,7 +63,7 @@ function main(n) {
 		end = n,
 		array = create_array(start,end),
 		prime = primeArray(end-2),
-		len = 2,
+		len = 3,
 		j, temp;
 	while( nextPerm(array)){
 		temp = array.join("");
