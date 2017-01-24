@@ -24,6 +24,9 @@ function check(array,a,b){
 	while(sum > array.length){
 		array.push(p(array.length + 1));
 	}
+	while(sum > array.length){
+		array.push(p(array.length + 1));
+	}
 	if(array.indexOf(sum)>=0 && array.indexOf(diff)>=0){
 		console.log(here);
 		return true;
