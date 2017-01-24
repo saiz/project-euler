@@ -33,21 +33,17 @@ function create_array(start,end){
 	}
 	return array;
 }
-function main(start, end, goal) {
+function main() {
 	'use strict';
-	start = parseInt(start,10);
-	end = parseInt(end,10);
-	goal = parseInt(goal,10);
-	var array = create_array(start,end),
+	var start = 0;
+		end = 9,
+		array = create_array(start,end),
 		count = 1;
 	while( nextPerm(array)){
 		count+=1;
-		if(goal === count){
-			return array.join("");
-		}
+		console.log(array);
 	}
-	array = [];
-	return array.join("");
+	return;
 }
 function main() {
 	'use strict';
