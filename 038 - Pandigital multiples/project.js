@@ -21,6 +21,7 @@ function pandigital(n){
 }
 function main(n) {
 	'use strict';
+	n = parseInt(n,10);
 	var i =1,
 		num;
 	while(String(i).length<=Math.floor(n/2)){
