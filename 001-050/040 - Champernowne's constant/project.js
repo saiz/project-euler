@@ -5,24 +5,21 @@ function IsWholeNumberPower(x, y){
 }
 function d(index,last,n){
 	var str = String(last);
-	if(index[0] + str.length > n){
-		return true;
-	}
 	index[0] = index[0] + str.length;
-	return false;
 }
 function main(n) {
 	'use strict';
 	n = parseInt(n) || 0;
 	var i = 1,
-		index = [1],
+		index = 1,
 		product = 1;
 
 	while(i <= n){
-		if(IsWholeNumberPower(i,10) && d(index,i,i)){
-			console.log(i);
+		index += String(last).length;
+		if(IsWholeNumberPower(i,10)){
+			console.log(index);
 		}
-		// if(d(index,i,n)){
+			// if(d(index,i,n)){
 		// 	if(IsWholeNumberPower(i,10)){
 		// 		console.log(d(index,i,n));
 		// 	}
