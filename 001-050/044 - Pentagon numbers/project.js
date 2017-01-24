@@ -21,7 +21,7 @@ function check(array,a,b){
 		j = pentagonal(array,b);
 	var sum =  i + j,
 		diff = Math.abs(i - j);
-	while(sum > array.length || ){
+	while(sum > array.length || diff > array.length){
 		array.push(p(array.length + 1));
 	}
 	while(diff > array.length){
