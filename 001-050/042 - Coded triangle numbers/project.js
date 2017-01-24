@@ -7,7 +7,7 @@ function charcode (str){
 function main() {
 	'use strict';
 	var i ='test';
-console.log(charcode);
+console.log(charcode("a"));
 	return;
 }
 
