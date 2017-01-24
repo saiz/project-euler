@@ -35,7 +35,7 @@ function create_array(start,end){
 }
 function main() {
 	'use strict';
-	var start = 0;
+	var start = 0,
 		end = 9,
 		array = create_array(start,end),
 		count = 1;
