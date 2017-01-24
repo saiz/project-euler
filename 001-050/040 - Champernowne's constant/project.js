@@ -4,7 +4,6 @@ function d(index,last,n){
 		return str[n-index];
 	}
 	index += str.length;
-	return d(index,last,n);
 
 }
 function main(n) {
