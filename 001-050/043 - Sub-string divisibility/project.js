@@ -62,8 +62,11 @@ function main(n) {
 	var start = 0,
 		end = n,
 		array = create_array(start,end),
-		prime = primeArray(end-2);
+		prime = primeArray(end-2),
+		len = 3,
+		j;
 	while( nextPerm(array)){
+		for(j=1;j<array.length -)
 		console.log(array);
 	}
 	return;
