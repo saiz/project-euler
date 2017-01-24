@@ -12,7 +12,7 @@ function pentagonal_array(){
 }
 function main() {
 	'use strict';
-	var array = pentagonal_array();s
+	var array = [];
 	return i;
 }
 
