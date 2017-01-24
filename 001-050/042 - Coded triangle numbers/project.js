@@ -2,14 +2,12 @@ function t(n){
 	return n/2*(n+1);
 }
 function charcode (str){
-	return str.toLowerCase() -"a".charCodeAt(0) - 1
+	return str.toLowerCase() - "a".charCodeAt(0) - 1;
 }
 function main() {
 	'use strict';
 	var i ='test';
-	var charCode = "a".charCodeAt(0);
-	var charCode = "z".charCodeAt(0);
-console.log(charCode);
+console.log(charcode);
 	return;
 }
 
