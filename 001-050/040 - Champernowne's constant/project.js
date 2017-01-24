@@ -1,6 +1,6 @@
 function d(n,i, str){
 	if(n < str.length){
-		return parseInt(str[n-1],10);
+		return;
 	}
 	var temp = String(i).split(""),
 		j=0;
@@ -15,12 +15,12 @@ function main(n) {
 	'use strict';
 	n = parseInt(n) || 0;
 	var i = 1,
-		str = [],
+		arr = [],
 		sum =1;
 		while(i <= n){
 			console.log(sum);
-			d(i,1,str);
-			sum *= d(i,1,str);
+			d(i,1,arr);
+			sum *= arr[i-1];
 			i*=10;
 		}
 	return sum;
