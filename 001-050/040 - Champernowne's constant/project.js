@@ -1,5 +1,5 @@
-function d(n,i){
-	i=1,
+function d(n){
+	var i=1,
 	index = 1,
 	bool = true,
 	j,temp, res;
@@ -26,7 +26,7 @@ function main(n) {
 		arr = [],
 		sum =1;
 		while(i <= n){
-			sum *= d(i,)
+			sum *= d(i)
 			i*=10;
 		}
 	return sum;
