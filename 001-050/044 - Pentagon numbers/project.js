@@ -22,7 +22,7 @@ function check(array,a,b){
 	var sum =  i + j,
 		diff = Math.abs(i - j);
 	if(array.indexOf(sum)>=0 && array.indexOf(diff)>=0){
-
+		coo
 		return true;
 	}
 	return false;
