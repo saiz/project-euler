@@ -26,7 +26,7 @@ function main(n) {
 		arr = [],
 		sum =1;
 		while(i <= n){
-			sum *= d()
+			sum *= d(i,)
 			i*=10;
 		}
 	return sum;
