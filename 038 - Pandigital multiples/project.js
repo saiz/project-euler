@@ -32,6 +32,7 @@ function main(n) {
 		}
 		i+=1;
 	}
+	console.log(array);
 	return Math.max(array);
 }
 
