@@ -12,7 +12,7 @@ function pandigital(n){
 		i = 1,
 		bool = true;
 	while(i<=str.length && bool){
-		if(!str.contains(i)){
+		if(!str.contains(String(i))){
 			bool = false;
 		}
 		i+=1;
