@@ -18,10 +18,12 @@ function pythagoras(a,b,c){
 	}
 	return false;
 }
-function main() {
+function main(n) {
 	'use strict';
-	var end = 120,
-		arr = [1,1,end -2];
+	n =parseInt(n);
+	var end = n,
+		arr = [1,1,end -2],
+
 		while(next_split(arr,end)){
 			if(pythagoras(arr[0],arr[1],arr[2])){
 				console.log(arr.slice(0).sort());
