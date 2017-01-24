@@ -15,7 +15,9 @@ function main(n) {
 
 	while(i <= n){
 		if(d(index,i,n)){
-			console.log(d(index,i,n));
+			if(i > 9 && i % 10 == 0){
+				console.log(d(index,i,n));
+			}
 		}
 		i+=1;
 	}
