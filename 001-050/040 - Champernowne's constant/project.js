@@ -4,6 +4,7 @@ function d(n,i, str){
 	}
 	str += String(i);
 	i+=1;
+	console.log(str);
 	return d(n, i, str);
 }
 function main(n) {
