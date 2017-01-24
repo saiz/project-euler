@@ -2,6 +2,7 @@ function d(n,i, str){
 	if(n < str.length){
 		return;
 	}
+	console.log9i
 	var temp = String(i).split(""),
 		j=0;
 	while(j<temp.length){
