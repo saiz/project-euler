@@ -1,7 +1,7 @@
 function t(n){
 	return n/2*(n+1);
 }
-function charcode (s){
+function charcode (str){
 	return
 }
 function main() {
