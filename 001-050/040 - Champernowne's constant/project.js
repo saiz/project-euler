@@ -7,7 +7,7 @@ function main(n) {
 	'use strict';
 	n = parseInt(n) || 0;
 	var i = 2,
-		index = 2,
+		index = 1,
 		product = 1,
 		power = 1;
 	while(i <= n){
