@@ -19,7 +19,7 @@ function main(n) {
 		i+=1;
 		console.log(i,index);
 	}
-	return sum;
+	return;
 }
 
 console.log(main(process.argv[2]));
