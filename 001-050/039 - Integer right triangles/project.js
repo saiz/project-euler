@@ -73,8 +73,8 @@ function main(n) {
 			}
 			i+=1;
 		}
-vo
-	return matrix;
+		console.log(maxMatrix);
+	return maxMatrix.length;
 }
 
 console.log(main(process.argv[2]));
