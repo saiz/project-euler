@@ -4,9 +4,8 @@ function d(n,i, str){
 	}
 	console.log(String(i).split(""))
 	str.concat(String(i).split(""));
-	console.log(str);
 	i+=1;
-	return d(n, i, str);
+	d(n, i, str);
 }
 function main(n) {
 	'use strict';
