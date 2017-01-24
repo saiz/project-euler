@@ -4,6 +4,7 @@ function d(n,i, str){
 	}
 	str.concat(String(i).split(""));
 	i+=1;
+	console.log(str);
 	d(n, i, str);
 }
 function main(n) {
