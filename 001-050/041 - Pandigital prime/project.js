@@ -29,7 +29,7 @@ function main() {
 	while(i < Math.pow(10,9)){
 		if(isPrime3(i) && pandigital(i)){
 			max = i;
-			console.log(i);
+			console.log(max);
 		}
 		i+=2;
 	}
