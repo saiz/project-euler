@@ -7,7 +7,12 @@ function p(n){
 function h(n){
 	return n*(2*n -1);
 }
-
+function check(a){
+	if( a > 40755){
+		return true;
+	}
+	return false;
+}
 function main() {
 	'use strict';
 	var bool = true,
@@ -16,7 +21,9 @@ function main() {
 		c = 1;
 	while(bool){
 		if((t(c) === h(a)) && (p(b) === h(a))){
-			console.log(a,b,c);
+			if(check(a)){
+				bool = false;
+			}
 			a+=1;
 		} else if((t(c) > h(a)) || (p(b) > h(a))){
 			a+=1;
