@@ -14,7 +14,7 @@ function pentagonal(array,n){
 	while(n > array.length){
 		array.push(p(array.length));
 	}
-	return array[n-1];
+	return array[n];
 }
 function check(array,a,b){
 	var sum =  pentagonal(array,a) + pentagonal(array,b),
