@@ -18,6 +18,7 @@ function primeArray (n){
 			array.push();
 		}
 		i+=1;
+		console.log(i);l
 	}
 	return array;
 }
