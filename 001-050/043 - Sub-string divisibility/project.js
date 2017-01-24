@@ -76,7 +76,7 @@ function main(n) {
 			j+=1;
 		}
 		if(bool){
-			sum += parseInt(array.join(),10);
+			sum += parseInt(array.join(""),10);
 		}
 	}
 	return sum;
