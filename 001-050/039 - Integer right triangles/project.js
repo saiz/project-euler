@@ -20,8 +20,10 @@ function pythagoras(a,b,c){
 }
 function main(n) {
 	'use strict';
-	n = parseInt(n,10) || 3;
-	console.log(n)
+	n = parseInt(n,10) || 0;
+	if(n < 2){
+		return;
+	}
 	var end = n,
 		arr = [1,1,end -2];
 		while(next_split(arr,end)){
