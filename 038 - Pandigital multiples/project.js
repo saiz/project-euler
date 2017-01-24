@@ -34,7 +34,7 @@ function main(n) {
 			array.push(num);
 		}
 		i+=1;
-	}	return array.max;
+	}	return array.max();
 }
 
 console.log(main(process.argv[2]));
