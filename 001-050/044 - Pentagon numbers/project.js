@@ -39,9 +39,8 @@ function main() {
 		if(check(array,i,j)){
 			bool = false;
 		}
-		console.log(i,j)
+		console.log(i,j);
 		//console.log(array[i],array[j])
-		console.log(array);
 	}
 	return[array[i],array[j]];
 }
