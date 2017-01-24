@@ -43,7 +43,7 @@ function main() {
 			bool = false;
 		}
 	}
-	return[array[i],array[j]];
+	return Math.abs(array[i] - array[j]);
 }
 
 console.log(main(process.argv[2]));
