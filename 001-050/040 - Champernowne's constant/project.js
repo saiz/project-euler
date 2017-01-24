@@ -9,7 +9,7 @@ function d(n,i, str){
 		j+=1;
 	}
 	i+=1;
-	console.log(str,temp);
+	console.log(str);
 	d(n, i, str);
 }
 function main(n) {
