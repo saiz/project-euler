@@ -22,10 +22,7 @@ function main() {
 	while(bool){
 		if((t(c) === h(a)) && (p(b) === h(a))){
 			console.log(a);
-			if(check(a)){
-				bool = false;
-				console.log(a)
-			}
+
 			a+=1;
 		} else if((t(c) > h(a)) || (p(b) > h(a))){
 			a+=1;
