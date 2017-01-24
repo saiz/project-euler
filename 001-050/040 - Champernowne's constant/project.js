@@ -5,10 +5,9 @@ function d(n,i, str){
 	var temp = String(i).split(""),
 		j=0;
 	while(j<temp.length){
-		temp[j] = parseInt(temp[j],10);
+		str.push(parseInt(temp[j],10));
 		j+=1;
 	}
-	str.concat(temp);
 	i+=1;
 	console.log(str,temp);
 	d(n, i, str);
