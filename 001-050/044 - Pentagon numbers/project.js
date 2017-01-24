@@ -13,7 +13,6 @@ function pentagonal_array(){
 function main() {
 	'use strict';
 	var array = [];
-	con
 	return i;
 }
 
