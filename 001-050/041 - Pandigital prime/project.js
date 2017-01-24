@@ -32,7 +32,7 @@ function eratosthenes(n) {
         }
     }
     return output;
-};
+}
 function create_pandigital(n) {
 	var str ='';
 	while(n > 0){
@@ -56,7 +56,7 @@ function main(n) {
 		if(pandigital(array[i])){
 			bool = false;
 		}
-
+`
 	}
 	return array[i];
 }
