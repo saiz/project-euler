@@ -24,6 +24,7 @@ function isPrime3(n) {
 }
 function main(n) {
 	'use strict';
+n
 	var i = 1,
 	max = 0;
 	while(i < Math.pow(10,n)){
