@@ -12,18 +12,19 @@ function main(n) {
 	n = parseInt(n) || 0;
 	var i = 1,
 		index = 1,
-		product = 1;
+		product = 1,
+		power = 0;
 
 	while(i <= n){
-		index += String(i).length;
-		if(IsWholeNumberPower(i,10)){
+		if(index + String(i).length > Math.pow(10,0)){
 			console.log(index);
-		}
 			// if(d(index,i,n)){
+		}
 		// 	if(IsWholeNumberPower(i,10)){
 		// 		console.log(d(index,i,n));
 		// 	}
 		// }
+		index += String(i).length;
 		i+=1;
 	}
 	return;
