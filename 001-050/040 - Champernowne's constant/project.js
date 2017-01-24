@@ -27,6 +27,7 @@ function main(n) {
 		sum =1;
 		while(i <= n){
 			sum *= d(i);
+			console.log(sum);
 			i*=10;
 		}
 	return sum;
