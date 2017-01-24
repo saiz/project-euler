@@ -12,13 +12,21 @@ function next_split(array,length){
 	}
 	return true;
 }
+function pythagoras(a,b,c){
+	if(Math.pow(a,2) + Math.pow(b,2) === Math.pow(c,2)){
+		return true;
+	}
+	return false;
+}
 function main() {
 	'use strict';
 	var i ='test',
 		end = 120,
-		temp = [1,1,end -2];
-		while(next_split(temp,end)){
-			console.log(temp);
+		arr = [1,1,end -2];
+		while(next_split(arr,end)){
+			if(pythagoras(arr[0],arr[1],arr[2])){
+				console.log(arr);
+			}
 		}
 	return i;
 }
