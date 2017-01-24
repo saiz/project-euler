@@ -9,7 +9,7 @@ function main(n) {
 	var i = 2,
 		index = 2,
 		product = 1,
-		power = 0;
+		power = 1;
 
 
 	while(i <= n){
