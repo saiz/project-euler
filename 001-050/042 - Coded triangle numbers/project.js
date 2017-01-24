@@ -25,11 +25,19 @@ function stringscore(str){
 	}
 	return sum;
 }
-
+function test_triangle(array,n){
+	while(array[array.length -1] < n){
+		array.push(t(array.length));
+	}
+	if(array.indexOf(n) >= 0){
+		return true;
+	}
+	return false;
+}
 function main() {
 	'use strict';
 	var array = names_array(),
-		triangle = [],
+		triangle = [1],
 		i = 0;
 		while(i<array.length){
 			console.log(stringscore(array[i]));
