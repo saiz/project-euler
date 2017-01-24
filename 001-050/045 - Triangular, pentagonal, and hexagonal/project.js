@@ -17,7 +17,7 @@ function main() {
 	while(bool){
 		if((t(c) === h(a)) && (p(c) === h(a))){
 			console.log(a,b,c);
-			bool = true;
+			a+=1;
 		}
 		if((t(c) > h(a)) || (p(c) > h(a))){
 			a+=1;
