@@ -18,7 +18,7 @@ function charcode (str){
 }
 function stringscore(str){
 	var i = -1,
-		sum = 0
+		sum = 0;
 	while(i <str.length){
 		i+=1;
 		sum += charcode(str[i]);
