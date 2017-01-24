@@ -1,6 +1,6 @@
 function d(n,i, str){
 	if(n < str.length){
-		return parseInt(str[n],10);
+		return parseInt(str[n-1],10);
 	}
 	str += String(i);
 	i+=1;
