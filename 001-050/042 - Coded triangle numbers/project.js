@@ -38,14 +38,15 @@ function main() {
 	'use strict';
 	var array = names_array(),
 		triangle = [1],
+		results = [],
 		i = 0;
 		while(i<array.length){
 			if(test_triangle(triangle,stringscore(array[i]))){
-				console.log(array[i],stringscore(array[i]));
+				results.push(array[i]);
 			}
 			i+=1;
 		}
-	return;
+	return results.length;
 }
 
 console.log(main(process.argv[2]));
