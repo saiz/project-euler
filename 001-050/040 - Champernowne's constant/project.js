@@ -19,7 +19,6 @@ function main(n) {
 		arr = [],
 		sum =1;
 		while(i <= n){
-
 			d(i,1,arr);
 			sum *= arr[i-1];
 			i*=10;
