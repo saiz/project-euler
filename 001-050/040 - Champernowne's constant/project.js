@@ -3,7 +3,7 @@ function d(n,i, str){
 		return parseInt(str[n-1],10);
 	}
 	str.concat(String(i).split(""));
-	console.log(str)
+	console.log(str);
 	i+=1;
 	return d(n, i, str);
 }
