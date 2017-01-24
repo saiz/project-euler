@@ -52,7 +52,7 @@ function main(n) {
 	'use strict';
 	n = parseInt(n,10) || 0;
 	if(n < 2){
-		return [];
+		return 0;
 	}
 	var end,
 		arr,
