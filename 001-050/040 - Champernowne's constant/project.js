@@ -19,6 +19,7 @@ function main(n) {
 		sum =1;
 		while(i <= n){
 			console.log(sum);
+			d(i,1,str);
 			sum *= d(i,1,str);
 			i*=10;
 		}
