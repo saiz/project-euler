@@ -1,3 +1,6 @@
+Array.max = function( array ){
+    return Math.max.apply( Math, array );
+};
 function sumstring(n,m){
 	var str = '',
 	i=1;
@@ -33,7 +36,7 @@ function main(n) {
 		i+=1;
 	}
 	console.log(array);
-	return Math.max(array);
+	return array.max;
 }
 
 console.log(main(process.argv[2]));
