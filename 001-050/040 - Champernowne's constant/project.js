@@ -1,8 +1,3 @@
-
-function IsWholeNumberPower(x, y){
-    var  power = Math.log(x)/Math.log(y);
-    return Math.floor(power) === power;
-}
 function main(n) {
 	'use strict';
 	n = parseInt(n) || 0;
