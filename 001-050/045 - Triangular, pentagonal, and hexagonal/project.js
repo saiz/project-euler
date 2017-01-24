@@ -23,6 +23,7 @@ function main() {
 		if((t(c) === h(a)) && (p(b) === h(a))){
 			if(check(a)){
 				bool = false;
+				console.log(a)
 			}
 			a+=1;
 		} else if((t(c) > h(a)) || (p(b) > h(a))){
@@ -36,6 +37,7 @@ function main() {
 		}
 		//console.log(a,b,c);
 	}
+	console.log(a)
 	return h(a);
 }
 
