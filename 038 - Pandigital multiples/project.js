@@ -21,9 +21,13 @@ function pandigital(n){
 }
 function main() {
 	'use strict';
-	var i =1;
+	var i =1,
+		str;
 	while(String(i).length<4){
-		console.log(sumstring(i,2));
+		str = sumstring(i,9);
+		if(pandigital(str) && str.length === 9){
+			console.log(str);
+		}
 	}
 	return i;
 }
