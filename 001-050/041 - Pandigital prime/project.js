@@ -58,7 +58,7 @@ function main(n) {
 		}
 		i-=1;
 	}
-	return array[i];
+	return array[i+1];
 }
 
 console.log(main(process.argv[2]));
