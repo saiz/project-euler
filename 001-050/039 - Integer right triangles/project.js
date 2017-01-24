@@ -36,6 +36,7 @@ function insert(array,matrix){
 		if(array_equal(matrix[i],array)){
 			bool = false;
 		}
+iui
 	}
 	if(bool){
 		matrix.push(array);
