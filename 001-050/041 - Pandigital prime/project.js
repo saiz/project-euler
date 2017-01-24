@@ -26,7 +26,7 @@ function main(n) {
 	'use strict';
 	var i = 1,
 	max = 0;
-	while(i < Math.pow(10,9)){
+	while(i < Math.pow(10,n)){
 		if(isPrime3(i) && pandigital(i)){
 			max = i;
 			console.log(max);
