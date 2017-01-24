@@ -21,7 +21,7 @@ function main() {
 		c = 1;
 	while(bool){
 		if((t(c) === h(a)) && (p(b) === h(a))){
-			console.log(a,h(a));
+			//console.log(a,h(a));
 			if(check(a)){
 				bool = false;
 			}
