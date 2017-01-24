@@ -12,7 +12,7 @@ function main(n) {
 	var str ='',
 		i = 1, res;
 		res = d(n,i,str);
-		console.log(str)
+		console.log(str);
 	return res;
 }
 
