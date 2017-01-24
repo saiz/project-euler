@@ -24,7 +24,7 @@ function main() {
 		if(p(b) < h(a)){
 			b+=1;
 		}
-		if(t(c)< h(a)){
+		if(t(c) < h(a)){
 			c+=1;
 		}
 		//console.log(a,b,c);
