@@ -1,9 +1,10 @@
 function d(index,last,n){
 	var str = String(last);
 	if(index + str.length > n){
-		return str[n-index];
+		return true;
 	}
 	index += str.length;
+	return false;
 }
 function main(n) {
 	'use strict';
@@ -12,7 +13,11 @@ function main(n) {
 		index = 1,
 		product = 1;
 	while(i <= n){
-		console.log(d(index,i,n));
+		if(d(index,i,n)){
+			console.log(d(index,i,n));
+		}
+		i+=1;
+		console.log(i,index);
 	}
 	return sum;
 }
