@@ -12,7 +12,7 @@ function main(n) {
 		power = 1;
 	while(i <= n){
 		if(index >= Math.pow(10,power) - String(i).length){
-			console.log(i,index);
+			console.log(i,index, String(i)[Math.pow(10,power) - index -1]);
 			product *= parseInt(String(i)[Math.pow(10,power) - index -1])
 			power+=1;
 		}
