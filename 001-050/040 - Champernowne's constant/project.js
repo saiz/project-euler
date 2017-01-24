@@ -1,11 +1,13 @@
 function d(n,i){
 	i=1;
+	index = 0;
 	while(i < n){
 		var temp = String(i).split(""),
 			j=0;
 		while(j<temp.length){
-			i+=1;
+			index= temp[j];
 			j+=1;
+			i+=1;
 		}
 	}
 }
