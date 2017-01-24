@@ -29,7 +29,7 @@ function stringscore(str){
 function main() {
 	'use strict';
 	var array = names_array(),
-		triangle = [1],
+		triangle = [],
 		i = 0;
 		while(i<array.length){
 			console.log(stringscore(array[i]));
