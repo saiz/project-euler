@@ -4,7 +4,7 @@ function p(n){
 function pentagonal_array(){
 	var array = [],
 		i = 1;
-	while(array.length < 4){
+	while(array.length < 2){
 		array.push(p(i));
 		i+=1;
 	}
@@ -13,6 +13,7 @@ function pentagonal_array(){
 function main() {
 	'use strict';
 	var array = [];
+	con
 	return i;
 }
 
