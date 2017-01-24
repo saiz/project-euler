@@ -20,7 +20,7 @@ function pythagoras(a,b,c){
 }
 function main(n) {
 	'use strict';
-	n = parseInt(n,10) || 2;
+	n = parseInt(n,10) || 3;
 	console.log(n)
 	var end = n,
 		arr = [1,1,end -2];
