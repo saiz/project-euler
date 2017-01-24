@@ -7,7 +7,7 @@ function d(n,i, str){
 	return d(n, i, str);
 }
 function main(n) {
-	v
+	'use strict';
 	n = parseInt(n) || 0;
 	var str ='',
 		i = 1;
