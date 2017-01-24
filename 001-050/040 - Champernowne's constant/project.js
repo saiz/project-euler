@@ -19,6 +19,7 @@ function main(n) {
 		product = 1;
 
 	while(i <= n){
+		if(IsWholeNumberPower(i,10)){
 		if(d(index,i,n)){
 			console.log(i);
 		}
