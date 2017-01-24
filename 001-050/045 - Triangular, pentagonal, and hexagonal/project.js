@@ -27,7 +27,7 @@ function main() {
 		if(t(c) < h(a)){
 			c+=1;
 		}
-		console.log(a,b,c);
+		console.log(h(a),b,c);
 	}
 	return i;
 }
