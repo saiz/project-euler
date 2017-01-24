@@ -5,6 +5,7 @@ function main() {
 	'use strict';
 	var i ='test';
 	var charCode = "a".charCodeAt(0);
+	var charCode = "z".charCodeAt(0);
 console.log(charCode);
 	return;
 }
