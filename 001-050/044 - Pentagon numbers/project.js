@@ -14,7 +14,7 @@ function main() {
 	'use strict';
 	var array = pentagonal_array();
 	console.log(array);
-	return i;
+	return;
 }
 
 console.log(main(process.argv[2]));
