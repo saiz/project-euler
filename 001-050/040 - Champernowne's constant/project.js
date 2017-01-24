@@ -1,14 +1,17 @@
-function d(n, str){
+function d(n,i, str){
 	if(n < str.length){
 		return str[n];
 	}
-	str += str.length-1;
-	d(n, str)
+	str += i;
+	i+=1;
+	return d(n, i, str);
 }
-function main() {
+function main(n) {
+	n = parseInt(n) || 0;
 	'use strict';
-	var i ='test';
-	return i;
+	var str ='',
+		i = 1;
+	return d(n,i,str);
 }
 
 console.log(main(process.argv[2]));
