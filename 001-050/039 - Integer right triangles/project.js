@@ -21,7 +21,7 @@ function pythagoras(a,b,c){
 function main(n) {
 	'use strict';
 	n = 0 || parseInt(n);
-	console.log(0)
+	console.log(n)
 	var end = n,
 		arr = [1,1,end -2];
 		while(next_split(arr,end)){
