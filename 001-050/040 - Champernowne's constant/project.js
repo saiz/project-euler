@@ -2,7 +2,7 @@ function d(n,i, str){
 	if(n < str.length){
 		return parseInt(str[n-1],10);
 	}
-	str += String(i);
+	str = str + String(i);
 	i+=1;
 	return d(n, i, str);
 }
