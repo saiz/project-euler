@@ -17,8 +17,10 @@ function pentagonal(array,n){
 	return array[n];
 }
 function check(array,a,b){
-	var sum =  pentagonal(array,a) + pentagonal(array,b),
-		diff = Math.abs(pentagonal(array,a) - pentagonal(array,b));
+	var i = pentagonal(array,a),
+		j = pentagonal(array,b);
+	var sum =  i + j,
+		diff = Math.abs(i - j);
 	if(array.indexOf(sum)>=0 && array.indexOf(diff)>=0){
 		return true;
 	}
