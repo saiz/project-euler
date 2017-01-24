@@ -35,6 +35,7 @@ function main(n) {
 		}
 		i+=1;
 	}
-	return Math.max.apply(Math, array)}
+	return Math.max.apply(Math, array);
+}
 
 console.log(main(process.argv[2]));
