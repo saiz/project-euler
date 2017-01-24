@@ -22,7 +22,7 @@ function isPrime3(n) {
 	}
 	return true;
 }
-function main() {
+function main(n) {
 	'use strict';
 	var i = 1,
 	max = 0;
