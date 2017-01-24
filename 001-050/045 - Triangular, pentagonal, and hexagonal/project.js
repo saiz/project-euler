@@ -16,7 +16,7 @@ function main() {
 		c = 1;
 	while(bool){
 		if((t(c) === h(a)) && (p(c) === h(a))){
-			console.log(a,b,c);
+			console.log("adsa");
 			a+=1;
 		}
 		if((t(c) > h(a)) || (p(c) > h(a))){
