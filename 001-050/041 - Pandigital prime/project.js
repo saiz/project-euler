@@ -25,15 +25,15 @@ function isPrime3(n) {
 function main(n) {
 	'use strict';
 	n = parseInt(n,10) || 0;
-	var i = 1,
-	max = 0;
-	while(i < Math.pow(10,n)){
+	var i = Math.pow(10,n) - 1,
+	bool = true;
+	while(i > 0 && bool){
 		if(isPrime3(i) && pandigital(i)){
-			max = i;
+			bool = false;
 		}
-		i+=2;
+		i-=2;
 	}
-	return max;
+	return i;
 }
 
 console.log(main(process.argv[2]));
