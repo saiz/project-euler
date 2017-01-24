@@ -6,7 +6,7 @@ function main() {
 	var i ='test';
 	var charCode = "a".charCodeAt(0);
 console.log(charCode);
-	return i;
+	return;
 }
 
 console.log(main(process.argv[2]));
