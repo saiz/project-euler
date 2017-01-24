@@ -23,7 +23,7 @@ function main() {
 	'use strict';
 	var i =1,
 		str;
-	while(String(i).length<4){
+	while(String(i).length<=4){
 		str = sumstring(i,9);
 		if(pandigital(str) && str.length === 9){
 			console.log(str);
