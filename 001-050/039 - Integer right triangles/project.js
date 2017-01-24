@@ -76,7 +76,7 @@ function main(n) {
 			i+=1;
 		}
 		console.log(maxMatrix);
-	return max, maxMatrix.length;
+	return max;
 }
 
 console.log(main(process.argv[2]));
