@@ -10,22 +10,16 @@ function main(n) {
 		index = 2,
 		product = 1,
 		power = 1;
-
-
 	while(i <= n){
 		if(index >= Math.pow(10,power) - String(i).length){
 			console.log(i,index);
+			product *= parseInt(String(i)[Math.pow(10,power) - index -1])
 			power+=1;
-			// if(d(index,i,n)){
 		}
-		// 	if(IsWholeNumberPower(i,10)){
-		// 		console.log(d(index,i,n));
-		// 	}
-		// }
 		index += String(i).length;
 		i+=1;
 	}
-	return;
+	return product;
 }
 
 console.log(main(process.argv[2]));
