@@ -30,10 +30,16 @@ function create_pandigital(n) {
 	}
 	return parseInt(str,10);
 }
+function check_prime(n,array){
+	if(array.indexOf(n) >= 0){
+		return true;
+	}
+}
 function main(n) {
 	'use strict';
 	n = parseInt(n,10) || 0;
 	var i = create_pandigital(n),
+		prime_array = [],
 		bool = true;
 	while(i > 0 && bool){
 		if(isPrime3(i) && pandigital(i)){
