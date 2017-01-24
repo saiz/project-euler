@@ -52,6 +52,7 @@ function main(n) {
 	var array = eratosthenes(create_pandigital(n)),
 		i = array.length -1,
 		bool = true;
+		console.log('here')
 	while (i >= 0 && bool){
 		if(pandigital(array[i])){
 			bool = false;
