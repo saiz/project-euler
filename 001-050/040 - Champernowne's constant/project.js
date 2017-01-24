@@ -10,9 +10,10 @@ function main(n) {
 	'use strict';
 	n = parseInt(n) || 0;
 	var i = 1,
+		str = '',
 		sum =1;
 		while(i <= n){
-			sum *= d(i,1,'');
+			sum *= d(i,1,str);
 			i*=10;
 		}
 	console.log(str);
