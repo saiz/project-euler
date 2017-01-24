@@ -15,7 +15,7 @@ function main() {
 		b = 1,
 		c = 1;
 	while(bool){
-		if((t(c) === h(a)) && (p(c) === h(a))){
+		if((t(c) === h(a)) && (p(b) === h(a))){
 			console.log(a,b,c);
 			a+=1;
 		} else if((t(c) > h(a)) || (p(b) > h(a))){
@@ -27,7 +27,7 @@ function main() {
 		if(t(c) < h(a)){
 			c+=1;
 		}
-		//console.log(a,b,c);
+		console.log(a,b,c);
 	}
 	return i;
 }
