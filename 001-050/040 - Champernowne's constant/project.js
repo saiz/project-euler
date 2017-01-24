@@ -12,12 +12,12 @@ function main(n) {
 	var i = 1,
 		index = [1],
 		product = 1;
+
 	while(i <= n){
 		if(d(index,i,n)){
 			console.log(d(index,i,n));
 		}
 		i+=1;
-		console.log(i,index);
 	}
 	return;
 }
