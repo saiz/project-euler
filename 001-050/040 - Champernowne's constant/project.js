@@ -15,6 +15,7 @@ function main(n) {
 			sum *= d(i,1,'');
 			i*=10;
 		}
+	console.log(str);
 	return sum;
 }
 
