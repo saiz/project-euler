@@ -20,9 +20,9 @@ function main(n) {
 
 	while(i <= n){
 		if(IsWholeNumberPower(i,10)){
-		if(d(index,i,n)){
-			console.log(i);
-		}
+			if(d(index,i,n)){
+				console.log(i);
+			}
 		// if(d(index,i,n)){
 		// 	if(IsWholeNumberPower(i,10)){
 		// 		console.log(d(index,i,n));
