@@ -17,11 +17,11 @@ function charcode (str){
 	return str.toLowerCase().charCodeAt(0) - "a".charCodeAt(0) +1;
 }
 function stringscore(str){
-	var i = -1,
+	var i = 0;,
 		sum = 0;
 	while(i <str.length){
-		i+=1;
 		sum += charcode(str[i]);
+		i+=1;
 	}
 	return sum;
 }
