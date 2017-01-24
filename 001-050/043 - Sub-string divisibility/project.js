@@ -70,7 +70,7 @@ function main(n) {
 		for(j=1;j<array.length - 2; j+=1){
 			console.log(temp.substring(j,j+len));
 		}
-		//console.log(array);
+		console.log(array);
 	}
 	return;
 }
