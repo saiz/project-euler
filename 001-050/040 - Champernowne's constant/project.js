@@ -5,7 +5,6 @@ function d(index,last,n){
 	}
 	index += str.length;
 
-
 }
 function main(n) {
 	'use strict';
@@ -13,6 +12,7 @@ function main(n) {
 	var i = 1,
 		product = 1;
 	while(i <= n){
+
 		product *= d()
 	}
 	return sum;
