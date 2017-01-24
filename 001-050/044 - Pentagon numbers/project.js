@@ -27,11 +27,18 @@ function check(array,a,b){
 function main() {
 	'use strict';
 	var array = pentagonal_array(),
-		i = 2, j =1, bool = true;
+		i = 2, j =2, bool = true;
 	while(bool){
-		if()
+		j -=1;
+		if(j === 0){
+			i+=1;
+			j= i-1;
+		}
+		if(check(array,i,j)){
+			bool = false;
+		}
 	}
-	return;
+	return[array[i],array[j]];
 }
 
 console.log(main(process.argv[2]));
