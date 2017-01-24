@@ -1,35 +1,14 @@
-function d(n){
-	var i=1,
-	index = 1,
-	bool = true,
-	j,temp, res;
-	while(bool){ // i = 1 -> n
-		temp = String(i).split(""); // split i eg 1012 = 1,0,1,2
-		j=0;
-		while(j<temp.length){
-			j+=1;
-			index+=1;
-			if(index === n){ //compare index to final position;
-				bool = false;
-				res = temp[j];
-				j = temp.length;
-			}
-		}
-		i+=1;
+function d(index,last,n){
+	var str = String(last);
+	if(index + str.length > n){
+		return str[n-index];
 	}
-	return parseInt(res,10);
+
 }
 function main(n) {
 	'use strict';
 	n = parseInt(n) || 0;
-	var i = 1,
-		arr = [],
-		sum =1;
-		while(i <= n){
-			sum *= d(i);
-			console.log(sum);
-			i*=10;
-		}
+
 	return sum;
 }
 
