@@ -36,7 +36,6 @@ function main(n) {
 	var i = create_pandigital(n),
 		bool = true;
 	while(i > 0 && bool){
-		console.log(i);
 		if(isPrime3(i) && pandigital(i)){
 			bool = false;
 		}
