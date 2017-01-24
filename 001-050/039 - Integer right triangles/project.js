@@ -27,14 +27,19 @@ function array_equal(array1,array2){
 	return bool;
 }
 function insert(array,matrix){
-	if(matrix.length = 0){
+	if(matrix.length === 0){
 		matrix.push(array);
 	}
 	var i =0,
 		bool = true;
-
-	while(i<array1.length && bool){
-
+	while(i<matrix.length && bool){
+		if(array_equal(matrix[i],array)){
+			bool = false;
+		}
+	}
+	if(bool){
+		matrix.push(array);
+	}
 }
 function pythagoras(a,b,c){
 	if(Math.pow(a,2) + Math.pow(b,2) === Math.pow(c,2)){
@@ -46,17 +51,17 @@ function main(n) {
 	'use strict';
 	n = parseInt(n,10) || 0;
 	if(n < 2){
-		return;
+		return [];
 	}
 	var end = n,
 		arr = [1,1,end -2],
 		matrix;
 		while(next_split(arr,end)){
 			if(pythagoras(arr[0],arr[1],arr[2])){
-				console.log(arr.slice(0).sort());
+				insert(arr.slice(0).sort());
 			}
 		}
-	return;
+	return arr;
 }
 
 console.log(main(process.argv[2]));
