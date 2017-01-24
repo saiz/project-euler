@@ -12,10 +12,10 @@ function main(n) {
 	var i = 1,
 		str = '',
 		sum =1;
-		while(i <= n){
-			sum *= d(i,1,str);
-			i*=10;
-		}
+	while(i <= n){
+		sum *= d(i,1,str);
+		i*=10;
+	}
 	console.log(str);
 	return sum;
 }
