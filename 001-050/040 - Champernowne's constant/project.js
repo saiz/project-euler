@@ -10,7 +10,7 @@ function d(index,last,n){
 function main(n) {
 	'use strict';
 	n = parseInt(n) || 0;
-	var i = 0,
+	var i = 1,
 		index = 1,
 		product = 1,
 		power = 0;
