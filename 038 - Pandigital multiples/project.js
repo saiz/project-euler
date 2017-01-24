@@ -28,6 +28,7 @@ function main() {
 		if(pandigital(str) && str.length === 9){
 			console.log(str);
 		}
+		console.log(i);
 		i+=1;
 	}
 	return;
