@@ -37,8 +37,7 @@ function main() {
 		}
 		//console.log(a,b,c);
 	}
-	console.log(a)
-	return h(a);
+	return h(a -1);
 }
 
 
