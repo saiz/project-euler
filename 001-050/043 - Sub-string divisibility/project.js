@@ -63,10 +63,13 @@ function main(n) {
 		end = n,
 		array = create_array(start,end),
 		prime = primeArray(end-2),
-		len = 3,
-		j;
+		len = 2,
+		j, temp;
 	while( nextPerm(array)){
-		for(j=1;j<array.length -)
+		temp = array.join("");
+		for(j=1;j<array.length - 2; j+=1){
+			console.log(temp.substring(j,j+len));
+		}
 		console.log(array);
 	}
 	return;
