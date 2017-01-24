@@ -22,7 +22,7 @@ function check(array,a,b){
 	if(array.indexOf(sum)>=0 && array.indexOf(diff)>=0){
 		return true;
 	}
-	return false
+	return false;
 }
 function main() {
 	'use strict';
