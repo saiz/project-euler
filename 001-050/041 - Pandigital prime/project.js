@@ -22,10 +22,18 @@ function isPrime3(n) {
 	}
 	return true;
 }
+function create_pandigital(n) {
+	var str ='';
+	while(n > 0){
+		str += String(n);
+		n-=1;
+	}
+	return parseInt(str,10);
+}
 function main(n) {
 	'use strict';
 	n = parseInt(n,10) || 0;
-	var i = Math.pow(10,n) - 1,
+	var i = create_pandigital(n);
 	bool = true;
 	while(i > 0 && bool){
 		console.log(i);
