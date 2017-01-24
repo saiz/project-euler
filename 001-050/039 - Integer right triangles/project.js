@@ -54,13 +54,24 @@ function main(n) {
 	if(n < 2){
 		return [];
 	}
-	var end = n,
-		arr = [1,1,end -2],
-		matrix = [];
-		while(next_split(arr,end)){
-			if(pythagoras(arr[0],arr[1],arr[2])){
-				insert(arr.slice(0).sort(),matrix);
+	var end,
+		arr,
+		matrix,
+		maxMatrix = [],
+		i=3;
+		while(i<n){
+			end = i;
+			arr = [1,1,end -2];
+			matrix = [];
+			while(next_split(arr,end)){
+				if(pythagoras(arr[0],arr[1],arr[2])){
+					insert(arr.slice(0).sort(),matrix);
+				}
 			}
+			if(matrix.length >  maxMatrix.length){
+				maxMatrix = matrix;
+			}
+			i+=1;
 		}
 	return matrix;
 }
