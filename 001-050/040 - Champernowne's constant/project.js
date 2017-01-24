@@ -6,6 +6,7 @@ function d(n,i, str){
 		j=0;
 	while(j<temp.length){
 		temp[j] = parseInt(temp[j],10);
+j
 	}
 	str.concat(temp);
 	i+=1;
