@@ -12,6 +12,19 @@ function next_split(array,length){
 	}
 	return true;
 }
+function array_equal(array1,array2){
+	if(array1.length !== array2.length){
+		return false;
+	}
+	var i =0,
+		bool = true;
+	while(i<array1.length && bool){
+		if(array1[i]!==array2[i]){
+			bool = false;
+		}
+	}
+	return bool;
+}
 function pythagoras(a,b,c){
 	if(Math.pow(a,2) + Math.pow(b,2) === Math.pow(c,2)){
 		return true;
@@ -25,7 +38,8 @@ function main(n) {
 		return;
 	}
 	var end = n,
-		arr = [1,1,end -2];
+		arr = [1,1,end -2],
+		matrix;
 		while(next_split(arr,end)){
 			if(pythagoras(arr[0],arr[1],arr[2])){
 				console.log(arr.slice(0).sort());
