@@ -43,7 +43,6 @@ function main() {
 if(test_triangle(triangle,stringscore(array[i]))){
 
 }
-			console.log(stringscore(array[i]));
 			i+=1;
 		}
 	return;
