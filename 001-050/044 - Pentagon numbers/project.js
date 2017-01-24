@@ -11,7 +11,7 @@ function pentagonal_array(){
 	return array;
 }
 function pentagonal(array,n){
-	while(n > array.length -1){
+	while(n > array.length){
 		array.push(p(array.length));
 	}
 	return array[n-1];
