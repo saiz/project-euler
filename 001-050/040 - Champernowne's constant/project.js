@@ -3,6 +3,7 @@ function d(index,last,n){
 	if(index + str.length > n){
 		return str[n-index];
 	}
+	d(index,last,n)
 	index += str.length;
 
 }
