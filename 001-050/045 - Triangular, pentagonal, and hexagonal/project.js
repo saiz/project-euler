@@ -18,7 +18,7 @@ function main() {
 		if((t(c) === h(a)) && (p(c) === h(a))){
 			console.log("adsa");
 			a+=1;
-		} else if((t(c) > h(a)) && (p(c) >= h(a))){
+		} else if((t(c) > h(a)) && (p(c) > h(a))){
 			a+=1;
 		}
 		if(p(b)< h(a)){
