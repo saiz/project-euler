@@ -56,7 +56,7 @@ function main(n) {
 		if(pandigital(array[i])){
 			bool = false;
 		}
-`
+		i-=1;
 	}
 	return array[i];
 }
