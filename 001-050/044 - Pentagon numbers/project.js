@@ -37,6 +37,7 @@ function main() {
 		if(check(array,i,j)){
 			bool = false;
 		}
+		console.log(i,j)
 	}
 	return[array[i],array[j]];
 }
