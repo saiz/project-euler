@@ -8,7 +8,7 @@ function d(n,i, str){
 		temp[j] = parseInt(temp[j],10);
 		j+=1;
 	}
-	str.concat(temp.splice(0));
+	str.concat(temp);
 	i+=1;
 	console.log(str,temp);
 	d(n, i, str);
