@@ -58,6 +58,7 @@ function create_array(start,end){
 }
 function main(n) {
 	'use strict';
+	n = parseInt(n,10);
 	var start = 0,
 		end = n,
 		array = create_array(start,end),
