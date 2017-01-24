@@ -27,9 +27,9 @@ function check(array,a,b){
 function main() {
 	'use strict';
 	var array = pentagonal_array(),
-		i = 1, j =2;
-	while(check(array,array[i],array[j])){
-
+		i = 2, j =1, bool = true;
+	while(bool){
+		if()
 	}
 	return;
 }
