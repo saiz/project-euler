@@ -62,7 +62,7 @@ function main(n) {
 				insert(arr.slice(0).sort(),matrix);
 			}
 		}
-	return arr;
+	return matrix;
 }
 
 console.log(main(process.argv[2]));
