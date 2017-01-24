@@ -24,7 +24,7 @@ function main() {
 		arr = [1,1,end -2];
 		while(next_split(arr,end)){
 			if(pythagoras(arr[0],arr[1],arr[2])){
-				console.log(arr..sort());
+				console.log(arr.slice(0).sort());
 			}
 		}
 	return;
