@@ -18,8 +18,7 @@ function primeArray (n){
 			array.push(i);
 		}
 		i+=1;
-		console.log(i);
-	}
+}
 	return array;
 }
 function nextPerm(array){
