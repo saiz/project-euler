@@ -5,7 +5,7 @@ function main(n) {
 		index = 1,
 		product = 1,
 		power = 1;
-	while(i <= n){
+	while(index <= n){
 		if(index >= Math.pow(10,power) - String(i).length){
 			product *= parseInt(String(i)[Math.pow(10,power) - index -1]);
 			power+=1;
