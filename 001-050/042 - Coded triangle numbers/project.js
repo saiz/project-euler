@@ -28,10 +28,10 @@ function stringscore(str){
 function main() {
 	'use strict';
 	var array = names_array(),
-		i = -1;
+		i = 0;
 		while(i<array.length){
-			i+=1;
 			console.log(stringscore(array[i]));
+			i+=1;
 		}
 	return;
 }
