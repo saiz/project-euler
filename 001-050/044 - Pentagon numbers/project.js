@@ -43,7 +43,6 @@ function main() {
 		if(check(array,i,j)){
 			bool = false;
 		}
-		console.log(array)
 	}
 	return[array[i],array[j]];
 }
