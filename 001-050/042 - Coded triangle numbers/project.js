@@ -16,13 +16,22 @@ function t(n){
 function charcode (str){
 	return str.toLowerCase().charCodeAt(0) - "a".charCodeAt(0) +1;
 }
+function stringscore(str){
+	var i = -1,
+		sum = 0
+	while(i <str.length){
+		i+=1;
+		sum += charcode(str[i]);
+	}
+	return sum;
+}
 function main() {
 	'use strict';
 	var array = names_array(),
 		i = -1;
 		while(i<array.length){
 			i+=1;
-			console.log(array[i]);
+			console.log(stringscore(array[i]));
 		}
 	return;
 }
