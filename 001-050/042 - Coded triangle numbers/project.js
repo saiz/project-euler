@@ -1,5 +1,5 @@
 function t(n){
-	return .5 *n*(n+1);
+	return .5*n*(n+1);
 }
 function main() {
 	'use strict';
