@@ -28,7 +28,7 @@ function main() {
 		if(pandigital(str) && str.length === 9){
 			console.log(str);
 		}
-		console.log(i);
+		console.log(pandigital(str));
 		i+=1;
 	}
 	return;
