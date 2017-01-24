@@ -3,7 +3,7 @@ function d(index,last,n){
 	if(index + str.length > n){
 		return true;
 	}
-	index = str.length;
+	index = indexstr.length;
 	return false;
 }
 function main(n) {
