@@ -17,7 +17,7 @@ function main(n) {
 
 	while(i <= n){
 		if(index > Math.pow(10,power) - String(i).length){
-			console.log(i,);
+			console.log(i,index);
 			power+=1;
 			// if(d(index,i,n)){
 		}
