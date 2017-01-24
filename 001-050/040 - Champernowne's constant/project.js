@@ -16,8 +16,9 @@ function main(n) {
 		power = 0;
 
 	while(i <= n){
-		if(index + String(i).length > Math.pow(10,0)){
+		if(index + String(i).length > Math.pow(10,)){
 			console.log(index);
+
 			// if(d(index,i,n)){
 		}
 		// 	if(IsWholeNumberPower(i,10)){
