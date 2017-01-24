@@ -58,6 +58,7 @@ function main(n) {
 		arr,
 		matrix,
 		maxMatrix = [],
+		max = 0,
 		i=3;
 		while(i<n){
 			end = i;
@@ -70,11 +71,12 @@ function main(n) {
 			}
 			if(matrix.length >  maxMatrix.length){
 				maxMatrix = matrix;
+				max = i;
 			}
 			i+=1;
 		}
 		console.log(maxMatrix);
-	return maxMatrix.length;
+	return max, maxMatrix.length;
 }
 
 console.log(main(process.argv[2]));
