@@ -21,10 +21,10 @@ function check(array,a,b){
 		j = pentagonal(array,b);
 	var sum =  i + j,
 		diff = Math.abs(i - j);
-	while(sum > array.length){
+	while(sum > array.length || ){
 		array.push(p(array.length + 1));
 	}
-	while(sum > array.length){
+	while(diff > array.length){
 		array.push(p(array.length + 1));
 	}
 	if(array.indexOf(sum)>=0 && array.indexOf(diff)>=0){
