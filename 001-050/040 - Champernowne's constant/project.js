@@ -3,15 +3,11 @@ function IsWholeNumberPower(x, y){
     var  power = Math.log(x)/Math.log(y);
     return Math.floor(power) === power;
 }
-function d(index,last,n){
-	var str = String(last);
-	index[0] = index[0] + str.length;
-}
 function main(n) {
 	'use strict';
 	n = parseInt(n) || 0;
-	var i = 1,
-		index = 1,
+	var i = 2,
+		index = 2,
 		product = 1,
 		power = 0;
 
