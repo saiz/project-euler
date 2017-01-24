@@ -17,7 +17,7 @@ function d(n,i){
 		}
 		i+=1;
 	}
-	return res;
+	return parseInt(res,10);
 }
 function main(n) {
 	'use strict';
