@@ -23,7 +23,8 @@ function main(n) {
 	'use strict';
 	n = parseInt(n) || 0;
 	var i = 1,
-		arr = []		sum =1;
+		arr = [],
+		sum =1;
 		while(i <= n){
 			sum *= arr[i-1];
 			i*=10;
