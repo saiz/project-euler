@@ -20,15 +20,14 @@ function pythagoras(a,b,c){
 }
 function main() {
 	'use strict';
-	var i ='test',
-		end = 120,
+	var end = 120,
 		arr = [1,1,end -2];
 		while(next_split(arr,end)){
 			if(pythagoras(arr[0],arr[1],arr[2])){
 				console.log(arr);
 			}
 		}
-	return i;
+	return;
 }
 
 console.log(main(process.argv[2]));
