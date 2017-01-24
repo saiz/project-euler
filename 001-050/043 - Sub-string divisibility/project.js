@@ -64,7 +64,7 @@ function main(n) {
 		array = create_array(start,end),
 		prime = primeArray(end-2),
 		len = 3,
-		j, temp, bool;
+		j, temp, bool, sum = 0;
 	while( nextPerm(array)){
 		temp = array.join("");
 		bool = true;
@@ -76,10 +76,10 @@ function main(n) {
 			j+=1
 		}
 		if(bool){
-			console.log(array);
+			sum += parseInt(array.join(),10);
 		}
 	}
-	return;
+	return ;
 }
 
 
