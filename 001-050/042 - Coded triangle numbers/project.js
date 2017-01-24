@@ -9,7 +9,6 @@ function names_array(){
 	return arr;
 
 }
-
 function t(n){
 	return n/2*(n+1);
 }
