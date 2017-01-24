@@ -1,15 +1,23 @@
 function d(n,i){
-	i=1;
-	index = 0;
-	while(i < n){
-		var temp = String(i).split(""),
-			j=0;
+	i=1,
+	index = 1,
+	bool = true,
+	j,temp, res;
+	while(bool){ // i = 1 -> n
+		temp = String(i).split(""); // split i eg 1012 = 1,0,1,2
+		j=0;
 		while(j<temp.length){
-			index= temp[j];
 			j+=1;
-			i+=1;
+			index+=1;
+			if(index === n){ //compare index to final position;
+				bool = false;
+				res = temp[j];
+				j = temp.length;
+			}
 		}
+		i+=1;
 	}
+	return res;
 }
 function main(n) {
 	'use strict';
