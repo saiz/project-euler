@@ -10,7 +10,21 @@ function h(n){
 
 function main() {
 	'use strict';
-	var i ='test';
+	var bool = true,
+		a = 1,
+		b = 1,
+		c = 1;
+	while(bool){
+		if((t(c) === h(a)) && (p(c) === h(a))){
+			console.log(a,b,c);
+		}
+		if(p(b)< h(a)){
+			b+=1;
+		}
+		if(t(c)< h(a)){
+			c+=1;
+		}
+	}
 	return i;
 }
 
