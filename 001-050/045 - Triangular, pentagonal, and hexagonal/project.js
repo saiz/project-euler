@@ -18,8 +18,6 @@ function main() {
 		if((t(c) === h(a)) && (p(c) === h(a))){
 			console.log(a,b,c);
 			a+=1;
-		} else if((t(c) >= h(a)) && (p(c) >= h(a))){
-			a+=1;
 		}
 		if(p(b) < h(a)){
 			b+=1;
