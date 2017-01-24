@@ -1,6 +1,6 @@
 function d(n,i, str){
 	if(n < str.length){
-		return str[n];
+		return parseInt(str[n],10);
 	}
 	str += String(i);
 	i+=1;
@@ -10,11 +10,13 @@ function d(n,i, str){
 function main(n) {
 	'use strict';
 	n = parseInt(n) || 0;
-	var str ='',
-		i = 1;
-		d(n,i,str);
-		console.log(str);
-	return str[n];
+	var i = 1,
+		sum =1;
+		while(i < n){
+			sum *= d(i,1,'');
+			i*=10;
+		}
+	return sum;
 }
 
 console.log(main(process.argv[2]));
