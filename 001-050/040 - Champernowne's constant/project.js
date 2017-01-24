@@ -1,3 +1,8 @@
+
+function IsWholeNumberPower(x, y){
+    var  power = Math.log(x)/Math.log(y);
+    return Math.floor(power) === power;
+}
 function d(index,last,n){
 	var str = String(last);
 	if(index[0] + str.length > n){
@@ -15,7 +20,7 @@ function main(n) {
 
 	while(i <= n){
 		if(d(index,i,n)){
-			if(i > 9 && i % 10 == 0){
+			if(IsWholeNumberPower(i,10)){
 				console.log(d(index,i,n));
 			}
 		}
