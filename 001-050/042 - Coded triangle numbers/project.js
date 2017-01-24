@@ -2,7 +2,7 @@ function t(n){
 	return n/2*(n+1);
 }
 function charcode (str){
-	return str.toLowerCase() -
+	return str.toLowerCase() -"a".charCodeAt(0) - 1
 }
 function main() {
 	'use strict';
