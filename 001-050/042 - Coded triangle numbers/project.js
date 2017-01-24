@@ -19,8 +19,9 @@ function charcode (str){
 function main() {
 	'use strict';
 	var array = names_array(),
-		i = 0;
+		i = -1;
 		while(i<array.length){
+			i+=1;
 			console.log(array[i]);
 		}
 	return;
