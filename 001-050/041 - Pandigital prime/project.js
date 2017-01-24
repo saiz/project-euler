@@ -28,6 +28,7 @@ function main(n) {
 	var i = Math.pow(10,n) - 1,
 	bool = true;
 	while(i > 0 && bool){
+		console.log(i);
 		if(isPrime3(i) && pandigital(i)){
 			bool = false;
 		}
