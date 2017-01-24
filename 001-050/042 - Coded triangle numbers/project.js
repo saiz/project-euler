@@ -2,7 +2,7 @@ function t(n){
 	return n/2*(n+1);
 }
 function charcode (str){
-	return str.toL
+	return str.low
 }
 function main() {
 	'use strict';
