@@ -18,10 +18,10 @@ function main(n) {
 		str = [],
 		sum =1;
 		while(i <= n){
+			console.log(sum);
 			sum *= d(i,1,str);
 			i*=10;
 		}
-	console.log(str);
 	return sum;
 }
 
