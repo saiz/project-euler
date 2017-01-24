@@ -22,11 +22,11 @@ function pandigital(n){
 function main(n) {
 	'use strict';
 	var i =1,
-		n;
+		num;
 	while(String(i).length<=Math.floor(n/2)){
-		str = sumstring(i,n);
-		if(pandigital(str) &&( String(str).length === n)){
-			console.log(str);
+		num = sumstring(i,n);
+		if(pandigital(num) &&( String(num).length === n)){
+			console.log(num);
 		}
 		i+=1;
 	}
