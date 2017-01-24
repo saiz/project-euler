@@ -8,7 +8,7 @@ function h(n){
 	return n*(2*n -1);
 }
 function check(a){
-	if( a > 40755){
+	if( h(a) > 40755){
 		return true;
 	}
 	return false;
@@ -21,7 +21,7 @@ function main() {
 		c = 1;
 	while(bool){
 		if((t(c) === h(a)) && (p(b) === h(a))){
-			if(check(h(a))){
+			if(check(a)){
 				bool = false;
 			}
 			a+=1;
