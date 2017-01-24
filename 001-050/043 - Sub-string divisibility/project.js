@@ -15,7 +15,7 @@ function primeArray (n){
 		i=2;
 	while(array.length <n){
 		if(isPrime3(i)){
-			array.push();
+			array.push(i);
 		}
 		i+=1;
 		console.log(i);
