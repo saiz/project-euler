@@ -11,11 +11,10 @@ function main(n) {
 	'use strict';
 	n = parseInt(n) || 0;
 	var i = 1,
-
+		index = 1,
 		product = 1;
 	while(i <= n){
-
-		product *= d(i,)
+		console.log(d(index,i,n));
 	}
 	return sum;
 }
