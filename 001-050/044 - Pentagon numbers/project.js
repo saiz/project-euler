@@ -10,10 +10,27 @@ function pentagonal_array(){
 	}
 	return array;
 }
+function pentagonal(array,n){
+	while(n > array.length -1){
+		array.push(p(array.length));
+	}
+	return array[n-1];
+}
+function check(array,a,b){
+	var sum =  pentagonal(array,a) + pentagonal(array,b),
+		diff = Math.abs(pentagonal(array,a) - pentagonal(array,b));
+	if(array.indexOf(sum)>=0 && array.indexOf(diff)>=0){
+		return true;
+	}
+	return false
+}
 function main() {
 	'use strict';
-	var array = pentagonal_array();
-	console.log(array);
+	var array = pentagonal_array(),
+		i = 1, j =2;
+	while(check(array,array[i],array[j])){
+
+	}
 	return;
 }
 
