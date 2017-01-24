@@ -4,7 +4,7 @@ function p(n){
 function pentagonal_array(){
 	var array = [],
 		i = 1;
-	while(array.length < 2){
+	while(array.length < 3){
 		array.push(p(i));
 		i+=1;
 	}
