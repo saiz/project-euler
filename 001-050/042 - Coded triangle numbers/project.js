@@ -17,7 +17,7 @@ function charcode (str){
 	return str.toLowerCase().charCodeAt(0) - "a".charCodeAt(0) +1;
 }
 function stringscore(str){
-	var i = 0;,
+	var i = 0,
 		sum = 0;
 	while(i <str.length){
 		sum += charcode(str[i]);
