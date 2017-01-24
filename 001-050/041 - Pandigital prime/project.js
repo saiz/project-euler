@@ -52,10 +52,11 @@ function main(n) {
 	var array = eratosthenes(create_pandigital(n)),
 		i = array.length -1,
 		bool = true;
-	while (i > 0 && bool){
+	while (i >= 0 && bool){
 		if(pandigital(array[i])){
 			bool = false;
 		}
+
 	}
 	return array[i];
 }
