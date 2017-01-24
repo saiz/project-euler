@@ -25,9 +25,11 @@ function stringscore(str){
 	}
 	return sum;
 }
+
 function main() {
 	'use strict';
 	var array = names_array(),
+		triangle = [1],
 		i = 0;
 		while(i<array.length){
 			console.log(stringscore(array[i]));
