@@ -18,7 +18,7 @@ function eratosthenes(n) {
         array.push(true);
     }
     // Remove multiples of primes starting from 2, 3, 5,...
-    for (var` i = 2; i <= upperLimit; i++) {
+    for (var i = 2; i <= upperLimit; i++) {
         if (array[i]) {
             for (var j = i * i; j < n; j += i) {
                 array[j] = false;
