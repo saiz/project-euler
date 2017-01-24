@@ -21,7 +21,7 @@ function main() {
 		c = 1;
 	while(bool){
 		if((t(c) === h(a)) && (p(b) === h(a))){
-			if(check(a)){
+			if(check(h(a))){
 				bool = false;
 			}
 			a+=1;
