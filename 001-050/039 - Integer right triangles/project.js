@@ -73,6 +73,7 @@ function main(n) {
 			}
 			i+=1;
 		}
+vo
 	return matrix;
 }
 
