@@ -2,7 +2,7 @@ function d(n,i, str){
 	if(n < str.length){
 		return str[n];
 	}
-	str += i;
+	str += String(i);
 	i+=1;
 	return d(n, i, str);
 }
