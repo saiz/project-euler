@@ -73,13 +73,13 @@ function main(n) {
 			if(parseInt(temp.substring(j,j+len),10) % prime[j-1] !== 0 ){
 				bool = false;
 			}
-			j+=1
+			j+=1;
 		}
 		if(bool){
 			sum += parseInt(array.join(),10);
 		}
 	}
-	return ;
+	return sum;
 }
 
 
