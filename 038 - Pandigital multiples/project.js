@@ -19,13 +19,13 @@ function pandigital(n){
 	}
 	return bool;
 }
-function main() {
+function main(n) {
 	'use strict';
 	var i =1,
-		str;
-	while(String(i).length<=4){
-		str = sumstring(i,9);
-		if(pandigital(str) &&( String(str).length === 9)){
+		n;
+	while(String(i).length<=Math.floor(n/2)){
+		str = sumstring(i,n);
+		if(pandigital(str) &&( String(str).length === n)){
 			console.log(str);
 		}
 		i+=1;
