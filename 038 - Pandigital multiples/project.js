@@ -25,8 +25,8 @@ function main() {
 		str;
 	while(String(i).length<=4){
 		str = sumstring(i,9);
-		if(pandigital(str) &&( str.length === 9)){
-			console.log(str);
+		if(pandigital(str)){
+			console.log(str.length);
 		}
 		i+=1;
 	}
