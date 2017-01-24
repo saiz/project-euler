@@ -64,13 +64,20 @@ function main(n) {
 		array = create_array(start,end),
 		prime = primeArray(end-2),
 		len = 3,
-		j, temp;
+		j, temp, bool;
 	while( nextPerm(array)){
 		temp = array.join("");
-		for(j=1;j<array.length - 2; j+=1){
-			console.log(temp.substring(j,j+len));
+		bool = true;
+		j=1;
+		while(j<array.length - 2 && bool){
+			if(parseInt(temp.substring(j,j+len),10) % prime[j-1] !== 0 ){
+				bool = false;
+			}
+			j+=1
 		}
-		console.log(array);
+		if(bool){
+			console.log(array);
+		}
 	}
 	return;
 }
