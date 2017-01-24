@@ -50,15 +50,15 @@ function main(n) {
 	'use strict';
 	n = parseInt(n,10) || 0;
 	var array = eratosthenes(create_pandigital(n)),
-		i = array.length -1,
+		i = array.length,
 		bool = true;
 	while (i >= 0 && bool){
+		i-=1;
 		if(pandigital(array[i])){
 			bool = false;
 		}
-		i-=1;
 	}
-	return array[i+1];
+	return array[i];
 }
 
 console.log(main(process.argv[2]));
