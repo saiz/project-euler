@@ -33,8 +33,8 @@ function create_pandigital(n) {
 function main(n) {
 	'use strict';
 	n = parseInt(n,10) || 0;
-	var i = create_pandigital(n),.
-	bool = true;
+	var i = create_pandigital(n),
+		bool = true;
 	while(i > 0 && bool){
 		console.log(i);
 		if(isPrime3(i) && pandigital(i)){
