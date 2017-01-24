@@ -39,6 +39,7 @@ function main() {
 		}
 		console.log(i,j)
 		console.log(array[i],array[j])
+		console.log(array);
 	}
 	return[array[i],array[j]];
 }
