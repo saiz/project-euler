@@ -4,7 +4,6 @@ function d(n,i, str){
 	}
 	str += String(i);
 	i+=1;
-	console.log(str);
 	return d(n, i, str);
 }
 function main(n) {
@@ -14,7 +13,6 @@ function main(n) {
 		sum =1;
 		while(i <= n){
 			sum *= d(i,1,'');
-			console.log('||',sum);
 			i*=10;
 		}
 	return sum;
