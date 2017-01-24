@@ -40,6 +40,7 @@ function main() {
 		triangle = [1],
 		i = 0;
 		while(i<array.length){
+if(test_triangle())
 			console.log(stringscore(array[i]));
 			i+=1;
 		}
