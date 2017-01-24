@@ -23,15 +23,16 @@ function main(n) {
 	'use strict';
 	n = parseInt(n,10);
 	var i =1,
+		array = [],
 		num;
 	while(String(i).length<=Math.floor(n/2)){
 		num = sumstring(i,n);
 		if(pandigital(num) &&( String(num).length === n)){
-			console.log(num);
+			array.push(num);
 		}
 		i+=1;
 	}
-	return;
+	return Math.max(array);
 }
 
 console.log(main(process.argv[2]));
