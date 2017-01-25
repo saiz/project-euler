@@ -1,5 +1,5 @@
 function n_n(n){
-	var result = []
+	var result = [];
 }
 function main(n) {
 	'use strict';
