@@ -30,6 +30,7 @@ function main(n) {
 		if(isPrime3(i)){
 			prime.push(i);
 		}
+		console.log(pr)
 		if(prime_factors(prime,i).length === n){
 			count +=1;
 		}else{
