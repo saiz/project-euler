@@ -96,10 +96,10 @@ function main() {
 		//console.log(comb);
 		while(i>= 0){
 			console.log(comb[i]);
-			// temp = other_perm(comb[i],comb).sort();
-			// if(temp.length >3){
-			// 	console.log(temp)
-			// }
+			temp = other_perm(comb[i],comb).sort();
+			if(temp.length >3){
+				console.log(temp)
+			}
 			i-=1;
 		}
 	return;
