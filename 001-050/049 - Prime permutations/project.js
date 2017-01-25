@@ -38,7 +38,7 @@ function other_perm(str, array){
 	}
 	while( nextPerm(perm)){
 		copy = parseInt(perm.join(''),10);
-		!isPrime3(copy){
+		if(isPrime3(copy)){
 			result.push(copy);
 		}
 	}
