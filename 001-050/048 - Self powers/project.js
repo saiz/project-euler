@@ -14,11 +14,11 @@ function n_n(n){
 		res = [];
 		while(j < total.length){ // split total by index
 			temp = total[j] * n;
-			k=0;
 			if(temp === 0){
 				res[j] = 0;
 			}
 			else{
+				k=0;
 				while( temp > 0){
 					if(res[j+k] === undefined){
 						res[j+k] = 0;
