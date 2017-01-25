@@ -113,11 +113,11 @@ function main() {
 			i=Math.pow(10,3);
 		while(i<Math.pow(10,4)){
 			temp = other_perm(i);
-			if(temp[0]=== i){
+			if(temp[0] === i){
 				prim_list(temp);
 				array = increasing_Numbers(temp);
 				if(array.length > 0){
-					console.log(temp,array);
+					console.log(temp,array, i);
 				}
 			}
 			i+=1;
