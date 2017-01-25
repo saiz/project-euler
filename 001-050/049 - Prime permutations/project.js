@@ -26,17 +26,17 @@ function nextPerm(array){
 }
 function other_perm(str, array){
 	var perm = String(str).split(""),
-		count = 1,
 		i=0, result=[];
 	while(i<perm.length){
 		perm[i] =parseInt(perm[i],10);
 		i+=1;
 	}
 	result.push(parseInt(perm.join(''),10));
+	array.splice(array.indexOf(parseInt(perm.join(''),10)), 1);
 	while( nextPerm(perm)){
 		if(array.indexOf(parseInt(perm.join(''),10)) >= 0){
 			result.push(parseInt(perm.join(''),10));
-			count+=1;
+			array.splice(array.indexOf(parseInt(perm.join(''),10)), 1);
 		}
 	}
 	return result;
