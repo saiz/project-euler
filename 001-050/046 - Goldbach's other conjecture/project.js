@@ -28,8 +28,7 @@ function goldbach(array,n){
 		i+=1;
 		math = Math.sqrt((n - array[i])/2);
 		console.log(math);
-		if(num % 1 != 0)
-			bool = true;
+		if(num % 1 != 0){			bool = true;
 		}
 	}
 	return bool;
