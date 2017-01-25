@@ -1,5 +1,5 @@
 function n_n(n){
-wh
+	var
 }
 function main(n) {
 	'use strict';
