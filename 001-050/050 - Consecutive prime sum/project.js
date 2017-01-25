@@ -72,7 +72,7 @@ function main() {
 		sum=[0];
 		i=0;
 	while(i<prime.length){
-		sum.pu
+		sum.push(sum.length)
 		console.log(prime[i]);
 		i+=1;
 	}
