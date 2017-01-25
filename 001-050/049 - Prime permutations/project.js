@@ -85,10 +85,12 @@ function main() {
 			}
 			i-=1;
 		}
+		var perm;
 		for(i=0;i<array.length;i+=1){
+			perm = String(array[i]).split("");
 			while( nextPerm(perm)){
-				if(array.indexOf(perm.join('')) >= 0){
-					count+=1;
+				if(array.indexOf(parseInt(perm.join(''),10)) < 0){
+					array.push(parseInt(perm.join(''),10))
 				}
 			}
 		}
