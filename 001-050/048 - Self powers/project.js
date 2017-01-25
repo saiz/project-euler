@@ -38,7 +38,7 @@ function main(n) {
 	t = n_n(100);
 	while(m < t.length){
 		console.log(m[t]);
-		t+=1;
+		m+=1;
 	}
 
 
