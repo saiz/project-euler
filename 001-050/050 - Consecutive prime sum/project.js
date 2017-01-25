@@ -27,6 +27,12 @@ function check_prime(n,array,sum){
 	}
 	return false;
 }
+function prime_length(num,sum){
+	if(sum.index(num)>-1){
+		return sum.index(num);
+	}
+	var i =0;
+}
 function main() {
 	'use strict';
 	var prime =[2,3],
@@ -34,7 +40,7 @@ function main() {
 		i=5;
 	while(i<Math.pow(10,6)){
 		if(check_prime(i,prime, sum)){
-			console.log(i);
+			console.log(i,sum[sum.length -1]);
 		}
 		i+=2;
 	}
