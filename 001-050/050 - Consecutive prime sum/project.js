@@ -46,11 +46,15 @@ function main() {
 	'use strict';
 	var prime =[2,3],
 		sum = [0,2,5],
-		i=5, length;
+		i=5, length =0 , max, maxprime;
 	while(i<Math.pow(10,6)){
 		if(check_prime(i,prime, sum)){
 			length = prime_length(i,sum);
-			console.log(length, i);
+			if(length > max){
+				max = length
+				maxprime  =i;
+				console.log(length, i);
+			}
 		}
 		i+=2;
 	}
