@@ -26,7 +26,7 @@ function endindex(n,sums){
 	if(sums.indexOf(n)> -1){
 		return sums.indexOf(n);
 	}
-	while(sums[i]< n){
+	while(sums[i] < n){
 		i+=1
 	}
 	return i -1;
