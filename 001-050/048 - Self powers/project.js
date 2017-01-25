@@ -26,7 +26,6 @@ function n_n(n){
 			}
 			j+=1;
 		}
-		console.log(res);
 		total = res.slice(0);
 		i+=1;
 	}
