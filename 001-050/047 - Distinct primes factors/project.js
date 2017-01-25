@@ -21,7 +21,7 @@ function prime_factors(prime,n){
 	}
 	return array;
 }
-function main() {
+function main(n) {
 	'use strict';
 	var prime = [],
 		i =2,
