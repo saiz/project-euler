@@ -1,20 +1,22 @@
 function n_n(n){
 	var total = [],
 		i =0,
-		j, k, temp;
+		j, k, temp, res,
 		total = String(n).split("");
 	while(i < total.length){ //inital
 		total[i] = parseInt(total[i],10);
 		i+=1;
 	}
 	i=0;
+
 	while(i < n -1){ // do this n times
 		j = 0;
+		res = [];
 		while(j < total.length){ // split total by index
 			temp = total[j] * n;
 			k=0;
 			while( temp > 0){
-
+				res[]
 				k+=1;
 			}
 			j+=1;
