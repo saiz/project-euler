@@ -31,7 +31,7 @@ function main() {
 		i=5;
 	while(i<Math.pow(10,6)){
 		check_prime(i,prime, sum);
-		console.log(prime)
+		console.log(prime.length);
 		i+=2;
 	}
 	console.log(prime);
