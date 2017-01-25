@@ -119,7 +119,7 @@ function main() {
 			array = increasing_Numbers(temp);
 			if(array[0]=== i && array.length > 0){
 				if(array[0]!==1487){
-					res = array
+					res = array;
 				}
 			}
 			i+=1;
