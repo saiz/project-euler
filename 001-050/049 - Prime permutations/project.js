@@ -85,6 +85,13 @@ function main() {
 			}
 			i-=1;
 		}
+		for(i=0;i<array.length;i+=1){
+			while( nextPerm(perm)){
+				if(array.indexOf(perm.join('')) >= 0){
+					count+=1;
+				}
+			}
+		}
 		i=comb.length -1;
 		console.log(comb);
 		while(i>= 0){
