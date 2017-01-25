@@ -33,7 +33,7 @@ function create_array(start,end){
 	}
 	return array;
 }
-function main(start, end, goal) {
+function main() {
 	'use strict';
 	var start = 1,
 		end = 4,
