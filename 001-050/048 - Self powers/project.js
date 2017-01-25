@@ -37,15 +37,6 @@ function n_n(n){
 function main(n) {
 	'use strict';
 	n = parseInt(n,10);
-	var m = 0, t;
-	t = n_n(10);
-	while(m < t.length){
-		console.log(t[m]);
-		m+=1;
-	}
-
-
-
 	var i = 1,
 		j,
 		k,
