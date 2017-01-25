@@ -40,7 +40,7 @@ function main() {
 		i=5;
 	while(i<Math.pow(10,6)){
 		if(check_prime(i,prime, sum)){
-			console.log(i,sum[sum.length -1]);
+			console.log(i,prime[prime.length -1],sum[sum.length -1]);
 		}
 		i+=2;
 	}
