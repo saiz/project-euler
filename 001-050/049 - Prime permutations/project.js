@@ -24,6 +24,15 @@ function nextPerm(array){
     }
     return true;
 }
+function number_of_perm(str, array){
+	count = 1;
+	while( nextPerm(str)){
+		if(array.indexOf(str) >=0){
+			count+=1;
+		}
+	}
+	return count;
+}
 function getCombinations(chars) {
   var result = [];
   var f = function(prefix, chars) {
@@ -71,11 +80,6 @@ function main() {
 			i-=1;
 		}
 		console.log(comb);
-	// while( nextPerm(array)){
-	// 	if(isPrime3(parseInt(array.join(""),10))){
-	// 		console.log(array);
-	// 	}
-	// }
 	return;
 }
 
