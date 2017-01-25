@@ -7,8 +7,8 @@ function n_n(n){
 		total[i] = parseInt(total[i],10);
 		i+=1;
 	}
-	i=0;
 
+	i=0;
 	while(i < n -1){ // do this n times
 		j = 0;
 		res = [];
