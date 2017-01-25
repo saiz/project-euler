@@ -31,6 +31,7 @@ function n_n(n){
 			}
 			j+=1;
 		}
+		while()
 		console.log(res);
 		total = res.slice(0,10);
 
