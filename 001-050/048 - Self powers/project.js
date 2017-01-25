@@ -54,7 +54,7 @@ function main(n) {
 					result[j] = 0;
 				}
 				temp = result[j]+num[j];
-				k=0;()
+				k=0;
 				while( temp > 0){
 					result[j+k] = temp%10;
 					temp -= temp%10;
