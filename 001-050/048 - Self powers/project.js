@@ -46,7 +46,7 @@ function main(n) {
 		bool = true;
 		while( i <= n){ // 1 -> 1000
 			num = n_n(i).reverse();
-			console.log(num);
+			console.log(num.reverse);
 			j=0;
 			bool = true;
 			while(j<num.length){
@@ -65,7 +65,7 @@ function main(n) {
 			}
 			i+=1;
 		}
-		return result.reverse().join('').slice(0,10);;
+		return result.reverse().join('').slice(0,10);
 	}
 
 console.log(main(process.argv[2]));
