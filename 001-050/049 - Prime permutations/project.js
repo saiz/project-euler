@@ -86,16 +86,16 @@ function main() {
 			i-=1;
 		}
 		var perm;
-		for(i=0;i<array.length;i+=1){
-			perm = String(array[i]).split("");
+		for(i=0;i<comb.length;i+=1){
+			perm = String(comb[i]).split("");
 			while( nextPerm(perm)){
-				if(array.indexOf(parseInt(perm.join(''),10)) < 0){
-					array.push(parseInt(perm.join(''),10));
+				if(comb.indexOf(parseInt(perm.join(''),10)) < 0){
+					comb.push(parseInt(perm.join(''),10));
 				}
 			}
 		}
 		i=comb.length -1;
-		console.log(comb);
+		console.log(comb.length);
 		// while(i>= 0){
 		// 	console.log(comb[i], number_of_perm(comb[i],comb));
 		// 	i-=1;
