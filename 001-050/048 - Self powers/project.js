@@ -44,11 +44,11 @@ function main(n) {
 		num,
 		result = [],
 		bool = true;
-		while( i <= n){
+		while( i <= n){ // 1 -> 1000
 			num = n_n(i).reverse();
 			j=0;
 			bool = true;
-			while(j<num.length && bool){
+			while(j<num.length){
 				if(result[j] === undefined){
 					result[j] = 0;
 				}
@@ -61,9 +61,6 @@ function main(n) {
 					k+=1;
 				}
 				j+=1;
-				if(j === 11){
-					bool = false;
-				}
 			}
 			i+=1;
 		}
