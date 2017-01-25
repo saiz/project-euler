@@ -42,7 +42,7 @@ function main(n) {
 		i+=1;
 	}
 	num = i - count -1;
-	for(i=num;i<num +count+=1){
+	for(i=num;i<num;i+=1){
 		result.push(i);
 	}
 	return result;
