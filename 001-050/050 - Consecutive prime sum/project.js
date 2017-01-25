@@ -49,7 +49,6 @@ function main() {
 	i=0;
 	while(i<prime.length){//sum slieve
 		end = endindex(prime[i],sum);
-		console.log("prime: " + prime[i], ",end: " + sum[end]);
 		if(sum[end] === prime[i]){
 			length = end;
 		} else{
