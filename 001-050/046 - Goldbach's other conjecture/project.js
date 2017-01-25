@@ -23,12 +23,13 @@ function nextprime(n){
 function goldbach(array,n){
 	var i = -1,
 	bool = false;
-	while(i < array.length && !bool){
+	while(i < array.length -1 && !bool){
 		i+=1;
 		if(Math.sqrt(n - array[i]) === 0){
 			bool = true;
 		}
 	}
+	return bool;
 }
 function main() {
 	'use strict';
@@ -38,6 +39,8 @@ function main() {
 	while(bool){
 		if(isPrime3(i)){
 			prime.push(i);
+		} else if (goldbach(prime,i)){
+			console.log(i);
 		}
 
 		i+=1;
