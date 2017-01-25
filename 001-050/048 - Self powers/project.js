@@ -42,14 +42,12 @@ function main(n) {
 		result = [];
 		while( i <= n){
 			num = n_n(i).reverse();
-			console.log('num',num);
 			j=0;
 			while(j<num.length){
 				if(result[j] === undefined){
 					result[j] = 0;
 				}
 				temp = result[j]+num[j];
-				console.log('t',temp,result)
 				k=0;
 				while( temp > 0){
 					result[j+k] = temp%10;
