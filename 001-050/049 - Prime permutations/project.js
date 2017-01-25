@@ -78,7 +78,7 @@ function main() {
 		comb = getCombinations(array),
 		i=comb.length -1;
 		while(i>= 0){
-			if(comb[i].length !== 4 || !isPrime3(parseInt(comb[i],10))){
+			if(comb[i].length !== 4){
 				comb.splice(i, 1);
 			} else {
 				comb[i] =parseInt(comb[i],10);
