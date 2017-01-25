@@ -1,14 +1,19 @@
 function n_n(n){
-	var result = [1],
+	var total = [],
 		i =0,
 		j, k, temp;
-	while(i <n){
-		j =0;
-		while(j < result.length){
-			temp = result[j] * n;
+		total = String(n).split("");
+	while(i < total.length){ //inital
+		total[i] = parseInt(total[i],10);
+		i+=1;
+	}
+	i=0;
+	while(i < n -1){ // do this n times
+		j = 0;
+		while(j < total.length){ // split total by index
+			temp = total[j] * n;
 			k=0;
 			while( k < temp.length){
-
 				k+=1;
 			}
 			j+=1;
