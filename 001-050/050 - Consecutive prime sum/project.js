@@ -44,7 +44,7 @@ function main() {
 	var end;
 	i=0;
 	while(i<prime.length){//sum slieve
-		end = endindex(i,sums);
+		end = endindex(i,sum);
 		console.log(end);
 
 		i+=1;
