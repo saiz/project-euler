@@ -15,7 +15,7 @@ function prime_factors(prime,n){
 		i =0;
 		console.log(prime)
 	while(prime[i] <= Math.sqrt(n)){
-		if(n%prime[i]){
+		if(n%prime[i] === 0){
 			array.push(prime[i]);
 		}
 		i+=1;
