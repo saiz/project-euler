@@ -26,7 +26,7 @@ function n_n(n){
 		total = res.slice(0);
 		i+=1;
 	}
-	return result;
+	return total.reverse();
 }
 function main(n) {
 	'use strict';
