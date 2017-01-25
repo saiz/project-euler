@@ -16,7 +16,10 @@ function n_n(n){
 			temp = total[j] * n;
 			k=0;
 			while( temp > 0){
-				res[j+k] = temp%10;
+				if(res[j+k] == undefined){
+					res[j+k] = 0;
+				}
+				res[j+k] += temp%10;
 				temp -= temp%10;
 				temp /=10;
 				k+=1;
