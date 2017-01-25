@@ -62,7 +62,7 @@ function main() {
 		array = create_array(start,9),
 		comb = getCombinations(array),
 		i=comb.length -1;
-		while(i> 0){
+		while(i>= 0){
 			if(comb[i].length !== 4){
 				comb.splice(i, 1);
 			}
