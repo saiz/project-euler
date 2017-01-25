@@ -22,13 +22,13 @@ function nextprime(n){
 }
 function goldbach(prime,n){
 	var i = 0,
-	bool = tr,
+	bool = true,
 	num = 0;
 	while(num < 1 && bool){
 		num = Math.sqrt((n - prime[i])/2);
 		//console.log(num);
 		if(num % 1 === 0){
-			bool = true;
+			bool = false;
 			console.log(num);
 		}
 		i+=1;
