@@ -27,6 +27,8 @@ function main(n) {
 	var prime = [],
 		i =2,
 		count = 0;
+		result = [],
+		num;
 	while(count < n){
 		if(isPrime3(i)){
 			prime.push(i);
@@ -39,7 +41,11 @@ function main(n) {
 		}
 		i+=1;
 	}
-	return i - count;
+	num = i - count -1;
+	for(i=num;i<num +count+=1){
+		result.push(i);
+	}
+	return result;
 }
 
 console.log(main(process.argv[2]));
