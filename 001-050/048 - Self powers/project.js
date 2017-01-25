@@ -54,7 +54,7 @@ function main(n) {
 	    temp = i;
 	    for (j = 1; j < i; j+=1) {
 	        temp *= i;
-	        if (temp >= Math.pow(2, 53) - 1 / 1000) {
+	        if (temp >= modulo) {
 	            temp %= modulo;
 	        }
 	    }
