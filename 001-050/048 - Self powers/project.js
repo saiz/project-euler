@@ -64,7 +64,7 @@ function main(n) {
 			}
 			i+=1;
 		}
-		return result.reverse().join('');
+		return result.reverse().join('').slice(0,11);;
 	}
 
 console.log(main(process.argv[2]));
