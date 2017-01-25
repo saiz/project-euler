@@ -29,7 +29,7 @@ function check_prime(n,array,sum){
 }
 function prime_length(num,sum){
 	if(sum.indexOf(num)>-1){
-		return sum.index(num);
+		return sum.indexOf(num);
 	}
 	var i =0,
 		bool =true;
