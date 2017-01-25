@@ -1,7 +1,7 @@
 function n_n(n){
 	var total = [],
 		i =0,
-		j, k, temp, res;
+		j, k, temp, res, rem;
 		total = String(n).split("");
 	while(i < total.length){ //inital
 		total[i] = parseInt(total[i],10);
@@ -15,6 +15,9 @@ function n_n(n){
 		while(j < total.length){ // split total by index
 			temp = total[j] * n;
 			k=0;
+			if(temp === 0){
+				res[j] = 0;
+			}
 			while( temp > 0){
 				if(res[j+k] === undefined){
 					res[j+k] = 0;
