@@ -59,7 +59,7 @@ function main(n) {
 			}
 			i+=1;
 		}
-		return result;
+		return result.reverse().joinm;
 	}
 
 console.log(main(process.argv[2]));
