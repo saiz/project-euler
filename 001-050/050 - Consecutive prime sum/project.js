@@ -11,7 +11,7 @@ function isPrime3(n) {
 	return true;
 }
 function next_prim(array){
-	var i = array[array.length -1];
+	var i = array[array.length -1] +1;
 	console.log('i',i)
 	while(!isPrime3(i)){
 		i+=2;
