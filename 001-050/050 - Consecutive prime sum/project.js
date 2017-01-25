@@ -10,6 +10,29 @@ function isPrime3(n) {
 	}
 	return true;
 }
+function eratosthenes(n) {
+    // Eratosthenes algorithm to find all primes under n
+    var array = [], upperLimit = Math.sqrt(n), output = [];
+    // Make an array from 2 to (n - 1)
+    for (var i = 0; i < n; i++) {
+        array.push(true);
+    }
+    // Remove multiples of primes starting from 2, 3, 5,...
+    for (var i = 2; i <= upperLimit; i++) {
+        if (array[i]) {
+            for (var j = i * i; j < n; j += i) {
+                array[j] = false;
+            }
+        }
+    }
+    // All array[i] set to true are primes
+    for (var i = 2; i < n; i++) {
+        if(array[i]) {
+            output.push(i);
+        }
+    }
+    return output;
+}
 function next_prim(array){
 	var i = array[array.length -1] +2;
 	while(!isPrime3(i)){
@@ -44,19 +67,11 @@ function prime_length(num,sum){
 }
 function main() {
 	'use strict';
-	var prime =[2,3],
-		sum = [0,2,5],
-		i=5, length =0 , max=0, maxprime;
-	while(i<Math.pow(10,6)){
-		if(check_prime(i,prime, sum)){
-			length = prime_length(i,sum);
-			if(length > max){
-				max = length;
-				maxprime  =i;
-				console.log(max, maxprime);
-			}
-		}
-		i+=2;
+	var end = Math.pow(10,6),
+		prime = eratosthenes(end);
+	while(i<prime.length){
+		console.log(prime[i]);
+		i+=1;
 	}
 	return;
 }
