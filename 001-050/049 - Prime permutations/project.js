@@ -31,7 +31,7 @@ function other_perm(str, array){
 		perm[i] =parseInt(perm[i],10);
 		i+=1;
 	}
-	copy = parseInt(perm.splice(0).join(''),10);
+	copy = parseInt(perm.join(''),10);
 	result.push(copy);
 	array.splice(copy);
 	while( nextPerm(perm)){
