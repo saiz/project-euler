@@ -44,6 +44,8 @@ function main() {
 		} else if (i%2===1){
 			if(!goldbach(prime,i)){
 				console.log(i);
+			} else{
+				console.log(i);
 			}
 		}
 		i+=1;
