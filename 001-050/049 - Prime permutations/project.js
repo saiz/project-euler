@@ -103,11 +103,10 @@ function main() {
 			}
 			i-=1;
 		}
-		comb.sort();
 		console.log(comb);
 		i=comb.length -1;
 		while(i>= 0){
-			console.log(other_perm(comb[i],comb));
+			console.log(other_perm(comb[i],comb).sort());
 			i-=1;
 		}
 	return;
