@@ -28,6 +28,7 @@ function goldbach(prime,n){
 		num = Math.sqrt((n - prime[i])/2);
 		if(num % 1 === 0){
 			bool = true;
+			console.log(num);
 		}
 		i+=1;
 	}
