@@ -20,16 +20,16 @@ function nextprime(n){
 	}
 	return n;
 }
-function goldbach(array,n){
-	var i = -1,
+function goldbach(prime,n){
+	var i = 0,
 	bool = false,
 	num;
-	while(i < array.length -1 && !bool){
-		i+=1;
-		num = Math.sqrt((n - array[i])/2);
+	while(i < prime.length && !bool){
+		num = Math.sqrt((n - prime[i])/2);
 		if(num % 1 != 0){
 			bool = true;
 		}
+		i+=1;
 	}
 	return bool;
 }
