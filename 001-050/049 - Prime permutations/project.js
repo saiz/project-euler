@@ -24,7 +24,7 @@ function nextPerm(array){
     }
     return true;
 }
-function other_perm(str, array){
+function other_perm(str){
 	var perm = String(str).split(""),
 		i=0, result=[], copy;
 	while(i<perm.length){
@@ -32,10 +32,7 @@ function other_perm(str, array){
 		i+=1;
 	}
 	copy = parseInt(perm.join(''),10);
-	if (array.indexOf(copy) > -1) {
-		result.push(copy);
-	    array.splice(array.indexOf(copy), 1);
-	}
+	result.push(copy);
 	while( nextPerm(perm)){
 		copy = parseInt(perm.join(''),10);
 		if(isPrime3(copy)){
@@ -113,28 +110,17 @@ function main() {
 	'use strict';
 	var start = 1,
 		end = 4,
-		array = create_array(start,9),
-		comb = getCombinations(array),
-		i=comb.length -1;
-		while(i>= 0){
-			if(comb[i].length !== 4){
-				comb.splice(i, 1);
-			} else {
-				comb[i] =parseInt(comb[i],10);
-			}
-			i-=1;
-		}
-		i=comb.length -1;
-		var temp;
-		//console.log(comb);
-		while(i>= 0){
-			temp = other_perm(comb[i],comb);
+		array = create_array(start,9);
+		var temp,
+			i=Math.pow(10,3);
+		while(i<Math.pow(10,4)){
+			temp = other_perm(i);
 			prim_list(temp);
 			temp.sort();
 			if(temp.length > 0){
 				console.log(temp,increasing_Numbers(temp));
 			}
-			i-=1;
+			i+=1;
 		}
 	return;
 }
