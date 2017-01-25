@@ -22,7 +22,7 @@ function nextprime(n){
 }
 function goldbach(prime,n){
 	var i = 0,
-	bool = false,
+	bool = tr,
 	num = 0;
 	while(num < 1 && bool){
 		num = Math.sqrt((n - prime[i])/2);
