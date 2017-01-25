@@ -32,12 +32,12 @@ function other_perm(str, array){
 		i+=1;
 	}
 	copy = parseInt(perm.splice(0).join(''),10);
-	console.log(copy);
 	result.push(copy);
 	array.splice(copy);
 	while( nextPerm(perm)){
 		if(array.indexOf(parseInt(perm.join(''),10)) >= 0){
 			copy = parseInt(perm.splice(0).join(''),10);
+				console.log(copy);
 			result.push(copy);
 			array.splice(copy);
 		}
