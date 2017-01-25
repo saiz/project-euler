@@ -10,17 +10,18 @@ function isPrime3(n) {
 	}
 	return true;
 }
-function nextprime(n,i){
-	var m=Math.sqrt(n);
-	for (i;i<=m;i+=6) {
-		if (n%i===0)     {return false;}
-		if (n%(i+2)===0) {return false;}
+function nextprime(n){
+	var bool = true;
+	while(bool){
+		n+=1;
+		if(isPrime3(n)){
+			bool = false;
+		}
 	}
+	return n;
 }
 function goldbach(array,n){
-	if(n > array[array.length -1]){
-
-	}
+	if()
 }
 function main() {
 	'use strict';
