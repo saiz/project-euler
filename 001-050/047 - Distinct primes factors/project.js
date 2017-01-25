@@ -23,6 +23,7 @@ function prime_factors(prime,n){
 }
 function main(n) {
 	'use strict';
+	n = parseInt(n,10);
 	var prime = [],
 		i =2,
 		count = 0;
