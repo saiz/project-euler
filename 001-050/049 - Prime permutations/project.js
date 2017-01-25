@@ -42,6 +42,7 @@ function other_perm(str, array){
 			array.splice(copy);
 		}
 	}
+	console.log(result);
 	return result;
 }
 function getCombinations(chars) {
