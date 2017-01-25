@@ -59,7 +59,7 @@ function main(n) {
 			}
 			i+=1;
 		}
-		co
+		console.log(result)
 		return result.reverse().join('');
 	}
 
