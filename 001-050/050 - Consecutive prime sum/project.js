@@ -26,7 +26,7 @@ function endindex(n,sums){
 	if(sums.indexOf(n)> -1){
 		return sums.indexOf(n);
 	}
-	while(sums[i]<= n){
+	while(sums[i]< n){
 		i+=1
 	}
 	return i -1;
@@ -45,7 +45,7 @@ function main() {
 	i=0;
 	while(i<prime.length){//sum slieve
 		end = endindex(prime[i],sum);
-		console.log(prime[i],sum[end]);
+		console.log("prime" + prime[i],sum[end]);
 
 		i+=1;
 	}
