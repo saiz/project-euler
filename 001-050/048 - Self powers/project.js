@@ -46,36 +46,22 @@ function n_n(n){
 }
 function main(n) {
 	'use strict';
-	n = parseInt(n,10);
-	var i = 1,
-		j,
-		k,
-		temp,
-		num,
-		result = [],
-		bool = true;
-		while( i <= n){ // 1 -> 1000
-			num = n_n(i).reverse();
-			//console.log(num.reverse());
-			j=0;
-			bool = true;
-			while(j<num.length){
-				if(result[j] === undefined){
-					result[j] = 0;
-				}
-				temp = result[j]+num[j];
-				k=0;
-				while( temp > 0){
-					result[j+k] = temp%10;
-					temp -= temp%10;
-					temp /=10;
-					k+=1;
-				}
-				j+=1;
-			}
-			i+=1;
-		}
-		return result.slice(0,10).reverse().join('');
+	var result = 0,
+		modulo = 10000000000,
+		i,j, temp;
+
+	for (i = 1; i <= 1000; i+=1) {
+	    temp = i;
+	    for (j = 1; j < i; j+=1) {
+	        temp *= i;
+	        if (temp >= Math.pow(2, 53) - 1 / 1000) {
+	            temp %= modulo;
+	        }
+	    }
+
+	    result += temp;
+	    result %= modulo;
+	}
 	}
 
 console.log(main(process.argv[2]));
