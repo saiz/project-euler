@@ -2,7 +2,7 @@ function main(n) {
 	'use strict';
 	n= parseInt(n,10);
 	var result = 0,
-		modulo = 10000000000,
+		modulo = Math.pow(10,10),
 		i,j, temp;
 	for (i = 1; i <= n; i+=1) {
 	    temp = i;
