@@ -81,7 +81,7 @@ function prim_list(array){
 		if(!isPrime3(array[i])){
 			array.splice(i,1);
 		}
-		i+=1;
+		i-=1;
 	}
 }
 function main() {
