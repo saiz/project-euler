@@ -31,7 +31,16 @@ function prime_length(num,sum){
 	if(sum.index(num)>-1){
 		return sum.index(num);
 	}
-	var i =0;
+	var i =0,
+		bool =true;
+	while(i<sum.length && bool){
+		if(sum[sum.length-1] - sum[i] === num){
+			bool =false;
+		}
+		i+=1;
+	}
+	i-=1;
+	return sum.length - i;
 }
 function main() {
 	'use strict';
@@ -46,8 +55,6 @@ function main() {
 	}
 	console.log(prime);
 	console.log(sum);
-
-
 	return;
 }
 
