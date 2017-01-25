@@ -18,14 +18,16 @@ function n_n(n){
 			if(temp === 0){
 				res[j] = 0;
 			}
-			while( temp > 0){
-				if(res[j+k] === undefined){
-					res[j+k] = 0;
+			else{
+				while( temp > 0){
+					if(res[j+k] === undefined){
+						res[j+k] = 0;
+					}
+					res[j+k] += temp%10;
+					temp -= temp%10;
+					temp /=10;
+					k+=1;
 				}
-				res[j+k] += temp%10;
-				temp -= temp%10;
-				temp /=10;
-				k+=1;
 			}
 			j+=1;
 		}
