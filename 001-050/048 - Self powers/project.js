@@ -75,7 +75,7 @@ function main(n) {
 			}
 			i+=1;
 		}
-		return result.slice(0,11).reverse().join('');
+		return result.slice(0,10).reverse().join('');
 	}
 
 console.log(main(process.argv[2]));
