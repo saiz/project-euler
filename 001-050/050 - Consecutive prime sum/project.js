@@ -35,7 +35,7 @@ function main() {
 	'use strict';
 	var end = Math.pow(10,6),
 		prime = eratosthenes(end),
-		sum=[0],
+		sum=[],
 		i=0;
 	while(i<prime.length){//sum slieve
 		sum.push(sum[sum.length-1] + prime[i]);
