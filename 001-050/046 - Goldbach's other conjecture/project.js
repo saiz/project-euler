@@ -44,11 +44,12 @@ function main() {
 		} else if (i%2===1){
 			if(!goldbach(prime,i)){
 				console.log(i);
+				bool = false
 			}
 		}
 		i+=1;
 	}
-	return;
+	return i -1;
 }
 
 console.log(main(process.argv[2]));
