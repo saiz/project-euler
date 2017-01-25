@@ -20,7 +20,7 @@ function next_prim(array){
 function check_prime(n,array,sum){
 	while(n >array.length){
 		array.push(next_prim(array));
-		sum.push(array[array.length-1] + array[array.length-2]);
+		sum.push(sum[sum.length-1] + sum[array.length-1]);
 	}
 	return array[n -1];
 }
