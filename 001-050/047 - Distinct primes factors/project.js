@@ -32,6 +32,8 @@ function main(n) {
 		}
 		if(prime_factors(i).length === n){
 			count +=1;
+		}else{
+
 		}
 
 		i+=1;
