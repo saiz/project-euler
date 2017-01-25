@@ -64,7 +64,7 @@ function main() {
 		i=comb.length -1;
 		while(i> 0){
 			if(comb[i].length !== 4){
-
+				comb.splice(index, 1);
 			}
 		}
 		console.log(comb);
