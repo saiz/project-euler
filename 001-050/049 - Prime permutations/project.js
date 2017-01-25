@@ -90,15 +90,6 @@ function main() {
 			}
 			i-=1;
 		}
-		var perm;
-		for(i=0;i<comb.length;i+=1){
-			perm = String(comb[i]).split("");
-			while( nextPerm(perm)){
-				if(comb.indexOf(parseInt(perm.join(''),10)) < 0){
-					comb.push(parseInt(perm.join(''),10));
-				}
-			}
-		}
 		i=comb.length -1;
 		while(i>= 0){
 			if(!isPrime3(comb[i])){
