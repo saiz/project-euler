@@ -22,10 +22,10 @@ function eratosthenes(n) {
     return output;
 }
 function endindex(n,sums){
-	var i=0;
 	if(sums.indexOf(n) > -1){
 		return sums.indexOf(n);
 	}
+	var i=0;
 	while(sums[i] < n){
 		i+=1;
 	}
