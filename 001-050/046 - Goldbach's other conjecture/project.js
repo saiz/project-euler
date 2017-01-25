@@ -38,7 +38,7 @@ function main() {
 	'use strict';
 	var i =2,
 		bool= true,
-		prime = [2];
+		prime = [];
 	while(bool){
 		if(isPrime3(i)){
 			prime.push(i);
