@@ -30,6 +30,7 @@ function number_of_perm(str, array){
 		i=0;
 	while(i<perm.length){
 		perm[i] =parseInt(perm[i],10);
+		i+=1;
 	}
 	while( nextPerm(perm)){
 		if(array.indexOf(parseInt(perm.join(''),10)) >=0){
