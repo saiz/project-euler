@@ -35,19 +35,13 @@ function create_array(start,end){
 }
 function main(start, end, goal) {
 	'use strict';
-	start = parseInt(start,10);
-	end = parseInt(end,10);
-	goal = parseInt(goal,10);
-	var array = create_array(start,end),
-		count = 1;
+	var start = 1,
+		end = 4;,
+		array = create_array(start,end);
 	while( nextPerm(array)){
-		count+=1;
-		if(goal === count){
-			return array.join("");
-		}
+		console.log(array);
 	}
-	array = [];
-	return array.join("");
+	return;
 }
 
 console.log(main(process.argv[2]));
