@@ -33,12 +33,12 @@ function other_perm(str, array){
 	}
 	copy = parseInt(perm.join(''),10);
 	result.push(copy);
-	array.splice(copy, 1);
+	array.splice(array.indexOf(copy), 1);
 	while( nextPerm(perm)){
 		if(array.indexOf(parseInt(perm.join(''),10)) >= 0){
 			copy = parseInt(perm.join(''),10);
 			result.push(copy);
-			array.splice(copy, 1);
+			array.splice(array.indexOf(copy), 1);
 		}
 	}
 	return result;
