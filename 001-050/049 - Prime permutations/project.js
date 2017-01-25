@@ -36,7 +36,7 @@ function create_array(start,end){
 function main(start, end, goal) {
 	'use strict';
 	var start = 1,
-		end = 4;,
+		end = 4,
 		array = create_array(start,end);
 	while( nextPerm(array)){
 		console.log(array);
