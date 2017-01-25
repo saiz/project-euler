@@ -1,12 +1,12 @@
 function n_n(n){
 	var result = [1],
 		i =0,
-		j, temp;
+		j, k, temp;
 	while(i <n){
 		j =0;
 		while(j < result.length){
 			temp = result[j] * n;
-			for
+			whilej < result.length){
 result[j]
 			j+=1;
 		}
