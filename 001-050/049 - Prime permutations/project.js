@@ -76,6 +76,8 @@ function main() {
 				comb.splice(i, 1);
 			} else if(!isPrime3(parseInt(comb[i],10))){
 				comb.splice(i, 1);
+			} else{
+	number_of_perm
 			}
 			i-=1;
 		}
