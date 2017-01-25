@@ -1,5 +1,5 @@
 function n_n(n){
-	var result = [],
+	var result = [1],
 		i =0;
 	while(i <n){
 
