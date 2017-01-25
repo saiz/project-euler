@@ -63,7 +63,7 @@ function main() {
 		comb = getCombinations(array),
 		i=comb.length -1;
 		while(i> 0){
-			if(combq)
+			if(comb)
 		}
 		console.log(comb);
 	// while( nextPerm(array)){
