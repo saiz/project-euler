@@ -29,7 +29,8 @@ function main() {
 	var prime =[2,3],
 		sum = [2,5];
 
-console.log(a)
+console.log(prime);
+console.log(s)
 
 	return;
 }
