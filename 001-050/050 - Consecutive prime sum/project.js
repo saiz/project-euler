@@ -49,7 +49,8 @@ function main() {
 		i=5, length;
 	while(i<Math.pow(10,6)){
 		if(check_prime(i,prime, sum)){
-			console.log(i,prime[prime.length -1],sum[sum.length -1]);
+			length = prime_length(i,sum);
+			console.
 		}
 		i+=2;
 	}
