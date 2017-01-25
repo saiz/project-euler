@@ -38,7 +38,7 @@ function main(n) {
 		j,
 		num,
 		result = [];
-		while( i < n){
+		while( i <= n){
 			console.log(n_n(i));
 			i+=1;
 		}
