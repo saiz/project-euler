@@ -39,11 +39,7 @@ function other_perm(str, array){
 	}
 	while( nextPerm(perm)){
 		copy = parseInt(perm.join(''),10);
-		if(array.indexOf(copy) > -1){
-			console.log('b')
-			result.push(copy);
-			array.splice(array.indexOf(copy), 1);
-		}
+		result.push(copy);
 	}
 	return result;
 }
