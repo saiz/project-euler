@@ -5,7 +5,7 @@ function n_n(n){
 	while(i <n){
 		j =0;
 		while(j < result.length){
-		result[0] *= n;
+			result[] *= n;
 		}
 		result[0] *= n;
 		i+=1;
