@@ -56,7 +56,6 @@ function main(n) {
 					k+=1;
 				}
 				j+=1;
-				console.log(result)
 			}
 			i+=1;
 		}
