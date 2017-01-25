@@ -19,7 +19,7 @@ function nextprime(n,i){
 }
 function goldbach(array,n){
 	if(n > array[array.length -1]){
-		while
+
 	}
 }
 function main() {
