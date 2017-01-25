@@ -24,20 +24,22 @@ function nextPerm(array){
     }
     return true;
 }
-function number_of_perm(str, array){
+function other_perm(str, array){
 	var perm = String(str).split(""),
 		count = 1,
-		i=0;
+		i=0, result=[];
 	while(i<perm.length){
 		perm[i] =parseInt(perm[i],10);
 		i+=1;
 	}
+	result.push(parseInt(perm.join(''),10));
 	while( nextPerm(perm)){
 		if(array.indexOf(parseInt(perm.join(''),10)) >= 0){
+			result.push(parseInt(perm.join(''),10));
 			count+=1;
 		}
 	}
-	return count;
+	return result;
 }
 function getCombinations(chars) {
   var result = [];
@@ -105,7 +107,7 @@ function main() {
 		console.log(comb);
 		i=comb.length -1;
 		while(i>= 0){
-			console.log(comb[i], number_of_perm(comb[i],comb));
+			console.log(other_perm(comb[i],comb));
 			i-=1;
 		}
 	return;
