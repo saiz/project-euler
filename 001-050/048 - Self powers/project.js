@@ -48,7 +48,7 @@ function main(n) {
 		bool = true;
 		while( i <= n){ // 1 -> 1000
 			num = n_n(i).reverse();
-			console.log(num.reverse());
+			//console.log(num.reverse());
 			j=0;
 			bool = true;
 			while(j<num.length){
