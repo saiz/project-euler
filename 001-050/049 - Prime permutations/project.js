@@ -103,7 +103,6 @@ function main() {
 			}
 			i-=1;
 		}
-		console.log(comb);
 		i=comb.length -1;
 		var temp;
 		while(i>= 0){
