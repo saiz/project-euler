@@ -27,7 +27,7 @@ function check_prime(n,array,sum){
 function main() {
 	'use strict';
 	var prime =[2,3],
-		sum = [2,5];
+		sum = [0,2,5];
 check_prime(20,prime, sum);
 console.log(prime);
 console.log(sum);
