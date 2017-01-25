@@ -17,7 +17,13 @@ function binary(power) {
 }
 function main() {
 	'use strict';
-	return binary(3);
-}
+	var i = 1;
+		result = [];
+		while( i < n){
+			console.log(binary(i))
+			i+=1;
+		}
+		return;
+	}
 
 console.log(main(process.argv[2]));
