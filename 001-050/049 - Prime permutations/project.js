@@ -26,17 +26,20 @@ function nextPerm(array){
 }
 function other_perm(str, array){
 	var perm = String(str).split(""),
-		i=0, result=[];
+		count = 1,
+		i=0, result=[], copy;
 	while(i<perm.length){
 		perm[i] =parseInt(perm[i],10);
 		i+=1;
 	}
-	result.push(parseInt(perm.join(''),10));
-	array.splice(array.indexOf(parseInt(perm.join(''),10)), 1);
+	copy = parseInt(perm.splice(0).join(''),10);
+	result.push(copy);
+	array.splice(copy);
 	while( nextPerm(perm)){
 		if(array.indexOf(parseInt(perm.join(''),10)) >= 0){
-			result.push(parseInt(perm.join(''),10));
-			array.splice(array.indexOf(parseInt(perm.join(''),10)), 1);
+			copy = parseInt(perm.splice(0).join(''),10);
+			result.push(copy);
+			array.splice(copy);
 		}
 	}
 	return result;
@@ -107,7 +110,6 @@ function main() {
 		var temp;
 		while(i>= 0){
 			temp = other_perm(comb[i],comb).sort();
-			console.log(temp);
 			if(temp.length >3){
 				console.log(temp)
 			}
