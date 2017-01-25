@@ -12,6 +12,7 @@ function binary(power) {
 	                digits[i+1] = digits[i+1] || 0;
 	                digits[i+1] += 1;
 	            }
+	            j+=1;
 	        }
         }
         power-=1;
