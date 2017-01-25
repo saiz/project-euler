@@ -106,7 +106,7 @@ function main() {
 			temp = other_perm(comb[i],comb)
 			prim_list(temp);
 			temp.sort();
-
+			console.log(temp);
 			i-=1;
 		}
 	return;
