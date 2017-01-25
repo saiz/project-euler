@@ -23,11 +23,11 @@ function nextprime(n){
 function goldbach(array,n){
 	var i = -1,
 	bool = false,
-	math;
+	num;
 	while(i < array.length -1 && !bool){
 		i+=1;
-		math = Math.sqrt((n - array[i])/2);
-		console.log(math);
+		num = Math.sqrt((n - array[i])/2);
+		console.log(num);
 		if(num % 1 != 0){
 			bool = true;
 		}
