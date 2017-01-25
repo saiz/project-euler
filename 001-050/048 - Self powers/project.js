@@ -39,6 +39,15 @@ function main(n) {
 		num,
 		result = [];
 		while( i <= n){
+			num = n_n(i).reverse();
+			j=0;
+			while(j<num.length){
+				if(result[j]===undefined){
+					result[j] =0;
+				}
+				result[j]+=num[j];
+				j+=1;
+			}
 			console.log(n_n(i));
 			i+=1;
 		}
