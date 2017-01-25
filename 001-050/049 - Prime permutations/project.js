@@ -128,6 +128,7 @@ function main() {
 		i=0;
 		while(i<res.length){
 			str +=String(res[i]);
+	i+=1;
 		}
 	return str;
 }
