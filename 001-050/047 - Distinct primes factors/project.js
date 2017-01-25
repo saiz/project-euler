@@ -37,7 +37,7 @@ function main(n) {
 		}
 		i+=1;
 	}
-	return i ;
+	return i - count - 1;
 }
 
 console.log(main(process.argv[2]));
