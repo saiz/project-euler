@@ -47,8 +47,8 @@ function getCombinations(chars) {
       result.push(prefix + chars[i]);
       f(prefix + chars[i], chars.slice(i + 1));
     }
-  }
-  f('', chars);
+  };
+    f('', chars);
   return result;
 }
 function create_array(start,end){
