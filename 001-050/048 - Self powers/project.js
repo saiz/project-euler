@@ -17,7 +17,7 @@ function binary(power) {
 }
 function main() {
 	'use strict';
-	n =parse
+	n =parseIn
 	var i = 1;
 		result = [];
 		while( i < n){
