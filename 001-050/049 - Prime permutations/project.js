@@ -118,7 +118,7 @@ function main() {
 			array = increasing_Numbers(temp);
 			if(array[0]=== i){
 				if(array.length > 0){
-					console.log(temp, i);
+					console.log(array, i);
 				}
 			}
 			i+=1;
