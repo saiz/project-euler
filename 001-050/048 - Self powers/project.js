@@ -34,6 +34,7 @@ function n_n(n){
 function main(n) {
 	'use strict';
 	n = parseInt(n,10);
+	console.log(n_n(n))
 	var i = 1,
 		j,
 		k,
