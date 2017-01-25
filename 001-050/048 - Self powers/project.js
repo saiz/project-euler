@@ -3,7 +3,8 @@ function n_n(n){
 		i =0,
 		j = 0;
 	while(i <n){
-		while(j < res){
+		while(j < result.length){
+
 		result[0] *= n;
 		i+=1;
 	}
