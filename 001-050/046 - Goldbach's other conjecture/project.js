@@ -25,6 +25,7 @@ function goldbach(array,n){
 	bool = false;
 	while(i < array.length -1 && !bool){
 		i+=1;
+				console.log(Math.sqrt(n - array[i]);
 		if(Math.sqrt(n - array[i]) === 0){
 			bool = true;
 		}
@@ -42,7 +43,6 @@ function main() {
 		} else if (goldbach(prime,i)){
 			console.log(i);
 		}
-		console.log(i);
 		i+=1;
 	}
 	return;
