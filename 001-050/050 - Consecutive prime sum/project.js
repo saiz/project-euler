@@ -41,7 +41,7 @@ function main() {
 		sum.push(sum[sum.length-1] + prime[i]);
 		i+=1;
 	}
-
+w
 	console.log(prime.length);
 	console.log(sum.length);
 	return;
