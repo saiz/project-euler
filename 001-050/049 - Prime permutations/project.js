@@ -101,13 +101,13 @@ function main() {
 			}
 			i-=1;
 		}
-		i=comb.length -1;
 		comb.sort();
 		console.log(comb);
-		// while(i>= 0){
-		// 	console.log(comb[i], number_of_perm(comb[i],comb));
-		// 	i-=1;
-		// }
+		i=comb.length -1;
+		while(i>= 0){
+			console.log(comb[i], number_of_perm(comb[i],comb));
+			i-=1;
+		}
 	return;
 }
 
