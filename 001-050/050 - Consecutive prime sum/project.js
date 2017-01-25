@@ -64,11 +64,10 @@ function main() {
 		if(length >maxlength){
 			maxlength = length;
 			number = prime[i];
+			console.log(number, maxlength);
 		}
 		i+=1;
 	}
-	console.log(prime.length);
-	console.log(sum.length);
 	return;
 }
 
