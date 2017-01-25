@@ -36,19 +36,27 @@ function main(n) {
 	n = parseInt(n,10);
 	var i = 1,
 		j,
+		k,
+		temp,
 		num,
 		result = [];
 		while( i <= n){
 			num = n_n(i).reverse();
 			j=0;
 			while(j<num.length){
-				if(result[j]===undefined){
-					result[j] =0;
+				if(result[j] === undefined){
+					result[j] = 0;
 				}
-				result[j]+=num[j];
+				temp = result[j]+num[j];
+				k=0;
+				while( temp > 0){
+					result[j+k] += temp%10;
+					temp -= temp%10;
+					temp /=10;
+					k+=1;
+				}
 				j+=1;
 			}
-			console.log(n_n(i));
 			i+=1;
 		}
 		return result;
