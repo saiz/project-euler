@@ -29,6 +29,7 @@ function goldbach(prime,n){
 		//console.log(num);
 		if(num % 1 === 0){
 			bool = false;
+		}
 		i+=1;
 	}
 	return !bool;
