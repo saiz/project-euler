@@ -2,8 +2,9 @@ function n_n(n){
 	var result = [1],
 		i =0;
 	while(i <n){
-
+result[0] *= n
 	}
+
 }
 function main(n) {
 	'use strict';
