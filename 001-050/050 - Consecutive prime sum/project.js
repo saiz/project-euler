@@ -21,7 +21,16 @@ function eratosthenes(n) {
     }
     return output;
 }
-function
+function endindex(n,sums){
+	var i=0;
+	if(sums.indexOf(n)> -1){
+		return sums.indexOf(n);
+	}
+	while(sums[i]< n){
+		i+=1
+	}
+	return i-1;
+}
 function main() {
 	'use strict';
 	var end = Math.pow(10,6),
