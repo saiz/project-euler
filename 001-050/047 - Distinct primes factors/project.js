@@ -26,7 +26,7 @@ function main(n) {
 	var prime = [],
 		i =2,
 		count = 0;
-	while(count ){
+	while(count < 4){
 		if(isPrime3(i)){
 			prime.push(i);
 		}
