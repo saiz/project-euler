@@ -104,11 +104,10 @@ function main() {
 		//console.log(comb);
 		while(i>= 0){
 			temp = other_perm(comb[i],comb)
+console.log(temp)
 			prim_list(temp);
 			temp.sort();
-			if(temp.length >3){
-				console.log(temp)
-			}
+			console.log(temp)
 			i-=1;
 		}
 	return;
