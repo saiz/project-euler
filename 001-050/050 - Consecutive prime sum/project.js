@@ -17,15 +17,17 @@ function next_prim(array){
 	}
 	return i;
 }
-function check_prime(n,array,){
+function check_prime(n,array,sum){
 	while(n >array.length){
 		array.push(next_prim(array));
+		sum.push(array[array.length-1] + array[array.length-2]);
 	}
 	return array[n -1];
 }
 function main() {
 	'use strict';
-	var prime =[2,3];
+	var prime =[2,3],
+		sum = [2,5];
 
 	return;
 }
