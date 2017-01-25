@@ -31,9 +31,9 @@ function main(n) {
 		if(isPrime3(i)){
 			prime.push(i);
 		}
+		console.log(i, prime_factors(prime,i));
 		if(prime_factors(prime,i).length === n){
 			count +=1;
-			console.log(count);
 		}else{
 			count = 0;
 		}
