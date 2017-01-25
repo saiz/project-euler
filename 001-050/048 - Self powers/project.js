@@ -1,9 +1,10 @@
 function main(n) {
 	'use strict';
+	n= parseInt(n,10);
 	var result = 0,
 		modulo = 10000000000,
 		i,j, temp;
-	for (i = 1; i <= 1000; i+=1) {
+	for (i = 1; i <= n; i+=1) {
 	    temp = i;
 	    for (j = 1; j < i; j+=1) {
 	        temp *= i;
