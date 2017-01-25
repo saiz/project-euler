@@ -22,7 +22,7 @@ function check_prime(n,array,sum){
 		array.push(next_prim(array));
 		sum.push(sum[sum.length-1] + array[array.length-1]);
 	}
-	if( array.index(n)> -1){
+	if( array.indexOf(n)> -1){
 		return true;
 	}
 	return false;
