@@ -28,7 +28,7 @@ function main() {
 	'use strict';
 	var prime =[2,3],
 		sum = [2,5];
-check_prime(10,prime)
+check_prime(10,prime, sum);
 console.log(prime);
 console.log(sum);
 
