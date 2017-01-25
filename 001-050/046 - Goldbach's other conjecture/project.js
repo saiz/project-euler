@@ -45,7 +45,7 @@ function main() {
 			if(!goldbach(prime,i)){
 				console.log(i);
 			} else{
-				console.log(i);
+				console.log("gold",i);
 			}
 		}
 		i+=1;
