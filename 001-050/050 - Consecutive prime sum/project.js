@@ -50,7 +50,7 @@ function main() {
 	while(i<Math.pow(10,6)){
 		if(check_prime(i,prime, sum)){
 			length = prime_length(i,sum);
-			console.log(length);
+			console.log(length, i);
 		}
 		i+=2;
 	}
