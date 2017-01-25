@@ -62,6 +62,6 @@ function main(n) {
 	    result += temp;
 	    result %= modulo;
 	}
-	}
+}
 
 console.log(main(process.argv[2]));
