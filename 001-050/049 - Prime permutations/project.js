@@ -37,8 +37,7 @@ function other_perm(str, array){
 	    array.splice(array.indexOf(copy), 1);
 	}
 	while( nextPerm(perm)){
-		copy = parseInt(perm.join(''),10);
-		console.log(array.indexOf(copy));
+		copy = perm.join('')
 		if(array.indexOf(copy) >= 0){
 			result.push(copy);
 			array.splice(array.indexOf(copy), 1);
