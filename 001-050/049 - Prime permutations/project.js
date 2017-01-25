@@ -31,8 +31,8 @@ function number_of_perm(str, array){
 	while(i<perm.length){
 		perm[i] =parseInt(perm[i],10);
 	}
-	while( nextPerm(array)){
-		if(array.indexOf(str) >=0){
+	while( nextPerm(perm)){
+		if(array.indexOf(parseInt(perm.join(''),10)) >=0){
 			count+=1;
 		}
 	}
