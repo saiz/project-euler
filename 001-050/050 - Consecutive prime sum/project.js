@@ -43,7 +43,7 @@ function main() {
 	}
 	var end;
 	while(i<prime.length){//sum slieve
-		end = end
+		end = endindex
 
 		i+=1;
 	}
