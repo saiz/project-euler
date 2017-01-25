@@ -91,7 +91,7 @@ function main() {
 		console.log(comb);
 		while(i>= 0){
 			console.log(i, number_of_perm(i,comb));
-			i+=1;
+			i-=1;
 		}
 	return;
 }
