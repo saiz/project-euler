@@ -4,7 +4,7 @@ function n_n(n){
 	while(i <n){
 result[0] *= n
 	}
-
+return
 }
 function main(n) {
 	'use strict';
