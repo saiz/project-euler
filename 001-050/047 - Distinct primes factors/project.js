@@ -15,7 +15,7 @@ function prime_factors(prime,n){
 		i =0;
 	while(prime[i] <= Math.sqrt(n)){
 		if(n%prime[i]){
-			array.push(i)
+			array.push(i);
 		}
 		i+=1;
 	}
