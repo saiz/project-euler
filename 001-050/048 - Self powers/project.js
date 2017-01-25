@@ -24,7 +24,7 @@ function main(n) {
 		result = [];
 		while( i < n){
 			j= 0;
-			num = binary().reverse();
+			num = binary(i).reverse();
 			while(j<num.length){
 				if(result[j] === undefined){
 					result[j] = 0;
