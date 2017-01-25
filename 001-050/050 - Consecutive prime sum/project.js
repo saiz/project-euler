@@ -73,9 +73,9 @@ function main() {
 		i=0;
 	while(i<prime.length){
 		sum.push(sum[sum.length-1] + prime[i]);
-		console.log(prime[i]);
 		i+=1;
 	}
+			console.log(prime.length);
 	return;
 }
 
