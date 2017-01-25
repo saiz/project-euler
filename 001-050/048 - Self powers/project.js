@@ -1,7 +1,7 @@
 function n_n(n){
 	var result = [],
-		i;
-	whi
+		i =0;
+	while(i)
 }
 function main(n) {
 	'use strict';
