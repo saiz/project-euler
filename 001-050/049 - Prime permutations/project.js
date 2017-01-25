@@ -115,8 +115,8 @@ function main() {
 			temp = other_perm(i);
 			temp.sort();
 			prim_list(temp);
-			if(temp[0]=== i){
-				array = increasing_Numbers(temp);
+			array = increasing_Numbers(temp);
+			if(array[0]=== i){
 				if(array.length > 0){
 					console.log(temp, i);
 				}
