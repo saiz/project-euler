@@ -46,7 +46,7 @@ function main() {
 	'use strict';
 	var prime =[2,3],
 		sum = [0,2,5],
-		i=5, length =0 , max, maxprime;
+		i=5, length =0 , max=0, maxprime;
 	while(i<Math.pow(10,6)){
 		if(check_prime(i,prime, sum)){
 			length = prime_length(i,sum);
