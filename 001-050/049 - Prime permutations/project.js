@@ -61,7 +61,7 @@ function main() {
 		end = 4,
 		array = create_array(start,9),
 		comb = getCombinations(array),
-		i=comb;
+		i=comb.length;
 		while(i)
 		console.log(comb);
 	// while( nextPerm(array)){
