@@ -52,7 +52,7 @@ function main(n) {
 				console.log('t',temp,result)
 				k=0;
 				while( temp > 0){
-					result[j+k] += temp%10;
+					result[j+k] = temp%10;
 					temp -= temp%10;
 					temp /=10;
 					k+=1;
