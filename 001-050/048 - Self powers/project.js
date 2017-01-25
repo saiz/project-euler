@@ -42,7 +42,7 @@ function main(n) {
 		result = [];
 		while( i <= n){
 			num = n_n(i).reverse();
-			console.log(num);
+			console.log('num',num);
 			j=0;
 			while(j<num.length){
 				if(result[j] === undefined){
