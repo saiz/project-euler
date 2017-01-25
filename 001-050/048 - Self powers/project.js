@@ -1,7 +1,7 @@
 function n_n(n){
 	var result = [1],
 		i =0,
-		j
+		j;
 	while(i <n){
 		j =0;
 		while(j < result.length){
