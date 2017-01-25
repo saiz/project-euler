@@ -33,7 +33,7 @@ function main(n) {
 		if(prime_factors(i).length === n){
 			count +=1;
 		}else{
-
+			count = 0;
 		}
 
 		i+=1;
