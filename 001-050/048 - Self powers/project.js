@@ -37,6 +37,7 @@ function n_n(n){
 
 		i+=1;
 	}
+	console.log("--")
 	return total.reverse();
 }
 function main(n) {
