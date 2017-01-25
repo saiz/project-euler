@@ -91,13 +91,6 @@ function main() {
 			i-=1;
 		}
 		i=comb.length -1;
-		while(i>= 0){
-			if(!isPrime3(comb[i])){
-				comb.splice(i, 1);
-			}
-			i-=1;
-		}
-		i=comb.length -1;
 		var temp;
 		comb.sort();
 		//console.log(comb);
