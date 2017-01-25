@@ -18,7 +18,7 @@ function next_prim(array){
 	return i;
 }
 function check_prime(n,array,sum){
-	while(n >array.length){
+	while(n >array[array.length]){
 		array.push(next_prim(array));
 		sum.push(sum[sum.length-1] + array[array.length-1]);
 	}
@@ -28,9 +28,8 @@ function main() {
 	'use strict';
 	var prime =[2,3],
 		sum = [0,2,5];
-check_prime(20,prime, sum);
-console.log(prime);
-console.log(sum);
+
+	check_prime(Math.pow,prime, sum);
 
 	return;
 }
