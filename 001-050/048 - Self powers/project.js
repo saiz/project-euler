@@ -39,11 +39,13 @@ function main(n) {
 		k,
 		temp,
 		num,
-		result = [];
+		result = [],
+		bool = true;
 		while( i <= n){
 			num = n_n(i).reverse();
 			j=0;
-			while(j<num.length){
+			bool = true;
+			while(j<num.length && bool){
 				if(result[j] === undefined){
 					result[j] = 0;
 				}
@@ -56,6 +58,9 @@ function main(n) {
 					k+=1;
 				}
 				j+=1;
+				if(j === 11){
+					bool = false;
+				}
 			}
 			i+=1;
 		}
