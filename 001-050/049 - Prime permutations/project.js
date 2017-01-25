@@ -108,9 +108,6 @@ function increasing_Numbers(array){
 }
 function main() {
 	'use strict';
-	var start = 1,
-		end = 4,
-		array = create_array(start,9);
 		var temp,
 			i=Math.pow(10,3);
 		while(i<Math.pow(10,4)){
