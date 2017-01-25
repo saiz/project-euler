@@ -90,7 +90,7 @@ function main() {
 		for(i=0;i<comb.length;i+=1){
 			perm = String(comb[i]).split("");
 			while( nextPerm(perm)){
-				if(comb.indexOf(parseInt(perm.join(''),10)) < 0 && ){
+				if(comb.indexOf(parseInt(perm.join(''),10)) < 0 && is){
 					comb.push(parseInt(perm.join(''),10));
 				}
 			}
