@@ -109,7 +109,7 @@ function main() {
 		i=comb.length -1;
 		var temp;
 		comb.sort();
-		console.log(comb);
+		//console.log(comb);
 		while(i>= 0){
 			console.log(comb[i]);
 			// temp = other_perm(comb[i],comb).sort();
