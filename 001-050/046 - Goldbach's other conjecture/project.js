@@ -24,7 +24,7 @@ function goldbach(prime,n){
 	var i = 0,
 	bool = true,
 	num = 0;
-	while(bool){
+	while(i<prime.length){
 		num = Math.sqrt((n - prime[i])/2);
 		//console.log(num);
 		if(num % 1 === 0){
@@ -33,7 +33,7 @@ function goldbach(prime,n){
 		}
 		i+=1;
 	}
-	return bool;
+	return !bool;
 }
 function main() {
 	'use strict';
