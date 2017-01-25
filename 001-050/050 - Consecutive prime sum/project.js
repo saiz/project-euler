@@ -68,7 +68,8 @@ function prime_length(num,sum){
 function main() {
 	'use strict';
 	var end = Math.pow(10,6),
-		prime = eratosthenes(end), i=0;
+		prime = eratosthenes(end),
+		i=0;
 	while(i<prime.length){
 		console.log(prime[i]);
 		i+=1;
