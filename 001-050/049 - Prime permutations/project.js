@@ -86,6 +86,7 @@ function main() {
 			i-=1;
 		}
 		var perm;
+		console.log(comb)
 		for(i=0;i<comb.length;i+=1){
 			perm = String(comb[i]).split("");
 			while( nextPerm(perm)){
