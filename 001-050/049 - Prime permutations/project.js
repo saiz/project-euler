@@ -116,10 +116,9 @@ function main() {
 			temp.sort();
 			prim_list(temp);
 			if(temp[0]=== i){
-				console.log(temp, i)
 				array = increasing_Numbers(temp);
 				if(array.length > 0){
-					console.log(temp,array);
+					console.log(temp, i);
 				}
 			}
 			i+=1;
