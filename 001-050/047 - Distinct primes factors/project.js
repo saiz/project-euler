@@ -26,12 +26,12 @@ function main(n) {
 	var prime = [],
 		i =2,
 		count = 0;
-	while(count < 4){
+	while(count < n){
 		if(isPrime3(i)){
 			prime.push(i);
 		}
 		if(prime_factors(i).length === n){
-
+			count +=1;
 		}
 
 		i+=1;
