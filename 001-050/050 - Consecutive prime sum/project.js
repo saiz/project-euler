@@ -37,12 +37,12 @@ function main() {
 		prime = eratosthenes(end),
 		sum=[0],
 		i=0;
-	while(i<prime.length){
+	while(i<prime.length){//sum slieve
 		sum.push(sum[sum.length-1] + prime[i]);
 		i+=1;
 	}
-			console.log(prime.length);
-			console.log(sum.length);
+	console.log(prime.length);
+	console.log(sum.length);
 	return;
 }
 
