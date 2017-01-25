@@ -74,7 +74,6 @@ function main(n) {
 				}
 				j+=1;
 			}
-			console.log(result);
 			i+=1;
 		}
 		return result.slice(0,11).reverse().join('');
