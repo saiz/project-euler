@@ -1,7 +1,7 @@
 function n_n(n){
 	var total = [],
 		i =0,
-		j, k, temp, res,
+		j, k, temp, res;
 		total = String(n).split("");
 	while(i < total.length){ //inital
 		total[i] = parseInt(total[i],10);
