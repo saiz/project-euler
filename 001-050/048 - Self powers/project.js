@@ -61,7 +61,6 @@ function main(n) {
 			}
 			i+=1;
 		}
-		console.log(result)
 		return result.reverse().join('');
 	}
 
