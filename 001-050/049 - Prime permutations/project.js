@@ -61,7 +61,7 @@ function main() {
 		end = 4,
 		array = create_array(start,9),
 		comb = getCombinations(array);
-		console.l
+		console.log
 	// while( nextPerm(array)){
 	// 	if(isPrime3(parseInt(array.join(""),10))){
 	// 		console.log(array);
