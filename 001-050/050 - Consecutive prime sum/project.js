@@ -25,7 +25,8 @@ function check_prime(n,array){
 }
 function main() {
 	'use strict';
-	var prime =[2,3]
+	var prime =[2,3];
+
 	return;
 }
 
