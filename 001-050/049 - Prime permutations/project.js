@@ -108,7 +108,7 @@ function main() {
 		var temp;
 		while(i>= 0){
 			temp = other_perm(comb[i],comb).sort();
-			if(temp.length == 4){
+			if(temp.length == 3){
 				console.log(temp);
 			}
 			i-=1;
