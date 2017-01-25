@@ -19,9 +19,19 @@ function main(n) {
 	'use strict';
 	n = parseInt(n,10);
 	var i = 1,
+		j,
+		num,
 		result = [];
 		while( i < n){
-			console.log(binary(i).reverse())
+			j= 0;
+			num = binary().reverse();
+			while(j<num.length){
+				if(result[j] === undefined){
+					result[j] = 0;
+				}
+				result[j] += num[j];
+				j+=1;
+			}
 			i+=1;
 		}
 		return;
