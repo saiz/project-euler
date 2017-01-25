@@ -35,10 +35,9 @@ function main(n) {
 		}else{
 			count = 0;
 		}
-
 		i+=1;
 	}
-	return;
+	return i ;
 }
 
 console.log(main(process.argv[2]));
