@@ -5,9 +5,8 @@ function n_n(n){
 	while(i <n){
 		j =0;
 		while(j < result.length){
-			result[] *= n;
+			result[j] *= n;
 		}
-		result[0] *= n;
 		i+=1;
 	}
 	return result;
