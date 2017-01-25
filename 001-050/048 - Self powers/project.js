@@ -16,7 +16,7 @@ function n_n(n){
 			temp = total[j] * n;
 			k=0;
 			while( temp > 0){
-				if(res[j+k] == undefined){
+				if(res[j+k] === undefined){
 					res[j+k] = 0;
 				}
 				res[j+k] += temp%10;
