@@ -25,7 +25,7 @@ function main(n) {
 	'use strict';
 	var prime = [],
 		i =2,
-		bool =true;
+		count =true;
 	while(bool){
 		if(isPrime3(i)){
 			prime.push(i);
