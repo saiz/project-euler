@@ -30,6 +30,11 @@ function main(n) {
 					result[j] = 0;
 				}
 				result[j] += num[j];
+				if (result[j] > 9) {
+	                result[j] -= 10;
+	                result[j+1] = result[j+1] || 0;
+	                result[j+1] += 1;
+	            }
 				j+=1;
 			}
 			i+=1;
