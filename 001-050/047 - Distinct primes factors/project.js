@@ -30,6 +30,7 @@ function main(n) {
 		if(isPrime3(i)){
 			prime.push(i);
 		}
+		if(pr)
 
 		i+=1;
 	}
