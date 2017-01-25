@@ -25,8 +25,13 @@ function nextPerm(array){
     return true;
 }
 function number_of_perm(str, array){
-	count = 1;
-	while( nextPerm(str)){
+	var perm = String(str)/split(""),
+		count = 1,
+		i=0;
+	while(i<perm.length){
+		perm[i] =parseInt(perm[i],10);
+	}
+	while( nextPerm(array)){
 		if(array.indexOf(str) >=0){
 			count+=1;
 		}
@@ -76,7 +81,9 @@ function main() {
 				comb.splice(i, 1);
 			} else if(!isPrime3(parseInt(comb[i],10))){
 				comb.splice(i, 1);
-			} else comb[i] =parseInt(comb[i],10);
+			} else {
+				comb[i] =parseInt(comb[i],10);
+			}
 			i-=1;
 		}
 		i=comb.length -1;
