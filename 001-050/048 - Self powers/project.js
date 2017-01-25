@@ -13,7 +13,8 @@ function n_n(n){
 		while(j < total.length){ // split total by index
 			temp = total[j] * n;
 			k=0;
-			while( k < temp.length){
+			while( temp > 0){
+
 				k+=1;
 			}
 			j+=1;
