@@ -105,8 +105,12 @@ function main() {
 		}
 		console.log(comb);
 		i=comb.length -1;
+		var temp;
 		while(i>= 0){
-			console.log(other_perm(comb[i],comb).sort());
+			temp = other_perm(comb[i],comb).sort();
+			if(temp.length == 4){
+				console.log(temp);
+			}
 			i-=1;
 		}
 	return;
