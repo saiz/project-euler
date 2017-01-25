@@ -104,7 +104,7 @@ function main() {
 		//console.log(comb);
 		while(i>= 0){
 			temp = other_perm(comb[i],comb)
-console.log(temp)
+			console.log(temp)
 			prim_list(temp);
 			temp.sort();
 			console.log(temp)
