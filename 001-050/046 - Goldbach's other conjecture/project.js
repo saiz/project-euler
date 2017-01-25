@@ -21,15 +21,24 @@ function nextprime(n){
 	return n;
 }
 function goldbach(array,n){
-	if()
+	var i = -1,
+	bool = false;
+	while(i < array.length && !bool){
+		i+=1;
+		if(Math.sqrt(n - array[i]) === 0){
+			bool = true;
+		}
+	}
 }
 function main() {
 	'use strict';
-	var i =0,
+	var i =2,
 		bool= true;
 		prime = [2];
 	while(bool){
-
+		if(isPrime3(i)){
+			prime.push(i);
+		}
 
 		i+=1;
 	}
