@@ -76,7 +76,7 @@ function main() {
 				comb.splice(i, 1);
 			} else if(!isPrime3(parseInt(comb[i],10))){
 				comb.splice(i, 1);
-			} else comb[i] =parse
+			} else comb[i] =parseInt(comb[i])
 			i-=1;
 		}
 		i=comb.length -1;
