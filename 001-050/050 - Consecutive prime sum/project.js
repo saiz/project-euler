@@ -64,11 +64,10 @@ function main() {
 		if(length >maxlength){
 			maxlength = length;
 			number = prime[i];
-			console.log(number, maxlength);
 		}
 		i+=1;
 	}
-	return;
+	return number;
 }
 
 console.log(main(process.argv[2]));
