@@ -76,9 +76,12 @@ function main() {
 				comb.splice(i, 1);
 			} else if(!isPrime3(parseInt(comb[i],10))){
 				comb.splice(i, 1);
-			} else{
 			}
 			i-=1;
+		}
+		i=comb.length -1;
+		while(i>= 0){
+
 		}
 		console.log(comb);
 	return;
