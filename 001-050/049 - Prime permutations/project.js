@@ -89,7 +89,7 @@ function increasing_Numbers(array){
 		j=0,
 		bool = true,
 		a,
-		b
+		b,
 		diff;
 	while(i<array.length-1 && bool){
 		a = array[i];
