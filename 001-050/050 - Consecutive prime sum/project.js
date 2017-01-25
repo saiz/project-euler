@@ -27,11 +27,14 @@ function check_prime(n,array,sum){
 function main() {
 	'use strict';
 	var prime =[2,3],
-		sum = [0,2,5];
-
-check_prime(Math.pow(10,6),prime, sum);
-console.log(prime);
-console.log(sum);
+		sum = [0,2,5],
+		i=5;
+	while(i<Math.pow(10,6)){
+		check_prime(i,prime, sum);
+		i+=2;
+	}
+	console.log(prime);
+	console.log(sum);
 
 
 	return;
