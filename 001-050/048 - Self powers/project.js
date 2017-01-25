@@ -3,6 +3,7 @@ function n_n(n){
 		i =0;
 	while(i <n){
 		result[0] *= n;
+		i+=1;
 	}
 	return result;
 }
