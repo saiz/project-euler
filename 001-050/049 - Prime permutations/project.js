@@ -65,6 +65,8 @@ function main() {
 		while(i>= 0){
 			if(comb[i].length !== 4){
 				comb.splice(i, 1);
+			} else if(!isPrime3(parseInt(comb[i],10))){
+				comb.splice(i, 1);
 			}
 			i-=1;
 		}
