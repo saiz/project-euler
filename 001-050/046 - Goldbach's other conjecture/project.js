@@ -31,7 +31,6 @@ function goldbach(prime,n){
 		}
 		i+=1;
 	}
-	console.log(bool,n)
 	return bool;
 }
 function main() {
