@@ -110,7 +110,7 @@ function main() {
 		while(i>= 0){
 				console.log(comb[i])
 			temp = other_perm(comb[i],comb).sort();
-				console.log(temp, comb[i])
+				console.log(temp)
 			if(temp.length >3){
 				console.log(temp)
 			}
