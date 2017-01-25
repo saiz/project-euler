@@ -114,8 +114,8 @@ function main() {
 		while(i<Math.pow(10,4)){
 			temp = other_perm(i);
 			temp.sort();
-			console.log(temp, i)
 			if(temp[0]=== i){
+						console.log(temp, i)
 				prim_list(temp);
 				array = increasing_Numbers(temp);
 				if(array.length > 0){
