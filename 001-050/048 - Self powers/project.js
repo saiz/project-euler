@@ -46,7 +46,7 @@ function main(n) {
 		bool = true;
 		while( i <= n){ // 1 -> 1000
 			num = n_n(i).reverse();
-			console.log(num.reverse);
+			console.log(num.reverse());
 			j=0;
 			bool = true;
 			while(j<num.length){
@@ -54,7 +54,7 @@ function main(n) {
 					result[j] = 0;
 				}
 				temp = result[j]+num[j];
-				k=0;
+				k=0;()
 				while( temp > 0){
 					result[j+k] = temp%10;
 					temp -= temp%10;
