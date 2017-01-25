@@ -26,6 +26,13 @@ function n_n(n){
 					res[j+k] += temp%10;
 					temp -= temp%10;
 					temp /=10;
+					if(res[j+k]>9){
+						res[j+k] = res[j+k]%10;
+						if(res[j+k+1] === undefined){
+							res[j+k+1] = 0;
+						}
+						res[j+k+1] +=1;
+					}
 					k+=1;
 				}
 			}
