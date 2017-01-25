@@ -58,8 +58,6 @@ function main() {
 		}
 		i+=2;
 	}
-	console.log(prime);
-	console.log(sum);
 	return;
 }
 
