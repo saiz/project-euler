@@ -26,7 +26,7 @@ function main(n) {
 	n = parseInt(n,10);
 	var prime = [],
 		i =2,
-		count = 0;
+		count = 0,
 		result = [],
 		num;
 	while(count < n){
