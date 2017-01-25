@@ -40,7 +40,7 @@ function main(n) {
 		}
 		i+=1;
 	}
-	num = i - count -1;
+	num = i - count;
 	console.log(num);
 	for(i=num;i<num;i+=1){
 		result.push(i);
