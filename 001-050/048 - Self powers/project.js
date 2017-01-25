@@ -1,4 +1,4 @@
-
+function
 function main(n) {
 	'use strict';
 	n = parseInt(n,10);
