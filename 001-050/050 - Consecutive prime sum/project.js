@@ -22,7 +22,10 @@ function check_prime(n,array,sum){
 		array.push(next_prim(array));
 		sum.push(sum[sum.length-1] + array[array.length-1]);
 	}
-	return array[n -1];
+	if( array.index(n)> -1){
+		return true;
+	}
+	return false;
 }
 function main() {
 	'use strict';
@@ -30,7 +33,9 @@ function main() {
 		sum = [0,2,5],
 		i=5;
 	while(i<Math.pow(10,6)){
-		check_prime(i,prime, sum);
+		if(check_prime(i,prime, sum)){
+			console.log(i);
+		}
 		i+=2;
 	}
 	console.log(prime);
