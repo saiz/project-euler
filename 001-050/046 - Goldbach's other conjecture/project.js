@@ -42,8 +42,10 @@ function main() {
 	while(bool){
 		if(isPrime3(i)){
 			prime.push(i);
-		} else if (goldbach(prime,i) && i%2===1){
-			console.log(i);
+		} else if (i%2===1){
+			if(goldbach(prime,i)){
+				console.log(i);
+			}
 		}
 		i+=1;
 	}
