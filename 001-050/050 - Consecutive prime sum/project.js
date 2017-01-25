@@ -24,7 +24,7 @@ function eratosthenes(n) {
 function endindex(n,sums){
 	var i=0;
 	if(sums.indexOf(n)> -1){
-		return sums[sums.indexOf(n);
+		return sums[sums.indexOf(n)];
 	}
 	while(sums[i] < n){
 		i+=1
