@@ -7,7 +7,7 @@ function n_n(n){
 		total[i] = parseInt(total[i],10);
 		i+=1;
 	}
-	total.reverse()
+	total.reverse();
 	i=0;
 	while(i < n -1){ // do this n times
 		j = 0;
