@@ -1,6 +1,7 @@
 function n_n(n){
 	var result = [1],
-		i =0;
+		i =0,
+		j=
 	while(i <n){
 		result[0] *= n;
 		i+=1;
