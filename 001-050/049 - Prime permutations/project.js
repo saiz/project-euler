@@ -25,7 +25,6 @@ function nextPerm(array){
     return true;
 }
 function number_of_perm(str, array){
-	console.log(str,array);
 	var perm = String(str).split(""),
 		count = 1,
 		i=0;
