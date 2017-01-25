@@ -45,6 +45,7 @@ function main() {
 		} else if (goldbach(prime,i) && i%2===1){
 			console.log(i);
 		}
+		console.log(i);
 		i+=1;
 	}
 	return;
