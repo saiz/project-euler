@@ -108,6 +108,7 @@ function main() {
 		}
 		i=comb.length -1;
 		var temp;
+		comb.sort();
 		while(i>= 0){
 			temp = other_perm(comb[i],comb).sort();
 			if(temp.length >3){
