@@ -53,15 +53,15 @@ function main() {
 		if(sum[end] === prime[i]){
 			length = end;
 		}{
-				j=0;
-				while(j<end){
-					if(sum[end] - sum[j] === prime[i]){
-						length = end -j;
-						j=end;
-					}
-					j+=1
+			j=0;
+			while(j<end){
+				if(sum[end] - sum[j] === prime[i]){
+					length = end -j;
+					j=end;
 				}
+				j+=1
 			}
+		}
 		if(length >maxlength){
 			maxlength = length;
 			number = prime[i];
