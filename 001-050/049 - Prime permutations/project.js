@@ -109,6 +109,7 @@ function main() {
 			console.log("-----")
 			temp.sort();
 			console.log(temp)
+			console.log("")
 			i-=1;
 		}
 	return;
