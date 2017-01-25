@@ -28,7 +28,7 @@ function check_prime(n,array,sum){
 	return false;
 }
 function prime_length(num,sum){
-	if(sum.index(num)>-1){
+	if(sum.indexOf(num)>-1){
 		return sum.index(num);
 	}
 	var i =0,
