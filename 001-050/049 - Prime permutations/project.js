@@ -111,7 +111,7 @@ function main() {
 		i=comb.length -1;
 		var temp;
 		while(i>= 0){
-			console.log(combl.length);
+			console.log(comb.length);
 			temp = other_perm(comb[i],comb).sort();
 			if(temp.length >3){
 				console.log(temp)
