@@ -112,10 +112,12 @@ function main() {
 			i=Math.pow(10,3);
 		while(i<Math.pow(10,4)){
 			temp = other_perm(i);
-			prim_list(temp);
-			temp.sort();
-			if(increasing_Numbers(temp).length > 0){
-				console.log(temp,increasing_Numbers(temp));
+			if(temp[0]=== i){
+				prim_list(temp);
+				temp.sort();
+				if(increasing_Numbers(temp).length > 0){
+					console.log(temp,increasing_Numbers(temp));
+				}
 			}
 			i+=1;
 		}
