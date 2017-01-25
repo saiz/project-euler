@@ -42,7 +42,7 @@ function main() {
 		} else if (goldbach(prime,i)){
 			console.log(i);
 		}
-
+		console.log(i);
 		i+=1;
 	}
 	return;
