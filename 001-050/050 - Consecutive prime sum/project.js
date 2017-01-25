@@ -76,7 +76,7 @@ function main() {
 		i+=1;
 	}
 			console.log(prime.length);
-			console.log(prime.length);
+			console.log(sum.length);
 	return;
 }
 
