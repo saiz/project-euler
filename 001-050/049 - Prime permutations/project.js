@@ -110,18 +110,26 @@ function main() {
 	'use strict';
 		var temp,
 			array,
-			i=Math.pow(10,3);
+			i=Math.pow(10,3),
+			res;
 		while(i<Math.pow(10,4)){
 			temp = other_perm(i);
 			temp.sort();
 			prim_list(temp);
 			array = increasing_Numbers(temp);
 			if(array[0]=== i && array.length > 0){
-				console.log(array, i);
+				if(array[0]!==1487){
+					res = array
+				}
 			}
 			i+=1;
 		}
-	return;
+		var str = '';
+		i=0;
+		while(i<res.length){
+			str +=String(res[i]);
+		}
+	return str;
 }
 
 console.log(main(process.argv[2]));
