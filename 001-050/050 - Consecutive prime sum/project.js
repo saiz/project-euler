@@ -69,7 +69,7 @@ function main() {
 	'use strict';
 	var end = Math.pow(10,6),
 		prime = eratosthenes(end),
-		sum=[0];
+		sum=[0],
 		i=0;
 	while(i<prime.length){
 		sum.push(sum[sum.length-1] + prime[i]);
