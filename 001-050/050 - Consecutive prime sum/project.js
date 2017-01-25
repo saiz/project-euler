@@ -45,12 +45,26 @@ function main() {
 		}
 		i+=1;
 	}
-	var end;
+	var end,j, length, maxlength, number;
 	i=0;
 	while(i<prime.length){//sum slieve
 		end = endindex(prime[i],sum);
 		console.log("prime: " + prime[i], ",end: " + sum[end]);
-
+		if(sum[end] === prime[i]){
+			length = end;
+		}
+		j=0;
+		while(j<end){
+			if(sum[end] - sum[j] === prime[i]){
+				length = end -j;
+				j=end;
+			}
+			j+=1
+		}
+		if(length >maxlength){
+			maxlength = length;
+			number = prime[i];
+		}
 		i+=1;
 	}
 	console.log(prime.length);
