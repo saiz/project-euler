@@ -6,6 +6,7 @@ function n_n(n){
 		j =0;
 		while(j < result.length){
 			temp = result[j] * n;
+			for
 result[j]
 			j+=1;
 		}
