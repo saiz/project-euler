@@ -109,14 +109,16 @@ function increasing_Numbers(array){
 function main() {
 	'use strict';
 		var temp,
+			array,
 			i=Math.pow(10,3);
 		while(i<Math.pow(10,4)){
 			temp = other_perm(i);
 			if(temp[0]=== i){
 				prim_list(temp);
 				temp.sort();
-				if(increasing_Numbers(temp).length > 0){
-					console.log(temp,increasing_Numbers(temp));
+				array = increasing_Numbers(temp);
+				if(array.length > 0){
+					console.log(temp,array);
 				}
 			}
 			i+=1;
