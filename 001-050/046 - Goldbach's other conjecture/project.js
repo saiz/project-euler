@@ -43,8 +43,7 @@ function main() {
 			prime.push(i);
 		} else if (i%2===1){
 			if(!goldbach(prime,i)){
-				console.log(i);
-				bool = false
+				bool = false;
 			}
 		}
 		i+=1;
