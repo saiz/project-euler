@@ -132,7 +132,6 @@ function main() {
 			prim_list(temp);
 			temp.sort();
 			if(temp.length>2){
-
 				console.log(increasing_Numbers(temp));
 			}
 			i-=1;
