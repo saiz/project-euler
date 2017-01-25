@@ -29,7 +29,7 @@ function main() {
 	var prime =[2,3],
 		sum = [0,2,5];
 
-	check_prime(Math.pow,prime, sum);
+	check_prime(20,prime, sum);
 
 	return;
 }
