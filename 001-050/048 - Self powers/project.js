@@ -17,7 +17,7 @@ function binary(power) {
 }
 function main() {
 	'use strict';
-	return binary(1000);
+	return binary(3);
 }
 
 console.log(main(process.argv[2]));
