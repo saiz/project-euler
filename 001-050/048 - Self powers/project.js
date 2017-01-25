@@ -14,12 +14,7 @@ function main(n) {
 		num,
 		result = [];
 		while( i < n){
-			j= 0;
-			num = binary(i).reverse();
-			console.log(binary(i));
-			while(j<num.length){
-
-			}
+			console.log(n_n(i));
 			i+=1;
 		}
 		return result;
