@@ -75,6 +75,14 @@ function isPrime3(n) {
 	}
 	return true;
 }
+function prim_list(array){
+	var i =array.length -1;
+	while(i>=0){
+		if(!isPrime3(array[i])){
+			array.splice(i,1);
+		}
+	}
+}
 function main() {
 	'use strict';
 	var start = 1,
@@ -92,11 +100,9 @@ function main() {
 		}
 		i=comb.length -1;
 		var temp;
-		comb.sort();
 		//console.log(comb);
 		while(i>= 0){
-
-			temp = other_perm(comb[i],comb).sort();
+			temp = prim_list(other_perm(comb[i],comb)).sort();
 			if(temp.length >3){
 				console.log(temp)
 			}
