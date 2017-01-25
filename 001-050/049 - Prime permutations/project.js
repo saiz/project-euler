@@ -59,12 +59,14 @@ function main() {
 	'use strict';
 	var start = 1,
 		end = 4,
-		array = create_array(start,end);
-	while( nextPerm(array)){
-		if(isPrime3(parseInt(array.join(""),10))){
-			console.log(array);
-		}
-	}
+		array = create_array(start,9),
+		comb = getCombinations(array);
+		console.l
+	// while( nextPerm(array)){
+	// 	if(isPrime3(parseInt(array.join(""),10))){
+	// 		console.log(array);
+	// 	}
+	// }
 	return;
 }
 
