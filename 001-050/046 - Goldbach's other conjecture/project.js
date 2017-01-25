@@ -34,7 +34,7 @@ function goldbach(array,n){
 function main() {
 	'use strict';
 	var i =2,
-		bool= true;
+		bool= true,
 		prime = [2];
 	while(bool){
 		if(isPrime3(i)){
