@@ -38,7 +38,11 @@ function main() {
 		sum=[],
 		i=0;
 	while(i<prime.length){//sum slieve
-		sum.push(sum[sum.length-1] + prime[i]);
+		if(sum.length === 0 ){
+			sum.push(2);
+		} else{
+			sum.push(sum[sum.length-1] + prime[i]);
+		}
 		i+=1;
 	}
 	var end;
