@@ -52,7 +52,7 @@ function main() {
 		console.log("prime: " + prime[i], ",end: " + sum[end]);
 		if(sum[end] === prime[i]){
 			length = end;
-		}{
+		} else{
 			j=0;
 			while(j<end){
 				if(sum[end] - sum[j] === prime[i]){
