@@ -63,7 +63,9 @@ function main() {
 		comb = getCombinations(array),
 		i=comb.length -1;
 		while(i> 0){
-			if(comb[.])
+			if(comb[i].length !== 4){
+
+			}
 		}
 		console.log(comb);
 	// while( nextPerm(array)){
