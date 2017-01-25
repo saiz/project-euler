@@ -29,7 +29,7 @@ function endindex(n,sums){
 	while(sums[i] < n){
 		i+=1;
 	}
-	return i -1;
+	return i;
 }
 function main() {
 	'use strict';
