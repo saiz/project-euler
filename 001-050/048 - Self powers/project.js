@@ -21,7 +21,7 @@ function main(n) {
 	var i = 1,
 		result = [];
 		while( i < n){
-			console.log(binary(i))
+			console.log(binary(i).reverse())
 			i+=1;
 		}
 		return;
