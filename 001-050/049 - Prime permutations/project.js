@@ -96,7 +96,7 @@ function main() {
 			}
 		}
 		i=comb.length -1;
-		console.log(comb.length);
+		console.log(comb);
 		// while(i>= 0){
 		// 	console.log(comb[i], number_of_perm(comb[i],comb));
 		// 	i-=1;
