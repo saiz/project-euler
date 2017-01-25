@@ -36,7 +36,6 @@ function main(n) {
 			count = 0;
 		}
 		i+=1;
-		console.log(i)
 	}
 	return i - count - 1;
 }
