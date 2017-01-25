@@ -4,6 +4,7 @@ function binary(power) {
     digits[0] = 1;
     while (power > 0) {
         for (i = digits.length-1; i >= 0; i-=1) {
+        	console.log(power);
             digits[i] *= power;
             if (digits[i] > 9) {
                 digits[i] -= 10;
