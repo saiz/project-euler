@@ -25,6 +25,7 @@ function nextPerm(array){
     return true;
 }
 function number_of_perm(str, array){
+	console.log(str,array);
 	var perm = String(str).split(""),
 		count = 1,
 		i=0;
@@ -32,8 +33,6 @@ function number_of_perm(str, array){
 		perm[i] =parseInt(perm[i],10);
 		i+=1;
 	}
-	console.log('p',perm);
-	console.log('a',array);
 	while( nextPerm(perm)){
 		if(array.indexOf(parseInt(perm.join(''),10)) >=0){
 			count+=1;
