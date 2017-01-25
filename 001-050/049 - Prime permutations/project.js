@@ -131,7 +131,9 @@ function main() {
 			temp = other_perm(comb[i],comb);
 			prim_list(temp);
 			temp.sort();
-			console.log(temp,increasing_Numbers(temp));
+			if(temp.length > 0){
+				console.log(temp,increasing_Numbers(temp));
+			}
 			i-=1;
 		}
 	return;
