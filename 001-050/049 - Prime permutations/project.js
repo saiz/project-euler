@@ -50,7 +50,9 @@ function main() {
 		end = 4,
 		array = create_array(start,end);
 	while( nextPerm(array)){
-		console.log(array);
+		if(isPrime3(parseInt(array.join(""),10))){
+			console.log(array);
+		}
 	}
 	return;
 }
