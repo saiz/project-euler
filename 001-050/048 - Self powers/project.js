@@ -29,7 +29,7 @@ function n_n(n){
 			}
 			j+=1;
 		}
-		total = res.slice(0,11);
+		total = res.slice(0,10);
 		i+=1;
 	}
 	return total.reverse();
