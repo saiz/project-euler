@@ -13,6 +13,7 @@ function isPrime3(n) {
 function prime_factors(prime,n){
 	var array = [],
 		i =0;
+		console.log(prime)
 	while(prime[i] <= Math.sqrt(n)){
 		if(n%prime[i]){
 			array.push(prime[i]);
