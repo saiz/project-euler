@@ -39,7 +39,7 @@ function main(n) {
 		}
 		i+=1;
 	}
-	return i - count - 1;
+	return i - count;
 }
 
 console.log(main(process.argv[2]));
