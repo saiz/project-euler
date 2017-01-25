@@ -49,6 +49,7 @@ function main(n) {
 					result[j] = 0;
 				}
 				temp = result[j]+num[j];
+				console.log('t',temp)
 				k=0;
 				while( temp > 0){
 					result[j+k] += temp%10;
