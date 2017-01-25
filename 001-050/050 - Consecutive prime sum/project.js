@@ -45,7 +45,7 @@ function main() {
 		}
 		i+=1;
 	}
-	var end,j, length, maxlength, number;
+	var end,j, length, maxlength = 0, number;
 	i=0;
 	while(i<prime.length){//sum slieve
 		end = endindex(prime[i],sum);
