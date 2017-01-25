@@ -26,7 +26,6 @@ function nextPerm(array){
 }
 function other_perm(str, array){
 	var perm = String(str).split(""),
-		count = 1,
 		i=0, result=[], copy;
 	while(i<perm.length){
 		perm[i] =parseInt(perm[i],10);
