@@ -10,16 +10,6 @@ function isPrime3(n) {
 	}
 	return true;
 }
-function nextprime(n){
-	var bool = true;
-	while(bool){
-		n+=1;
-		if(isPrime3(n)){
-			bool = false;
-		}
-	}
-	return n;
-}
 function goldbach(prime,n){
 	var i = 0,
 	bool = true,
