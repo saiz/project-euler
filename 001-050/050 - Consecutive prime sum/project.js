@@ -18,7 +18,7 @@ function next_prim(array){
 	return i;
 }
 function check_prime(n,array,sum){
-	while(n >sum[array.length-1]){
+	while(n >array[array.length-1]){
 		array.push(next_prim(array));
 		sum.push(sum[sum.length-1] + array[array.length-1]);
 	}
