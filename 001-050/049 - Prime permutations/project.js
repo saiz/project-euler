@@ -90,16 +90,16 @@ function main() {
 			perm = String(array[i]).split("");
 			while( nextPerm(perm)){
 				if(array.indexOf(parseInt(perm.join(''),10)) < 0){
-					array.push(parseInt(perm.join(''),10))
+					array.push(parseInt(perm.join(''),10));
 				}
 			}
 		}
 		i=comb.length -1;
 		console.log(comb);
-		while(i>= 0){
-			console.log(comb[i], number_of_perm(comb[i],comb));
-			i-=1;
-		}
+		// while(i>= 0){
+		// 	console.log(comb[i], number_of_perm(comb[i],comb));
+		// 	i-=1;
+		// }
 	return;
 }
 
