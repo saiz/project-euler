@@ -23,6 +23,7 @@ function n_n(n){
 			}
 			j+=1;
 		}
+		total = res.slice(0);
 		i+=1;
 	}
 	return result;
