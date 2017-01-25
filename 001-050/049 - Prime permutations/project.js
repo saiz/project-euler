@@ -86,7 +86,6 @@ function main() {
 			i-=1;
 		}
 		var perm;
-		console.log(comb)
 		for(i=0;i<comb.length;i+=1){
 			perm = String(comb[i]).split("");
 			while( nextPerm(perm)){
@@ -94,6 +93,13 @@ function main() {
 					comb.push(parseInt(perm.join(''),10));
 				}
 			}
+		}
+		i=comb.length -1;
+		while(i>= 0){
+			if(!isPrime3(comb[i])){
+				comb.splice(i, 1);
+			}
+			i-=1;
 		}
 		i=comb.length -1;
 		console.log(comb);
