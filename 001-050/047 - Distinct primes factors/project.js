@@ -33,7 +33,6 @@ function main(n) {
 		if(isPrime3(i)){
 			prime.push(i);
 		}
-		console.log(i, prime_factors(prime,i));
 		if(prime_factors(prime,i).length === n){
 			count +=1;
 		}else{
@@ -42,6 +41,7 @@ function main(n) {
 		i+=1;
 	}
 	num = i - count -1;
+	console.log(num);
 	for(i=num;i<num;i+=1){
 		result.push(i);
 	}
