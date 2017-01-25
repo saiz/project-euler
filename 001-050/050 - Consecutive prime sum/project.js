@@ -51,9 +51,9 @@ function main() {
 		if(check_prime(i,prime, sum)){
 			length = prime_length(i,sum);
 			if(length > max){
-				max = length
+				max = length;
 				maxprime  =i;
-				console.log(length, i);
+				console.log(max, maxprime);
 			}
 		}
 		i+=2;
