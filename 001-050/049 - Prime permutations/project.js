@@ -89,8 +89,7 @@ function increasing_Numbers(array){
 		j=0,
 		bool = true,
 		a,
-		b,
-		c,
+		b
 		diff;
 	while(i<array.length-1 && bool){
 		a = array[i];
@@ -107,7 +106,7 @@ function increasing_Numbers(array){
 	if(bool){
 		return [];
 	}
-	return [a,b,c];
+	return [a,b,b+diff];
 }
 function main() {
 	'use strict';
