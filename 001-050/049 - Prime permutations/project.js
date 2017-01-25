@@ -84,6 +84,31 @@ function prim_list(array){
 		i-=1;
 	}
 }
+function increasing_Numbers(array){
+	var i =0,
+		j=0,
+		bool = true,
+		a,
+		b,
+		c,
+		diff;
+	while(i<array.length-1 && bool){
+		a = array[i];
+		j=i+1;
+		while(j<array.length  && bool){
+			b=array[j];
+			diff = Math.abs(a-b);
+			if(array.indexOf(b+diff)> -1){
+				bool = false;
+			}
+			j+=1;
+		}
+	}
+	if(bool){
+		return [];
+	}
+	return [a,b,c];
+}
 function main() {
 	'use strict';
 	var start = 1,
