@@ -34,7 +34,7 @@ function main(n) {
 			}
 			i+=1;
 		}
-		return;
+		return result;
 	}
 
 console.log(main(process.argv[2]));
