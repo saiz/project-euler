@@ -33,7 +33,7 @@ function number_of_perm(str, array){
 		i+=1;
 	}
 	while( nextPerm(perm)){
-		if(array.indexOf(perm.join('')) >= 0){
+		if(array.indexOf(parseInt(perm.join(''),10)) >= 0){
 			count+=1;
 		}
 	}
