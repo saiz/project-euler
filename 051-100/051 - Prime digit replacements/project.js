@@ -30,20 +30,18 @@ function main() {
 		ones = (number.split("1").length - 1);
 		number = number.replace(/1/g, 'a').replace(/0/g, 'b');
 		array = [];
-		for(j=0;j<10;j+=1){
-			for(k=0;k<Math.pow(10,zeros);k+=1){
+		temp = String(zeroPad(k,zeros));
+		l=0;
+		while(l < temp.length ){
+			number_temp = number_temp.replace('b',temp[l]);
+			for(j=0;j<10;j+=1){
 				number_temp = number.replace(/a/g, j);
-				temp = String(zeroPad(k,zeros));
-				l=0;
-				while(l < temp.length ){
-					number_temp = number_temp.replace('b',temp[l]);
-					l+=1;
-				}
 				if(isPrime3(parseInt(number_temp,10))){
 					array.push(number_temp);
 				}
 				console.log(number," | ",number_temp, " | ");
 			}
+			l+=1;
 		}
 		if(array.length === 8){
 			console.log(array);
