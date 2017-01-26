@@ -172,6 +172,22 @@ function fullhouse(hand){
 	}
 	return Math.pow(10,7)+ 10*a +  a_suit;
 }
+function flush(hand){
+	var i =hand.length -1,
+	bool = true,
+	suit = hand[4].suit;
+	score = hand[4].score;
+	while(i>=0 && flush){
+		if(hand[i].suit !== suit){
+			flush = false;
+		}
+		i-=1;
+	}
+	if(!flush){
+		return -1;
+	}
+	return Math.pow(10,7)+10*score+suit;
+}
 function main() {
 	'use strict';
 	var array =poker_array(),
