@@ -25,7 +25,7 @@ function muliples(number,n){
 function is_array_perm(num,array){
 	var i =0,
 		bool=true;
-while(i<first.length && bool){
+	while(i<first.length && bool){
 		if(second.indexOf(first[i]) < 0){
 			bool = false;
 		}
