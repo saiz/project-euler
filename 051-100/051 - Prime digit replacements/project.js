@@ -45,7 +45,6 @@ function main() {
 			}
 		}
 		if(array.length === 8){
-			bool = false;
 			console.log(array);
 			console.log(number);
 		}
