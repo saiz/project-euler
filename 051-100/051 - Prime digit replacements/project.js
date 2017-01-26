@@ -1,6 +1,6 @@
 function main() {
 	'use strict';
-	var i = parseInt(8,2);
+	var i = parseInt(100,2);
 	return i;
 }
 
