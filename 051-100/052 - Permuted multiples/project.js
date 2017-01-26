@@ -15,7 +15,7 @@ function muliples(number,n){
 	var i =2,
 		array = [];
 	while(i<=n){
-		array.push(num)
+		array.push(number*n)
 	}
 }
 
