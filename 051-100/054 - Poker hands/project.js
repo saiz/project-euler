@@ -20,8 +20,8 @@ function card(str) {
 				score = 10;
 				break;
 			case "J":
-					score = 11;
-					break;
+				score = 11;
+				break;
 			case "Q":
 				score = 12;
 				break;
@@ -34,21 +34,22 @@ function card(str) {
 			default:
 				score = parseInt(i,10);
 		}
+		score -=2;
 		switch(j) {
-			case "J":
-					score = 11;
-					break;
-			case "Q":
-				score = 12;
+			case "S":
+				suit = 0;
 				break;
-			case "K":
-				score = 13;
+			case "H":
+				suit = 1;
 				break;
-			case "A":
-				score = 14;
+			case "D":
+				suit = 2;
+				break;
+			case "C":
+				suit = 3;
 				break;
 			default:
-				score = parseInt(i,10);
+				suit = -1;
 		}
 }
 
