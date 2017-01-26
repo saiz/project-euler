@@ -12,10 +12,10 @@
 var fs = require('fs');
 function poker_array(){
 	'use strict';
-	var arr = fs.readFileSync('./poker.txt').toString().split(" "),
+	var arr = fs.readFileSync('./poker.txt').toString().split("\r\n"),
 	i;
 	for(i=0;i<arr.length;i+=1){
-	    arr[i] = arr[i].replace(/\r\n/g, '\n');
+	    arr[i] = arr[i].split(" ");
 	}
 	return arr;
 }
