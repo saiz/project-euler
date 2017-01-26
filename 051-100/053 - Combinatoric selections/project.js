@@ -16,7 +16,7 @@ function next(array, end){
 	} else{
 		j-=1;
 	}
-	if( array[0] > end +1){
+	if( array[0] > end){
 		return false;
 	}
 	return true;
@@ -26,7 +26,7 @@ function main() {
 	var array =[1,1],
 		i = array[0],
 		j = array[1];
-	while(next(array)){
+	while(next(array,100)){
 		console.log(i,j);
 	}
 	return;
