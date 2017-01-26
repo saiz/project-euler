@@ -130,6 +130,7 @@ function main() {
 		personA = hand(array[i][0]).sort(card_sort);
 		personB = hand(array[i][1]).sort(card_sort);
         straight_flush(personA);
+        straight_flush(person);B
 		i+=1;
 	}
 	return;
