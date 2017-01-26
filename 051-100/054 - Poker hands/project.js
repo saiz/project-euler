@@ -17,7 +17,7 @@ function card(str) {
 		score, suit;
 	switch(i) {
 		case "T":
-	        score = 11;
+	        score = 10;
 	        break;
 	    case "J":
 	        score = 11;
