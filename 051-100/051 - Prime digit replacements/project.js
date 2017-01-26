@@ -35,7 +35,7 @@ function main() {
 			l=0;
 			number_temp = number;
 			while(l < temp.length){
-				number_temp.replace('b',temp[l]);
+				number_temp = number_temp.replace('b',temp[l]);
 				l+=1;
 			}
 			console.log(number, " | ", number_temp);
