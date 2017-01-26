@@ -16,6 +16,7 @@ function next(array){
 	} else{
 		j-=1;
 	}
+	return true;
 }
 function main() {
 	'use strict';
