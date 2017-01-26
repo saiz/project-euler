@@ -146,6 +146,32 @@ function four(hand){
 	}
 	return Math.pow(10,8)+ 10*a +  a_suit;
 }
+function fullhouse(hand){
+	var i =0,
+	bool = true,
+	a_count = 0,
+	b_count = 0,
+	a = hand[0].score,
+	b = hand[hand.length -1].score,
+	a_suit = hand[0].suit,
+	b_suit = hand[hand.length -1].suit;
+	while(i<hand.length){
+		if(a === hand[i].score){
+			a_count+=1;
+		}
+		if(b === hand[i].score){
+			b_count+=1;
+		}
+		i+=1;
+	}
+	if(b_count <= 2 && a_count <= 2 ){
+		return -1;
+	}
+	if(b_count === 3){
+		return Math.pow(10,8)+ 10*b +  b_suit;
+	}
+	return Math.pow(10,8)+ 10*a +  a_suit;
+}
 function main() {
 	'use strict';
 	var array =poker_array(),
