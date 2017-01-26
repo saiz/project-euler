@@ -193,11 +193,11 @@ function straight(hand){
 	bool = true,
 	suit = hand[4].suit;
 	score = hand[4].score;
-	while(i>=0 && flush){
+	while(i>=0 && bool){
 		if(i === hand.length -1  && hand[i].score === 14){
 			score = 5;
 		} else if(hand[i].score !== score - (hand.length -1 - i) ) {
-			flush = bool;
+			bool = bool;
 		}
 		i-=1;
 	}
