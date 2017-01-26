@@ -20,7 +20,9 @@ function next(array){
 function main() {
 	'use strict';
 	var array =[1,1];
-	while(next(array))[]
+	while(next(array)){
+		console.log()
+	}
 	return i;
 }
 
