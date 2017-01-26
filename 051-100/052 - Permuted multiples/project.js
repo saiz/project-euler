@@ -1,6 +1,6 @@
 function is_permutation(first,second){
 	first = String(first);
-	second
+	second=
 	if(first.length !== second.length){
 		return false;
 	}
