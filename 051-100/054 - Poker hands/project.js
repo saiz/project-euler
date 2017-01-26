@@ -137,10 +137,10 @@ function four(hand){
 			b_count+=1;
 		}
 	}
+	console.log(a_count,b_count);
 	if(b_count < 4 && a_count < 4 ){
 		return -1;
 	}
-	console.log(a_count,b_count);
 	if(b_count >= 4){
 		return Math.pow(10,8)+ 10*b +  b_suit;
 	}
