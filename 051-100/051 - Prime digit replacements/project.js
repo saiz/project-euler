@@ -43,7 +43,7 @@ function main() {
 					array.push(number_temp);
 				}
 			}
-			console.log(number, " | ", number_temp);
+			console.log(array);
 		}
 		i+=1;
 	}
