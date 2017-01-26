@@ -1,4 +1,5 @@
 function is_permutation(first,second){
+	first
 	if(first.length !== second.length){
 		return false;
 	}
