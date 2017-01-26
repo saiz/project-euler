@@ -14,7 +14,7 @@ function next(array, end){
 	} else{
 		array[1]-=1;
 	}
-	if( array[0] === end +1){
+	if( array[0] > end +1){
 		return false;
 	}
 	return true;
