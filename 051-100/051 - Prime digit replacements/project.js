@@ -49,6 +49,7 @@ function main() {
 			}
 			if(array.length === 8){
 				bool = false;
+				console.log(array);
 			}
 		}
 		i+=1;
