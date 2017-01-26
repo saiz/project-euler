@@ -78,7 +78,7 @@ function main() {
 		first;
 	while( i< array.length){
 		first =array[i][0][0];
-		console.log(array[i][0][0]);
+		console.log(card());
 		i+=1;
 	}
 	return i;
