@@ -138,6 +138,7 @@ function four(hand){
 		}
 		i+=1;
 	}
+	console.log(a_count,b_count);
 	if(b_count < 4 && a_count < 4 ){
 		return -1;
 	}
