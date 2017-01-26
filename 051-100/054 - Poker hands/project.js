@@ -112,6 +112,7 @@ function straight_flush(hand){
 		}
 		if(i === hand.length -1  && hand[i].score === 14){
 			score = 5;
+			console.log()
 		} else if(hand[i].score !== score - (hand.length-1  - i) ) {
 			flush = false;
 		}
