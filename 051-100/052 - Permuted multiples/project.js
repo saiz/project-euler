@@ -44,6 +44,7 @@ function main() {
 		if(is_array_perm(i,array)){
 			console.log(i);
 		}
+		console.log(array);
 		i+=1;
 	}
 	return;
