@@ -47,7 +47,7 @@ function main() {
 		}
 		i+=1;
 	}
-	return;
+	return array[0];
 }
 
 console.log(main(process.argv[2]));
