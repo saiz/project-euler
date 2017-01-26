@@ -23,7 +23,7 @@ function main() {
 		i = array[0],
 		j = array[1];
 	while(next(array)){
-		console.log()
+		console.log(ii)
 	}
 	return i;
 }
