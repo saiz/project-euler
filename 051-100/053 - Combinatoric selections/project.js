@@ -4,6 +4,7 @@ function fact(n){
 	}
 	return n * fact(n-1);
 }
+functionComb
 function main() {
 	'use strict';
 	var i ='test';
