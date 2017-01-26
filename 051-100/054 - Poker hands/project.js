@@ -188,7 +188,7 @@ function flush(hand){
 	}
 	return Math.pow(10,7)+10*score+suit;
 }
-function score(hand){
+function scores(hand){
 	if(royal_flush(hand) > 0){
 		return royal_flush(hand);
 	}
@@ -215,7 +215,7 @@ function main() {
 	while( i< array.length){
 		personA = hand(array[i][0]).sort(card_sort);
 		personB = hand(array[i][1]).sort(card_sort);
-        console.log(score(personA), " | ",score(personB));
+        console.log(scores(personA), " | ",scores(personB));
 		i+=1;
 	}
 	return;
