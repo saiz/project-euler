@@ -8,7 +8,7 @@ function comb(n,r){
 	return fact(n)/(fact(r)*fact(n - r));
 }
 function next(array){
-if()
+if(arra)
 }
 function main() {
 	'use strict';
