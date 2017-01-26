@@ -65,7 +65,7 @@ function card(str) {
 			suit = -1;
 	}
 	return {
-		score:score -2,
+		score:score,
 		suit:suit
 	};
 }
@@ -84,7 +84,7 @@ function royal_flush(hand){
 	var i =0,
 	flush = true,
 	suit = hand[0].suit;
-	score = 8;
+	score = 10;
 	while(i<hand.length && flush){
 		if(hand[i].suit !== suit){
 			flush = false;
