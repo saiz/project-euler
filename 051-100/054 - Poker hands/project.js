@@ -126,7 +126,7 @@ function four(hand){
 	a_count = 0,
 	b_count = 0,
 	a = hand[0].score,
-	b = hand[hand.length -1].score;
+	b = hand[hand.length -1].score,
 	a_suit = hand[0].suit,
 	b_suit = hand[hand.length -1].suit;
 	while(i<hand.length > 4){
