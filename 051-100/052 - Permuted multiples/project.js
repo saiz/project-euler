@@ -27,8 +27,8 @@ function main() {
 		array = [];
 		bool = true;
 	while(bool){
-array = muliples(i,6)
-
+	array = muliples(i,6)
+console.log(array)
 	}
 	return i;
 }
