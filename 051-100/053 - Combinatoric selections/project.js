@@ -10,7 +10,7 @@ function comb(n,r){
 function next(array){
 	var i = array[0],
 		j = array[1];
-if(a)
+if()
 }
 function main() {
 	'use strict';
