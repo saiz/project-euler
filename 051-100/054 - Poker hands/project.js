@@ -154,7 +154,7 @@ function main() {
 	while( i< array.length){
 		personA = hand(array[i][0]).sort(card_sort);
 		personB = hand(array[i][1]).sort(card_sort);
-        four(personA);
+        cfour(personA);
         four(personB);
 		i+=1;
 	}
