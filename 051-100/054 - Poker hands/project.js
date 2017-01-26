@@ -74,8 +74,10 @@ function poker_array(){
 function main() {
 	'use strict';
 	var array =poker_array(),
-		i = 0;
+		i = 0,
+
 	while( i< array.length){
+
 		console.log(array[i][0][0]);
 		i+=1;
 	}
