@@ -8,8 +8,8 @@ function comb(n,r){
 	return fact(n)/(fact(r)*fact(n - r));
 }
 function next(array){
-	var i = array[0];
-
+	var i = array[0],
+		j
 if(arra)
 }
 function main() {
