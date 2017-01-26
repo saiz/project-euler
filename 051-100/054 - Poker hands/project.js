@@ -81,13 +81,20 @@ function royal_flush(hand){
 	var i =0,
 	flush = true,
 	suit = hand[0].suit;
-	score = -1;
+	score = 9;
 	while(i<hand.length && flush){
 		if(hand[i].suit !== suit){
 			flush = false;
 		}
+		if(score + i !== hand[i].score){
+			flush = false;
+		}
 		i+=1;
 	}
+	if(!flush){
+		return -1;
+	}
+	return Math.pow(10,10)*+suit;
 }
 
 function main() {
