@@ -47,8 +47,8 @@ function main() {
 				console.log(array);
 				console.log(number);
 			}
+			console.log(array);
 		}
-		console.log(i)
 		i+=1;
 	}
 
