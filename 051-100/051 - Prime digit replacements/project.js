@@ -29,14 +29,14 @@ function main() {
 		zeros = (number.split("0").length - 1);
 		ones = (number.split("1").length - 1);
 		number = number.replace(/1/g, 'a').replace(/0/g, 'b');
-		for(k=0;k<Math.pow(10,zeros);k+=1){
+		for(j=0;j<Math.pow(10,zeros);j+=1){
 			array = [];
-			temp = String(zeroPad(k,zeros));
-			l=0;
+			temp = String(zeroPad(j,zeros));
+			k=0;
 			number_temp = number;
 			while(l < temp.length){
-				number_temp = number_temp.replace('b',temp[l]);
-				l+=1;
+				number_temp = number_temp.replace('b',temp[k]);
+				k+=1;
 			}
 			console.log(number, " | ", number_temp);
 		}
