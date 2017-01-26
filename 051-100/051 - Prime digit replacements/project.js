@@ -41,7 +41,7 @@ function main() {
 				// 		array.push(number_temp);
 				// 	}
 				// }
-				console.log(number_temp)
+				console.log(number_temp, " | ",number )
 				l+=1;
 			}
 			if(array.length === 8){
