@@ -26,6 +26,7 @@ function main() {
 	var i=1,
 		bool = true;
 	while(bool){
+
 	}
 	return i;
 }
