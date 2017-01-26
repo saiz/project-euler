@@ -75,7 +75,7 @@ function main() {
 	'use strict';
 	var array =poker_array(),
 		i = 0,
-
+		first;
 	while( i< array.length){
 
 		console.log(array[i][0][0]);
