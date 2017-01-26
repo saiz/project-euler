@@ -9,7 +9,7 @@ function main() {
 		number_temp,
 		zeros,
 		ones,
-		temp;
+		temp,
 		n =1000;
 	while(i <n){
 		number = (i).toString(2);
