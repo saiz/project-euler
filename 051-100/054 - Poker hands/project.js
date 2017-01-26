@@ -138,10 +138,10 @@ function four(hand){
 		}
 		i+=1;
 	}
-	if(b_count < 3 && a_count < 3 ){
+	if(b_count < 4 && a_count < 4 ){
 		return -1;
 	}
-	if(b_count >= 3){
+	if(b_count >= 4){
 		return Math.pow(10,8)+ 10*b +  b_suit;
 	}
 	return Math.pow(10,8)+ 10*a +  a_suit;
