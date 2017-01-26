@@ -20,6 +20,8 @@ function next(array){
 function main() {
 	'use strict';
 	var array =[1,1],
+	i = array[0],
+		j = array[1];
 	while(next(array)){
 		console.log()
 	}
