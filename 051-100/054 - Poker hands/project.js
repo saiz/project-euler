@@ -73,8 +73,12 @@ function poker_array(){
 
 function main() {
 	'use strict';
-	var i =poker_array();
-	while
+	var array =poker_array(),
+		i = 0;
+	while( i< array.length){
+		console.log(array[i][0][0]);
+		i+=1;
+	}
 	return i;
 }
 
