@@ -14,7 +14,7 @@ var fs = require('fs');
 function card(str) {
 	var i = str[0],
 		j = str[1];
-}
+}	switch
 function poker_array(){
 	'use strict';
 	var arr = fs.readFileSync('./poker.txt').toString().split("\r\n"),
