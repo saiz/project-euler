@@ -111,7 +111,7 @@ function main() {
         console.log(royal_flush(personA), " | ",royal_flush(personB) );
 		i+=1;
 	}
-	return i;
+	return;
 }
 
 console.log(main(process.argv[2]));
