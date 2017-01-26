@@ -17,8 +17,8 @@ function muliples(number,n){
 	while(i<=n){
 		array.push(number*i);
 		i+=1;
-
 	}
+	re
 }
 
 function main() {
