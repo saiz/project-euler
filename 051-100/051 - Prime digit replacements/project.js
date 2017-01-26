@@ -9,7 +9,7 @@ function main() {
 		number = (i).toString(2);
 		zeros = (number.split("0").length - 1);
 		ones = (number.split("1").length - 1);
-		if(i > 0){
+		if(ones > 0){
 			for(j=0;j<10;j+=1){
 				console.log(number.replace(/1/g, j), " || ", zeros);
 			}
