@@ -34,27 +34,26 @@ function card(str) {
 		default:
 			score = parseInt(i,10);
 	}
-		score -=2;
-		switch(j) {
-			case "S":
-				suit = 0;
-				break;
-			case "H":
-				suit = 1;
-				break;
-			case "D":
-				suit = 2;
-				break;
-			case "C":
-				suit = 3;
-				break;
-			default:
-				suit = -1;
-		}
-		return {
-			score:score,
-			suit:suit
-		};
+	switch(j) {
+		case "S":
+			suit = 0;
+			break;
+		case "H":
+			suit = 1;
+			break;
+		case "D":
+			suit = 2;
+			break;
+		case "C":
+			suit = 3;
+			break;
+		default:
+			suit = -1;
+	}
+	return {
+		score:score -2,
+		suit:suit
+	};
 }
 
 }
