@@ -97,7 +97,6 @@ function royal_flush(hand){
 	if(!flush){
 		return -1;
 	}
-	console.log('royal')
 	return Math.pow(10,10)+suit;
 }
 function straight_flush(hand){
@@ -119,7 +118,6 @@ function straight_flush(hand){
 	if(!flush){
 		return -1;
 	}
-	console.log('straight')
 	return Math.pow(10,9)+suit;
 }
 function main() {
