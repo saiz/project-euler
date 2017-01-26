@@ -19,7 +19,7 @@ function next(array){
 }
 function main() {
 	'use strict';
-	var ar
+	var array =[1,1];
 	return i;
 }
 
