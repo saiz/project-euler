@@ -27,6 +27,7 @@ function main() {
 		array = [];
 		bool = true;
 	while(bool){
+a
 
 	}
 	return i;
