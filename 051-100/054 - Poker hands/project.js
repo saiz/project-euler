@@ -204,6 +204,7 @@ function straight(hand){
 	if(!bool){
 		return -1;
 	}
+	console.log('asdadadasdasd')
 	if(hand[4].score === 14){
 		return Math.pow(10,6)+4*10+suit;
 	}
