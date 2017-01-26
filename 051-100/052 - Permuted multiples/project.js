@@ -22,7 +22,7 @@ function muliples(number,n){
 	}
 	return array;
 }
-functionis
+function is
 
 function main() {
 	'use strict';
