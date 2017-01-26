@@ -13,9 +13,14 @@ var fs = require('fs');
 function poker_array(){
 	'use strict';
 	var arr = fs.readFileSync('./poker.txt').toString().split("\r\n"),
-	i;
+	i ,j =[], k =[];
 	for(i=0;i<arr.length;i+=1){
-	    arr[i] = arr[i].split(" ");
+		arr[i] = arr[i].split(" ");
+		j = arr[i].splice(0,5);
+		k = arr[i].splice(5);
+		arr[i] = [];
+		arr[i][0] = j;
+		arr[i][1] = k;
 	}
 	return arr;
 }
