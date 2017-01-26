@@ -188,6 +188,24 @@ function flush(hand){
 	}
 	return Math.pow(10,7)+10*score+suit;
 }
+function straight(hand){
+	var i =hand.length -1,
+	bool = true,
+	suit = hand[4].suit;
+	score = hand[4].score;
+	while(i>=0 && flush){
+		if(i === hand.length -1  && hand[i].score === 14){
+			score = 5;
+		} else if(hand[i].score !== score - (hand.length -1 - i) ) {
+			flush = bool;
+		}
+		i-=1;
+	}
+	if(!bool){
+		return -1;
+	}
+	return Math.pow(10,9)+suit;
+}
 function scores(hand){
 	if(royal_flush(hand) > 0){
 		return royal_flush(hand);
