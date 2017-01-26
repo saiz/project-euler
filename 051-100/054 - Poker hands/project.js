@@ -120,6 +120,23 @@ function straight_flush(hand){
 	}
 	return Math.pow(10,9)+suit;
 }
+function four(hand){
+	var i =0,
+	bool = true,
+	miss = 0,
+	score = hand[0].score;
+	while(i<hand.length && miss <= 1){
+		if(score !== hand[i].score){
+			miss+=1;
+		} else{
+			score = hand[i].score;
+		}
+	}
+	if(count < 4){
+		return -1;
+	}
+	return Math.pow(10,8)+ 10+suit;
+}
 function main() {
 	'use strict';
 	var array =poker_array(),
