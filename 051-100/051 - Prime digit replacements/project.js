@@ -10,14 +10,7 @@ function main() {
 		zeros = (number.split("0").length - 1);
 		ones = (number.split("1").length - 1);
 		number = number.replace(/1/g, 'a').replace(/0/g, 'b');
-		if(ones > 0){
-			for(j=0;j<10;j+=1){
-				for(k=0;k<Math.pow(10,zeros);k+=1){
-					console.log(number.replace(/1/g, j), " || ", zeros,);
-
-				}
-			}
-		}
+		console.log(number);
 		i+=1;
 	}
 	return;
