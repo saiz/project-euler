@@ -10,13 +10,13 @@ function comb(n,r){
 function next(array, end){
 	var i = array[0],
 		j = array[1];
-	if(j -1 === 0){
+	if(array[1] -1 === 0){
 		array[0]+=1;
 		j=1;
 	} else{
 		j-=1;
 	}
-	if( i === end +1){
+	if( array[0] === end +1){
 		return false;
 	}
 	return true;
