@@ -84,7 +84,7 @@ function royal_flush(hand){
 	var i =0,
 	flush = true,
 	suit = hand[0].suit;
-	score = 9;
+	score = 8;
 	while(i<hand.length && flush){
 		if(hand[i].suit !== suit){
 			flush = false;
