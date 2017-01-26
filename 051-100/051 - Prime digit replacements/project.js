@@ -40,7 +40,7 @@ function main() {
 			k=0;
 			while(k < 10){
 				number_temp2 = number_temp.replace(/a/g, k);
-				if(isPrime3(parseInt(number_temp2,10))){
+				if(isPrime3(parseInt(number_temp2,10) && )){
 					array.push(number_temp2);
 				}
 				k+=1;
