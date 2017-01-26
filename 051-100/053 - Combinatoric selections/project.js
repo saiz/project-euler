@@ -9,7 +9,7 @@ function comb(n,r){
 }
 function next(array){
 	var i = array[0],
-		j
+		j = array
 if(arra)
 }
 function main() {
