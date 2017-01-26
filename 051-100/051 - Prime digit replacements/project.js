@@ -48,6 +48,7 @@ function main() {
 				console.log(number);
 			}
 		}
+		console.log(i)
 		i+=1;
 	}
 
