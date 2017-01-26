@@ -26,11 +26,12 @@ function is_array_perm(num,array){
 	var i =0,
 		bool=true;
 	while(i<array.length && bool){
-		if(!is_permutation(num,array[o])){
+		if(!is_permutation(num,array[i])){
 			bool = false;
 		}
 		i+=1;
 	}
+
 }
 
 function main() {
