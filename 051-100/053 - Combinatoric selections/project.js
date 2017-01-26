@@ -9,8 +9,8 @@ function comb(n,r){
 }
 function next(array){
 	var i = array[0],
-		j = array
-if(arra)
+		j = array[1];
+if(a)
 }
 function main() {
 	'use strict';
