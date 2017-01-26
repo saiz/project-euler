@@ -109,8 +109,8 @@ function straight_flush(hand){
 			flush = false;
 		}
 		if(i === hand.length -1  && hand[i].suit === 14){
-			score = 1;
-		} else if(hand[i].score !== score + (hand.length - i)){
+			score = 5;
+		} else if(hand[i].score !== score - (hand.length -1 - i){
 			flush = false;
 		}
 		i-=1;
