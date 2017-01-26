@@ -54,7 +54,7 @@ function card(str) {
 		score:score -2,
 		suit:suit
 	};
-};
+}
 
 function poker_array(){
 	'use strict';
