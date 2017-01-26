@@ -99,6 +99,25 @@ function royal_flush(hand){
 	}
 	return Math.pow(10,10)*+suit;
 }
+function straight_flush(hand){
+	var i =0,
+	flush = true,
+	suit = hand[0].suit;
+	score = hand[0].score;
+	while(i<hand.length && flush){
+		if(hand[i].suit !== suit){
+			flush = false;
+		}
+		if(score + i !== hand[i].score){
+			flush = false;
+		}
+		i+=1;
+	}
+	if(!flush){
+		return -1;
+	}
+	return Math.pow(10,9)*+suit;
+}
 function main() {
 	'use strict';
 	var array =poker_array(),
