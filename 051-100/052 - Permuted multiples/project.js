@@ -11,10 +11,18 @@ function is_permutation(first,second){
 	}
 	return bool;
 }
+function muliples(number,n){
+	var i =2,
+		array = [];
+	while(i<n=)
+}
 
 function main() {
 	'use strict';
-	var i ='test';
+	var i=1,
+		bool = true;
+	while(bool){
+	}
 	return i;
 }
 
