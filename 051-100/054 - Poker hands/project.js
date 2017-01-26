@@ -51,6 +51,10 @@ function card(str) {
 			default:
 				suit = -1;
 		}
+		return {
+			score:score,
+			suit:suit
+		}
 }
 
 }
