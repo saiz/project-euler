@@ -16,18 +16,16 @@ function isPrime3(n) {
 }
 function main() {
 	'use strict';
-	var i= 0, j, k,l,
+	var i= 0, j, k,
 		number,
 		number_temp,
 		zeros,
-		ones,
 		temp,
 		array = [],
 		bool = true;
 	while(bool){
 		number = (i).toString(2);
 		zeros = (number.split("0").length - 1);
-		ones = (number.split("1").length - 1);
 		number = number.replace(/1/g, 'a').replace(/0/g, 'b');
 		for(j=0;j<Math.pow(10,zeros);j+=1){
 			array = [];
@@ -37,6 +35,13 @@ function main() {
 			while(k < temp.length){
 				number_temp = number_temp.replace('b',temp[k]);
 				k+=1;
+			}
+			k=0;
+			while(k < 10){
+				number_temp = parseInt(number_temp.replace(/a/g, k),10)
+				if(isPrime3(number_temp)){
+					array.push(number_temp);
+				}
 			}
 			console.log(number, " | ", number_temp);
 		}
