@@ -33,22 +33,7 @@ function main() {
 			array = [];
 			temp = String(zeroPad(k,zeros));
 			l=0;
-			while(l < temp.length ){
-				number_temp = number.replace('b',temp[l]);
-				l+=1;
-			}
-			for(j=0;j<10;j+=1){
-				// number_temp = number_temp.replace(/a/g, j);
-				// if(isPrime3(parseInt(number_temp,10))){
-				// 	array.push(number_temp);
-				// }
-				console.log(number_temp.replace(/a/g, j), " | ",number )
-			}
-			if(array.length === 8){
-				console.log(array);
-				console.log(number);
-			}
-			number_temp
+			console.log(k," | ", temp)
 		}
 		i+=1;
 	}
