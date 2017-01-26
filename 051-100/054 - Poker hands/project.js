@@ -113,7 +113,6 @@ function main() {
           }
         );
 		personB = hand(array[i][1]).sort(card_sort());
-        );
         console.log(personA);
 		i+=1;
 	}
