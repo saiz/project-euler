@@ -26,7 +26,7 @@ function is_array_perm(num,array){
 	var i =0,
 		bool=true;
 	while(i<array.length && bool){
-		if(second.indexOf(first[i]) < 0){
+		if(){
 			bool = false;
 		}
 		i+=1;
