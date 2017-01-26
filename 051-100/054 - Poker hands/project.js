@@ -80,8 +80,6 @@ function hand(array){
 function card_sort (x, y){
 	return x.score - y.score;
 }
-return -1;
-}
 function royal_flush(hand){
 	var i =0,
 	flush = true,
@@ -190,7 +188,24 @@ function flush(hand){
 	}
 	return Math.pow(10,7)+10*score+suit;
 }
-
+function score(hand){
+	if(royal_flush(hand) > 0){
+		return royal_flush(hand);
+	}
+	if(straight_flush(hand)> 0){
+		return straight_flush(hand);
+	}
+	if(four(hand)> 0){
+		return four(hand);
+	}
+	if(fullhouse(hand)> 0){
+		return fullhouse(hand);
+	}
+	if(flush(hand)> 0){
+		return flush(hand);
+	}
+	return -1;
+}
 function main() {
 	'use strict';
 	var array =poker_array(),
