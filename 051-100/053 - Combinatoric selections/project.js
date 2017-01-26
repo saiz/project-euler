@@ -28,7 +28,6 @@ function main() {
 		if(comb(i,j) > max){
 			count +=1;
 		}
-		console.log(array[0],array[1]);
 	}
 	return;
 }
