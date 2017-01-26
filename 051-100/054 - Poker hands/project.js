@@ -80,6 +80,8 @@ function hand(array){
 function card_sort (x, y){
 	return x.score - y.score;
 }
+return -1;
+}
 function royal_flush(hand){
 	var i =0,
 	flush = true,
@@ -188,6 +190,7 @@ function flush(hand){
 	}
 	return Math.pow(10,7)+10*score+suit;
 }
+
 function main() {
 	'use strict';
 	var array =poker_array(),
@@ -197,7 +200,7 @@ function main() {
 	while( i< array.length){
 		personA = hand(array[i][0]).sort(card_sort);
 		personB = hand(array[i][1]).sort(card_sort);
-        console.log(flush(personA), " | ",flush(personB));
+        console.log(score(personA), " | ",score(personB));
 		i+=1;
 	}
 	return;
