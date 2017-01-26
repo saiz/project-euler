@@ -24,7 +24,7 @@ function main() {
 	var array =[1,1],
 		i = array[0],
 		j = array[1];
-	while(next(array)){
+	while(next(array, 100)){
 		console.log(i,j);
 	}
 	return;
