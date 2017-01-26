@@ -1,6 +1,6 @@
 function main() {
 	'use strict';
-	var i= 0, j,
+	var i= 0, j, k,
 		number,
 		zeros,
 		ones,
@@ -11,7 +11,9 @@ function main() {
 		ones = (number.split("1").length - 1);
 		if(ones > 0){
 			for(j=0;j<10;j+=1){
-				console.log(number.replace(/1/g, j), " || ", zeros);
+				for(k=0;k<Math.pow(10,zeros);k+=1){
+					console.log(number.replace(/1/g, j), " || ", zeros, k);
+				}
 			}
 		}
 		i+=1;
