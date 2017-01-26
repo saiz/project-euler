@@ -27,10 +27,10 @@ function main() {
 		array = [];
 		bool = true;
 	while(bool){
-	array = muliples(i,6)
-console.log(array)
+		array = muliples(i,6)
+		console.log(array);
 	}
-	return i;
+	return;
 }
 
 console.log(main(process.argv[2]));
