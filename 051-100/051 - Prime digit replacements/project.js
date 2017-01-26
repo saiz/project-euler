@@ -33,7 +33,11 @@ function main() {
 			array = [];
 			temp = String(zeroPad(k,zeros));
 			l=0;
-			console.log(number, " | ", temp);
+			number_temp = number;
+			while(l < temp.length){
+				number_temp.replace('b',temp[l]);
+			}
+			console.log(number, " | ", number_temp);
 		}
 		i+=1;
 	}
