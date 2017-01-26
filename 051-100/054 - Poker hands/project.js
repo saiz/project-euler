@@ -106,12 +106,7 @@ function main() {
 		personA,
 		personB;
 	while( i< array.length){
-		personA = hand(array[i][0]).sort(
-          function(x, y)
-          {
-             return x.score - y.score;
-          }
-        );
+		personA = hand(array[i][0]).sort(card_sort());
 		personB = hand(array[i][1]).sort(card_sort());
         console.log(personA);
 		i+=1;
