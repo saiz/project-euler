@@ -112,11 +112,7 @@ function main() {
              return x.score - y.score;
           }
         );
-		personB = hand(array[i][1]).sort(
-          function(x, y)
-          {
-             return x.score - y.score;
-          }
+		personB = hand(array[i][1]).sort(card_sort
         );
         console.log(personA);
 		i+=1;
