@@ -14,7 +14,9 @@ function is_permutation(first,second){
 function muliples(number,n){
 	var i =2,
 		array = [];
-	while(i<n=)
+	while(i<=n){
+		array.push(num)
+	}
 }
 
 function main() {
