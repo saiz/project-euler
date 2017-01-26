@@ -104,6 +104,7 @@ function straight_flush(hand){
 	flush = true,
 	suit = hand[4].suit;
 	score = hand[4].score;
+	console.log(score)
 	while(i>=0 && flush){
 		if(hand[i].suit !== suit){
 			flush = false;
