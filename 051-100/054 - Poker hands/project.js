@@ -8,8 +8,14 @@
 // Four of a Kind: Four cards of the same value.
 // Straight Flush: All cards are consecutive values of same suit.
 // Royal Flush: Ten, Jack, Queen, King, Ace, in same suit.
+// spades, hearts, diamonds, clubs
 
 var fs = require('fs');
+function card(str) {
+	var i = str[0],
+		j = str[1];
+
+}
 function poker_array(){
 	'use strict';
 	var arr = fs.readFileSync('./poker.txt').toString().split("\r\n"),
@@ -24,6 +30,7 @@ function poker_array(){
 	}
 	return arr;
 }
+
 function main() {
 	'use strict';
 	var i =poker_array();
