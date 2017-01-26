@@ -5,7 +5,7 @@ function main() {
 	while(i <n){
 		console.log((i).toString(2));
 	}
-	return i;
+	return;
 }
 
 console.log(main(process.argv[2]));
