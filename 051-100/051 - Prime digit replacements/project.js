@@ -19,6 +19,7 @@ function main() {
 	var i= 0, j, k,
 		number,
 		number_temp,
+		number_temp2,
 		zeros,
 		temp,
 		array = [],
@@ -38,10 +39,10 @@ function main() {
 			}
 			k=0;
 			while(k < 10){
-				number_temp = number_temp.replace(/a/g, k);
-				console.log(number_temp, " | ", number," | " , k);
-				if(isPrime3(parseInt(number_temp,10))){
-					array.push(number_temp);
+				number_temp2 = number_temp.replace(/a/g, k);
+				console.log(number_temp2, " | ", number," | " , k);
+				if(isPrime3(parseInt(number_temp2,10))){
+					array.push(number_temp2);
 				}
 				k+=1;
 			}
