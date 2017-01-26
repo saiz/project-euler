@@ -34,7 +34,7 @@ function main() {
 			temp = String(zeroPad(j,zeros));
 			k=0;
 			number_temp = number;
-			while(l < temp.length){
+			while(k < temp.length){
 				number_temp = number_temp.replace('b',temp[k]);
 				k+=1;
 			}
