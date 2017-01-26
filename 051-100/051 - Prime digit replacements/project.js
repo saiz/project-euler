@@ -42,6 +42,7 @@ function main() {
 				if(isPrime3(parseInt(number_temp,10))){
 					array.push(number_temp);
 				}
+				console.log(number," | ",number_temp, " | ");
 			}
 		}
 		if(array.length === 8){
