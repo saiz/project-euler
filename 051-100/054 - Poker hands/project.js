@@ -103,7 +103,13 @@ function main() {
              return x.score - y.score;
           }
         );
-		personB = hand(array[i][1]);
+		personB = hand(array[i][1]).sort(
+          function(x, y)
+          {
+             return x.score - y.score;
+          }
+        );
+        console.log(personA);
 		i+=1;
 	}
 	return i;
