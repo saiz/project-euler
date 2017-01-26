@@ -37,9 +37,10 @@ function main() {
 				k+=1;
 			}
 			k=0;
+			console.log(number_temp, " | ", number);
 			while(k < 10){
 				number_temp = number_temp.replace(/a/g, k);
-				console.log(number_temp, " | ", number);
+				//console.log(number_temp, " | ", number);
 				if(isPrime3(parseInt(number_temp,10))){
 					array.push(number_temp);
 				}
