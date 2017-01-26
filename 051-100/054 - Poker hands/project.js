@@ -10,7 +10,7 @@
 // Royal Flush: Ten, Jack, Queen, King, Ace, in same suit.
 // spades, hearts, diamonds, clubs
 
-var fs = require('fs')
+var fs = require('fs');
 function card(str) {
 	var i = str[0],
 		j = str[1],
@@ -54,7 +54,7 @@ function card(str) {
 		score:score -2,
 		suit:suit
 	};
-}
+};
 
 }
 function poker_array(){
