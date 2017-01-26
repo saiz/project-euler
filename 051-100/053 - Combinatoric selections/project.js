@@ -27,7 +27,7 @@ function main() {
 		i = array[0],
 		j = array[1];
 	while(next(array,100)){
-		console.log(i,j);
+		console.log(array[0],j);
 	}
 	return;
 }
