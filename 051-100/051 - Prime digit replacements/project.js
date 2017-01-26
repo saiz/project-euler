@@ -1,9 +1,12 @@
 function main() {
 	'use strict';
 	var i= 0,
+		number,
 		n =1000;
 	while(i <n){
-		console.log((i).toString(2));
+		number = (i).toString(2);
+		console.log(number);
+		while
 		i+=1;
 	}
 	return;
