@@ -17,7 +17,7 @@ function poker_array(){
 	for(i=0;i<arr.length;i+=1){
 		arr[i] = arr[i].split(" ");
 		j = arr[i].splice(0,5);
-		k = arr[i].splice(5);
+		k = arr[i].splice(5,10);
 		arr[i] = [];
 		arr[i][0] = j;
 		arr[i][1] = k;
