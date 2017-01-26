@@ -23,9 +23,9 @@ function main() {
 		i = array[0],
 		j = array[1];
 	while(next(array)){
-		console.log(ii)
+		console.log(i,j);
 	}
-	return i;
+	return;
 }
 
 console.log(main(process.argv[2]));
