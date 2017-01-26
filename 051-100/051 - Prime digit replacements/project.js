@@ -1,6 +1,6 @@
 function main() {
 	'use strict';
-	var i ='test';
+	var i = 2.toString(2)
 	return i;
 }
 
