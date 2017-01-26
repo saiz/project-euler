@@ -97,6 +97,7 @@ function royal_flush(hand){
 	if(!flush){
 		return -1;
 	}
+	console.log('here')
 	return Math.pow(10,10)+suit;
 }
 function straight_flush(hand){
@@ -130,8 +131,8 @@ function main() {
 	while( i< array.length){
 		personA = hand(array[i][0]).sort(card_sort);
 		personB = hand(array[i][1]).sort(card_sort);
-        straight_flush(personA);
-        straight_flush(personB);
+        royal_flush(personA);
+        royal_flush(personB);
 		i+=1;
 	}
 	return;
