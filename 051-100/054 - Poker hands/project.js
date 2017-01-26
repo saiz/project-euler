@@ -55,6 +55,14 @@ function card(str) {
 		suit:suit
 	};
 }
+function hand(array){
+	var res = [], i = 0;
+	while(i<array.length){
+		res.push(card(array[i]));
+		i+=1
+	}
+	return res;
+}
 
 function poker_array(){
 	'use strict';
@@ -74,11 +82,14 @@ function poker_array(){
 function main() {
 	'use strict';
 	var array =poker_array(),
-		i = 0,
-		first;
+		i = 0, j,
+		personA,
+		personB;
 	while( i< array.length){
-		first =array[i][0][0];
-		console.log(card(first));
+		personA = hand(array[i][0]);
+		personB = hand(array[i][1]);
+		j = 0
+		console.log(personA,personB);
 		i+=1;
 	}
 	return i;
