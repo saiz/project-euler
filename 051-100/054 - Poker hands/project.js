@@ -15,25 +15,25 @@ function card(str) {
 	var i = str[0],
 		j = str[1],
 		score = -1 , suit = -1 ;
-		switch(i) {
-			case "T":
-				score = 10;
-				break;
-			case "J":
-				score = 11;
-				break;
-			case "Q":
-				score = 12;
-				break;
-			case "K":
-				score = 13;
-				break;
-			case "A":
-				score = 14;
-				break;
-			default:
-				score = parseInt(i,10);
-		}
+	switch(i) {
+		case "T":
+			score = 10;
+			break;
+		case "J":
+			score = 11;
+			break;
+		case "Q":
+			score = 12;
+			break;
+		case "K":
+			score = 13;
+			break;
+		case "A":
+			score = 14;
+			break;
+		default:
+			score = parseInt(i,10);
+	}
 		score -=2;
 		switch(j) {
 			case "S":
