@@ -39,9 +39,11 @@ function main() {
 			}
 			k=0;
 			while(k < 10){
-				number_temp2 = number_temp.replace(/a/g, k);
-				if(isPrime3(parseInt(number_temp2,10) && )){
-					array.push(number_temp2);
+				if(number_temp[0] !== 'a'){
+					number_temp2 = number_temp.replace(/a/g, k);
+					if(isPrime3(parseInt(number_temp2,10) )){
+						array.push(number_temp2);
+					}
 				}
 				k+=1;
 			}
