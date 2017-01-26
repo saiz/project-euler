@@ -104,21 +104,18 @@ function straight_flush(hand){
 	flush = true,
 	suit = hand[4].suit;
 	score = hand[4].score;
-	console.log(score)
 	while(i>=0 && flush){
-		console.log('---',i);
 		if(hand[i].suit !== suit){
 			flush = false;
 		}
 		if(i === hand.length -1  && hand[i].score === 14){
 			score = 5;
-			console.log('A')
 		} else if(hand[i].score !== score - (hand.length -1 - i) ) {
 			flush = false;
 		}
 		i-=1;
 	}
-	if(flush){
+	if(!flush){
 		return -1;
 	}
 	return Math.pow(10,9)+suit;
