@@ -17,7 +17,7 @@ function main() {
 		for(j=0;j<10;j+=1){
 			for(k=0;k<Math.pow(10,zeros);k+=1){
 
-				console.log(number.replace(/a/g, j)," | ", zeroPad(k,Math.pow(10,zeros-1)));
+				console.log(number.replace(/a/g, j)," | ", zeroPad(k,zeros-1));
 
 			}
 		}
