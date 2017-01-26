@@ -37,11 +37,17 @@ function main() {
 			while(l < temp.length ){
 				number_temp = number_temp.replace('b',temp[l]);
 				for(j=0;j<10;j+=1){
-
-
+					number_temp = number.replace(/a/g, j);
+					if(isPrime3(parseInt(number_temp,10))){
+						array.push(number_temp);
+					}
 				}
 				l+=1;
 			}
+		}
+		if(array.length === 8){
+			console.log(array);
+			console.log(number);
 		}
 
 		for(j=0;j<10;j+=1){
