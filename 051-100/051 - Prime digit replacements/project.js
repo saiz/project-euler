@@ -10,9 +10,10 @@ function main() {
 		zeros = (number.split("0").length - 1);
 		ones = (number.split("1").length - 1);
 		if(i > 0){
-				for(j=0;j<10;j+=1){
-					console.log(number.replace(/1/g, j), " || ", zeros);
-				}}
+			for(j=0;j<10;j+=1){
+				console.log(number.replace(/1/g, j), " || ", zeros);
+			}
+		}
 		i+=1;
 	}
 	return;
