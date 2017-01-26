@@ -204,7 +204,10 @@ function straight(hand){
 	if(!bool){
 		return -1;
 	}
-	return Math.pow(10,6)+hand[4].score*10+suit;
+	if(hand[4].score === 14){
+		return Math.pow(10,6)+4*10+suit;
+	}
+	return Math.pow(10,6)+score*10+suit;
 }
 function scores(hand){
 	if(royal_flush(hand) > 0){
