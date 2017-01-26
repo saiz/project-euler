@@ -100,7 +100,7 @@ function main() {
 		personA = hand(array[i][0]).sort(
           function(x, y)
           {
-             return x.score - y;
+             return x.score - y.score;
           }
         );
 		personB = hand(array[i][1]);
