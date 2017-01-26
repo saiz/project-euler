@@ -5,7 +5,7 @@ function fact(n){
 	return n * fact(n-1);
 }
 function comb(n,r){
-return
+	return
 }
 function main() {
 	'use strict';
