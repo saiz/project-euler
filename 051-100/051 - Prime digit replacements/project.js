@@ -34,9 +34,9 @@ function main() {
 			temp = String(zeroPad(k,zeros));
 			l=0;
 			while(l < temp.length ){
-				number_temp = number_temp.replace('b',temp[l]);
+				number_temp = number.replace('b',temp[l]);
 				for(j=0;j<10;j+=1){
-					number_temp = number.replace(/a/g, j);
+					number_temp = number_temp.replace(/a/g, j);
 					if(isPrime3(parseInt(number_temp,10))){
 						array.push(number_temp);
 					}
