@@ -25,7 +25,7 @@ function main() {
 		count = 0,
 		max=Math.pow(10,6);
 	while(next(array,100)){
-		if(comb(i,j) > max){
+		if(comb(array[0,j) > max){
 			count +=1;
 		}
 	}
