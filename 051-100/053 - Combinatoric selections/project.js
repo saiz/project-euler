@@ -16,7 +16,7 @@ function next(array, end){
 	} else{
 		j-=1;
 	}
-	if( array[0] === end +1){
+	if( array[0] > end +1){
 		return false;
 	}
 	return true;
