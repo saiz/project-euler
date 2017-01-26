@@ -2,6 +2,7 @@ function main() {
 	'use strict';
 	var i= 0, j,
 		number,
+zeros
 		n =1000;
 	while(i <n){
 		number = (i).toString(2);
