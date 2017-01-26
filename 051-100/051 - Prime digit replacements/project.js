@@ -38,8 +38,8 @@ function main() {
 			}
 			k=0;
 			while(k < 10){
-				number_temp = parseInt(number_temp.replace(/a/g, k),10)
-				if(isPrime3(number_temp)){
+				number_temp = number_temp.replace(/a/g, k);
+				if(isPrime3(parseInt(number_temp,10))){
 					array.push(number_temp);
 				}
 			}
