@@ -77,6 +77,9 @@ function hand(array){
 	}
 	return res;
 }
+function card_sort (x, y){
+	return x.score - y.score;
+}
 function royal_flush(hand){
 	var i =0,
 	flush = true,
@@ -95,9 +98,6 @@ function royal_flush(hand){
 		return -1;
 	}
 	return Math.pow(10,10)*+suit;
-}
-function card_sort (x, y){
-	return x.score - y.score;
 }
 function main() {
 	'use strict';
