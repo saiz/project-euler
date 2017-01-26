@@ -97,7 +97,7 @@ function royal_flush(hand){
 	if(!flush){
 		return -1;
 	}
-	return Math.pow(10,10)*+suit;
+	return Math.pow(10,10)+suit;
 }
 function straight_flush(hand){
 	var i =0,
