@@ -13,19 +13,23 @@
 var fs = require('fs');
 function card(str) {
 	var i = str[0],
-		j = str[1];
+		j = str[1],
+		score, suit;
 	switch(i) {
-	    case "Banana":
-	        text = "Banana is good!";
+	    case "J":
+	        score = 11;
 	        break;
-	    case "Orange":
-	        text = "I am not a fan of orange.";
+	    case "Q":
+	        score = 12;
 	        break;
-	    case "Apple":
-	        text = "How you like them apples?";
+	    case "K":
+	        score = 13;
+	        break;
+	    case "A":
+	        score = 14;
 	        break;
 	    default:
-	        text = "I have never heard of that fruit...";
+	        score = parseInt(i,10);
 }
 
 }
