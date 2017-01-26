@@ -10,6 +10,7 @@ function is_permutation(first,second){
 		if(second.indexOf(first[i]) < 0){
 			bool = false;
 		}
+		i+=
 	}
 	return bool;
 }
