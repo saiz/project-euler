@@ -41,7 +41,9 @@ function main() {
 		bool = true;
 	while(bool){
 		array = muliples(i,6)
-if(is_array_perm(i,array)
+if(is_array_perm(i,array)){
+
+}
 		console.log(array);
 		i+=1;
 	}
