@@ -33,7 +33,7 @@ function main() {
 			array = [];
 			temp = String(zeroPad(k,zeros));
 			l=0;
-			console.log(k," | ", temp)
+			console.log(number);
 		}
 		i+=1;
 	}
