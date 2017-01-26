@@ -46,7 +46,7 @@ function main() {
 				k+=1;
 			}
 if(array.length === 8){
-	console.log(array)
+	console.log(numb
 console.log(array);
 }
 		}
