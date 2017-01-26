@@ -127,7 +127,7 @@ function main() {
 	while( i< array.length){
 		personA = hand(array[i][0]).sort(card_sort);
 		personB = hand(array[i][1]).sort(card_sort);
-        console.log(royal_flush(personA), " | ",royal_flush(personB) );
+        console.log(straight_flush(personA), " | ",straight_flush(personB) );
 		i+=1;
 	}
 	return;
