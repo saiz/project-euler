@@ -45,7 +45,9 @@ function main() {
 				}
 				k+=1;
 			}
-if(array.length =)
+if(array.length === 8){
+
+}
 		}
 		i+=1;
 	}
