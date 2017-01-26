@@ -12,7 +12,7 @@ function next(array){
 		j = array[1];
 if(j -1 === 0){
 i+=1;
-
+j
 }
 
 }
