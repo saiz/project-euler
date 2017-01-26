@@ -88,7 +88,6 @@ function main() {
 	while( i< array.length){
 		personA = hand(array[i][0]);
 		personB = hand(array[i][1]);
-		j = 0
 		console.log(personA,personB);
 		i+=1;
 	}
