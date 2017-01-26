@@ -31,7 +31,7 @@ function is_array_perm(num,array){
 		}
 		i+=1;
 	}
-
+	return bool;
 }
 
 function main() {
