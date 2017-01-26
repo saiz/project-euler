@@ -54,7 +54,7 @@ function card(str) {
 		return {
 			score:score,
 			suit:suit
-		}
+		};
 }
 
 }
