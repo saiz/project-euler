@@ -25,7 +25,7 @@ function main() {
 					number_temp = number_temp.replace('b',temp[l]);
 					l+=1;
 				}
-				console.log(number_temp);
+				console.log(number_temp," | ",number);
 			}
 		}
 		i+=1;
