@@ -14,7 +14,7 @@ var fs = require('fs');
 function card(str) {
 	var i = str[0],
 		j = str[1],
-		score = -1 , suit ;
+		score = -1 , suit = -1 ;
 		switch(i) {
 			case "T":
 				score = 10;
