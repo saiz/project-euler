@@ -1,11 +1,13 @@
 function main() {
 	'use strict';
-	var i= 0,
+	var i= 0, j,
 		number,
 		n =1000;
 	while(i <n){
 		number = (i).toString(2);
-		console.log(number);
+		for(j=0;j<10;j+=1){
+			console.log(number.replace(/1/g, j));
+		}
 		i+=1;
 	}
 	return;
