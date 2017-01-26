@@ -22,7 +22,7 @@ function next(array, end){
 function main() {
 	'use strict';
 	var array =[1,2],
-		res =
+
 	while(next(array,100)){
 		if()
 		console.log(array[0],array[1]);
