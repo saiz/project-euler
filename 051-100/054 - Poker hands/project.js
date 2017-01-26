@@ -11,6 +11,20 @@
 // spades, hearts, diamonds, clubs
 
 var fs = require('fs');
+function poker_array(){
+	'use strict';
+	var arr = fs.readFileSync('./poker.txt').toString().split("\r\n"),
+	i ,j =[], k =[];
+	for(i=0;i<arr.length;i+=1){
+		arr[i] = arr[i].split(" ");
+		j = arr[i].slice(0,5);
+		k = arr[i].slice(5,10);
+		arr[i] = [];
+		arr[i][0] = j;
+		arr[i][1] = k;
+	}
+	return arr;
+}
 function card(str) {
 	var i = str[0],
 		j = str[1],
@@ -59,24 +73,21 @@ function hand(array){
 	var res = [], i = 0;
 	while(i<array.length){
 		res.push(card(array[i]));
-		i+=1
+		i+=1;
 	}
 	return res;
 }
-
-function poker_array(){
-	'use strict';
-	var arr = fs.readFileSync('./poker.txt').toString().split("\r\n"),
-	i ,j =[], k =[];
-	for(i=0;i<arr.length;i+=1){
-		arr[i] = arr[i].split(" ");
-		j = arr[i].slice(0,5);
-		k = arr[i].slice(5,10);
-		arr[i] = [];
-		arr[i][0] = j;
-		arr[i][1] = k;
+function royal_flush(hand){
+	var i =0,
+	flush = true,
+	suit = hand[0].suit;
+	score = -1;
+	while(i<hand.length && flush){
+		if(hand[i].suit !== suit){
+			flush = false;
+		}
+		i+=1;
 	}
-	return arr;
 }
 
 function main() {
@@ -86,7 +97,12 @@ function main() {
 		personA,
 		personB;
 	while( i< array.length){
-		personA = hand(array[i][0]);
+		personA = hand(array[i][0]).sort(
+          function(x, y)
+          {
+             return x - y;
+          }
+        );
 		personB = hand(array[i][1]);
 		i+=1;
 	}
