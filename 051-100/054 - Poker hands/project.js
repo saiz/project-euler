@@ -77,7 +77,7 @@ function main() {
 		i = 0,
 		first;
 	while( i< array.length){
-first =array[i][0][0];
+		first =array[i][0][0];
 		console.log(array[i][0][0]);
 		i+=1;
 	}
