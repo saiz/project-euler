@@ -197,7 +197,7 @@ function straight(hand){
 		if(i === hand.length -1  && hand[i].score === 14){
 			score = 5;
 		} else if(hand[i].score !== score - (hand.length -1 - i) ) {
-			bool = bool;
+			bool = false;
 		}
 		i-=1;
 	}
