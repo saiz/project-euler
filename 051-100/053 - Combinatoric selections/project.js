@@ -22,6 +22,7 @@ function next(array, end){
 function main() {
 	'use strict';
 	var array =[1,2],
+		count,
 
 	while(next(array,100)){
 		if()
