@@ -56,7 +56,6 @@ function card(str) {
 	};
 };
 
-}
 function poker_array(){
 	'use strict';
 	var arr = fs.readFileSync('./poker.txt').toString().split("\r\n"),
