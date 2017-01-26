@@ -177,13 +177,13 @@ function flush(hand){
 	bool = true,
 	suit = hand[4].suit;
 	score = hand[4].score;
-	while(i>=0 && flush){
+	while(i>=0 && bool){
 		if(hand[i].suit !== suit){
-			flush = false;
+			bool = false;
 		}
 		i-=1;
 	}
-	if(!flush){
+	if(!bool){
 		return -1;
 	}
 	return Math.pow(10,7)+10*score+suit;
