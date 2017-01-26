@@ -123,11 +123,11 @@ function straight_flush(hand){
 function four(hand){
 	var i =0,
 	bool = true,
-	miss = 0,
+	count = 0,
 	score = hand[0].score;
-	while(i<hand.length && miss <= 1){
-		if(score !== hand[i].score){
-			miss+=1;
+	while(i<hand.length && count > 4){
+		if(score = hand[i].score){
+			count+=1;
 		} else{
 			score = hand[i].score;
 		}
