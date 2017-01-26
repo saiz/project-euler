@@ -11,7 +11,7 @@ function next(array, end){
 	var i = array[0],
 		j = array[1];
 	if(j -1 === 0){
-		i+=1;
+		array[0]+=1;
 		j=1;
 	} else{
 		j-=1;
