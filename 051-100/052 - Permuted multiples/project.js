@@ -24,6 +24,7 @@ function muliples(number,n){
 function main() {
 	'use strict';
 	var i=1,
+		array = [];
 		bool = true;
 	while(bool){
 
