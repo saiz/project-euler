@@ -49,8 +49,7 @@ function main() {
 			}
 			if(array.length === 8){
 				bool = false;
-				j =Math.pow(10,zeros);
-				console.log(array);
+				j = Math.pow(10,zeros);
 			}
 		}
 		i+=1;
