@@ -40,7 +40,7 @@ function main() {
 		array = [],
 		bool = true;
 	while(bool){
-		array = muliples(i,6)
+		array = muliples(i,6);
 		if(is_array_perm(i,array)){
 			console.log(i);
 			console.log(array);
