@@ -100,18 +100,20 @@ function royal_flush(hand){
 	return Math.pow(10,10)+suit;
 }
 function straight_flush(hand){
-	var i =0,
+	var i =hand.length -1,
 	flush = true,
-	suit = hand[0].suit;
-	score = hand[0].score;
-	while(i<hand.length && flush){
+	suit = hand[4].suit;
+	score = hand[4].score;
+	while(i>=0 && flush){
 		if(hand[i].suit !== suit){
 			flush = false;
 		}
-		if(hand[i].score !== score +i){
+		if(hand[i].score === 14){
+
+		} else if(hand[i].score !== score +i){
 			flush = false;
 		}
-		i+=1;
+		i-=1;
 	}
 	if(flush){
 		return -1;
