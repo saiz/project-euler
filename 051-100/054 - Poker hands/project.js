@@ -74,7 +74,7 @@ function poker_array(){
 function main() {
 	'use strict';
 	var i =poker_array();
-
+	while
 	return i;
 }
 
