@@ -21,7 +21,7 @@ function poker_array(){
 }
 function main() {
 	'use strict';
-	var i =names_array()
+	var i =poker_array();
 	return i;
 }
 
