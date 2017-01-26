@@ -22,7 +22,9 @@ function muliples(number,n){
 	}
 	return array;
 }
-function is
+function is_array_perm(num,array){
+	var i =0,
+}
 
 function main() {
 	'use strict';
