@@ -89,7 +89,7 @@ function royal_flush(hand){
 		if(hand[i].suit !== suit){
 			flush = false;
 		}
-		if(score + i !== hand[i].score){
+		if(hand[i].score !== score +i){
 			flush = false;
 		}
 		i+=1;
@@ -108,7 +108,7 @@ function straight_flush(hand){
 		if(hand[i].suit !== suit){
 			flush = false;
 		}
-		if(score + i !== hand[i].score){
+		if(hand[i].score !== score +i){
 			flush = false;
 		}
 		i+=1;
