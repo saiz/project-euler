@@ -14,7 +14,6 @@ var fs = require('fs');
 function card(str) {
 	var i = str[0],
 		j = str[1];
-
 }
 function poker_array(){
 	'use strict';
