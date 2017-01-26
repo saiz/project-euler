@@ -225,6 +225,9 @@ function scores(hand){
 	if(flush(hand)> 0){
 		return flush(hand);
 	}
+	if(straight(hand) >0){
+		return straight(hand);
+	}
 	return -1;
 }
 function main() {
