@@ -15,7 +15,7 @@ function poker_array(){
 	var arr = fs.readFileSync('./poker.txt').toString().split(" "),
 	i;
 	for(i=0;i<arr.length;i+=1){
-	    arr[i] = arr[i].replace(/['"]+/g, '').toLowerCase();
+	    arr[i] = arr[i].replace(/\r\n/g, '').toLowerCase();
 	}
 	return arr;
 }
