@@ -48,14 +48,13 @@ function main() {
 				k+=1;
 			}
 			if(array.length === 8){
-				console.log(number);
-				console.log(array);
+				bool = false;
 			}
 		}
 		i+=1;
 	}
 
-	return ;
+	return array[0];
 }
 
 console.log(main(process.argv[2]));
