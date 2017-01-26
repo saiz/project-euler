@@ -18,7 +18,7 @@ function muliples(number,n){
 		array.push(number*i);
 		i+=1;
 	}
-	re
+	return array;
 }
 
 function main() {
