@@ -1,6 +1,10 @@
 function main() {
 	'use strict';
-	var i = (17).toString(2)
+	var i= 0,
+		n =1000;
+	while(i <n){
+		console.log((i).toString(2));
+	}
 	return i;
 }
 
