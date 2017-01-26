@@ -22,7 +22,7 @@ function next(array, end){
 function main() {
 	'use strict';
 	var array =[1,2],
-		count,
+		count = 0,
 		max=Math.pow(10,6);
 	while(next(array,100)){
 		if(comb(i,j) > max){
