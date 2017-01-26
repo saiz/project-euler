@@ -29,6 +29,7 @@ function is_array_perm(num,array){
 		if(second.indexOf(first[i]) < 0){
 			bool = false;
 		}
+		i+=1;
 	}
 }
 
