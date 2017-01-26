@@ -10,7 +10,10 @@ function main() {
 		zeros = (number.split("0").length - 1);
 		ones = (number.split("1").length - 1);
 		number = number.replace(/1/g, 'a').replace(/0/g, 'b');
-		console.log(number);
+		for(j=0;j<10;j+=1){
+			number = number.replace(/a/g, j);
+			console.log(number);
+		}
 		i+=1;
 	}
 	return;
