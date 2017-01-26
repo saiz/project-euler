@@ -10,7 +10,7 @@
 // Royal Flush: Ten, Jack, Queen, King, Ace, in same suit.
 
 var fs = require('fs');
-function names_array(){
+function poker_array(){
 	'use strict';
 	var arr = fs.readFileSync('./names.txt').toString().split(" "),
 	i,
@@ -21,7 +21,7 @@ function names_array(){
 }
 function main() {
 	'use strict';
-	var i ='test';
+	var i =names_array()
 	return i;
 }
 
