@@ -136,6 +136,7 @@ function four(hand){
 		if(b === hand[i].score){
 			b_count+=1;
 		}
+		i+=1;
 	}
 	console.log(a_count,b_count);
 	if(b_count < 4 && a_count < 4 ){
