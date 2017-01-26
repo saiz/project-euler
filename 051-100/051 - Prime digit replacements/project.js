@@ -36,10 +36,10 @@ function main() {
 				number_temp = number_temp.replace('b',temp[k]);
 				k+=1;
 			}
-			console.log(number_temp, " | ", number);
 			k=0;
 			while(k < 10){
 				number_temp = number_temp.replace(/a/g, k);
+				console.log(number_temp, " | ", number);
 				if(isPrime3(parseInt(number_temp,10))){
 					array.push(number_temp);
 				}
