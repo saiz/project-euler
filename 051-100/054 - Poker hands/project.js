@@ -96,7 +96,7 @@ function royal_flush(hand){
 	}
 	return Math.pow(10,10)*+suit;
 }
-function card
+function card_sort ()
 function main() {
 	'use strict';
 	var array =poker_array(),
