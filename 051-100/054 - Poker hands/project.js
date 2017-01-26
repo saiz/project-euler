@@ -13,12 +13,11 @@ var fs = require('fs');
 function names_array(){
 	'use strict';
 	var arr = fs.readFileSync('./names.txt').toString().split(" "),
-	i;
+	i,
 	for(i=0;i<arr.length;i+=1){
 	    arr[i] = arr[i].replace(/['"]+/g, '').toLowerCase();
 	}
 	return arr;
-
 }
 function main() {
 	'use strict';
