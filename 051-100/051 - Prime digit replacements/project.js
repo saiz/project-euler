@@ -16,7 +16,7 @@ function isPrime3(n) {
 }
 function main() {
 	'use strict';
-	var i= 10, j, k,
+	var i= 0, j, k,
 		number,
 		number_temp,
 		zeros,
