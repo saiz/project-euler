@@ -168,9 +168,9 @@ function fullhouse(hand){
 		return -1;
 	}
 	if(b_count === 3){
-		return Math.pow(10,8)+ 10*b +  b_suit;
+		return Math.pow(10,7)+ 10*b +  b_suit;
 	}
-	return Math.pow(10,8)+ 10*a +  a_suit;
+	return Math.pow(10,7)+ 10*a +  a_suit;
 }
 function main() {
 	'use strict';
