@@ -46,7 +46,8 @@ function main() {
 				k+=1;
 			}
 if(array.length === 8){
-console.log(array)
+	console.log(array)
+console.log(array);
 }
 		}
 		i+=1;
