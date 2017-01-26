@@ -123,19 +123,27 @@ function straight_flush(hand){
 function four(hand){
 	var i =0,
 	bool = true,
-	count = 0,
-	score = hand[0].score;
+	a_count = 0,
+	b_count = 0,
+	a = hand[0].score,
+	b = hand[hand.length -1].score;
+	a_suit = hand[0].suit,
+	b_suit = hand[hand.length -1].suit;
 	while(i<hand.length && count > 4){
-		if(score = hand[i].score){
-			count+=1;
-		} else{
-			score = hand[i].score;
+		if(a === hand[i].score){
+			a_count+=1;
+		}
+		if(b === hand[i].score){
+			b_count+=1;
 		}
 	}
-	if(count < 4){
+	if(b_count < 4 && a_count < 4 ){
 		return -1;
 	}
-	return Math.pow(10,8)+ 10+suit;
+	if(b_count >= 4){
+		return Math.pow(10,8)+ 10*b +  b_suit;
+	}
+	return Math.pow(10,8)+ 10*a +  a_suit;
 }
 function main() {
 	'use strict';
@@ -146,8 +154,8 @@ function main() {
 	while( i< array.length){
 		personA = hand(array[i][0]).sort(card_sort);
 		personB = hand(array[i][1]).sort(card_sort);
-        straight_flush(personA);
-        straight_flush(personB);
+        four(personA);
+        four(personB);
 		i+=1;
 	}
 	return;
