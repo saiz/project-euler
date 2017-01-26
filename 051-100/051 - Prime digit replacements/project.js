@@ -45,10 +45,10 @@ function main() {
 				}
 				k+=1;
 			}
-if(array.length === 8){
-console.log(number);
-console.log(array);
-}
+			if(array.length === 8){
+				console.log(number);
+				console.log(array);
+			}
 		}
 		i+=1;
 	}
