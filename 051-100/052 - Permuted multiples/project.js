@@ -29,6 +29,7 @@ function main() {
 	while(bool){
 		array = muliples(i,6)
 		console.log(array);
+		i+=1;
 	}
 	return;
 }
