@@ -6,7 +6,6 @@ function main() {
 	while(i <n){
 		number = (i).toString(2);
 		console.log(number);
-		while
 		i+=1;
 	}
 	return;
