@@ -10,7 +10,7 @@ function is_permutation(first,second){
 		if(second.indexOf(first[i]) < 0){
 			bool = false;
 		}
-		i+=
+		i+=1;
 	}
 	return bool;
 }
@@ -45,7 +45,6 @@ function main() {
 		if(is_array_perm(i,array)){
 			console.log(i);
 		}
-		console.log(array);
 		i+=1;
 	}
 	return;
