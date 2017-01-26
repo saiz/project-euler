@@ -19,7 +19,7 @@ function next(array){
 }
 function main() {
 	'use strict';
-	var i ='test';
+	var
 	return i;
 }
 
