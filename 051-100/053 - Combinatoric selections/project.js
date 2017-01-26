@@ -16,7 +16,9 @@ function next(array, end){
 	} else{
 		j-=1;
 	}
-	if( i)
+	if( i === end +1){
+		return false;
+	}
 	return true;
 }
 function main() {
