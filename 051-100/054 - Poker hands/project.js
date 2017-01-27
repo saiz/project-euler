@@ -249,7 +249,7 @@ function main() {
 			} else if(high_card(personA) < high_card(personB)){
 				b+=1;
 			} else{
-				for(k=0;k<4;i+=1){}
+				for(k=0;k<4;k+=1){}
 
 				console.log('tie - need to make better poker rules - c');
 			}
