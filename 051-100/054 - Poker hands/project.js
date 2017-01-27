@@ -47,16 +47,14 @@ function card_value(x) {
 }
 function suit_value(x) {
 	switch(x) {
-	    case "T":
-	        return 10;
-	    case "J":
-	        return 11;
-	    case "Q":
-	        return 12;
-		case "K":
-	        return 13;
-		case "A":
+	    case "S":
+	        return 0;
+	    case "H":
 	        return 1;
+	    case "D":
+	        return 2;
+		case "C":
+	        return 3;
 	}
 	return parseInt(x,10);
 }
