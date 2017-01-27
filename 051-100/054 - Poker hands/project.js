@@ -84,7 +84,7 @@ function card_sort (x, y){
 	return x.score - y.score;
 }
 function high(hand){
-	return Math.pow(10,2)*hand[0].score +
+	return Math.pow(10,2)*hand[0].score + hand[0].
 }
 function scores(hand){
 	return -1;
