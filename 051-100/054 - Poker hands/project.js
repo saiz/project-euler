@@ -79,6 +79,15 @@ function four(hand) {
 	}
 	return false;
 }
+function fullhouse(hand) {
+	if((hand[0].split(hand[0][0]).length - 1) === 3 && (hand[0].split(hand[0][4]).length - 1) === 2){
+		return true;
+	}
+	if((hand[0].split(hand[0][0]).length - 1) === 2 && (hand[0].split(hand[0][4]).length - 1) === 3){
+		return true;
+	}
+	return false;
+}
 function main() {
 	'use strict';
 	var array =poker_array(),
