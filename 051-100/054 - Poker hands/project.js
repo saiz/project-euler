@@ -49,7 +49,6 @@ function handsort(x,y){
 	if(x[0] === y[0]){
 		return x[1] < y[1];
 	}
-
 	return card_value(x[0]) < card_value(y[0]);
 }
 function hand(array){
