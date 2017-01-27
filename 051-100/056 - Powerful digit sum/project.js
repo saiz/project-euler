@@ -7,7 +7,7 @@ function next(arr,end){
 }
 function main() {
 	'use strict';
-	var a,b,max;
+	var a,b,max =100;
 	for(a=0;a<=max;a+1){
 		for(b=0;b<=max;b+1){
 			console.log(Math.pow(a,b));
