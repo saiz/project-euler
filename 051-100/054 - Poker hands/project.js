@@ -192,8 +192,10 @@ function high_hand(hand){
 	if(two_pair(hand)){
 		return 3;
 	}
-if(pair(hand))[
+if(pair(hand)){
 	return 2;
+}
+}
 }
 function main() {
 	'use strict';
