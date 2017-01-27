@@ -250,11 +250,6 @@ function main() {
 				b+=1;
 			} else{
 				k=0;
-				while(k < 4 && bool){
-					asd
-					if()
-					k+=1;
-				}
 
 				console.log('tie - need to make better poker rules - c');
 			}
