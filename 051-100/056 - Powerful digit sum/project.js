@@ -4,7 +4,7 @@ function add(x, y) {
 }
 function main() {
 	'use strict';
-	var a,b,i,j,k,max =100, array, max =
+	var a,b,i,j,k,max =100, array, max =0, maxval
 	for(i=1;i<=max;i+=1){
 		for(j=1;j<=max;j+=1){
 			a = new BigNumber(i);
