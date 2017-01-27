@@ -107,7 +107,7 @@ function twopair(hand){
 			}
 		}
 	}
-
+console.log("--")
 	return countb ;
 }
 function card_sort (x, y){
