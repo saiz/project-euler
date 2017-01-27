@@ -252,7 +252,7 @@ function main() {
 				k=0;
 				while(k < 4 && bool){
 					asd
-
+if()
 					k+=1;
 				}
 
