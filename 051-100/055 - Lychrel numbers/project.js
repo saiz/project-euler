@@ -8,7 +8,7 @@ function next(arr,end){
 
 function main() {
 	'use strict';
-	var i =[0]
+	var _i =[0]
 	while(next(i,Math.pow(10,4))){
 		console.log(i);
 	}
