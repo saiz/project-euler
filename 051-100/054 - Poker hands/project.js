@@ -140,7 +140,7 @@ function pair_tie(personA,personB){
 			return 0;
 		}
 		if(a[i]<b[i]){
-			return 0;
+			return 1;
 		}
 		i+=1;
 	}
