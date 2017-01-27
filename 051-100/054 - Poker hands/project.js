@@ -214,7 +214,8 @@ function main() {
 		personB,
 		a = 0,
 		tie = 0,
-		b = 0;
+		b = 0,
+	value
 	while( i< array.length){
 		personA = hand(array[i][0].sort(hand_sort));
 		personB = hand(array[i][1].sort(hand_sort));
@@ -249,6 +250,7 @@ function main() {
 				b+=1;
 			} else{
 				tie +=1;
+
 				console.log('tie - need to make better poker rules - c');
 			}
 		} else {
