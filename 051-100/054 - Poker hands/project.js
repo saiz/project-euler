@@ -120,7 +120,7 @@ function flush(hand) {
 }
 function straight(hand) {
 	var start  = card_value(hand[0][0]),
-
+		bool = truw
 		i=1;
 	while(i<hand[0].length && bool){
 		if(hand[0][i] !== start - i){
