@@ -43,7 +43,6 @@ function main() {
 		i = _i[0];
 		if(!palindromes(test(i,0,50))){
 			count +=1;
-			console.log(test(i,0,50),i);
 		}
 	}
 	return;
