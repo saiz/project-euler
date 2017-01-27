@@ -45,6 +45,21 @@ function card_value(x) {
 	}
 	return parseInt(x,10);
 }
+function suit_value(x) {
+	switch(x) {
+	    case "T":
+	        return 10;
+	    case "J":
+	        return 11;
+	    case "Q":
+	        return 12;
+		case "K":
+	        return 13;
+		case "A":
+	        return 1;
+	}
+	return parseInt(x,10);
+}
 function handsort(x,y){
 	if(x[0] === y[0]){
 		return x[1] < y[1];
