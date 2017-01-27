@@ -233,21 +233,30 @@ function main() {
 		} else if(high_hand(personA) === 5){
 			if(high_card2(personA) > high_card2(personB)){
 				a+=1;
-			} else {
+			} else if(high_card2(personA) < high_card2(personB)){
 				b+=1;
+			} else {
+				tie +=1;
+				console.log('tie - need to make better poker rules');
 			}
 		} else if(high_hand(personA) === 2){
 			console.log(pair_value(personA),pair_value(personB))
 			if(pair_value(personA) > pair_value(personB)){
 				a+=1;
-			} else {
+			} else if(pair_value(personA) < pair_value(personB)){
 				b+=1;
+			} else{
+				tie +=1;
+				console.log('tie - need to make better poker rules');
 			}
 		} else if(high_hand(personA) === -1){
 			if(high_card(personA) > high_card(personB)){
 				a+=1;
-			} else {
+			} else if(high_card(personA) < high_card(personB)){
 				b+=1;
+			} else{
+				tie +=1;
+				console.log('tie - need to make better poker rules');
 			}
 		} else {
 			tie +=1;
