@@ -6,7 +6,7 @@ function next(arr,end){
 	return true;
 }
 function rev(i) {
-	parseInt(String(i).reverse(),10)
+	parseInt(String(i).reverse(),10);
 }
 function add_rev(i){
 	return i +rev(i);
