@@ -80,8 +80,8 @@ function main() {
 		personA,
 		personB;
 	while( i< array.length){
-		personA = array[i][0].sort(handsort);
-		personB = array[i][1].sort(handsort);
+		personA = hand(array[i][0].sort(handsort));
+		personB = hand(array[i][1].sort(handsort));
 		console.log(personA);
 		i+=1;
 	}
