@@ -43,7 +43,7 @@ function card(str) {
 			score = 14;
 			break;
 		default:
-			score = parseInt(i,10);
+			score = parseInt(str[0],10);
 	}
 	switch(str[1]) {
 		case "S":
