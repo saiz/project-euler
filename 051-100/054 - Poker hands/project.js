@@ -50,7 +50,7 @@ function handsort(x,y){
 		return x[1] < y[1];
 	}
 
-	return card_value(x[0]) < card_valuey[0];
+	return card_value(x[0]) < card_value(y[0]);
 }
 function hand(array){
 	var value ='',suit = '', i = 0;
