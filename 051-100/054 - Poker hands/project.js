@@ -184,7 +184,7 @@ function high_hand(hand){
 		return 6;
 	}
 	if(straight(hand)){
-
+	return 5;
 	}
 }
 function main() {
