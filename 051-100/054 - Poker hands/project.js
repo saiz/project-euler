@@ -52,7 +52,7 @@ function main() {
 		personA,
 		personB;
 	while( i< array.length){
-		personA = hand(array[i][0].sort(handsort));
+		personA = array[i][0].sort(handsort);
 		personB = hand(array[i][1]);
 		console.log(personA);
 		i+=1;
