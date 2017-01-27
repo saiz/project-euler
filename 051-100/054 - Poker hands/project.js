@@ -62,6 +62,7 @@ function card(str) {
 			suit = -1;
 	}
 	return {
+		value:
 		score:score,
 		suit:suit
 	};
