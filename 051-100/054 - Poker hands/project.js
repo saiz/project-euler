@@ -131,6 +131,7 @@ function remove_pair (hand, value){
 	str = str.replace(new RegExp(value,"g"),"");
 	return str;
 }
+function pai
 function flush(hand) {
 	var str = hand[1];
 	if((str.split(str[0]).length - 1 === 5)){
