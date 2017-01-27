@@ -7,13 +7,10 @@ function next(arr,end){
 }
 function main() {
 	'use strict';
-	var _i=[0],i,_j=[0],j;
-	while(next(_i,Math.pow(10,2))){
-		i =_i[0];
-		_j=[0];
-		while(next(_j,Math.pow(10,2))){
-			j =_j[0];
-			console.log(Math.pow(i,j));
+	var a,b,max;
+	for(a=0;a<=max;a+1){
+		for(b=0;b<=max;b+1){
+			console.log(Math.pow(a,b));
 		}
 	}
 	return;
