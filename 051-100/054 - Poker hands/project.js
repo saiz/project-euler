@@ -142,6 +142,7 @@ function pair_tie(personA,personB){
 		if(a[i]<b[i]){
 			return 1;
 		}
+		console.log(a[i],b[i])
 		i+=1;
 	}
 	return -1;
