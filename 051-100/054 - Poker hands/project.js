@@ -93,7 +93,26 @@ function pair(hand){
 	}
 	return count  >= 2;
 }
-function card_sort (x, y){
+function twopair(hand){
+	var i =0,j =0, end = 4,
+		count = 0, countb = 0;
+	while(i +1 <end && count < 2){
+		j+=1;
+		if(j > end){
+			count = 0;
+			i+=1;
+			j=i+1;
+		}
+		if(hand[i].score === hand[j].score){
+			count +=1;
+			if(count === 2){
+				countb +1;
+			}
+		}
+	}
+	return countb  >= 2;
+}
+function card_sort (x, y){countb
 	if(x.score === y.score){
 		return x.suit - y.suit;
 	}
