@@ -28,7 +28,7 @@ function poker_array(){
 function hand(array){
 	var res = [], i = 0;
 	while(i<array.length){
-		res.push(card(array[i]));
+		res.push(array[i]);
 		i+=1;
 	}
 	return res;
