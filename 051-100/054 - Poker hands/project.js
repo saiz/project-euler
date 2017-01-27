@@ -78,7 +78,7 @@ function hand(array){
 }
 
 function next(array, end){
-	if(array[1] - 1 === 1){
+	if(array[1] + 1 === end){
 		array[0]+=1;
 		array[1]=array[0] + 1;
 	} else{
