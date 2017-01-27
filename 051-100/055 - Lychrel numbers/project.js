@@ -5,6 +5,18 @@ function next(arr,end){
 	arr[0] +=1;
 	return true;
 }
+function rev(i) {
+	parseInt(String(i).reverse(),10)
+}
+function add_rev(i){
+	return i +rev(i);
+}
+function test(num,i,end){
+	if(i > end){
+		return 0;
+	}
+	return test(add_rev(i),i+1,end);
+}
 
 function main() {
 	'use strict';
