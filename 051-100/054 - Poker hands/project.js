@@ -59,11 +59,10 @@ function hand(array){
 	return [value,suit];
 }
 function high_card(hand) {
-	return 10*card_value(hand[0][0])+ suit_value(hand[1][0]);
+	return 10*card_value(hand[0][0]);
 }
 function high_card2(hand) {
-	return 10*card_value(hand[0][1])+ suit_value(hand[1][1]);
-}
+	return 10*card_value(hand[0][1]);
 function four(hand) {
 	if((hand[0].split(hand[0][0]).length - 1) === 4){
 		return true;
