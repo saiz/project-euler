@@ -9,7 +9,8 @@ function main() {
 	'use strict';
 	var _i[0];
 	while(next(_i,Math.pow(10,4))){
-c
+i =
+console.log()
 	}
 	return i;
 }
