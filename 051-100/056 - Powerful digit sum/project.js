@@ -16,7 +16,8 @@ function main() {
 				k+=1;
 			}
 			if(max <array.reduce(add)){
-ma
+max =array.reduce(add);
+value =
 			}
 			console.log(array.reduce(add));
 
