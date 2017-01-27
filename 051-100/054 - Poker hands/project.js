@@ -62,9 +62,10 @@ function card(str) {
 			suit = -1;
 	}
 	return {
-		value:
-		score:score,
-		suit:suit
+		number:str[0],
+		suit:str[1],
+		value:score,
+		suitvalue:suit
 	};
 }
 function hand(array){
