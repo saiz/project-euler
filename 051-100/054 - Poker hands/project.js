@@ -172,8 +172,9 @@ function high_hand(hand){
 		return 10;
 	}
 	if(straight_flush(hand)){
-		return
+		return 9;
 	}
+if
 }
 function main() {
 	'use strict';
