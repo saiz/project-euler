@@ -80,6 +80,15 @@ function four(hand) {
 	return false;
 }
 function uniq(hand) {
+	var count =0,
+		str = hand[0],
+		char
+	while(str.length > 0){
+		count +=1;
+ch
+		str.replace(/str[i])
+
+	}
 	return hand[0].replace("(?i)(.)(?=.*?\\1)", "").length;
 }
 function fullhouse(hand) {
