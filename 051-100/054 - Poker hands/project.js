@@ -177,7 +177,9 @@ function high_hand(hand){
 	if(four(hand)){
 		return 8;
 	}
-	if(fullhouse())
+	if(fullhouse(hand)){
+
+	}
 }
 function main() {
 	'use strict';
