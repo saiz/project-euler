@@ -174,7 +174,7 @@ function high_hand(hand){
 	if(straight_flush(hand)){
 		return 9;
 	}
-	if(four
+	if(four(hand))
 }
 function main() {
 	'use strict';
