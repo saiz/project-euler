@@ -86,7 +86,7 @@ function uniq(hand) {
 		char;
 	while(str.length > 0){
 		count +=1;
-		char = new RegExp(parseInt(str[0],10)+'g');
+		char = new RegExp(parseInt(str[0],10)+'\g');
 		str.replace(char,"")
 		console.log(str,char)
 	}
