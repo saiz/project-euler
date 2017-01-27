@@ -209,6 +209,10 @@ function main() {
 		console.log(straight(personA));
 if(high_hand(personA) > high_hand(personB)){
 	console.log(personA);
+} else if(high_hand(personA) < high_hand(personB)){
+	console.log(personA);
+} else{
+
 }
 		i+=1;
 	}
