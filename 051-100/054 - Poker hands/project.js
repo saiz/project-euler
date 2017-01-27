@@ -215,7 +215,7 @@ function main() {
 				//console.log('A');
 			}
 			//console.log('B');
-		} else{
+		} else if(high_hand(personA) === -1){
 			console.log('tie', high_hand(personA));
 		}
 		i+=1;
