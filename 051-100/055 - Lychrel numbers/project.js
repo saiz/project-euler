@@ -42,7 +42,7 @@ function main() {
 	while(next(_i,Math.pow(10,4))){
 		i = _i[0];
 		if(!palindromes(test(i,0,max))){
-			console.log(test(i,0,max), i)
+			//console.log(test(i,0,max), i)
 			count +=1;
 		}
 	}
