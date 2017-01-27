@@ -70,8 +70,14 @@ function hand(array){
 function high_card(hand) {
 	return 10*card_value(hand[0][0])+ suit_value(hand[1][0]);
 }
-function (argument) {
-	// body...
+function matches(hand) {
+	if((hand[0].split(hand[0][0]).length - 1) === 4){
+		return true;
+	}
+	if((hand[0].split(hand[0][4]).length - 1) === 4){
+		return true;
+	}
+	return false;
 }
 function main() {
 	'use strict';
