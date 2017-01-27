@@ -147,28 +147,15 @@ function straight(hand) {
 		bool = true,
 		i=1;
 		//console.log(card_value(hand[0][0]), hand[0], i);
+	if( card_value(hand[0][0]) === 14 && card_value(hand[0][1]) === 5 && card_value(hand[0][2]) === 4 && card_value(hand[0][3]) === 3 && card_value(hand[0][4]) === 2  ){
+		return true;
+	}
 	while(i<hand[0].length && bool){
 		//console.log(card_value(hand[0][i]), hand[0], i);
 		if(card_value(hand[0][i]) !== start - i){
 			bool = false;
 		}
 		i+=1;
-	}
-	if(start === 14){
-		var bool2 = true;
-		if(card_value(hand[0][4]) !== 2 ){
-			bool = false;
-		}
-		if(card_value(hand[0][3]) !== 3 ){
-			bool = false;
-		}
-		if(card_value(hand[0][2]) !== 4 ){
-			bool = false;
-		}
-		if(card_value(hand[0][1]) !== 5 ){
-			bool = false;
-		}
-		return bool || bool2;
 	}
 	return bool;
 }
