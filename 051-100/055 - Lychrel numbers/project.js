@@ -9,7 +9,8 @@ function next(arr,end){
 function main() {
 	'use strict';
 	var _i =[0]
-	while(next(i,Math.pow(10,4))){
+	while(next(_i,Math.pow(10,4))){
+		va
 		console.log(i);
 	}
 	return;
