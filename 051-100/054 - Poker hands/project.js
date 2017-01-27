@@ -83,7 +83,6 @@ function pair(hand){
 	while(i +1 <end){
 		j+=1;
 		if(j > end){
-			count = 0;
 			i+=1;
 			j=i+1;
 		}
@@ -99,7 +98,6 @@ function twopair(hand){
 	while(i +1 <end){
 		j+=1;
 		if(j > end){
-			count = 0;
 			i+=1;
 			j=i+1;
 		}
