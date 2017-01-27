@@ -237,7 +237,7 @@ function main() {
 				b+=1;
 			} else {
 				tie +=1;
-				console.log('tie - need to make better poker rules');
+				console.log('tie - need to make better poker rules - a');
 			}
 		} else if(high_hand(personA) === 2){
 			if(pair_value(personA) > pair_value(personB)){
@@ -246,7 +246,7 @@ function main() {
 				b+=1;
 			} else{
 				tie +=1;
-				console.log('tie - need to make better poker rules');
+				console.log('tie - need to make better poker rules - b');
 			}
 		} else if(high_hand(personA) === -1){
 			if(high_card(personA) > high_card(personB)){
@@ -255,11 +255,11 @@ function main() {
 				b+=1;
 			} else{
 				tie +=1;
-				console.log('tie - need to make better poker rules');
+				console.log('tie - need to make better poker rules - c');
 			}
 		} else {
 			tie +=1;
-			console.log('tie - need to make better poker rules');
+			console.log('tie - need to make better poker rules - z');
 		}
 		i+=1;
 	}
