@@ -17,9 +17,7 @@ function main() {
 			}
 			if(max <array.reduce(add)){
 max =array.reduce(add);
-value =
 			}
-			console.log(array.reduce(add));
 
 		}
 	}
