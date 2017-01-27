@@ -1,6 +1,6 @@
 var BigNumber = require('bignumber.js');
 function add(x, y) {
-    return x + parseInt(y,10);
+    return x + y;
 }
 function main() {
 	'use strict';
