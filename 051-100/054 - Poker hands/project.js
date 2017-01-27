@@ -112,7 +112,7 @@ function twopair(hand){
 	}
 	return countb  === 2;
 }
-function card_sort (x, y){countb
+function card_sort (x, y){
 	if(x.score === y.score){
 		return x.suit - y.suit;
 	}
