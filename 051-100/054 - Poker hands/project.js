@@ -1,4 +1,3 @@
-// High Card: Highest value card.
 // One Pair: Two cards of the same value.
 // Two Pairs: Two different pairs.
 // Three of a Kind: Three cards of the same value.
