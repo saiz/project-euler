@@ -79,8 +79,8 @@ function four(hand) {
 	}
 	return false;
 }
-function uniq(str) {
-	return str.replace("(?i)(.)(?=.*?\\1)", "").length;
+function uniq(hand) {
+	return hand[0.replace("(?i)(.)(?=.*?\\1)", "").length;
 }
 function fullhouse(hand) {
 	if((hand[0].split(hand[0][0]).length - 1) === 3 && (hand[0].split(hand[0][4]).length - 1) === 2){
