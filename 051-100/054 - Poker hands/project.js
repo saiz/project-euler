@@ -30,10 +30,27 @@ function card_sort (x){
 	console.log(x)
 	return ;
 }
+function card_value(x) {
+	switch(x) {
+    case "T":
+        return 10;
+    case "J":
+        return 11;
+    case "Q":
+        return 12;
+	case "K":
+        return 13;
+	case "A":
+        return 1;
+    default:
+        return parseInt(x,10);
+	}
+}
 function handsort(x,y){
 	if(x[0] === y[0]){
 		return x[1] < y[1];
 	}
+
 	return x[0] < y[0];
 }
 function hand(array){
