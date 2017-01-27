@@ -93,7 +93,7 @@ function pair(hand){
 function twopair(hand){
 	var i =0,j =0, end = 4,
 		count = 0, countb = 0;
-	while(i +1 <end){
+	while(i +1 < end){
 		j+=1;
 		if(j > end){
 			i+=1;
