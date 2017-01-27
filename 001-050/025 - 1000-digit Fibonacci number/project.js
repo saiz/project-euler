@@ -1,4 +1,4 @@
-var BigNumber = require('big-number');
+var BigNumber = require('bignumber.js');
 function fibonacci(array) {
 	'use strict';
 	var a,b;
