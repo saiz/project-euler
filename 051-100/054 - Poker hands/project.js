@@ -120,7 +120,6 @@ function pair_value(hand){
 	while(i <str.length){
 		if((str.split(str[i]).length - 1 === 2)){
 			value = card_value(hand[0][i]);
-			str = str.replace(new RegExp(str[0],"g"),"");
 			i = str.length;
 		}
 		i+=1;
