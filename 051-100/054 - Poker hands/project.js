@@ -81,6 +81,7 @@ function four(hand) {
 }
 function uniq(hand) {
 	var count =0,
+i=-
 		str = hand[0],
 		char;
 	while(str.length > 0){
