@@ -84,8 +84,7 @@ function card_sort (x, y){
 	return x.score - y.score;
 }
 function high(hand){
-	console.log(hand);
-	return Math.pow(10,2)*hand[0].score + hand[0].suit;
+	return Math.pow(10,2)*hand[4].score + hand[4].suit;
 }
 function scores(hand){
 
