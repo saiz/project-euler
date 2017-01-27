@@ -88,7 +88,7 @@ function high(hand){
 }
 function scores(hand){
 
-	return -1;
+	return high(hand);
 }
 function main() {
 	'use strict';
