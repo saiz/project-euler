@@ -1,4 +1,4 @@
-var BigNumber = require('big-number');
+var BigNumber = require('bignumber.js');
 function main() {
 	'use strict';
 	var a,b,i,j,max =100;
