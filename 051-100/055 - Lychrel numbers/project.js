@@ -38,11 +38,11 @@ function test(num,i,end){
 
 function main() {
 	'use strict';
-	var _i =[0],i, count = 0;
+	var _i =[0],i, count = 0, max = 100;
 	while(next(_i,Math.pow(10,4))){
 		i = _i[0];
-		if(!palindromes(test(i,0,50))){
-			console.log(test(i,0,50), i)
+		if(!palindromes(test(i,0,max))){
+			console.log(test(i,0,max), i)
 			count +=1;
 		}
 	}
