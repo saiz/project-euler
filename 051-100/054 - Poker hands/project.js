@@ -86,7 +86,7 @@ function pair(hand){
 			i+=1;
 			j=i+1;
 		}
-		if(hand[i].score === hand[j].score){
+		if(hand[i].value === hand[j].value){
 			count +=1;
 		}
 	}
@@ -103,7 +103,7 @@ function twopair(hand){
 }
 function card_sort (x, y){
 	if(x.value === y.value){
-		return x.suitvalue > y.suit;
+		return x.suitvalue > y.suitvalue;
 	}
 	return x.value > y.value;
 }
