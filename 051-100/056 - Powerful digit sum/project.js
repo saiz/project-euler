@@ -5,7 +5,7 @@ function main() {
 	for(i=1;i<=max;i+=1){
 		for(j=1;j<=max;j+=1){
 			a = new BigNumber(i)
-			b = new BigNumber(123.4567)
+			b = new BigNumber(j)
 			console.log(Math.pow(a,b));
 		}
 	}
