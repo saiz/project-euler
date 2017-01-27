@@ -7,10 +7,14 @@ function next(arr,end){
 }
 function main() {
 	'use strict';
-	var _i=[0],i;
-	while(next(_i,Math.pow(10,4))){
-i =_i[0];
-console.log(Math.pow(10,i))
+	var _i=[0],i,_j=[0],j;
+	while(next(_i,Math.pow(10,2))){
+		i =_i[0];
+		_j=[0];
+		while(next(_j,Math.pow(10,2))){
+			j =_j[0];
+			console.log(Math.pow(i,j));
+		}
 	}
 	return i;
 }
