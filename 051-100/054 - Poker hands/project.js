@@ -105,7 +105,7 @@ function high(hand){
 	return Math.pow(10,2)*hand[4].score + hand[4].suit;
 }
 function scores(hand){
-	pair(hand)
+	pair(hand);
 	return high(hand);
 }
 function main() {
