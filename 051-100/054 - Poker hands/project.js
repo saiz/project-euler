@@ -1,7 +1,4 @@
 // High Card: Highest value card.
-// One Pair: Two cards of the same value.
-// Two Pairs: Two different pairs.
-// Three of a Kind: Three cards of the same value.
 // Straight: All cards are consecutive values.
 // Flush: All cards of the same suit.
 // Straight Flush: All cards are consecutive values of same suit.
@@ -115,6 +112,13 @@ function pair(hand) {
 		str = str.replace(new RegExp(str[0],"g"),"");
 	}
 	return count === 1;
+}
+function flush(hand) {
+	var str = hand[1]
+	if((str.split(str[0]).length - 1 === 5)){
+		return true;
+	}
+	return false;
 }
 function fullhouse(hand) {
 	if((hand[0].split(hand[0][0]).length - 1) === 3 && (hand[0].split(hand[0][4]).length - 1) === 2){
