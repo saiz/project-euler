@@ -258,11 +258,10 @@ function main() {
 				} else if(pair_tie(personA,personB) === 1){
 					b+=1;
 				} else {
-
-				}
 				tie +=1;
 				console.log(personA,personB);
 				console.log('tie - need to make better poker rules - b');
+				}
 			}
 		} else if(high_hand(personA) === -1){
 			if(high_card(personA) > high_card(personB)){
