@@ -178,8 +178,9 @@ function high_hand(hand){
 		return 8;
 	}
 	if(fullhouse(hand)){
-
+		return 7;
 	}
+	if(flush())
 }
 function main() {
 	'use strict';
