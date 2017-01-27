@@ -112,7 +112,7 @@ function pair(hand) {
 	return count === 1;
 }
 function flush(hand) {
-	var str = hand[1]
+	var str = hand[1];
 	if((str.split(str[0]).length - 1 === 5)){
 		return true;
 	}
