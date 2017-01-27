@@ -126,7 +126,7 @@ function pair_value(hand){
 	}
 	return value;
 }
-function pair_tie (hand, value){
+function remove_pair (hand, value){
 	var str = hand[0];
 	str = str.replace(new RegExp(value,"g"),"");
 	return str;
