@@ -209,7 +209,7 @@ function main() {
 		if(high_hand(personA) > high_hand(personB)){
 			console.log('personA');
 		} else if(high_hand(personA) < high_hand(personB)){
-			console.log('personA');
+			console.log('personb');
 		} else{
 			console.log('tie');
 		}
