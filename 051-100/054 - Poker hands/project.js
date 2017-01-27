@@ -103,9 +103,11 @@ function twopair(hand){
 			count +=1;
 			if(count === 2){
 				countb +=1;
+				console.log('here');
 			}
 		}
 	}
+	co
 	return countb ;
 }
 function card_sort (x, y){
