@@ -103,7 +103,6 @@ function twopair(hand){
 			count +=1;
 		}
 	}
-console.log("--")
 	return count ;
 }
 function card_sort (x, y){
