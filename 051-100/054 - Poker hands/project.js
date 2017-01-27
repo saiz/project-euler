@@ -183,7 +183,9 @@ function high_hand(hand){
 	if(flush(hand)){
 		return 6;
 	}
-	if()
+	if(straight(hand)){
+
+	}
 }
 function main() {
 	'use strict';
