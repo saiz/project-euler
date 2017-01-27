@@ -186,7 +186,9 @@ function high_hand(hand){
 	if(straight(hand)){
 		return 5;
 	}
-if(three_pair())
+if(three_pair(hand)){
+retur
+}
 }
 function main() {
 	'use strict';
