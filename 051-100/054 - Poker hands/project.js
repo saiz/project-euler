@@ -60,7 +60,7 @@ function suit_value(x) {
 }
 function handsort(x,y){
 	if(x[0] === y[0]){
-		return suit_value(x[1]) < suit_valuey[1];
+		return suit_value(x[1]) < suit_value(y[1]);
 	}
 	return card_value(x[0]) < card_value(y[0]);
 }
