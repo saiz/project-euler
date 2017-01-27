@@ -1,6 +1,6 @@
 function next(arr,end){
-	if(arr[0]!== end){
-		return true;
+	if(arr[0]=== end){
+		return false;
 	}
 	arr[0] +=1;
 	return true;
