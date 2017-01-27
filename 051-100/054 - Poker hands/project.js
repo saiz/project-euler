@@ -214,7 +214,7 @@ function main() {
 			if(high_card(personA) > high_card(personB)){
 				//console.log('A');
 			}
-//console.log('A');
+			//console.log('B');
 			console.log('tie', high_hand(personA));
 		}
 		i+=1;
