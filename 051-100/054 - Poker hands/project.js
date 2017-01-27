@@ -100,7 +100,7 @@ function main() {
 	while( i< array.length){
 		personA = hand(array[i][0].sort(hand_sort));
 		personB = hand(array[i][1].sort(hand_sort));
-		console.log(uniq(personA));
+		console.log(fullhouse(personA));
 		i+=1;
 	}
 	return;
