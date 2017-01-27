@@ -45,7 +45,7 @@ function main() {
 			count +=1;
 		}
 	}
-	return;
+	return count;
 }
 
 console.log(main(process.argv[2]));
