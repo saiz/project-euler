@@ -92,6 +92,19 @@ function two_pair(hand) {
 	}
 	return count === 2;
 }
+function pair(hand) {
+	var count =0,
+		i=0,
+		str = hand[0],
+		char;
+	while(str.length > 0){
+		if((str.split(str[0]).length - 1 == 2)){
+			count +=1;
+		}
+		str = str.replace(new RegExp(str[0],"g"),"");
+	}
+	return count === 1;
+}
 function fullhouse(hand) {
 	if((hand[0].split(hand[0][0]).length - 1) === 3 && (hand[0].split(hand[0][4]).length - 1) === 2){
 		return true;
