@@ -88,7 +88,7 @@ function pair(hand) {
 		count +=1;
 		str = str.replace(new RegExp(str[0],"g"),"")
 	}
-	return cou;
+	return count ===2;
 }
 function fullhouse(hand) {
 	if((hand[0].split(hand[0][0]).length - 1) === 3 && (hand[0].split(hand[0][4]).length - 1) === 2){
