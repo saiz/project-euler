@@ -131,7 +131,8 @@ function remove_pair (hand, value){
 	str = str.replace(new RegExp(value,"g"),"");
 	return str;
 }
-function pair_tie(A,b){
+function pair_tie(personA,personB){
+A
 	while
 }
 function flush(hand) {
