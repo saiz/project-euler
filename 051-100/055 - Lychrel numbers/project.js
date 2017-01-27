@@ -21,10 +21,7 @@ function test(num,i,end){
 function main() {
 	'use strict';
 	var _i =[0],i;
-	while(next(_i,Math.pow(10,4))){
-		i = _i[0];
-		console.log(test(12,0,50));
-	}
+?
 	return;
 }
 
