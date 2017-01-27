@@ -63,6 +63,7 @@ function high_card(hand) {
 }
 function high_card2(hand) {
 	return 10*card_value(hand[0][1]);
+}
 function four(hand) {
 	if((hand[0].split(hand[0][0]).length - 1) === 4){
 		return true;
