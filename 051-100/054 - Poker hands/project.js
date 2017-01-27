@@ -26,12 +26,13 @@ function poker_array(){
 }
 
 function hand(array){
-	var res = [], i = 0;
+	var value = [],suit = [], i = 0;
 	while(i<array.length){
-		res.push(array[i]);
+		value.push(array[i][0]);
+		suit.push(array[i][1]);
 		i+=1;
 	}
-	return res;
+	return [value,suit];
 }
 function main() {
 	'use strict';
