@@ -88,7 +88,7 @@ function three_pair(hand) {
 		}
 		str = str.replace(new RegExp(str[0],"g"),"");
 	}
-	return count === 3;
+	return count === 1;
 }
 function two_pair(hand) {
 	var count =0,
