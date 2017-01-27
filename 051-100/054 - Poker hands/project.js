@@ -79,7 +79,7 @@ function four(hand) {
 	}
 	return false;
 }
-function pair(hand) {
+function two_pair(hand) {
 	var count =0,
 		i=0,
 		str = hand[0],
@@ -88,7 +88,7 @@ function pair(hand) {
 		count +=1;
 		str = str.replace(new RegExp(str[0],"g"),"")
 	}
-	return count === 1;
+	return count === 2;
 }
 function fullhouse(hand) {
 	if((hand[0].split(hand[0][0]).length - 1) === 3 && (hand[0].split(hand[0][4]).length - 1) === 2){
