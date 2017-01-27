@@ -12,7 +12,7 @@ function main() {
 			array = a.toPower(b).toString(10).split("");
 k=0;
 while(k<array.length){
-	array[]
+	array[k]=parse
 }
 			console.log(array);
 
