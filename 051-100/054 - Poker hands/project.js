@@ -4,8 +4,6 @@
 // Three of a Kind: Three cards of the same value.
 // Straight: All cards are consecutive values.
 // Flush: All cards of the same suit.
-// Full House: Three of a kind and a pair.
-// Four of a Kind: Four cards of the same value.
 // Straight Flush: All cards are consecutive values of same suit.
 // Royal Flush: Ten, Jack, Queen, King, Ace, in same suit.
 
@@ -78,6 +76,19 @@ function four(hand) {
 		return true;
 	}
 	return false;
+}
+function three_pair(hand) {
+	var count =0,
+		i=0,
+		str = hand[0],
+		char;
+	while(str.length > 0){
+		if((str.split(str[0]).length - 1 == 3)){
+			count +=1;
+		}
+		str = str.replace(new RegExp(str[0],"g"),"");
+	}
+	return count === 3;
 }
 function two_pair(hand) {
 	var count =0,
