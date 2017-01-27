@@ -78,10 +78,10 @@ function hand(array){
 }
 
 function pair(hand){
-	var i =0,j =1, end = 4;
+	var i =0,j =1, end = 4,
 		count;
 	while(i<end){
-		console.log(i,j)
+		console.log(i,j);
 		j+=1;
 		if(j === end){
 			i+=1;
