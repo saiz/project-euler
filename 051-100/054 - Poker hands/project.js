@@ -81,11 +81,12 @@ function four(hand) {
 }
 function uniq(hand) {
 	var count =0,
-i=-
+		i=0,
 		str = hand[0],
 		char;
 	while(str.length > 0){
 		count +=1;
+
 		char = "/" + str[i]+ "/g";
 		str.replace(char);
 	}
