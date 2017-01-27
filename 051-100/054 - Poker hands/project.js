@@ -131,7 +131,7 @@ function main() {
 		personA = hand(array[i][0]).sort(card_sort);
 		personB = hand(array[i][1]).sort(card_sort);
 
-        twopair(personA);
+        console.log(twopair(personA));
 		i+=1;
 	}
 	return;
