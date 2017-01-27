@@ -214,7 +214,7 @@ function main() {
 		} else if(high_hand(personA) < high_hand(personB)){
 			//console.log('    B');
 		} else if(high_hand(personA) === -5){
-			if(high_card2(personA[]) > high_card2(personB)){
+			if(high_card2(personA) > high_card2(personB)){
 				//console.log('A');
 			}
 			//console.log('B');
