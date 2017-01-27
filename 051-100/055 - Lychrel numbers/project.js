@@ -1,3 +1,14 @@
+function palindromes(str){
+	var i=0,
+		bool = true;
+	while((i<(str.length/2)) && bool){
+		if(str[i] !== str[str.length - i - 1]){
+			bool = false;
+		}
+		i+=1;
+	}
+	return bool;
+}
 function reverse(s) {
   var o = [];
   for (var i = 0, len = s.length; i <= len; i++)
@@ -18,7 +29,7 @@ function add_rev(i){
 	return i +rev(i);
 }
 function test(num,i,end){
-	if(i > end){
+	if(i > end || palindromes(num)){
 		return num;
 	}
 	return test(add_rev(num),i+1,end);
