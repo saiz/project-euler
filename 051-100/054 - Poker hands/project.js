@@ -88,6 +88,7 @@ function uniq(hand) {
 		count +=1;
 		char = "/" + str[0]+ "/g";
 		str.replace(char);
+		console.log(str)
 	}
 	return count;
 }
