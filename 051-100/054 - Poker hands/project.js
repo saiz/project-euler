@@ -86,11 +86,11 @@ function next(array, end){
 	}
 	if( array[0] > end){
 		return false;
-	}
+	}s
 	return true;
 }
 function pair(hand){
-	var arr = [1,1];
+	var arr = [1,2];
 	while(next(arr,5)){
 		console.log(arr[0],arr[1]);
 	}
