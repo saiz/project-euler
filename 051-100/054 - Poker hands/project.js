@@ -207,6 +207,7 @@ function main() {
 		personA,
 		personB,
 		a = 0,
+		tie = 0,
 		b = 0;
 	while( i< array.length){
 		personA = hand(array[i][0].sort(hand_sort));
@@ -226,11 +227,12 @@ function main() {
 			}
 			b+=1;
 		} else {
+			tie +=1;
 			console.log('tie', high_hand(personA));
 		}
 		i+=1;
 	}
-	return a;
+	return [a,b,tie];
 }
 
 console.log(main(process.argv[2]));
