@@ -52,7 +52,7 @@ function suit_value(x) {
 	}
 	return parseInt(x,10);
 }
-function handsort(x,y){
+function hand_sort(x,y){
 	if(x[0] === y[0]){
 		return suit_value(x[1]) < suit_value(y[1]);
 	}
@@ -67,6 +67,9 @@ function hand(array){
 	}
 	return [value,suit];
 }
+function high_card(hand) {
+	return 10*card_value(hand[0][0])+ suit_value(hand[1][0]);
+}
 function main() {
 	'use strict';
 	var array =poker_array(),
@@ -74,8 +77,8 @@ function main() {
 		personA,
 		personB;
 	while( i< array.length){
-		personA = hand(array[i][0].sort(handsort));
-		personB = hand(array[i][1].sort(handsort));
+		personA = hand(array[i][0].sort(hand_sort));
+		personB = hand(array[i][1].sort(hand_sort));
 		console.log(personA);
 		i+=1;
 	}
