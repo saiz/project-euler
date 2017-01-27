@@ -42,7 +42,7 @@ function main() {
 	while( i< array.length){
 		personA = hand(array[i][0]);
 		personB = hand(array[i][1]);
-		console
+		console.log(personA);
 		i+=1;
 	}
 	return;
