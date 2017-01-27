@@ -75,9 +75,24 @@ function hand(array){
 		i+=1;
 	}
 	return res;
+
+function next(array, end){
+	if(array[1] - 1 === 0){
+		array[0]+=1;
+		array[1]=array[0];
+	} else{
+		array[1]-=1;
+	}
+	if( array[0] > end){
+		return false;
+	}
+	return true;
 }
 function pair(hand){
-
+	var arr = [1,1]
+	while(next(array,end)){
+		console.log(array[0],array[1]);
+	}
 }
 function card_sort (x, y){
 	if(x.score === y.score){
