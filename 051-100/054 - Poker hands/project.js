@@ -193,7 +193,7 @@ function high_hand(hand){
 		return 3;
 	}
 if(pair(hand))[
-	return 2]
+	return 2;
 }
 function main() {
 	'use strict';
