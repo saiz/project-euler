@@ -24,12 +24,6 @@ function poker_array(){
 	}
 	return arr;
 }
-function card_sort (x){
-	var y =x[0];
-	x[0]= null;
-	console.log(x)
-	return ;
-}
 function card_value(x) {
 	switch(x) {
 	    case "T":
