@@ -9,7 +9,7 @@ function next(arr,end){
 function main() {
 	'use strict';
 	var i =[0];
-while(next)
+while(next(i,Math.))
 	return i;
 }
 
