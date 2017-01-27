@@ -25,6 +25,7 @@ function poker_array(){
 	return arr;
 }
 function card_sort (x){
+	var y =x
 	console.log(x)
 	return ;
 }
