@@ -1,6 +1,7 @@
 function palindromes(str){
 	var i=0,
 		bool = true;
+		str = String(str);
 	while((i<(str.length/2)) && bool){
 		if(str[i] !== str[str.length - i - 1]){
 			bool = false;
@@ -29,7 +30,6 @@ function add_rev(i){
 	return i +rev(i);
 }
 function test(num,i,end){
-	ci
 	if(i > end || ( palindromes(num) && i !== 0)){
 		return num;
 	}
