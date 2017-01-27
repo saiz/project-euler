@@ -91,8 +91,8 @@ function next(array, end){
 }
 function pair(hand){
 	var arr = [1,1];
-	while(next(array,end)){
-		console.log(array[0],array[1]);
+	while(next(arr,end)){
+		console.log(arr[0],arr[1]);
 	}
 }
 function card_sort (x, y){
