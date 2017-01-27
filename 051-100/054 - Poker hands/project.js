@@ -32,19 +32,18 @@ function card_sort (x){
 }
 function card_value(x) {
 	switch(x) {
-    case "T":
-        return 10;
-    case "J":
-        return 11;
-    case "Q":
-        return 12;
-	case "K":
-        return 13;
-	case "A":
-        return 1;
-    default:
-        return parseInt(x,10);
+	    case "T":
+	        return 10;
+	    case "J":
+	        return 11;
+	    case "Q":
+	        return 12;
+		case "K":
+	        return 13;
+		case "A":
+	        return 1;
 	}
+	return parseInt(x,10);
 }
 function handsort(x,y){
 	if(x[0] === y[0]){
