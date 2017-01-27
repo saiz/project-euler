@@ -236,6 +236,12 @@ function main() {
 			} else {
 				b+=1;
 			}
+		} else if(high_hand(personA) === 2){
+			if(high_card2(personA) > high_card2(personB)){
+				a+=1;
+			} else {
+				b+=1;
+			}
 		} else if(high_hand(personA) === -1){
 			if(high_card(personA) > high_card(personB)){
 				a+=1;
