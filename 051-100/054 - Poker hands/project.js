@@ -97,7 +97,7 @@ function twopair(hand){
 		i+=1;
 	}
 	console.log(str);
-	return count ;
+	return ;
 }
 function card_sort (x, y){
 	if(x.score === y.score){
