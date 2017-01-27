@@ -106,7 +106,7 @@ function twopair(hand){
 		if(hand[i].score === hand[j].score){
 			count +=1;
 			if(count === 2){
-				countb +1;
+				countb +=1;
 			}
 		}
 	}
