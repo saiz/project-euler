@@ -1,6 +1,4 @@
-// High Card: Highest value card.
 // Straight: All cards are consecutive values.
-// Flush: All cards of the same suit.
 // Straight Flush: All cards are consecutive values of same suit.
 // Royal Flush: Ten, Jack, Queen, King, Ace, in same suit.
 
