@@ -134,7 +134,7 @@ function remove_pair (hand, value){
 function pair_tie(personA,personB){
 	var a =remove_pair(personA,pair_value(personA)),
 		b= remove_pair(personB,pair_value(personB)),
-		i;
+		i =0;
 	while(i<4){
 		if(a[i]>b[i]){
 			return 0;
@@ -142,7 +142,6 @@ function pair_tie(personA,personB){
 		if(a[i]<b[i]){
 			return 1;
 		}
-		console.log(a[i],b[i])
 		i+=1;
 	}
 	return -1;
