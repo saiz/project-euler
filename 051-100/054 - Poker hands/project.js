@@ -207,7 +207,7 @@ function main() {
 		personA = hand(array[i][0].sort(hand_sort));
 		personB = hand(array[i][1].sort(hand_sort));
 		if(high_hand(personA) > high_hand(personB)){
-			console.log(personA);
+			console.log('personA');
 		} else if(high_hand(personA) < high_hand(personB)){
 			console.log(personA);
 		} else{
