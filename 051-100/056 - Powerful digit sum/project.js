@@ -11,7 +11,7 @@ function main() {
 			b = new BigNumber(j);
 			array = a.toPower(b).toString(10).split("");
 k=0;
-while(k<array.len)
+while(k<array.length)
 			console.log(array);
 
 		}
