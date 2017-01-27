@@ -90,7 +90,8 @@ function next(array, end){
 	return true;
 }
 function pair(hand){
-	var arr = [1,1];
+	var arr = [1,1],
+		count;
 	while(next(arr,5)){
 		console.log(arr[0],arr[1]);
 	}
