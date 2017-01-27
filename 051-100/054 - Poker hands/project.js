@@ -110,7 +110,7 @@ function twopair(hand){
 			}
 		}
 	}
-	return countb  >= 2;
+	return countb  === 2;
 }
 function card_sort (x, y){countb
 	if(x.score === y.score){
