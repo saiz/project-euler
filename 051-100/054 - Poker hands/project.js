@@ -136,8 +136,9 @@ function pair_tie(personA,personB){
 		b= remove_pair(personB,pair_value(personB)),
 		i;
 	while(i<4){
-		if(a[i]>b[i])
-
+		if(a[i]>b[i]){
+return
+		}
 	}
 }
 function flush(hand) {
