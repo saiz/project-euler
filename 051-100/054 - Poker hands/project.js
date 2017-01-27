@@ -111,6 +111,7 @@ console.log(hand[i].score, hand[j].score)
 			}
 		}
 	}
+	console.log("--")
 	return countb ;
 }
 function card_sort (x, y){
