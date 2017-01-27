@@ -91,7 +91,7 @@ function next(array, end){
 }
 function pair(hand){
 	var arr = [1,1];
-	while(next(arr,end)){
+	while(next(arr,5)){
 		console.log(arr[0],arr[1]);
 	}
 }
