@@ -95,7 +95,7 @@ function pair(hand){
 function twopair(hand){
 	var i =0, str ='';
 	while(i < hand.length){
-		str += hand[i].score;
+		str += hand[i].value;
 		i+=1;
 	}
 	console.log(str);
