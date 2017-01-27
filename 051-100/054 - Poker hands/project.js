@@ -86,7 +86,7 @@ function uniq(hand) {
 		char;
 	while(str.length > 0){
 		count +=1;
-
+i
 		char = "/" + str[i]+ "/g";
 		str.replace(char);
 	}
