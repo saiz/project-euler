@@ -186,9 +186,10 @@ function high_hand(hand){
 	if(straight(hand)){
 		return 5;
 	}
-if(three_pair(hand)){
-	return 4;
-}
+	if(three_pair(hand)){
+		return 4;
+	}
+if()
 }
 function main() {
 	'use strict';
