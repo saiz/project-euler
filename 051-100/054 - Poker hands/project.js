@@ -83,7 +83,7 @@ function card_sort (x, y){
 	}
 	return x.score - y.score;
 }
-function high(){
+function high(hand){
 	return
 }
 function scores(hand){
