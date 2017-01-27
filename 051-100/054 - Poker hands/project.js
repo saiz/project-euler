@@ -131,15 +131,20 @@ function straight(hand) {
 		i+=1;
 	}
 	if(start === 14){
-		bool = true;
-		i=2;
-		start = card_value(hand[0][1]);
-		while(i<hand[0].length && bool){
-			if(card_value(hand[0][i]) !== start - i){
-				bool = false;
-			}
-			i+=1;
+		var bool2 = true;
+		if(card_value(hand[0][4]) !== 2 ){
+			bool = false;
 		}
+		if(card_value(hand[0][3]) !== 3 ){
+			bool = false;
+		}
+		if(card_value(hand[0][2]) !== 4 ){
+			bool = false;
+		}
+		if(card_value(hand[0][1]) !== 5 ){
+			bool = false;
+		}
+		return bool || bool2;
 	}
 	return bool;
 }
