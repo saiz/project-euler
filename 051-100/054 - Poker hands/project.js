@@ -89,7 +89,7 @@ function next(array, end){
 	return true;
 }
 function pair(hand){
-	var arr = [1,1]
+	var arr = [1,1];
 	while(next(array,end)){
 		console.log(array[0],array[1]);
 	}
