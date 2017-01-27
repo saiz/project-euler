@@ -124,7 +124,7 @@ function pair_value(hand){
 		}
 		i+=1;
 	}
-	return value
+	return value;
 }
 function flush(hand) {
 	var str = hand[1];
