@@ -213,10 +213,13 @@ function main() {
 			//console.log('A');
 		} else if(high_hand(personA) < high_hand(personB)){
 			//console.log('    B');
-		} else if(high_hand(personA) === 5){
-			console.log('tie', high_hand(personA));
+		} else if(high_hand(personA) === -5){
+			if(high_card(personA[]) > high_card(personB)){
+				//console.log('A');
+			}
+			//console.log('B');
 		} else if(high_hand(personA) === -1){
-			if(card_value(personA[]) > high_card(personB)){
+			if(high_card(personA[]) > high_card(personB)){
 				//console.log('A');
 			}
 			//console.log('B');
