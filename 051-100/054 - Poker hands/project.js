@@ -171,7 +171,7 @@ function high_hand(hand){
 	if(royal_flush(hand)){
 		return 10;
 	}
-	if(straight_flush((hand)))
+	if(straight_flush(hand)))
 }
 function main() {
 	'use strict';
