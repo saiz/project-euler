@@ -89,9 +89,9 @@ function pair(hand){
 		}
 		if(hand[i].score === hand[j].score){
 			count +=1;
-			console.log(count);
 		}
 	}
+	console.log(count);
 	return count  > 2;
 }
 function card_sort (x, y){
