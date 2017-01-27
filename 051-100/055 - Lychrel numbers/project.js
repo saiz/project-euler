@@ -12,7 +12,7 @@ function next(arr,end){
 	return true;
 }
 function rev(i) {
-	parseInt(reverse(String(i)),10);
+	return parseInt(reverse(String(i)),10);
 }
 function add_rev(i){
 	console.log(i +rev(i));
