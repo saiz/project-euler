@@ -237,7 +237,7 @@ function main() {
 				b+=1;
 			}
 		} else if(high_hand(personA) === 2){
-			if(high_card2(personA) > high_card2(personB)){
+			if(pair_value(personA) > pair_value(personB)){
 				a+=1;
 			} else {
 				b+=1;
