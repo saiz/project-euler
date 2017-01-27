@@ -41,7 +41,7 @@ function main() {
 	var _i =[0],i, count = 0;
 	while(next(_i,Math.pow(10,4))){
 		i = _i[0];
-		if(palindromes(test(i,0,50))){
+		if(!palindromes(test(i,0,50))){
 			count +=1;
 			console.log(test(i,0,50));
 		}
