@@ -11,7 +11,7 @@ function main() {
 	var _i =[0],i;
 	while(next(_i,Math.pow(10,4))){
 		i = _i[0];
-		console.log(i,_i);
+		console.log(i,);
 	}
 	return;
 }
