@@ -118,7 +118,7 @@ function pair_value(hand){
 		str = hand[0],
 		char;
 	while(i <str.length){
-		if((str.split(str[i]).length - 1 == 2)){
+		if((str.split(str[i]).length - 1 === 2)){
 			value = card_value(hand[0][i]);
 			i = str.length;
 		}
