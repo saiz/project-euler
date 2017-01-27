@@ -91,7 +91,7 @@ function pair(hand){
 			count +=1;
 		}
 	}
-	return count  >= 2;
+	return count  > 1;
 }
 function twopair(hand){
 	var i =0,j =0, end = 4,
