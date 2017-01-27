@@ -28,8 +28,8 @@ function poker_array(){
 function hand(array){
 	var value ='',suit = '', i = 0;
 	while(i<array.length){
-		value +=array[i][0];
-		suit.push(array[i][1];
+		value += array[i][0];
+		suit += array[i][1];
 		i+=1;
 	}
 	return [value,suit];
