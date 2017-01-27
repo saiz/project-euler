@@ -112,6 +112,20 @@ function pair(hand) {
 	}
 	return count === 1;
 }
+function pair_value(hand){
+	var value =0,
+		i=0,
+		str = hand[0],
+		char;
+	while(i <str.length){
+		if((str.split(str[i]).length - 1 == 2)){
+			value = 10*card_value(hand[0][i])+ suit_value(hand[1][i]);
+			i = str.length;
+		}
+		i+=1;
+	}
+	return value
+}
 function flush(hand) {
 	var str = hand[1];
 	if((str.split(str[0]).length - 1 === 5)){
