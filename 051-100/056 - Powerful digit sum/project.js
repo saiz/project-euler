@@ -6,7 +6,7 @@ function main() {
 		for(j=1;j<=max;j+=1){
 			a = new BigNumber(i);
 			b = new BigNumber(j);
-			console.log(Math.pow(a,b));
+			console.log(a.toPower(b));
 		}
 	}
 	return;
