@@ -230,7 +230,7 @@ function main() {
 		}
 		i+=1;
 	}
-	return;
+	return a;
 }
 
 console.log(main(process.argv[2]));
