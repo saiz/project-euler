@@ -79,7 +79,7 @@ function hand(array){
 
 function pair(hand){
 	var i =0,j =0, end = 4,
-		coun = 0;
+		count = 0;
 	while(i +1 <end && count < 2){
 		j+=1;
 		if(j > end){
