@@ -19,7 +19,7 @@ function add_rev(i){
 }
 function test(num,i,end){
 	if(i > end){
-		return 0;
+		return num;
 	}
 	return test(add_rev(num),i+1,end);
 }
