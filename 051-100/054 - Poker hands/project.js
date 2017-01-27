@@ -245,7 +245,7 @@ function main() {
 				a+=1;
 			} else if(pair_value(personA) < pair_value(personB)){
 				b+=1;
-			} else{
+			} else{f
 				tie +=1;
 				console.log('tie - need to make better poker rules');
 			}
