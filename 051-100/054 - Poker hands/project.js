@@ -219,7 +219,7 @@ function main() {
 			}
 			//console.log('B');
 		} else if(high_hand(personA) === -1){
-			if(high_card(personA[]) > high_card(personB)){
+			if(high_card(personA) > high_card(personB)){
 				//console.log('A');
 			}
 			//console.log('B');
