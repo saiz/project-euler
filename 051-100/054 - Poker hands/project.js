@@ -102,10 +102,10 @@ function twopair(hand){
 	return ;
 }
 function card_sort (x, y){
-	if(x.score === y.score){
-		return x.suit > y.suit;
+	if(x.value === y.value){
+		return x.suitvalue > y.suit;
 	}
-	return x.score > y.score;
+	return x.value > y.value;
 }
 function high(hand){
 	return Math.pow(10,2)*hand[4].score + hand[4].suit;
