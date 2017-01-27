@@ -91,18 +91,12 @@ function pair(hand){
 	return count  > 1;
 }
 function twopair(hand){
-	var i =0,j =0, end = 4,
-		count = 0, countb = 0;
-	while(i +1 < end){
-		j+=1;
-		if(j > end){
-			i+=1;
-			j=i+1;
-		}
-		if(hand[i].score === hand[j].score){
-			count +=1;
-		}
+	var i =0, str ='';
+	while(i < end){
+		str += hand[i];
+		i+=1;
 	}
+	console.log(str);
 	return count ;
 }
 function card_sort (x, y){
