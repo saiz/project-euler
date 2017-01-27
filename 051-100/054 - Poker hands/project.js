@@ -24,50 +24,7 @@ function poker_array(){
 	}
 	return arr;
 }
-function card(str) {
-	var score = -1 , suit = -1 ;
-	switch(str[0]) {
-		case "T":
-			score = 10;
-			break;
-		case "J":
-			score = 11;
-			break;
-		case "Q":
-			score = 12;
-			break;
-		case "K":
-			score = 13;
-			break;
-		case "A":
-			score = 14;
-			break;
-		default:
-			score = parseInt(str[0],10);
-	}
-	switch(str[1]) {
-		case "S":
-			suit = 0;
-			break;
-		case "H":
-			suit = 1;
-			break;
-		case "D":
-			suit = 2;
-			break;
-		case "C":
-			suit = 3;
-			break;
-		default:
-			suit = -1;
-	}
-	return {
-		number:str[0],
-		suit:str[1],
-		value:score,
-		suitvalue:suit
-	};
-}
+
 function hand(array){
 	var res = [], i = 0;
 	while(i<array.length){
@@ -75,37 +32,6 @@ function hand(array){
 		i+=1;
 	}
 	return res;
-}
-
-function pair(hand){
-	var i =0, str ='';
-	while(i < hand.length){
-		str += hand[i].number;
-		i+=1;
-	}
-	return count  > 1;
-}
-function twopair(hand){
-	var i =0, str ='';
-	while(i < hand.length){
-		str += hand[i].number;
-		i+=1;
-	}
-	console.log(str);
-	return ;
-}
-function card_sort (x, y){
-	if(x.value === y.value){
-		return x.suitvalue > y.suitvalue;
-	}
-	return x.value > y.value;
-}
-function high(hand){
-	return Math.pow(10,2)*hand[4].score + hand[4].suit;
-}
-function scores(hand){
-	pair(hand);
-	return high(hand);
 }
 function main() {
 	'use strict';
