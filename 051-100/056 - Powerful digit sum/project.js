@@ -16,7 +16,7 @@ function main() {
 			console.log(Math.pow(i,j));
 		}
 	}
-	return i;
+	return;
 }
 
 console.log(main(process.argv[2]));
