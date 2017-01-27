@@ -24,9 +24,9 @@ function poker_array(){
 	}
 	return arr;
 }
-function card_sort (x, y){
-	console.log(x,y)
-	return true;
+function card_sort (x){
+	console.log(x)
+	return ;
 }
 function hand(array){
 	var value ='',suit = '', i = 0;
@@ -44,7 +44,8 @@ function main() {
 		personA,
 		personB;
 	while( i< array.length){
-		personA = hand(array[i][0]).sort(card_sort);
+		personA = hand(array[i][0])
+		card_sort(personA);
 		personB = hand(array[i][1]);
 		console.log(personA);
 		i+=1;
