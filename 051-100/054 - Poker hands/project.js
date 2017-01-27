@@ -254,7 +254,9 @@ function main() {
 				b+=1;
 			} else{
 				if(pair_tie(personA,personB) === 0){
-
+					a+=1;
+				} elsef(pair_tie(personA,personB) === 0){
+					a+=1;
 				}
 				tie +=1;
 				console.log(personA,personB);
