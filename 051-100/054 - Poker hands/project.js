@@ -127,7 +127,7 @@ function straight(hand) {
 		}
 		i-=1;
 	}
-	return
+	return bool;
 }
 function fullhouse(hand) {
 	if((hand[0].split(hand[0][0]).length - 1) === 3 && (hand[0].split(hand[0][4]).length - 1) === 2){
