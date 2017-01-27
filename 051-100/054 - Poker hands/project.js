@@ -118,6 +118,16 @@ function flush(hand) {
 	}
 	return false;
 }
+function straight(hand) {
+	var start  = card_value(hand[0][0]),
+		i=1;
+	while(i<hand[0].length && bool){
+	if(hand[0][i] !== start - i){
+		bool = false;
+	}
+		i-=1;
+	}
+}
 function fullhouse(hand) {
 	if((hand[0].split(hand[0][0]).length - 1) === 3 && (hand[0].split(hand[0][4]).length - 1) === 2){
 		return true;
