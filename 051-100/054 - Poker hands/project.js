@@ -88,7 +88,7 @@ function pair(hand){
 		}
 		console.log(i,j);
 	}
-	console.log('--')
+	console.log('--');
 }
 function card_sort (x, y){
 	if(x.score === y.score){
