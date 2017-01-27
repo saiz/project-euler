@@ -187,7 +187,7 @@ function high_hand(hand){
 		return 5;
 	}
 if(three_pair(hand)){
-retur
+return	4
 }
 }
 function main() {
