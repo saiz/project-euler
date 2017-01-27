@@ -80,15 +80,18 @@ function hand(array){
 function pair(hand){
 	var i =0,j =0, end = 4,
 		count;
-	while(i +1 <end){
+	while(i +1 <end && count < 2){
 		j+=1;
 		if(j > end){
+			count = 0;
 			i+=1;
 			j=i+1;
 		}
-		console.log(i,j);
+		if(hand[i].score == hand[j].score){
+			count +=1;
+		}
 	}
-	console.log('--');
+	return count >= 2
 }
 function card_sort (x, y){
 	if(x.score === y.score){
