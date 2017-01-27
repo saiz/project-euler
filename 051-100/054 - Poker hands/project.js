@@ -82,7 +82,7 @@ function next(array, end){
 		array[0]+=1;
 		array[1]=array[0] + 1;
 	} else{
-		array[1]-=1;
+		array[1]+=1;
 	}
 	if( array[0] > end){
 		return false;
