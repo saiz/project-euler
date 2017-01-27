@@ -83,12 +83,12 @@ function pair(hand){
 	while(i +1 <end && count < 2){
 		j+=1;
 		if(j > end){
-			console.log(count);
 			count = 0;
 			i+=1;
 			j=i+1;
 		}
 		if(hand[i].score === hand[j].score){
+			console.log(count);
 			count +=1;
 		}
 	}
