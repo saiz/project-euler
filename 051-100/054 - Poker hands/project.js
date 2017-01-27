@@ -132,7 +132,7 @@ function remove_pair (hand, value){
 	return str;
 }
 function pair_tie(personA,personB){
-A
+	varA
 	while
 }
 function flush(hand) {
