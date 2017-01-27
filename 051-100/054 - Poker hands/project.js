@@ -122,9 +122,9 @@ function straight(hand) {
 	var start  = card_value(hand[0][0]),
 		bool = true,
 		i=1;
-		console.log(card_value(hand[0][0]), hand[0], i);
+		//console.log(card_value(hand[0][0]), hand[0], i);
 	while(i<hand[0].length && bool){
-		console.log(card_value(hand[0][i]), hand[0], i);
+		//console.log(card_value(hand[0][i]), hand[0], i);
 		if(card_value(hand[0][i]) !== start - i){
 			bool = false;
 		}
