@@ -169,7 +169,7 @@ function royal_flush(hand) {
 }
 function high_hand(hand){
 	if(royal_flush(hand)){
-
+		re
 	}
 }
 function main() {
