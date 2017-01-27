@@ -215,10 +215,9 @@ function main() {
 				//console.log('A');
 			}
 			//console.log('B');
-		}else{
+		} else{
 			console.log('tie', high_hand(personA));
 		}
-		console.log('tie', high_hand(personA));
 		i+=1;
 	}
 	return;
