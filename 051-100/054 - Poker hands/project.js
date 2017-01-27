@@ -249,7 +249,7 @@ function main() {
 			} else if(high_card(personA) < high_card(personB)){
 				b+=1;
 			} else{
-				for(k=0;k<4;k+=1){
+				while(k < )
 
 				}
 
