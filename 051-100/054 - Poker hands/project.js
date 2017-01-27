@@ -137,7 +137,7 @@ function pair_tie(personA,personB){
 		i;
 	while(i<4){
 		if(a[i]>b[i]){
-return
+return 0;
 		}
 	}
 }
