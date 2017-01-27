@@ -85,7 +85,9 @@ function two_pair(hand) {
 		str = hand[0],
 		char;
 	while(str.length > 0){
-		count +=1;
+		if((str.split(str[0]).length - 1 == 2)){
+			count +=1;
+		}
 		str = str.replace(new RegExp(str[0],"g"),"")
 	}
 	return count === 2;
