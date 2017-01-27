@@ -22,7 +22,7 @@ function test(num,i,end){
 	if(i > end){
 		return 0;
 	}
-	return test(add_rev(i),i+1,end);
+	return test(add_rev(num),i+1,end);
 }
 
 function main() {
