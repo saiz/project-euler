@@ -25,10 +25,8 @@ function poker_array(){
 	return arr;
 }
 function card(str) {
-	var i = str[0],
-		j = str[1],
-		score = -1 , suit = -1 ;
-	switch(i) {
+	var score = -1 , suit = -1 ;
+	switch(str[0]) {
 		case "T":
 			score = 10;
 			break;
@@ -47,7 +45,7 @@ function card(str) {
 		default:
 			score = parseInt(i,10);
 	}
-	switch(j) {
+	switch(str[1]) {
 		case "S":
 			suit = 0;
 			break;
