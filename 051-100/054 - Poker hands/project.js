@@ -206,14 +206,13 @@ function main() {
 	while( i< array.length){
 		personA = hand(array[i][0].sort(hand_sort));
 		personB = hand(array[i][1].sort(hand_sort));
-		console.log(straight(personA));
-if(high_hand(personA) > high_hand(personB)){
-	console.log(personA);
-} else if(high_hand(personA) < high_hand(personB)){
-	console.log(personA);
-} else{
-	console.log(tie);
-}
+		if(high_hand(personA) > high_hand(personB)){
+			console.log(personA);
+		} else if(high_hand(personA) < high_hand(personB)){
+			console.log(personA);
+		} else{
+			console.log(tie);
+		}
 		i+=1;
 	}
 	return;
