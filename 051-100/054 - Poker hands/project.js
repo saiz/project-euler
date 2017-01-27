@@ -79,7 +79,7 @@ function four(hand) {
 	}
 	return false;
 }
-function uniq(hand) {
+function pair(hand) {
 	var count =0,
 		i=0,
 		str = hand[0],
