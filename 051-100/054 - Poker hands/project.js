@@ -189,7 +189,9 @@ function high_hand(hand){
 	if(three_pair(hand)){
 		return 4;
 	}
-if()
+if(two_pair(hand)){
+	return 3
+}
 }
 function main() {
 	'use strict';
