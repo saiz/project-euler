@@ -246,7 +246,7 @@ function main() {
 				b+=1;
 			} else{
 				tie +=1;
-				console.log('tie - need to make better poker rules - b');
+				console.log(personA,personB);
 			}
 		} else if(high_hand(personA) === -1){
 			if(high_card(personA) > high_card(personB)){
