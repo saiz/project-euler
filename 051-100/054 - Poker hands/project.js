@@ -126,6 +126,11 @@ function pair_value(hand){
 	}
 	return value;
 }
+function pair_tie (hand, value){
+	var str = hand[0];
+	str = str.replace(new RegExp(value,"g"),"");
+	return str;
+}
 function flush(hand) {
 	var str = hand[1];
 	if((str.split(str[0]).length - 1 === 5)){
