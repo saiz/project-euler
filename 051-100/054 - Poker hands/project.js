@@ -76,6 +76,9 @@ function hand(array){
 	}
 	return res;
 }
+function pair(hand){
+
+}
 function card_sort (x, y){
 	if(x.score === y.score){
 		return x.suit - y.suit;
