@@ -84,7 +84,7 @@ function next(array, end){
 	} else{
 		array[1]+=1;
 	}
-	if( array[1] > end){
+	if( array[0] === end){
 		return false;
 	}
 	return true;
