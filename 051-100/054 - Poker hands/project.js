@@ -142,8 +142,9 @@ function pair_tie(personA,personB){
 		if(a[i]<b[i]){
 			return 0;
 		}
-		i+=
+		i+=1;
 	}
+return
 }
 function flush(hand) {
 	var str = hand[1];
