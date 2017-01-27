@@ -13,7 +13,7 @@ function main() {
 			k=0;
 			while(k<array.length){
 				array[k]=parseInt(array[k],10);
-				k
+				k+=1;
 			}
 			console.log(array.reduce(add));
 
