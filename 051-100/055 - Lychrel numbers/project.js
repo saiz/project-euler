@@ -10,7 +10,7 @@ function main() {
 	'use strict';
 	var _i =[0]
 	while(next(_i,Math.pow(10,4))){
-		i =
+		i = _i[0];
 		console.log(i);
 	}
 	return;
