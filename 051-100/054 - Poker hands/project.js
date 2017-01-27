@@ -83,7 +83,7 @@ function pair(hand){
 		str += hand[i].number;
 		i+=1;
 	}
-	if()
+	while()
 	return count  > 1;
 }
 function twopair(hand){
