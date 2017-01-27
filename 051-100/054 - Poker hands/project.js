@@ -215,7 +215,7 @@ function main() {
 		a = 0,
 		tie = 0,
 		b = 0,
-		value;
+		val
 	while( i< array.length){
 		personA = hand(array[i][0].sort(hand_sort));
 		personB = hand(array[i][1].sort(hand_sort));
@@ -249,7 +249,7 @@ function main() {
 			} else if(high_card(personA) < high_card(personB)){
 				b+=1;
 			} else{
-				for(i=0;i<4;i+=1)
+				for(i=0;i<4;i+=1){}
 
 				console.log('tie - need to make better poker rules - c');
 			}
