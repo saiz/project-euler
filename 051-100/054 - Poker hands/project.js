@@ -87,8 +87,8 @@ function pair(hand){
 			i+=1;
 			j=i+1;
 		}
+		console.log(i," " ,j);;
 		if(hand[i].score === hand[j].score){
-			console.log(count);
 			count +=1;
 		}
 	}
