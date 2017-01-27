@@ -16,7 +16,7 @@ function main() {
 				k+=1;
 			}
 			if(res < array.reduce(add)){
-				max = array.reduce(add);
+				res = array.reduce(add);
 			}
 
 		}
