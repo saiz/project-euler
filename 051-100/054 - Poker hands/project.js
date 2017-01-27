@@ -24,7 +24,6 @@ function poker_array(){
 	}
 	return arr;
 }
-
 function hand(array){
 	var value ='',suit = '', i = 0;
 	while(i<array.length){
