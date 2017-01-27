@@ -14,7 +14,7 @@ function main() {
 			while(k<array.length){
 				array[k]=parse(k,10);
 			}
-			console.log(array);
+			console.log(array.reduce(add));
 
 		}
 	}
