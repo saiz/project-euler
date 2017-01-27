@@ -9,7 +9,7 @@ function main() {
 		for(j=1;j<=max;j+=1){
 			a = new BigNumber(i);
 			b = new BigNumber(j);
-			sum = a.toPower(b).toString(10).split("").reduce(add);
+			sum = a.toPower(b).toString(10).split("");
 			console.log(sum);
 
 		}
