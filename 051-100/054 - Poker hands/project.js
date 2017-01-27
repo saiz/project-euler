@@ -30,6 +30,12 @@ function card_sort (x){
 	console.log(x)
 	return ;
 }
+function handsort(x,y){
+	if(x[0] === y[0]){
+		return x[1] < y[1];
+	}
+	return x[0] < y[0];
+}
 function hand(array){
 	var value ='',suit = '', i = 0;
 	while(i<array.length){
@@ -46,8 +52,7 @@ function main() {
 		personA,
 		personB;
 	while( i< array.length){
-		personA = hand(array[i][0])
-		card_sort(personA);
+		personA = hand(array[i][0].sort(handsort));
 		personB = hand(array[i][1]);
 		console.log(personA);
 		i+=1;
