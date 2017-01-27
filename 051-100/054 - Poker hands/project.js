@@ -128,7 +128,7 @@ function straight(hand) {
 		if(card_value(hand[0][i]) !== start - i){
 			bool = false;
 		}
-		i-=1;
+		i+=1;
 	}
 	return bool;
 }
