@@ -29,6 +29,7 @@ function add_rev(i){
 	return i +rev(i);
 }
 function test(num,i,end){
+	ci
 	if(i > end || ( palindromes(num) && i !== 0)){
 		return num;
 	}
