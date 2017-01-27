@@ -114,9 +114,9 @@ console.log(hand[i], hand[j]);
 }
 function card_sort (x, y){
 	if(x.score === y.score){
-		return x.suit - y.suit;
+		return x.suit > y.suit;
 	}
-	return x.score - y.score;
+	return x.score > y.score;
 }
 function high(hand){
 	return Math.pow(10,2)*hand[4].score + hand[4].suit;
