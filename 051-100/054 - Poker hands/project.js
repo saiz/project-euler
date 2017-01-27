@@ -10,6 +10,10 @@
 // Royal Flush: Ten, Jack, Queen, King, Ace, in same suit.
 
 var fs = require('fs');
+String.prototype.replaceAll = function(str1, str2, ignore)
+{
+    return this.replace(new RegExp(str1.replace(/([\/\,\!\\\^\$\{\}\[\]\(\)\.\*\+\?\|\<\>\-\&])/g,"\\$&"),(ignore?"gi":"g")),(typeof(str2)=="string")?str2.replace(/\$/g,"$$$$"):str2);
+}
 function poker_array(){
 	'use strict';
 	var arr = fs.readFileSync('./poker.txt').toString().split("\r\n"),
