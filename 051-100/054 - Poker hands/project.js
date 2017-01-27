@@ -92,7 +92,7 @@ function pair(hand){
 }
 function twopair(hand){
 	var i =0, str ='';
-	while(i < end){
+	while(i < hand.length){
 		str += hand[i];
 		i+=1;
 	}
