@@ -205,24 +205,26 @@ function main() {
 	var array =poker_array(),
 		i = 0, j,
 		personA,
-		personB;
+		personB,
+		a = 0,
+		b = 0;
 	while( i< array.length){
 		personA = hand(array[i][0].sort(hand_sort));
 		personB = hand(array[i][1].sort(hand_sort));
 		if(high_hand(personA) > high_hand(personB)){
-			//console.log('A');
+			a+=1;
 		} else if(high_hand(personA) < high_hand(personB)){
-			//console.log('    B');
+			b+=1;
 		} else if(high_hand(personA) === 5){
 			if(high_card2(personA) > high_card2(personB)){
-				//console.log('A');
+				a+=1;
 			}
-			//console.log('B');
+			b+=1;
 		} else if(high_hand(personA) === -1){
 			if(high_card(personA) > high_card(personB)){
-				//console.log('A');
+				a+=1;
 			}
-			//console.log('B');
+			b+=1;
 		} else {
 			console.log('tie', high_hand(personA));
 		}
