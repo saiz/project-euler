@@ -250,7 +250,7 @@ function main() {
 			}
 		} else {
 			tie +=1;
-			console.log('tie', high_hand(personA));
+			console.log('tie - need to make better poker rules');
 		}
 		i+=1;
 	}
