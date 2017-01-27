@@ -123,7 +123,7 @@ function main() {
 	while( i< array.length){
 		personA = hand(array[i][0].sort(hand_sort));
 		personB = hand(array[i][1].sort(hand_sort));
-		console.log(two_pair(personA));
+		console.log(pair(personA));
 		i+=1;
 	}
 	return;
