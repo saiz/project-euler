@@ -70,6 +70,9 @@ function hand(array){
 function high_card(hand) {
 	return 10*card_value(hand[0][0])+ suit_value(hand[1][0]);
 }
+function (argument) {
+	// body...
+}
 function main() {
 	'use strict';
 	var array =poker_array(),
