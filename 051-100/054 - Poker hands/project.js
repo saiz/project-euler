@@ -256,7 +256,9 @@ function main() {
 				if(pair_tie(personA,personB) === 0){
 					a+=1;
 				} else if(pair_tie(personA,personB) === 1){
-					a+=1;
+					b+=1;
+				} else {
+
 				}
 				tie +=1;
 				console.log(personA,personB);
