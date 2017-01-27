@@ -211,7 +211,7 @@ function main() {
 		} else if(high_hand(personA) < high_hand(personB)){
 			console.log('    B');
 		} else{
-			console.log('tie');
+			console.log('tie', high_hand(personA));
 		}
 		i+=1;
 	}
