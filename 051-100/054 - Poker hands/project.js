@@ -213,7 +213,7 @@ function main() {
 		} else if(high_hand(personA) === 5){
 			console.log('tie', high_hand(personA));
 		} else if(high_hand(personA) === -1){
-			if(card_value(personA) > high_card(personB)){
+			if(card_value(personA[]) > high_card(personB)){
 				//console.log('A');
 			}
 			//console.log('B');
