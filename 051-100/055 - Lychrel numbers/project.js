@@ -8,7 +8,8 @@ function next(arr,end){
 
 function main() {
 	'use strict';
-	var i ='test';
+	var i =[0];
+while(next)
 	return i;
 }
 
