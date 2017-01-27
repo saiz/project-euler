@@ -240,7 +240,6 @@ function main() {
 				console.log('tie - need to make better poker rules');
 			}
 		} else if(high_hand(personA) === 2){
-			console.log(pair_value(personA),pair_value(personB))
 			if(pair_value(personA) > pair_value(personB)){
 				a+=1;
 			} else if(pair_value(personA) < pair_value(personB)){
