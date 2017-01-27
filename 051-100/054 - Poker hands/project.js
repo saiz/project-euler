@@ -79,6 +79,9 @@ function four(hand) {
 	}
 	return false;
 }
+function uniq(str) {
+	return str.replace("(?i)(.)(?=.*?\\1)", "").length;
+}
 function fullhouse(hand) {
 	if((hand[0].split(hand[0][0]).length - 1) === 3 && (hand[0].split(hand[0][4]).length - 1) === 2){
 		return true;
@@ -97,7 +100,7 @@ function main() {
 	while( i< array.length){
 		personA = hand(array[i][0].sort(hand_sort));
 		personB = hand(array[i][1].sort(hand_sort));
-		console.log(fullhouse(personA));
+		console.log(uniq(personA));
 		i+=1;
 	}
 	return;
