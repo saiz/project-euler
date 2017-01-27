@@ -78,17 +78,10 @@ function hand(array){
 }
 
 function pair(hand){
-	var i =0,j =0, end = 4,
-		count = 0;
-	while(i +1 <end){
-		j+=1;
-		if(j > end){
-			i+=1;
-			j=i+1;
-		}
-		if(hand[i].value === hand[j].value){
-			count +=1;
-		}
+	var i =0, str ='';
+	while(i < hand.length){
+		str += hand[i].number;
+		i+=1;
 	}
 	return count  > 1;
 }
