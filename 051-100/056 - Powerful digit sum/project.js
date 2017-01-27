@@ -21,7 +21,7 @@ function main() {
 
 		}
 	}
-	return max;
+	return res;
 }
 
 console.log(main(process.argv[2]));
