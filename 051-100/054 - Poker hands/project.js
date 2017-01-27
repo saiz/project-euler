@@ -1,5 +1,3 @@
-// Straight: All cards are consecutive values.
-// Straight Flush: All cards are consecutive values of same suit.
 // Royal Flush: Ten, Jack, Queen, King, Ace, in same suit.
 
 var fs = require('fs');
@@ -118,6 +116,15 @@ function flush(hand) {
 	}
 	return false;
 }
+function fullhouse(hand) {
+	if((hand[0].split(hand[0][0]).length - 1) === 3 && (hand[0].split(hand[0][4]).length - 1) === 2){
+		return true;
+	}
+	if((hand[0].split(hand[0][0]).length - 1) === 2 && (hand[0].split(hand[0][4]).length - 1) === 3){
+		return true;
+	}
+	return false;
+}
 function straight(hand) {
 	var start  = card_value(hand[0][0]),
 		bool = true,
@@ -148,14 +155,22 @@ function straight(hand) {
 	}
 	return bool;
 }
-function fullhouse(hand) {
-	if((hand[0].split(hand[0][0]).length - 1) === 3 && (hand[0].split(hand[0][4]).length - 1) === 2){
-		return true;
-	}
-	if((hand[0].split(hand[0][0]).length - 1) === 2 && (hand[0].split(hand[0][4]).length - 1) === 3){
+function straight_flush(hand){
+	if(straight(hand) && flush(hand)){
 		return true;
 	}
 	return false;
+}
+function royal_flush(hand) {
+	if(straight_flush(hand) && card_value(hand[4]) === 10){
+		return true;
+	}
+	return false;
+}
+function high_hand(hand){
+	if(royal_flush(hand)){
+
+	}
 }
 function main() {
 	'use strict';
