@@ -38,7 +38,7 @@ function test(num,i,end){
 
 function main() {
 	'use strict';
-	var _i =[0],i, count = 0, max = Math.pow(10,1)*5;
+	var _i =[0],i, count = 0, max = Math.pow(10,3)*5;
 	while(next(_i,Math.pow(10,4))){
 		i = _i[0];
 		if(!palindromes(test(i,0,max))){
