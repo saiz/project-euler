@@ -77,23 +77,16 @@ function hand(array){
 	return res;
 }
 
-function next(array, end){
-	if(array[1] >= end){
-		array[0]+=1;
-		array[1]=array[0] + 1;
-	} else{
-		array[1]+=1;
-	}
-	if( array[0] === end){
-		return false;
-	}
-	return true;
-}
 function pair(hand){
-	var arr = [1,1],
+	var i =0,j =1, end = 4;
 		count;
-	while(next(arr,5)){
-		console.log(arr[0],arr[1]);
+	while(i<end){
+		console.log(i,j)
+		j+=1;
+		if(j === end){
+			i+=1;
+			j=i+1;
+		}
 	}
 }
 function card_sort (x, y){
