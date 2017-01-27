@@ -180,7 +180,9 @@ function high_hand(hand){
 	if(fullhouse(hand)){
 		return 7;
 	}
-	if(flush())
+	if(flush(hand)){
+
+	}
 }
 function main() {
 	'use strict';
