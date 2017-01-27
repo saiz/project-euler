@@ -83,7 +83,7 @@ function pair(hand){
 	while(i<end){
 		console.log(i,j);
 		j+=1;
-		if(j === end){
+		if(j > end){
 			i+=1;
 			j=i+1;
 		}
