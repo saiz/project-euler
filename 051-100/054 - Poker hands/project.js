@@ -40,10 +40,9 @@ function main() {
 		personA,
 		personB;
 	while( i< array.length){
-		personA = hand(array[i][0]).sort(card_sort);
-		personB = hand(array[i][1]).sort(card_sort);
-
-        console.log(twopair(personA));
+		personA = hand(array[i][0]);
+		personB = hand(array[i][1]);
+		console
 		i+=1;
 	}
 	return;
