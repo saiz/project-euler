@@ -123,7 +123,7 @@ function straight(hand) {
 		bool = true,
 		i=1;
 	while(i<hand[0].length && bool){
-		if(hand[0][i] !== start - i){
+		if(card_value(hand[0][i]) !== start - i){
 			bool = false;
 		}
 		i-=1;
