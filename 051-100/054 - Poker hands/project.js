@@ -101,14 +101,10 @@ function twopair(hand){
 		}
 		if(hand[i].score === hand[j].score){
 			count +=1;
-			if(count === 2){
-				countb +=1;
-				console.log('here');
-			}
 		}
 	}
 console.log("--")
-	return countb ;
+	return count ;
 }
 function card_sort (x, y){
 	if(x.score === y.score){
