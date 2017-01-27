@@ -82,7 +82,7 @@ function pair(hand){
 		count = 0;
 	while(i +1 <end && count < 2){
 		j+=1;
-		if(j > end
+		if(j > end){
 			console.log(count);
 			count = 0;
 			i+=1;
