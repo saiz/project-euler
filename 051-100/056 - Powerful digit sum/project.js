@@ -15,8 +15,8 @@ function main() {
 				array[k]=parseInt(array[k],10);
 				k+=1;
 			}
-			if(max <array.reduce(add)){
-				max =array.reduce(add);
+			if(max < array.reduce(add)){
+				max = array.reduce(add);
 			}
 
 		}
