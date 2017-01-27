@@ -1,3 +1,4 @@
+// High Card: Highest value card.
 // One Pair: Two cards of the same value.
 // Two Pairs: Two different pairs.
 // Three of a Kind: Three cards of the same value.
@@ -7,7 +8,6 @@
 // Four of a Kind: Four cards of the same value.
 // Straight Flush: All cards are consecutive values of same suit.
 // Royal Flush: Ten, Jack, Queen, King, Ace, in same suit.
-// spades, hearts, diamonds, clubs
 
 var fs = require('fs');
 function poker_array(){
