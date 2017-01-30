@@ -50,6 +50,7 @@ function main(n) {
 		arr = cipher_array();
 		d= [103, 111, 100];
 		str = '';
+		count = 0;
 		i=0;
 		while(i < arr.length){
 			if( ((d[i%3] ^  parseInt(arr[i],10)) >= a) && ((d[i%3] ^  parseInt(arr[i],10)) <= z)){
