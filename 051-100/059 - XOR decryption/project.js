@@ -29,10 +29,11 @@ function main(n) {
 		z = 'z'.charCodeAt(0),
 		d = [a,a,a],
 		i=0,
-		arr;
+		arr,str;
 	while(next(d,a,z)){
 		arr = cipher_array();
-		str = ''
+		str = '';
+		i=0;
 		while(i < arr.length){
 			str += String.fromCharCode( d[i%3] ^  parseInt(arr[i],10) );
 			i+=1;
