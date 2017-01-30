@@ -27,7 +27,6 @@ function main() {
     }
     cnt+=4;
     while(prime/(cnt +1) > per){
-        console.log(prime/(cnt +1));
         j+=1;
         for(k=0;k<4;k+=1){
             i+=(2*j);
