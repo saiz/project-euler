@@ -50,11 +50,6 @@ function main(n) {
 			str += String.fromCharCode( d[i%3] ^  parseInt(arr[i],10) );
 			i+=1;
 		}
-		count = (str.match(/the/g) || []).length;
-		if(count > max){
-			max = count;
-			key = d;
-		}
 
 
 
