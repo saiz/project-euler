@@ -51,6 +51,7 @@ function main() {
             prime+=1;
         }
     }
+    nt+=4;
     while(prime/(cnt +1) > per){
         console.log(prime/(cnt +1));
         j+=1;
