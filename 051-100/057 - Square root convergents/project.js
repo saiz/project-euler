@@ -10,13 +10,13 @@ function fract(a,b,m,n){
 	var i,k;
 	if(m <= n){
 		i = a+b;
-		k = i+a
+		k = i+a;
 		return fract(i,k,m+1,n);
 	}
 	return [a,b];
 }
 function fraction(n){
-	return fract(3,2,n);
+	return fract(3,2,0,n);
 }
 function main(n) {
 	'use strict';
