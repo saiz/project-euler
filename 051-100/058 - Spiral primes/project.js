@@ -42,7 +42,6 @@ function main() {
         j=0,
         cnt=0,
         bool = true, per = 0.10, res;
-    console.log("start");
     while(bool){
         if(cnt %4 === 0){
             if(prime/(cnt + 1) < per && j!== 0){
@@ -52,7 +51,7 @@ function main() {
             if(prime[prime.length -1] < array[array.length - 1]){
                 console.log('problem');
             }
-            console.log(prime/(cnt + 1));
+            console.log(prime/(cnt + 1), prime, cnt);
             j+=1;
         }
         i+=(2*j);
