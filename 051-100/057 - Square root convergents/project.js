@@ -8,8 +8,8 @@ function sqrt_two(n){
 
 function main(n) {
 	'use strict';
-	n = prase
-	var i =sqrt_two(3);
+	n = parseInt(n,10);
+	var i =sqrt_two(n);
 	return i;
 }
 
