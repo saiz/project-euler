@@ -29,11 +29,13 @@ function main(n) {
 		z = 'z'.charCodeAt(0),
 		d = [a,a,a],
 		i=0,
-		arr,str, min =0, max=0;
+		arr,str, min, max;
 	while(next(d,a,z)){
 		arr = cipher_array();
 		str = '';
 		i=0;
+		min = 0
+		max = 0;
 		while(i < arr.length){
 			if( d[i%3] ^  parseInt(arr[i],10) > max){
 				max  =  d[i%3] ^  parseInt(arr[i],10);
