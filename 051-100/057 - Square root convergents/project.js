@@ -16,7 +16,7 @@ function fract(a,b,m,n){
 	var i, k;
 	if(m < n){
 		i = a+b;
-		k = gcd(k,i);
+		k = gcd(b+i,i);
 		return fract((b+i)/k,i/k,m+1,n);
 	}
 	return [a,b];
