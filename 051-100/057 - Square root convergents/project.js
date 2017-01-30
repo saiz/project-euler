@@ -7,7 +7,7 @@ function sqrt_two(n){
 }
 function fraction(a,b,n){
 	if( n === 0){
-		return [3,2]
+		return [3,2];
 	}
 	return fraction((a + b ), a,n-1);
 	// (a + b)/a
