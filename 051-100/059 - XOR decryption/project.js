@@ -40,7 +40,7 @@ function main(n) {
 			if( (d[i%3] ^  parseInt(arr[i],10)) > max){
 				max  =  d[i%3] ^  parseInt(arr[i],10);
 			}
-			if( d[i%3] ^  parseInt(arr[i],10) < min){
+			if( (d[i%3] ^  parseInt(arr[i],10)) < min){
 				min  =  d[i%3] ^  parseInt(arr[i],10);
 			}
 			str += String.fromCharCode( d[i%3] ^  parseInt(arr[i],10) );
