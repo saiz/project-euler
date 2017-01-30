@@ -14,8 +14,8 @@ function next(array, start, end){
 		array[2]+=1;
 	}
 	if(array[1] > end){
-		array[2] = start;
-		array[1] +=1;
+		array[1] = start;
+		array[0] +=1;
 	} else{
 		array[2]+=1;
 	}
