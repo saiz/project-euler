@@ -52,6 +52,7 @@ function main() {
                 console.log('problem');
             }
             j+=1;
+            console.log(prime/(cnt + 1));
         }
         i+=(2*j);
         if(prime_array.indexOf(i) >= 0){
