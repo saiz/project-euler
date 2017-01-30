@@ -31,20 +31,17 @@ function main(n) {
 		key = [],
 		i=0,
 		temp,
-		arr,str, count, max = 0,
-		pattern = /($the)/i
+		arr,str, count, max = 0;
 
 
 	while(next(d,a,z)){
 		arr = cipher_array();
 		str = '';
 		i=0;
-		count = 0;
 		while(i < arr.length){
 			temp =  d[i%3] ^  parseInt(arr[i],10);
 			str += String.fromCharCode(temp);
 			i+=1;
-
 		}
 		if(str.toLowerCase().split("the").length > max){
 			max = str.toLowerCase().split("the").length;
