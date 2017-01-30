@@ -13,7 +13,6 @@ function isPrime3(n) {
 function main() {
     'use strict';
     var array = [1],
-        prime_array = eratosthenes(Math.pow(2, 26)),
         prime = 0,
         i=1,
         j=0,
