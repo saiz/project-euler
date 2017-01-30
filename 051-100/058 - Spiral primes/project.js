@@ -53,10 +53,10 @@ function main() {
         bool = true, per = 0.10;
         while(bool){
         if(cnt %4 === 0){
-            // if(percent_prim(array) < per && j!== 0){
-            //     console.log(2*j+1);
-            //     bool = true;
-            // }
+            if(percent_prim(array) < per && j!== 0){
+                console.log(2*j+1);
+                bool = true;
+            }
             if(prime[prime.length -1] < array[array.length - 1]){
                 console.log('problem');
             }
