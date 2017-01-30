@@ -27,7 +27,8 @@ function fraction(n){
 function main(n) {
 	'use strict';
 	n = parseInt(n,10);
-	var i = 1, arr;
+	var i = 1,
+		count = 0,arr;
 	while(i <n){
 		arr = fraction(n);
 		if(arr[0] > arr[1]){
