@@ -29,13 +29,19 @@ function main(n) {
 		z = 'z'.charCodeAt(0),
 		d = [a,a,a],
 		i=0,
-		arr,str;
+		arr,str, min =0, max=0;
 	while(next(d,a,z)){
 		setTimeout(function(){
 		arr = cipher_array();
 		str = '';
 		i=0;
 		while(i < arr.length){
+			if( d[i%3] ^  parseInt(arr[i],10) > max){
+				max  =  d[i%3] ^  parseInt(arr[i],10);
+			}
+			if( d[i%3] ^  parseInt(arr[i],10) < min){
+				min  =  d[i%3] ^  parseInt(arr[i],10);
+			}
 			str += String.fromCharCode( d[i%3] ^  parseInt(arr[i],10) );
 			i+=1;
 		}
