@@ -30,11 +30,27 @@ function main(n) {
 		d = [a,a,a],
 		i=0,
 		arr,str, count;
-	while(next(d,a,z)){
+	// while(next(d,a,z)){
+	// 	arr = cipher_array();
+	// 	str = '';
+	// 	i=0;
+	// 	count = 0;
+	// 	while(i < arr.length){
+	// 		if( ((d[i%3] ^  parseInt(arr[i],10)) >= a) && ((d[i%3] ^  parseInt(arr[i],10)) <= z)){
+	// 			count +=1;
+	// 		}
+	// 		str += String.fromCharCode( d[i%3] ^  parseInt(arr[i],10) );
+	// 		i+=1;
+	// 	}
+	// 	if(count/arr.length > .72){
+	// 		console.log(str);
+	// 		console.log(d)
+	// 	}
+	// }
 		arr = cipher_array();
+		d= [103, 111, 100];
 		str = '';
 		i=0;
-		count = 0;
 		while(i < arr.length){
 			if( ((d[i%3] ^  parseInt(arr[i],10)) >= a) && ((d[i%3] ^  parseInt(arr[i],10)) <= z)){
 				count +=1;
@@ -42,11 +58,10 @@ function main(n) {
 			str += String.fromCharCode( d[i%3] ^  parseInt(arr[i],10) );
 			i+=1;
 		}
-		if(count/arr.length > .72){
-			console.log(str);
-			console.log(d)
-		}
-	}
+		console.log(str);
+
+
+
 
 	// /console.log(min, max);
 	return;
