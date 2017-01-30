@@ -47,6 +47,7 @@ function main(n) {
 
 		}
 		if(str.toLowerCase().split("the").length > max){
+			console.log(str);
 			max = str.toLowerCase().split("the").length;
 			key = d;
 		}
