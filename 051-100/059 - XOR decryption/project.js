@@ -42,7 +42,7 @@ function main(n) {
 			str += String.fromCharCode(temp);
 			i+=1;
 
-			if ( new RegExp("/^[a-z\d\-_\s]+$/i").test(temp)) {
+			if ( RegExp("/^[a-z\d\-_\s]+$/i").test(temp)) {
 			    count +=1;
 			}
 
