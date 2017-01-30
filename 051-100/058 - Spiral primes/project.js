@@ -30,7 +30,8 @@ function main() {
     while(bool){
         if(cnt %4 === 0){
             if(percent_prim(array) < per){
-                console.log()
+                console.log(2*j+1);
+                bool = false;
             }
             j+=1;
         }
