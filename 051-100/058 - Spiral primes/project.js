@@ -10,16 +10,6 @@ function isPrime3(n) {
     }
     return true;
 }
-function percent_prim(array,prime){
-    var cnt = 0,
-        i;
-    for(i=0;i<array.length;i+=1){
-        if(prime.indexOf(array[i]) >= 0){
-            cnt+=1;
-        }
-    }
-    return cnt/array.length;
-}
 function eratosthenes(n) {
     // Eratosthenes algorithm to find all primes under n
     var array = [], upperLimit = Math.sqrt(n), output = [];
@@ -46,7 +36,8 @@ function eratosthenes(n) {
 function main() {
     'use strict';
     var array = [1],
-        prime = eratosthenes(Math.pow(2, 26)),
+        prime_array = eratosthenes(Math.pow(2, 26)),
+        prime = 0,
         i=1,
         j=0,
         cnt=0,
@@ -54,7 +45,7 @@ function main() {
     console.log("start");
     while(bool){
         if(cnt %4 === 0){
-            if(percent_prim(array, prime) < per && j!== 0){
+            if(prime/cnt < per && j!== 0){
                 res = 2*j +1;
                 bool = true;
             }
@@ -65,7 +56,9 @@ function main() {
             j+=1;
         }
         i+=(2*j);
-        array.push(i);
+        if(prime_array.indexOf(i) >= 0){
+            prime+=1;
+        }
         cnt+=1;
     }
     return res;
