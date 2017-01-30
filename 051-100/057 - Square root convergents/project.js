@@ -10,7 +10,7 @@ function fract(a,b,m,n){
 	if(m <= n){
 		return fract(b+a,a,m+1,n);
 	}
-	return [b +a,a];
+	return [a,b];
 }
 function fraction(n){
 	return fract(3,2,1,n);
