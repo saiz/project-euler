@@ -49,6 +49,7 @@ function main(n) {
 	str = '';
 	i=0;
 	arr = cipher_array();
+	console.log(key)
 	while(i < arr.length){
 		str += String.fromCharCode( key[i%3] ^  parseInt(arr[i],10) );
 		i+=1;
