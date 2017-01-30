@@ -32,7 +32,6 @@ function main(n) {
 		i=0,
 		temp,
 		arr,str, count, max = 0,
-		re = new RegExp("^[a-z\d\-_\s]+$", "gi");
 	while(next(d,a,z)){
 		arr = cipher_array();
 		str = '';
@@ -43,7 +42,7 @@ function main(n) {
 			str += String.fromCharCode(temp);
 			i+=1;
 
-			if ( re.test(temp)) {
+			if ( RegExp("/^[a-z\d\-_\s]+$/i").test(temp)) {
 			    count +=1;
 			}
 
