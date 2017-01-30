@@ -47,13 +47,12 @@ function main() {
         j+=1;
         for(k=0;k<4;k+=1){
             i+=(2*j);
-            console.log(i,j);
             if(prime_array.indexOf(i) >= 0){
                 prime+=1;
             }
         }
         cnt+=4;
-        //console.log(prime/(cnt +1));
+        console.log(prime/(cnt +1));
     }
     return res;
 }
