@@ -33,7 +33,7 @@ function main() {
         j+=1;
         for(k=0;k<4;k+=1){
             i+=(2*j);
-            if(isPrime3(i){
+            if(isPrime3(i)){
                 prime+=1;
             }
         }
