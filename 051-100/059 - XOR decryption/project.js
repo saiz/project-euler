@@ -25,8 +25,8 @@ function next(array, start, end){
 
 function main(n) {
 	'use strict';
-	var a = 'a'.charCodeAt(0),
-		z = 'z'.charCodeAt(0),
+	var a = 97,
+		z = 123,
 		d = [a,a,a],
 		i=0,
 		arr,str, count;
