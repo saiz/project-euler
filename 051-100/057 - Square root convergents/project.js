@@ -1,27 +1,17 @@
-//1 + 1/2 = 3/2 = 1.5
-function gcd(a, b) {
-    if ( ! b) {
-        return a;
-    }
-    return gcd(b, a % b);
-}
-function sqrt_two(n){
-	if( n === 0 ){
-		return 1;
-	}
-	return 1 + 1/( 1 + sqrt_two(n-1) );
-}
+var BigNumber = require('bignumber.js');
 function fract(a,b,m,n){
 	var i, k;
 	if(m < n){
-		i = a+b;
-		k = 1;
-		return fract((b+i)/k,i/k,m+1,n);
+		i = a.plus(b);
+		k = b.plus(i);
+		return fract(i,k,m+1,n);
 	}
 	return [a,b];
 }
 function fraction(n){
-	return fract(3,2,1,n);
+	var a = new BigNumber(3),
+		b = new BigNumber(2);
+	return fract(a,b,1,n);
 }
 function main(n) {
 	'use strict';
