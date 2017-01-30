@@ -26,7 +26,7 @@ function next(array, start, end){
 function main(n) {
 	'use strict';
 	var a = 'a'.charCodeAt(0),
-		z = z.charCodeAt(0),
+		z = 'z'.charCodeAt(0),
 		d = [a,a,a],
 		key = [],
 		i=0,
