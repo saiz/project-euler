@@ -9,6 +9,7 @@ function cipher_array(){
 
 function main(n) {
 	'use strict';
+	String.fromCharCode(parseInt(n[0],10),parseInt(n[1],10),parseInt(n[2],10));
 	n = parseInt(n,10);
 	var arr =cipher_array(0),
 		i=0;
