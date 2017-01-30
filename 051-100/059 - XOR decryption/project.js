@@ -49,7 +49,7 @@ function main(n) {
 			    console.log("Invalid");
 			}
 			if(temp )
-				/^[a-z\d\-_\s]+$/i
+
 		}
 		if(count > max){
 			max = count;
