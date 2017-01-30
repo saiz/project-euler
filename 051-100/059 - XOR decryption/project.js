@@ -15,7 +15,7 @@ function main(n) {
 		d = parseInt(String(a) +String(b) +String(c),10),
 		i=0;
 	while(i<arr.length){
-		arr[i] = decrypt()
+
 		i+=1;
 	}
 	console.log(min, max);
