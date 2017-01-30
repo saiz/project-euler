@@ -10,12 +10,9 @@ function fract(a,b,m,n){
 		return(b+a,a,m+1,n);
 	}
 	return [a,b];
-
 }
 function fraction(n){
 	return fract(3,2,0,n);
-	// (a + b)/a
-
 }
 function main(n) {
 	'use strict';
