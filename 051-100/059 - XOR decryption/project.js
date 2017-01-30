@@ -32,7 +32,8 @@ function main(n) {
 		i=0,
 		temp,
 		arr,str, count, max = 0,
-		pattern = /^\s+$/;
+		pattern = /[A-Za-z]{3}([0-9]{1,4})?|[A-Za-z]{1,3}/;
+
 
 	while(next(d,a,z)){
 		arr = cipher_array();
