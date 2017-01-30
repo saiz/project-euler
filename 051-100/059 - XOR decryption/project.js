@@ -28,37 +28,27 @@ function main(n) {
 	var a = 97,
 		z = 123,
 		d = [a,a,a],
+		key = [],
 		i=0,
-		arr,str, count;
-	// while(next(d,a,z)){
-	// 	arr = cipher_array();
-	// 	str = '';
-	// 	i=0;
-	// 	count = 0;
-	// 	while(i < arr.length){
-	// 		if( ((d[i%3] ^  parseInt(arr[i],10)) >= a) && ((d[i%3] ^  parseInt(arr[i],10)) <= z)){
-	// 			count +=1;
-	// 		}
-	// 		str += String.fromCharCode( d[i%3] ^  parseInt(arr[i],10) );
-	// 		i+=1;
-	// 	}
-	// 	if(count/arr.length > .72){
-	// 		console.log(str);
-	// 		console.log(d)
-	// 	}
-	// }
+		arr,str, count, max = 0;
+	while(next(d,a,z)){
 		arr = cipher_array();
-		d= [103, 111, 100];
 		str = '';
-		count = 0;
 		i=0;
+		count = 0;
 		while(i < arr.length){
 			if( ((d[i%3] ^  parseInt(arr[i],10)) >= a) && ((d[i%3] ^  parseInt(arr[i],10)) <= z)){
-				count +=(d[i%3] ^  parseInt(arr[i],10));
+				count +=1;
 			}
 			str += String.fromCharCode( d[i%3] ^  parseInt(arr[i],10) );
 			i+=1;
 		}
+		count = (str.match(/the/g) || []).length;
+		if(count > max){
+			max = count;
+			key = d;
+		}
+	}
 		console.log(str);
 		console.log(count);
 
