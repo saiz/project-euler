@@ -32,6 +32,8 @@ function main(n) {
 		i=0,
 		temp,
 		arr,str, count, max = 0,
+		pattern = /^[a-z\d\-_\s]+$/i;
+
 	while(next(d,a,z)){
 		arr = cipher_array();
 		str = '';
@@ -41,8 +43,7 @@ function main(n) {
 			temp =  d[i%3] ^  parseInt(arr[i],10);
 			str += String.fromCharCode(temp);
 			i+=1;
-
-			if ( RegExp("/^[a-z\d\-_\s]+$/i").test(temp)) {
+			if ( pattern.test(temp)) {
 			    count +=1;
 			}
 
