@@ -12,7 +12,7 @@ function main() {
 	var arr =cipher_array(0),
 		i=0;
 	while(i<arr.length){
-		console.log(arr[i]);
+		console.log(arr[i] || 01);
 		i+=1;
 	}
 	return;
