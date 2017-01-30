@@ -29,11 +29,12 @@ function main(n) {
 		z = 'z'.charCodeAt(0),
 		d = [a,a,a],
 		i=0,
-		arr,str;
+		arr,str, count;
 	while(next(d,a,z)){
 		arr = cipher_array();
 		str = '';
 		i=0;
+		count = 0;
 		while(i < arr.length){
 			if( ((d[i%3] ^  parseInt(arr[i],10)) >= a) && ((d[i%3] ^  parseInt(arr[i],10)) <= z)){
 				count +=1;
