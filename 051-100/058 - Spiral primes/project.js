@@ -26,10 +26,12 @@ function main() {
         i=1,
         j=0,
         cnt=0,
-        bool = true;
+        bool = true, per = 0.10;
     while(bool){
         if(cnt %4 === 0){
-            console.log(percent_prim(array));
+            if(percent_prim(array) < per){
+                console.log()
+            }
             j+=1;
         }
         i+=(2*j);
