@@ -29,7 +29,7 @@ function main() {
         bool = true, per = 0.10;
     while(bool){
         if(cnt %4 === 0){
-            if(percent_prim(array) < per && j!){
+            if(percent_prim(array) < per && j!==){
                 console.log(2*j+1);
                 bool = true;
             }
