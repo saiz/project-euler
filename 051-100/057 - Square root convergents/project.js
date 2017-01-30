@@ -30,7 +30,9 @@ function main(n) {
 	var i = 1, arr;
 	while(i <n){
 		arr = fraction(n);
-		if(arr[0] > )
+		if(arr[0] > arr[1]){
+			count +=
+		}
 	}
 	return i;
 }
