@@ -1,4 +1,11 @@
 //1 + 1/2 = 3/2 = 1.5
+function gcd(a, b) {
+    if ( ! b) {
+        return a;
+    }
+
+    return gcd(b, a % b);
+};
 function sqrt_two(n){
 	if( n === 0 ){
 		return 1;
@@ -10,7 +17,7 @@ function fract(a,b,m,n){
 	var i;
 	if(m < n){
 		i = a+b;
-		return fract(b+i,i,m+1,n);
+		return fract(gcdb+i,i,m+1,n);
 	}
 	return [a,b];
 }
