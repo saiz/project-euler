@@ -6,9 +6,9 @@ function main() {
         cnt=1,
         bool = true;
     while(bool){
-         console.log(i);
+        console.log(i);
         cnt+=1;
-        if(cnt %4 === 0){
+        if(cnt %5 === 0){
             cnt = 0;
             j+=1;
         }
