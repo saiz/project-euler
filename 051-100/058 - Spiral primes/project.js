@@ -45,7 +45,7 @@ function main() {
     console.log("start");
     while(bool){
         if(cnt %4 === 0){
-            if(prime/cnt < per && j!== 0){
+            if(prime/(cnt + 1) < per && j!== 0){
                 res = 2*j +1;
                 bool = true;
             }
