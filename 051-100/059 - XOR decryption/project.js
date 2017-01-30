@@ -42,10 +42,8 @@ function main(n) {
 			str += String.fromCharCode(temp);
 			i+=1;
 
-			if ( new RegExp("/^[a-z\d\-_\s]+$/i").test(string)) {
+			if ( new RegExp("/^[a-z\d\-_\s]+$/i").test(temp)) {
 			    console.log("Valid");
-			} else {
-			    console.log("Invalid");
 			}
 			if(temp )
 
