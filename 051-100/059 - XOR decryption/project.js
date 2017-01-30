@@ -34,8 +34,9 @@ function main(n) {
 		if(parseInt(arr[i] ^ d,10) < min){
 			min = arr[i];
 		}
+		console.log(arr[i]);
 		arr[i] = String.fromCharCode(arr[i] ^ d);
-		console.log(min, max);
+		console.log(arr[i]);
 		i+=1;
 	}
 	console.log(min, max);
