@@ -33,11 +33,10 @@ function main(n) {
 	while(next(d,a,z)){
 		arr = cipher_array();
 		while(i < arr.length){
-			console.log(String.fromCharCode(d[i%3] ^  parseInt(arr[i],10)));
 			arr[i] = String.fromCharCode( d[i%3] ^  parseInt(arr[i],10) );
 			i+=1;
 		}
-		//console.log(arr.join(''));
+		console.log(arr.join(''));
 	}
 	// /console.log(min, max);
 	return;
