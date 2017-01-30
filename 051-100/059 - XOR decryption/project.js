@@ -31,7 +31,8 @@ function main(n) {
 		key = [],
 		i=0,
 		temp,
-		arr,str, count, max = 0;
+		arr,str, count, max = 0,
+		re = new RegExp("^([a-z0-9]{5,})$");
 	while(next(d,a,z)){
 		arr = cipher_array();
 		str = '';
