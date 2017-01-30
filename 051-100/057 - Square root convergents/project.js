@@ -8,7 +8,7 @@ function sqrt_two(n){
 
 function main() {
 	'use strict';
-	var i =sqrt_two(2)
+	var i =sqrt_two(2);
 	return i;
 }
 
