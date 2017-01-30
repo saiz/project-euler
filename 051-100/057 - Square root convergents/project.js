@@ -9,6 +9,7 @@ function fraction(a,b,c,n){
 	if( n === 0){
 		return [(a*c + b ),c];
 	}
+	return fraction(1, (a*c + b ),2,n-1);
 
 	// a + b/c
 
