@@ -36,8 +36,7 @@ function main(n) {
 		while(i < arr.length){
 			arr[i] = String.fromCharCode(d[i%3]^arr[i]);
 			i+=1;
-		}
-		console.log(arr.join(''));
+		}setTimeout(function(){alert("hi")}, 1000);
 	}
 	// /console.log(min, max);
 	return;
