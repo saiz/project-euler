@@ -9,8 +9,8 @@ function main() {
         if(cnt %4 === 0){
             j+=1;
         }
-        console.log(i,j,cnt);
         i+=Math.pow(2,j);
+        console.log(i,j,cnt);
          cnt+=1;
     }
     return i;
