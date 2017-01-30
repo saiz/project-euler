@@ -6,13 +6,14 @@ function main() {
         cnt=1,
         bool = true;
     while(bool){
+         console.log(i);
         cnt+=1;
         if(cnt %4 === 0){
             cnt = 0;
             j+=1;
         }
         i+=Math.pow(2,j);
-        console.log(i);
+
     }
     return i;
 }
