@@ -50,11 +50,12 @@ function main() {
         i=1,
         j=0,
         cnt=0,
-        bool = true, per = 0.10;
+        bool = true, per = 0.10, res;
     console.log("start");
     while(bool){
         if(cnt %4 === 0){
             if(percent_prim(array, prime) < per && j!== 0){
+v
                 console.log(2*j+1);
                 bool = true;
             }
