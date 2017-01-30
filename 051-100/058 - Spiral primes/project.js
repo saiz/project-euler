@@ -29,7 +29,7 @@ function main() {
         bool = true;
     while(bool){
         if(cnt %4 === 0){
-            console.log(percent_prim(array))
+            console.log(percent_prim(array));
             j+=1;
         }
         i+=(2*j);
