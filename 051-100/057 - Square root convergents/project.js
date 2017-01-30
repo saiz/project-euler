@@ -5,13 +5,12 @@ function sqrt_two(n){
 	}
 	return 1 + 1/( 1 + sqrt_two(n-1) );
 }
-function fraction(a,b,c,n){
+function fraction(a,b,n){
 	if( n === 0){
-		return [(a*c + b ),c];
+		return [(a + b ),c];
 	}
-	return fraction(a, (a*c + b ),c,n-1);
-
-	// a + b/c
+	return fraction((a + b ), a,n-1);
+	// (a + b)/a
 
 }
 	'use strict';
