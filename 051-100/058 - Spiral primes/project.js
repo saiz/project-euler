@@ -46,12 +46,13 @@ function main() {
         j+=1;
         for(i=0;i<4;i+=1){
             i+=(2*j);
+            console.log(i);
             if(prime_array.indexOf(i) >= 0){
                 prime+=1;
             }
         }
         cnt+=4;
-        console.log(prime/(cnt +1));
+        //console.log(prime/(cnt +1));
     }
     return res;
 }
