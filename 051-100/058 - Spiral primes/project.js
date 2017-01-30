@@ -6,12 +6,12 @@ function main() {
         cnt=0,
         bool = true;
     while(bool){
-        cnt+=1;
         if(cnt %4 === 0){
             j+=1;
         }
         i+=Math.pow(2,j);
         console.log(i,j,cnt);
+         cnt+=1;
     }
     return i;
 }
