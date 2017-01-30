@@ -46,8 +46,7 @@ function main(n) {
 			key = d;
 		}
 	}
-		console.log(str);
-		console.log(count);
+
 
 
 
