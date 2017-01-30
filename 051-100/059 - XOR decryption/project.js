@@ -17,10 +17,10 @@ function main(n) {
 		i=0, max = 0, min = 0;
 	while(i<arr.length){
 		if(arr[i] ^ d > max){
-			max = arr[i].slice(0);
+			max = arr.slice(i,1);
 		}
 		if(arr[i] ^ d < min){
-			min = arr[i].slice(0);
+			min = arr.slice(i,1);
 		}
 		arr[i] = String.fromCharCode(arr[i] ^ d);
 		i+=1;
