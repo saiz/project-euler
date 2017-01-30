@@ -21,7 +21,7 @@ function main(n) {
 		arr;
 	while(i <=n){
 		arr = fraction(i);
-		console.log(arr[0],arr[1]);
+		//console.log(arr[0],arr[1]);
 		if(arr[0].e > arr[1].e){
 			count +=1;
 		}
