@@ -51,7 +51,7 @@ function main(n) {
 		str += String.fromCharCode( key[i%3] ^  parseInt(arr[i],10) );
 		i+=1;
 	}
-	console.log()
+	console.log(str);
 
 
 
