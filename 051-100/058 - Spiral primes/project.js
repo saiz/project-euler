@@ -1,7 +1,7 @@
 function main() {
     'use strict';
     var array = [],
-        i=1,
+        i=0,
         j=0,
         cnt=0,
         bool = true;
@@ -11,7 +11,7 @@ function main() {
             j+=1;
         }
         i+=Math.pow(2,j);
-         console.log(i);
+        console.log(i);
     }
     return i;
 }
