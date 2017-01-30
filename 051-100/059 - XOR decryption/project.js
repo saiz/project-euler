@@ -7,12 +7,13 @@ function cipher_array(){
 
 }
 
-function main() {
+function main(n) {
 	'use strict';
+	n = parseInt(n,10);
 	var arr =cipher_array(0),
-		i=0;
+		i=0
 	while(i<arr.length){
-		console.log(arr[i] ^ 2);
+		arr[i] = arr[i] ^ 2;
 		i+=1;
 	}
 	return;
