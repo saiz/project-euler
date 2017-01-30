@@ -46,10 +46,12 @@ function main(n) {
 			key = d;
 		}
 	}
+
 	while(i < arr.length){
-		str += String.fromCharCode( d[i%3] ^  parseInt(arr[i],10) );
+		str += String.fromCharCode( key[i%3] ^  parseInt(arr[i],10) );
 		i+=1;
 	}
+	console.log()
 
 
 
