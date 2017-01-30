@@ -38,7 +38,7 @@ function main(n) {
 			str += String.fromCharCode( d[i%3] ^  parseInt(arr[i],10) );
 			i+=1;
 		}
-		setTimeout({console.log(str)}, 3000);
+		setTimeout(function(){console.log(str)}, 3000);
 	}
 	// /console.log(min, max);
 	return;
