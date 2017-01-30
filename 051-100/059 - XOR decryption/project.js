@@ -16,7 +16,7 @@ function main(n) {
 		arr[i] = String.fromCharCode(arr[i] ^ n);
 		i+=1;
 	}
-	returnarr;
+	return arr.join("");
 }
 
 console.log(main(process.argv[2]));
