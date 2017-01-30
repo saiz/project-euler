@@ -32,7 +32,7 @@ function main(n) {
 		if(parseInt(arr[i] ^ d,10) > max){
 			max = arr.slice(i,1);
 		}
-		if(arr[i] ^ d < min){
+		if(parseInt(arr[i] ^ d,10)< min){
 			min = arr.slice(i,1);
 		}
 		arr[i] = String.fromCharCode(arr[i] ^ d);
