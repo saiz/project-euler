@@ -4,7 +4,7 @@ function fract(a,b,m,n){
 	var i = new BigNumber(a).plus(b),
 		k = new BigNumber(i).plus(b);
 	if(m < n){
-		return fract(j,k,m+1,n);
+		return fract(i,k,m+1,n);
 	}
 	return [a,b];
 }
