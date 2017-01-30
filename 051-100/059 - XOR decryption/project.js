@@ -18,7 +18,7 @@ function main(n) {
 		c = n.charCodeAt(2),
 		d = [a,b,c],
 		i=0;
-	console.log(String.fromCharCode('a'),String.fromCharCode('z'));
+	console.log('a'.charCodeAt(0),'z'.charCodeAt(0));
 	while(i<arr.length){
 
 		arr[i] = String.fromCharCode(d[i%3]^arr[i]);
