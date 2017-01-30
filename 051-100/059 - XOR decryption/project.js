@@ -11,7 +11,7 @@ function next(array, start, end){
 		array[2] = start;
 		array[1] +=1;
 	} else{
-		array[2]+=1;
+		array[2] +=1;
 	}
 	if(array[1] > end){
 		array[1] = start;
