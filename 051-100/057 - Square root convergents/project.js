@@ -21,7 +21,7 @@ function main(n) {
 		arr;
 	while(i <=n){
 		arr = fraction(i);
-		if(String(arr[0]).length > String(arr[1]).length){
+		if(arr[0].c.join("").length > String(arr[1]).length){
 			console.log(arr);
 			count +=1;
 		}
