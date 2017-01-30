@@ -43,7 +43,7 @@ function main(n) {
 			i+=1;
 
 			if ( new RegExp("/^[a-z\d\-_\s]+$/i").test(temp)) {
-			    console.log("Valid");
+			    count +=
 			}
 			if(temp )
 
