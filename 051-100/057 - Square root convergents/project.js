@@ -17,7 +17,7 @@ function fraction(n){
 function main(n) {
 	'use strict';
 	n = parseInt(n,10);
-	var i =fraction(3,2,1);
+	var i =fraction(n);
 	return i;
 }
 
