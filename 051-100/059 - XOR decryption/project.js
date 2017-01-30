@@ -48,14 +48,12 @@ function main(n) {
 		}
 		if(str.toLowerCase().split("the").length > max){
 			max = str.toLowerCase().split("the").length;
-			console.log(d);
 			key = d.slice(0);
 		}
 	}
 	str = '';
 	i=0;
 	arr = cipher_array();
-	//key = [103, 111, 100];
 	while(i < arr.length){
 		str += String.fromCharCode( key[i%3] ^  parseInt(arr[i],10) );
 		i+=1;
