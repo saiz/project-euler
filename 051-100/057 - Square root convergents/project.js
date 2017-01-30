@@ -32,7 +32,7 @@ function main(n) {
 	while(i <n){
 		arr = fraction(i);
 console.log(arr);
-		if(arr[0] > arr[1]){
+		if(String(arr[0]).length > String(arr[1]).length){
 			count +=1;
 		}
 		i+=1;
