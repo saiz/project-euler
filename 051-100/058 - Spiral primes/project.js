@@ -44,7 +44,14 @@ function main() {
         cnt=0,
         per = 0.10;
     console.log(prime/(cnt +1), j);
-    while(j !== 0 && prime/(cnt +1) > per){
+    j+=1;
+    for(k=0;k<4;k+=1){
+        i+=(2*j);
+        if(prime_array.indexOf(i) >= 0){
+            prime+=1;
+        }
+    }
+    while(prime/(cnt +1) > per){
         console.log(prime/(cnt +1));
         j+=1;
         for(k=0;k<4;k+=1){
