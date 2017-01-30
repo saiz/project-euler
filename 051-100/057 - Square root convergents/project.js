@@ -1,12 +1,15 @@
+//1 + 1/2 = 3/2 = 1.5
+function sqrt_two(n){
+	if( n === 0 ){
+		return 1;
+	}
+	return 1 + 1/sqrt(n-1);
+}
+
 function main() {
 	'use strict';
-	var i ='test';
+	var i =sqrt_two(2)
 	return i;
 }
 
-//1 + 1/2 = 3/2 = 1.5
-function sqrt(){
-
-	return 1 +
-}
 console.log(main(process.argv[2]));
