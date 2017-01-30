@@ -12,8 +12,7 @@ function isPrime3(n) {
 }
 function main() {
     'use strict';
-    var array = [1],
-        prime = 0,
+    var prime = 0,
         i=1,
         j=0,
         k,
@@ -22,9 +21,9 @@ function main() {
     j+=1;
     for(k=0;k<4;k+=1){
         i+=(2*j);
-        if(prime_array.indexOf(i) >= 0){
-            prime+=1;
-        }
+        if(isPrime3(i)){
+                prime+=1;
+            }
     }
     cnt+=4;
     while(prime/(cnt +1) > per){
