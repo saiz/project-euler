@@ -28,14 +28,15 @@ function main(n) {
 	'use strict';
 	n = parseInt(n,10);
 	var i = 1,
-		count = 0,arr;
+		count = 0,
+		arr;
 	while(i <n){
 		arr = fraction(n);
 		if(arr[0] > arr[1]){
 			count +=1;
 		}
 	}
-	return i;
+	return count;
 }
 
 console.log(main(process.argv[2]));
