@@ -43,7 +43,6 @@ function main() {
         k,
         cnt=0,
         per = 0.10;
-    console.log(prime/(cnt +1), j);
     j+=1;
     for(k=0;k<4;k+=1){
         i+=(2*j);
