@@ -31,7 +31,6 @@ function main(n) {
 		i=0,
 		arr,str, min =0, max=0;
 	while(next(d,a,z)){
-		setTimeout(function(){
 		arr = cipher_array();
 		str = '';
 		i=0;
