@@ -55,13 +55,7 @@ function main(n) {
 		count += (key[i%3] ^  parseInt(arr[i],10));
 		i+=1;
 	}
-	console.log(str);
-	console.log(count);
-
-
-
-	// /console.log(min, max);
-	return;
+	return count;
 }
 
 console.log(main(process.argv[2]));
