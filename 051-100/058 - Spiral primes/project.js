@@ -2,7 +2,7 @@ function main() {
     'use strict';
     var array = [],
         i=1,
-        j=1,
+        j=0,
         cnt=1,
         bool = true;
     while(bool){
