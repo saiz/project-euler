@@ -55,7 +55,7 @@ function main() {
     while(bool){
         if(cnt %4 === 0){
             if(percent_prim(array, prime) < per && j!== 0){
-v
+res = 2*j +1
                 console.log(2*j+1);
                 bool = true;
             }
