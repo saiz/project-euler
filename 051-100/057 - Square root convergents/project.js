@@ -6,6 +6,7 @@ function sqrt_two(n){
 	return 1 + 1/( 1 + sqrt_two(n-1) );
 }
 function fract(a,b,m,n){
+	console.log(a,b,m,n);
 	if(m < n){
 		return(b+a,a,m+1,n);
 	}
