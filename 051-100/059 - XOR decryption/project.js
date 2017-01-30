@@ -29,7 +29,7 @@ function main(n) {
 		i=0, max = 0, min = 0;
 	while(i<arr.length){
 		console.log(arr[i] ^ d )
-		if((arr[i]) ^ d > max){
+		if(arr[i] ^ d > max){
 			max = arr.slice(i,1);
 		}
 		if(arr[i] ^ d < min){
