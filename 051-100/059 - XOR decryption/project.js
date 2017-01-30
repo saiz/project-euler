@@ -40,7 +40,7 @@ function main(n) {
 			str += String.fromCharCode( d[i%3] ^  parseInt(arr[i],10) );
 			i+=1;
 		}
-		count = (str.split("the").length - 1);
+		count = (str.toLowerCase().split("the").length - 1);
 		if(count > max){
 			max = count;
 			key = d;
