@@ -6,6 +6,9 @@ function cipher_array(){
 	return arr;
 
 }
+function dcrypt(a){
+
+}
 
 function main(n) {
 	'use strict';
@@ -13,10 +16,11 @@ function main(n) {
 		a = n.charCodeAt(0),
 		b = n.charCodeAt(1),
 		c = n.charCodeAt(2),
-		d = parseInt(String(a) +String(b) +String(c),10),
+		d = [a,b,c],
 		i=0;
 	while(i<arr.length){
 
+		arr[i] = String.fromCharCode(d[i%3]^arr[i]);
 		i+=1;
 	}
 	// /console.log(min, max);
