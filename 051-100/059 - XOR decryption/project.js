@@ -42,7 +42,7 @@ function main(n) {
 			str += String.fromCharCode( d[i%3] ^  parseInt(arr[i],10) );
 			i+=1;
 		}
-		if(count/arr.length > .7){
+		if(count/arr.length > .75){
 			console.log(str);
 		}
 	}
