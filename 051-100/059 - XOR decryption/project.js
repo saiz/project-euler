@@ -6,6 +6,7 @@ function cipher_array(){
 	return arr;
 
 }
+
 function main() {
 	'use strict';
 	var arr =cipher_array(0),
