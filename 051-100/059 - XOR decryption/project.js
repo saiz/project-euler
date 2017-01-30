@@ -33,8 +33,8 @@ function main(n) {
 	while(next(d,a,z)){
 		arr = cipher_array();
 		while(i < arr.length){
-			console.log(d[i%3] ^ arr[i],d[i%3], arr[i])
-			arr[i] = String.fromCharCode( d[i%3] ^ arr[i] );
+			console.log(d[i%3] ^  parseInt(arr[i],10),d[i%3], parseInt(arr[i],10))
+			arr[i] = String.fromCharCode( d[i%3] ^  parseInt(arr[i],10) );
 			i+=1;
 		}
 		//console.log(arr.join(''));
