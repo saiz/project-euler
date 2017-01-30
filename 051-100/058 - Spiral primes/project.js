@@ -43,22 +43,15 @@ function main() {
         cnt=0,
         bool = true, per = 0.10, res;
     while(bool){
-        if(cnt %4 === 0){
-            if(prime/(cnt + 1) < per && j!== 0){
-                res = 2*j +1;
-                bool = false;
+        j+=1;
+        for(i=0;i<4;i+=1){
+            i+=(2*j);
+            if(prime_array.indexOf(i) >= 0){
+                prime+=1;
             }
-            if(prime[prime.length -1] < array[array.length - 1]){
-                console.log('problem');
-            }
-            j+=1;
-            console.log(prime/(cnt + 1));
         }
-        i+=(2*j);
-        if(prime_array.indexOf(i) >= 0){
-            prime+=1;
-        }
-        cnt+=1;
+        cnt+=4;
+        console.log(prime/(cnt +1));
     }
     return res;
 }
