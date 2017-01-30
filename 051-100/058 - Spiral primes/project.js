@@ -46,13 +46,11 @@ function eratosthenes(n) {
 function main() {
     'use strict';
     var array = [1],
-        prime = []
+        prime = eratosthenes(end)
         i=1,
         j=0,
         cnt=0,
-        bool = true, per = 0.10;
-prime = eratosthenes(end)
-    while(bool){
+        bool = true, per = 0.10;    while(bool){
         if(cnt %4 === 0){
             // if(percent_prim(array) < per && j!== 0){
             //     console.log(2*j+1);
