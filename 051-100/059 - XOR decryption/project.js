@@ -6,8 +6,23 @@ function cipher_array(){
 	return arr;
 
 }
-function dcrypt(a){
-
+function next(array, start, end){
+	if(array[2] + 1 > end){
+		array[2] = start;
+		array[1] +=1;
+	} else{
+		array[2]+=1;
+	}
+	if(array[1] + 1 > end){
+		array[2] = start;
+		array[1] +=1;
+	} else{
+		array[2]+=1;
+	}
+	if( array[0] > end){
+		return false;
+	}
+	return true;
 }
 
 function main(n) {
