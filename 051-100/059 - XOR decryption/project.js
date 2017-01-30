@@ -25,20 +25,22 @@ function next(array, start, end){
 
 function main(n) {
 	'use strict';
-	var arr = cipher_array(),
-		a = n.charCodeAt(0),
-		b = n.charCodeAt(1),
-		c = n.charCodeAt(2),
-		d = [a,b,c],
-		i=0;
-	console.log('a'.charCodeAt(0),'z'.charCodeAt(0));
-	while(i<arr.length){
-
-		arr[i] = String.fromCharCode(d[i%3]^arr[i]);
-		i+=1;
+	var a = 'a'.charCodeAt(0),
+		z = 'z'.charCodeAt(0),
+		d = [a,a,a],
+		i=0,
+		arr;
+	while(next(d,a,z)){
+		console.log(d)
+		arr = cipher_array()
+		while(i < arr.length){
+			arr[i] = String.fromCharCode(d[i%3]^arr[i]);
+			i+=1;
+		}
+		console.log(arr.join(''))
 	}
 	// /console.log(min, max);
-	return arr.join("");
+	return;
 }
 
 console.log(main(process.argv[2]));
