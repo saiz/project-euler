@@ -30,7 +30,7 @@ function main(n) {
 		count = 0,
 		arr;
 	while(i <n){
-		arr = fraction(n);
+		arr = fraction(i);
 console.log(arr);
 		if(arr[0] > arr[1]){
 			count +=1;
