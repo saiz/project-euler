@@ -60,7 +60,7 @@ function main() {
             if(prime[prime.length -1] < array[array.length - 1]){
                 console.log('problem');
             }
-            console.log(percent_prim(array, prime));
+            //console.log(percent_prim(array, prime));
             j+=1;
         }
         i+=(2*j);
