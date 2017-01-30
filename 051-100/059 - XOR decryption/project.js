@@ -53,7 +53,7 @@ function main(n) {
 		count = 0;
 		i=0;
 		while(i < arr.length){
-			if( ((d[i%3] ^  parseInt(arr[i],10)) >= a -1) && ((d[i%3] ^  parseInt(arr[i],10)) <= z +1)){
+			if( ((d[i%3] ^  parseInt(arr[i],10)) >= a) && ((d[i%3] ^  parseInt(arr[i],10)) <= z)){
 				count +=(d[i%3] ^  parseInt(arr[i],10));
 			}
 			str += String.fromCharCode( d[i%3] ^  parseInt(arr[i],10) );
