@@ -57,6 +57,9 @@ function main() {
             //     console.log(2*j+1);
             //     bool = true;
             // }
+            if(prime[prime.length -1] < array[array.length - 1]){
+                console.log('problem');
+            }
             console.log(percent_prim(array, prime));
             j+=1;
         }
