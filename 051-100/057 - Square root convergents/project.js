@@ -13,7 +13,7 @@ function fract(a,b,m,n){
 	return [a,b];
 }
 function fraction(n){
-	return fract(3,2,0,n);
+	return fract(3,2,1,n);
 }
 function main(n) {
 	'use strict';
