@@ -28,9 +28,8 @@ function main(n) {
 		arr = cipher_array(0),
 		i=0, max = 0, min = 0;
 	while(i<arr.length){
-		console.log(arr[i] ^ d )
 		if(parseInt(arr[i] ^ d,10) > max){
-			max = arr.slice(i,1);
+			max = arr[i];
 		}
 		if(parseInt(arr[i] ^ d,10) < min){
 			min = arr.slice(i,1);
