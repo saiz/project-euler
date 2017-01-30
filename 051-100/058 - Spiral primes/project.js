@@ -40,11 +40,12 @@ function main() {
         prime = 0,
         i=1,
         j=0,
+        k,
         cnt=0,
         bool = true, per = 0.10, res;
     while(bool){
         j+=1;
-        for(i=0;i<4;i+=1){
+        for(k=0;k<4;k+=1){
             i+=(2*j);
             console.log(i,j);
             if(prime_array.indexOf(i) >= 0){
