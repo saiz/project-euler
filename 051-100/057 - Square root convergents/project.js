@@ -7,13 +7,16 @@ function sqrt_two(n){
 }
 function fract(a,b,m,n){
 	console.log(a,b,m,n);
+	if(m === 0 ){
+		return [3,2];
+	}
 	if(m <= n){
-		return fract(b+a,a,m+1,n);
+		return fract()
 	}
 	return [a,b];
 }
 function fraction(n){
-	return fract(3,2,1,n);
+	return fract(n);
 }
 function main(n) {
 	'use strict';
