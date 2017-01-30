@@ -44,6 +44,7 @@ function main(n) {
 		}
 		if(count/arr.length > .72){
 			console.log(str);
+			console.log(d)
 		}
 	}
 
