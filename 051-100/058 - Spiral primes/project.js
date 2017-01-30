@@ -68,7 +68,7 @@ function main() {
         array.push(i);
         cnt+=1;
     }
-    return
+    return res;
 }
 
 console.log(main(process.argv[2]));
