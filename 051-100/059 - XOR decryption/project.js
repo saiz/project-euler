@@ -59,7 +59,7 @@ function main(n) {
 			i+=1;
 		}
 		console.log(str);
-
+		console.log(count);
 
 
 
