@@ -37,7 +37,7 @@ function main(n) {
 		min = 0;
 		max = 0;
 		while(i < arr.length){
-			if( d[i%3] ^  parseInt(arr[i],10) > max){
+			if( (d[i%3] ^  parseInt(arr[i],10)) > max){
 				max  =  d[i%3] ^  parseInt(arr[i],10);
 			}
 			if( d[i%3] ^  parseInt(arr[i],10) < min){
