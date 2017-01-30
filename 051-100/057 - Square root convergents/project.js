@@ -14,8 +14,8 @@ function fraction(a,b,c,n){
 	// a + b/c
 
 }
-function main(n) {
 	'use strict';
+function main(n) {
 	n = parseInt(n,10);
 	var i =fraction(1,1,2,2);
 	return i;
