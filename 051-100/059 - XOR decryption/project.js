@@ -43,9 +43,8 @@ function main(n) {
 			i+=1;
 
 			if ( new RegExp("/^[a-z\d\-_\s]+$/i").test(temp)) {
-			    count +=
+			    count +=1;
 			}
-			if(temp )
 
 		}
 		if(count > max){
