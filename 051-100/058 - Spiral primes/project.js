@@ -43,7 +43,7 @@ function main() {
         k,
         cnt=0,
         per = 0.10;
-    console.log(prime/(cnt +1));
+    console.log(prime/(cnt +1), j);
     while(prime/(cnt +1) < per && j !== 0){
         console.log(prime/(cnt +1));
         j+=1;
