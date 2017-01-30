@@ -37,7 +37,7 @@ function main(n) {
 			arr[i] = String.fromCharCode(d[i%3]^arr[i]);
 			i+=1;
 		}
-		console.log(arr.join(''));
+		//console.log(arr.join(''));
 	}
 	// /console.log(min, max);
 	return;
