@@ -6,8 +6,9 @@ function sqrt_two(n){
 	return 1 + 1/( 1 + sqrt_two(n-1) );
 }
 
-function main() {
+function main(n) {
 	'use strict';
+	n = pars
 	var i =sqrt_two(3);
 	return i;
 }
