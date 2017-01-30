@@ -22,7 +22,7 @@ function main(n) {
 	while(i <=n){
 		arr = fraction(i);
 		console.log(arr[0],arr[1]);
-		if(arr[0].c.join("").length > arr[1].c.join("").length){
+		if(arr[0].e > arr[1].e){
 			count +=1;
 		}
 		i+=1;
