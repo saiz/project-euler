@@ -47,9 +47,9 @@ function main(n) {
 		}
 	}
 	while(i < arr.length){
-			str += String.fromCharCode( d[i%3] ^  parseInt(arr[i],10) );
-			i+=1;
-		}
+		str += String.fromCharCode( d[i%3] ^  parseInt(arr[i],10) );
+		i+=1;
+	}
 
 
 
