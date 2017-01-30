@@ -32,11 +32,12 @@ function main(n) {
 		arr;
 	while(next(d,a,z)){
 		arr = cipher_array();
+		str = ''
 		while(i < arr.length){
-			arr[i] = String.fromCharCode( d[i%3] ^  parseInt(arr[i],10) );
+			str += String.fromCharCode( d[i%3] ^  parseInt(arr[i],10) );
 			i+=1;
 		}
-		console.log(arr.join(''));
+		console.log(str);
 	}
 	// /console.log(min, max);
 	return;
