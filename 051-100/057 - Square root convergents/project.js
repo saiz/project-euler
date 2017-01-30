@@ -29,7 +29,7 @@ function main(n) {
 	var i = 1,
 		count = 0,
 		arr;
-	while(i <n){
+	while(i <=n){
 		arr = fraction(i);
 		if(String(arr[0]).length > String(arr[1]).length){
 			count +=1;
