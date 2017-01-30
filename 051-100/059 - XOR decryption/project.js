@@ -31,6 +31,7 @@ function main(n) {
 		i=0,
 		arr,str;
 	while(next(d,a,z)){
+		setTimeout(function(){
 		arr = cipher_array();
 		str = '';
 		i=0;
@@ -38,8 +39,9 @@ function main(n) {
 			str += String.fromCharCode( d[i%3] ^  parseInt(arr[i],10) );
 			i+=1;
 		}
-		setTimeout(function(){console.log(str)}, 3000);
+		console.log(str)}, 1000);
 	}
+
 	// /console.log(min, max);
 	return;
 }
