@@ -17,7 +17,7 @@ function main(n) {
 		b = n.charCodeAt(1),
 		c = n.charCodeAt(2),
 		d = [a,b,c],
-		console.log(String.fromCharCode(a),String.fromCharCode(z))
+		console.log(String.fromCharCode('a'),String.fromCharCode('z'));
 		i=0;
 	while(i<arr.length){
 
