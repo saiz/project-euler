@@ -1,4 +1,16 @@
 var fs = require('fs');
+function cloneObject(obj) {
+    if (obj === null || typeof obj !== 'object') {
+        return obj;
+    }
+
+    var temp = obj.constructor(); // give temp the original obj's constructor
+    for (var key in obj) {
+        temp[key] = cloneObject(obj[key]);
+    }
+
+    return temp;
+}
 function cipher_array(){
 	'use strict';
 	var arr = fs.readFileSync('./cipher.txt').toString().split(","),
@@ -18,10 +30,10 @@ function main(n) {
 	while(i<arr.length){
 		console.log(arr[i] ^ d )
 		if(arr[i] ^ d > max){
-			max = arr.slice(i,1);
+			max = cloneObject(arr[i]);
 		}
 		if(arr[i] ^ d < min){
-			min = arr.slice(i,1);
+			min = cloneObject(arr[i]);
 		}
 		arr[i] = String.fromCharCode(arr[i] ^ d);
 		i+=1;
