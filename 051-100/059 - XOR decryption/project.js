@@ -13,7 +13,7 @@ function next(array, start, end){
 	} else{
 		array[2]+=1;
 	}
-	if(array[1] + 1 > end){
+	if(array[1] > end){
 		array[2] = start;
 		array[1] +=1;
 	} else{
