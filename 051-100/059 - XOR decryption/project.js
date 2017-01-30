@@ -32,7 +32,7 @@ function main(n) {
 		i=0,
 		temp,
 		arr,str, count, max = 0,
-		pattern = /the/;
+		pattern = /[a-z]/;
 
 
 	while(next(d,a,z)){
