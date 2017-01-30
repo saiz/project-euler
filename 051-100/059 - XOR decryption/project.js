@@ -42,7 +42,7 @@ function main(n) {
 			str += String.fromCharCode(temp);
 			i+=1;
 			var string = "sample1";
-			var re = new RegExp("^([a-z0-9]{5,})$");
+			var re = new RegExp("/^[a-z\d\-_\s]+$/i");
 			if (re.test(string)) {
 			    console.log("Valid");
 			} else {
