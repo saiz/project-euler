@@ -9,12 +9,14 @@ function cipher_array(){
 
 function main(n) {
 	'use strict';
-	String.fromCharCode(parseInt(n[0],10),parseInt(n[1],10),parseInt(n[2],10));
-	n = parseInt(n,10);
-	var arr =cipher_array(0),
+	var a = n.charCodeAt(0),
+		b = n.charCodeAt(1),
+		c = n.charCodeAt(2),
+		d = parseInt(String(a) +String(b) +String(c),10),
+		arr = cipher_array(0),
 		i=0;
 	while(i<arr.length){
-		arr[i] = String.fromCharCode(arr[i] ^ n);
+		arr[i] = String.fromCharCode(arr[i] ^ d);
 		i+=1;
 	}
 	return arr.join("");
