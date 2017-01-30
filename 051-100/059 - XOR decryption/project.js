@@ -25,15 +25,13 @@ function next(array, start, end){
 
 function main(n) {
 	'use strict';
-	var a = 97,
-		z = 123,
+	var a = 'a'.charCodeAt(0),
+		z = z.charCodeAt(0),
 		d = [a,a,a],
 		key = [],
 		i=0,
 		temp,
 		arr,str, count, max = 0;
-
-
 	while(next(d,a,z)){
 		arr = cipher_array();
 		str = '';
