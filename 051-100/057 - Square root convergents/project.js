@@ -21,7 +21,7 @@ function main(n) {
 		arr;
 	while(i <=n){
 		arr = fraction(i);
-		console.log(arr);
+		console.log(arr.toStrng());
 		console.log('---');
 		i+=1;
 	}
