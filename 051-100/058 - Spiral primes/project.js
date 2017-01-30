@@ -51,7 +51,7 @@ function main() {
         j=0,
         cnt=0,
         bool = true, per = 0.10;
-        console.log("start")
+        console.log("start");
         while(bool){
         if(cnt %4 === 0){
             if(percent_prim(array, prime) < per && j!== 0){
