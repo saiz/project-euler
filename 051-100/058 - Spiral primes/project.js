@@ -46,13 +46,12 @@ function main() {
         if(cnt %4 === 0){
             if(prime/(cnt + 1) < per && j!== 0){
                 res = 2*j +1;
-                bool = true;
+                bool = false;
             }
             if(prime[prime.length -1] < array[array.length - 1]){
                 console.log('problem');
             }
             j+=1;
-            console.log(prime/(cnt + 1));
         }
         i+=(2*j);
         if(prime_array.indexOf(i) >= 0){
