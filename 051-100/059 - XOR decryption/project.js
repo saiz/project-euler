@@ -8,8 +8,13 @@ function cipher_array(){
 }
 function main() {
 	'use strict';
-	var i =cipher_array(0);
-	return i;
+	var arr =cipher_array(0),
+		i=0;
+	while(i<arr.length){
+		console.log(arr[i]);
+		i+=1;
+	}
+	return;
 }
 
 console.log(main(process.argv[2]));
