@@ -51,7 +51,8 @@ function main(n) {
 	arr = cipher_array();
 	count = 0;
 	while(i < arr.length){
-		str += String.fromCharCode( key[i%3] ^  parseInt(arr[i],10) );
+		temp =  d[i%3] ^  parseInt(arr[i],10);
+		str += String.fromCharCode(temp);
 		count += (key[i%3] ^  parseInt(arr[i],10));
 		i+=1;
 	}
