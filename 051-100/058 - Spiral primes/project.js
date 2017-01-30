@@ -17,7 +17,7 @@ function percent_prim(array){
         if(isPrime3(array[i])){
             cnt+=1;
         }
-        return i/array.length;
+        return cnt/array.length;
     }
 }
 function main() {
