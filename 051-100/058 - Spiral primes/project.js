@@ -2,15 +2,16 @@ function main() {
     'use strict';
     var array = [],
         i=1,
+        j=1,
         cnt=0,
         bool = true;
     while(bool){
         cnt+=1;
         if(cnt %4){
             cnt = 0;
-            i+=1;
+            j+=1;
         }
-        i+=Math.pow(2,i);
+        i+=Math.pow(2,j);
         console.log(i);
     }
     return i;
