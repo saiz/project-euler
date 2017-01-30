@@ -31,7 +31,7 @@ function main(n) {
 	while(i <n){
 		arr = fraction(n);
 		if(arr[0] > arr[1]){
-			count +=
+			count +=1;
 		}
 	}
 	return i;
