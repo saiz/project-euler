@@ -36,7 +36,6 @@ function main(n) {
 		}
 		console.log(arr[i]);
 		arr[i] = String.fromCharCode(arr[i] ^ d);
-		console.log(arr[i]);
 		i+=1;
 	}
 	console.log(min, max);
