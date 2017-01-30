@@ -44,13 +44,10 @@ function main(n) {
 			temp =  d[i%3] ^  parseInt(arr[i],10);
 			str += String.fromCharCode(temp);
 			i+=1;
-			if ( pattern.test(temp)) {
-			    count +=1;
-			}
 
 		}
-		if(count > max){
-			max = count;
+		if(str.match(/the/g).length > max){
+			max = str.match(/the/g).length;
 			key = d;
 		}
 	}
