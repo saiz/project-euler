@@ -52,7 +52,10 @@ function main() {
             }
         }
         cnt+=4;
-        console.log(prime/(cnt +1));
+        if(prime/(cnt +1) < per){
+
+            bool = false;
+        }
     }
     return res;
 }
