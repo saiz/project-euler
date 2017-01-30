@@ -3,9 +3,8 @@ function gcd(a, b) {
     if ( ! b) {
         return a;
     }
-
     return gcd(b, a % b);
-};
+}
 function sqrt_two(n){
 	if( n === 0 ){
 		return 1;
@@ -14,10 +13,11 @@ function sqrt_two(n){
 }
 function fract(a,b,m,n){
 	console.log(a,b,m,n);
-	var i;
+	var i, k;
 	if(m < n){
 		i = a+b;
-		return fract(gcdb+i,i,m+1,n);
+		k = gcd(k,i);
+		return fract((b+i)/k,i/k,m+1,n);
 	}
 	return [a,b];
 }
