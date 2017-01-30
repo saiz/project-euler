@@ -1,5 +1,5 @@
 var fs = require('fs');
-function names_array(){
+function cipher_array(){
 	'use strict';
 	var arr = fs.readFileSync('./cipher.txt').toString().split(","),
 	i;
@@ -8,7 +8,7 @@ function names_array(){
 }
 function main() {
 	'use strict';
-	var i ='test';
+	var i =cipher_array(0);
 	return i;
 }
 
