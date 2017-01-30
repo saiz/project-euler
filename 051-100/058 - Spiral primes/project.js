@@ -46,7 +46,7 @@ function eratosthenes(n) {
 function main() {
     'use strict';
     var array = [1],
-        prime = eratosthenes(Math.pow(2, 45)),
+        prime = eratosthenes(Math.pow(2, 40)),
         i=1,
         j=0,
         cnt=0,
