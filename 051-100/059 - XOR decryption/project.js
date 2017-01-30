@@ -13,10 +13,10 @@ function main(n) {
 	var arr =cipher_array(0),
 		i=0
 	while(i<arr.length){
-		arr[i] = arr[i] ^ 2;
+		arr[i] = String.fromCharCode(arr[i] ^ n);
 		i+=1;
 	}
-	return;
+	returnarr;
 }
 
 console.log(main(process.argv[2]));
