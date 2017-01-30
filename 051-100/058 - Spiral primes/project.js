@@ -8,7 +8,7 @@ function main() {
         cnt+=1;
         if(cnt %4){
             cnt = 0;
-            i+=1
+            i+=1;
         }
         i+=Math.pow(2,i);
         console.log(i);
