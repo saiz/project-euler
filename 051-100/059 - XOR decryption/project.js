@@ -46,8 +46,8 @@ function main(n) {
 			i+=1;
 
 		}
-		if(string.toLowerCase().split("the").length.length > max){
-			max = str.match(/the/g).length;
+		if(str.toLowerCase().split("the").length > max){
+			max = str.toLowerCase().split("the").length;
 			key = d;
 		}
 	}
