@@ -14,7 +14,7 @@ function percent_prim(array,prime){
     var cnt = 0,
         i;
     for(i=0;i<array.length;i+=1){
-        if(isPrime3(array[i])){
+        if(prime.ine)){
             cnt+=1;
         }
     }
