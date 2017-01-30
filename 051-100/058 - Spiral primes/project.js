@@ -42,8 +42,8 @@ function main() {
         j=0,
         k,
         cnt=0,
-        bool = true, per = 0.10, res;
-    while(bool){
+        per = 0.10;
+    while(prime/(cnt +1) < per && j !== 0){
         j+=1;
         for(k=0;k<4;k+=1){
             i+=(2*j);
@@ -52,12 +52,8 @@ function main() {
             }
         }
         cnt+=4;
-        if(prime/(cnt +1) < per){
-            res = 2*j +1;
-            bool = false;
-        }
     }
-    return res;
+    return 2*j +1;
 }
 
 console.log(main(process.argv[2]));
