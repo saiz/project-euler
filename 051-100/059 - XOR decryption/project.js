@@ -11,7 +11,7 @@ function main(n) {
 	'use strict';
 	n = parseInt(n,10);
 	var arr =cipher_array(0),
-		i=0
+		i=0;
 	while(i<arr.length){
 		arr[i] = String.fromCharCode(arr[i] ^ n);
 		i+=1;
