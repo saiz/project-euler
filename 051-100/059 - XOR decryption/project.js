@@ -29,10 +29,10 @@ function main(n) {
 		i=0, max = 0, min = 0;
 	while(i<arr.length){
 		if(parseInt(arr[i] ^ d,10) > max){
-			max = parseInt(arr[i] ^ d,10)
+			max = parseInt(arr[i] ^ d,10);
 		}
 		if(parseInt(arr[i] ^ d,10) < min){
-			min = parseInt(arr[i] ^ d,10)
+			min = parseInt(arr[i] ^ d,10);
 		}
 		console.log(parseInt(arr[i] ^ d,10));
 		arr[i] = String.fromCharCode(arr[i] ^ d);
