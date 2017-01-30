@@ -14,11 +14,18 @@ function main(n) {
 		c = n.charCodeAt(2),
 		d = parseInt(String(a) +String(b) +String(c),10),
 		arr = cipher_array(0),
-		i=0;
+		i=0, max = 0, min = 0;
 	while(i<arr.length){
+		if(arr[i] ^ d > max){
+			max = array[i];
+		}
+		if(arr[i] ^ d < min){
+			min = array[i];
+		}
 		arr[i] = String.fromCharCode(arr[i] ^ d);
 		i+=1;
 	}
+	console.log(min, max);
 	return arr.join("");
 }
 
