@@ -11,7 +11,7 @@ function main() {
             j+=1;
         }
         i+=Math.pow(2,j);
-        console.log(i);
+        console.log(i,j,cnt);
     }
     return i;
 }
