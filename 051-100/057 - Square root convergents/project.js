@@ -34,6 +34,7 @@ function main(n) {
 		if(arr[0] > arr[1]){
 			count +=1;
 		}
+		i+=1;
 	}
 	return count;
 }
