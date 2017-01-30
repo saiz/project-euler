@@ -7,7 +7,7 @@ function sqrt_two(n){
 }
 function fract(a,b,m,n){
 	console.log(a,b,m,n);
-	if(m < n){
+	if(m <= n){
 		return fract(b+a,a,m+1,n);
 	}
 	return [a,b];
