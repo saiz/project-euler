@@ -1,22 +1,11 @@
 var fs = require('fs');
-function decrypt(hash) {
-    var result = '';
-    for (var i=0; i<hash.length; i++) {
-        result += String.fromCharCode( this.salt ^ hash.charCodeAt(i) );
-    }
-    return result;
-}
-function cloneObject(obj) {
-    if (obj === null || typeof obj !== 'object') {
-        return obj;
-    }
+function Encrypt(message, hash) {
+    int[] encryptedMessage = new int[message.Length];
 
-    var temp = obj.constructor(); // give temp the original obj's constructor
-    for (var key in obj) {
-        temp[key] = cloneObject(obj[key]);
+    for (i = 0; i < message.Length; i++) {
+        encryptedMessage[i] = message[i] ^ key[i%key.Length];
     }
-
-    return temp;
+    return encryptedMessage;
 }
 function cipher_array(){
 	'use strict';
