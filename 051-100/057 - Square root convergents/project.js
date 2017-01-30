@@ -21,7 +21,7 @@ function main(n) {
 		arr;
 	while(i <=n){
 		arr = fraction(i);
-		if(arr[1].c.join("").length > arr[0].c.join("").length){
+		if(arr[0].c.join("").length > arr[1].c.join("").length){
 			count +=1;
 		}
 		i+=1;
