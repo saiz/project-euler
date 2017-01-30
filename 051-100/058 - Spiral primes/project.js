@@ -53,7 +53,7 @@ function main() {
         }
         cnt+=4;
         if(prime/(cnt +1) < per){
-
+            res = 2*j +1;
             bool = false;
         }
     }
