@@ -31,13 +31,12 @@ function main(n) {
 		i=0,
 		arr;
 	while(next(d,a,z)){
-		console.log(d);
 		arr = cipher_array();
 		while(i < arr.length){
 			arr[i] = String.fromCharCode(d[i%3]^arr[i]);
 			i+=1;
 		}
-		//console.log(arr.join(''));
+		console.log(arr.join(''));
 	}
 	// /console.log(min, max);
 	return;
