@@ -10,7 +10,7 @@ function isPrime3(n) {
     }
     return true;
 }
-function percent_prim(array){
+function percent_prim(array,prime){
     var cnt = 0,
         i;
     for(i=0;i<array.length;i+=1){
@@ -57,7 +57,7 @@ function main() {
             //     console.log(2*j+1);
             //     bool = true;
             // }
-            console.log(percent_prim(array));
+            console.log(percent_prim(array, prime));
             j+=1;
         }
         i+=(2*j);
