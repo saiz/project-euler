@@ -12,5 +12,9 @@ function main(n) {
 	var i =sqrt_two(n);
 	return i;
 }
+function fraction(a,b,c){
+	// a + b/c
+
+}
 
 console.log(main(process.argv[2]));
