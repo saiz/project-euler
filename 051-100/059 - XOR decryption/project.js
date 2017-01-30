@@ -41,8 +41,7 @@ function main(n) {
 			temp =  d[i%3] ^  parseInt(arr[i],10);
 			str += String.fromCharCode(temp);
 			i+=1;
-			var string = "sample1";
-			var re = new RegExp("/^[a-z\d\-_\s]+$/i");
+
 			if ( new RegExp("/^[a-z\d\-_\s]+$/i").test(string)) {
 			    console.log("Valid");
 			} else {
