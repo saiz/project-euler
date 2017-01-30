@@ -22,6 +22,7 @@ function main(n) {
 	while(i <=n){
 		arr = fraction(i);
 		console.log(arr);
+		console.log('---');
 		i+=1;
 	}
 	return count;
