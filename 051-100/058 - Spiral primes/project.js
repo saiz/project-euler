@@ -46,7 +46,7 @@ function main() {
         j+=1;
         for(i=0;i<4;i+=1){
             i+=(2*j);
-            console.log(i);
+            console.log(i,j);
             if(prime_array.indexOf(i) >= 0){
                 prime+=1;
             }
