@@ -1,4 +1,11 @@
 var fs = require('fs');
+function decrypt(hash) {
+    var result = '';
+    for (var i=0; i<hash.length; i++) {
+        result += String.fromCharCode( this.salt ^ hash.charCodeAt(i) );
+    }
+    return result;
+}
 function cloneObject(obj) {
     if (obj === null || typeof obj !== 'object') {
         return obj;
@@ -28,14 +35,7 @@ function main(n) {
 		arr = cipher_array(0),
 		i=0, max = 0, min = 0;
 	while(i<arr.length){
-		if(parseInt(arr[i] ^ d,10) > max){
-			max = parseInt(arr[i] ^ d,10);
-		}
-		if(parseInt(arr[i] ^ d,10) < min){
-			min = parseInt(arr[i] ^ d,10);
-		}
-		console.log(parseInt(arr[i] ^ d,10));
-		arr[i] = String.fromCharCode(arr[i] ^ d);
+		arr[i] = decrypt()
 		i+=1;
 	}
 	console.log(min, max);
