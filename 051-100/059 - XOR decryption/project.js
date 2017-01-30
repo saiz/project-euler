@@ -34,8 +34,8 @@ function main(n) {
 		arr = cipher_array();
 		str = '';
 		i=0;
-		min = 'z'.charCodeAt(0);
-		max = 0;
+		min = z;
+		max = a;
 		while(i < arr.length){
 			if( (d[i%3] ^  parseInt(arr[i],10)) > max){
 				max  =  d[i%3] ^  parseInt(arr[i],10);
@@ -46,7 +46,9 @@ function main(n) {
 			str += String.fromCharCode( d[i%3] ^  parseInt(arr[i],10) );
 			i+=1;
 		}
-		console.log(min,max);
+		if((min >= a) && (max <= z)){
+			console.log(str);
+		}
 	}
 
 	// /console.log(min, max);
