@@ -7,7 +7,7 @@ function main() {
         bool = true;
     while(bool){
         cnt+=1;
-        if(cnt %4){
+        if(cnt %4 === 0){
             cnt = 0;
             j+=1;
         }
