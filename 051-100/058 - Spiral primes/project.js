@@ -22,8 +22,8 @@ function main() {
     for(k=0;k<4;k+=1){
         i+=(2*j);
         if(isPrime3(i)){
-                prime+=1;
-            }
+            prime+=1;
+        }
     }
     cnt+=4;
     while(prime/(cnt +1) > per){
