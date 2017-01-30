@@ -5,16 +5,16 @@ function sqrt_two(n){
 	}
 	return 1 + 1/( 1 + sqrt_two(n-1) );
 }
-function fraction(n){
-	return fract(3,2,0,n);
-	// (a + b)/a
-
-}
 function fract(a,b,m,n){
 	if(m < n){
 		return(b+a,a,m+1,n);
 	}
 	return [a,b];
+
+}
+function fraction(n){
+	return fract(3,2,0,n);
+	// (a + b)/a
 
 }
 function main(n) {
