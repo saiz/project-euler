@@ -3,7 +3,7 @@ function main() {
     var array = [],
         i=1,
         j=0,
-        cnt=1,
+        cnt=0,
         bool = true;
     while(bool){
         cnt+=1;
