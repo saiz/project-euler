@@ -9,7 +9,8 @@ function cipher_array(){
 
 function main(n) {
 	'use strict';
-	var a = n.charCodeAt(0),
+	var arr = cipher_array(),
+		a = n.charCodeAt(0),
 		b = n.charCodeAt(1),
 		c = n.charCodeAt(2),
 		d = parseInt(String(a) +String(b) +String(c),10),
@@ -18,7 +19,7 @@ function main(n) {
 
 		i+=1;
 	}
-	console.log(min, max);
+	// /console.log(min, max);
 	return arr.join("");
 }
 
