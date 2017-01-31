@@ -40,7 +40,6 @@ function main(){
 		index =[0,0,0,],
 		arr = [],
 		i = 1,j, bool = true;
-		arr[i]=d[i][index[i]];
 	while(i< d.length){
 		console.log(i,d[i][index[i]]);
 		i+=1;
