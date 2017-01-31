@@ -43,10 +43,15 @@ function main(){
 	while(i< d.length){
 		b = Math.floor(d[i][index[i]]/100);
 		a = d[i-1][index[i-1]]%100;
+		if(a!==b){
+			index[i] +=1;
+		}
 		console.log(d[i-1][index[i-1]],d[i][index[i]]);
 		console.log(a,b);
 		//if()
-		i+=1;
+		if(a===b){
+			i+=1;
+		}
 	}
 	console.log(arr);
 
