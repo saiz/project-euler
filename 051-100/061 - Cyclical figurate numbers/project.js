@@ -39,7 +39,7 @@ function main(){
 		//console.log(arr[i]);
 		j=0;
 		for (j in arr[i]) {
-			console.log(j);
+			console.log(arr[i][j]);
 		}
 		i+=1;
 	}
