@@ -33,20 +33,14 @@ function shape() {
 	return array;
 }
 function main(){
-	var arr = shape(),
+	var triangle = dict(tri),
+		square = dict(squ),
+		pentagonal = dict(pent),
+		hexagonal = dict(hex),
+		heptagonal = dict(hept),
+		octogonal = dit(oct),
 		i=0,j, k;
-	while(i<arr.length){
-		//console.log(arr[i]);
-		j=0;
-		for (j in arr[i]) {
-			k =0;
-			while(arr[i][j].length > k){
-				console.log(arr[i][j][k]);
-				k+=1;
-			}
-		}
-		i+=1;
-	}
+
 }
 
 console.log(main(process.argv[2]));
