@@ -73,7 +73,7 @@ function main(){
 					for(k=1;k<index.length;k+=1){
 						index[k] = 0;
 					}
-					arr = []
+					arr = [arr[]
 					i = 0;
 				}
 			}
