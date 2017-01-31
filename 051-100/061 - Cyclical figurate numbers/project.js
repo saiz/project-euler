@@ -50,7 +50,8 @@ function main(){
 		octogonal = dict(oct),
 		i=0,j, k,key;
 	for(key in triangle){
-		i =0
+		i =0;
+		while()
 		console.log(triangle);
 	}
 
