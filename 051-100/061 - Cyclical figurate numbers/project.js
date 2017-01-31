@@ -52,6 +52,7 @@ function main(){
 	for(key in triangle){
 		i =0;
 		while(i <triangle[key].length){
+			index = []
 			console.log(triangle[key][i]);
 			find()
 			i+=1;
