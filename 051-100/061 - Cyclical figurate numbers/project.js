@@ -34,12 +34,16 @@ function shape() {
 }
 function main(){
 	var arr = shape(),
-		i=0,j;
+		i=0,j, k;
 	while(i<arr.length){
 		//console.log(arr[i]);
 		j=0;
 		for (j in arr[i]) {
-			console.log(arr[i][j]);
+			k =0;
+			while(arr[i][j].length > k){
+				console.log(arr[i][j][k]);
+				k+=1;
+			}
 		}
 		i+=1;
 	}
