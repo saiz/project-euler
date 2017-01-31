@@ -14,7 +14,7 @@ function dict(callback){
 			if(obj[String(n).slice(2,4)] === undefined){
 				obj[String(n).slice(2,4)] = [];
 			}
-			if(parse(String(n).slice(2,4),10))
+			if(parseInt(String(n).slice(2,4),10))
 			obj[String(n).slice(2,4)].push(callback(i));
 		}
 		i+=1;
