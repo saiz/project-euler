@@ -40,27 +40,6 @@ function shape() {
 	array.push( dict(oct));
 	return array;
 }
-function find(index,shape) {
-	var num = parseInt(String(index[index.length -1]).slice(2,4),10);
-	if(shape.s[num] === undefined){
-		return	[];
-	}
-	return shape.s[num];
-}
-function search(d,index,j){
-	var i = index.length -1;
-	if(find(index,d[i]).length >0){
-		return true;
-	}
-	return false;
-}
-function test(array,shape){
-	var str = parseInt(String(array[array.length -1]).slice(2,4),10);
-	if(shape.s[str] !== undefined){
-		return shape.s[str];
-	}
-	return [];
-}
 function main(){
 	var triangle = dict(tri),
 		square = dict(squ),
@@ -71,18 +50,7 @@ function main(){
 		d = [square,pentagonal,hexagonal,heptagonal,octogonal],
 		i=0,j, k,key, index, array, str;
 	for(key in triangle.e){
-		i =0;
-		while(i <triangle.e[key].length){
-			array = [];
-			array.push(triangle.e[key][i]);
-			j=0;
-			index = 1;
-			while(j <test(array,square)){
-				array[index] = test(array,square)[j];
-				j+=1;
-			}
-			i+=1;
-		}
+
 		//console.log(triangle);
 	}
 
