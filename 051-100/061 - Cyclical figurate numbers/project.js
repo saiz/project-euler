@@ -45,7 +45,7 @@ function main(){
 			arr[i] =list[i][index[i]];
 			i+=1;
 		} else {
-			if(index[i] === undefined){
+			if(i =){
 				index.push(0)
 			}
 			if(index[i] >=list[i].length){
