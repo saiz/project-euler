@@ -51,7 +51,7 @@ function find(index,shape) {
 }
 function search(d,index){
 	var i = index.length -1;
-	if(find(index,square).length >0){
+	if(find(index,).length >0){
 }
 }
 function main(){
