@@ -68,7 +68,7 @@ function main(){
 					index[i] +=1;
 					i-=1;
 				}
-				if(index[i] >=list[i].length){
+				if(index[index.length -1] >=list[index.length -1].length){
 					index[0]+=1;
 					i=0;
 					for(k=1;k<index.length;k+=1){
