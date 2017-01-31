@@ -55,6 +55,7 @@ function main(){
 		console.log(a,b);
 		//if()
 		if(a===b){
+
 			i+=1;
 		}
 	}
