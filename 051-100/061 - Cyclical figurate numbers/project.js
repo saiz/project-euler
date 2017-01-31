@@ -35,7 +35,7 @@ function shape() {
 	return array;
 }
 function find(index,shape) {
-	var num = parseInt(String(index[index.length -1]).slice(0,2),10);
+	var num = parseInt(String(index[index.length -1]).slice(2,4),10);
 	if(shape[num] === undefined){
 		return	[];
 	}
