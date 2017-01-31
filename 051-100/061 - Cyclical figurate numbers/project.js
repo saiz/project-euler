@@ -50,7 +50,7 @@ function find(index,shape) {
 	return shape.s[num];
 }
 function search(d,index){
-var
+var i
 }
 function main(){
 	var triangle = dict(tri),
