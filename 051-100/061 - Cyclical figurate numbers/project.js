@@ -45,26 +45,16 @@ function main(){
 		console.log(i,index[i]);
 		arr[i]=d[i][index[i]];
 		bool = true;
-		if(i>0){
-			j = parseInt(String(arr[i-1]).slice(2,4),10);
-			while(index[i] < d[i].length){
-				if(j === parseInt(String(d[i][index[i]]).slice(0,2),10)){
-					arr[i]=d[i][index[i]];
-					bool = false;
-					console.log(arr[i]);
-				}
-				index[i] +=1;
+		j = parseInt(String(arr[i-1]).slice(2,4),10);
+		while(index[i] < d[i].length){
+			if(j === parseInt(String(d[i][index[i]]).slice(0,2),10)){
+				arr[i]=d[i][index[i]];
+				bool = false;
+				console.log(arr[i]);
 			}
-			if(bool){
-				index[i] = 0;
-				i-=1;
-			}
-		}
-		if(!bool){
-			i+=1;
-		} else{
 			index[i] +=1;
 		}
+		i+=1;
 	}
 	console.log(arr);
 
