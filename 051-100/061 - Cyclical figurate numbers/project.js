@@ -29,7 +29,9 @@ function shape() {
 	array.push( dict(oct));
 	return array;
 }
-function(next(arr,index))
+function(next(arr,index)){
+
+}
 function main(){
 	var triangle = dict(tri),
 		square = dict(squ),
@@ -37,6 +39,7 @@ function main(){
 		hexagonal = dict(hex),
 		heptagonal = dict(hept),
 		octogonal = dict(oct),
+		d=[triangle,square,pentagonal,hexagonal,heptagonal,octogonal],
 		index =[ 0],
 		sol = [ 0],
 		i = 0;
