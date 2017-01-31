@@ -50,7 +50,7 @@ function find(index,shape) {
 	return shape.s[num];
 }
 function search(d,index){
-var i = index.length -1;
+`var i = index.length -1;
 
 }
 function main(){
