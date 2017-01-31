@@ -49,7 +49,7 @@ function main(){
 		a = d[i-1][index[i-1]]%100;
 		if(a!==b){
 			index[i] +=1;
-
+		arr[i-1] =
 		}
 		console.log(d[i-1][index[i-1]],d[i][index[i]]);
 		console.log(a,b);
