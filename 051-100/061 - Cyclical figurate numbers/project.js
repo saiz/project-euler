@@ -47,7 +47,8 @@ function main(){
 			arr[i-1] =d[i-1][index[i-1]];
 		}
 		if(i==0){
-		} e
+
+		} else{
 			b = Math.floor(d[i][index[i]]/100);
 			a = d[i-1][index[i-1]]%100;
 			console.log(d[i-1][index[i-1]],d[i][index[i]]);
