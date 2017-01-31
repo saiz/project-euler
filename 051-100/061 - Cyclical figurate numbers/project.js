@@ -61,6 +61,7 @@ function main(){
 		while(i <triangle.e[key].length){
 			index = [];
 			index.push(triangle.e[key][i]);
+			console.log(index)
 			console.log(find(index,square));
 			i+=1;
 		}
