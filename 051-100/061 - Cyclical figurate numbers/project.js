@@ -56,6 +56,7 @@ function main(){
 				index[i] +=1;
 			}
 			if(bool){
+				index[i] = 0;
 				i-=2;
 				index[i] +=1;
 			}
