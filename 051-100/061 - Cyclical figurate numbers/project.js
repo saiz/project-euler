@@ -37,10 +37,14 @@ function main(){
 		heptagonal = dict(hept),
 		octogonal = dict(oct),
 		index =[ 0,0,0,0,0,0],
-		sol = [ 0,0,0,0,0,0];
+		sol = [ 0,0,0,0,0,0],
+		i = 0;
 		sol[0] = triangle[0];
-for()
+while(i< triangle.length){
+	sol[i] = triangle[i];
 	console.log(sol);
+	i+=1;
+}
 
 }
 
