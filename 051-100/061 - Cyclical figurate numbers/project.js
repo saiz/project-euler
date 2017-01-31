@@ -35,14 +35,13 @@ function main(){
 		pentagonal = dict(pent),
 		hexagonal = dict(hex),
 		heptagonal = dict(hept),
-		d=[square,pentagonal,hexagonal,heptagonal,octogonal],
 		octogonal = dict(oct),
+		d=[square,pentagonal,hexagonal,heptagonal,octogonal],
 		index =[ 0,0,0,0,0,0],
 		arr = [],
 		i = 0;
 	while(i< d.length){
-		console.log(d[i][index[i]]);
-		arr[i]=d[i];
+		arr[i]=d[i][index[i]];
 		i+=1;
 	}
 	console.log(arr);
