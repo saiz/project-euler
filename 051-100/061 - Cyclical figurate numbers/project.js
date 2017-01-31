@@ -37,18 +37,19 @@ function main(){
 		heptagonal = dict(hept),
 		octogonal = dict(oct),
 		d=[square,pentagonal,hexagonal,heptagonal,octogonal],
-		index =[0,0,0,0,0,0],
+		index =[-1,0,0,0,0,0],
 		arr = [],
 		i = 1,a,b;
 	while(i< d.length){
-		if(i==0){
-
+		if(i===0){
+			arr[i] =d[i][index[i]];
+			i+=1;
 		} else{
-if(index[i] >=d[i].length){
-			index[i]  = 0;
-			index[i-1] +=1;
-			arr[i-1] =d[i-1][index[i-1]];
-		}
+			if(index[i] >=d[i].length){
+				index[i]  = 0;
+				index[i-1] +=1;
+				arr[i-1] =d[i-1][index[i-1]];
+			}
 			b = Math.floor(d[i][index[i]]/100);
 			a = d[i-1][index[i-1]]%100;
 			console.log(d[i-1][index[i-1]],d[i][index[i]]);
