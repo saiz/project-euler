@@ -15,7 +15,7 @@ function dict(callback){
 				obj['e'][String(n).slice(2,4)] = [];
 			}
 			if(parseInt(String(n).slice(2,4),10) >=10){
-				obj[String(n).slice(2,4)].push(callback(i));
+				obj['e'][String(n).slice(2,4)].push(callback(i));
 			}
 		}
 		i+=1;
