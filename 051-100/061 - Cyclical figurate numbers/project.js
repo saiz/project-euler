@@ -36,13 +36,14 @@ function main(){
 		hexagonal = dict(hex),
 		heptagonal = dict(hept),
 		octogonal = dict(oct),
-		d=[square,pentagonal,hexagonal,heptagonal,octogonal],
+		d=[square,pentagonal,hexagonal,heptagonal,octogonal,triangle],
 		index =[0,0,0,0,0,0,0],
-		arr = [],
+		arr = [0,0,0,0,0,0,0],
 		i = 1,a,b;
 	while(i< d.length){
 		if(i===0){
 			arr[i] =d[i][index[i]];
+			arr[arr.length-1] =d[i][index[i]];
 			i+=1;
 		} else{
 			if(index[i] >=d[i].length){
