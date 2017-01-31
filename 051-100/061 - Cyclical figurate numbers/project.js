@@ -34,9 +34,12 @@ function shape() {
 	array.push( dict(oct));
 	return array;
 }
-function find(index) {
+function find(index,shape) {
 	var num = parseInt(String(index[index.length -1]).slice(2,4),10);
-	if()
+	if(shape[num] === undefined){
+		return	[];
+	}
+	return shape[num];
 }
 function main(){
 	var triangle = dict(tri),
@@ -46,6 +49,7 @@ function main(){
 		heptagonal = dict(hept),
 		octogonal = dict(oct),
 		i=0,j, k;
+	for()
 		console.log(triangle);
 
 }
