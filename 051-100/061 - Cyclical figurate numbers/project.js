@@ -48,7 +48,7 @@ function main(){
 		hexagonal = dict(hex),
 		heptagonal = dict(hept),
 		octogonal = dict(oct),
-		i=0,j, k,key;
+		i=0,j, k,key, i
 	for(key in triangle){
 		i =0;
 		while(i <triangle[key].length){
