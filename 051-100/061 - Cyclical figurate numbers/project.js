@@ -41,7 +41,8 @@ function main(){
 		arr = [],
 		i = 0;
 	while(i< d.length){
-		arr[i]=d[i][index[i]];
+		console.log(d[i]);
+		arr[i]=d[i];
 		i+=1;
 	}
 	console.log(arr);
