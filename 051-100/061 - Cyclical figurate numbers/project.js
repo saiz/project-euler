@@ -58,11 +58,12 @@ function main(){
 			if(bool){
 				index[i] = 0;
 				i-=1;
-				index[i] +=1;
 			}
 		}
 		if(!bool){
 			i+=1;
+		} else{
+			index[i] +=1;
 		}
 	}
 	console.log(arr);
