@@ -44,7 +44,7 @@ function main(){
 		if(i===0){
 			arr[i] =list[i][index[i]];
 			i+=1;
-		} else{
+		} else {
 			if(index[i] >=list[i].length){
 				index[i]  = 0;
 				index[i-1] +=1;
@@ -60,7 +60,7 @@ function main(){
 				index[i] +=1;
 				i-=1;
 			} else (a===b) {
-				arr[i] =list[i][index[i]];
+				arr[i] = list[i][index[i]];
 				i+=1;
 			}
 			if(i === index.length){
