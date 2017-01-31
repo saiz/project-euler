@@ -35,9 +35,7 @@ function main(){
 		pentagonal = dict(pent),
 		hexagonal = dict(hex),
 		heptagonal = dict(hept),
-		octogonal = dict(oct),
-		d = [square,pentagonal,hexagonal,heptagonal,octogonal],
-		i=0,j, k,key, index, array, str;
+		octogonal = dict(oct);
 	for(key in triangle.e){
 
 		//console.log(triangle);
