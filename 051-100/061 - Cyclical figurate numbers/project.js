@@ -65,8 +65,8 @@ function main(){
 			}
 			if(i === list.length){
 				if(c!==d){
-					index[i] +=1;
 					i-=1;
+					index[i] +=1;
 				}
 				// if(index[index.length -1] >=list[index.length -1].length){
 				// 	index[0]+=1;
