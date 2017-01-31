@@ -69,8 +69,7 @@ function main(){
 					i-=1;
 				}
 				if(index[index.length -1] >= list[list.length -1].length){
-					console.log('adasd');
-					console.log(c,d);
+					index[0]+=1;
 				// if(index[index.length -1] >= list[list.length -1].length){
 				// 	index[0]+=1;
 				// 	i=0;
