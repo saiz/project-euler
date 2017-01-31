@@ -22,7 +22,6 @@ function dict(callback){
 }
 function main() {
 	'use strict';
-	var i = dict(tri),
 	array = [];
 	array.push( dict(tri));
 	array.push( dict(squ));
