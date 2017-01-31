@@ -40,11 +40,11 @@ function main(){
 		sol = [ 0,0,0,0,0,0],
 		i = 0;
 		sol[0] = triangle[0];
-while(i< triangle.length){
-	sol[i] = triangle[i];
-	console.log(sol);
-	i+=1;
-}
+	while(i< triangle.length){
+		sol[i] = triangle[i];
+		console.log(sol);
+		i+=1;
+	}
 
 }
 
