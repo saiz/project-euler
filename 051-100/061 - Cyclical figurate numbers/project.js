@@ -29,6 +29,7 @@ function shape() {
 	array.push( dict(oct));
 	return array;
 }
+function res(inde)
 function main(){
 	var triangle = dict(tri),
 		square = dict(squ),
