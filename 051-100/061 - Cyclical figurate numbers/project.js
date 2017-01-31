@@ -53,6 +53,7 @@ function main(){
 		i =0;
 		while(i <triangle[key].length){
 			console.log(triangle[key][i]);
+			find()
 			i+=1;
 		}
 		//console.log(triangle);
