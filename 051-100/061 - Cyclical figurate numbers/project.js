@@ -52,10 +52,10 @@ function main(){
 	for(key in triangle){
 		i =0;
 		while(i <triangle[key].length){
-console.log()
+			console.log(triangle[key][i]);
 			i+=1;
 		}
-		console.log(triangle);
+		//console.log(triangle);
 	}
 
 }
