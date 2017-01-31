@@ -39,7 +39,8 @@ function main(){
 		console.log(arr[i]);
 		j=0;
 		while(j<arr.length){
-}
+			j+=1;
+		}
 		i+=1;
 	}
 }
