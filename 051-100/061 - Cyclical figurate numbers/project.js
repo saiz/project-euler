@@ -38,8 +38,8 @@ function main(){
 		octogonal = dict(oct),
 		index =[ 0,0,0,0,0,0],
 		sol = [ 0,0,0,0,0,0],
-		sol = triangle[0];
-	console.log(triangle);
+		sol[0] = triangle[0];
+	console.log(sol);
 
 }
 
