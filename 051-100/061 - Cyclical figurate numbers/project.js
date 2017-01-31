@@ -41,6 +41,9 @@ function main(){
 		arr = [],
 		i = 0,k,a,b,c,d;
 	while(i< list.length){
+		if(index[i] === list[i].length){
+			index[i] = 0;
+		}
 		if(i===0){
 			arr[i] =list[i][index[i]];
 			i+=1;
