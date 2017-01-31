@@ -70,9 +70,9 @@ function main(){
 			index.push(triangle.e[key][i]);
 			str = parseInt(String(index[index.length -1]).slice(2,4),10);
 			if(square.s[str] !== undefined){
-				console.log(square.s[str])
+				console.log(square.s[str]);
 			}
-i+=1;
+			i+=1;
 		}
 		//console.log(triangle);
 	}
