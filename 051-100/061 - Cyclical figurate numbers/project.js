@@ -49,6 +49,7 @@ function find(index,shape) {
 	}
 	return shape.s[num];
 }
+function search()
 function main(){
 	var triangle = dict(tri),
 		square = dict(squ),
