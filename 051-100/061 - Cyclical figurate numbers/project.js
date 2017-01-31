@@ -29,10 +29,6 @@ function shape() {
 	array.push( dict(oct));
 	return array;
 }
-function(next(arr,index,d)){
-	var num = parseInt(String(arr[arr.length -1]).slice(2,4),10),
-		i = index[arr.length -1];
-}
 function main(){
 	var triangle = dict(tri),
 		square = dict(squ),
@@ -44,7 +40,6 @@ function main(){
 		index =[ 0,0,0,0,0,0],
 		arr = [],
 		i = 0;
-		sol[0] = triangle[0];
 	while(i< d.length){
 		arr[i].push(d[index[i]]);
 		i+=1;
