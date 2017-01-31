@@ -44,6 +44,7 @@ function main(){
 		a = Math.floor(d[i][index[i]]/100);
 		b = d[i-1][index[i-1]]%100;
 		console.log(a,b);
+		console.log(a,b);
 		//if()
 		i+=1;
 	}
