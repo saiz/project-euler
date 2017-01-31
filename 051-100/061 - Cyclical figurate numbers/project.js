@@ -36,7 +36,7 @@ function main(){
 		hexagonal = dict(hex),
 		heptagonal = dict(hept),
 		octogonal = dict(oct),
-		list=[square,pentagonal,hexagonal,heptagonal,octogonal,triangle],
+		list=[square,pentagonal,hexagonal,heptagonal,octogonal],
 		index =[0,0,0,0,0,0],
 		arr = [],
 		i = 1,a,b,c,d;
@@ -59,10 +59,19 @@ function main(){
 			if(a!==b){
 				index[i] +=1;
 				i-=1;
-			}
-			if(a===b){
+			} else (a===b){
 				arr[i] =list[i][index[i]];
 				i+=1;
+			}
+			if(i === index.length){
+				if(c!==d){
+					index[i] +=1;
+					i-=1;
+				}
+				if(index[index.length -1] >= list[list.length -1].length){
+					index[0]+=1;
+					i=0;
+				}
 			}
 		}
 	}
