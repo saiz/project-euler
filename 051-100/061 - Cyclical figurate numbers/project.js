@@ -6,7 +6,7 @@ function hept(n){ return n*(5*n-3)/2;} //7
 function oct(n){ return n*(3*n-2);} //8
 function dict(callback){
 	var i =0,
-		obj = {s:undefined,e:undefined},
+		obj = {s:{},e:{}},
 		n = 0;
 		console.log(obj)
 	while(String(n).length <=4){
