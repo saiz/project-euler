@@ -29,9 +29,6 @@ function shape() {
 	array.push( dict(oct));
 	return array;
 }
-function res(arr,i){
-	return arr[i-1]%100;
-}
 function main(){
 	var triangle = dict(tri),
 		square = dict(squ),
@@ -46,11 +43,11 @@ function main(){
 	while(i< d.length){
 		arr[i]=d[i][index[i]];
 		if(i>0){
-			j = res(arr,i);
-			while(j !== parseInt(String(arr[i]).slice(0,2),10) && index[i]< d[i].length){
-				console.log(j);
-				index[i] +=1;
+			j = parseInt(String(arr[i-1]).slice(2,4),10);
+			while(index[i]< d[i].length && bool){
 				arr[i]=d[i][index[i]];
+				j = parseInt(String(arr[i-1]).slice(2,4),10);
+				index[i] +=1;
 			}
 			console.log(j)
 		}
