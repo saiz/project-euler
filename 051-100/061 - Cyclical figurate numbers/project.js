@@ -42,7 +42,7 @@ function main(){
 		i = 0,k,a,b,c,d;
 	while(i< list.length){
 		if(index[i] === list[i].length){
-			console.log(list[i].length)
+			console.log(index[i],list[i].length)
 			index[i] = 0;
 		}
 		if(i===0){
