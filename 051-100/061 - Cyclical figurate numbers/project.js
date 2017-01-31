@@ -39,7 +39,7 @@ function main(){
 		d=[square,pentagonal,hexagonal,heptagonal,octogonal],
 		index =[ 0,0,0,0,0,0],
 		arr = [],
-		i = 0,j, bool = true;
+		i = 1,j, bool = true;
 		arr[i]=d[i][index[i]];
 	while(i< d.length){
 		console.log(i,index[i]);
