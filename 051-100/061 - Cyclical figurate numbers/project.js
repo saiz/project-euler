@@ -42,8 +42,8 @@ function main(){
 		i = 1,j, bool = true;
 		arr[i]=d[i][index[i]];
 	while(i< d.length){
-		console.log(i,index[i]);
 		index[i] = 0;
+		console.log(i,index[i]);
 		arr[i]=d[i][index[i]];
 		bool = true;
 		j = parseInt(String(arr[i-1]).slice(2,4),10);
