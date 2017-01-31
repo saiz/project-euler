@@ -39,9 +39,11 @@ function main(){
 		d=[square,pentagonal,hexagonal,heptagonal,octogonal],
 		index =[0,0,0,0,0,0],
 		arr = [],
-		i = 1,j, bool = true;
+		i = 1,a,b;
 	while(i< d.length){
-		console.log(i,d[i][index[i]]);
+		a = Math.floor(d[i][index[i]]/100);
+		b = Math.floor(d[i-1][index[i-1]]%100;
+		console.log(a);
 		if()
 		i+=1;
 	}
