@@ -45,7 +45,7 @@ function main(){
 		if(i>0){
 			j = parseInt(String(arr[i-1]).slice(2,4),10);
 			while(j !== parseInt(String(arr[i]).slice(0,2),10) && index[i]< d[i].length){
-j = parseInt(String(arr[i-1]).slice(2,4),10);
+				j = parseInt(String(arr[i-1]).slice(2,4),10);
 				index[i] +=1;
 				arr[i]=d[i][index[i]];
 			}
