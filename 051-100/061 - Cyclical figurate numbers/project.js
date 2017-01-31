@@ -33,8 +33,9 @@ function shape() {
 	return array;
 }
 function main(){
-	var arr = shape();
-
+	var arr = shape(),
+		i=0;
+		w
 }
 
 console.log(main(process.argv[2]));
