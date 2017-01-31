@@ -42,7 +42,7 @@ function main(){
 		i = 0,k,a,b,c,d;
 	while(i< list.length){
 		if(index[i] === list[i].length){
-			c
+			console.log(list[i].length)
 			index[i] = 0;
 		}
 		if(i===0){
@@ -50,7 +50,7 @@ function main(){
 			i+=1;
 		} else {
 			if(index[i] >=list[i].length){
-				c
+				console.log()
 				index[i]  = 0;
 				index[i-1] +=1;
 				arr[i-1] =list[i-1][index[i-1]];
