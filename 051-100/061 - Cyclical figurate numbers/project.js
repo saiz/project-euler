@@ -42,7 +42,7 @@ function shape() {
 }
 function find(index,shape) {
 	var num = parseInt(String(index[index.length -1]).slice(2,4),10);
-	if(shape[num] === undefined){
+	if(shape.s[num] === undefined){
 		return	[];
 	}
 	return shape[num];
