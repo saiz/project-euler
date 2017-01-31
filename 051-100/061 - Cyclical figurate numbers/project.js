@@ -59,7 +59,7 @@ function main(){
 				index[i] +=1;
 				i-=1;
 			}
-			if(a!==b){
+			if(a===b){
 				arr[i] =list[i][index[i]];
 				i+=1;
 			}
