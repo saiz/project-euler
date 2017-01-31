@@ -46,7 +46,7 @@ function main(){
 		i = 0;
 		sol[0] = triangle[0];
 	while(i< triangle.length){
-		index(
+		index[i]
 		sol[0] = triangle[i];
 		console.log(sol);
 		i+=1;
