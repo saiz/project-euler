@@ -72,6 +72,7 @@ function main(){
 			index.push(triangle.e[key][i]);
 			while(search(d,index)){
 				arr = find(index,d[i]);
+				if()
 			}
 			i+=1;
 		}
