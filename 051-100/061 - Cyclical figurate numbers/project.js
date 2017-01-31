@@ -23,7 +23,7 @@ function dict(callback){
 
 function shape() {
 	'use strict';
-	array = [];
+	var array = [];
 	array.push( dict(tri));
 	array.push( dict(squ));
 	array.push( dict(pent));
