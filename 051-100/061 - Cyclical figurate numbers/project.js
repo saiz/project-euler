@@ -35,7 +35,9 @@ function shape() {
 function main(){
 	var arr = shape(),
 		i=0;
-	while(i<)
+	while(i<arr.length){
+
+	}
 }
 
 console.log(main(process.argv[2]));
