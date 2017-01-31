@@ -43,7 +43,7 @@ function main(){
 	while(i< d.length){
 		if(i===0){
 			arr[i] =d[i][index[i]];
-			arr[arr.length-1] =d[i][index[i]];
+			arr[arr.length-1] = d[i][index[i]];
 			i+=1;
 		} else{
 			if(index[i] >=d[i].length){
