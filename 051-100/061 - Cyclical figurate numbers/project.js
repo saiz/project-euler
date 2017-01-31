@@ -31,7 +31,7 @@ function shape() {
 }
 function(next(arr,index,d)){
 	var num = parseInt(String(arr[arr.length -1]).slice(2,4),10),
-		i =index(selector/element)
+		i =index[a]
 }
 function main(){
 	var triangle = dict(tri),
