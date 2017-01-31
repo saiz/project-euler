@@ -48,8 +48,8 @@ function main(){
 		hexagonal = dict(hex),
 		heptagonal = dict(hept),
 		octogonal = dict(oct),
-		i=0,j, k;
-	for()
+		i=0,j, k,key;
+	for(key in triangle)
 		console.log(triangle);
 
 }
