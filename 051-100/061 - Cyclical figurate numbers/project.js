@@ -40,7 +40,7 @@ function main(){
 		index =[0,0,0,0,0,0,0],
 		arr = [0,0,0,0,0,0,0],
 		i = 1,a,b;
-	while(i<= d.length){
+	while(i< d.length){
 		if(i===0){
 			arr[i] =d[i][index[i]];
 			arr[arr.length-1] = d[i][index[i]];
