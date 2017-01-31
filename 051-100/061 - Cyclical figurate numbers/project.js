@@ -52,10 +52,13 @@ function main(){
 			}
 			b = Math.floor(list[i][index[i]]/100);
 			a = list[i-1][index[i-1]]%100;
-			c = Math.floor(list[i-1][index[i-1]]/100);
+			c = Math.floor(list[i][index[i]]/100);
 			d = list[i-1][index[i-1]]%100;
 			console.log(list[i-1][index[i-1]],list[i][index[i]]);
 			console.log(a,b);
+			if(i===index.length){
+				if()
+			}
 			if(a!==b){
 				index[i] +=1;
 				i-=1;
