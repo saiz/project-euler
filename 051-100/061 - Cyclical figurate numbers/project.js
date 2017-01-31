@@ -41,7 +41,10 @@ function main(){
 		arr = [],
 		i = 1,a,b;
 	while(i< d.length){
-		if()
+		if(index[i] >=d[i].length){
+			index[i]  = 0;
+			index[i-1] +=1;
+		}
 		b = Math.floor(d[i][index[i]]/100);
 		a = d[i-1][index[i-1]]%100;
 		if(a!==b){
