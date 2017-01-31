@@ -46,7 +46,7 @@ function find(index,shape) {
 	if(shape.s[num] === undefined){
 		return	[];
 	}
-	return shape[num];
+	return shape.s[num];
 }
 function main(){
 	var triangle = dict(tri),
