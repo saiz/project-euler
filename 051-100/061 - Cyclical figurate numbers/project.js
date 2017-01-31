@@ -39,7 +39,7 @@ function main(){
 		list=[square,pentagonal,hexagonal,heptagonal,octogonal],
 		index =[0,0,0,0,0,0],
 		arr = [],
-		i = 1,a,b,c,d;
+		i = 1,k,a,b,c,d;
 	while(i< list.length){
 		if(i===0){
 			arr[i] =list[i][index[i]];
@@ -70,9 +70,9 @@ function main(){
 				}
 				if(index[index.length -1] >= list[list.length -1].length){
 					index[0]+=1;
-				// if(index[index.length -1] >= list[list.length -1].length){
-				// 	index[0]+=1;
-				// 	i=0;
+					for(k=1;k<index.length;k+=1){
+						index[k] = 0;
+					}
 				}
 			}
 		}
