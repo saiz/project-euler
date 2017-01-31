@@ -45,11 +45,11 @@ function main(){
 		if(i>0){
 			j = parseInt(String(arr[i-1]).slice(2,4),10);
 			while(index[i] < d[i].length){
-				console.log(parseInt(String(arr[index[i]]).slice(0,2),10));
-				if(j === parseInt(String(arr[index[i]]).slice(0,2),10)){
-					arr[i]=d[i][index[i]];
-					console.log(arr[i]);
-				}
+				console.log(parseInt(String(d[i][index[i]]).slice(0,2),10));
+				// if(j === parseInt(String(arr[z]).slice(0,2),10)){
+				// 	arr[i]=d[i][index[i]];
+				// 	console.log(arr[i]);
+				// }
 				index[i] +=1;
 			}
 		}
