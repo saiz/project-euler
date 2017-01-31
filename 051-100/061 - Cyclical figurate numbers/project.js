@@ -59,6 +59,7 @@ function main(){
 				index[i] +=1;
 			}
 		}
+		console.log(i);
 		i+=1;
 	}
 	console.log(arr);
