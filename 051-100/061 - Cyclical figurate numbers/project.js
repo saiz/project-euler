@@ -43,7 +43,7 @@ function main(){
 	while(i< d.length){
 		arr[i]=d[i][index[i]];
 		if(i>0){
-			j = parseInt(String(arr[i-1]).slice(2,4),10);
+			j = parseInt(arr[i-1]%100,10);
 			while(j !== parseInt(String(arr[i]).slice(0,2),10) && index[i]< d[i].length){
 				console.log(j);
 				index[i] +=1;
