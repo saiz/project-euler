@@ -1,9 +1,9 @@
-function tri(n){ return n*(n+1)/2;}
-function squ(n){ return n*n;}
-function pent(n){ return n*(3*n-1)/2;}
-function hex(n){ return n*(2*n-1);}
-function hept(n){ return n*(5*n-3)/2;}
-function oct(n){ return n*(3*n-2);}
+function tri(n){ return n*(n+1)/2;} //3
+function squ(n){ return n*n;} //4
+function pent(n){ return n*(3*n-1)/2;} //5
+function hex(n){ return n*(2*n-1);} //6
+function hept(n){ return n*(5*n-3)/2;} //7
+function oct(n){ return n*(3*n-2);} //8
 function dict(callback){
 	var i =0,
 		obj = {},
@@ -20,6 +20,7 @@ function dict(callback){
 	}
 	return obj;
 }
+
 function main() {
 	'use strict';
 	array = [];
