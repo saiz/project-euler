@@ -49,6 +49,7 @@ function main(){
 				index[i]  = 0;
 				index[i-1] +=1;
 				arr[i-1] =list[i-1][index[i-1]];
+				delete arr[i];
 			}
 			b = Math.floor(list[i][index[i]]/100);
 			a = list[i-1][index[i-1]]%100;
