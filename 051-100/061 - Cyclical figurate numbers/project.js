@@ -39,14 +39,15 @@ function main(){
 		d=[square,pentagonal,hexagonal,heptagonal,octogonal],
 		index =[ 0,0,0,0,0,0],
 		arr = [],
-		i = 0,j;
+		i = 0,j, bool = true;
 	while(i< d.length){
 		arr[i]=d[i][index[i]];
 		if(i>0){
 			j = parseInt(String(arr[i-1]).slice(2,4),10);
-			while(index[i]< d[i].length && bool){
-				arr[i]=d[i][index[i]];
-				j = parseInt(String(arr[i-1]).slice(2,4),10);
+			while(index[i]< d[i].length){}
+				if(j === parseInt(String(arr[i]).slice(0,2),10)){
+
+				}
 				index[i] +=1;
 			}
 			console.log(j)
