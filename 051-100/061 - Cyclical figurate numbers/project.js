@@ -36,7 +36,8 @@ function main(){
 	var arr = shape(),
 		i=0;
 	while(i<arr.length){
-
+con
+		i+=0;
 	}
 }
 
