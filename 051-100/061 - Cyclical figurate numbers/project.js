@@ -52,7 +52,7 @@ function main(){
 			}
 			b = Math.floor(list[i][index[i]]/100);
 			a = list[i-1][index[i-1]]%100;
-			c = Math.floor(d[i-1][index[i-1]]/100);
+			c = Math.floor(list[i-1][index[i-1]]/100);
 			d = list[i-1][index[i-1]]%100;
 			console.log(list[i-1][index[i-1]],list[i][index[i]]);
 			console.log(a,b);
