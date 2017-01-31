@@ -74,6 +74,7 @@ function main(){
 			if(square.s[str] !== undefined){
 				console.log(square.s[str])
 			}
+i+=1;
 		}
 		//console.log(triangle);
 	}
