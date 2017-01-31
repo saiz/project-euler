@@ -35,7 +35,10 @@ function main(){
 		pentagonal = dict(pent),
 		hexagonal = dict(hex),
 		heptagonal = dict(hept),
-		octogonal = dict(oct);
+		octogonal = dict(oct),
+		index =[ 0,0,0,0,0,0],
+		sol = [ 0,0,0,0,0,0],
+		sol = triangle[0];
 	console.log(triangle);
 
 }
