@@ -6,23 +6,12 @@ function hept(n){ return n*(5*n-3)/2;} //7
 function oct(n){ return n*(3*n-2);} //8
 function dict(callback){
 	var i =0,
-		obj = {s:{},e:{}},
+		obj = []
 		n = 0;
 	while(String(n).length <=4){
 		n = callback(i);
 		if(String(n).length === 4 ){
-			if(obj['e'][String(n).slice(2,4)] === undefined && parseInt(String(n).slice(2,4),10) >=10){
-				obj['e'][String(n).slice(2,4)] = [];
-			}
-			if(parseInt(String(n).slice(2,4),10) >=10){
-				obj['e'][String(n).slice(2,4)].push(callback(i));
-			}
-			if(obj['s'][String(n).slice(0,2)] === undefined && parseInt(String(n).slice(0,2),10) >=10){
-				obj['s'][String(n).slice(0,2)] = [];
-			}
-			if(parseInt(String(n).slice(0,2),10) >=10){
-				obj['s'][String(n).slice(0,2)].push(callback(i));
-			}
+			obj.push(n);
 		}
 		i+=1;
 	}
