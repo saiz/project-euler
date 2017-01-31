@@ -71,7 +71,7 @@ function main(){
 			index = [];
 			index.push(triangle.e[key][i]);
 			while(search(d,index)){
-
+				var
 			}
 			i+=1;
 		}
