@@ -42,7 +42,7 @@ function main(){
 		i = 0;
 	while(i< d.length){
 		arr[i]=d[i][index[i]];
-
+if(i)
 		i+=1;
 	}
 	console.log(arr);
