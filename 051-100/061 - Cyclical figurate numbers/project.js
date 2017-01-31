@@ -52,6 +52,7 @@ function main(){
 		console.log(a,b);
 		if(a!==b){
 			index[i] +=1;
+			i-=1;
 		} else{
 			arr[i] =d[i][index[i]];
 			i+=1;
