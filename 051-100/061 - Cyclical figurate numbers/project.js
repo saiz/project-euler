@@ -37,7 +37,7 @@ function main(){
 		heptagonal = dict(hept),
 		octogonal = dict(oct),
 		index =[ 0,0,0,0,0,0],
-		sol = [ 0,0,0,0,0,0],
+		sol = [ 0,0,0,0,0,0];
 		sol[0] = triangle[0];
 	console.log(sol);
 
