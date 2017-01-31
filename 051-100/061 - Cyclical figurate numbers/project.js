@@ -36,10 +36,7 @@ function main(){
 		hexagonal = dict(hex),
 		heptagonal = dict(hept),
 		octogonal = dict(oct);
-	for(key in triangle.e){
-
-		//console.log(triangle);
-	}
+	console.log(triangle);
 
 }
 
