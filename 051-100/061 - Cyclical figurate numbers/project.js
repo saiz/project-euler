@@ -54,8 +54,8 @@ function search(d,index,j){
 	}
 	return false;
 }
-function test(index,shape){
-	var str = parseInt(String(index[index.length -1]).slice(2,4),10);
+function test(array,shape){
+	var str = parseInt(String(array[array.length -1]).slice(2,4),10);
 	if(shape.s[str] !== undefined){
 		return shape.s[str];
 	}
@@ -69,15 +69,16 @@ function main(){
 		heptagonal = dict(hept),
 		octogonal = dict(oct),
 		d = [square,pentagonal,hexagonal,heptagonal,octogonal],
-		i=0,j, k,key, index, arr, str;
+		i=0,j, k,key, index, array, str;
 	for(key in triangle.e){
 		i =0;
 		while(i <triangle.e[key].length){
-			index = [];
-			index.push(triangle.e[key][i]);
+			array = [];
+			array.push(triangle.e[key][i]);
 			j=0;
-			while(j <test(index,square)){
-
+			index = 1;
+			while(j <test(array,square)){
+				array[index] = test(array,square)[j];
 				j+=1;
 			}
 			i+=1;
