@@ -34,7 +34,7 @@ function shape() {
 }
 function main(){
 	var arr = shape();
-	for()
+
 }
 
 console.log(main(process.argv[2]));
