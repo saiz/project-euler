@@ -64,6 +64,7 @@ function main(){
 				i+=1;
 			}
 			if(i === index.length){
+				console.log('adasd');
 				if(c!==d){
 					index[i] +=1;
 					i-=1;
