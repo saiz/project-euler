@@ -38,8 +38,8 @@ function main(){
 	while(i<arr.length){
 		console.log(arr[i]);
 		j=0;
-		while(j<arr[i].length){
-			j+=1;
+		for (j in arr[i]) {
+			(arr[j])
 		}
 		i+=1;
 	}
