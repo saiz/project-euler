@@ -54,6 +54,7 @@ function main(){
 		console.log(a,b);
 		//if()
 		if(a===b){
+arr[]
 			i+=1;
 		}
 	}
