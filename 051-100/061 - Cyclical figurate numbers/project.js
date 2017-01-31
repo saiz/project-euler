@@ -54,7 +54,7 @@ function main(){
 		while(i <triangle[key].length){
 			index = [];
 			index.push(triangle[key][i]);
-			c(find(index,square));
+			console.log(find(index,square));
 			i+=1;
 		}
 		//console.log(triangle);
