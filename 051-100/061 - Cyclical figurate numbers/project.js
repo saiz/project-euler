@@ -46,16 +46,19 @@ function main(){
 			index[i-1] +=1;
 			arr[i-1] =d[i-1][index[i-1]];
 		}
-		b = Math.floor(d[i][index[i]]/100);
-		a = d[i-1][index[i-1]]%100;
-		console.log(d[i-1][index[i-1]],d[i][index[i]]);
-		console.log(a,b);
-		if(a!==b){
-			index[i] +=1;
-			i-=1;
-		} else{
-			arr[i] =d[i][index[i]];
-			i+=1;
+		if(i==0){
+		} e
+			b = Math.floor(d[i][index[i]]/100);
+			a = d[i-1][index[i-1]]%100;
+			console.log(d[i-1][index[i-1]],d[i][index[i]]);
+			console.log(a,b);
+			if(a!==b){
+				index[i] +=1;
+				i-=1;
+			} else{
+				arr[i] =d[i][index[i]];
+				i+=1;
+			}
 		}
 	}
 	console.log(arr);
