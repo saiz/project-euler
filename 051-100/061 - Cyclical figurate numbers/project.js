@@ -63,7 +63,9 @@ function main(){
 			index = [];
 			index.push(triangle.e[key][i]);
 			console.log(index)
-			console.log(find(index,square));
+			if(find(index,square).length >0){
+				console.log(find(index,square))
+			}
 			i+=1;
 		}
 		//console.log(triangle);
