@@ -37,7 +37,7 @@ function main(){
 		heptagonal = dict(hept),
 		octogonal = dict(oct),
 		d=[square,pentagonal,hexagonal,heptagonal,octogonal],
-		index =[0,0,0,],
+		index =[0,0,0,0,0,0],
 		arr = [],
 		i = 1,j, bool = true;
 	while(i< d.length){
