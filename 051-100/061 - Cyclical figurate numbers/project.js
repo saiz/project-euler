@@ -45,6 +45,9 @@ function main(){
 			arr[i] =list[i][index[i]];
 			i+=1;
 		} else {
+			if(index[i] === undefined){
+				index[i] = 0;
+			}
 			if(index[i] >=list[i].length){
 				index[i-1] +=1;
 				arr[i-1] =list[i-1][index[i-1]];
