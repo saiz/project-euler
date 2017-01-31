@@ -46,7 +46,7 @@ function main(){
 			i+=1;
 		} else {
 			if(index[i] === undefined){
-				index[i] = 0;
+				index.push(0)
 			}
 			if(index[i] >=list[i].length){
 				index[i-1] +=1;
