@@ -8,6 +8,7 @@ function dict(callback){
 	var i =0,
 		obj = {s:undefined,e:undefined},
 		n = 0;
+		console.log(obj)
 	while(String(n).length <=4){
 		n = callback(i);
 		if(String(n).length === 4 ){
