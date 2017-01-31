@@ -12,7 +12,7 @@ function dict(callback){
 		n = callback(i);
 		if(String(n).length === 4 ){
 			if(obj['e'][String(n).slice(2,4)] === undefined && parseInt(String(n).slice(2,4),10) >=10){
-				obj[String(n).slice(2,4)] = [];
+				obj['e'][String(n).slice(2,4)] = [];
 			}
 			if(parseInt(String(n).slice(2,4),10) >=10){
 				obj[String(n).slice(2,4)].push(callback(i));
