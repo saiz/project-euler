@@ -39,7 +39,7 @@ function main(){
 		console.log(arr[i]);
 		j=0;
 		while(j<arr.length){
-
+}
 		i+=1;
 	}
 }
