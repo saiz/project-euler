@@ -50,7 +50,6 @@ function main(){
 				}
 				index[i] +=1;
 			}
-			console.log(j)
 		}
 		i+=1;
 	}
