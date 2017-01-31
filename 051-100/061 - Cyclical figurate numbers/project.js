@@ -66,10 +66,10 @@ function main(){
 			if(i === list.length){
 				console.log('adasd');
 				console.log(c,d);
-				// if(c!==d){
-				// 	index[i] +=1;
-				// 	i-=1;
-				// }
+				if(c!==d){
+					index[i] +=1;
+					i-=1;
+				}
 				// if(index[index.length -1] >= list[list.length -1].length){
 				// 	index[0]+=1;
 				// 	i=0;
