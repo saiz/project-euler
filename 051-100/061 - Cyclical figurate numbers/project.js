@@ -38,7 +38,7 @@ function main(){
 		pentagonal = dict(pent),
 		hexagonal = dict(hex),
 		heptagonal = dict(hept),
-		octogonal = dit(oct),
+		octogonal = dict(oct),
 		i=0,j, k;
 		console.log(triangle);
 
