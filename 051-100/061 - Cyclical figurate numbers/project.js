@@ -21,7 +21,7 @@ function dict(callback){
 	return obj;
 }
 
-function main() {
+function shape() {
 	'use strict';
 	array = [];
 	array.push( dict(tri));
@@ -31,6 +31,10 @@ function main() {
 	array.push( dict(hept));
 	array.push( dict(oct));
 	return array;
+}
+function main(){
+	var arr = shape();
+	for()
 }
 
 console.log(main(process.argv[2]));
