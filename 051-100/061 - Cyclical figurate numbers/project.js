@@ -52,8 +52,9 @@ function find(index,shape) {
 function search(d,index){
 	var i = index.length -1;
 	if(find(index,d[i]).length >0){
-
+		return true;
 	}
+	return false;
 }
 function main(){
 	var triangle = dict(tri),
