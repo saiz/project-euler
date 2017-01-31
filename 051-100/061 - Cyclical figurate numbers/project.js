@@ -37,7 +37,7 @@ function main(){
 		heptagonal = dict(hept),
 		octogonal = dict(oct),
 		list=[triangle,square,pentagonal,hexagonal,heptagonal,octogonal],
-		index =[0,0,0,0,0,0],
+		index =[0],
 		arr = [],
 		i = 0,k,a,b,c,d;
 	while(i< list.length){
@@ -46,10 +46,9 @@ function main(){
 			i+=1;
 		} else {
 			if(index[i] >=list[i].length){
-				index[i]  = 0;
 				index[i-1] +=1;
 				arr[i-1] =list[i-1][index[i-1]];
-				arr.splice(-1,1);
+				index.splice(-1,1);
 			}
 			b = Math.floor(list[i][index[i]]/100);
 			a = list[i-1][index[i-1]]%100;
