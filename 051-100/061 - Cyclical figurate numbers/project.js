@@ -55,16 +55,7 @@ function main(){
 		heptagonal = dict(hept),
 		octogonal = dict(oct),
 		i=0,j, k,key, index;
-	for(key in triangle){
-		i =0;
-		while(i <triangle[key].length){
-			index = [];
-			index.push(triangle[key][i]);
-			console.log(find(index,square));
-			i+=1;
-		}
-		//console.log(triangle);
-	}
+	console.log(triangle)
 
 }
 
