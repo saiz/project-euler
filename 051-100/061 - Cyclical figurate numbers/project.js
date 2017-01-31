@@ -63,7 +63,7 @@ function main(){
 				arr[i] = list[i][index[i]];
 				i+=1;
 			}
-			if(i === index.length){
+			if(i === list.length){
 				console.log('adasd');
 				if(c!==d){
 					index[i] +=1;
