@@ -70,8 +70,8 @@ function main(){
 		while(i <triangle.e[key].length){
 			index = [];
 			index.push(triangle.e[key][i]);
-			if(find(index,square).length >0){
-				console.log(find(index,square))
+			while(search(d,index)){
+
 			}
 			i+=1;
 		}
