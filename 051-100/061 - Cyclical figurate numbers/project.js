@@ -42,14 +42,14 @@ function main(){
 		d=[square,pentagonal,hexagonal,heptagonal,octogonal],
 		octogonal = dict(oct),
 		index =[ 0,0,0,0,0,0],
-		arr = []
+		arr = [],
 		i = 0;
 		sol[0] = triangle[0];
 	while(i< d.length){
 		arr[i].push(d[index[i]]);
 		i+=1;
 	}
-	console.log(array)
+	console.log(arr);
 
 }
 
