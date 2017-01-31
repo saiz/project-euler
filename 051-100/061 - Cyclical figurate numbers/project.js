@@ -41,16 +41,15 @@ function main(){
 		heptagonal = dict(hept),
 		d=[square,pentagonal,hexagonal,heptagonal,octogonal],
 		octogonal = dict(oct),
-		index =[ 0],
-		sol = [ 0],
+		index =[ 0,0,0,0,0,0],
+		arr = []
 		i = 0;
 		sol[0] = triangle[0];
-	while(i< triangle.length){
-		index[0]
-		sol[0] = triangle[i];
-		console.log(sol);
+	while(i< d.length){
+		arr[i].push(d[index[i]]);
 		i+=1;
 	}
+	c
 
 }
 
