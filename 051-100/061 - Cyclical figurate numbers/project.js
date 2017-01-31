@@ -22,8 +22,10 @@ function dict(callback){
 }
 function main() {
 	'use strict';
-	var i = dict(tri);
-	console.log(tri(i[10][0]));
+	var i = dict(tri),
+	array = [];
+	array.push(tri(i[10][0]));
+	array.push(tri(i[10][0]));
 	return i;
 }
 
