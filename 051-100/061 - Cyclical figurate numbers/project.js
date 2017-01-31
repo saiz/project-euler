@@ -49,7 +49,7 @@ function find(index,shape) {
 	}
 	return shape.s[num];
 }
-function search(d,index){
+function search(d,index,j){
 	var i = index.length -1;
 	if(find(index,d[i]).length >0){
 		return true;
@@ -64,17 +64,16 @@ function main(){
 		heptagonal = dict(hept),
 		octogonal = dict(oct),
 		d = [square,pentagonal,hexagonal,heptagonal,octogonal],
-		i=0,j, k,key, index, arr;
+		i=0,j, k,key, index, arr, str;
 	for(key in triangle.e){
 		i =0;
 		while(i <triangle.e[key].length){
 			index = [];
 			index.push(triangle.e[key][i]);
-			while(search(d,index)){
-				arr = find(index,d[i]);
-				if()
+			str = parseInt(index[index.length -1].slice(2,4),10);
+			if(square.s[str] !== undefined){
+				console.log(square.s[str])
 			}
-			i+=1;
 		}
 		//console.log(triangle);
 	}
