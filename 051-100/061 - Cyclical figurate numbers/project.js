@@ -37,12 +37,13 @@ function main(){
 		heptagonal = dict(hept),
 		octogonal = dict(oct),
 		d=[square,pentagonal,hexagonal,heptagonal,octogonal],
-		index =[ 0,0,0,0,0,0],
+		index =[],
 		arr = [],
 		i = 1,j, bool = true;
 		arr[i]=d[i][index[i]];
 	while(i< d.length){
 		console.log(i,index[i]);
+		index[i] = 0;
 		arr[i]=d[i][index[i]];
 		bool = true;
 		j = parseInt(String(arr[i-1]).slice(2,4),10);
