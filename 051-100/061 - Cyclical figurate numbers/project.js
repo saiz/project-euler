@@ -36,7 +36,7 @@ function shape() {
 }
 function find(index) {
 	var num = parseInt(String(index[index.length -1]).slice(2,4),10);
-	IF
+	if()
 }
 function main(){
 	var triangle = dict(tri),
