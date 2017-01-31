@@ -70,7 +70,7 @@ function main(){
 		while(i <triangle.e[key].length){
 			index = [];
 			index.push(triangle.e[key][i]);
-			str = parseInt(index[index.length -1].slice(2,4),10);
+			str = parseInt(String(index[index.length -1]).slice(2,4),10);
 			if(square.s[str] !== undefined){
 				console.log(square.s[str])
 			}
