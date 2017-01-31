@@ -24,9 +24,13 @@ function main() {
 	'use strict';
 	var i = dict(tri),
 	array = [];
-	array.push(tri(i[10][0]));
-	array.push(tri(i[10][0]));
-	return i;
+	array.push( dict(tri));
+	array.push( dict(squ));
+	array.push( dict(pent));
+	array.push( dict(hex));
+	array.push( dict(hept));
+	array.push( dict(oct));
+	return array;
 }
 
 console.log(main(process.argv[2]));
