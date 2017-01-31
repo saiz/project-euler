@@ -68,14 +68,14 @@ function main(){
 					i-=1;
 					index[i] +=1;
 				}
-				if(index[i] >=list[i].length){
-					index[0]  = 0;
-					for(k=1;k<index.length;k+=1){
-						index[k] = 0;
-					}
-					arr = []
-					i = 0;
-				}
+				// if(index[i] >=list[i].length){
+				// 	index[0]  = 0;
+				// 	for(k=1;k<index.length;k+=1){
+				// 		index[k] = 0;
+				// 	}
+				// 	arr = []
+				// 	i = 0;
+				// }
 			}
 		}
 	}
