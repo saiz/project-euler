@@ -55,7 +55,7 @@ function main(){
 		heptagonal = dict(hept),
 		octogonal = dict(oct),
 		i=0,j, k,key, index;
-	console.log(triangle)
+	console.log(triangle);
 	for(key in triangle.e){
 		i =0;
 		while(i <triangle.e[key].length){
