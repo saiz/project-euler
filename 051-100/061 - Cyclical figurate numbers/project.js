@@ -44,9 +44,9 @@ function main(){
 	while(i< d.length){
 		console.log(i,index[i]);
 		arr[i]=d[i][index[i]];
+		bool = true;
 		if(i>0){
 			j = parseInt(String(arr[i-1]).slice(2,4),10);
-			bool = true;
 			while(index[i] < d[i].length){
 				if(j === parseInt(String(d[i][index[i]]).slice(0,2),10)){
 					arr[i]=d[i][index[i]];
@@ -61,7 +61,9 @@ function main(){
 				index[i] +=1;
 			}
 		}
-		i+=1;
+		if(!bool){
+			i+=1;
+		}
 	}
 	console.log(arr);
 
