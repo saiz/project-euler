@@ -47,6 +47,7 @@ function main(){
 			while(index[i]< d[i].length){
 				if(j === parseInt(String(arr[i]).slice(0,2),10)){
 					arr[i]=d[i][index[i]];
+					console.log(j)
 				}
 				index[i] +=1;
 			}
