@@ -49,7 +49,7 @@ function main(){
 		arr[i].push(d[index[i]]);
 		i+=1;
 	}
-	c
+	console.log(array)
 
 }
 
