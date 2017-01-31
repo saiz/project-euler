@@ -34,6 +34,10 @@ function shape() {
 	array.push( dict(oct));
 	return array;
 }
+function find(index) {
+	var num = parseInt(String(index[index.length -1]).slice(2,4),10);
+
+}
 function main(){
 	var triangle = dict(tri),
 		square = dict(squ),
@@ -45,5 +49,6 @@ function main(){
 		console.log(triangle);
 
 }
+
 
 console.log(main(process.argv[2]));
