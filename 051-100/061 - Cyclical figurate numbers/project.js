@@ -22,7 +22,7 @@ function dict(callback){
 				obj['s'][String(n).slice(0,2)] = [];
 			}
 			if(parseInt(String(n).slice(0,2),10) >=10){
-				obj.s[String(n).slice(0,2)].push(callback(i));
+				obj['s'][String(n).slice(0,2)].push(callback(i));
 			}
 		}
 		i+=1;
