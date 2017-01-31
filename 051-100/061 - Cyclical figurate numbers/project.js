@@ -37,17 +37,17 @@ function main(){
 		heptagonal = dict(hept),
 		octogonal = dict(oct),
 		list=[triangle,square,pentagonal,hexagonal,heptagonal,octogonal],
-		index =[0],
+		index =[],
 		arr = [],
 		i = 0,k,a,b,c,d;
 	while(i< list.length){
+		if(i === index.length){
+			index.push(0)
+		}
 		if(i===0){
 			arr[i] =list[i][index[i]];
 			i+=1;
 		} else {
-			if(i === index.length){
-				index.push(0)
-			}
 			if(index[i] >=list[i].length){
 				index[i-1] +=1;
 				arr[i-1] =list[i-1][index[i-1]];
