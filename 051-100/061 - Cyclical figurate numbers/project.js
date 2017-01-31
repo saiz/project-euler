@@ -44,12 +44,6 @@ function main(){
 		if(i===0){
 			arr[i] =d[i][index[i]];
 			i+=1;
-		} else if(i === index.length -1){
-			if(index[i] >=d[i].length){
-				index[i]  = 0;
-				index[i-1] +=1;
-				arr[i-1] =d[i-1][index[i-1]];
-			}
 		} else{
 			if(index[i] >=d[i].length){
 				index[i]  = 0;
