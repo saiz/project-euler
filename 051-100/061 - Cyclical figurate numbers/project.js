@@ -37,6 +37,7 @@ function main(){
 		i=0;
 	while(i<arr.length){
 		console.log(arr[i]);
+		whilei<arr.length){
 		i+=1;
 	}
 }
