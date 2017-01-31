@@ -43,7 +43,7 @@ function main(){
 	while(i< d.length){
 		b = Math.floor(d[i][index[i]]/100);
 		a = d[i-1][index[i-1]]%100;
-		console.log(,d[i-1][index[i-1]]);
+		console.log(d[i-1][index[i-1]],d[i][index[i]]);
 		console.log(a,b);
 		//if()
 		i+=1;
