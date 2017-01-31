@@ -65,10 +65,10 @@ function main(){
 				i+=1;
 			}
 			if(i === list.length){
-				if(c!==d){
-					i-=1;
-					index[i] +=1;
-				}
+				// if(c!==d){
+				// 	i-=1;
+				// 	index[i] +=1;
+				// }
 				// if(index[i] >=list[i].length){
 				// 	index[0]  = 0;
 				// 	for(k=1;k<index.length;k+=1){
