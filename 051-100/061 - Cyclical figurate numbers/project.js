@@ -64,14 +64,14 @@ function main(){
 		heptagonal = dict(hept),
 		octogonal = dict(oct),
 		d = [square,pentagonal,hexagonal,heptagonal,octogonal],
-		i=0,j, k,key, index;
+		i=0,j, k,key, index, arr
 	for(key in triangle.e){
 		i =0;
 		while(i <triangle.e[key].length){
 			index = [];
 			index.push(triangle.e[key][i]);
 			while(search(d,index)){
-				var
+				arr = find(index,d[i]);
 			}
 			i+=1;
 		}
