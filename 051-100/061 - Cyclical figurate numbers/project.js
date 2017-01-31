@@ -40,7 +40,7 @@ function main(){
 		heptagonal = dict(hept),
 		octogonal = dit(oct),
 		i=0,j, k;
-		console.
+		console.log(tri)
 
 }
 
