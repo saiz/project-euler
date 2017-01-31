@@ -51,7 +51,7 @@ function main(){
 		i=0,j, k,key;
 	for(key in triangle){
 		i =0;
-		while(i <$.trim('string'))
+		while(i <triangle[])
 		console.log(triangle);
 	}
 
