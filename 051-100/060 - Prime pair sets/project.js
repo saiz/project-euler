@@ -78,7 +78,7 @@ function main() {
 			}
 		}
 		if(index.length >=length){
-			matrix.push(index.slice(0).sort())
+			matrix.push(index.slice(0).sort());
 		}
 	}
 	i=0;
@@ -91,7 +91,6 @@ function main() {
 		i+=1;
 
 	}
-	//console.log(reversibly_prime(prime[1],prime[3]));
 	return sum;
 }
 
