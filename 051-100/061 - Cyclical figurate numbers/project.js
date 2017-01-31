@@ -56,11 +56,6 @@ function main(){
 			d = Math.floor(list[0][index[0]]/100);
 			console.log(list[i-1][index[i-1]],list[i][index[i]]);
 			console.log(a,b);
-			if(i===index.length ){
-				if(c !== d){
-
-				}
-			}
 			if(a!==b){
 				index[i] +=1;
 				i-=1;
