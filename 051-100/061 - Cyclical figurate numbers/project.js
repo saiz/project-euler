@@ -52,7 +52,7 @@ function main(){
 	for(key in triangle){
 		i =0;
 		while(i <triangle[key].length){
-
+console.log()
 			i+=1;
 		}
 		console.log(triangle);
