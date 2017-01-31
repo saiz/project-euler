@@ -39,6 +39,7 @@ function main(){
 		index =[ 0,0,0,0,0,0],
 		sol = [ 0,0,0,0,0,0];
 		sol[0] = triangle[0];
+for()
 	console.log(sol);
 
 }
