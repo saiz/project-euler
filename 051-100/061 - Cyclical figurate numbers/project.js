@@ -41,14 +41,14 @@ function main(){
 		arr = [],
 		i = 1,a,b;
 	while(i< d.length){
-		if(index[i] >=d[i].length){
+		if(i==0){
+
+		} else{
+if(index[i] >=d[i].length){
 			index[i]  = 0;
 			index[i-1] +=1;
 			arr[i-1] =d[i-1][index[i-1]];
 		}
-		if(i==0){
-
-		} else{
 			b = Math.floor(d[i][index[i]]/100);
 			a = d[i-1][index[i-1]]%100;
 			console.log(d[i-1][index[i-1]],d[i][index[i]]);
