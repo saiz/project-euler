@@ -56,6 +56,16 @@ function main(){
 		octogonal = dict(oct),
 		i=0,j, k,key, index;
 	console.log(triangle)
+	for(key in triangle.s){
+		i =0;
+		while(i <triangle.s[key].length){
+			index = [];
+			index.push(triangle.s[key][i]);
+			console.log(find(index,square));
+			i+=1;
+		}
+		//console.log(triangle);
+	}
 
 }
 
