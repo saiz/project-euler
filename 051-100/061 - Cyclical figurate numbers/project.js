@@ -54,6 +54,13 @@ function search(d,index,j){
 	}
 	return false;
 }
+function test(index,shape){
+	var str = parseInt(String(index[index.length -1]).slice(2,4),10);
+	if(shape.s[str] !== undefined){
+		return shape.s[str];
+	}
+	return [];
+}
 function main(){
 	var triangle = dict(tri),
 		square = dict(squ),
@@ -68,10 +75,10 @@ function main(){
 		while(i <triangle.e[key].length){
 			index = [];
 			index.push(triangle.e[key][i]);
-			str = parseInt(String(index[index.length -1]).slice(2,4),10);
-			if(square.s[str] !== undefined){
-				console.log(square.s[str]);
+			j=0;
+			while(j <test(index,square)){
 
+				j+=1;
 			}
 			i+=1;
 		}
