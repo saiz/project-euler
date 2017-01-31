@@ -42,6 +42,7 @@ function main(){
 		i = 1,j, bool = true;
 	while(i< d.length){
 		console.log(i,d[i][index[i]]);
+		if()
 		i+=1;
 	}
 	console.log(arr);
