@@ -71,13 +71,6 @@ function main(){
 					i-=1;
 					index[i] +=1;
 				}
-				// if(index[index.length -1] >=list[index.length -1].length){
-				// 	index[0]+=1;
-				// 	i=0;
-				// 	for(k=1;k<index.length;k+=1){
-				// 		index[k] = 0;
-				// 	}
-				// }
 			}
 		}
 	}
