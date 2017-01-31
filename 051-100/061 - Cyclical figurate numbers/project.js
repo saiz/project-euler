@@ -54,7 +54,7 @@ function main(){
 		console.log(a,b);
 		//if()
 		if(a===b){
-arr[]
+arr[i-1] =
 			i+=1;
 		}
 	}
