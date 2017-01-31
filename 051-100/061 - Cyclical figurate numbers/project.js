@@ -36,29 +36,31 @@ function main(){
 		hexagonal = dict(hex),
 		heptagonal = dict(hept),
 		octogonal = dict(oct),
-		d=[square,pentagonal,hexagonal,heptagonal,octogonal,triangle],
+		list=[square,pentagonal,hexagonal,heptagonal,octogonal,triangle],
 		index =[0,0,0,0,0,0,0],
 		arr = [],
-		i = 1,a,b;
-	while(i< d.length){
+		i = 1,a,b,c,d;
+	while(i< list.length){
 		if(i===0){
-			arr[i] =d[i][index[i]];
+			arr[i] =list[i][index[i]];
 			i+=1;
 		} else{
-			if(index[i] >=d[i].length){
+			if(index[i] >=list[i].length){
 				index[i]  = 0;
 				index[i-1] +=1;
-				arr[i-1] =d[i-1][index[i-1]];
+				arr[i-1] =list[i-1][index[i-1]];
 			}
-			b = Math.floor(d[i][index[i]]/100);
-			a = d[i-1][index[i-1]]%100;
-			console.log(d[i-1][index[i-1]],d[i][index[i]]);
+			b = Math.floor(list[i][index[i]]/100);
+			a = list[i-1][index[i-1]]%100;
+			c = Math.floor(d[i-1][index[i-1]]/100);
+			d = list[i-1][index[i-1]]%100;
+			console.log(list[i-1][index[i-1]],list[i][index[i]]);
 			console.log(a,b);
 			if(a!==b){
 				index[i] +=1;
 				i-=1;
 			} else{
-				arr[i] =d[i][index[i]];
+				arr[i] =list[i][index[i]];
 				i+=1;
 			}
 		}
