@@ -72,7 +72,7 @@ function main(){
 		index =[0,0,0,0,0,0],
 		arr = [],
 		i = 0,k,a,b,c,d,
-		bool = true;
+		bool = true, booltemp;
 	while(bool){
 		if(i===0){
 			arr[i] =list[i][index[i]];
@@ -110,7 +110,15 @@ function main(){
 				}
 			}
 		}
-		if(index[0] === list[0].length -1){
+		booltemp = true;
+		k = 0;
+		while(k < index.length && booltemp){
+			if(index[k] !== list[k].length -1){
+				booltemp = false;
+			}
+			k+=1;
+		}
+		if(booltemp){
 			bool = false;
 		}
 		console.log(arr);
