@@ -46,9 +46,9 @@ function main() {
 			//console.log(i,index);
 			while(nextPerm(index)){
 				console.log(index,i);
-				// for(k=0;k<index.length;k+=1){
-				// 	str.push(String(i)[index[k]]);
-				// }
+				for(k=0;k<index.length;k+=1){
+					str.push(String(i)[index[k]]);
+				}
 			}
 			str.join('');
 			str = parseInt(str,10);
