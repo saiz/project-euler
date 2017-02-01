@@ -32,7 +32,7 @@ function main() {
 	while(bool){
 		j=Math.cbrt(i);
 		if(j%1 === 0){
-			r
+
 			index =[];
 			for(k=0;k<String(j).length;k+=1){
 				index[k]=k;
