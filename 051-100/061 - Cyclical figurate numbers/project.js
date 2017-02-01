@@ -121,7 +121,7 @@ function main(){
 		if(booltemp){
 			bool = false;
 		}
-		console.log(arr);
+		console.log(index);
 	}
 	console.log(index,arr, i);
 
