@@ -78,8 +78,7 @@ function main(){
 		list.sort();
 
 	while(nextPerm(list)){
-		j+=1		while(bool);
-{
+		while(bool){
 			if(i===0){
 				arr[i] =list[i][index[i]];
 				i+=1;
@@ -111,6 +110,7 @@ function main(){
 					i-=1;
 					index[i] +=1;
 				} else{
+console.log(arr)
 					res.push(arr.slice(0));
 				}
 
