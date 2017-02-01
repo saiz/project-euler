@@ -40,7 +40,7 @@ function main() {
 		bool2,
 		j,k,l,res,str,num;
 	while(bool){
-		j=Math.cbrt(i);
+		j=i*
 		res = [];
 		if(j%1 === 0){
 			res.push(i);
