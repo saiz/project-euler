@@ -76,6 +76,7 @@ function main(){
 		bool = true;
 		index =[0,0,0,0,0,0];
 		arr = [];
+		console.log(list);
 		while(bool){
 			if(i===0){
 				if(index[i] >= list[i].length){
