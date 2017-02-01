@@ -13,13 +13,13 @@ function approx (s, n){
 		a =[Math.floor(Math.sqrt(s))],
 		i=0,j;
 		while(i < n){
-			j =i+1;
 			m.push(m_n1(d[i],a[i],m[i]));
 			d.push(d_n1(s,m[i+1],d[i]));
 			a.push(a_n1(a[0],m[i+1],d[i+1]));
 		}
 		console.log(m);
-
+		console.log(d);
+		console.log(m);
 	return a[i]
 }
 function main() {
