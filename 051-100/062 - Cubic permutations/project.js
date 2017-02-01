@@ -33,9 +33,11 @@ function zero_to_n_array(n){
 }
 function main() {
 	'use strict';
-	var i = 1,j,k,l,res,str,num,
+	var i = 1,
+		len =3,
 		index = [],
-		bool =true;
+		bool =true,
+		j,k,l,res,str,num;
 	while(bool){
 		j=Math.cbrt(i);
 		res = [];
@@ -55,6 +57,9 @@ function main() {
 				}
 			}
 			console.log(res);
+		}
+		if(res.length){
+
 		}
 		i+=1;
 	}
