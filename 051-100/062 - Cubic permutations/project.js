@@ -38,7 +38,7 @@ function main() {
 		index = [],
 		bool =true,
 		bool2,
-		j,k,l,res,str,num;
+		j,k,res,str,num;
 	while(bool){
 		j=i*i*i;
 		res = [j];
@@ -59,7 +59,7 @@ function main() {
 		if(res.length === len){
 			bool = false;
 		}
-		console.log(i,index.length);
+		console.log(i,j);
 		i+=1;
 	}
 	return res;
