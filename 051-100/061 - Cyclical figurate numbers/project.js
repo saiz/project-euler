@@ -68,7 +68,8 @@ function main(){
 				i+=1;
 			}
 			if(i === list.length){
-				console.log('adsadsad')
+				console.log(arr);
+				console.log(a,b,c,d);
 			// 	if(c!==d){
 			// 		i-=1;
 			// 		index[i] +=1;
