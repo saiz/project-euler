@@ -47,7 +47,9 @@ function main(){
 			i+=1;
 		} else {
 			if(index[i] >=list[i].length){
-				index[i]  = 0;
+				for(k=i;k<index.length;k+=1){
+					index[k]  = 0;
+				}
 				index[i-1] +=1;
 				arr[i-1] =list[i-1][index[i-1]];
 				arr.splice(-1,1);
