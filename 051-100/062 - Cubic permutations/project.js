@@ -29,6 +29,7 @@ function sortAlphabets(text) {
 }
 function plus(obj,i,j){
 	if(obj[i]===undefined){
+		obj[i] ={};
 		obj[i].len = 1;
 		obj[j].num = Math.pow(2,52);
 	} else{
