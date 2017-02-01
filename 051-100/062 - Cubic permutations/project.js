@@ -33,7 +33,7 @@ function zero_to_n_array(n){
 }
 function main() {
 	'use strict';
-	var i = 405,
+	var i = 1,
 		len =5,
 		index = [],
 		bool =true,
