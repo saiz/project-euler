@@ -72,11 +72,11 @@ function main(){
 		index =[0,0,0,0,0,0],
 		arr = [],
 		i = 0,k,a,b,c,d,
-		bool = true;
+		bool = true,
+		master = t
 		list2.sort();
 		list.sort();
 	while(nextPerm(list)){
-		console.log(list);
 		while(bool){
 			if(i===0){
 				arr[i] =list[i][index[i]];
