@@ -19,12 +19,12 @@ function approx (s, n){
 		}
 		console.log(m);
 		console.log(d);
-		console.log(m);
-	return a[i]
+		console.log(a);
+	return;
 }
 function main() {
 	'use strict';
-
+	approx()
 	return i;
 }
 
