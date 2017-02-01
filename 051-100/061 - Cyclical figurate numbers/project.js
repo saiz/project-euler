@@ -66,6 +66,9 @@ function nextPerm(array){
     }
     return true;
 }
+function add(a, b) {
+    return a + b;
+}
 function main(){
 	var list = [],
 		listindex=shape(),
@@ -131,7 +134,7 @@ function main(){
 			}
 		}
 	}
-	return res;
+	return res.reduce(add, 0);
 }
 
 
