@@ -121,7 +121,7 @@ function main(){
 			}
 		}
 	}
-	console.log(index,arr, i);
+	console.log(res);
 
 }
 
