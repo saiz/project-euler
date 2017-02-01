@@ -32,10 +32,8 @@ function main() {
 	while(bool){
 		j=Math.cbrt(i);
 		index =[];
-		for(k=0;k<String(j).length;k+=1){
-			index[k]=k;
-		}
 		if(j%1 === 0){
+
 
 			console.log(i,j);
 		}
