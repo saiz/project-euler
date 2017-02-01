@@ -53,8 +53,9 @@ function main(){
 			for(k=i;k<index.length;k+=1){
 				index[k]  = 0;
 			}
-			index[i-1] +=1;
-			arr[i-1] =list[i-1][index[i-1]];
+			i-=1;
+			index[i] +=1;
+			arr[i] =list[i][index[i]];
 			arr.splice(-1,1);
 		} else if(i!==0){
 			b = Math.floor(list[i][index[i]]/100);
