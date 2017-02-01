@@ -11,10 +11,12 @@ function repeat(arr){
 	var i=1,
 		res =[],
 		dist,
-		end, start;
+		end, start, len;
 	while(i <= arr.length/2){
+		len = arr.length;
 		dist = arr.length - i;
-		end = arr
+		end = arr.slice(len-dist,len);
+		start = ()
 		if()
 	}
 }
