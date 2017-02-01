@@ -112,7 +112,7 @@ function main(){
 				 		i-=1;
 				 		index[i] +=1;
 					}else{
-						res.push(arr.sl)
+						res.push(arr.slice(0));
 					}
 				}
 			}
