@@ -50,7 +50,7 @@ function main() {
 		j=i*i*i;
 		str = sortAlphabets(String(j));
 		plus(cubes,str,j);
-		if(cubes[str] === len){
+		if(cubes[str].len === len){
 			res = str;
 			bool = false;
 		}
