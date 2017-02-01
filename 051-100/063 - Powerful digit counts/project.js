@@ -8,10 +8,11 @@ function main() {
 		j=9;
 		if(String(Math.pow(j,i)).length !== i){
 			bool = false;
-		} else
-		while((j > 0) && String(Math.pow(j,i)).length === i ){
-			count+=1;
-			j-=1;
+		} else{
+			while((j > 0) && String(Math.pow(j,i)).length === i ){
+				count+=1;
+				j-=1;
+			}
 		}
 		i+=1
 	}
