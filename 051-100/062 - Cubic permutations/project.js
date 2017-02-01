@@ -59,11 +59,11 @@ function main() {
 			console.log(res);
 		}
 		if(res.length){
-
+			bool = false;
 		}
 		i+=1;
 	}
-	return;
+	return res;
 }
 
 console.log(main(process.argv[2]));
