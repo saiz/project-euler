@@ -6,7 +6,9 @@ function approx (s, n){
 		d =[1],
 		a =[a_n(m[0],d[0],s)],
 		i=0;
-		while(i<=n){}
+		while(i<=n){
+
+		}
 	return a[i]
 }
 function main() {
