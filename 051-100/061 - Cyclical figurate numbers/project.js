@@ -42,9 +42,9 @@ function main(){
 		i = 0,k,a,b,c,d;
 	while(i< list.length){
 		if(i === index.length){
-			index.push(0)
+			index.push(0);
 		}
-		if(i===z0){
+		if(i===0){
 			arr[i] =list[i][index[i]];
 			i+=1;
 		} else {
