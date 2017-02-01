@@ -31,7 +31,7 @@ function zero_to_n_array(n){
 	}
 	return index;
 }
-var sortAlphabets = function(text) {
+unction(text) {
     return text.split('').sort().join('');
 };
 function plus(obj,i){
