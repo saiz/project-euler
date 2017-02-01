@@ -74,45 +74,44 @@ function main(){
 		i = 0,k,a,b,c,d,
 		bool = true;
 	while(bool){
-		if(index[0] === list[0].length){
-			bool = false;
-		} else{
-			if(i===0){
-				arr[i] =list[i][index[i]];
+		if(i===0){
+			arr[i] =list[i][index[i]];
+			i+=1;
+		}
+		if(index[i] >= list[i].length){
+			//console.log('adasd')
+			for(k=i;k<index.length;k+=1){
+				index[k]  = 0;
+			}
+			i-=1;
+			index[i] +=1;
+			arr[i] =list[i][index[i]];
+		} else if(i!==0){
+			b = Math.floor(list[i][index[i]]/100);
+			a = list[i-1][index[i-1]]%100;
+			//console.log(arr);
+			if(a!==b){
+				index[i] +=1;
+			}
+			if(a===b){
+				arr[i] = list[i][index[i]];
 				i+=1;
 			}
-			if(index[i] >= list[i].length){
-				//console.log('adasd')
-				for(k=i;k<index.length;k+=1){
-					index[k]  = 0;
-				}
+		}
+		if(i === list.length){
+			c = list[i-1][index[i-1]]%100;
+			d = Math.floor(list[0][index[0]]/100);
+			if(c!==d){
 				i-=1;
 				index[i] +=1;
-				arr[i] =list[i][index[i]];
-			} else if(i!==0){
-				b = Math.floor(list[i][index[i]]/100);
-				a = list[i-1][index[i-1]]%100;
-				//console.log(arr);
-				if(a!==b){
-					index[i] +=1;
-				}
-				if(a===b){
-					arr[i] = list[i][index[i]];
-					i+=1;
-				}
-			}
-			if(i === list.length){
-				c = list[i-1][index[i-1]]%100;
-				d = Math.floor(list[0][index[0]]/100);
 				if(c!==d){
-					i-=1;
-					index[i] +=1;
-					if(c!==d){
-				 		i-=1;
-				 		index[i] +=1;
-					}
+			 		i-=1;
+			 		index[i] +=1;
 				}
 			}
+		}
+		if(index[0] === list[0].length){
+			bool = false;
 		}
 		console.log(arr);
 	}
