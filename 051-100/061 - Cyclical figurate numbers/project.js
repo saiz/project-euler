@@ -110,7 +110,7 @@ function main(){
 				}
 			}
 		}
-		if(index[0] === list[0].length){
+		if(index[0] === list[0].length -1){
 			bool = false;
 		}
 		console.log(arr);
