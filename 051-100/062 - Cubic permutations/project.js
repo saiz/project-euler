@@ -26,7 +26,7 @@ function nextPerm(array){
 }
 function zero_to_n_array(n){
 	var index=[],i;
-	for(i=0;i<=n;i+=1){
+	for(i=0;i<n;i+=1){
 		index[i]=i;
 	}
 	return index;
