@@ -51,10 +51,10 @@ function main() {
 				}
 				num = parseInt(str.join(''),10);
 				if(String(num).length === String(j).length){
-res.push(num)
+					res.push(num);
 				}
-				console.log(i,num);
 			}
+			console.log(i,num);
 		}
 		i+=1;
 	}
