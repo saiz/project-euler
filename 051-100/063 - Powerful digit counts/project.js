@@ -4,7 +4,7 @@ function length(num){
 function main() {
 	'use strict';
 	var i =1,
-		count = 9,
+		count = 0,
 		j, len,
 	bool = true;
 	while(bool){
