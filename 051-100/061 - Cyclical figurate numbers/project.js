@@ -120,7 +120,7 @@ function main(){
 					i-=1;
 					index[i] +=1;
 				} else{
-					res =arr.slice(0)
+					res =arr.slice(0);
 					i-=1;
 					index[i] +=1;
 				}
@@ -131,11 +131,7 @@ function main(){
 			}
 		}
 	}
-	for(j=0;j<res.length;j+=1){
-		res[j].sort(0);
-	}
-	console.log(res);
-
+	return res;
 }
 
 
