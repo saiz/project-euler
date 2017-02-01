@@ -61,8 +61,9 @@ function main() {
 	bool = true;
 	while(bool){
 		if(!nextPerm(arr)){
-
+			bool = false;
 		}
+
 	}
 	return res;
 }
