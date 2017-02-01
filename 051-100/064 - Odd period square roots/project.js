@@ -25,7 +25,7 @@ function approx (s, n){
 function main() {
 	'use strict';
 	approx(114,4);
-	return i;
+	return;
 }
 
 console.log(main(process.argv[2]));
