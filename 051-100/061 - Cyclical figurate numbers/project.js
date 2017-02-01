@@ -44,7 +44,9 @@ function main(){
 	while(i< list.length){
 		if(i===0){
 			if(index[i] >= list[i].length){
-				index[i] = 0;
+				for(k=i;k<index.length;k+=1){
+					index[k]  = 0;
+				}
 			}
 			arr[i] =list[i][index[i]];
 			i+=1;
