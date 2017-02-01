@@ -77,7 +77,7 @@ function main(){
 		res= [];
 	while(nextPerm(list2)){
 		list=[];
-		for(j=0;j<list2,length;j+=1){
+		for(j=0;j<list2.length;j+=1){
 			list= listindex[list2[j]];
 		}
 		index =[0,0,0,0,0,0];
