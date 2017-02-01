@@ -74,7 +74,7 @@ function main(){
 		i = 0,k,a,b,c,d,
 		bool = true;
 	while(bool){
-		if(index[i] >= list[i].length){
+		if(index[0] >= list[0].length){
 			bool = false;
 		} else{
 			if(i===0){
