@@ -77,19 +77,13 @@ function main(){
 			if(c!==d){
 				i-=1;
 				index[i] +=1;
-				console.log(arr,index);
-				console.log(c,d);
 				if(c!==d){
 			 		i-=1;
 			 		index[i] +=1;
 				}
-				// var pp=0
-				// while(pp <1){
-
-				// }
 			}
 		}
-		//console.log(index,arr, i);
+		console.log(index,arr, i);
 	}
 	console.log(index,arr, i);
 
