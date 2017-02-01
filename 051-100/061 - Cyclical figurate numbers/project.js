@@ -80,8 +80,8 @@ function main(){
 		for(j=0;j<list2.length;j+=1){
 			list[j]= listindex[list2[j]];
 		}
-console.log(list);
-console.log("-----");
+		console.log(list2);
+		console.log("-----");
 		index =[0,0,0,0,0,0];
 		arr = [];
 		i=0;
