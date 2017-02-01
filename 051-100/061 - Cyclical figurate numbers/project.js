@@ -56,6 +56,8 @@ function main(){
 			index[i-1] +=1;
 			arr[i-1] =list[i-1][index[i-1]];
 			arr.splice(-1,1);
+		} else if(i === list.length){
+			console.log('adasd')
 		} else if(i!==0){
 			b = Math.floor(list[i][index[i]]/100);
 			a = list[i-1][index[i-1]]%100;
