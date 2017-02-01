@@ -1,4 +1,4 @@
-function m_n1(m,d,S){
+function m_n1(m){
 	return Math.floor((Math.sqrt(S)+m)/d);
 }
 function approx (s, n){
