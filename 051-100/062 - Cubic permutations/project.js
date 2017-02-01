@@ -47,7 +47,7 @@ function main() {
 				//console.log(index,i);
 				str = [];
 				for(k=0;k<index.length;k+=1){
-					str.push(String(i)[index[k]]);
+					str[k] =String(i)[index[k]];
 				}
 				str.join('');
 				str = parseInt(str,10);
