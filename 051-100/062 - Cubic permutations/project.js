@@ -52,7 +52,7 @@ function main() {
 			}
 			str.join('');
 			str = parseInt(str,10);
-			console.log(j,str);
+			//console.log(j,str);
 		}
 		i+=1;
 	}
