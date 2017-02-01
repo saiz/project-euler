@@ -54,12 +54,12 @@ function main(){
 			a = list[i-1][index[i-1]]%100;
 			c = list[i][index[i]]%100;
 			d = Math.floor(list[0][index[0]]/100);
-			console.log(arr);
+			//console.log(arr);
 			if(a!==b){
 				index[i] +=1;
 				i-=1;
 			} else {
-				//console.log(index);
+				//console.log(arr);
 				arr[i] = list[i][index[i]];
 				i+=1;
 			}
