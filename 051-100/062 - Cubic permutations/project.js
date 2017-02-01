@@ -26,8 +26,16 @@ function nextPerm(array){
 }
 function main() {
 	'use strict';
-	var i ='test';
-	return i;
+	var i = 1,j,
+		bool =true;
+	while(bool){
+		j=Math.cbrt(i);
+		if(j%1 === 0){
+			console.log(j);
+		}
+		i+=1;
+	}
+	return;
 }
 
 console.log(main(process.argv[2]));
