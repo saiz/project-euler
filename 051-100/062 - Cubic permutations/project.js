@@ -40,7 +40,6 @@ function main() {
 		bool2,
 		j,k,l,res,str,num;
 	while(bool){
-		j=1;
 		j=i*i*i;
 		res = [j];
 		index = zero_to_n_array(String(j).length);
