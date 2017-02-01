@@ -60,7 +60,7 @@ function main() {
 	}
 	bool = true;
 	while(bool){
-		if(nextPerm(arr)){
+		if(!nextPerm(arr)){
 
 		}
 	}
