@@ -45,8 +45,10 @@ function main() {
 			str = [];
 			//console.log(i,index);
 			while(nextPerm(index)){
-				for(k=0;k<index.length;k+=1){
-					str.push(String(i)[index[k]]);				}
+				console.log(index);
+				// for(k=0;k<index.length;k+=1){
+				// 	str.push(String(i)[index[k]]);
+				// }
 			}
 			str.join('');
 			str = parseInt(str,10);
