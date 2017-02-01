@@ -78,7 +78,7 @@ function main(){
 				}
 				console.log(index,arr, i);
 			}
-			if(index(selector/element))
+			if(index[0])
 			//console.log(index,arr, i);
 			// 	if(index[i] >=list[i].length){
 			// 		index[0]  = 0;
