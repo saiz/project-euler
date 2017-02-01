@@ -51,7 +51,7 @@ function main() {
 				}
 				str.join('');
 				//str = parseInt(str,10);
-				console.log(j,str);
+				console.log(i,str);
 			}
 		}
 		i+=1;
