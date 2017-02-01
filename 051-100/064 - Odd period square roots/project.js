@@ -24,7 +24,7 @@ function approx (s, n){
 }
 function main() {
 	'use strict';
-	approx()
+	approx(114,)
 	return i;
 }
 
