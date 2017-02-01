@@ -44,7 +44,8 @@ function main() {
 		res = [j];
 		index = zero_to_n_array(String(j).length);
 		bool2 = true;
-		l = String(j)
+		l = String(j);
+		if(Stri)
 		while(nextPerm(index)){
 			//console.log(index,i);
 			str = '';
