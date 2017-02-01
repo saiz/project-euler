@@ -36,7 +36,7 @@ function plus(obj,i,j){
 	} else{
 		obj[i].len +=1;
 	}
-	if(obj[j].num > j){
+	if(obj[j]['num'] > j){
 		obj[j].num = j;
 	}
 }
