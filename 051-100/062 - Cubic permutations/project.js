@@ -43,6 +43,7 @@ function main() {
 			res.push(i);
 			index = zero_to_n_array(String(i).length);
 			str = [];
+			console.log(index);
 			while(nextPerm(index)){
 				for(k=0;k<index.length;k+=1){
 					str.push(String(j)[index[k]]);				}
