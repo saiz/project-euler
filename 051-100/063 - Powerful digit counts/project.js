@@ -1,5 +1,5 @@
 function length(){
-	return len
+	return  Math.ceil(Math.log(Math.pow(j,i) + 1 ) / Math.LN10);
 }
 function main() {
 	'use strict';
