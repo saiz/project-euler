@@ -1,7 +1,18 @@
 function main() {
 	'use strict';
-	var i ='test';
-	return i;
+	var i =1,
+		count = 9,
+		j,
+	bool = true;
+	while(bool){
+		j=9;
+		while(String(Math.pow(j,i)).length === i ){
+			count+=1;
+			j-=1;
+		}
+		i+=1
+	}
+	return ;
 }
 
 console.log(main(process.argv[2]));
