@@ -47,7 +47,7 @@ function main() {
 		str = sortAlphabets(String(j));
 		plus(cubes,str);
 		if(cubes[str] === len){
-			res = j;
+			res = str;
 			bool = false;
 		}
 		//console.log(str, cubes[str]);
