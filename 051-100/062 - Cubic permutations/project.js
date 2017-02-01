@@ -53,7 +53,7 @@ function main() {
 				str += String(j)[index[k]];
 			}
 			num = parseInt(str,10);
-			if((cubes.indexOf(num) > -1 && res.indexOf(num) === -1){
+			if(cubes.indexOf(num) > -1 && res.indexOf(num) === -1){
 				res.push(num);
 			}
 		}
