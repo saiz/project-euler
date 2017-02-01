@@ -115,6 +115,7 @@ function main(){
 					i-=1;
 					index[i] +=1;
 				} else{
+					console.log(res);
 					res.push(arr.slice(0));
 				}
 
