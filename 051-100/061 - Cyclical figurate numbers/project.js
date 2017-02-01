@@ -83,9 +83,9 @@ function main(){
 			// 	}
 			// }
 		}
-		console.log(index,arr, i);
+		//console.log(index,arr, i);
 	}
-	console.log(arr);
+	console.log(index,arr, i);
 
 }
 
