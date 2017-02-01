@@ -46,12 +46,12 @@ function main() {
 		//console.log(i,index);
 		bool2 = true;
 		while(bool2){
-			if(!nextPerm(index)){
+			if(!nextPerm(j)){
 				bool2  = false;
 			}
 			//console.log(index,i);
 			str = [];
-			for(k=0;k<index.length;k+=1){
+			for(k=0;k<j.length;k+=1){
 				str[k] =String(i)[index[k]];
 			}
 			num = parseInt(str.join(''),10);
