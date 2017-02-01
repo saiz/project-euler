@@ -14,7 +14,7 @@ function main() {
 		} else{
 			while((j > 0) && length(Math.pow(j,i)) === i ){
 				count+=1;
-				console.log(i,j,Math.pow(j,i));
+				//console.log(i,j,Math.pow(j,i));
 				j-=1;
 			}
 		}
