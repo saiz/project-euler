@@ -23,7 +23,7 @@ function approx (s, n){
 		console.log(a);
 	return;
 }
-function main() {
+function main(n) {
 	'use strict';
 	approx(114,4);
 	return;
