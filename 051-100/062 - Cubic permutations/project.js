@@ -32,7 +32,7 @@ function main() {
 		}
 		i+=1;
 	}
-	console.log(res);
+	//console.log(res);
 	return res.num;
 }
 
