@@ -43,14 +43,14 @@ function main() {
 			res.push(i);
 			index = zero_to_n_array(String(i).length);
 			str = [];
-			console.log(i,index);
+			//console.log(i,index);
 			while(nextPerm(index)){
 				for(k=0;k<index.length;k+=1){
 					str.push(String(i)[index[k]]);				}
 			}
 			str.join('');
 			str = parseInt(str,10);
-			//console.log(j,str);
+			console.log(j,str);
 		}
 		i+=1;
 	}
