@@ -117,7 +117,7 @@ function main(){
 					}
 				}
 			}
-			console.log(arr);
+			//console.log(arr);
 		}
 	}
 	console.log(index,arr, i);
