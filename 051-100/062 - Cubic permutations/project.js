@@ -49,7 +49,7 @@ function main() {
 			}
 			str.join('');
 			str = parseInt(str,10);
-			console.log(str);
+			console.log(j,str);
 		}
 		i+=1;
 	}
