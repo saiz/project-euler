@@ -56,7 +56,6 @@ function main() {
 			if((cubes.indexOf(num) > -1 && res.indexOf(num) === -1){
 				res.push(num);
 			}
-			}
 		}
 		//console.log(res);
 		if(res.length === len){
