@@ -80,6 +80,7 @@ function main(){
 		for(j=0;j<list2.length;j+=1){
 			list= listindex[list2[j]];
 		}
+		console.log(list);
 		index =[0,0,0,0,0,0];
 		arr = [];
 		i=0;
