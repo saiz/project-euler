@@ -9,7 +9,6 @@ function main() {
 		if(String(Math.pow(j,i)).length !== i){
 			bool = false;
 		} else{
-
 			while((j > 0) && len === i ){
 				count+=1;
 				console.log(i,j,Math.pow(j,i));
