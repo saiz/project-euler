@@ -73,7 +73,7 @@ function main(){
 		index =[0,0,0,0,0,0],
 		arr = [],
 		i = 0,k,j,a,b,c,d,
-		bool = true,
+		bool ,
 		res= [];
 	while(nextPerm(list2)){
 		//console.log(list2)
@@ -86,6 +86,7 @@ function main(){
 		index =[0,0,0,0,0,0];
 		arr = [];
 		i=0;
+		bool = true;
 		while(bool){
 			if(i===0){
 				arr[i] =list[i][index[i]];
