@@ -46,9 +46,9 @@ function main(){
 			i+=1;
 		} else {
 			if(index[i] >=list[i].length){
+				index[i]  = 0;
 				index[i-1] +=1;
 				arr[i-1] =list[i-1][index[i-1]];
-				index.splice(-1,1);
 			}
 			b = Math.floor(list[i][index[i]]/100);
 			a = list[i-1][index[i-1]]%100;
@@ -63,20 +63,20 @@ function main(){
 				arr[i] = list[i][index[i]];
 				i+=1;
 			}
-			if(i === list.length){
-				// if(c!==d){
-				// 	i-=1;
-				// 	index[i] +=1;
-				// }
-				// if(index[i] >=list[i].length){
-				// 	index[0]  = 0;
-				// 	for(k=1;k<index.length;k+=1){
-				// 		index[k] = 0;
-				// 	}
-				// 	arr = []
-				// 	i = 0;
-				// }
-			}
+			// if(i === list.length){
+			// 	if(c!==d){
+			// 		i-=1;
+			// 		index[i] +=1;
+			// 	}
+			// 	if(index[i] >=list[i].length){
+			// 		index[0]  = 0;
+			// 		for(k=1;k<index.length;k+=1){
+			// 			index[k] = 0;
+			// 		}
+			// 		arr = [list[0][index[0]]];
+			// 		i = 0;
+			// 	}
+			// }
 		}
 	}
 	console.log(arr);
