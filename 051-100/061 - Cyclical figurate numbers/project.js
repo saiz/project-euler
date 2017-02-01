@@ -66,7 +66,7 @@ function main(){
 				i+=1;
 			}
 			if(i === list.length){
-				c = list[i][index[i]]%100;
+				c = list[i-1][index[i-1]]%100;
 				d = Math.floor(list[0][index[0]]/100);
 				console.log(arr);
 				console.log(a,b,c,d);
