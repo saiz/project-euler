@@ -11,6 +11,7 @@ function main() {
 		} else{
 			while((j > 0) && String(Math.pow(j,i)).length === i ){
 				count+=1;
+				console.log(Math.pow(j,i),i)
 				j-=1;
 			}
 		}
