@@ -42,6 +42,7 @@ function main(){
 		arr = [],
 		i = 0,k,a,b,c,d;
 	while(i< list.length){
+		console.log(index,i);
 		if(i===0){
 			arr[i] =list[i][index[i]];
 			i+=1;
@@ -64,7 +65,6 @@ function main(){
 			}
 			if(a===b){
 				arr[i] = list[i][index[i]];
-				console.log(index,i);
 				i+=1;
 			}
 			// if(i === list.length){
