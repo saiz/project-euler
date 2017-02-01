@@ -115,11 +115,11 @@ function main(){
 			if(i === list.length){
 				c = list[i-1][index[i-1]]%100;
 				d = Math.floor(list[0][index[0]]/100);
-				console.log(arr);
 				if(c!==d){
 					i-=1;
 					index[i] +=1;
 				} else{
+					console.log(arr);
 					res.push(arr.slice(0));
 				}
 
