@@ -51,7 +51,7 @@ function main(){
 				index[k]  = 0;
 			}
 			index[i-1] +=1;
-			arr[i-1] =list[i-1][index[i-1]];
+			//arr[i-1] = list[i-1][index[i-1]];
 			arr.splice(-1,1);
 		} else {
 			b = Math.floor(list[i][index[i]]/100);
