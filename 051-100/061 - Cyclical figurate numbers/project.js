@@ -62,7 +62,7 @@ function main(){
 			}
 			if(a===b){
 				arr[i] = list[i][index[i]];
-				console.log(index);
+				console.log(index,i);
 				i+=1;
 			}
 			// if(i === list.length){
