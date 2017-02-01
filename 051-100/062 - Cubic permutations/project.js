@@ -41,7 +41,7 @@ function main() {
 		res = [];
 		if(j%1 === 0){
 			res.push(i);
-			index = zero_to_n_array(String(i).length -1);
+			index = zero_to_n_array(String(i).length);
 			str = [];
 			while(nextPerm(index)){
 				for(k=0;k<index.length;k+=1){
