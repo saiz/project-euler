@@ -42,10 +42,10 @@ function main() {
 		if(j%1 === 0){
 			res.push(i);
 			index = zero_to_n_array(String(i).length);
-			str = [];
 			//console.log(i,index);
 			while(nextPerm(index)){
 				//console.log(index,i);
+				str = [];
 				for(k=0;k<index.length;k+=1){
 					str.push(String(i)[index[k]]);
 				}
