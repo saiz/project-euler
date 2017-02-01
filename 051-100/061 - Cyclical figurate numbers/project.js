@@ -110,8 +110,8 @@ function main(){
 					i-=1;
 					index[i] +=1;
 				} else{
-console.log(arr)
 					res.push(arr.slice(0));
+				}
 				}
 
 			}
