@@ -25,6 +25,7 @@ function approx (s, n){
 }
 function main(n) {
 	'use strict';
+	n = par
 	approx(114,4);
 	return;
 }
