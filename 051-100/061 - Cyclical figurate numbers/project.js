@@ -120,7 +120,7 @@ function main(){
 			if(index[0] === list[0].length -1 && index[1] === list[1].length -1){
 				bool = false;
 			}
-
+			console.log(arr)
 		}
 	}
 	console.log(res);
