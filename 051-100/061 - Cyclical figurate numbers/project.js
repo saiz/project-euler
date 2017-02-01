@@ -67,11 +67,12 @@ function main(){
 				arr[i] = list[i][index[i]];
 				i+=1;
 			}
-			// if(i === list.length){
+			if(i === list.length){
+				console.log('adsadsad')
 			// 	if(c!==d){
 			// 		i-=1;
 			// 		index[i] +=1;
-			// 	}
+			}
 			// 	if(index[i] >=list[i].length){
 			// 		index[0]  = 0;
 			// 		for(k=1;k<index.length;k+=1){
