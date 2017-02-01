@@ -7,7 +7,7 @@ function approx (s, n){
 		a =[Math.floor(Math.sqrt(s))],
 		i=0;
 		while(i < n){
-		m.push()
+			m.push()
 		}
 	return a[i]
 }
