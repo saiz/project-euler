@@ -66,7 +66,7 @@ function main() {
 		if(res.length === len){
 			bool = false;
 		}
-		console.log(i)
+		console.log(j)
 		i+=1;
 	}
 	return res;
