@@ -1,5 +1,5 @@
 function m_n1(d,a,m){
-	return Math.floor((Math.sqrt(S)+m)/d);
+	return
 }
 function approx (s, n){
 	var	m = [0],
