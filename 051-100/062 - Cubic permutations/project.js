@@ -47,7 +47,7 @@ function main() {
 			while(nextPerm(index)){
 				console.log(index,i);
 				for(k=0;k<index.length;k+=1){
-					console.log(String(i)[index[k]]);
+					str[k] =String(i)[index[k]];
 				}
 			}
 			str.join('');
