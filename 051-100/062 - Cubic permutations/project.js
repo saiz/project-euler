@@ -31,7 +31,6 @@ function main() {
 		bool =true;
 	while(bool){
 		j=Math.cbrt(i);
-
 		index =[];
 		for(k=0;k<String(j).length;k+=1){
 			index[k]=k;
