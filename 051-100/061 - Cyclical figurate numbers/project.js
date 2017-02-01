@@ -73,7 +73,7 @@ function main(){
 		arr = [],
 		i = 0,k,a,b,c,d,
 		bool = true,
-		m
+		res
 		list2.sort();
 		list.sort();
 	while(nextPerm(list)){
