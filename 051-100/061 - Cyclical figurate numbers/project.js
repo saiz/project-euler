@@ -45,15 +45,14 @@ function main(){
 		if(i===0){
 			arr[i] =list[i][index[i]];
 			i+=1;
-		} else {
-			if(index[i] >=list[i].length){
-				for(k=i;k<index.length;k+=1){
-					index[k]  = 0;
-				}
-				index[i-1] +=1;
-				arr[i-1] =list[i-1][index[i-1]];
-				arr.splice(-1,1);
+		} else if(index[i] >=list[i].length){
+			for(k=i;k<index.length;k+=1){
+				index[k]  = 0;
 			}
+			index[i-1] +=1;
+			arr[i-1] =list[i-1][index[i-1]];
+			arr.splice(-1,1);
+		} else {
 			b = Math.floor(list[i][index[i]]/100);
 			a = list[i-1][index[i-1]]%100;
 			c = list[i][index[i]]%100;
