@@ -31,13 +31,7 @@ function shape() {
 	return array;
 }
 function main(){
-	var triangle = dict(tri),
-		square = dict(squ),
-		pentagonal = dict(pent),
-		hexagonal = dict(hex),
-		heptagonal = dict(hept),
-		octogonal = dict(oct),
-		list=shape(),
+	var list=shape(),
 		index =[0,0,0,0,0,0],
 		arr = [],
 		i = 0,k,a,b,c,d;
