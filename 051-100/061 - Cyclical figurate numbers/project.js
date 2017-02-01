@@ -45,6 +45,7 @@ function main(){
 		if(i===0){
 			if(index[i] >= list[i].length){
 				index[i] = 0;
+				console.log(arr);
 			}
 			arr[i] =list[i][index[i]];
 			i+=1;
