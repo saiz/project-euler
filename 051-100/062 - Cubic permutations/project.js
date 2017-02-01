@@ -30,7 +30,6 @@ function main() {
 			res = cubes[str];
 			bool = false;
 		}
-		//console.log(str, cubes[str]);
 		i+=1;
 	}
 	console.log(res);
