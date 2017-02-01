@@ -7,7 +7,7 @@ function main() {
 	var i = mn(0,1,114)
 	var a =[],
 		m = [0],
-		a
+		d =[1];
 	return i;
 }
 
