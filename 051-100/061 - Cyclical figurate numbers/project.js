@@ -99,7 +99,7 @@ function main(){
 			if(c!==d){
 				i-=1;
 				index[i] +=1;
-				console.log(c,d);
+				console.log(arr,index);
 				console.log(c,d);
 				var pp=0
 				while(pp <1){
