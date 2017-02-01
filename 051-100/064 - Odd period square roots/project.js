@@ -18,6 +18,7 @@ function approx (s, n){
 			d.push(d_n1(s,m[i+1],d[i]));
 			a.push(a_n1(a[0],m[i+1],d[i+1]));
 		}
+		console.log()
 	return a[i]
 }
 function main() {
