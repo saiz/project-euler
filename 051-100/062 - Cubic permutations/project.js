@@ -31,18 +31,25 @@ function zero_to_n_array(n){
 	}
 	return index;
 }
+function plus(obj,i){
+	if(obj[i]===undefined){
+		obj[i] = 1;
+	} else{
+		obj[i] +=1;
+	}
+}
 function main() {
 	'use strict';
 	var i = 1,
 		len =5,
 		index = [],
-		cubes = [],
+		cubes = {},
 		bool =true,
 		bool2,
 		j,k,res,str,num;
 	while(bool){
 		j=i*i*i;
-		cubes.push(j);
+		plus(cubes,j);
 		res = [j];
 		index = zero_to_n_array(String(j).length);
 		bool2 = true;
