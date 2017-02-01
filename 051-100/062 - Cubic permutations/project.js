@@ -63,7 +63,7 @@ function main() {
 		if(!nextPerm(arr)){
 			bool = false;
 		}
-		num
+		num =
 if(Math)
 	}
 	return res;
