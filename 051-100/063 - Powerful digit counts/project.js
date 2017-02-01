@@ -6,7 +6,7 @@ function main() {
 	bool = true;
 	while(bool){
 		j=9;
-		if(String(Math.pow(j,i)).length !)
+		if(String(Math.pow(j,i)).length !== i){}
 		while((j > 0) && String(Math.pow(j,i)).length === i ){
 			count+=1;
 			j-=1;
