@@ -4,7 +4,7 @@ function a_n(m,d,S){
 function approx (s, n){
 	var	m = [0],
 		d =[1],
-		a =[Math.)],
+		a =[Math.floor())],
 		i=0;
 		while(i<=n){
 
