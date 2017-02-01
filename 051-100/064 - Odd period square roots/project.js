@@ -25,8 +25,8 @@ function approx (s, n){
 }
 function main(n) {
 	'use strict';
-	n = parseInt(n,7);
-	approx(n,4);
+	n = parseInt(n,10);
+	approx(n,7);
 	return;
 }
 
