@@ -58,7 +58,7 @@ function main() {
 			}
 			//console.log(res);
 		}
-		if(res.length == len){
+		if(res.length === len){
 			bool = false;
 		}
 		i+=1;
