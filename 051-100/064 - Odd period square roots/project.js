@@ -2,7 +2,7 @@ function m_n1(d,a,m){
 	return d*a -m;
 }
 function d_n1(s,m,d){
-	return d*a -m;
+	return
 }
 function approx (s, n){
 	var	m = [0],
@@ -12,7 +12,7 @@ function approx (s, n){
 		while(i < n){
 			j =i+1;
 			m.push(m_n1(d[i],a[i],m[i]));
-d
+d.push()
 		}
 	return a[i]
 }
