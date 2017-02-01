@@ -108,7 +108,8 @@ function main(){
 				if(c!==d){
 					i-=1;
 					index[i] +=1;
-					}
+				}
+
 			}
 			if(index[0] === list[0].length -1 && index[1] === list[1].length -1){
 				bool = false;
