@@ -26,11 +26,12 @@ function nextPerm(array){
 }
 function main() {
 	'use strict';
-	var i = 1,j,k,
+	var i = 1,j,k,,res,
 		index = [],
 		bool =true;
 	while(bool){
 		j=Math.cbrt(i);
+
 		index =[];
 		for(k=0;k<String(j).length;k+=1){
 			index[k]=k;
