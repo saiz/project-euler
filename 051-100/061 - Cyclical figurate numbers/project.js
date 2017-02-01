@@ -81,6 +81,7 @@ function main(){
 			list[j]= listindex[list2[j]];
 		}
 console.log(list);
+console.log("-----");
 		index =[0,0,0,0,0,0];
 		arr = [];
 		i=0;
