@@ -5,6 +5,7 @@ function mn(m,d,S){
 function main() {
 	'use strict';
 	var i = mn(0,1,114)
+	var
 	return i;
 }
 
