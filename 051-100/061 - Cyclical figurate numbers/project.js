@@ -115,13 +115,13 @@ function main(){
 					i-=1;
 					index[i] +=1;
 				} else{
-					console.log(res);
 					res.push(arr.slice(0));
 				}
 
 			}
 			if(index[0] === list[0].length -1 && index[1] === list[1].length -1){
 				bool = false;
+			}
 		}
 	}
 	console.log(res);
