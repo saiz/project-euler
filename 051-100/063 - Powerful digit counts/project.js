@@ -1,3 +1,4 @@
+fucntion
 function main() {
 	'use strict';
 	var i =1,
