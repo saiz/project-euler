@@ -24,13 +24,6 @@ function nextPerm(array){
     }
     return true;
 }
-function zero_to_n_array(n){
-	var index=[],i;
-	for(i=0;i<n;i+=1){
-		index[i]=i;
-	}
-	return index;
-}
 function sortAlphabets(text) {
     return text.split('').sort().join('');
 }
@@ -59,6 +52,15 @@ function main() {
 		}
 		console.log(str, cubes[str]);
 		i+=1;
+	}
+	var arr = res.split("");
+	i= 0;
+	while(i <arr.length){
+		arr[i] = parseInt(arr[i],10);
+	}
+	bool = true;
+	while(bool){
+		if(nextPerm(arr))
 	}
 	return res;
 }
