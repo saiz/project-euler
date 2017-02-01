@@ -12,12 +12,16 @@ function repeat(arr){
 		res =[],
 		dist,
 		end, start, len;
+		bool,
 	while(i <= arr.length/2){
 		len = arr.length;
 		dist = arr.length - i;
-		end = parsearr.slice(len-dist,len-1).join(''),10);
-		start = arr.slice(len-2*dist -1,len-dist -1);
-		if()
+		end = arr.slice(len-dist,len-1).join('');
+		start = arr.slice(len-2*dist -1,len-dist -1).join('');
+		if(bool){
+			i = arr.length;
+
+		}
 	}
 }
 function approx (s, n){
