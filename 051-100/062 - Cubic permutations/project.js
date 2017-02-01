@@ -43,7 +43,7 @@ function main() {
 		j=1;
 		j=i*i*i;
 		res = [j];
-		index = zero_to_n_array(String(i).length);
+		index = zero_to_n_array(String(j).length);
 		bool2 = true;
 		while(nextPerm(index)){
 			//console.log(index,i);
