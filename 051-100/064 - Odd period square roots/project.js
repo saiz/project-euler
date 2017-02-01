@@ -5,8 +5,9 @@ function approx (s, n){
 	var	m = [0],
 		d =[1],
 		a =[Math.floor(Math.sqrt(s))],
-		i=0,
+		i=0,j;
 		while(i < n){
+			j =
 			m.push()
 		}
 	return a[i]
