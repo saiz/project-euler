@@ -48,13 +48,15 @@ function main() {
 		index = [],
 		cubes = {},
 		bool =true,
-		bool2,
-		j,k,res,str,num;
+		j,res,str;
 	while(bool){
 		j=i*i*i;
 		str = sortAlphabets(String(j));
 		plus(cubes,str);
-		console.log(i,j,cubes.length);
+		if(cubes[str] === len){
+			res = cubes[str];
+			bool = false
+		}
 		i+=1;
 	}
 	return res;
