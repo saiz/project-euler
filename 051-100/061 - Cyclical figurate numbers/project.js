@@ -59,8 +59,8 @@ function main(){
 				index[i] +=1;
 				i-=1;
 			} else {
-				//console.log(arr);
 				arr[i] = list[i][index[i]];
+				console.log(arr);
 				i+=1;
 			}
 			// if(i === list.length){
