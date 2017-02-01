@@ -56,8 +56,6 @@ function main(){
 		} else {
 			b = Math.floor(list[i][index[i]]/100);
 			a = list[i-1][index[i-1]]%100;
-			c = list[i][index[i]]%100;
-			d = Math.floor(list[0][index[0]]/100);
 			//console.log(arr);
 			if(a!==b){
 				index[i] +=1;
@@ -67,6 +65,8 @@ function main(){
 				arr[i] = list[i][index[i]];
 				i+=1;
 			}
+			c = list[i][index[i]]%100;
+			d = Math.floor(list[0][index[0]]/100);
 			if(i === list.length){
 				console.log(arr);
 				console.log(a,b,c,d);
