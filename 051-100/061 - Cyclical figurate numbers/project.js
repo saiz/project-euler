@@ -46,7 +46,7 @@ function main(){
 			arr[i] =list[i][index[i]];
 			i+=1;
 
-		} else if(index[i] >=list[i].length){
+		} else if(index[i] >= list[i].length){
 			for(k=i;k<index.length;k+=1){
 				index[k]  = 0;
 			}
@@ -78,7 +78,7 @@ function main(){
 				}
 				console.log(index,arr, i);
 			}
-			console.log(index,list[i].length);
+			console.log(index,list[i].length, i);
 			//console.log(index,arr, i);
 			// 	if(index[i] >=list[i].length){
 			// 		index[0]  = 0;
