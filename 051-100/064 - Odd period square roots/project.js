@@ -1,7 +1,7 @@
 function m_n1(d,a,m){
 	return d*a -m;
 }
-function d_n1(d,a,m){
+function d_n1(s,m,d){
 	return d*a -m;
 }
 function approx (s, n){
