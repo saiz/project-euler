@@ -6,7 +6,8 @@ function main() {
 	'use strict';
 	var i = mn(0,1,114)
 	var a =[],
-		m =
+		m = [0],
+a
 	return i;
 }
 
