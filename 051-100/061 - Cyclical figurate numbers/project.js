@@ -81,7 +81,7 @@ function main(){
 			// 	}
 			// 	//console.log(index,arr, i);
 			// }
-			console.log(index,list[i].length, i);
+			//console.log(index,list[i].length, i);
 			//console.log(index,arr, i);
 			// 	if(index[i] >=list[i].length){
 			// 		index[0]  = 0;
