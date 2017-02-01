@@ -61,7 +61,7 @@ function main() {
 		if(res.length === len){
 			bool = false;
 		}
-		//console.log(i,j);
+		console.log(i,j);
 		i+=1;
 	}
 	return res;
