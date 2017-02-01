@@ -39,7 +39,7 @@ function main() {
 				index[k]=k;
 			}
 
-			console.log(i,j);
+			console.log(index,i,j);
 		}
 		i+=1;
 	}
