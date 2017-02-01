@@ -1,5 +1,5 @@
 function length(){
-	ret
+	return len
 }
 function main() {
 	'use strict';
