@@ -33,7 +33,7 @@ function zero_to_n_array(n){
 }
 function sortAlphabets(text) {
     return text.split('').sort().join('');
-};
+}
 function plus(obj,i){
 	if(obj[i]===undefined){
 		obj[i] = 1;
@@ -52,8 +52,8 @@ function main() {
 		j,k,res,str,num;
 	while(bool){
 		j=i*i*i;
-		str = String(j)
-		plus(cubes,j);
+		str = sortAlphabets(String(j));
+		plus(cubes,str);
 		console.log(i,j,cubes.length);
 		i+=1;
 	}
