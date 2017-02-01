@@ -42,26 +42,22 @@ function main() {
 	while(bool){
 		j=i*i*i;
 		res = [];
-		if(j%1 === 0){
-			res.push(i);
-			index = zero_to_n_array(String(i).length);
-			//console.log(i,index);
-			bool2 = true;
-			while(bool2){
-				if(!nextPerm(index)){
-					bool2  = false;
-				}
-				//console.log(index,i);
-				str = [];
-				for(k=0;k<index.length;k+=1){
-					str[k] =String(i)[index[k]];
-				}
-				num = parseInt(str.join(''),10);
-				if((String(num).length === String(i).length) && (Math.cbrt(num)%1===0) && res.indexOf(num) === -1){
-					res.push(num);
-				}
+		res.push(i);
+		//console.log(i,index);
+		bool2 = true;
+		while(bool2){
+			if(!nextPerm(index)){
+				bool2  = false;
 			}
-			//console.log(res);
+			//console.log(index,i);
+			str = [];
+			for(k=0;k<index.length;k+=1){
+				str[k] =String(i)[index[k]];
+			}
+			num = parseInt(str.join(''),10);
+			if((String(num).length === String(i).length) && (Math.cbrt(num)%1===0) && res.indexOf(num) === -1){
+				res.push(num);
+			}
 		}
 		if(res.length === len){
 			bool = false;
