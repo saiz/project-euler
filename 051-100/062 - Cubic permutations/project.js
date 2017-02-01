@@ -29,7 +29,7 @@ function sortAlphabets(text) {
 }
 function plus(obj,i,j){
 	if(obj[i]===undefined){
-		obj[i] ={
+		obj[i]={
 			len:1,
 			num:Math.pow(2,52)
 		};
