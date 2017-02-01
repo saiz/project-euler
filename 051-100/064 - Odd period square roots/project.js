@@ -8,7 +8,7 @@ function approx (s, n){
 		i=0,j;
 		while(i < n){
 			j =i+1;
-			m.push(m_n1(d[i],a))
+			m.push(m_n1(d[i],a[i],m[i]))
 		}
 	return a[i]
 }
