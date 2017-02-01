@@ -79,6 +79,7 @@ function main(){
 
 	while(nextPerm(list)){
 		j+=1;
+		console.log(j)
 		while(bool){
 			if(i===0){
 				arr[i] =list[i][index[i]];
