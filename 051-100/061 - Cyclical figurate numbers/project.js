@@ -76,6 +76,7 @@ function main(){
 		bool = true,
 		res= [];
 	while(nextPerm(list2)){
+		console.log(list2)
 		list=[];
 		for(j=0;j<list2.length;j+=1){
 			list[j]= listindex[list2[j]];
