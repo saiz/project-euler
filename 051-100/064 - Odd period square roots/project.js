@@ -12,7 +12,7 @@ function approx (s, n){
 		while(i < n){
 			j =i+1;
 			m.push(m_n1(d[i],a[i],m[i]));
-			d.push(d_n1(s,m[]))
+			d.push(d_n1(s,m[i+1],d[]))
 		}
 	return a[i]
 }
