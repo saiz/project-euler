@@ -15,6 +15,7 @@ function dict(callback){
 		}
 		i+=1;
 	}
+	console.log(obj.length)
 	return obj;
 }
 
