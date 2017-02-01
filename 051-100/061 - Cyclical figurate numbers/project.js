@@ -77,6 +77,7 @@ function main(){
 		list2.sort();
 		list.sort();
 	while(nextPerm(list)){
+
 		while(bool){
 			if(i===0){
 				arr[i] =list[i][index[i]];
