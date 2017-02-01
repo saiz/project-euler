@@ -50,7 +50,7 @@ function main() {
 					str[k] =String(i)[index[k]];
 				}
 				num = parseInt(str.join(''),10);
-				if((String(num).length === String(i).length) && (Math.cbrt(num)%1===0) && res.indexOf(num) >){
+				if((String(num).length === String(i).length) && (Math.cbrt(num)%1===0) && res.indexOf(num) === -1){
 					res.push(num);
 				}
 			}
