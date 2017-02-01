@@ -33,7 +33,7 @@ function zero_to_n_array(n){
 }
 function main() {
 	'use strict';
-	var i = 1,j,k,l,res,str,
+	var i = 1,j,k,l,res,str,num,
 		index = [],
 		bool =true;
 	while(bool){
@@ -49,8 +49,7 @@ function main() {
 				for(k=0;k<index.length;k+=1){
 					str[k] =String(i)[index[k]];
 				}
-				str.join('');
-				str = parseInt(str,10);
+				num = parseInt(str.join(''),10);
 				console.log(i,str);
 			}
 		}
