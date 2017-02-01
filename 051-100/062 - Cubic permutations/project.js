@@ -56,7 +56,7 @@ function main() {
 					res.push(num);
 				}
 			}
-			//console.log(res);
+			console.log(res);
 		}
 		if(res.length === len){
 			bool = false;
