@@ -93,6 +93,9 @@ function main(){
 			// 	}
 			// }
 		}
+		if(i === list.length){
+			console.log('adsa')
+		}
 		//console.log(index,arr, i);
 	}
 	console.log(index,arr, i);
