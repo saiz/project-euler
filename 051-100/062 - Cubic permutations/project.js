@@ -53,7 +53,7 @@ function main() {
 		console.log(str, cubes[str]);
 		i+=1;
 	}
-	var arr = res.split("");
+	var arr = res.split(""), num;
 	i= 0;
 	while(i <arr.length){
 		arr[i] = parseInt(arr[i],10);
@@ -63,6 +63,7 @@ function main() {
 		if(!nextPerm(arr)){
 			bool = false;
 		}
+		num
 if(Math)
 	}
 	return res;
