@@ -75,8 +75,6 @@ function main(){
 		i = 0,k,j,a,b,c,d,
 		bool = true,
 		res= [];
-
-
 	while(nextPerm(list2)){
 		list=[];
 		for(j=0;j<list2,length;j+=1){
