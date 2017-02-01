@@ -54,7 +54,7 @@ function main() {
 					res.push(num);
 				}
 			}
-			console.log(i,num);
+			console.log(res);
 		}
 		i+=1;
 	}
