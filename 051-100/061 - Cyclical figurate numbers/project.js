@@ -100,6 +100,10 @@ function main(){
 				i-=1;
 				index[i] +=1;
 				console.log('adsa');
+				var pp=0
+				while(pp <1){
+
+				}
 			}
 		}
 		//console.log(index,arr, i);
