@@ -2,14 +2,16 @@ function main() {
 	'use strict';
 	var i =1,
 		count = 9,
-		j,
+		j, len,
 	bool = true;
 	while(bool){
 		j=9;
 		if(String(Math.pow(j,i)).length !== i){
 			bool = false;
 		} else{
-			while((j > 0) && Math.ceil(Math.log(Math.pow(j,i) + 1) / Math.LN10); === i ){
+			len = Math.ceil(Math.log(Math.pow(j,i)) / Math.LN10);
+			console.log(String(Math.pow(j,i)).length,len)
+			while((j > 0) && String(Math.pow(j,i)).length === i ){
 				count+=1;
 				console.log(j,Math.pow(j,i),i)
 				j-=1;
