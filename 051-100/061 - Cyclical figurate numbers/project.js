@@ -76,6 +76,7 @@ function main(){
 		res= [];
 		list2.sort();
 		list.sort();
+
 	while(nextPerm(list)){
 console.log()
 		while(bool){
