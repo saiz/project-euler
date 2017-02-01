@@ -33,7 +33,9 @@ function main() {
 		j=Math.cbrt(i);
 		index =[];
 		if(j%1 === 0){
-
+				for(k=0;k<String(j).length;k+=1){
+					index[k]=k;
+				}
 
 			console.log(i,j);
 		}
