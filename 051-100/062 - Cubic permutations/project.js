@@ -47,9 +47,9 @@ function main() {
 		bool2 = true;
 		while(nextPerm(index)){
 			//console.log(index,i);
-			str = [];
+			str = '';
 			for(k=0;k<index.length;k+=1){
-				str[k] =String(j)[index[k]];
+				str += String(j)[index[k]];
 			}
 			num = parseInt(str.join(''),10);
 			if((String(num).length === String(j).length) && (Math.cbrt(num)%1===0) && res.indexOf(num) === -1){
