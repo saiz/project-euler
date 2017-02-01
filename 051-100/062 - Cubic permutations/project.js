@@ -53,17 +53,6 @@ function main() {
 		res = [j];
 		index = zero_to_n_array(String(j).length);
 		bool2 = true;
-		while(nextPerm(index)){
-			//console.log(index,i);
-			str = '';
-			for(k=0;k<index.length;k+=1){
-				str += String(j)[index[k]];
-			}
-			num = Math.cbrt(parseInt(str,10));
-			if(cubes.indexOf(num) > -1 && res.indexOf(num) === -1){
-				res.push(num);
-			}
-		}
 		//console.log(res);
 		if(res.length === len){
 			bool = false;
