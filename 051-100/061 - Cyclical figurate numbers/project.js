@@ -70,10 +70,12 @@ function main(){
 				d = Math.floor(list[0][index[0]]/100);
 				console.log(arr);
 				console.log(a,b,c,d);
+				console.log(i,list.length);
 				if(c!==d){
 			 		i-=1;
 			 		index[i] +=1;
 				}
+				console.log(i,list.length);
 			}
 			// 	if(index[i] >=list[i].length){
 			// 		index[0]  = 0;
