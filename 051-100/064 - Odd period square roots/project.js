@@ -4,6 +4,7 @@ function m_n1(d,a,m){
 function d_n1(s,m,d){
 	return (s-m*m)/d;
 }
+
 function approx (s, n){
 	var	m = [0],
 		d =[1],
@@ -13,7 +14,7 @@ function approx (s, n){
 			j =i+1;
 			m.push(m_n1(d[i],a[i],m[i]));
 			d.push(d_n1(s,m[i+1],d[i]));
-			a.
+
 		}
 	return a[i]
 }
