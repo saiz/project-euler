@@ -5,7 +5,7 @@ function d_n1(s,m,d){
 	return (s-m*m)/d;
 }
 function a_n1(s,m,d){
-	re
+	return Math.floor()
 }
 function approx (s, n){
 	var	m = [0],
