@@ -50,7 +50,7 @@ function main() {
 					str[k] =String(i)[index[k]];
 				}
 				num = parseInt(str.join(''),10);
-				console.log(i,str);
+				console.log(i,num);
 			}
 		}
 		i+=1;
