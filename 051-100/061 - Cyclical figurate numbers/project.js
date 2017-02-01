@@ -82,7 +82,7 @@ function main(){
 			// 	}
 			// }
 		}
-		console.log(index,i);
+		console.log(index,arr, i);
 	}
 	console.log(arr);
 
