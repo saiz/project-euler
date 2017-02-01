@@ -24,9 +24,16 @@ function nextPerm(array){
     }
     return true;
 }
+function zero_to_n_array(n){
+	var index=[],i;
+	for(i=0;i<=String(n).length;i+=1){
+		index[i]=i;
+	}
+	return index;
+}
 function main() {
 	'use strict';
-	var i = 1,j,k,res,
+	var i = 1,j,k,l,res,str,
 		index = [],
 		bool =true;
 	while(bool){
@@ -34,11 +41,12 @@ function main() {
 		res = [];
 		if(j%1 === 0){
 			res.push(i);
-			index =[];
-			for(k=0;k<String(i).length;k+=1){
-				index[k]=k;
+			index = zero_to_n_array(String(i).length -1);
+			str = [];
+			while(nextPerm(index)){
+				for(k=0;k<index.length;k+=1){
+					str.push(String(j)[index[k]]);				}
 			}
-
 			console.log(index,i,j);
 		}
 		i+=1;
