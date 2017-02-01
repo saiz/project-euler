@@ -5,7 +5,7 @@ function d_n1(s,m,d){
 	return (s-m*m)/d;
 }
 function a_n1(a,m,d){
-	return Math.floor(a+)
+	return Math.floor((a+m)/d)
 }
 function approx (s, n){
 	var	m = [0],
@@ -16,6 +16,7 @@ function approx (s, n){
 			j =i+1;
 			m.push(m_n1(d[i],a[i],m[i]));
 			d.push(d_n1(s,m[i+1],d[i]));
+			a.pus
 
 		}
 	return a[i]
