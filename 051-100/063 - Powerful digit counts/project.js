@@ -1,4 +1,6 @@
-function len
+function length(){
+	ret
+}
 function main() {
 	'use strict';
 	var i =1,
