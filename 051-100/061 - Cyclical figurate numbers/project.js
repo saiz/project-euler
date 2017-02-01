@@ -77,6 +77,7 @@ function main(){
 				}
 				console.log(i,list.length);
 			}
+			console.log(index,arr, i);
 			// 	if(index[i] >=list[i].length){
 			// 		index[0]  = 0;
 			// 		for(k=1;k<index.length;k+=1){
