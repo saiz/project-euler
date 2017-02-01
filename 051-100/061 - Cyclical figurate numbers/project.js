@@ -68,7 +68,7 @@ function nextPerm(array){
 }
 function main(){
 	var list=shape(),
-		list2= shape2(),
+		list2= [0,1,2,3,4,5]
 		index =[0,0,0,0,0,0],
 		arr = [],
 		i = 0,k,a,b,c,d,
