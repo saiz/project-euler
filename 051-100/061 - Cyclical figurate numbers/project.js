@@ -44,7 +44,7 @@ function main(){
 		if(i === index.length){
 			index.push(0)
 		}
-		if(i===0){
+		if(i===z0){
 			arr[i] =list[i][index[i]];
 			i+=1;
 		} else {
