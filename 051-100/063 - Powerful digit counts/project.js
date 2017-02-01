@@ -1,4 +1,4 @@
-functi
+function len
 function main() {
 	'use strict';
 	var i =1,
