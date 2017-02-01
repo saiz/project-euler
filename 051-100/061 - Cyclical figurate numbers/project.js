@@ -47,6 +47,7 @@ function main(){
 			i+=1;
 
 		}
+		console.log(i, index);
 		if(index[i] >= list[i].length){
 			console.log('adasd')
 			for(k=i;k<index.length;k+=1){
@@ -68,7 +69,7 @@ function main(){
 				i+=1;
 			}
 			if(i === list.length){
-				console.log(index,arr, i);
+				//console.log(index,arr, i);
 				c = list[i-1][index[i-1]]%100;
 				d = Math.floor(list[0][index[0]]/100);
 				// console.log(arr);
@@ -78,7 +79,7 @@ function main(){
 			 		i-=1;
 			 		index[i] +=1;
 				}
-				console.log(index,arr, i);
+				//console.log(index,arr, i);
 			}
 			console.log(index,list[i].length, i);
 			//console.log(index,arr, i);
