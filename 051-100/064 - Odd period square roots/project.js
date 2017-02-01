@@ -7,6 +7,17 @@ function d_n1(s,m,d){
 function a_n1(a,m,d){
 	return Math.floor((a+m)/d)
 }
+function repeat(arr){
+	var i=1,
+		res =[],
+		dist,
+		end, start;
+	while(i <= arr.length/2){
+		dist = arr.length - i;
+		end = arr
+		if()
+	}
+}
 function approx (s, n){
 	var	m = [0],
 		d =[1],
