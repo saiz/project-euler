@@ -6,7 +6,7 @@ function approx (s, n){
 		d =[1],
 		a =[Math.floor(Math.sqrt(s))],
 		i=0;
-		while(i<n){
+		while(i<n+1){
 m.push()
 		}
 	return a[i]
