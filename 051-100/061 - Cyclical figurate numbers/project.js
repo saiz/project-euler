@@ -63,7 +63,6 @@ function main(){
 			//console.log(arr);
 			if(a!==b){
 				index[i] +=1;
-				//i-=1;
 			}
 			if(a===b){
 				arr[i] = list[i][index[i]];
