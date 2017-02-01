@@ -67,7 +67,8 @@ function nextPerm(array){
     return true;
 }
 function main(){
-	var list=shape(),
+	var list = []
+		listindex=shape(),
 		list2= [0,1,2,3,4,5]
 		index =[0,0,0,0,0,0],
 		arr = [],
@@ -78,6 +79,8 @@ function main(){
 		list.sort();
 
 	while(nextPerm(list2)){
+		for(k=0;k<)
+		list
 		index =[0,0,0,0,0,0];
 		arr = [];
 		i=0;
