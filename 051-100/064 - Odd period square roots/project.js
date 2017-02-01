@@ -6,8 +6,8 @@ function approx (s, n){
 		d =[1],
 		a =[a_n(m[0],d[0],s)],
 		i=0;
-
-	return a[0]
+		while()
+	return a[i]
 }
 function main() {
 	'use strict';
