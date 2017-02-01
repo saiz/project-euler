@@ -63,7 +63,7 @@ function main() {
 		if(!nextPerm(arr)){
 			bool = false;
 		}
-		num =
+		num =parseInt()
 if(Math)
 	}
 	return res;
