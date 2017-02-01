@@ -31,6 +31,9 @@ function zero_to_n_array(n){
 	}
 	return index;
 }
+var sortAlphabets = function(text) {
+    return text.split('').sort().join('');
+};
 function plus(obj,i){
 	if(obj[i]===undefined){
 		obj[i] = 1;
@@ -49,13 +52,8 @@ function main() {
 		j,k,res,str,num;
 	while(bool){
 		j=i*i*i;
+		str = String(j)
 		plus(cubes,j);
-		res = [j];
-		bool2 = true;
-		//console.log(res);
-		if(res.length === len){
-			bool = false;
-		}
 		console.log(i,j,cubes.length);
 		i+=1;
 	}
