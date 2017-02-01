@@ -45,7 +45,7 @@ function main() {
 		index = zero_to_n_array(String(j).length);
 		bool2 = true;
 		l = String(j);
-		if(l.indexOf())
+		if(l.indexOf('0'))
 		while(nextPerm(index)){
 			//console.log(index,i);
 			str = '';
