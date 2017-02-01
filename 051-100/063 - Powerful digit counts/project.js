@@ -10,8 +10,7 @@ function main() {
 			bool = false;
 		} else{
 			len = Math.ceil(Math.log(Math.pow(j,i)) / Math.LN10);
-			console.log(String(Math.pow(j,i)).length,len)
-			while((j > 0) && String(Math.pow(j,i)).length === i ){
+			while((j > 0) && len === i ){
 				count+=1;
 				console.log(j,Math.pow(j,i),i)
 				j-=1;
