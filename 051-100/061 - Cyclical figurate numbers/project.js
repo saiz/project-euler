@@ -92,6 +92,7 @@ function main(){
 				arr[i] =list[i][index[i]];
 				i+=1;
 			}
+			console.log(index,list[i].length)
 			if(index[i] >= list[i].length){
 				for(k=i;k<index.length;k+=1){
 					index[k]  = 0;
