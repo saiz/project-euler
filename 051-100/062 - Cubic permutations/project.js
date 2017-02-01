@@ -26,7 +26,7 @@ function nextPerm(array){
 }
 function main() {
 	'use strict';
-	var i = 1,j,k,,res,
+	var i = 1,j,k,res,
 		index = [],
 		bool =true;
 	while(bool){
