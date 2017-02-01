@@ -36,8 +36,8 @@ function plus(obj,i,j){
 	} else{
 		obj[i].len +=1;
 	}
-	if(obj[j].number > j){
-		obj[j].number = j;
+	if(obj[i].number > j){
+		obj[i].number = j;
 	}
 }
 function main() {
