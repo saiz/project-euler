@@ -16,7 +16,7 @@ function main() {
 		}
 		i+=1;
 	}
-	return ;
+	return count;
 }
 
 console.log(main(process.argv[2]));
