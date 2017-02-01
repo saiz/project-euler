@@ -51,7 +51,7 @@ function main() {
 				}
 				num = parseInt(str.join(''),10);
 				if(String(num).length === String(j).length){
-
+res.push(num)
 				}
 				console.log(i,num);
 			}
