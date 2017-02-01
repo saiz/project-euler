@@ -64,7 +64,7 @@ function main() {
 			bool = false;
 		}
 		num =parseInt(arr.join(''));
-		if(String(num).length === arr.length){
+		if((String(num).length === arr.length) && ){
 
 		}
 	}
