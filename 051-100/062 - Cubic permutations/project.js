@@ -33,7 +33,7 @@ function main() {
 		i+=1;
 	}
 	console.log(res);
-	return res;
+	return res.num;
 }
 
 console.log(main(process.argv[2]));
