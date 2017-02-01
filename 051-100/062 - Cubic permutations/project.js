@@ -31,6 +31,7 @@ function main() {
 		bool =true;
 	while(bool){
 		j=Math.cbrt(i);
+		res = [];
 		if(j%1 === 0){
 
 			index =[];
