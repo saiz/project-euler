@@ -111,7 +111,7 @@ function main(){
 					if(c!==d){
 				 		i-=1;
 				 		index[i] +=1;
-					}else{
+					} else{
 						res.push(arr.slice(0));
 					}
 				}
