@@ -9,7 +9,7 @@ function main() {
 	bool = true;
 	while(bool){
 		j=9;
-		len = Math.ceil(Math.log(Math.pow(j,i) + 1 ) / Math.LN10);
+		len = length(Math.pow(j,i))
 		if(len !== i){
 			bool = false;
 		} else{
