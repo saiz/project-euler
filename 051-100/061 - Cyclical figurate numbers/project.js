@@ -101,7 +101,7 @@ function main(){
 			} else if(i!==0){
 				b = Math.floor(list[i][index[i]]/100);
 				a = list[i-1][index[i-1]]%100;
-				console.log(arr);
+				//console.log(arr);
 				if(a!==b){
 					index[i] +=1;
 				}
@@ -113,6 +113,7 @@ function main(){
 			if(i === list.length){
 				c = list[i-1][index[i-1]]%100;
 				d = Math.floor(list[0][index[0]]/100);
+				console.log(arr);
 				if(c!==d){
 					i-=1;
 					index[i] +=1;
