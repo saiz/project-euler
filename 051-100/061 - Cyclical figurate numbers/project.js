@@ -78,10 +78,8 @@ function main(){
 	while(nextPerm(list2)){
 		list=[];
 		for(j=0;j<list2.length;j+=1){
-			console.log(list2[j]);
 			list[j]= listindex[list2[j]];
 		}
-		console.log(list);
 		index =[0,0,0,0,0,0];
 		arr = [];
 		i=0;
@@ -123,8 +121,6 @@ function main(){
 			}
 			if(index[0] === list[0].length -1 && index[1] === list[1].length -1){
 				bool = false;
-			}
-			console.log(arr)
 		}
 	}
 	console.log(res);
