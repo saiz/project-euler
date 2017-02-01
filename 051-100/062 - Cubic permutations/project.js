@@ -51,7 +51,6 @@ function main() {
 		j=i*i*i;
 		plus(cubes,j);
 		res = [j];
-		index = zero_to_n_array(String(j).length);
 		bool2 = true;
 		//console.log(res);
 		if(res.length === len){
