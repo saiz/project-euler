@@ -71,8 +71,8 @@ function main(){
 				console.log(arr);
 				console.log(a,b,c,d);
 				if(c!==d){
-			// 		i-=1;
-			// 		index[i] +=1;
+			 		i-=1;
+			 		index[i] +=1;
 				}
 			}
 			// 	if(index[i] >=list[i].length){
