@@ -4,7 +4,7 @@ function a_n(m,d,S){
 function approx (S){
 	var	m = [0],
 		d =[1],
-		a =[a_n(m[0],d[0],)];
+		a =[a_n(m[0],d[0],s)];
 }
 function main() {
 	'use strict';
