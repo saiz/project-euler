@@ -37,6 +37,7 @@ function main() {
 		len =5,
 		index = [],
 		bool =true,
+		bool2,
 		j,k,l,res,str,num;
 	while(bool){
 		j=Math.cbrt(i);
@@ -45,7 +46,11 @@ function main() {
 			res.push(i);
 			index = zero_to_n_array(String(i).length);
 			//console.log(i,index);
-			while(nextPerm(index)){
+			bool2 = true;
+			while(bool2){
+				if(!nextPerm(index)){
+					bool2  = false;
+				}
 				//console.log(index,i);
 				str = [];
 				for(k=0;k<index.length;k+=1){
