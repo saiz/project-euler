@@ -67,7 +67,7 @@ function nextPerm(array){
     return true;
 }
 function main(){
-	var list = []
+	var list = [],
 		listindex=shape(),
 		list2= [0,1,2,3,4,5],
 		index =[0,0,0,0,0,0],
