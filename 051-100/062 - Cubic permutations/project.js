@@ -34,10 +34,10 @@ function plus(obj,i,j){
 			num:Math.pow(2,52)
 		};
 	} else{
-		obj[i].len +=1;
+		obj[i]['len'] +=1;
 	}
 	if(obj[j]['num'] > j){
-		obj[j].num = j;
+		obj[j]['num'] = j;
 	}
 }
 function main() {
