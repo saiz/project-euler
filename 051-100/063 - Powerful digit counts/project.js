@@ -10,7 +10,7 @@ function main() {
 	while(bool){
 		j=9;
 		len = length(Math.pow(j,i));
-		if(len !== i){
+		if(length(Math.pow(j,i)) !== i){
 			bool = false;
 		} else{
 			while((j > 0) && len === i ){
