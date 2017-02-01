@@ -58,26 +58,6 @@ function main() {
 		i+=1;
 	}
 	console.log(res);
-	var arr = res.split(""), num;
-	i= 0;
-	while(i <arr.length){
-		arr[i] = parseInt(arr[i],10);
-		i+=1;
-	}
-	bool = true;
-	while(bool){
-		if(!nextPerm(arr)){
-			bool = false;
-			res =0;
-		}
-		num =parseInt(arr.join(''));
-		console.log(num);
-
-		if((String(num).length === arr.length) && (Math.cbrt(num)%1 ===0)){
-			bool = false;
-			res = num;
-		}
-	}
 	return res;
 }
 
