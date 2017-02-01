@@ -100,10 +100,10 @@ function main(){
 				index[i] +=1;
 				console.log(arr,index);
 				console.log(c,d);
-				var pp=0
-				while(pp <1){
+				// var pp=0
+				// while(pp <1){
 
-				}
+				// }
 			}
 		}
 		//console.log(index,arr, i);
