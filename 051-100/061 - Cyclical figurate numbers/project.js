@@ -47,7 +47,7 @@ function main(){
 			i+=1;
 
 		}
-		console.log(i, index);
+		//console.log(i, index);
 		if(index[i] >= list[i].length){
 			//console.log('adasd')
 			for(k=i;k<index.length;k+=1){
