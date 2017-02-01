@@ -44,11 +44,10 @@ function main(){
 	while(i< list.length){
 		console.log(index,i);
 		if(i===0){
+			arr[i] =list[i][index[i]];
 			for(k=i+1;k<index.length;k+=1){
 				index[k]  = 0;
 			}
-			arr[i] =list[i][index[i]];
-
 			i+=1;
 
 		} else if(index[i] >=list[i].length){
