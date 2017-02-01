@@ -65,9 +65,9 @@ function main(){
 				arr[i] = list[i][index[i]];
 				i+=1;
 			}
-			c = list[i][index[i]]%100;
-			d = Math.floor(list[0][index[0]]/100);
 			if(i === list.length){
+				c = list[i][index[i]]%100;
+				d = Math.floor(list[0][index[0]]/100);
 				console.log(arr);
 				console.log(a,b,c,d);
 				if(c!==d){
