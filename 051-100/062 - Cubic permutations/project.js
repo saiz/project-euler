@@ -67,10 +67,11 @@ function main() {
 			res =0;
 		}
 		num =parseInt(arr.join(''));
+		console.log(num);
+
 		if((String(num).length === arr.length) && (Math.cbrt(num)%1 ===0)){
 			bool = false;
 			res = num;
-			console.log(res);
 		}
 	}
 	return res;
