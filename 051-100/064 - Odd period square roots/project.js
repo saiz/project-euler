@@ -1,5 +1,5 @@
 function m_n1(d,a,m){
-	return
+	return d
 }
 function approx (s, n){
 	var	m = [0],
