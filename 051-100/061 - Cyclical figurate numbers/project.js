@@ -97,6 +97,7 @@ function main(){
 			c = list[i-1][index[i-1]]%100;
 			d = Math.floor(list[0][index[0]]/100);
 			if(c!==d){
+				i-=1;
 				console.log('adsa');
 			}
 		}
