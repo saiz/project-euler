@@ -81,7 +81,7 @@ function main(){
 			// 	}
 			// }
 		}
-		console.log(index,i);
+		console.log(arr,i);
 	}
 	console.log(arr);
 
