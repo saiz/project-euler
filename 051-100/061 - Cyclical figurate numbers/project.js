@@ -74,6 +74,7 @@ function main(){
 		i = 0,k,a,b,c,d,
 		bool = true;
 		list2.sort();
+		list.sort();
 	while(nextPerm(list2)){
 		console.log(list2);
 		while(bool){
