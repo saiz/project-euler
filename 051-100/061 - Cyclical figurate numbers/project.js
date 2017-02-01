@@ -79,7 +79,7 @@ function main(){
 		list=[];
 		for(j=0;j<list2.length;j+=1){
 			console.log(list2[j]);
-			list= listindex[list2[j]];
+			list[j]= listindex[list2[j]];
 		}
 		console.log(list);
 		index =[0,0,0,0,0,0];
