@@ -77,7 +77,7 @@ function main(){
 		list2.sort();
 		list.sort();
 
-	while(nextPerm(list)){
+	while(nextPerm(list2)){
 		j+=1;
 		console.log(j)
 		while(bool){
