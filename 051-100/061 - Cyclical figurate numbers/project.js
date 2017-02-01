@@ -122,7 +122,8 @@ function main(){
 				} else{
 					console.log(arr);
 					res.push(arr.slice(0));
-					bool = false;
+					i-=1;
+					index[i] +=1;
 				}
 
 			}
