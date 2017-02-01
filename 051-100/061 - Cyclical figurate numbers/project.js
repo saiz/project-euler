@@ -78,8 +78,9 @@ function main(){
 		list.sort();
 
 	while(nextPerm(list)){
-		index =[0,0,0,0,0,0],
+		index =[0,0,0,0,0,0];
 		arr = [];
+		i=0;
 		while(bool){
 			if(i===0){
 				arr[i] =list[i][index[i]];
