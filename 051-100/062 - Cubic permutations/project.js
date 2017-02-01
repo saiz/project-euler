@@ -35,7 +35,7 @@ function main() {
 		if(j%1 === 0){
 			res.push(i);
 			index =[];
-			for(k=0;k<String(j).length;k+=1){
+			for(k=0;k<String(i).length;k+=1){
 				index[k]=k;
 			}
 
