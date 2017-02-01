@@ -68,19 +68,19 @@ function main(){
 				arr[i] = list[i][index[i]];
 				i+=1;
 			}
-			if(i === list.length){
-				//console.log(index,arr, i);
-				c = list[i-1][index[i-1]]%100;
-				d = Math.floor(list[0][index[0]]/100);
-				// console.log(arr);
-				// console.log(a,b,c,d);
-				// console.log(i,list.length);
-				if(c!==d){
-			 		i-=1;
-			 		index[i] +=1;
-				}
-				//console.log(index,arr, i);
-			}
+			// if(i === list.length){
+			// 	//console.log(index,arr, i);
+			// 	c = list[i-1][index[i-1]]%100;
+			// 	d = Math.floor(list[0][index[0]]/100);
+			// 	// console.log(arr);
+			// 	// console.log(a,b,c,d);
+			// 	// console.log(i,list.length);
+			// 	if(c!==d){
+			//  		i-=1;
+			//  		index[i] +=1;
+			// 	}
+			// 	//console.log(index,arr, i);
+			// }
 			console.log(index,list[i].length, i);
 			//console.log(index,arr, i);
 			// 	if(index[i] >=list[i].length){
