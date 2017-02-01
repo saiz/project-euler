@@ -49,10 +49,10 @@ function main() {
 				for(k=0;k<index.length;k+=1){
 					str[k] =String(i)[index[k]];
 				}
+				str.join('');
+				str = parseInt(str,10);
+				console.log(j,str);
 			}
-			str.join('');
-			str = parseInt(str,10);
-			console.log(j,str);
 		}
 		i+=1;
 	}
