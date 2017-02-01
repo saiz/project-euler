@@ -94,6 +94,8 @@ function main(){
 			// }
 		}
 		if(i === list.length){
+			c = list[i-1][index[i-1]]%100;
+			d = Math.floor(list[0][index[0]]/100);
 			console.log('adsa')
 		}
 		//console.log(index,arr, i);
