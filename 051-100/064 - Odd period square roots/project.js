@@ -1,6 +1,10 @@
+function mn(m,d,S){
+	return Math.floor((Math.sqrt(S)+m)/d);
+}
+
 function main() {
 	'use strict';
-	var i ='test';
+	var i = mn(0,1,114)
 	return i;
 }
 
