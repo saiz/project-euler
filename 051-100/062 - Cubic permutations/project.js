@@ -53,7 +53,7 @@ function main() {
 		str = sortAlphabets(String(j));
 		plus(cubes,str,j);
 		if(cubes[str].len === len){
-			res = str;
+			res = cubes[str];
 			bool = false;
 		}
 		//console.log(str, cubes[str]);
