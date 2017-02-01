@@ -71,7 +71,7 @@ function main(){
 		list2= shape2(),
 		index =[0,0,0,0,0,0],
 		arr = [],
-		i = 0,k,a,b,c,d,
+		i = 0,k,j = 0,a,b,c,d,
 		bool = true,
 		res= [];
 		list2.sort();
