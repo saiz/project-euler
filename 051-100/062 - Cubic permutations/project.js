@@ -62,11 +62,12 @@ function main() {
 	while(bool){
 		if(!nextPerm(arr)){
 			bool = false;
+			res =0;
 		}
 		num =parseInt(arr.join(''));
 		if((String(num).length === arr.length) && (Math.cbrt(num)%1 ===0)){
 			bool = false;
-			res =
+			res = num
 		}
 	}
 	return res;
