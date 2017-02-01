@@ -29,6 +29,17 @@ function shape() {
 	array.push( dict(oct));
 	return array;
 }
+function shape2() {
+	'use strict';
+	var array = [];
+	array.push( 'tri');
+	array.push( 'squ');
+	array.push( 'pent');
+	array.push( 'hex');
+	array.push( 'hept');
+	array.push( 'oct');
+	return array;
+}
 function nextPerm(array){
 	'use strict';
 	var i = array.length -1;
@@ -57,6 +68,7 @@ function nextPerm(array){
 }
 function main(){
 	var list=shape(),
+		list2= shape2(),
 		index =[0,0,0,0,0,0],
 		arr = [],
 		i = 0,k,a,b,c,d;
@@ -67,6 +79,7 @@ function main(){
 					index[k]  = 0;
 				}
 				nextPerm(list);
+				nextPerm(list2);
 			}
 			arr[i] =list[i][index[i]];
 			i+=1;
