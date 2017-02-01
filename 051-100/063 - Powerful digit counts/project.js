@@ -9,7 +9,7 @@ function main() {
 		if(String(Math.pow(j,i)).length !== i){
 			bool = false;
 		} else{
-			while((j > 0) && String(Math.pow(j,i)).length === i ){
+			while((j > 0) && Math.ceil(Math.log(Math.pow(j,i) + 1) / Math.LN10); === i ){
 				count+=1;
 				console.log(j,Math.pow(j,i),i)
 				j-=1;
