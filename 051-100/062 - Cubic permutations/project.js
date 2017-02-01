@@ -60,7 +60,7 @@ function main() {
 		if(res.length === len){
 			bool = false;
 		}
-		console.log(res);
+		console.log(i);
 		i+=1;
 	}
 	return res;
