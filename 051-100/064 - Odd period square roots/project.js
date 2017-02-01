@@ -4,7 +4,7 @@ function mn(m,d,S){
 function approx (){
 	var	m = [0],
 		d =[1],
-		a =[],
+		a =[];
 }
 function main() {
 	'use strict';
