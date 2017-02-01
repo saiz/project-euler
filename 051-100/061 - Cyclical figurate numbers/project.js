@@ -69,14 +69,13 @@ function nextPerm(array){
 function main(){
 	var list = []
 		listindex=shape(),
-		list2= [0,1,2,3,4,5]
+		list2= [0,1,2,3,4,5],
 		index =[0,0,0,0,0,0],
 		arr = [],
 		i = 0,k,j,a,b,c,d,
 		bool = true,
 		res= [];
-		list2.sort();
-		list.sort();
+
 
 	while(nextPerm(list2)){
 		list=[];
