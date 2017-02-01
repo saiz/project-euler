@@ -40,14 +40,12 @@ function main() {
 		bool2,
 		j,k,l,res,str,num;
 	while(bool){
+		j=1;
 		j=i*i*i;
 		res = [j];
 		index = zero_to_n_array(String(i).length);
 		bool2 = true;
-		while(bool2){
-			if(!nextPerm(index)){
-				bool2  = false;
-			}
+		while(nextPerm(index)){
 			//console.log(index,i);
 			str = [];
 			for(k=0;k<index.length;k+=1){
