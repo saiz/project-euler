@@ -53,6 +53,7 @@ function main() {
 		//console.log(str, cubes[str]);
 		i+=1;
 	}
+	console.log(res);
 	var arr = res.split(""), num;
 	i= 0;
 	while(i <arr.length){
