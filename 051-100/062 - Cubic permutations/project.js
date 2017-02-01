@@ -27,11 +27,15 @@ function nextPerm(array){
 function sortAlphabets(text) {
     return text.split('').sort().join('');
 }
-function plus(obj,i){
+function plus(obj,i,j){
 	if(obj[i]===undefined){
-		obj[i] = 1;
+		obj[i].len = 1;
+		obj[j].num = Math.pow(2,52);
 	} else{
-		obj[i] +=1;
+		obj[i].len +=1;
+	}
+	if(obj[j].num > j){
+		obj[j].num = j;
 	}
 }
 function main() {
@@ -45,7 +49,7 @@ function main() {
 	while(bool){
 		j=i*i*i;
 		str = sortAlphabets(String(j));
-		plus(cubes,str);
+		plus(cubes,str,j);
 		if(cubes[str] === len){
 			res = str;
 			bool = false;
