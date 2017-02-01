@@ -1,7 +1,9 @@
 function mn(m,d,S){
 	return Math.floor((Math.sqrt(S)+m)/d);
 }
-function approx ()
+function approx (){
+
+}
 function main() {
 	'use strict';
 	var i = mn(0,1,114)
