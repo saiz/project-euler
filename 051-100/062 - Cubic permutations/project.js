@@ -34,7 +34,7 @@ function zero_to_n_array(n){
 function main() {
 	'use strict';
 	var i = 1,
-		len =3,
+		len =5,
 		index = [],
 		bool =true,
 		j,k,l,res,str,num;
