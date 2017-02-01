@@ -31,7 +31,7 @@ function main() {
 	while(bool){
 		j=Math.cbrt(i);
 		if(j%1 === 0){
-			console.log(j);
+			console.log(i,j);
 		}
 		i+=1;
 	}
