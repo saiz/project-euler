@@ -12,7 +12,7 @@ function main() {
 			len = Math.ceil(Math.log(Math.pow(j,i) + 1 ) / Math.LN10);
 			while((j > 0) && len === i ){
 				count+=1;
-				console.log(j,Math.pow(j,i),i)
+				console.log(j,Math.pow(j,i));
 				j-=1;
 			}
 		}
