@@ -50,7 +50,7 @@ function main() {
 			res = j;
 			bool = false;
 		}
-		console.log(str, cubes[str]);
+		//console.log(str, cubes[str]);
 		i+=1;
 	}
 	var arr = res.split(""), num;
