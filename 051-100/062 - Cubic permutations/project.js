@@ -55,8 +55,9 @@ function main() {
 		plus(cubes,str);
 		if(cubes[str] === len){
 			res = cubes[str];
-			bool = false
+			bool = false;
 		}
+		console.log(str, cubes[str]);
 		i+=1;
 	}
 	return res;
