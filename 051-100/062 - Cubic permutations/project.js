@@ -58,6 +58,7 @@ function main() {
 	i= 0;
 	while(i <arr.length){
 		arr[i] = parseInt(arr[i],10);
+		i+=1;
 	}
 	bool = true;
 	while(bool){
