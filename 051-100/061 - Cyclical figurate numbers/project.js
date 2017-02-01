@@ -58,7 +58,7 @@ function main(){
 			a = list[i-1][index[i-1]]%100;
 			c = list[i][index[i]]%100;
 			d = Math.floor(list[0][index[0]]/100);
-			//console.log(arr);
+			console.log(index,i);
 			if(a!==b){
 				index[i] +=1;
 			}
