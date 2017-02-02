@@ -27,7 +27,7 @@ function repeat(arr,precision){
 		dist,
 		end,index, len, rem = null,
 		bool = false;
-	while(i < Math.floor(arr.length/2) && arr.length >= percision){
+	while(i < Math.floor(arr.length/2) && arr.length >= precision){
 		len = arr.length;
 		dist = Math.floor(len/2 -i);
 		end = arr.slice(len-dist,len);
@@ -59,7 +59,7 @@ function repeat(arr,precision){
 		repeat:end
 	};
 }
-function approx (s,percision){
+function approx (s,precision){
 	var	m = [0],
 		d =[1],
 		a =[Math.floor(Math.sqrt(s))],
@@ -69,7 +69,7 @@ function approx (s,percision){
 			m.push(m_n1(d[i],a[i],m[i]));
 			d.push(d_n1(s,m[i+1],d[i]));
 			a.push(a_n1(a[0],m[i+1],d[i+1]));
-			rep = repeat(a,percision);
+			rep = repeat(a,precision);
 			if(rep.repeat !== null){
 				bool = false;
 			}
