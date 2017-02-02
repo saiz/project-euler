@@ -41,8 +41,8 @@ function main(n) {
 		total =[1,1],
 		e_n = [];
 	while(i<n){
-		// total = add(total,fraction(i));
-		console.log(fraction(i));
+		total = add(total,fraction(i));
+		console.log(total);
 		i+=1;
 	}
 	return;
