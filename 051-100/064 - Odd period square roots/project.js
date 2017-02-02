@@ -25,13 +25,14 @@ function repeat(arr){
 	var i=0,
 		res =[],
 		dist,
-		end, start, len, rem = null,
+		end,mid, start, len, rem = null,
 		bool =false;
 	while(i < Math.floor(arr.length/2)){
 		len = arr.length;
 		dist = Math.floor(len/2 -i);
+		start = arr.slice(len-3*dist,len-2*dist );
+		mid = arr.slice(len-2*dist,len-dist );
 		end = arr.slice(len-dist,len);
-		start = arr.slice(len-2*dist,len-dist );
 		console.log(arr,start,end);
 		if(equal(start,end)){
 			bool =true;
