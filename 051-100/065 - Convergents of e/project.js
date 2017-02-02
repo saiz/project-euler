@@ -32,7 +32,7 @@ function fraction(n, total){
 function main(n) {
 	'use strict';
 	n = parseInt(n,10);
-	approx();
+	approx(Math.E);
 	return;
 }
 
