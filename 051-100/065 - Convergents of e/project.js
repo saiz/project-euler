@@ -11,10 +11,11 @@ function fraction(n){
 	return fract(a,b,1,n);
 }
 function fact (n){
+	var i = new BigNumber(n);
 	if(n <= 1){
 		return 1;
 	}
-	return n*fact(n-1);
+	return n.timesfact(n-1);
 }
 function gcd(a, b) {
     if ( ! b) {
