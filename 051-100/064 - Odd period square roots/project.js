@@ -31,7 +31,7 @@ function repeat(arr){
 		dist,
 		end, start, len, rem = null,
 		bool =false;
-	while(i <= arr.length/2){
+	while(i < arr.length/2){
 		len = arr.length -1;
 		dist = len - i;
 		end = arr.subarray(len-dist,len).join('');
