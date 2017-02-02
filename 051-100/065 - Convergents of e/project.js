@@ -25,7 +25,7 @@ function lcm(a, b) {
 function add(a,b){
 	var l = lcm(a[1],b[1]);
 	return[a[0]*l/a[1] + b[0]*l/b[1],l];
-\}
+}
 function main(n) {
 	'use strict';
 	n = parseInt(n,10);
