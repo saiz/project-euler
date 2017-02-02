@@ -12,7 +12,17 @@ function fraction(n){
 		b = 2;
 	return fract(a,b,1,n);
 }
+function gcd(a, b) {
+    if ( ! b) {
+        return a;
+    }
 
+    return gcd(b, a % b);
+}
+function add(a,b){
+	var g = gcd(a[1],b[1]);
+	console.log(g)
+}
 function main(n) {
 	'use strict';
 	n = parseInt(n,10);
