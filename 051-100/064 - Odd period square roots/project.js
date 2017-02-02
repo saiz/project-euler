@@ -12,8 +12,7 @@ function equal(a,b){
 	if(a.length !== b.length){
 		bool = false;
 	}
-	var bool = true,
-		i=0;
+	var i=0;
 	while(i<a.length && bool){
 		if(a[i]!==b[i]){
 			bool = false;
