@@ -10,7 +10,12 @@ function p_n(a,n){
 
 function main(n) {
 	'use strict';
-	n = parseInt(n,10);
+	var a = [],
+		p = [a[0],(a[0]*a[1]+1)],
+		q = [1,a[1]];
+	while(bool){
+
+	}
 	return;
 }
 
