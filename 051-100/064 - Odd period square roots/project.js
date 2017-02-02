@@ -27,7 +27,7 @@ function repeat(arr){
 		res =[],
 		dist,
 		end,index, len, rem = null,
-		bool;
+		bool,mod;
 	while(i < Math.floor(arr.length/2)){
 		len = arr.length;
 		dist = Math.floor(len/2 -i);
@@ -45,7 +45,8 @@ function repeat(arr){
 		//console.log(arr,start,end);
 		if(bool){
 			i = arr.length;
-			if(len-dist-end.length -1 >=0){
+			mod = len % dist;
+			if(mod > 0){
 				rem = arr.slice(0,len-3*dist).join('');
 			}
 		}
