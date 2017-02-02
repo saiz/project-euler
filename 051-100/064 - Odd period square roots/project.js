@@ -9,13 +9,12 @@ function a_n1(a,m,d){
 }
 function equal(a,b){
 	var bool = true,
-		i
+		i= 0;
 	if(a.length !== b.length){
 		bool = false;
 	}
-	var i=0;
 	while(i<a.length && bool){
-		if(a[i]!==b[i]){
+		if(a[i] !== b[i]){
 			bool = false;
 		}
 		i+=1;
