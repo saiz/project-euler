@@ -35,10 +35,10 @@ function repeat(arr){
 
 		j=2;
 		bool = true;
-		while(j<pattern && bool2){
+		while(j<pattern && bool){
 			index = arr.slice(len-j*dist,len-j*dist );
 			if(!equal(index,end) ){
-				bool2 = false;
+				bool = false;
 			}
 			j+=1;
 		}
