@@ -81,7 +81,7 @@ function main(n) {
 	n = parseInt(n,10);
 	var i = 2;
 	while(i < n){
-		console.log(approx(n));
+		console.log(approx(i));
 		i+=1;
 	}
 	return;
