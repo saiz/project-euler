@@ -37,13 +37,14 @@ function repeat(arr){
 		end = arr.subarray(len-dist,len-1).join('');
 		start = arr.subarray(len-2*dist -1,len-dist -1).join('');
 		console.log(len,dist,arr,start,end);
-		// if(start === end){
-		// 	bool =true;
-		// 	i = arr.length;
-		// 	if(len-2*dist -1 >0){
-		// 		rem = arr.slice(0,len-2*dist -1).join('');
-		// 	}
-		// }
+		if(start === end){
+			bool =true;
+			console.log('adsas')
+			// i = arr.length;
+			// if(len-2*dist -1 >0){
+			// 	rem = arr.slice(0,len-2*dist -1).join('');
+			// }
+		}
 		i+=1;
 	}
 	// if(!bool){
