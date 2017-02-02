@@ -31,6 +31,7 @@ function repeat(arr){
 		dist,
 		end, start, len, rem = null,
 		bool =false;
+		arr = arr.reverse();
 	while(i < arr.length/2){
 		len = arr.length;
 		dist = len - i;
@@ -47,6 +48,7 @@ function repeat(arr){
 		}
 		i+=1;
 	}
+	arr = arr.reverse();
 	// if(!bool){
 	// 	return{
 	// 		rem:null,
