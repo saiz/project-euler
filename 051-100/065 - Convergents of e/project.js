@@ -14,7 +14,7 @@ function main(j) {
 		if(i===0){
 			c[i] =new BigNumber(a[0]);
 		} else if(i===1){
-			c[i] =new BigNumber(a[0]);
+			c[i] =new BigNumber(a[1]*a[2] + 1);
 			c[i] = a[1]*a[2] + 1;
 		} else{
 			c[i] = a[i]*c[i-1] + c[i-2];
