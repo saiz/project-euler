@@ -5,7 +5,8 @@ function main(n) {
 		p = [],
 		q = [1],
 		i = 0;
-		p.push(a[0]).push(a[0]*a[1]+1);
+		p.push(a[0]);
+		p.push(a[0]*a[1]+1);
 		q.push(a[1]);
 	while(i< n){
 		if(i >=4 && n%2===1){
