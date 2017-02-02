@@ -15,7 +15,7 @@ function fact (n){
 	if(n <= 1){
 		return new BigNumber(1);
 	}
-	return n.times(fact(n-1));
+	return i.times(fact(n-1));
 }
 function gcd(a, b) {
     if ( ! b) {
