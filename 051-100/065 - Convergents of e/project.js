@@ -34,7 +34,7 @@ function add(a,b){
 function main(n) {
 	'use strict';
 	n = parseInt(n,10);
-	var i =1,
+	var i =0,
 		total =[2,1],
 		e_n = [];
 	while(i<n){
