@@ -36,7 +36,7 @@ function repeat(arr){
 		dist = Math.floor(len - (len/2 -i));
 		end = arr.subarray(len-dist,len).join('');
 		start = arr.subarray(len-dist-end.length,len-dist-1 ).join('');
-		console.log(arr, i, end, dist);
+		console.log(arr, start, end);
 		if(start === end){
 			bool =true;
 			console.log('adsas');
