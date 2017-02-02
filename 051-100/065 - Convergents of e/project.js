@@ -37,10 +37,10 @@ function main(n) {
 		e_n[];
 	while(i<n){
 		// total = add(total,fraction(i));
-		e_n.push([1,fact(i)])
+		e_n.push([1,fact(i)]);
 		i+=1;
 	}
-	return total;
+	return e_n;
 }
 
 console.log(main(process.argv[2]));
