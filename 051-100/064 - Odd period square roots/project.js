@@ -34,15 +34,16 @@ function repeat(arr){
 		end = arr.slice(len-dist,len);
 
 		j=2;
-		while(j<pattern){
+		bool = true;
+		while(j<pattern && bool2){
 			index = arr.slice(len-j*dist,len-j*dist );
 			if(!equal(index,end) ){
-
+				bool2 = false;
 			}
 			j+=1;
 		}
 		//console.log(arr,start,end);
-		if(equal(start,mid) && equal(mid,end)){
+		if(bool2){
 			bool =true;
 			i = arr.length;
 			if(len-dist-end.length -1 >=0){
