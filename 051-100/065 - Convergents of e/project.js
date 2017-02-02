@@ -9,11 +9,8 @@ function main(n) {
 	console.log(p);
 	console.log(q);
 	while(i< n){
-		if(i >=4 && n%2===1){
-			a[i] = 2*i;
-		} else if(i >=4 && n%2===0){
-			a[i] = 1;
-		}
+		a[3*i+1] = 2*i;
+		a[3*i+2] = 1;
 		p[i] = a[i]*p[i-1] +p[i-2];
 		q[i] = a[i]*q[i-1] +q[i-2];
 		console.log(a);
