@@ -76,7 +76,7 @@ function approx (s, n){
 			// console.log(d);
 			rep = repeat(a);
 			// console.log(a);
-console.log(rep);
+			console.log(rep);
 			if(rep.repeat !== null){
 				bool = false;
 			}
