@@ -93,10 +93,11 @@ function main(n) {
 	'use strict';
 	n = parseInt(n,10);
 	var i = 2;
-	while(i <= n){
-		console.log(approx(i));
-		i+=1;
-	}
+	console.log(approx2(3,10));
+	// while(i <= n){
+	// 	console.log(approx(i));
+	// 	i+=1;
+	// }
 	return;
 }
 
