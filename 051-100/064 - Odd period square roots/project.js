@@ -25,16 +25,15 @@ function repeat(arr,precision){
 	var i=0,j,
 		res =[],
 		dist,
-		end,index, len, rem = null,
+		end,index, rem = null,
 		bool = false;
 	while(i < Math.floor(arr.length/2) && arr.length >= precision){
-		len = arr.length;
 		dist = Math.floor(len/2 -i);
-		end = arr.slice(len-dist,len);
+		end = arr.slice(arr.length-dist,arr.length);
 		j=2;
 		bool = true;
 		while(j<=precision && bool){
-			index = arr.slice(len-j*dist,len-(j-1)*dist );
+			index = arr.slice(arr.length-j*dist,arr.length-(j-1)*dist );
 			if(!equal(index,end) ){
 				bool = false;
 			}
@@ -43,7 +42,7 @@ function repeat(arr,precision){
 		//console.log(arr,end);
 		if(bool){
 			i = arr.length;
-			rem = arr.slice(0,len-precision*dist).join('');
+			rem = arr.slice(0,arr.length-precision*dist).join('');
 		}
 		i+=1;
 	}
