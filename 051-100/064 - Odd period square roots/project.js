@@ -61,7 +61,7 @@ function approx (s,precision){
 		d = [1],
 		a = [Math.floor(Math.sqrt(s))],
 		i = 0,
-		bool = true
+		bool = true,
 		rep;
 		while(bool){
 			m.push(m_n1(d[i],a[i],m[i]));
