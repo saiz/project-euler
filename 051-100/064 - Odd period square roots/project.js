@@ -11,7 +11,7 @@ function repeat(arr){
 	var i=1,
 		res =[],
 		dist,
-		end, start, len,
+		end, start, len, rem = null,
 		bool =false;
 	while(i <= arr.length/2){
 		len = arr.length;
@@ -21,10 +21,13 @@ function repeat(arr){
 		if(start === end){
 			bool =true;
 			i = arr.length;
+			if(len-2*dist -1 >0){
+				rem = arr.slice(0,len-2*dist -1).join('');
+			}
 		}
 	}
-	if(bool){
-
+	if(!bool){
+		return
 	}
 }
 function approx (s, n){
