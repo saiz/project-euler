@@ -1,6 +1,6 @@
 function A(a,n) {
 	if(n >1){
-		return 1;
+		return 0;
 	}
 	return a[n]* A(a,n-1) + 1*A(a,n-2);
 }
