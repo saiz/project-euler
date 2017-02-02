@@ -32,14 +32,7 @@ function fraction(n, total){
 function main(n) {
 	'use strict';
 	n = parseInt(n,10);
-	var i =1,
-		total =[1,1],
-		e_n = [];
-	while(i<n){
-		total = add(total,fraction(i));
-		console.log(total);
-		i+=1;
-	}
+	approx();
 	return;
 }
 
