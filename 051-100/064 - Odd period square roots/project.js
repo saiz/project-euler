@@ -87,7 +87,7 @@ function main(n) {
 	while(i <= n){
 		if(Math.sqrt(i)%1 !== 0){
 			app = approx(i,per);
-			if(app.repeat.length)
+			if(app.repeat.length %2)
 		}
 		i+=1;
 	}
