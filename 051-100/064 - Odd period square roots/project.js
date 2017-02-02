@@ -27,12 +27,11 @@ function repeat(arr){
 		res =[],
 		dist,
 		end,index, len, rem = null,
-		bool,diff;
+		bool;
 	while(i < Math.floor(arr.length/2)){
 		len = arr.length;
 		dist = Math.floor(len/2 -i);
 		end = arr.slice(len-dist,len);
-
 		j=2;
 		bool = true;
 		while(j<=pattern && bool){
@@ -45,12 +44,6 @@ function repeat(arr){
 		//console.log(arr,end);
 		if(bool){
 			i = arr.length;
-			diff = Math.floor(len / dist);
-			// console.log("------")
-			// console.log(arr);
-			// // console.log(arr.slice(0,len-pattern*dist+1).join(''));
-			// // console.log(len-pattern*dist+1)
-			// console.log(len-pattern*dist)
 			rem = arr.slice(0,len-pattern*dist).join('');
 		}
 		i+=1;
