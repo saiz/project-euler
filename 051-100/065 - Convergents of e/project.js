@@ -1,15 +1,15 @@
-function main(m) {
+function main(j) {
 	'use strict';
-	m = parseInt(m,10);
+	j = parseInt(j,10);
 	var a = [1,0,1,1],
 		p = [],
 		q = [],
-		i = 0, n;
-	while(i< m){
+		i = 0, n,m;
+	while(i< j){
 		n = 3*i +1;
 		a[n] =2*i;
-		n = 3*i +2;
-		a[n] =1;
+		m = 3*i +2;
+		a[m] =1;
 		if(i === 0){
 			p[i] = a[0];
 			q[i] = 1;
