@@ -32,7 +32,7 @@ function repeat(arr){
 		dist = Math.floor(len/2 -i);
 		end = arr.slice(len-dist,len);
 		start = arr.slice(len-2*dist,len-dist );
-		console.log(start,end);
+		console.log(arr,start,end);
 		if(equal(start,end)){
 			bool =true;
 			i = arr.length;
