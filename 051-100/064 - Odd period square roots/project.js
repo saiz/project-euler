@@ -8,6 +8,7 @@ function a_n1(a,m,d){
 	return Math.floor((a+m)/d);
 }
 function equal(a,b){
+	var bool =tr
 	if(a.length !== b.length){
 		return false;
 	}
