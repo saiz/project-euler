@@ -42,7 +42,7 @@ function main(n) {
 		e_n = [];
 	while(i<n){
 		// total = add(total,fraction(i));
-		console.log(fract(i));
+		console.log(fraction(i));
 		i+=1;
 	}
 	return;
