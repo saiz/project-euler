@@ -1,3 +1,21 @@
+Array.prototype.subarray = function(i, j){
+    var self = this, arr = [];
+    for(var n = 0;i <= j; i++, n++){
+        (function(i){
+            Object.defineProperty(arr, n, {       //Array is an Object
+                get: function(){
+                    return self[i];
+                },
+                set: function(value){
+                    self[i] = value;
+                    return value;
+                }
+            });
+        })(i);
+    }
+    return arr;
+}
+
 function m_n1(d,a,m){
 	return d*a -m;
 }
@@ -16,8 +34,8 @@ function repeat(arr){
 	while(i <= arr.length/2){
 		len = arr.length;
 		dist = len - i;
-		end = arr.splice(len-dist,len-1).join('');
-		start = arr.splice(len-2*dist -1,len-dist -1).join('');
+		end = arr.subarray(len-dist,len-1).join('');
+		start = arr.subarray(len-2*dist -1,len-dist -1).join('');
 		console.log(len,dist,arr,start,end);
 		// if(start === end){
 		// 	bool =true;
