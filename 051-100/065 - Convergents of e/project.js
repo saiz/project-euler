@@ -25,6 +25,7 @@ function lcm(a, b) {
 function add(a,b){
 	var l = lcm(a[1],b[1]);
 
+
 	console.log(g)
 }
 function main(n) {
