@@ -9,7 +9,7 @@ function A(a,n) {
 		return 1;
 	}
 	if(n === 2){
-		return 1;
+		return 2;
 	}
 	return a[n]*A(a,n-1) + A(a,n-2);
 }
