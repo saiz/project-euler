@@ -5,12 +5,12 @@ function fract(a,b,m,n){
 	if(m < n){
 		return fract(k,i,m+1,n);
 	}
-	return [a,b];
+	return [b,a];
 }
 function fraction(n){
 	var a = 8,
 		b = 3;
-	return fract(b,a,1,n);
+	return fract(a,b,1,n);
 }
 function gcd(a, b) {
     if ( ! b) {
