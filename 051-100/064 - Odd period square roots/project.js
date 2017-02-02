@@ -47,12 +47,11 @@ function approx (s, n){
 			m.push(m_n1(d[i],a[i],m[i]));
 			d.push(d_n1(s,m[i+1],d[i]));
 			a.push(a_n1(a[0],m[i+1],d[i+1]));
-			if(i)
+			console.log(m);
+			console.log(d);
+			console.log(a);
 			i+=1;
 		}
-		console.log(m);
-		console.log(d);
-		console.log(a);
 	return;
 }
 function main(n) {
