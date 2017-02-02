@@ -10,6 +10,7 @@ function main(j) {
 		a[n] =2*i;
 		m = 3*i +2;
 		a[m] =1;
+		a[m+1] =1;
 		if(i === 0){
 			p[i] = a[0];
 			q[i] = 1;
