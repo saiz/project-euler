@@ -59,7 +59,7 @@ function repeat(arr,precision){
 		repeat:end
 	};
 }
-function approx (s,perc){
+function approx (s,percision){
 	var	m = [0],
 		d =[1],
 		a =[Math.floor(Math.sqrt(s))],
