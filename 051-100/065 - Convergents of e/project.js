@@ -29,8 +29,8 @@ function main(j) {
 		// }
 		i+=1;
 	}
-	console.log(c[c]);
-	return A(a,j);
+	console.log(c[c.length-1]);
+	return;
 }
 
 
