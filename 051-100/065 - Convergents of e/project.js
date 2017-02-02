@@ -7,10 +7,10 @@ function d_n1(s,m,d){
 function a_n1(a,m,d){
 	return Math.floor((a+m)/d);
 }
-function approx (){
+function approx (s,precision){
 	var	m = [0],
 		d = [1],
-		a = [2],
+		a = [Math.floor(Math.sqrt(s))],
 		i = 0,
 		bool = true,
 		rep;
@@ -19,12 +19,11 @@ function approx (){
 		d.push(d_n1(s,m[i+1],d[i]));
 		a.push(a_n1(a[0],m[i+1],d[i+1]));
 		i+=1;
-		console.log(a);
 	}
-	return rep;
+	return;
 }
 function fraction(n, total){
-	if(n <= 0){
+	if(n =<0){
 		return [2,1];
 	}
 
@@ -32,7 +31,14 @@ function fraction(n, total){
 function main(n) {
 	'use strict';
 	n = parseInt(n,10);
-	approx();
+	var i =1,
+		total =[1,1],
+		e_n = [];
+	while(i<n){
+		total = add(total,fraction(i));
+		console.log(total);
+		i+=1;
+	}
 	return;
 }
 
