@@ -43,7 +43,6 @@ function repeat(arr){
 				rem = arr.subarray(0,len-dist-end.length -1).join('');
 			}
 		}
-		console.log(i);
 		i+=1;
 	}
 	if(!bool){
