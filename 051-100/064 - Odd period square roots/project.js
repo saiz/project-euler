@@ -81,11 +81,13 @@ function main(n) {
 	'use strict';
 	n = parseInt(n,10);
 	var i = 2,
-		per = 20;
+		per = 20,
+		app;
 	//console.log(approx2(3,2));
 	while(i <= n){
 		if(Math.sqrt(i)%1 !== 0){
-			console.log(i,approx(i,per));
+			app = approx(i,per);
+			if
 		}
 		i+=1;
 	}
