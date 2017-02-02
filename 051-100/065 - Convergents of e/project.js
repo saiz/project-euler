@@ -39,7 +39,7 @@ function main(n) {
 		e_n = [];
 	while(i<n){
 		// total = add(total,fraction(i));
-		[1,fact(i)]
+		add(total,[1,fact(i)]);
 		i+=1;
 	}
 	return e_n;
