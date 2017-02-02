@@ -28,7 +28,7 @@ function main(j) {
 		if(i===0){
 			c[i] =a[0];
 		} else if(i===1){
-
+c
 		}
 		// if(i === 0){
 		// 	p[i] = a[0];
