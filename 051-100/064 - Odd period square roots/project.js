@@ -89,12 +89,11 @@ function main(n) {
 			app = approx(i,per);
 			if(app.repeat.length %2 === 1){
 				count +=1;
-				console.log(i);
 			}
 		}
 		i+=1;
 	}
-	return;
+	return count;
 }
 
 console.log(main(process.argv[2]));
