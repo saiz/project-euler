@@ -32,9 +32,9 @@ function repeat(arr){
 		end, start, len, rem = null,
 		bool =false;
 	while(i <= arr.length/2){
-		len = arr.length;
+		len = arr.length -1;
 		dist = len - i;
-		end = arr.subarray(len-dist,len -1).join('');
+		end = arr.subarray(len-dist,le).join('');
 		start = arr.subarray(len-dist-end.length,len-dist-1 ).join('');
 		console.log(arr, i)
 		if(start === end){
