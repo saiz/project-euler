@@ -42,7 +42,7 @@ function repeat(arr){
 			}
 			j+=1;
 		}
-		console.log(arr,start,end);
+		console.log(arr,end);
 		if(bool){
 			i = arr.length;
 			diff = Math.floor(len / dist);
