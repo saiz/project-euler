@@ -95,7 +95,9 @@ function main(n) {
 	var i = 2;
 	//console.log(approx2(3,2));
 	while(i <= n){
-		console.log(approx(i));
+		if(Math.sqrt(i)%1 !== 0){
+			console.log(approx(i));
+		}
 		i+=1;
 	}
 	return;
