@@ -28,7 +28,9 @@ function main(j) {
 		if(i===0){
 			c[i] =a[0];
 		} else if(i===1){
-	c[i] = a[1]*a[2] + 1
+			c[i] = a[1]*a[2] + 1
+		} else{
+
 		}
 		// if(i === 0){
 		// 	p[i] = a[0];
