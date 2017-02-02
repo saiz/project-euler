@@ -39,7 +39,7 @@ function main(n) {
 		e_n = [];
 	while(i<n){
 		// total = add(total,fraction(i));
-		e_n.push([1,fact(i).toDigits()]);
+		e_n.push([1,fact(i)]);
 		i+=1;
 	}
 	return e_n;
