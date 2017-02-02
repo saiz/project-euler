@@ -36,10 +36,8 @@ function repeat(arr){
 		dist = Math.floor(len/2 -i);
 		end = arr.subarray(len-dist,len).join('');
 		start = arr.subarray(len-dist-end.length,len-dist-1 ).join('');
-		console.log(arr, start, end);
 		if(start === end){
 			bool =true;
-			console.log('adsas');
 			i = arr.length;
 			if(len-dist-end.length -1 >=0){
 				rem = arr.subarray(0,len-dist-end.length -1).join('');
