@@ -52,7 +52,7 @@ function repeat(arr){
 		}
 		i+=1;
 	}
-	if(bool){
+	if(!bool){
 		return{
 			s:arr.join(''),
 			repeat:null
