@@ -1,7 +1,7 @@
 function p_n(a,p,n){
-	if(n===0) {
+	if(n === 0) {
 		return a[n];
-	} else if(n ===1) {
+	} else if(n === 1) {
 		return a[n-1] * a[n] + 1;
 	}
 	return a[n] * p[n−1] + p[n−2];
