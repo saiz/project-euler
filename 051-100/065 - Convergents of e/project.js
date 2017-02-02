@@ -29,7 +29,7 @@ function main(j) {
 		// }
 		i+=1;
 	}
-	console.log(a);
+	console.log(c[c]);
 	return A(a,j);
 }
 
