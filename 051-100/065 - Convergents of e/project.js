@@ -34,12 +34,12 @@ function add(a,b){
 function main(n) {
 	'use strict';
 	n = parseInt(n,10);
-	var i =0,
-		total =[2,1],
+	var i =1,
+		total =[1,1],
 		e_n = [];
 	while(i<n){
 		// total = add(total,fraction(i));
-		e_n.push([1,fact(i)]);
+		[1,fact(i)]
 		i+=1;
 	}
 	return e_n;
