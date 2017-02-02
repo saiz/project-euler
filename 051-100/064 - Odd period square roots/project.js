@@ -16,8 +16,8 @@ function repeat(arr){
 	while(i <= arr.length/2){
 		len = arr.length;
 		dist = len - i;
-		end = arr.slice(len-dist,len-1).join('');
-		start = arr.slice(len-2*dist -1,len-dist -1).join('');
+		end = arr.slice(0).slice(len-dist,len-1).join('');
+		start = arr.slice(0).slice(len-2*dist -1,len-dist -1).join('');
 		console.log(len,dist,arr,start,end);
 		// if(start === end){
 		// 	bool =true;
