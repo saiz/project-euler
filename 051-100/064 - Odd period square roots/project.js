@@ -37,6 +37,7 @@ function repeat(arr){
 		bool = true;
 		while(j<pattern && bool){
 			index = arr.slice(len-j*dist,len-j*dist );
+			console.log(index);
 			if(!equal(index,end) ){
 				bool = false;
 			}
