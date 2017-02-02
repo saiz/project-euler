@@ -69,7 +69,8 @@ function approx (s, n){
 			a.push(a_n1(a[0],m[i+1],d[i+1]));
 			// console.log(m);
 			// console.log(d);
-			console.log(repeat(a));
+			console.log(a);
+			// console.log(repeat(a));
 			i+=1;
 		}
 	return;
