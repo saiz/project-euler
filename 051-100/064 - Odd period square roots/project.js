@@ -41,8 +41,8 @@ function repeat(arr){
 			bool =true;
 			console.log('adsas');
 			i = arr.length;
-			if(len-dist-end.length >0){
-				rem = arr.subarray(0,len-dist-end.length).join('');
+			if(len-dist-end.length -1 >0){
+				rem = arr.subarray(0,len-dist-end.length -1).join('');
 			}
 		}
 		i+=1;
