@@ -34,8 +34,8 @@ function repeat(arr){
 	while(i < Math.floor(arr.length/2)){
 		len = arr.length;
 		dist = Math.floor(len/2 -i);
-		end = arr.subarray(len-dist,len).join('');
-		start = arr.subarray(len-dist-end.length,len-dist-1 ).join('');
+		end = arr.subarray(len-dist,len);
+		start = arr.subarray(len-dist-end.length,len-dist-1 );
 		console.log(arr);
 		console.log(start,end);
 		if(start === end){
