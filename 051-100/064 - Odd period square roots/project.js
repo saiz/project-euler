@@ -26,7 +26,7 @@ function repeat(arr,precision){
 		res =[],
 		dist,
 		end,index, len, rem = null,
-		bool;
+		bool = false;
 	while(i < Math.floor(arr.length/2) && arr.length >= percision){
 		len = arr.length;
 		dist = Math.floor(len/2 -i);
