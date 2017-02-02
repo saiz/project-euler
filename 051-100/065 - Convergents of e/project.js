@@ -23,7 +23,8 @@ function lcm(a, b) {
     return (a * b) / gcd(a, b);
 }
 function add(a,b){
-	var g = lcm(a[1],b[1]);
+	var l = lcm(a[1],b[1]);
+
 	console.log(g)
 }
 function main(n) {
