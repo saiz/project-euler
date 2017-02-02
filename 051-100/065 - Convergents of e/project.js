@@ -1,7 +1,7 @@
 function fract(a,b,m,n){
 	var i, k;
-	var i = new BigNumber(a).plus(b),
-		k = new BigNumber(i).plus(b);
+	var i = a+b;
+		k = i+b;
 	if(m < n){
 		return fract(k,i,m+1,n);
 	}
@@ -13,9 +13,14 @@ function fraction(n){
 	return fract(a,b,1,n);
 }
 
-function main() {
+function main(n) {
 	'use strict';
-	var i ='test';
+	n = parseInt(n,10);
+	var i =0;
+	while(i<n){
+		console.log(fraction(i));
+		i+=1;
+	}
 	return i;
 }
 
