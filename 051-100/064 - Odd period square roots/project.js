@@ -37,14 +37,12 @@ function repeat(arr,precision){
 			}
 			j+=1;
 		}
-		//console.log(arr,end);
 		if(bool){
 			i = arr.length;
 			rem = arr.slice(0,arr.length-precision*dist).join('');
 		}
 		i+=1;
 	}
-	//console.log(arr);
 	if(!bool){
 		return{
 			s:arr.join(''),
