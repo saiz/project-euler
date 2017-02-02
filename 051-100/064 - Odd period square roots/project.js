@@ -35,7 +35,7 @@ function repeat(arr){
 		len = arr.length;
 		dist = len - i;
 		end = arr.subarray(len-dist,len).join('');
-		start = arr.subarray(len-2*dist-1,len-dist ).join('');
+		start = arr.subarray(len-2*dist+1,len-dist ).join('');
 		console.log(len,dist,arr,start,end);
 		if(start === end){
 			bool =true;
