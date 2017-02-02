@@ -7,7 +7,7 @@ function d_n1(s,m,d){
 function a_n1(a,m,d){
 	return Math.floor((a+m)/d);
 }
-function approx (s){
+function approx (){
 	var	m = [0],
 		d = [1],
 		a = [2],
