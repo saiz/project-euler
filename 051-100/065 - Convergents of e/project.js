@@ -11,7 +11,7 @@ function main(j) {
 		p = [],
 		q = [],
 		i = 0;
-	while(i<= j){
+	while(i< j){
 		a[3*i] =1;
 		a[3*i+1] =2*i;
 		a[3*i+2] =1;
