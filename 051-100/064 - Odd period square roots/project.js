@@ -10,7 +10,7 @@ function a_n1(a,m,d){
 function equal(a,b){
 	var bool = true;
 	if(a.length !== b.length){
-		return false;
+		bool = false;
 	}
 	var bool = true,
 		i=0;
