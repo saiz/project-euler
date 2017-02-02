@@ -27,7 +27,7 @@ function repeat(arr){
 		res =[],
 		dist,
 		end,index, len, rem = null,
-		bool =false;
+		bool;
 	while(i < Math.floor(arr.length/2)){
 		len = arr.length;
 		dist = Math.floor(len/2 -i);
