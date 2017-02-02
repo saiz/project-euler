@@ -81,10 +81,6 @@ function approx (s){
 			m.push(m_n1(d[i],a[i],m[i]));
 			d.push(d_n1(s,m[i+1],d[i]));
 			a.push(a_n1(a[0],m[i+1],d[i+1]));
-			console.log("-----");
-			console.log(m);
-			console.log(d);
-			console.log(a)
 			rep = repeat(a);
 			if(rep.repeat !== null && a.length > 4){
 				bool = false;
