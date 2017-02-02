@@ -5,7 +5,7 @@ function fract(a,b,m,n){
 	if(m < n){
 		return fract(k,i,m+1,n);
 	}
-	return [b,a];
+	return [a,b];
 }
 function fraction(n){
 	var a = 8,
