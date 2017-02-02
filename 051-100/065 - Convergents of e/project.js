@@ -27,7 +27,7 @@ function main(j) {
 		a[3*i+2] =1;
 		if(i===0){
 			c[i] =a[0];
-		} else if({
+		} else if(i===0){
 
 		}
 		// if(i === 0){
