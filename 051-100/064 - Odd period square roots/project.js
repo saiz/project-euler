@@ -27,7 +27,7 @@ function repeat(arr,precision){
 		dist,
 		end,index, len, rem = null,
 		bool;
-	while(i < Math.floor(arr.length/2) && arr.length >==){
+	while(i < Math.floor(arr.length/2) && arr.length >= per){
 		len = arr.length;
 		dist = Math.floor(len/2 -i);
 		end = arr.slice(len-dist,len);
