@@ -28,6 +28,7 @@ function main(n) {
 	n = parseInt(n,10);
 	var i =1;
 	while(i<n){
+		add(fraction(i),fraction(i+1));
 		console.log(fraction(i));
 		i+=1;
 	}
