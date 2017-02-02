@@ -33,7 +33,7 @@ function repeat(arr){
 		bool =false;
 	while(i < arr.length/2){
 		len = arr.length;
-		dist = len - i;
+		dist = len - (len/2 -i);
 		end = arr.subarray(len-dist +1,len).join('');
 		start = arr.subarray(len-dist-end.length,len-dist-1 ).join('');
 		console.log(arr, i, end);
