@@ -31,12 +31,15 @@ function repeat(arr){
 	while(i < Math.floor(arr.length/2)){
 		len = arr.length;
 		dist = Math.floor(len/2 -i);
-		start = arr.slice(len-3*dist,len-2*dist );
 		end = arr.slice(len-dist,len);
 
-		j=1;
+		j=2;
 		while(j<pattern){
-			if()
+			index = arr.slice(len-j*dist,len-j*dist );
+			if(!equal(index,end) ){
+				bool
+			}
+			j+=1;
 		}
 		//console.log(arr,start,end);
 		if(equal(start,mid) && equal(mid,end)){
