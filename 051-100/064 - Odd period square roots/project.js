@@ -52,7 +52,7 @@ function repeat(arr){
 		start = arr.subarray(len-dist-end.length,len-dist-1 );
 		console.log(arr);
 		console.log(start,end);
-		if(start === end){
+		if(equal(start,end)){
 			bool =true;
 			i = arr.length;
 			if(len-dist-end.length -1 >=0){
