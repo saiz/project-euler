@@ -24,7 +24,7 @@ function approx (){
 	return rep;
 }
 function fraction(n, total){
-	if(n =< 0){
+	if(n <= 0){
 		return [2,1];
 	}
 
