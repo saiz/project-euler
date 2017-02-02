@@ -2,6 +2,7 @@ function main(n) {
 	'use strict';
 	n = parseInt(n,10);
 	var a = [1,0];
+	console.log(a[0])
 	var p = [a[0],(a[0]*a[1]+1)],
 		q = [1,a[1]],
 		i = 0;
