@@ -39,7 +39,7 @@ function repeat(arr){
 		bool = true;
 		console.log("----")
 		while(j<pattern && bool){
-			console.log(len-j*dist,len-(j+1)*dist)
+			console.log(len-j*dist,len-(j-1)*dist)
 			index = arr.slice(len-j*dist,len-(j-1)*dist );
 			console.log(index,end);
 			if(!equal(index,end) ){
