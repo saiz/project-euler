@@ -27,6 +27,7 @@ function main(j) {
 		}
 		i+=1;
 	}
+	console.log('--')
 	return A(a,j);
 }
 
