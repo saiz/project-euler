@@ -51,8 +51,8 @@ function approx (s, n){
 			// console.log(d);
 			console.log(repeat(a));
 			i+=1;
-		}(
-	)return;
+		}
+	return;
 }
 function main(n) {
 	'use strict';
