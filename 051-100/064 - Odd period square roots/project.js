@@ -60,7 +60,7 @@ function repeat(arr){
 	}
 	return {
 		s:rem,
-		repeat:start
+		repeat:end
 	};
 }
 function approx2 (s,n){
