@@ -1,11 +1,11 @@
 function main(n) {
 	'use strict';
+	n = parseInt(n,10);
 	var a = [1,0],
 		p = [a[0],(a[0]*a[1]+1)],
 		q = [1,a[1]],
-		i = 0,
-		bool = true;
-	while(bool){
+		i = 0;
+	while(i< n){
 		if(i >=4 && n%2===1){
 			a[i] = 2*i;
 		} else if(i >=4 && n%2===0){
