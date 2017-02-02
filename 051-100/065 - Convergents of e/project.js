@@ -30,7 +30,7 @@ function main(j) {
 		} else if(i===1){
 			c[i] = a[1]*a[2] + 1
 		} else{
-			c[i] = a[i]*
+			c[i] = a[i]*c[i]
 		}
 		// if(i === 0){
 		// 	p[i] = a[0];
