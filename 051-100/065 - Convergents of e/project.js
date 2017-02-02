@@ -5,7 +5,7 @@ function main(m) {
 		p = [a[0],(a[0]*a[1]+1)],
 		q = [1,a[1]],
 		i = 0, n;
-	while(i< n){
+	while(i< m){
 		n = 3*i +1;
 		a[n] =2*i;
 		n = 3*i +2;
