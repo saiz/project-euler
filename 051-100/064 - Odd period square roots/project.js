@@ -21,9 +21,8 @@ function equal(a,b){
 	}
 	return bool;
 }
-function repeat(arr,){
+function repeat(arr,precision){
 	var i=0,j,
-		pattern =10,
 		res =[],
 		dist,
 		end,index, len, rem = null,
@@ -34,7 +33,7 @@ function repeat(arr,){
 		end = arr.slice(len-dist,len);
 		j=2;
 		bool = true;
-		while(j<=pattern && bool){
+		while(j<=precision && bool){
 			index = arr.slice(len-j*dist,len-(j-1)*dist );
 			if(!equal(index,end) ){
 				bool = false;
@@ -44,7 +43,7 @@ function repeat(arr,){
 		//console.log(arr,end);
 		if(bool){
 			i = arr.length;
-			rem = arr.slice(0,len-pattern*dist).join('');
+			rem = arr.slice(0,len-precision*dist).join('');
 		}
 		i+=1;
 	}
@@ -60,26 +59,7 @@ function repeat(arr,){
 		repeat:end
 	};
 }
-function approx2 (s,n){
-	var	m = [0],
-		d =[1],
-		a =[Math.floor(Math.sqrt(s))],
-		i=0,
-		bool = true, rep;
-		while(i<n){
-			m.push(m_n1(d[i],a[i],m[i]));
-			d.push(d_n1(s,m[i+1],d[i]));
-			a.push(a_n1(a[0],m[i+1],d[i+1]));
-			//console.log(a);
-			rep = repeat(a);
-			if(rep.repeat !== null){
-				bool = false;
-			}
-			i+=1;
-		}
-	return rep;
-}
-function approx (s){
+function approx (s,perc){
 	var	m = [0],
 		d =[1],
 		a =[Math.floor(Math.sqrt(s))],
