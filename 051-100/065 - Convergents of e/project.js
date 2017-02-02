@@ -32,7 +32,7 @@ function main(n) {
 	var i =1,
 		total =[2,1];
 	while(i<n){
-		console
+		console.log
 		i+=1;
 	}
 	return total;
