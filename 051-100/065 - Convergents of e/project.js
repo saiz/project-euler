@@ -33,7 +33,8 @@ function main(n) {
 	'use strict';
 	n = parseInt(n,10);
 	var i =1,
-		total =[2,1];
+		total =[2,1],
+		e[]
 	while(i<n){
 		// total = add(total,fraction(i));
 		console.log(fraction(i));
