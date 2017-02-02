@@ -29,7 +29,7 @@ function main(j) {
 	}
 	console.log('--')
 	console.log(a);
-	return A(a,j);
+	return A(a,j+1);
 }
 
 
