@@ -23,7 +23,7 @@ function equal(a,b){
 }
 function repeat(arr){
 	var i=0,j,
-		pattern =2,
+		pattern =3,
 		res =[],
 		dist,
 		end,index, len, rem = null,
