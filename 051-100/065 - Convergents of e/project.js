@@ -28,7 +28,7 @@ function add(a,b){
 }
 function main(n) {
 	'use strict';
-	n = parseInt(n,10),
+	n = parseInt(n,10);
 	var i =1,
 		total =[2,1];
 	while(i<n){
