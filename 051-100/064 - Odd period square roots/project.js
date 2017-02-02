@@ -31,12 +31,12 @@ function repeat(arr){
 		len = arr.length;
 		dist = Math.floor(len/2 -i);
 		end = arr.slice(len-dist,len);
-		start = arr.slice(len-dist-end.length,len-dist );
+		start = arr.slice(len-2*dist,len-dist );
 		if(equal(start,end)){
 			bool =true;
 			i = arr.length;
 			if(len-dist-end.length -1 >=0){
-				rem = arr.slice(0,len-dist-end.length).join('');
+				rem = arr.slice(0,len-2*dist).join('');
 			}
 		}
 		i+=1;
