@@ -10,7 +10,7 @@ function a_n1(a,m,d){
 function approx (s){
 	var	m = [0],
 		d = [1],
-		a = [Math.floor(Math.sqrt(s))],
+		a = [Math.floor(s)],
 		i = 0,
 		bool = true,
 		rep;
