@@ -25,6 +25,7 @@ function repeat(arr){
 				rem = arr.slice(0,len-2*dist -1).join('');
 			}
 		}
+		i+=1;
 	}
 	if(!bool){
 		return{
