@@ -46,9 +46,7 @@ function repeat(arr){
 		if(bool){
 			i = arr.length;
 			diff = Math.floor(len / dist);
-			if(len-diff*dist >=0){
-				rem = arr.slice(0,len-pattern*dist).join('');
-			}
+			rem = arr.slice(0,len-pattern*dist).join('');
 		}
 		i+=1;
 	}
