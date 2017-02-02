@@ -58,10 +58,11 @@ function repeat(arr,precision){
 }
 function approx (s,precision){
 	var	m = [0],
-		d =[1],
-		a =[Math.floor(Math.sqrt(s))],
-		i=0,
-		bool = true, rep;
+		d = [1],
+		a = [Math.floor(Math.sqrt(s))],
+		i = 0,
+		bool = true
+		rep;
 		while(bool){
 			m.push(m_n1(d[i],a[i],m[i]));
 			d.push(d_n1(s,m[i+1],d[i]));
