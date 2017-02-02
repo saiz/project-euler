@@ -46,7 +46,7 @@ function repeat(arr){
 		if(bool){
 			i = arr.length;
 			diff = Math.floor(len / dist);
-			console.log(arr.join(''));
+			console.log(arr);
 			// console.log(arr.slice(0,len-pattern*dist+1).join(''));
 			// console.log(len-pattern*dist+1)
 			console.log(len-pattern*dist+1)
