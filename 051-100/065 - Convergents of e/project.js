@@ -1,5 +1,8 @@
 function A(a,n) {
-	return a[n]* A(a,n-1) + a[n]
+	if(n >1){
+		return 1;
+	}
+	return a[n]* A(a,n-1) + 1*A(a,n-2);
 }
 function main(j) {
 	'use strict';
