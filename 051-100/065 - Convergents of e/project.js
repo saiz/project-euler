@@ -10,8 +10,8 @@ function fraction(n){
 	return fract(a,b,1,n);
 }
 function fact (n){
-	if(n > 3){
-		return n;
+	if(n >= 1){
+		return 1;
 	}
 	return n*fact(n-1);
 }
@@ -34,10 +34,10 @@ function main(n) {
 	n = parseInt(n,10);
 	var i =1,
 		total =[2,1],
-		e_n[]
+		e_n[];
 	while(i<n){
 		// total = add(total,fraction(i));
-		console.log(fraction(i));
+		e_n.push([1,fact(i)])
 		i+=1;
 	}
 	return total;
