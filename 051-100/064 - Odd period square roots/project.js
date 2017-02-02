@@ -25,6 +25,16 @@ function repeat(arr){
 				rem = arr.slice(0,len-2*dist -1).join('');
 			}
 		}
+		if(!bool){
+			return{
+				rem:null,
+				repeat:null
+			};
+		}
+		return {
+			rem:rem,
+			repeat:start.split('')
+		};
 	}
 	if(!bool){
 		return
