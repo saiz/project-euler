@@ -11,8 +11,8 @@ function repeat(arr){
 	var i=1,
 		res =[],
 		dist,
-		end, start, len;
-		bool,
+		end, start, len,
+		bool;
 	while(i <= arr.length/2){
 		len = arr.length;
 		dist = len - i;
