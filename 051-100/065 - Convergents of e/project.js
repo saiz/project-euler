@@ -9,6 +9,12 @@ function fraction(n){
 		b = 1;
 	return fract(a,b,1,n);
 }
+function fact (n){
+	if(n > 3){
+		return n;
+	}
+	return n*fact(n-1);
+}
 function gcd(a, b) {
     if ( ! b) {
         return a;
