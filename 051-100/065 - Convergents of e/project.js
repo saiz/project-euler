@@ -34,7 +34,7 @@ function main(n) {
 	n = parseInt(n,10);
 	var i =1,
 		total =[2,1],
-		e_n[];
+		e_n = [];
 	while(i<n){
 		// total = add(total,fraction(i));
 		e_n.push([1,fact(i)]);
