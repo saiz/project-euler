@@ -62,7 +62,7 @@ function approx2 (s,n){
 			m.push(m_n1(d[i],a[i],m[i]));
 			d.push(d_n1(s,m[i+1],d[i]));
 			a.push(a_n1(a[0],m[i+1],d[i+1]));
-			console.log(a)
+			console.log(a);
 			rep = repeat(a);
 			if(rep.repeat !== null){
 				bool = false;
