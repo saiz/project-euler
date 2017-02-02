@@ -52,6 +52,7 @@ function repeat(arr){
 		}
 		i+=1;
 	}
+	console.log(arr);
 	if(!bool){
 		return{
 			s:arr.join(''),
