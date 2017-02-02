@@ -80,12 +80,12 @@ function approx (s,percision){
 function main(n) {
 	'use strict';
 	n = parseInt(n,10);
-	var i = 2;
+	var i = 2,
+		per = 20;
 	//console.log(approx2(3,2));
 	while(i <= n){
 		if(Math.sqrt(i)%1 !== 0){
-			//approx(i)
-			console.log(i,approx(i));
+			console.log(i,approx(i,per));
 		}
 		i+=1;
 	}
