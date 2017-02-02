@@ -30,13 +30,12 @@ function main(n) {
 	'use strict';
 	n = parseInt(n,10);
 	var i =1
-		total =
+		total =[2,1];
 	while(i<n){
-		console.log(add(fraction(i),fraction(i+1)));
-		console.log(fraction(i));
+		console.log(add(total,fraction(i)));
 		i+=1;
 	}
-	return i;
+	return total;
 }
 
 console.log(main(process.argv[2]));
