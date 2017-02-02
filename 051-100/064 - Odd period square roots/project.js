@@ -37,13 +37,13 @@ function repeat(arr){
 		bool = true;
 		while(j<pattern && bool){
 			index = arr.slice(len-j*dist,len-j*dist );
-			console.log(index);
+			console.log(index,end);
 			if(!equal(index,end) ){
 				bool = false;
 			}
 			j+=1;
 		}
-		console.log(arr,end);
+		//console.log(arr,end);
 		if(bool){
 			i = arr.length;
 			diff = Math.floor(len / dist);
