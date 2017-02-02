@@ -40,23 +40,23 @@ function repeat(arr){
 		if(start === end){
 			bool =true;
 			console.log('adsas');
-			// i = arr.length;
-			// if(len-2*dist -1 >0){
-			// 	rem = arr.slice(0,len-2*dist -1).join('');
-			// }
+			i = arr.length;
+			if(len-2*dist -1 >0){
+				rem = arr.subarray(0,len-dist-end.length).join('');
+			}
 		}
 		i+=1;
 	}
-	// if(!bool){
-	// 	return{
-	// 		rem:null,
-	// 		repeat:null
-	// 	};
-	// }
-	// return {
-	// 	rem:rem,
-	// 	repeat:start.split('')
-	// };
+	if(!bool){
+		return{
+			rem:null,
+			repeat:null
+		};
+	}
+	return {
+		rem:rem,
+		repeat:start.split('')
+	};
 }
 function approx (s, n){
 	var	m = [0],
