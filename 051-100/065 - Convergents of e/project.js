@@ -13,7 +13,7 @@ function fraction(n){
 function fact (n){
 	var i = new BigNumber(n);
 	if(n <= 1){
-		return 1;
+		return new BigNumber(1);
 	}
 	return n.times(fact(n-1));
 }
