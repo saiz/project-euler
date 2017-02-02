@@ -1,7 +1,7 @@
 function main(j) {
 	'use strict';
 	j = parseInt(j,10);
-	var a = [1,0,1,1],
+	var a = [],
 		p = [],
 		q = [],
 		i = 0, n,m;
