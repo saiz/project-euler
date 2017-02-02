@@ -8,7 +8,7 @@ function fract(a,b,m,n){
 	return [a,b];
 }
 function fraction(n){
-	var a = 2,
+	var a = 1,
 		b = 1;
 	return fract(a,b,1,n);
 }
