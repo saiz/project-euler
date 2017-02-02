@@ -81,7 +81,7 @@ function main(n) {
 	'use strict';
 	n = parseInt(n,10);
 	var i = 2,
-		per = 20,
+		per = 10,
 		app, count = 0;
 	//console.log(approx2(3,2));
 	while(i <= n){
