@@ -1,3 +1,4 @@
+var BigNumber = require('bignumber.js');
 function main(j) {
 	'use strict';
 	j = parseInt(j,10) +1;
@@ -11,7 +12,7 @@ function main(j) {
 		a[3*i+1] =2*i;
 		a[3*i+2] =1;
 		if(i===0){
-			c[i] =a[0];
+			c[i] =new BigNumber(a[0]);
 		} else if(i===1){
 			c[i] = a[1]*a[2] + 1;
 		} else{
