@@ -5,9 +5,6 @@ function main(n) {
 		p = [a[0],(a[0]*a[1]+1)],
 		q = [1,a[1]],
 		i = 0;
-	console.log(a);
-	console.log(p);
-	console.log(q);
 	while(i< n){
 		a[3*i+1] = 2*i;
 		a[3*i+2] = 1;
