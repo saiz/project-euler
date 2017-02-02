@@ -38,7 +38,7 @@ function repeat(arr){
 			bool =true;
 			i = arr.length;
 			if(len-dist-end.length -1 >=0){
-				rem = arr.slice(0,len-2*dist).join('');
+				rem = arr.slice(0,len-3*dist).join('');
 			}
 		}
 		i+=1;
