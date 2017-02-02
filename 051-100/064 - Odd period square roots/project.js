@@ -82,13 +82,11 @@ function main(n) {
 	while(i <= n){
 		if(Math.sqrt(i)%1 !== 0){
 			if(approx(i,per).repeat.length %2 === 1){
-				console.log(i);
 				count +=1;
 			}
 		}
 		i+=1;
 	}
-	console.log("------");
 	return count;
 }
 
