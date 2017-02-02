@@ -5,7 +5,7 @@ function p_n(a,p,n){
 	if(n===1){
 		return a[n-1]*a[n] + 1;
 	}
-	return a[n]*p[n−1] + p[n−2]
+	return a[n]*p[n−1] + p[n−2];
 }
 
 function main(n) {
