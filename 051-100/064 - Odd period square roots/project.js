@@ -80,8 +80,7 @@ function main(n) {
 	n = parseInt(n,10);
 	var i = 2,
 		per = 10,
-		app, count = 0;
-	//console.log(approx2(3,2));
+		count = 0;
 	while(i <= n){
 		if(Math.sqrt(i)%1 !== 0){
 			if(approx(i,per).repeat.length %2 === 1){
