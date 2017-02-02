@@ -32,13 +32,11 @@ function repeat(arr){
 		dist = Math.floor(len/2 -i);
 		end = arr.slice(len-dist,len);
 		start = arr.slice(len-dist-end.length,len-dist );
-		start2 = arr.slice(len-dist-start.length,len-dist-end.length );
-		console.log(end,start,start2);
-		if(equal(start,end) && equal(start,start2)){
+		if(equal(start,end)){
 			bool =true;
 			i = arr.length;
 			if(len-dist-end.length -1 >=0){
-				rem = arr.slice(0,len-dist-start.length).join('');
+				rem = arr.slice(0,len-dist-end.length).join('');
 			}
 		}
 		i+=1;
@@ -53,6 +51,25 @@ function repeat(arr){
 		s:rem,
 		repeat:start
 	};
+}
+function approx2 (s,n){
+	var	m = [0],
+		d =[1],
+		a =[Math.floor(Math.sqrt(s))],
+		i=0,
+		bool = true, rep;
+		while(i<n){
+			m.push(m_n1(d[i],a[i],m[i]));
+			d.push(d_n1(s,m[i+1],d[i]));
+			a.push(a_n1(a[0],m[i+1],d[i+1]));
+			console.log(a);
+			rep = repeat(a);
+			if(rep.repeat !== null){
+				bool = false;
+			}
+			i+=1;
+		}
+	return rep;
 }
 function approx (s){
 	var	m = [0],
