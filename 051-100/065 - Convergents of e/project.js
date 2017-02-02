@@ -11,7 +11,7 @@ function A(a,n) {
 }
 function main(j) {
 	'use strict';
-	j = parseInt(j,10);
+	j = parseInt(j,10) +1;
 	var a = [],
 		p = [],
 		q = [],
@@ -32,7 +32,7 @@ function main(j) {
 		}
 		i+=1;
 	}
-	return A(a,j+1);
+	return A(a,j);
 }
 
 
