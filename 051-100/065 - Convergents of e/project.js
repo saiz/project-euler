@@ -24,7 +24,7 @@ function lcm(a, b) {
 }
 function add(a,b){
 	var l = lcm(a[1],b[1]);
-return [a*]
+return []
 
 	console.log(g)
 }
