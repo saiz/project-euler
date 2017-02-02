@@ -15,7 +15,7 @@ function repeat(arr){
 		bool,
 	while(i <= arr.length/2){
 		len = arr.length;
-		dist = arr.length - i;
+		dist = len - i;
 		end = arr.slice(len-dist,len-1).join('');
 		start = arr.slice(len-2*dist -1,len-dist -1).join('');
 		if(bool){
