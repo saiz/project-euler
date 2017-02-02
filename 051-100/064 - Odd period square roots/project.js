@@ -86,7 +86,7 @@ function approx (s){
 			console.log(d);
 			console.log(a)
 			rep = repeat(a);
-			if(rep.repeat !== null && a.length > 3){
+			if(rep.repeat !== null && a.length > 4){
 				bool = false;
 			}
 			i+=1;
