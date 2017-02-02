@@ -8,8 +8,8 @@ function fract(a,b,m,n){
 	return [a,b];
 }
 function fraction(n){
-	var a = 8,
-		b = 3;
+	var a =8,
+		b = ;
 	return fract(a,b,1,n);
 }
 function gcd(a, b) {
@@ -32,7 +32,7 @@ function main(n) {
 	var i =1,
 		total =[2,1];
 	while(i<n){
-		console.log(fraction())
+		console.log(fraction)
 		i+=1;
 	}
 	return total;
