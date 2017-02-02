@@ -5,12 +5,8 @@ function main(n) {
 		p = [],
 		q = [1],
 		i = 0;
-		p.push(a[0]);
-		p.push(a[0]*a[1]+1);
-		q.push(a[1]);
-		console.log(a);
-		console.log(p);
-		console.log(q);
+		p.push(a[0]).push(a[0]*a[1]+1);
+		q.p
 	while(i< n){
 		if(i >=4 && n%2===1){
 			a[i] = 2*i;
