@@ -8,7 +8,8 @@ function a_n1(a,m,d){
 	return Math.floor((a+m)/d);
 }
 function equal(a,b){
-	var bool = true;
+	var bool = true,
+		i
 	if(a.length !== b.length){
 		bool = false;
 	}
