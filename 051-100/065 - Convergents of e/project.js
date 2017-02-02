@@ -8,8 +8,8 @@ function fract(a,b,m,n){
 	return [a,b];
 }
 function fraction(n){
-	var a = 3,
-		b = 1;
+	var a = 8,
+		b = 3;
 	return fract(a,b,1,n);
 }
 function gcd(a, b) {
