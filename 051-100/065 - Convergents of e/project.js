@@ -15,7 +15,7 @@ function fact (n){
 	if(n <= 1){
 		return 1;
 	}
-	return n.timesfact(n-1);
+	return n.times(fact(n-1));
 }
 function gcd(a, b) {
     if ( ! b) {
