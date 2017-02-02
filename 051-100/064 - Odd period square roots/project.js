@@ -44,6 +44,9 @@ function repeat(arr){
 			}
 		}
 		i+=1;
+		if(i >20){
+			bool = true;
+		}
 	}
 	if(!bool){
 		return{
