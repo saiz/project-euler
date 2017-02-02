@@ -1,3 +1,4 @@
+var BigNumber = require('bignumber.js');
 function fract(a,b,m,n){
 	var i, k;
 		i = a*b;
