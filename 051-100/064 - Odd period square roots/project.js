@@ -26,7 +26,7 @@ function a_n1(a,m,d){
 	return Math.floor((a+m)/d);
 }
 function repeat(arr){
-	var i=1,
+	var i=0,
 		res =[],
 		dist,
 		end, start, len, rem = null,
