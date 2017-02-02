@@ -9,7 +9,7 @@ function fract(a,b,m,n){
 }
 function fraction(n){
 	var a = 3,
-		b = 2;
+		b = 1;
 	return fract(a,b,1,n);
 }
 function gcd(a, b) {
