@@ -47,19 +47,19 @@ function repeat(arr){
 	}
 	if(!bool){
 		return{
-			rem:null,
+			s:null,
 			repeat:null
 		};
 	}
 	return {
-		rem:rem,
+		s:rem,
 		repeat:start
 	};
 }
 function approx (s, n){
 	if(Math.sqrt(s) %1 == 0){
 		return{
-			rem:Math.sqrt(s),
+			s:Math.sqrt(s),
 			repeat:null
 		};
 	}
