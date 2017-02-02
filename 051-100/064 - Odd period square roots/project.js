@@ -23,6 +23,7 @@ function equal(a,b){
 }
 function repeat(arr){
 	var i=0,
+		pattern =10,
 		res =[],
 		dist,
 		end,mid, start, len, rem = null,
@@ -32,6 +33,7 @@ function repeat(arr){
 		dist = Math.floor(len/2 -i);
 		start = arr.slice(len-3*dist,len-2*dist );
 		mid = arr.slice(len-2*dist,len-dist );
+
 		end = arr.slice(len-dist,len);
 		//console.log(arr,start,end);
 		if(equal(start,mid) && equal(mid,end)){
