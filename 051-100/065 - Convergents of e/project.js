@@ -20,7 +20,7 @@ function main(m) {
 			p[i] = a[i]*p[i-1] +p[i-2];
 			q[i] = a[i]*q[i-1] +q[i-2];
 		}
-	console.log(i)
+		console.log(i)
 		console.log(a);
 		console.log(p);
 		console.log(q);
