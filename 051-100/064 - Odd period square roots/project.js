@@ -39,7 +39,7 @@ function repeat(arr){
 		console.log(arr,start,end);
 		if(start === end){
 			bool =true;
-			console.log('adsas')
+			console.log('adsas');
 			// i = arr.length;
 			// if(len-2*dist -1 >0){
 			// 	rem = arr.slice(0,len-2*dist -1).join('');
