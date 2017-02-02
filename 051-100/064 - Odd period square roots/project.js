@@ -55,7 +55,7 @@ function repeat(arr){
 	}
 	return {
 		rem:rem,
-		repeat:start.split('')
+		repeat:start
 	};
 }
 function approx (s, n){
