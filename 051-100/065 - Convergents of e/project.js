@@ -16,7 +16,7 @@ function fraction(n){
 function main(n) {
 	'use strict';
 	n = parseInt(n,10);
-	var i =0;
+	var i =1;
 	while(i<n){
 		console.log(fraction(i));
 		i+=1;
