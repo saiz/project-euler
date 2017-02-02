@@ -19,8 +19,11 @@ function gcd(a, b) {
 
     return gcd(b, a % b);
 }
+function lcm(a, b) {
+    return (a * b) / gcd(a, b);
+}
 function add(a,b){
-	var g = gcd(a[1],b[1]);
+	var g = lcm(a[1],b[1]);
 	console.log(g)
 }
 function main(n) {
