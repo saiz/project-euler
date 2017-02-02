@@ -63,16 +63,16 @@ function approx (s,precision){
 		i = 0,
 		bool = true,
 		rep;
-		while(bool){
-			m.push(m_n1(d[i],a[i],m[i]));
-			d.push(d_n1(s,m[i+1],d[i]));
-			a.push(a_n1(a[0],m[i+1],d[i+1]));
-			rep = repeat(a,precision);
-			if(rep.repeat !== null){
-				bool = false;
-			}
-			i+=1;
+	while(bool){
+		m.push(m_n1(d[i],a[i],m[i]));
+		d.push(d_n1(s,m[i+1],d[i]));
+		a.push(a_n1(a[0],m[i+1],d[i+1]));
+		rep = repeat(a,precision);
+		if(rep.repeat !== null){
+			bool = false;
 		}
+		i+=1;
+	}
 	return rep;
 }
 function main(n) {
