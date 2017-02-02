@@ -6,3 +6,11 @@ function p_n(a,p,n){
 	}
 	return a[n] * p[n−1] + p[n−2];
 }
+
+function main(n) {
+	'use strict';
+	n = parseInt(n,10);
+	return;
+}
+
+console.log(main(process.argv[2]));
