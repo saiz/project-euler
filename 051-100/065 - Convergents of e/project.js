@@ -1,40 +1,9 @@
-var BigNumber = require('bignumber.js');
-function fract(a,b,m,n){
-	var i, k;
-		i = b + 1;
-		k = i*2 +1;
-	if(m < n){
-		return fract(k,i,m+1,n);
+function fraction(n, total){
+	if(n =<0){
+		return [2,1];
 	}
-	return [a,b];
-}
-function fraction(n){
-	var a = 2,
-		b = 1;
-	return fract(a,b,1,n);
-}
-function fact (n){
-	//var i = new BigNumber(n);
-	if(n <= 1){
-		return 1;
-	}
-	return n*(fact(n-1));
-}
-function gcd(a, b) {
-    if ( ! b) {
-        return a;
-    }
 
-    return gcd(b, a % b);
-}
-function lcm(a, b) {
-    return (a * b) / gcd(a, b);
-}
-function add(a,b){
-	var l = lcm(a[1],b[1]),
-		i = l/a[1]*a[0] + l/b[1]*b[0];
-		console.log(l)
-	return[i,l];
+
 }
 function main(n) {
 	'use strict';
