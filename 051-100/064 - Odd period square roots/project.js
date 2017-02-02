@@ -36,6 +36,7 @@ function repeat(arr){
 		dist = Math.floor(len/2 -i);
 		end = arr.subarray(len-dist,len).join('');
 		start = arr.subarray(len-dist-end.length,len-dist-1 ).join('');
+		console.log(start,end);
 		if(start === end){
 			bool =true;
 			i = arr.length;
