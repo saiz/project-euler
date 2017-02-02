@@ -84,8 +84,7 @@ function main(n) {
 	//console.log(approx2(3,2));
 	while(i <= n){
 		if(Math.sqrt(i)%1 !== 0){
-			app = approx(i,per);
-			if(app.repeat.length %2 === 1){
+			if(approx(i,per).repeat.length %2 === 1){
 				console.log(i);
 				count +=1;
 			}
