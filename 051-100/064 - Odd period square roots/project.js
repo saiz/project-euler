@@ -34,7 +34,7 @@ function repeat(arr){
 		mid = arr.slice(len-2*dist,len-dist );
 		end = arr.slice(len-dist,len);
 		console.log(arr,start,end);
-		if(equal(start,end)){
+		if(equal(start,end) && equal(middle,end)){
 			bool =true;
 			i = arr.length;
 			if(len-dist-end.length -1 >=0){
