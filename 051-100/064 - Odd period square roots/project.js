@@ -65,7 +65,7 @@ function approx (s){
 			d.push(d_n1(s,m[i+1],d[i]));
 			a.push(a_n1(a[0],m[i+1],d[i+1]));
 			rep = repeat(a);
-			if(rep.repeat !== null && a.length > 3){
+			if(rep.repeat !== null){
 				bool = false;
 			}
 			i+=1;
