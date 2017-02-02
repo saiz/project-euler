@@ -53,7 +53,7 @@ function repeat(arr){
 	};
 }
 function approx (s){
-	if(Math.sqrt(s) %1 == 0){
+	if(Math.sqrt(s) %1 === 0){
 		return{
 			s:Math.sqrt(s),
 			repeat:null
