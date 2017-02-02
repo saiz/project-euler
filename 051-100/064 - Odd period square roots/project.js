@@ -47,7 +47,7 @@ function repeat(arr){
 	}
 	if(!bool){
 		return{
-			s:null,
+			s:start,
 			repeat:null
 		};
 	}
