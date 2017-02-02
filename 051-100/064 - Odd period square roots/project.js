@@ -25,6 +25,20 @@ function d_n1(s,m,d){
 function a_n1(a,m,d){
 	return Math.floor((a+m)/d);
 }
+function equal(a,b){
+	if(a.length !== b.length){
+		return false;
+	}
+	var bool = true,
+		i=0;
+	while(i<a.length && bool){
+		if(a[i]!==b[i]){
+			bool = false;
+		}
+		i+=1;
+	}
+	return bool;
+}
 function repeat(arr){
 	var i=0,
 		res =[],
