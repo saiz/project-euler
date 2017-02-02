@@ -88,11 +88,13 @@ function main(n) {
 		if(Math.sqrt(i)%1 !== 0){
 			app = approx(i,per);
 			if(app.repeat.length %2 === 1){
+				console.log(i);
 				count +=1;
 			}
 		}
 		i+=1;
 	}
+	console.log("------");
 	return count;
 }
 
