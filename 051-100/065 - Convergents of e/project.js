@@ -43,7 +43,7 @@ function main(n) {
 		console.log(total);
 		i+=1;
 	}
-	return e_n;
+	return;
 }
 
 console.log(main(process.argv[2]));
