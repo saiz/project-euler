@@ -8,6 +8,9 @@ function main(n) {
 		p.push(a[0]);
 		p.push(a[0]*a[1]+1);
 		q.push(a[1]);
+console.log(a);
+		console.log(p);
+		console.log(q);
 	while(i< n){
 		if(i >=4 && n%2===1){
 			a[i] = 2*i;
