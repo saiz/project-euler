@@ -25,9 +25,9 @@ function main(j) {
 		a[3*i] =1;
 		a[3*i+1] =2*i;
 		a[3*i+2] =1;
-		if(i=0){
+		if(i===0){
 			c[i] =a[0];
-		} else{
+		} else if({
 
 		}
 		// if(i === 0){
