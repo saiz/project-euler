@@ -1,7 +1,7 @@
 function fract(a,b,m,n){
 	var i, k;
 		i = a+b;
-		k = i+b;
+		k = i*(b);
 	if(m < n){
 		return fract(k,i,m+1,n);
 	}
