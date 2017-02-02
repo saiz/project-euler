@@ -11,7 +11,6 @@ function p_n(a,p,n){
 function main(n) {
 	'use strict';
 	n = parseInt(n,10);
-	approx(Math.E);
 	return;
 }
 
