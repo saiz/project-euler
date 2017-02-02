@@ -17,7 +17,7 @@ function repeat(arr){
 		len = arr.length;
 		dist = len - i;
 		end = arr.splice(len-dist,len-1).join('');
-		start = arr.slice(len-2*dist -1,len-dist -1).join('');
+		start = arr.splice(len-2*dist -1,len-dist -1).join('');
 		console.log(len,dist,arr,start,end);
 		// if(start === end){
 		// 	bool =true;
