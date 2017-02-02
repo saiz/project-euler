@@ -28,6 +28,7 @@ function main(j) {
 		i+=1;
 	}
 	console.log('--')
+	console.log(a);
 	return A(a,j);
 }
 
