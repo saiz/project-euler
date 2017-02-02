@@ -71,7 +71,7 @@ function approx (s, n){
 			// console.log(m);
 			// console.log(d);
 			rep = repeat(a);
-			console.log(a);
+			// console.log(a);
 			// console.log(rep);
 			if(rep.repeat !== null){
 				bool = false;
@@ -83,7 +83,7 @@ function approx (s, n){
 function main(n) {
 	'use strict';
 	n = parseInt(n,10);
-	approx(n,7);
+	console.log(approx(n,7));
 	return;
 }
 
