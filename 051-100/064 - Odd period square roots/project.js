@@ -31,7 +31,7 @@ function repeat(arr){
 		len = arr.length;
 		dist = Math.floor(len/2 -i);
 		end = arr.slice(len-dist,len);
-		start = arr.slice(len-dist-end.length,len-dist-1 );
+		start = arr.slice(len-dist-end.length,len-dist );
 		console.log(arr);
 		console.log(len-dist,len);
 		console.log(len-dist-end.length,len-dist );
