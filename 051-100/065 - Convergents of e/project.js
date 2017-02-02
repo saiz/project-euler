@@ -10,7 +10,7 @@ function fraction(n){
 	return fract(a,b,1,n);
 }
 function fact (n){
-	if(n >= 1){
+	if(n <= 1){
 		return 1;
 	}
 	return n*fact(n-1);
