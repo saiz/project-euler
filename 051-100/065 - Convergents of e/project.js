@@ -33,7 +33,7 @@ function main(j) {
 		// }
 		i+=1;
 	}
-	console.log(a)
+	console.log(a);
 	return A(a,j);
 }
 
