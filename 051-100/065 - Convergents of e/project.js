@@ -29,7 +29,8 @@ function add(a,b){
 function main(n) {
 	'use strict';
 	n = parseInt(n,10);
-	var i =1;
+	var i =1
+		total
 	while(i<n){
 		console.log(add(fraction(i),fraction(i+1)));
 		console.log(fraction(i));
