@@ -1,16 +1,14 @@
 function main(j) {
 	'use strict';
 	j = parseInt(j,10);
-	var a = [1,0,1,1],
+	var a = [],
 		p = [],
 		q = [],
-		i = 0, n,m;
+		i = 0;
 	while(i< j){
-		n = 3*i +1;
-		a[n] =2*i;
-		m = 3*i +2;
-		a[m] =1;
-		a[m+1] =1;
+		a[3*i] =1;
+		a[3*i+1] =2*i;
+		a[3*i+2] =1;
 		if(i === 0){
 			p[i] = a[0];
 			q[i] = 1;
