@@ -29,6 +29,7 @@ function repeat(arr){
 		end,index, len, rem = null,
 		bool,diff;
 		console.log("//////")
+		console.log(arr)
 	while(i < Math.floor(arr.length/2)){
 		len = arr.length;
 		dist = Math.floor(len/2 -i);
@@ -37,7 +38,6 @@ function repeat(arr){
 		j=2;
 		bool = true;
 		console.log("----")
-		console.log(arr)
 		while(j<pattern && bool){
 			index = arr.slice(len-j*dist,len-(j+1)*dist );
 			console.log(index,end);
