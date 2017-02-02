@@ -35,6 +35,8 @@ function repeat(arr){
 
 		j=2;
 		bool = true;
+		console.log("----")
+		console.log(arr)
 		while(j<pattern && bool){
 			index = arr.slice(len-j*dist,len-(j+1)*dist );
 			console.log(index,end);
