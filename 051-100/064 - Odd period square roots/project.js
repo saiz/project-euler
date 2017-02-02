@@ -103,7 +103,7 @@ function approx (s, n){
 function main(n) {
 	'use strict';
 	n = parseInt(n,10);
-	console.log(approx(n,7));
+	approx(n,7);
 	return;
 }
 
