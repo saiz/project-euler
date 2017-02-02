@@ -32,6 +32,7 @@ function lcm(a, b) {
 }
 function add(a,b){
 	var l = lcm(a[1],b[1]),
+	console.log(l)
 		i = l/a[1]*a[0] + l/b[1]*b[0];
 	return[i,l];
 }
