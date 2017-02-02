@@ -3,7 +3,7 @@ function A(a,n) {
 		return a[0];
 	}
 	if(n === 1){
-		return a[1]*A(a,0) + 1;
+		return a[1]*a[0] + 1;
 	}
 	return a[n]*A(a,n-1) + A(a,n-2);
 }
