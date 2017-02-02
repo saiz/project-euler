@@ -47,7 +47,7 @@ function repeat(arr){
 			i = arr.length;
 			diff = Math.floor(len / dist);
 			console.log(arr);
-			rem = arr.slice(0,len-pattern*dist).join('');
+			rem = arr.slice(0,len-pattern*dist-1).join('');
 		}
 		i+=1;
 	}
