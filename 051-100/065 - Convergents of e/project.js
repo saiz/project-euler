@@ -3,10 +3,10 @@ function main(n) {
 	var a = [2,1],
 		p = [a[0],(a[0]*a[1]+1)],
 		q = [1,a[1]],
-		n = 0;
+		i = 0;
 	while(bool){
-		if(n >=4 && n%2===1){
-			a[n]
+		if(3 >=4 && n%2===1){
+			a[n] = 2
 
 		}
 
