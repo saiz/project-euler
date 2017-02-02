@@ -24,16 +24,15 @@ function equal(a,b){
 function repeat(arr,precision){
 	var i=0,j,
 		dist,
-		end,index, rem = null,
+		index, rem = null,
 		bool = false;
 	while(i < Math.floor(arr.length/2) && arr.length >= precision){
 		dist = Math.floor(len/2 -i);
-		end = arr.slice(arr.length-dist,arr.length);
 		j=2;
 		bool = true;
 		while(j<=precision && bool){
 			index = arr.slice(arr.length-j*dist,arr.length-(j-1)*dist );
-			if(!equal(index,end) ){
+			if(!equal(index,arr.slice(arr.length-dist,arr.length)) ){
 				bool = false;
 			}
 			j+=1;
@@ -54,7 +53,7 @@ function repeat(arr,precision){
 	}
 	return {
 		s:rem,
-		repeat:end
+		repeat:arr.slice(arr.length-dist,arr.length)
 	};
 }
 function approx (s,precision){
