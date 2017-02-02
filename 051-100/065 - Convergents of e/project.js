@@ -1,3 +1,6 @@
+function A(a,n) {
+	return a[n]* A(a,n-1) + a[n]
+}
 function main(j) {
 	'use strict';
 	j = parseInt(j,10);
