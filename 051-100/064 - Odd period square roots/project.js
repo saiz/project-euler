@@ -5,7 +5,7 @@ function d_n1(s,m,d){
 	return (s-m*m)/d;
 }
 function a_n1(a,m,d){
-	return Math.floor((a+m)/d)
+	return Math.floor((a+m)/d);
 }
 function repeat(arr){
 	var i=1,
