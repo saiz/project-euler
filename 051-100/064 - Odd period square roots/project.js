@@ -43,8 +43,7 @@ function repeat(arr){
 			j+=1;
 		}
 		//console.log(arr,start,end);
-		if(bool2){
-			bool =true;
+		if(bool){
 			i = arr.length;
 			if(len-dist-end.length -1 >=0){
 				rem = arr.slice(0,len-3*dist).join('');
@@ -52,7 +51,7 @@ function repeat(arr){
 		}
 		i+=1;
 	}
-	if(!bool){
+	if(bool){
 		return{
 			s:arr.join(''),
 			repeat:null
