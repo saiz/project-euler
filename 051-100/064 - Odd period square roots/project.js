@@ -107,8 +107,8 @@ function main(n) {
 	//console.log(approx2(3,2));
 	while(i <= n){
 		if(Math.sqrt(i)%1 !== 0){
-			approx(i)
-			//console.log(i,approx(i));
+			//approx(i)
+			console.log(i,approx(i));
 		}
 		i+=1;
 	}
