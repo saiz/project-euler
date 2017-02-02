@@ -22,7 +22,7 @@ function equal(a,b){
 	return bool;
 }
 function repeat(arr){
-	var i=0,,j;
+	var i=0,j,
 		pattern =10,
 		res =[],
 		dist,
