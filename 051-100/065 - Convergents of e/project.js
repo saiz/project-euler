@@ -1,6 +1,6 @@
 function A(a,n) {
 	if(n >18){
-		console.log(n)}
+		console.log(n,a.length)}
 	if(n === 0){
 		return a[0];
 	}
