@@ -80,7 +80,7 @@ function main(n) {
 	'use strict';
 	n = parseInt(n,10);
 	var i = 2;
-	while(i < n){
+	while(i <= n){
 		console.log(approx(i));
 		i+=1;
 	}
