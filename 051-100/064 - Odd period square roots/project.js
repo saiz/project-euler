@@ -22,19 +22,22 @@ function equal(a,b){
 	return bool;
 }
 function repeat(arr){
-	var i=0,
+	var i=0,,j;
 		pattern =10,
 		res =[],
 		dist,
-		end,mid, start, len, rem = null,
+		end,index, len, rem = null,
 		bool =false;
 	while(i < Math.floor(arr.length/2)){
 		len = arr.length;
 		dist = Math.floor(len/2 -i);
 		start = arr.slice(len-3*dist,len-2*dist );
-		mid = arr.slice(len-2*dist,len-dist );
-
 		end = arr.slice(len-dist,len);
+
+		j=1;
+		while(j<pattern){
+			if()
+		}
 		//console.log(arr,start,end);
 		if(equal(start,mid) && equal(mid,end)){
 			bool =true;
