@@ -27,6 +27,7 @@ function main(j) {
 		}
 		i+=1;
 	}
+	console.log(A(a,j+1));
 	return A(a,j+1);
 }
 
