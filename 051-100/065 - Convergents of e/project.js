@@ -32,7 +32,7 @@ function main(n) {
 	var i =1,
 		total =[2,1];
 	while(i<n){
-		total = add(total,fraction(i));
+		console.log(fraction)
 		i+=1;
 	}
 	return total;
