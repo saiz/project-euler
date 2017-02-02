@@ -1,18 +1,3 @@
-function A(a,n) {
-	if(n > a.length -4){
-		console.log(n,a.length);
-	}
-	if(n === 0){
-		return 1;
-	}
-	if(n === 1){
-		return 1;
-	}
-	if(n === 2){
-		return 2;
-	}
-	return a[n]*A(a,n-1) + A(a,n-2);
-}
 function main(j) {
 	'use strict';
 	j = parseInt(j,10) +1;
@@ -28,7 +13,7 @@ function main(j) {
 		if(i===0){
 			c[i] =a[0];
 		} else if(i===1){
-			c[i] = a[1]*a[2] + 1
+			c[i] = a[1]*a[2] + 1;
 		} else{
 			c[i] = a[i]*c[i-1] +c[n-2];
 		}
