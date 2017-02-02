@@ -1,11 +1,11 @@
-function p_n(a,p,n){
+function p_n(a,n){
 	if(n === 0) {
 		return a[n];
 	}
 	if(n === 1) {
 		return a[n-1] * a[n] + 1;
 	}
-	return a[n]* p_n[];
+	return a[n]* p_n[n-1];
 	//return a[n] * p[n−1] + p[n−2];
 }
 
