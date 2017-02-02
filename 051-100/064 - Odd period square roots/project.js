@@ -35,10 +35,10 @@ function repeat(arr){
 		len = arr.length;
 		dist = len - i;
 		end = arr.subarray(len-dist,len).join('');
-		start = arr.subarray(len-dist-end.length -1,len-dist -1 ).join('');
+		start = arr.subarray(len-dist-end.length,len-dist -1 ).join('');
 		console.log(arr);
 		console.log(len-dist,len, end);
-		console.log(len-dist-end.length -1,len-dist -1, start);
+		console.log(len-dist-end.length,len-dist -1, start);
 		if(start === end){
 			bool =true;
 			console.log('adsas');
