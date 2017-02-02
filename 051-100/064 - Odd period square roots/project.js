@@ -27,7 +27,7 @@ function repeat(arr,precision){
 		index, rem = null,
 		bool = false;
 	while(i < Math.floor(arr.length/2) && arr.length >= precision){
-		dist = Math.floor(len/2 -i);
+		dist = Math.floor(arr.length/2 -i);
 		j=2;
 		bool = true;
 		while(j<=precision && bool){
