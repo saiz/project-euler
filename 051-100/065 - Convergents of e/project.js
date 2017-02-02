@@ -40,6 +40,7 @@ function main(n) {
 	while(i<n){
 		// total = add(total,fraction(i));
 		add(total,[1,fact(i)]);
+		console.log(total);
 		i+=1;
 	}
 	return e_n;
