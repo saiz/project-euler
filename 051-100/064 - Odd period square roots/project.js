@@ -35,7 +35,7 @@ function repeat(arr){
 
 		j=2;
 		bool = true;
-		while(j<pattern && bool){
+		while(j<=pattern && bool){
 			index = arr.slice(len-j*dist,len-(j-1)*dist );
 			if(!equal(index,end) ){
 				bool = false;
@@ -51,7 +51,7 @@ function repeat(arr){
 			// console.log(arr.slice(0,len-pattern*dist+1).join(''));
 			// console.log(len-pattern*dist+1)
 			console.log(len-pattern*dist)
-			rem = arr.slice(0,len-(pattern-1)*dist).join('');
+			rem = arr.slice(0,len-pattern*dist).join('');
 		}
 		i+=1;
 	}
