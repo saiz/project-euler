@@ -57,6 +57,12 @@ function repeat(arr){
 	};
 }
 function approx (s, n){
+	if(Math.sqrt(s) %1 == 0){
+		return{
+			rem:Math.sqrt(s),
+			repeat:null
+		};
+	}
 	var	m = [0],
 		d =[1],
 		a =[Math.floor(Math.sqrt(s))],
