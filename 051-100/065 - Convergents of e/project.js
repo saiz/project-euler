@@ -1,4 +1,7 @@
 function A(a,n) {
+	if(n > a.length -4){
+		console.log(n,a.length);
+	}
 	if(n === 0){
 		return a[0];
 	}
