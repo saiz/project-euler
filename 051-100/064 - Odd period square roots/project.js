@@ -52,7 +52,7 @@ function repeat(arr){
 		repeat:start
 	};
 }
-function approx (s, n){
+function approx (s){
 	if(Math.sqrt(s) %1 == 0){
 		return{
 			s:Math.sqrt(s),
@@ -68,11 +68,7 @@ function approx (s, n){
 			m.push(m_n1(d[i],a[i],m[i]));
 			d.push(d_n1(s,m[i+1],d[i]));
 			a.push(a_n1(a[0],m[i+1],d[i+1]));
-			// console.log(m);
-			// console.log(d);
 			rep = repeat(a);
-			// console.log(a);
-			// console.log(rep);
 			if(rep.repeat !== null){
 				bool = false;
 			}
@@ -83,7 +79,11 @@ function approx (s, n){
 function main(n) {
 	'use strict';
 	n = parseInt(n,10);
-	console.log(approx(n,7));
+	var i = 2;
+	while(i < n){
+		console.log(approx(n,7));
+		i+=1;
+	}
 	return;
 }
 
