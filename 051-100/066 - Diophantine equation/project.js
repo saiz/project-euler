@@ -25,6 +25,7 @@ function main(n) {
 	while(d <=n){
 		if( Math.sqrt(d)%1!==0){
 			res = diophantine(d);
+			console.log(res);
 		}
 		d+=1;
 	}
