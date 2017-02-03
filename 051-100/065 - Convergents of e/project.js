@@ -15,8 +15,7 @@ function A(n,arr){
 	} else if( arr[n] !== undefined){
 		return new BigNumber(arr[n]);
 	}
-	var b = new BigNumber(b(n));
-	arr[n] = b.times(A(n-1,arr)).plus(A(n-2,arr));
+	arr[n] = new BigNumber(b(n)).times(A(n-1,arr)).plus(A(n-2,arr));
 	return arr[n];
 }
 function main(j) {
