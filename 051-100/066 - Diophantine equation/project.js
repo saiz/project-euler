@@ -18,7 +18,7 @@ function main(n) {
 		max;
 	while(i <=n){
 		res = diophan(i);
-		if( Math.sqrt(res.d)%1!==0 && res.x >x){
+		if( Math.sqrt(res.d)%1!==0 && res.x > x){
 			max = res;
 			//console.log(diophan(i));
 		}
