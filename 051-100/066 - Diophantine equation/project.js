@@ -7,7 +7,7 @@ function check(d,x,y){
 }
 function diophan (d){
 	var i=2, max = 0, y =dio(d,i);
-	while(check(d,i,y) && y%1===0){
+	while(check(d,i,y) && y%1!==0){
 		y=dio(d,i);
 		i+=1;
 	}
