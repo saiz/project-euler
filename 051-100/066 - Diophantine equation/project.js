@@ -1,4 +1,8 @@
+function dio(d,i){
+	return Math.sqrt(d*i*i);
+}
 function Diophan (n){
+
 	return
 }
 function main() {
