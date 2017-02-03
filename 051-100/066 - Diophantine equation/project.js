@@ -24,7 +24,7 @@ function main(n) {
 		max = {x:0,d:0,y:0};
 	while(d <=n){
 		if( Math.sqrt(d)%1!==0){
-
+res =
 		}
 		d+=1;
 	}
