@@ -3,7 +3,7 @@ function dio(d,i){
 }
 function diophan (d){
 	var i=1, max = 0;
-	while(i < d){
+	while(i < d*d){
 		if(dio(d,i) > max && dio(d,i)%1===0){
 			max = dio(d,i);
 		}
