@@ -2,9 +2,10 @@ function dio(d,i){
 	return Math.sqrt(d*i*i +1);
 }
 function Diophan (d){
-	if(dio(d,i)%0==0){
-		return i
+	while(dio(d,i)%0==1){
+		i+=1;
 	}
+	return i;
 }
 function main() {
 	'use strict';
