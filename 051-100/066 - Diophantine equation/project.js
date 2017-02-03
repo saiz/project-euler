@@ -17,7 +17,7 @@ function main(n) {
 		res,
 		max;
 	while(i <=n){
-		if( Math.sqrt(res.d)%1!==0){
+		if( Math.sqrt(i)%1!==0){
 
 		} && res.x > x){
 			max = res;
