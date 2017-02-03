@@ -13,9 +13,9 @@ function A(n,arr){
 		return b(1)*b(0) +1;
 	} else if(arr[i] === undefined){
 		arr[i] = b(n)*A(n-1) + 1*A(n-2);
-		return arr[i]
+		return arr[i];
 	}
-	return b(n)*A(n-1) + 1*A(n-2);
+	return arr[i];
 }
 function main(j) {
 	'use strict';
