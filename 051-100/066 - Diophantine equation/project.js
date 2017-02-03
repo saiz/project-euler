@@ -12,7 +12,7 @@ function diophantine(d){
 	return {x:x,d:d,y:calc_y(d,x)};
 }
 function check(d,x,y){
-	return d*y*y < x*x;
+	return (d*y*y)%(x*x) === 1
 }
 
 function main(n) {
