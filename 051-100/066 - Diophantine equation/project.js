@@ -17,14 +17,10 @@ function main(n) {
 	while(i <=n){
 		if(x < diophan(i).x){
 			x = diophan(i);
-			d = i;
 			console.log({
 				x:x,
 				d:d
 			});
-		}
-		if(i%100 === 0){
-			console.log(i);
 		}
 		i+=1;
 	}
