@@ -1,12 +1,12 @@
 function b(i){
 	if(i ===1){
 		return 0;
-	} else if((i-1)%3 === 0){
-		return 2*((i-1)/3);
+	} else if((i-1)%3 !== 0){
+		return 1;
 	}
-	return 1;
+	return 2*((i-1)/3);
 }
-function A(n){
+function A(n,){
 	if(n===0){
 		return b(0);
 	} else if(n===1){
@@ -17,6 +17,7 @@ function A(n){
 function main(j) {
 	'use strict';
 	j = parseInt(j,10) +1;
+	var mem = [];
 	console.log(A(j));
 	return;
 }
