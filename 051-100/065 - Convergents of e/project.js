@@ -7,15 +7,16 @@ function b(i){
 	return 2*((i-1)/3);
 }
 function A(n,arr){
-	console.log(arr[10])
-	if(n===0){
-		return b(0);
-	} else if(n===1){
-		return b(1)*b(0) +1;
-	} else if( arr[n] !== undefined ){
+	if( arr[n] !== undefined ){
 		return arr[n];
 	}
-	arr[n] = b(n)*A(n-1) + 1*A(n-2);
+	if(n === 0){
+		arr[n] = b(0);
+	} else if(n === 1){
+		arr[n] = b(1)*b(0) +1;
+	} else {
+		arr[n] = b(n)*A(n-1) + 1*A(n-2);
+	}
 	return arr[n];
 }
 function main(j) {
