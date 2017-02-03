@@ -11,9 +11,13 @@ function diophan (d){
 function main(n) {
 	'use strict';
 	n =parseInt(n,10);
-	var i =1;
+	var i =1,
+		max = 0;
 	while(i <=n){
 		if(Math.sqrt(i)%1 !==0){
+			if(max < diophan(i)){
+				max = diophan(i)
+			}
 			console.log(i, diophan(i));
 		}
 		i+=1;
