@@ -6,7 +6,7 @@ function diophan (d){
 	while(dio(d,i)%1!==0){
 		i+=1;
 	}
-	return {x:i,y:dio(d,i),d:d};
+	return {x:i,d:d,y:dio(d,i)};
 }
 function main(n) {
 	'use strict';
