@@ -12,8 +12,6 @@ function main(n) {
 	'use strict';
 	n =parseInt(n,10);
 	var i =1,
-		x = 0,
-		d = 0,
 		res,
 		max;
 	while(i <=n){
