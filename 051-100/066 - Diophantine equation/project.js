@@ -6,10 +6,11 @@ function diophan (d){
 	while(dio(d,i)%0==1){
 		i+=1;
 	}
-	return i;
+	return i+1;
 }
-function main() {
+function main(n) {
 	'use strict';
+	n
 	console.log(3,diophan(3));
 	return ;
 }
