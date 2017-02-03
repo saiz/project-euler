@@ -1,8 +1,8 @@
 function dio(d,i){
-	return Math.sqrt(d*i*i);
+	return Math.sqrt(d*i*i +1);
 }
-function Diophan (n){
-
+function Diophan (d){
+	if(dio(d,))
 	return
 }
 function main() {
