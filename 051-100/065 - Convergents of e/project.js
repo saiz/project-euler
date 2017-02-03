@@ -20,7 +20,7 @@ function main(j) {
 		// }
 		i+=1;
 	}
-	console.log(c[j]);
+	console.log(a);
 	return;
 }
 
