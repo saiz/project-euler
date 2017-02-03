@@ -16,7 +16,7 @@ function main(n) {
 		d = 0;
 	while(i <=n){
 		if(Math.sqrt(i)%1 !==0){
-			if(x < diophan(i)){
+			if(x <= diophan(i)){
 				x = diophan(i);
 				d = i;
 				console.log({
