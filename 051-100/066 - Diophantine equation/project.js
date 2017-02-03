@@ -1,12 +1,12 @@
 function dio(d,x){
 	return Math.sqrt((x*x - 1)/d);
 }
-function check(x,d){
-	return x*x > d*d*d;
+function check(d,x){
+	return d*d*d < x*x ;
 }
 function diophan (d){
 	var i=2, max = 0;
-	while(dio(d,i)%1!==0){
+	while(dio(d,i)%1!==0 && check(d,i)){
 		i+=1;
 	}
 	return {x:i,d:d,y:dio(d,i)};
