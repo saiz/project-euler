@@ -20,11 +20,11 @@ function main(n) {
 		res = diophan(i);
 		if( Math.sqrt(res.d)%1!==0 && res.x >x){
 			max = res;
-			console.log(diophan(i));
+			//console.log(diophan(i));
 		}
 		i+=1;
 	}
-	return; //{x:x,d:d};
+	return max; //{x:x,d:d};
 }
 
 console.log(main(process.argv[2]));
