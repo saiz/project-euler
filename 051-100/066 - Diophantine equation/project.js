@@ -1,8 +1,8 @@
 function dio(d,x){
 	return Math.sqrt((x*x - 1)/d);
 }
-function check(d,x){
-	return d*y*y <= x*x ;
+function check(d,x,y){
+	return d*y*y <= x*x -1;
 }
 function diophan (d){
 	var i=2, max = 0, y =dio(d,i);
