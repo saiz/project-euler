@@ -13,9 +13,13 @@ function main(n) {
 	n =parseInt(n,10);
 	var i =1,
 		x = 0,
-		d = 0;
+		d = 0,
+		res,
+		max;
 	while(i <=n){
-		if( Math.sqrt(i)%1!==0){
+		res = diophan(i);
+		if( Math.sqrt(res.y)%1!==0 && res.x >x){
+			max = res;
 			console.log(diophan(i));
 		}
 		i+=1;
