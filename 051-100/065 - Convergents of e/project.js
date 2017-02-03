@@ -16,7 +16,7 @@ function main(j) {
 		// q = [],
 		i = 0;
 	while(a.length <= j +1){
-		c
+
 		i+=1;
 	}
 	console.log(a);
