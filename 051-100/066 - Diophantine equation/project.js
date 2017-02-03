@@ -14,7 +14,7 @@ function main(n) {
 	var i =1;
 	while(i <=n){
 		if(Math.sqrt(i)%1 !==0){
-			console.log(dio(d,i),i);
+			console.log(diophan(i));
 		}
 		i+=1;
 	}
