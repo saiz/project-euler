@@ -19,6 +19,10 @@ function main(n) {
 			if(x < diophan(i)){
 				x = diophan(i);
 				d = i;
+				console.log({
+					x:x,
+					d:d
+				})
 			}
 		}
 		if(i%100 === 0){
