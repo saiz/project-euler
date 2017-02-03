@@ -23,7 +23,7 @@ function main(n) {
 		}
 		i+=1;
 	}
-	return ;
+	return {x:x,d:d};
 }
 
 console.log(main(process.argv[2]));
