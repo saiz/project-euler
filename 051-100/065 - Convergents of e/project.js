@@ -16,7 +16,7 @@ function A(n,arr){
 	} else if(n === 1){
 		arr[n] = b(1)*b(0) +1;
 	} else {
-		arr[n] = b(n)*A(n-1) + 1*A(n-2);
+		arr[n] = b(n)*A(n-1,arr) + 1*A(n-2,arr);
 	}
 	console.log(arr[n])
 	return arr[n];
