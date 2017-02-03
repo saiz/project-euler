@@ -1,4 +1,4 @@
-function a(i){
+function f(i){
 	if(i ===1){
 		return 0;
 	} else if((i-1)%3 === 0){
@@ -15,7 +15,7 @@ function main(j) {
 		// q = [],
 		i = 0;
 	while(a.length <= j +1){
-		a[i] = a(i);
+		a[i] = f(i);
 		i+=1;
 	}
 	console.log(a);
