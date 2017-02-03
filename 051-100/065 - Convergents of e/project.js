@@ -7,15 +7,16 @@ function b(i){
 	return 2*((i-1)/3);
 }
 function A(n,arr){
+	var array = arr.slice(0);
 	if(n===0){
 		return b(0);
 	} else if(n===1){
 		return b(1)*b(0) +1;
-	} else if( arr[n] !== undefined ){
-		return arr[n];
+	} else if( array[n] !== undefined ){
+		return array[n];
 	}
-	arr[n] = b(n)*A(n-1) + 1*A(n-2);
-	return arr[n];
+	array[n] = b(n)*A(n-1) + 1*A(n-2);
+	return array[n];
 }
 function main(j) {
 	'use strict';
