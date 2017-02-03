@@ -7,7 +7,7 @@ function b(i){
 	return 2*((i-1)/3);
 }
 function A(n,arr){
-	if( arr.length <= n ){
+	if( arr.length < n ){
 		return arr[n];
 	}
 	if(n === 0){
