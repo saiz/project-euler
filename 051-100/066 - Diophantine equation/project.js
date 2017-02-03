@@ -12,6 +12,13 @@ function diophan (d){
 function main(n) {
 	'use strict';
 	n =parseInt(n,10);
+	var i =1;
+	while(i <=n){
+		if(i*i%1 !==0){
+			console.log(dio(d,i),i);
+		}
+		i+=1;
+	}
 	console.log(diophan(n) ,n);
 	return ;
 }
