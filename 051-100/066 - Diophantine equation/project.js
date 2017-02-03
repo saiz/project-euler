@@ -11,7 +11,7 @@ function diophan (d){
 function main(n) {
 	'use strict';
 	n =parseInt(n,10);
-	console.log(3,diophan(3));
+	console.log(n,diophan(n));
 	return ;
 }
 
