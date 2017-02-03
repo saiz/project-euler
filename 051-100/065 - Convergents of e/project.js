@@ -1,4 +1,4 @@
-function f(i){
+function b(i){
 	if(i ===1){
 		return 0;
 	} else if((i-1)%3 === 0){
@@ -6,19 +6,18 @@ function f(i){
 	}
 	return 1;
 }
+function A(n){
+	if(n===0){
+		return b(0);
+	} else if(n===1){
+		return b(1)*b(0) +1;
+	}
+	return b(n)*A(n-1) + 1*A(n-2);
+}
 function main(j) {
 	'use strict';
 	j = parseInt(j,10) +1;
-	var a = [],
-		c = [],
-		// p = [],
-		// q = [],
-		i = 0;
-	while(a.length <= j +1){
-		a[i] = f(i);
-		i+=1;
-	}
-	console.log(a);
+	console.log(A(j));
 	return;
 }
 
