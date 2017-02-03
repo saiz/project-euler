@@ -22,8 +22,13 @@ function main(j) {
 	'use strict';
 	j = parseInt(j,10) +1;
 	var mem =[],
-	sum = A(j,mem).c.join('').split('');
-	return sum;
+	sum = A(j,mem).c.join('').split(''),
+	total = 0,
+	i=0;
+	while(i<sum.length){
+		total+=parseInt(sum[i],10);
+	}
+	return total;
 }
 
 
