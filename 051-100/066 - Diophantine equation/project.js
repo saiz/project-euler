@@ -7,7 +7,7 @@ function diophan (d){
 		console.log(i, dio(d,i));
 		i+=1;
 	}
-	return i;
+	return Math.pow(dio(d,i),2);
 }
 function main(n) {
 	'use strict';
