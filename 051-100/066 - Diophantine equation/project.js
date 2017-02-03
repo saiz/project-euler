@@ -7,7 +7,7 @@ function diophan (d){
 		console.log(i, dio(d,i));
 		i+=1;
 	}
-	return i+1;
+	return i;
 }
 function main(n) {
 	'use strict';
