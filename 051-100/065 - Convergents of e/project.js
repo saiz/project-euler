@@ -7,7 +7,7 @@ function main(j) {
 		// p = [],
 		// q = [],
 		i = 0;
-	while(c.length <= j +1){
+	while(a.length <= j +1){
 		a[3*i] =1;
 		a[3*i+1] =2*i;
 		a[3*i+2] =1;
