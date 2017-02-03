@@ -13,12 +13,12 @@ function main(n) {
 	n =parseInt(n,10);
 	var i =1,
 		res,
-		max;
+		max = {x:0,d:0,y:0}
 	while(i <=n){
 		if( Math.sqrt(i)%1!==0){
 			res = diophan(i);
 			console.log(res);
-			if(res.x > max){
+			if(res.x > max.x){
 				max = res;
 				//console.log(diophan(i));
 			}
