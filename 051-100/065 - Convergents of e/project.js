@@ -2,12 +2,10 @@ var BigNumber = require('bignumber.js');
 function a(i){
 	if(i ===1){
 		return 0;
-	} else if(i === 2){
-		return 1;
-	} else if(i%3 === 0  || ((i-2)%3 === 0)){
-		return 1;
+	} else if((i-1)%3 === 0){
+		return 2*((i-1)/3);
 	}
-	return 2*((i-1)/3);
+	return 1;
 }
 function main(j) {
 	'use strict';
@@ -18,16 +16,7 @@ function main(j) {
 		// q = [],
 		i = 0;
 	while(a.length <= j +1){
-		a[3*i] =1;
-		a[3*i+1] =2*i;
-		a[3*i+2] =1;
-		// if(i===0){
-		// 	c[i] =a[0];
-		// } else if(i===1){
-		// 	c[i] = a[1]*a[2] + 1;
-		// } else{
-		// 	c[i] = a[i]*c[i-1] + c[i-2];
-		// }
+		c
 		i+=1;
 	}
 	console.log(a);
