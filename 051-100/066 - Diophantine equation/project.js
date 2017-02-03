@@ -2,11 +2,14 @@ function dio(d,i){
 	return Math.sqrt(d*i*i +1);
 }
 function diophan (d){
-	var i=1;
-	while(dio(d,i)%1 !==0){
+	var i=1, max = 0;
+	while(i < d){
+		if(dio(d,i) > max){
+			max = dio(d,i);
+		}
 		i+=1;
 	}
-	return dio(d,i);
+	return max;
 }
 function main(n) {
 	'use strict';
