@@ -25,7 +25,7 @@ function main(n) {
 		}
 		i+=1;
 	}
-	console.log('--')
+	console.log('--');
 	return max; //{x:x,d:d};
 }
 
