@@ -1,8 +1,8 @@
 function dio(d,x){
 	return Math.sqrt((x*x - 1)/d);
 }
-function dio2(d,x,y){
-	return x*x - d*y*y;
+function check(d,x){
+	return x*x < d*d*d;
 }
 function diophan (d){
 	var i=2, max = 0;
@@ -18,8 +18,7 @@ function main(n) {
 		res,
 		max = {x:0,d:0,y:0};
 	while(d <=n){
-		if( Math.sqrt(d)%1!==0){
-			if(dio2(d,max.x,))
+		if( Math.sqrt(d)%1!==0 && check(max.x,d)){
 			res = diophan(d);
 			//console.log(res);
 			if(res.x > max.x){
