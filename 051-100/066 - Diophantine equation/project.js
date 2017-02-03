@@ -5,7 +5,6 @@ function diophan (d){
 	var i=1;
 	while(dio(d,i)%1 !==0){
 		i+=1;
-		console.log(dio(d,i),i);
 	}
 	return dio(d,i);
 }
@@ -19,7 +18,6 @@ function main(n) {
 		}
 		i+=1;
 	}
-	console.log(diophan(n) ,n);
 	return ;
 }
 
