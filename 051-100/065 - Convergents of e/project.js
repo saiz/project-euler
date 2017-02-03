@@ -1,4 +1,3 @@
-var BigNumber = require('bignumber.js');
 function a(i){
 	if(i ===1){
 		return 0;
