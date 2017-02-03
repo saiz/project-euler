@@ -6,9 +6,10 @@ function a(i){
 		return 0;
 	} else if(i === 2){
 		return 1;
-	} else if( (i-1)%3 === 0){
-		return( 2(i-1))
+	} else if(i%3 === 0  || ((i-2)%3 === 0)){
+		return 1;
 	}
+	return (i-1)
 }
 function main(j) {
 	'use strict';
