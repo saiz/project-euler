@@ -23,7 +23,7 @@ function main(j) {
 	j = parseInt(j,10) +1;
 	var mem =[],
 	sum = A(j,mem);
-	return sum.c.join('');
+	return sum.c.join('').split('');
 }
 
 
