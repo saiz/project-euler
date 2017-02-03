@@ -27,6 +27,7 @@ function main(j) {
 	i=0;
 	while(i<sum.length){
 		total+=parseInt(sum[i],10);
+		i+=1;
 	}
 	return total;
 }
