@@ -25,11 +25,11 @@ function main(n) {
 	while(d <=n){
 		if( Math.sqrt(d)%1!==0){
 			res = diophan(d);
-			//console.log(res);
-			if(res.x > max.x){
-				max = res;
-				console.log(diophan(d));
-			}
+			console.log(res);
+			// if(res.x > max.x){
+			// 	max = res;
+			// 	console.log(diophan(d));
+			// }
 		}
 		if(d%100 === 0){
 			console.log(d);
