@@ -21,6 +21,9 @@ function main(n) {
 				d = i;
 			}
 		}
+		if(i%100 === 0){
+			console.log(i);
+		}
 		i+=1;
 	}
 	return {x:x,d:d};
