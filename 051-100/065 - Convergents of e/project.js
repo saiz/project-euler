@@ -1,4 +1,15 @@
 var BigNumber = require('bignumber.js');
+function a(i){
+	if(i ===0){
+		return 1;
+	} else if(i ===1){
+		return 0;
+	} else if(i === 2){
+		return 1;
+	} else if( (i-1)%3 === 0){
+		return( 2(i-1))
+	}
+}
 function main(j) {
 	'use strict';
 	j = parseInt(j,10) +1;
