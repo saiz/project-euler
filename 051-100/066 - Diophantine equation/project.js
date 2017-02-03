@@ -4,8 +4,8 @@ function dio(d,i){
 function diophan (d){
 	var i=0;
 	while(dio(d,i)%1 !==0){
-		console.log(dio(d,i),i);
 		i+=1;
+		console.log(dio(d,i),i);
 	}
 	return dio(d,i);
 }
