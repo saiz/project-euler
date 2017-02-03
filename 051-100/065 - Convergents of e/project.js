@@ -25,6 +25,7 @@ function main(j) {
 	sum = A(j,mem).c.join('').split(''),
 	total = 0,
 	i=0;
+	console.log(sum);
 	while(i<sum.length){
 		total+=parseInt(sum[i],10);
 		i+=1;
