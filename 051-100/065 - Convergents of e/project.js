@@ -1,3 +1,4 @@
+var BigNumber = require('bignumber.js');
 function b(i){
 	if(i ===1){
 		return 0;
@@ -8,13 +9,14 @@ function b(i){
 }
 function A(n,arr){
 	if(n===0){
-		return b(0);
+		return new BigNumber(b(0));
 	} else if(n===1){
 		return b(1)*b(0) +1;
 	} else if( arr[n] !== undefined){
-		return arr[n];
+		return new BigNumber(arr[n]);
 	}
-	arr[n] = b(n)*A(n-1,arr) + 1*A(n-2,arr);
+	var b = new BigNumber(b(n));
+	arr[n] = b.times(A(n-1,arr)).plus(A(n-2,arr));
 	return arr[n];
 }
 function main(j) {
