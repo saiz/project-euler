@@ -13,7 +13,7 @@ function main(n) {
 	n =parseInt(n,10);
 	var i =1,
 		res,
-		max = {x:0,d:0,y:0}
+		max = {x:0,d:0,y:0};
 	while(i <=n){
 		if( Math.sqrt(i)%1!==0){
 			res = diophan(i);
