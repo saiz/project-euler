@@ -4,7 +4,7 @@ function dio(d,i){
 function diophan (d){
 	var i=1;
 	while(dio(d,i)%0===1){
-		console.log(dio(d,i))
+		console.log(dio(d,i));
 		i+=1;
 	}
 	return i+1;
