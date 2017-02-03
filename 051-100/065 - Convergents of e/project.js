@@ -9,7 +9,7 @@ function a(i){
 	} else if(i%3 === 0  || ((i-2)%3 === 0)){
 		return 1;
 	}
-	return (i-1)
+	return 2*((i-1)/3);
 }
 function main(j) {
 	'use strict';
