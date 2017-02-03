@@ -11,7 +11,7 @@ function diophan (d){
 function main(n) {
 	'use strict';
 	n =parseInt(n,10);
-	var i =1,
+	var i =2,
 		x = 0,
 		d = 0;
 	while(i <=n){
