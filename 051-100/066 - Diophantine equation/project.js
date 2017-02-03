@@ -23,6 +23,9 @@ function main(n) {
 				console.log(diophan(i));
 			}
 		}
+		if(i%100 === 0){
+			console.log(i);
+		}
 		i+=1;
 	}
 	console.log('--');
