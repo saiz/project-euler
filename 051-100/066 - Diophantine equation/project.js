@@ -3,7 +3,7 @@ function dio(d,i){
 }
 function diophan (d){
 	i=1;
-	while(dio(d,i)%0==1){
+	while(dio(d,i)%0===1){
 		i+=1;
 	}
 	return i+1;
