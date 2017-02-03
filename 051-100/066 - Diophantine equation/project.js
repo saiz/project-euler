@@ -22,7 +22,7 @@ function main(n) {
 				console.log({
 					x:x,
 					d:d
-				})
+				});
 			}
 		}
 		if(i%100 === 0){
