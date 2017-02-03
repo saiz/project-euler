@@ -17,7 +17,7 @@ function main(n) {
 	n =parseInt(n,10);
 	var d =1,
 		res,
-		max = {x:0,d:0,y:0};
+		max = {x:0,d:1,y:0};
 	while(d <=n){
 		if( Math.sqrt(d)%1!==0 && check(max.x,d)){
 			res = diophan(d);
