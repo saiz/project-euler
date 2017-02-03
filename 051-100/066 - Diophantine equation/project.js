@@ -12,13 +12,14 @@ function main(n) {
 	'use strict';
 	n =parseInt(n,10);
 	var i =1,
-		max = 0;
+		x = 0,
+		d = 0;
 	while(i <=n){
 		if(Math.sqrt(i)%1 !==0){
-			if(max < diophan(i)){
-				max = diophan(i)
+			if(x < diophan(i)){
+				x = diophan(i);
+				d = i;
 			}
-			console.log(i, diophan(i));
 		}
 		i+=1;
 	}
