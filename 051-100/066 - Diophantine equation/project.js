@@ -2,7 +2,7 @@ function dio(d,i){
 	return Math.sqrt(d*i*i +1);
 }
 function diophan (d){
-	i=1;
+	var i=1;
 	while(dio(d,i)%0===1){
 		i+=1;
 	}
