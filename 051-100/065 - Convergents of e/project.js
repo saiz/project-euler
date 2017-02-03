@@ -11,11 +11,11 @@ function A(n,arr){
 		return b(0);
 	} else if(n===1){
 		return b(1)*b(0) +1;
-	} else if(arr[n] === undefined){
+	} else if(arr[n] !== undefined){
 		arr[n] = b(n)*A(n-1) + 1*A(n-2);
 		return arr[n];
 	}
-	return arr[i];
+	return arr[n];
 }
 function main(j) {
 	'use strict';
