@@ -1,7 +1,7 @@
 function b(i){
 	if(i ===1){
 		return 0;
-	} else if((i-1)%3 !== 0){
+	} else if( i (i-1)%3 !== 0){
 		return 1;
 	}
 	return 2*((i-1)/3);
