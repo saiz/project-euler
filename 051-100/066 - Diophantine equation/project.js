@@ -31,9 +31,9 @@ function main(n) {
 			// 	console.log(diophan(d));
 			// }
 		}
-		if(d%100 === 0){
-			console.log(d);
-		}
+		// if(d%100 === 0){
+		// 	console.log(d);
+		// }
 		d+=1;
 	}
 	console.log('--');
