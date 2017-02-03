@@ -11,22 +11,22 @@ function diophan (d){
 function main(n) {
 	'use strict';
 	n =parseInt(n,10);
-	var i =1,
+	var d =1,
 		res,
 		max = {x:0,d:0,y:0};
-	while(i <=n){
-		if( Math.sqrt(i)%1!==0){
-			res = diophan(i);
+	while(d <=n){
+		if( Math.sqrt(d)%1!==0){
+			res = diophan(d);
 			//console.log(res);
 			if(res.x > max.x){
 				max = res;
-				console.log(diophan(i));
+				console.log(diophan(d));
 			}
 		}
-		if(i%100 === 0){
-			console.log(i);
+		if(d%100 === 0){
+			console.log(d);
 		}
-		i+=1;
+		d+=1;
 	}
 	console.log('--');
 	return max; //{x:x,d:d};
