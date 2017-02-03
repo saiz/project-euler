@@ -1,5 +1,5 @@
 function dio(d,i){
-	return Math.sqrt(i*i -1)/d;
+	return Math.sqrt((i*i -1)/d);
 }
 function diophan (d){
 	var i=1, max = 0;
