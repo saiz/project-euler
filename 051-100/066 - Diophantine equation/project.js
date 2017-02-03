@@ -3,7 +3,7 @@ function dio(d,i){
 }
 function diophan (d){
 	var i=1;
-	while(dio(d,i)%0===1){
+	while(dio(d,i)%01==1){
 		console.log(dio(d,i));
 		i+=1;
 	}
