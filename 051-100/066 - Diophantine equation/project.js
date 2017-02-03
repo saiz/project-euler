@@ -2,6 +2,7 @@ function dio(d,x){
 	return Math.sqrt((x*x - 1)/d);
 }
 function check(d,x,y){
+	console.log(d*y*y, x*x -1)
 	return d*y*y <= x*x -1;
 }
 function diophan (d){
