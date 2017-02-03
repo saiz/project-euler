@@ -1,35 +1,25 @@
-function dio(d,x){
-	return Math.sqrt((x*x - 1)/d);
+function calc_x(d,y) {
+	return Math.sqrt(1+d*y*y);
+}
+function calc_y(d,x) {
+	return Math.sqrt(1+d*y*y);
 }
 function check(d,x,y){
 	return d*y*y < x*x;
 }
-function diophan (d){
-	var i=2, max = 0, y =dio(d,i);
-	while(check(d,i,y) && y%1!==0){
-		y=dio(d,i);
-		i+=1;
-	}
-	return {x:i,d:d,y:dio(d,i)};
-}
+
 function main(n) {
 	'use strict';
 	n =parseInt(n,10);
 	var d =1,
+		i,
 		res,
 		max = {x:0,d:0,y:0};
 	while(d <=n){
 		if( Math.sqrt(d)%1!==0){
-			res = diophan(d);
-			console.log(res);
-			// if(res.x > max.x){
-			// 	max = res;
-			// 	console.log(diophan(d));
-			// }
+			while(calc_x(d,i)%)
+			x = calc_x(d,)
 		}
-		// if(d%100 === 0){
-		// 	console.log(d);
-		// }
 		d+=1;
 	}
 	console.log('--');
