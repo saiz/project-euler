@@ -7,7 +7,7 @@ function b(i){
 	return 2*((i-1)/3);
 }
 function A(n,arr){
-	var array = arr.slice(0);
+	var array = arr;
 	if(n===0){
 		return b(0);
 	} else if(n===1){
