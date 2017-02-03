@@ -11,7 +11,7 @@ function A(n,arr){
 	if(n===0){
 		return new BigNumber(b(0));
 	} else if(n===1){
-		return b(1)*b(0) +1;
+		return new BigNumber(b(1)*b(0) +1);
 	} else if( arr[n] !== undefined){
 		return new BigNumber(arr[n]);
 	}
