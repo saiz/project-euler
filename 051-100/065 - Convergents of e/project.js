@@ -22,8 +22,9 @@ function A(n,arr){
 function main(j) {
 	'use strict';
 	j = parseInt(j,10) +1;
-	var
-	console.log(A(j,[]));
+	var mem =[];
+	console.log(A(j,mem));
+	console.log(mem);
 	return;
 }
 
