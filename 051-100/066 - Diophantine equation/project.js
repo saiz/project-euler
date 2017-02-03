@@ -15,7 +15,7 @@ function main(n) {
 		x = 0,
 		d = 0;
 	while(i <=n){
-		if(x > diophan(i).x){
+		if(x < diophan(i).x ){
 			x = diophan(i);
 			d = i;
 			console.log({
