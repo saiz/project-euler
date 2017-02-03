@@ -10,7 +10,7 @@ function diophan (d){
 		i+=1;
 	}
 	if(!check(d,i)){
-		retur
+		return {x:0,d:0,y:0};
 	}
 	return {x:i,d:d,y:dio(d,i)};
 }
