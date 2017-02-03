@@ -7,26 +7,21 @@ function b(i){
 	return 2*((i-1)/3);
 }
 function A(n,arr){
-	console.log(arr,arr.length,n);
-	if( arr.length > n ){
+	if(n===0){
+		return b(0);
+	} else if(n===1){
+		return b(1)*b(0) +1;
+	} else if( arr[n] !== undefined){
 		return arr[n];
 	}
-	if(n === 0){
-		arr[n] = b(0);
-	} else if(n === 1){
-		arr[n] = b(1)*b(0) +1;
-	} else {
-		arr[n] = b(n)*A(n-1,arr) + 1*A(n-2,arr);
-	}
-	console.log(arr[n])
+	arr[n] = b(n)*A(n-1,arr) + 1*A(n-2,arr);
 	return arr[n];
 }
 function main(j) {
 	'use strict';
 	j = parseInt(j,10) +1;
-	var mem =[];
-	console.log(A(j,mem));
-	console.log(mem);
+	va
+	console.log(A(j,[]));
 	return;
 }
 
