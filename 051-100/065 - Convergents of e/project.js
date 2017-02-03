@@ -11,7 +11,7 @@ function A(n,arr){
 		return b(0);
 	} else if(n===1){
 		return b(1)*b(0) +1;
-	} else if(arr[i] ===undefined){
+	} else if(arr[i] === undefined){
 		arr[i] =
 	}
 	return b(n)*A(n-1) + 1*A(n-2);
