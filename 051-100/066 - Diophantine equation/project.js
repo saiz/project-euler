@@ -63,8 +63,7 @@ function Q_n(n,d,a,P,Q){
 		return Q[n];
 	}
 	//Q[n] = (d - Math.pow(P[n],2))/Q[n-1];
-
-	Q[n] = new BigNumber(d.minus(P[n].pow(2)).dividedBy(Q[n-1]);
+	Q[n] = new BigNumber(d.minus(P[n].pow(2)).dividedBy(Q[n-1]));
 	return Q[n];
 }
 function P_n(n,d,a,P,Q){
