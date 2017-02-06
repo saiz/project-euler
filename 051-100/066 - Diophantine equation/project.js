@@ -8,7 +8,8 @@ function a_n(n,d,a,P,Q){
 		a[n] =  new BigNumber(d).sqrt().floor();
 		return a[n];
 	}
-	a[n] = Math.floor((a[0]+P[n])/Q[n]);
+	//a[n] = Math.floor((a[0]+P[n])/Q[n]);
+	a[n] =
 	return a[n];
 }
 function p_n(n,a,p){
