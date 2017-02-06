@@ -43,8 +43,8 @@ function q_n(n,a,q){
 		return q[n];
 	}
 	//q[n] = a[n]*q[n-1] +q[n-2];
-	q[n] = new BigNumber(a[n];
-	return q[n].times(q[n-1]).plus(q[n-2]);
+	q[n] = new BigNumber(a[n].times(q[n-1]).plus(q[n-2]));
+	return q[n];
 }
 function Q_n(n,d,a,P,Q){
 	var temp, temp2;
