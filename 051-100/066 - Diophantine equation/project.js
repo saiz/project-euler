@@ -1,19 +1,3 @@
-function calc_x(d,y) {
-	return Math.sqrt(1+d*y*y);
-}
-function calc_y(d,x) {
-	return Math.sqrt((x*x-1)/d);
-}
-function diophantine(d){
-	var x = 2;
-	while(calc_y(d,x)%1!==0){
-		x+=1;
-	}
-	return {x:x,d:d,y:calc_y(d,x)};
-}
-function check(d,x,y){
-	return (d*y*y)%(x*x) === 1;
-}
 
 function main(n) {
 	'use strict';
@@ -24,7 +8,6 @@ function main(n) {
 		max = {x:0,d:0,y:0};
 	while(d <=n){
 		if( Math.sqrt(d)%1!==0){
-			res = diophantine(d);
 			console.log(res);
 		}
 		d+=1;
