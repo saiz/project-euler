@@ -86,7 +86,7 @@ function main(m) {
 		Q = [],
 		d = 2,
 		x, y, n,
-		max = Math.pow(2,52);
+		max = 0;
 	while(d <=m){
 			n = 0;
 			P_n(n,d,a,P,Q);
