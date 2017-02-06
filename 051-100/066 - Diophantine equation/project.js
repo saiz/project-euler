@@ -63,7 +63,7 @@ function Q_n(n,d,a,P,Q){
 		return Q[n];
 	}
 	//Q[n] = (d - Math.pow(P[n],2))/Q[n-1];
-
+	Q[n] = ()
 	return Q[n];
 }
 function P_n(n,d,a,P,Q){
