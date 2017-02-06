@@ -7,7 +7,6 @@ function a_n(n,d,a,p,q){
 		a[n] = Math.floor(Math.sqrt(d));
 		return a[n];
 	}
-
 	return a[n];
 }
 function p_n(n,d,a,p,q){
