@@ -1,4 +1,4 @@
-function a_n(n,d,a,P,Q){
+function a_n(n,d,a,p,q,P,Q){
 	if(a[n] !== undefined){
 		return a[n];
 	}
@@ -9,7 +9,7 @@ function a_n(n,d,a,P,Q){
 	a[n] = Math.floor((a_n(0,d,a,P,Q)+P_n(n,d,a,P,Q))/Q_n(n,d,a,P,Q));
 	return a[n];
 }
-function p_n(n,d,a,p,P,Q){
+function p_n(n,d,a,p,q,P,Q){
 	if(p[n] !== undefined){
 		return p[n];
 	}
@@ -24,7 +24,7 @@ function p_n(n,d,a,p,P,Q){
 	p[n] = a_n(n,d,a,P,Q)*p_n(n-1,d,a,p,P,Q) +p_n(n-2,d,a,p,P,Q);
 	return p[n];
 }
-function q_n(n,d,a,q,P,Q){
+function q_n(n,d,a,p,q,P,Q){
 	if(q[n] !== undefined){
 		return q[n];
 	}
@@ -39,7 +39,7 @@ function q_n(n,d,a,q,P,Q){
 	q[n] = a_n(n,d,a,P,Q)*q_n(n-1,d,a,q,P,Q) +q_n(n-2,d,a,q,P,Q);
 	return q[n];
 }
-function Q_n(n,d,a,P,Q){
+function Q_n(n,d,a,p,q,P,Q){
 	if(Q[n] !== undefined){
 		return Q[n];
 	}
@@ -55,7 +55,7 @@ function Q_n(n,d,a,P,Q){
 	return Q[n];
 }
 
-function P_n(n,d,a,P,Q){
+function P_n(n,d,a,p,q,P,Q){
 	if(P[n] !== undefined){
 		return P[n];
 	}
@@ -82,11 +82,11 @@ function main(m) {
 		Q = [],
 		d =5;
 	while(true){
-		a_n(n,d,a,P,Q);
-		p_n(n,d,a,p,P,Q);
-		q_n(n,d,a,q,P,Q);
-		Q_n(n,d,a,P,Q);
-		P_n(n,d,a,P,Q);
+		a_n(n,d,a,p,q,P,Q);
+		p_n(n,d,a,p,q,P,Q);
+		q_n(n,d,a,p,q,P,Q);
+		Q_n(n,d,a,p,q,P,Q);
+		P_n(n,d,a,p,q,P,Q);
 		console.log(a);
 		console.log('--');
 		n+=1;
