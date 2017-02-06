@@ -1,3 +1,4 @@
+var BigNumber = require('bignumber.js');
 function a_n(n,d,a,P,Q){
 	if(a[n] !== undefined){
 		return a[n];
