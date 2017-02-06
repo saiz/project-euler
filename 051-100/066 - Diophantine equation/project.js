@@ -14,14 +14,14 @@ function p_n(n,d,a,p,q){
 		return p[n];
 	}
 	if(n === 0 ){
-		p[n] = a_n(0,d,a,p,q);
+		p[n] = a[0];
 		return p[n];
 	}
 	if(n === 1){
-		p[n] = a_n(0,d,a,p,q)*a_n(1,d,a,p,q) +1;
+		p[n] = a[0]*a[1] +1;
 		return p[n];
 	}
-	p[n] = a_n(n,d,a,p,q)*p_n(n-1,d,a,p,q) +p_n(n-2,d,a,p,q);
+	p[n] = a[n]*p[n-1] +p[n-2];
 	return p[n];
 }
 function q_n(n,d,a,p,q){
@@ -33,10 +33,10 @@ function q_n(n,d,a,p,q){
 		return q[n];
 	}
 	if(n === 1){
-		q[n] = a_n(1,d,a,p,q);
+		q[n] = a[1];
 		return q[n];
 	}
-	q[n] = a_n(n,d,a,p,q)*q_n(n-1,d,a,p,q) +q_n(n-2,d,a,p,q);
+	q[n] = a[n]*q[n-1] +q[n-2];
 	return q[n];
 }
 function a_n2(n,d,a,P,Q){
