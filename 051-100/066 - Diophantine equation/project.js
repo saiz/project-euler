@@ -92,6 +92,7 @@ function main(m) {
 		};
 	while(d <= m){
 		console.log('d:',d);
+if(d)
 			n = 0;
 			P_n(n,d,a,P,Q);
 			Q_n(n,d,a,P,Q);
