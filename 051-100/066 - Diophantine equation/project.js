@@ -5,7 +5,7 @@ function a_n(n,d,a,P,Q){
 	}
 	if(n === 0){
 		//a[n] = Math.floor(Math.sqrt(d));
-		a[n] =  new BigNumber(d).sqrt().floor();
+		a[n] =  d.sqrt().floor();
 		return a[n];
 	}
 	//a[n] = Math.floor((a[0]+P[n])/Q[n]);
@@ -59,12 +59,12 @@ function Q_n(n,d,a,P,Q){
 	if(n === 1){
 		//Q[n] = d - Math.pow(a[0],2);
 		temp = a[0].pow(2);
-		Q[n] = new BigNumber(d).minus(temp);
+		Q[n] = d.minus(temp);
 		return Q[n];
 	}
 	//Q[n] = (d - Math.pow(P[n],2))/Q[n-1];
 	temp = P[n].pow(2);
-	temp2 = new BigNumber(d).minus(temp);
+	temp2 = d.minus(temp);
 	Q[n] = temp2.dividedBy(temp2);
 	return Q[n];
 }
@@ -88,7 +88,7 @@ function P_n(n,d,a,P,Q){
 function diophantine (x,y,d){
 	var a,b;
 	a = x.pow(2);
-	b = new BigNumber(d).times(y).times(y);
+	b = d.times(y).times(y);
 	//if(x*x - d*y*y === 1){
 	if(new BigNumber(1).comparedTo(a.minus(b)) == 1){
 		return true;
@@ -100,7 +100,7 @@ function main(m) {
 	m =parseInt(m,10);
 	var a, p, q, P, Q,
 		x, y, n,
-		d = 2,
+		d = 2, _d,
 		max = {
 			x:0,
 			d:0
@@ -113,16 +113,17 @@ function main(m) {
 				q = [];
 				P = [];
 				Q = [];
-				P_n(n,d,a,P,Q);
-				Q_n(n,d,a,P,Q);
-				a_n(n,d,a,P,Q);
+				_d = new BigNumber(d);
+				P_n(n,_d,a,P,Q);
+				Q_n(n,_d,a,P,Q);
+				a_n(n,_d,a,P,Q);
 				x = p_n(n,a,p);
 				y = q_n(n,a,q);
-			while(!diophantine(x,y,d)){
+			while(!diophantine(x,y,_d)){
 				//console.log('n:',n);
-				P_n(n,d,a,P,Q);
-				Q_n(n,d,a,P,Q);
-				a_n(n,d,a,P,Q);
+				P_n(n,_d,a,P,Q);
+				Q_n(n,_d,a,P,Q);
+				a_n(n,_d,a,P,Q);
 				x = p_n(n,a,p);
 				y = q_n(n,a,q);
 				n+=1;
