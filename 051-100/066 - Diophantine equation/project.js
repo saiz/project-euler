@@ -88,7 +88,7 @@ function main(m) {
 			p_n(n,a,p);
 			q_n(n,a,q);
 
-			console.log(p);
+			console.log(p[n],q[n]);
 			console.log('--');
 			n+=1;
 		}
