@@ -57,7 +57,7 @@ function Q_n(n,d,a,P,Q){
 	}
 	if(n === 1){
 		//Q[n] = d - Math.pow(a[0],2);
-		Q[n] =new BigNumber(d)
+		Q[n] = new BigNumber(d).minus
 		return Q[n];
 	}
 	Q[n] = (d - Math.pow(P[n],2))/Q[n-1];
