@@ -21,7 +21,7 @@ function p_n(n,d,a,p,P,Q){
 		p[n] = a_n(n-1,d,a,P,Q)*a_n(n,d,a,P,Q) +1;
 		return p[n];
 	}
-	p[n] = a_n(n,d,a,P,Q)*p_n(n-1,d,a,p,P,Q) +p_n(n-2,d,a,p);
+	p[n] = a_n(n,d,a,P,Q)*p_n(n-1,d,a,p,P,Q) +p_n(n-2,d,a,p,P,Q);
 	return p[n];
 }
 function q_n(n,d,a,q){
