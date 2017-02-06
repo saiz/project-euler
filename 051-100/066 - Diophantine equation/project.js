@@ -78,6 +78,8 @@ function main(m) {
 		a = [],
 		p = [],
 		q = [],
+		P = [],
+		Q = [],
 		d =5;
 		while(true){
 			P_n(n,d,a,P,Q);
