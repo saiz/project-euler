@@ -91,7 +91,7 @@ function diophantine (x,y,d){
 	b = y.toPower(2);
 	c = new BigNumber(d).times(b);
 	//if(x*x - d*y*y === 1){
-		if()
+		if(a.mi)
 		return true;
 	}
 	return false;
