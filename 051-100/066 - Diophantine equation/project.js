@@ -87,7 +87,8 @@ function P_n(n,d,a,P,Q){
 }
 function diophantine (x,y,d){
 	var a,b;
-a =
+a =x.toPower(2);
+b =
 	if(x.toPower(2).minus() - d*y*y === 1){
 		return true;
 	}
