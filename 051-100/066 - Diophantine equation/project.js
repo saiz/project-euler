@@ -82,7 +82,7 @@ function P_n(n,d,a,P,Q){
 		return P[n];
 	}
 	//P[n] = a[n-1]*Q[n-1] - P[n-1];
-
+	P[n]
 	return P[n];
 }
 function diophantine (x,y,d){
