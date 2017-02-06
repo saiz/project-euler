@@ -98,7 +98,8 @@ function main(m) {
 			a_n(n,d,a,P,Q);
 			x = p_n(n,a,p);
 			y = q_n(n,a,q);
-		while(!diophantine(x,y,d)){
+		while(!diophantine(x,y,d) ){
+			console.log('n:',n);
 			P_n(n,d,a,P,Q);
 			Q_n(n,d,a,P,Q);
 			a_n(n,d,a,P,Q);
