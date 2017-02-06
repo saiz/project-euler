@@ -47,6 +47,7 @@ function q_n(n,a,q){
 	return q[n];
 }
 function Q_n(n,d,a,P,Q){
+	var temp;
 	if(Q[n] !== undefined){
 		return Q[n];
 	}
@@ -57,6 +58,7 @@ function Q_n(n,d,a,P,Q){
 	}
 	if(n === 1){
 		//Q[n] = d - Math.pow(a[0],2);
+		temp
 		Q[n] = new BigNumber(d).minus
 		return Q[n];
 	}
