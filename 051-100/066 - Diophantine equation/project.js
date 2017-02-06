@@ -87,6 +87,7 @@ function main(m) {
 		q_n(n,d,a,q);
 		Q_n(n,d,a,P,Q);
 		P_n(n,d,a,P,Q);
+
 		n+=1;
 	}
 	console.log('--');
