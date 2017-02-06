@@ -128,7 +128,7 @@ function main(m) {
 				n+=1;
 			}
 			console.log(p)
-console.log(p)
+console.log(q)
 			console.log(x.toString(),y.toString());
 			// if(max.x < x){
 			// 	max.x = x;
