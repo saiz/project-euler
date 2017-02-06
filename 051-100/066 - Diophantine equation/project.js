@@ -83,6 +83,7 @@ function main(m) {
 		Q = [],
 		d =5;
 	a_n(0,d,a,p,q,P,Q);
+	console.log(P);
 	console.log('--');
 	return; //{x:x,d:d};
 }
