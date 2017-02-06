@@ -1,4 +1,4 @@
-function a_n(n,d,a,p,q){
+function a_n(n,d,a){
 	// console.log(a);
 	if(a[n] !== undefined){
 		return a[n];
