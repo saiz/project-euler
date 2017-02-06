@@ -39,6 +39,30 @@ function q_n(n,d,a,p,q){
 	q[n] = a_n(n,d,a,p,q)*q_n(n-1,d,a,p,q) +q_n(n-2,d,a,p,q);
 	return q[n];
 }
+function a_n2(n,d,a,P,Q){
+	// console.log(a);
+	if(a[n] !== undefined){
+		return a[n];
+	}
+	if(n === 0){
+		a[n] = Math.floor(Math.sqrt(d));
+		return a[n];
+	}
+	return a[n];
+}
+function Q_n(n,d,a,P,Q){
+	if(Q[n] !== undefined){
+		return Q[n];
+	}
+	if(n === 0){
+		Q[n] = 1;
+		return Q[n];
+	}
+	if(n === 1){
+		Q[n] = d - a_n2()
+		return Q[n];
+	}
+}
 
 function main(m) {
 	'use strict';
