@@ -6,7 +6,7 @@ function a_n(n,d,a){
 		a[n] = Math.floor(Math.sqrt(d));
 		return a[n];
 	}
-	a[n] = 2*a_n(0);
+	a[n] = 2*a_n(0,d,a);
 	return a[n];
 }
 function p_n(n,d,a,p){
