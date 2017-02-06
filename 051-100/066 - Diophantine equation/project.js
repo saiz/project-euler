@@ -93,6 +93,11 @@ function main(m) {
 	while(d <= m){
 		if(Math.sqrt(d)%1!==0){
 				n = 0;
+				a = [];
+				p = [];
+				q = [];
+				P = [];
+				Q = [];
 				P_n(n,d,a,P,Q);
 				Q_n(n,d,a,P,Q);
 				a_n(n,d,a,P,Q);
