@@ -14,11 +14,11 @@ function p_n(n,d,a,p,P,Q){
 		return p[n];
 	}
 	if(n === 0 ){
-		p[n] = a_n(n,d,a);
+		p[n] = a_n(n,d,a,P,Q);
 		return p[n];
 	}
 	if(n === 1){
-		p[n] = a_n(n-1,d,a)*a_n(n,d,a) +1;
+		p[n] = a_n(n-1,d,a,P,Q)*a_n(n,d,a,P,Q) +1;
 		return p[n];
 	}
 	p[n] = a_n(n,d,a)*p_n(n-1,d,a,p) +p_n(n-2,d,a,p);
