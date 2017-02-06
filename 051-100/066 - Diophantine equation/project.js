@@ -51,7 +51,7 @@ function Q_n(n,d,a,P,Q){
 		return Q[n];
 	}
 	if(n === 0){
-		Q[n] = 1;
+		//Q[n] = 1;
 		return Q[n];
 	}
 	if(n === 1){
