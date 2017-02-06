@@ -48,9 +48,11 @@ function Q_n(n,d,a,P,Q){
 		return Q[n];
 	}
 	if(n === 1){
-		Q[n] = d - a_n(n,d,a)
+		Q[n] = d - Math.pow(a_n(n-1,d,a),2);
 		return Q[n];
 	}
+	Q[n] = (d - Math.pow(P_n(n,d,a,P,Q),2))/Q_n(n-1,d,a,P,Q);
+	return Q[n];
 }
 
 function P_n(n,d,a,P,Q){
