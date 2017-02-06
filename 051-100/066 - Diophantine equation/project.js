@@ -47,7 +47,7 @@ function q_n(n,a,q){
 	return q[n];
 }
 function Q_n(n,d,a,P,Q){
-	var temp;
+	var temp, tme
 	if(Q[n] !== undefined){
 		return Q[n];
 	}
@@ -63,7 +63,7 @@ function Q_n(n,d,a,P,Q){
 		return Q[n];
 	}
 	//Q[n] = (d - Math.pow(P[n],2))/Q[n-1];
-	t
+	temp =
 	Q[n] = ()
 	return Q[n];
 }
