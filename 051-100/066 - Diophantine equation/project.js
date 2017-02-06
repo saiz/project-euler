@@ -104,7 +104,7 @@ function main(m) {
 			n+=1;
 		}
 		if(maxX < x){
-			max
+			maxX = x;
 		}
 
 		d+=1;
