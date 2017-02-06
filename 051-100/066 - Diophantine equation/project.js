@@ -103,7 +103,7 @@ function main(m) {
 			y = q_n(n,a,q);
 			n+=1;
 		}
-
+if()
 
 		d+=1;
 	}
