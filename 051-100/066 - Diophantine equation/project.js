@@ -63,7 +63,8 @@ function Q_n(n,d,a,P,Q){
 		return Q[n];
 	}
 	//Q[n] = (d - Math.pow(P[n],2))/Q[n-1];
-	temp =
+	temp = P[n].toPower(2);
+	temp2 =
 	Q[n] = ()
 	return Q[n];
 }
