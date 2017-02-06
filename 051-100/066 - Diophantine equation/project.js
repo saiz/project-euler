@@ -103,7 +103,9 @@ function main(m) {
 			y = q_n(n,a,q);
 			n+=1;
 		}
-		if(maxX)
+		if(maxX < x){
+			max
+		}
 
 		d+=1;
 	}
