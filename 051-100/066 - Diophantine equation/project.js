@@ -89,7 +89,7 @@ function main(m) {
 		max = {
 			x:0,
 			d:0
-		}
+		};
 	while(d <=m){
 			n = 0;
 			P_n(n,d,a,P,Q);
@@ -107,7 +107,8 @@ function main(m) {
 		}
 		if(max.x < x){
 			max.x = x;
-			ma = d;
+			max.d = d;
+			console.log(max);
 		}
 
 		d+=1;
