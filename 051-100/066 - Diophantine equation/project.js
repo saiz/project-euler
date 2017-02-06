@@ -105,6 +105,7 @@ function main(m) {
 		}
 		if(maxX < x){
 			maxX = x;
+			maxD = d;
 		}
 
 		d+=1;
