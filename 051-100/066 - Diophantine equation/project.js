@@ -1,5 +1,5 @@
 function a_n(n,d,a,p,q,P,Q){
-	console.log(a);
+	// console.log(a);
 	if(a[n] !== undefined){
 		return a[n];
 	}
