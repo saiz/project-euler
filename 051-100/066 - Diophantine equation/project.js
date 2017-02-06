@@ -9,7 +9,7 @@ function a_n(n,d,a,p,q){
 	}
 	return a[n];
 }
-function p_n(n,a,p,q){
+function p_n(n,a,p){
 	if(p[n] !== undefined){
 		return p[n];
 	}
