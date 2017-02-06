@@ -5,8 +5,7 @@ function a_n(n,d,a,P,Q){
 	}
 	if(n === 0){
 		//a[n] = Math.floor(Math.sqrt(d));
-		a[n] =  d;
-		a[n] = new BigNumber(d.sqrt().floor()
+		a[n] = new BigNumber(d.sqrt().floor());
 		return a[n].sqrt().floor();
 	}
 	//a[n] = Math.floor((a[0]+P[n])/Q[n]);
