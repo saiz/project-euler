@@ -84,7 +84,7 @@ function main(m) {
 		d =5;
 	a_n(0,d,a,p,q,P,Q);
 	console.log('--');
-	return max; //{x:x,d:d};
+	return; //{x:x,d:d};
 }
 
 console.log(main(process.argv[2]));
