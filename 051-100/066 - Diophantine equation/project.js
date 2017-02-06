@@ -47,7 +47,7 @@ function q_n(n,a,q){
 	return q[n];
 }
 function Q_n(n,d,a,P,Q){
-	var temp, tme
+	var temp, temp2;
 	if(Q[n] !== undefined){
 		return Q[n];
 	}
