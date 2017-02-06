@@ -70,7 +70,12 @@ function P_n(n,d,a,P,Q){
 	P[n] = a[n-1]*Q[n-1] - P[n-1];
 	return P[n];
 }
-
+function diophantine (x,y,d){
+	if(Math.pow(x,2) - d*Math.pow(y,2) !== 1){
+		return false;
+	}
+	return true;
+}
 function main(m) {
 	'use strict';
 	m =parseInt(m,10);
