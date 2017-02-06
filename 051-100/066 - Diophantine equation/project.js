@@ -52,7 +52,7 @@ function Q_n(n,d,a,P,Q){
 	}
 	if(n === 0){
 		//Q[n] = 1;
-Q[n]
+		Q[n]
 		return Q[n];
 	}
 	if(n === 1){
