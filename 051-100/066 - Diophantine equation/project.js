@@ -41,6 +41,8 @@ function q_n(n,d,a,q){
 }
 function P_n(n,d,a,P){
 
+}
+
 function main(n) {
 	'use strict';
 	n =parseInt(n,10);
