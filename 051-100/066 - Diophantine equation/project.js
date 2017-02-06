@@ -73,7 +73,8 @@ function P_n(n,d,a,P,Q){
 		return P[n];
 	}
 	if(n === 0){
-		P[n] = 0;
+		//P[n] = 0;
+		P[n] = new
 		return P[n];
 	}
 	if(n === 1){
