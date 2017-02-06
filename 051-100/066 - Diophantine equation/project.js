@@ -86,8 +86,10 @@ function main(m) {
 		Q = [],
 		d = 2,
 		x, y, n,
-		maxX = 0,
-		maxD = 0;
+		max = {
+			x:0,
+			d:0
+		}
 	while(d <=m){
 			n = 0;
 			P_n(n,d,a,P,Q);
