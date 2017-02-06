@@ -24,7 +24,7 @@ function p_n(n,a,p){
 	p[n] = a[n]*p[n-1] +p[n-2];
 	return p[n];
 }
-function q_n(n,d,a,p,q){
+function q_n(n,a,q){
 	if(q[n] !== undefined){
 		return q[n];
 	}
@@ -38,17 +38,6 @@ function q_n(n,d,a,p,q){
 	}
 	q[n] = a[n]*q[n-1] +q[n-2];
 	return q[n];
-}
-function a_n2(n,d,a,P,Q){
-	// console.log(a);
-	if(a[n] !== undefined){
-		return a[n];
-	}
-	if(n === 0){
-		a[n] = Math.floor(Math.sqrt(d));
-		return a[n];
-	}
-	return a[n];
 }
 function Q_n(n,d,a,P,Q){
 	if(Q[n] !== undefined){
