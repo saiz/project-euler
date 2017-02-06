@@ -17,7 +17,7 @@ function p_n(n,a,p){
 		return p[n];
 	}
 	if(n === 0 ){
-		p[n] = a[0];
+		p[n] = new BigNumber(a[0]);
 		return p[n];
 	}
 	if(n === 1){
