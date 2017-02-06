@@ -27,7 +27,7 @@ function p_n(n,a,p){
 	}
 	//p[n] = a[n]*p[n-1] +p[n-2];
 	p[n] = new BigNumber(a[n].times(p[n-1]).plus(p[n-2]));
-	return p[n].times(p[n-1]).plus(p[n-2]);
+	return p[n];
 }
 function q_n(n,a,q){
 	if(q[n] !== undefined){
