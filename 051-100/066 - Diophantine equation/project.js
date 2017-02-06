@@ -79,12 +79,8 @@ function diophantine (x,y,d){
 function main(m) {
 	'use strict';
 	m =parseInt(m,10);
-	var a = [],
-		p = [],
-		q = [],
-		P = [],
-		Q = [],
-		d = 2,
+	var a, p, q, P, Q,
+
 		x, y, n,
 		max = {
 			x:0,
