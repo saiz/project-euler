@@ -112,7 +112,7 @@ function main(m) {
 		}
 		d+=1;
 	}
-	return; //{x:x,d:d};
+	return;
 }
 
 console.log(main(process.argv[2]));
