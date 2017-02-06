@@ -129,11 +129,11 @@ function main(m) {
 				y = q_n(n,a,q);
 				n+=1;
 			}
-			if(max.x < x){
-				max.x = x;
-				max.d = d;
-				console.log(max);
-			}
+			// if(max.x < x){
+			// 	max.x = x;
+			// 	max.d = d;
+			// 	console.log(max);
+			// }
 		}
 		d+=1;
 	}
