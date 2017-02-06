@@ -82,7 +82,7 @@ function main(m) {
 		Q = [],
 		d =5;
 	while(true){
-		a_n(i,d,a);
+		a_n(n,d,a);
 		p_n(n,d,a,p);
 		q_n(n,d,a,q);
 		Q_n(n,d,a,P,Q);
