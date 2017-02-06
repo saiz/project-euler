@@ -120,7 +120,6 @@ function main(m) {
 				x = p_n(n,a,p);
 				y = q_n(n,a,q);
 			while(!diophantine(x,y,d)){
-				console.log(x);
 				//console.log('n:',n);
 				P_n(n,d,a,P,Q);
 				Q_n(n,d,a,P,Q);
