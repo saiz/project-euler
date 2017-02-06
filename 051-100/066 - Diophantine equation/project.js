@@ -9,8 +9,8 @@ function a_n(n,d,a,P,Q){
 		return a[n].sqrt().floor();
 	}
 	//a[n] = Math.floor((a[0]+P[n])/Q[n]);
-	a[n] = a[0];
-	return a[n].plus(P[n]).dividedBy(Q[n]).floor();
+	a[n] = new BigNumber(a[0].plus(P[n]).dividedBy(Q[n]).floor());
+	return a[n];
 }
 function p_n(n,a,p){
 	if(p[n] !== undefined){
