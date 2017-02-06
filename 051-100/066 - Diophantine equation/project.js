@@ -68,10 +68,10 @@ function main(m) {
 			a_n(n,d,a,p,q);
 			p_n(n,d,a,p,q);
 			q_n(n,d,a,p,q);
+			console.log(P);
+			console.log('--');
 			n+=1;
 		}
-
-
 	return; //{x:x,d:d};
 }
 
