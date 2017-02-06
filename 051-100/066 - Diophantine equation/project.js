@@ -1,4 +1,4 @@
-function a_n(n,d,a){
+function a_n(n,d,a,P,Q){
 	// console.log(a);
 	if(a[n] !== undefined){
 		return a[n];
@@ -7,6 +7,7 @@ function a_n(n,d,a){
 		a[n] = Math.floor(Math.sqrt(d));
 		return a[n];
 	}
+	a[n] = Math.floor((a[0]+P[n])/Q[n]);
 	return a[n];
 }
 function p_n(n,a,p){
