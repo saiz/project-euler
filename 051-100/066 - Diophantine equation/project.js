@@ -110,7 +110,6 @@ function main(m) {
 			max.d = d;
 			console.log(max);
 		}
-
 		d+=1;
 	}
 	return; //{x:x,d:d};
