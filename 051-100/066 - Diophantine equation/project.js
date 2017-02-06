@@ -82,9 +82,9 @@ function main(m) {
 		Q = [],
 		d =5;
 	while(true){
+		a_n(n,d,a);
 		Q_n(n,d,a,P,Q);
 		P_n(n,d,a,P,Q);
-		a_n(n,d,a);
 		p_n(n,d,a,p);
 		q_n(n,d,a,q);
 		console.log(a);
