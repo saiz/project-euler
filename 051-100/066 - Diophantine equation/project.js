@@ -43,6 +43,7 @@ function q_n(n,a,q){
 		return q[n];
 	}
 	//q[n] = a[n]*q[n-1] +q[n-2];
+	console.log('asdsd')
 	q[n] = a[n];
 	return q[n].times(q[n-1]).plus(q[n-2]);
 }
