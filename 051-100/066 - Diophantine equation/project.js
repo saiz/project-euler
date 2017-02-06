@@ -34,7 +34,8 @@ function q_n(n,a,q){
 		return q[n];
 	}
 	if(n === 0){
-		q[n] = 1;
+		//q[n] = 1;
+		q[n] =
 		return q[n];
 	}
 	if(n === 1){
