@@ -91,8 +91,9 @@ function main(m) {
 	while(d <=m){
 			P_n(0,d,a,P,Q);
 			Q_n(0,d,a,P,Q);
-			a_n(0,d,a,P,Q);
-			x = 0n(n,a,q);
+			a_n(n,d,a,P,Q);
+			x = p_n(n,a,p);
+			y = q_n(n,a,q);
 		while(diophantine(x,y,d)){
 			P_n(n,d,a,P,Q);
 			Q_n(n,d,a,P,Q);
