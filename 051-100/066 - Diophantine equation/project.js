@@ -40,7 +40,9 @@ function q_n(n,d,a,q){
 	return q[n];
 }
 function Q_n(n,d,a,P,Q){
-
+	if(P[n] !== undefined){
+		return P[n];
+	}
 }
 
 function P_n(n,d,a,P,Q){
