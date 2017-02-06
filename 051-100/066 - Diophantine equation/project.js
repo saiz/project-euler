@@ -99,8 +99,6 @@ function main(m) {
 			a_n(n,d,a,P,Q);
 			x = p_n(n,a,p);
 			y = q_n(n,a,q);
-			if
-
 			console.log(p[n],q[n]);
 			console.log('--');
 			n+=1;
