@@ -90,7 +90,7 @@ function main(m) {
 			x:0,
 			d:0
 		};
-	while(d <=m){
+	while(d <= m){
 			n = 0;
 			P_n(n,d,a,P,Q);
 			Q_n(n,d,a,P,Q);
