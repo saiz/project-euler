@@ -36,7 +36,7 @@ function q_n(n,d,a,q,P,Q){
 		q[n] = a_n(n,d,a,P,Q);
 		return q[n];
 	}
-	q[n] = a_n(n,d,a,P,Q)*q_n(n-1,d,a,q,P,Q) +q_n(n-2,d,a,q);
+	q[n] = a_n(n,d,a,P,Q)*q_n(n-1,d,a,q,P,Q) +q_n(n-2,d,a,q,P,Q);
 	return q[n];
 }
 function Q_n(n,d,a,P,Q){
