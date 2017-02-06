@@ -132,7 +132,7 @@ function main(m) {
 				y = q_n(n,a,q);
 				n+=1;
 			}
-			console.log(x.tos,y);
+			console.log(x.toString(),y.toString());
 			// if(max.x < x){
 			// 	max.x = x;
 			// 	max.d = d;
