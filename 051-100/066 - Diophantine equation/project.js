@@ -82,7 +82,7 @@ function main(m) {
 		P = [],
 		Q = [],
 		d =5;
-	a_n(3,d,a,p,q,P,Q);
+	a_n(0,d,a,p,q,P,Q);
 	console.log('--');
 	return max; //{x:x,d:d};
 }
