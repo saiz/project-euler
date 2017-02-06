@@ -80,8 +80,8 @@ function main(m) {
 	'use strict';
 	m =parseInt(m,10);
 	var a, p, q, P, Q,
-
 		x, y, n,
+		d = 2,
 		max = {
 			x:0,
 			d:0
