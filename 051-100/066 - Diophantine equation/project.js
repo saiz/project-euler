@@ -89,7 +89,7 @@ function main(m) {
 		x,y;
 
 	while(d <=m){
-		while(true){
+		while(diophantine()){
 			P_n(n,d,a,P,Q);
 			Q_n(n,d,a,P,Q);
 			a_n(n,d,a,P,Q);
