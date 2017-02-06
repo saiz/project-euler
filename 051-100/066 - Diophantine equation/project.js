@@ -9,8 +9,7 @@ function a_n(n,d,a,P,Q){
 		return a[n];
 	}
 	//a[n] = Math.floor((a[0]+P[n])/Q[n]);
-	a[n] =a[n].plus(P[n]);
-	a[n].dividedBy(Q[n])
+	a[n] = a[n].plus(P[n]).dividedBy(Q[n]);
 	return a[n];
 }
 function p_n(n,a,p){
