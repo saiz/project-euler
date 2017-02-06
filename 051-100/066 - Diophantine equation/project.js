@@ -92,7 +92,7 @@ function main(m) {
 		};
 	while(d <= m){
 		console.log('d:',d);
-if(Math.sqrt(d))
+if(Math.sqrt(d)%1=)
 			n = 0;
 			P_n(n,d,a,P,Q);
 			Q_n(n,d,a,P,Q);
