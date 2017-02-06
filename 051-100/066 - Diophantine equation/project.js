@@ -24,7 +24,7 @@ function p_n(n,d,a,p,P,Q){
 	p[n] = a_n(n,d,a,P,Q)*p_n(n-1,d,a,p,P,Q) +p_n(n-2,d,a,p,P,Q);
 	return p[n];
 }
-function q_n(n,d,a,q){
+function q_n(n,d,a,q,P,Q){
 	if(q[n] !== undefined){
 		return q[n];
 	}
@@ -33,7 +33,7 @@ function q_n(n,d,a,q){
 		return q[n];
 	}
 	if(n === 1){
-		q[n] = a_n(n,d,a);
+		q[n] = a_n(n,d,a,P,Q);
 		return q[n];
 	}
 	q[n] = a_n(n,d,a)*q_n(n-1,d,a,q) +q_n(n-2,d,a,q);
