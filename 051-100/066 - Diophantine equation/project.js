@@ -82,11 +82,11 @@ function main(m) {
 		Q = [],
 		d =5;
 	while(true){
+		Q_n(n,d,a,P,Q);
+		P_n(n,d,a,P,Q);
 		a_n(n,d,a);
 		p_n(n,d,a,p);
 		q_n(n,d,a,q);
-		Q_n(n,d,a,P,Q);
-		P_n(n,d,a,P,Q);
 		console.log(a);
 		console.log('--');
 		n+=1;
