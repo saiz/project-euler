@@ -25,7 +25,7 @@ function p_n(n,a,p){
 		p[n] = a[0].times(a[1]).plus(1);
 		return p[n];
 	}
-	p[n] = a[n]*p[n-1] +p[n-2];
+	//p[n] = a[n]*p[n-1] +p[n-2];
 	return p[n];
 }
 function q_n(n,a,q){
