@@ -39,6 +39,7 @@ function q_n(n,d,a,q){
 	q[n] = a_n(n,d,a)*q_n(n-1,d,a,q) +q_n(n-2,d,a,q);
 	return q[n];
 }
+function P_n(n,d,a,p){
 
 function main(n) {
 	'use strict';
