@@ -22,7 +22,7 @@ function p_n(n,a,p){
 	}
 	if(n === 1){
 		//p[n] = a[0]*a[1] +1;
-
+		p[]
 		return p[n];
 	}
 	p[n] = a[n]*p[n-1] +p[n-2];
