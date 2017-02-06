@@ -71,9 +71,9 @@ function P_n(n,d,a,P,Q){
 	return P[n];
 }
 
-function main(n) {
+function main(m) {
 	'use strict';
-	n =parseInt(n,10);
+	m =parseInt(m,10);
 	var n = 1,
 		a = [],
 		p = [],
