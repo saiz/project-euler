@@ -7,7 +7,7 @@ function a_n(n,d,a,p,q,P,Q){
 		a[n] = Math.floor(Math.sqrt(d));
 		return a[n];
 	}
-	a[n] = Math.floor((a_n(n,d,a,p,q,P,Q)+P_n(n,d,a,p,q,P,Q))/Q_n(n,d,a,p,q,P,Q));
+	a[n] = Math.floor((a_n(0,d,a,p,q,P,Q)+P_n(n,d,a,p,q,P,Q))/Q_n(n,d,a,p,q,P,Q));
 	return a[n];
 }
 function p_n(n,d,a,p,q,P,Q){
@@ -52,7 +52,7 @@ function Q_n(n,d,a,p,q,P,Q){
 		Q[n] = d - Math.pow(a_n(0,d,a,p,q,P,Q),2);
 		return Q[n];
 	}
-	Q[n] = (d - Math.pow(P_n(n,d,a,p,q,P,Q),2))/Q_n(n,d,a,p,q,P,Q);
+	Q[n] = (d - Math.pow(P_n(n,d,a,p,q,P,Q),2))/Q_n(n-1,d,a,p,q,P,Q);
 	return Q[n];
 }
 
