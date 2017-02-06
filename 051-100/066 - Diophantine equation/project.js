@@ -92,28 +92,29 @@ function main(m) {
 		};
 	while(d <= m){
 		console.log('d:',d);
-if(Math.sqrt(d)%1!==0)
-			n = 0;
-			P_n(n,d,a,P,Q);
-			Q_n(n,d,a,P,Q);
-			a_n(n,d,a,P,Q);
-			x = p_n(n,a,p);
-			y = q_n(n,a,q);
-		while(!diophantine(x,y,d)){
-			//console.log('n:',n);
-			P_n(n,d,a,P,Q);
-			Q_n(n,d,a,P,Q);
-			a_n(n,d,a,P,Q);
-			x = p_n(n,a,p);
-			y = q_n(n,a,q);
-			console.log(x,y,d);
-			n+=1;
-		}
-		if(max.x < x){
-			max.x = x;
-			max.d = d;
-			console.log(max);
-		}
+		if(Math.sqrt(d)%1!==0){
+					n = 0;
+					P_n(n,d,a,P,Q);
+					Q_n(n,d,a,P,Q);
+					a_n(n,d,a,P,Q);
+					x = p_n(n,a,p);
+					y = q_n(n,a,q);
+				while(!diophantine(x,y,d)){
+					//console.log('n:',n);
+					P_n(n,d,a,P,Q);
+					Q_n(n,d,a,P,Q);
+					a_n(n,d,a,P,Q);
+					x = p_n(n,a,p);
+					y = q_n(n,a,q);
+					console.log(x,y,d);
+					n+=1;
+				}
+				if(max.x < x){
+					max.x = x;
+					max.d = d;
+					console.log(max);
+				}
+			}
 		d+=1;
 	}
 	return;
