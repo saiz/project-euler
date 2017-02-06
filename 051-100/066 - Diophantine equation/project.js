@@ -35,7 +35,7 @@ function q_n(n,a,q){
 	}
 	if(n === 0){
 		//q[n] = 1;
-		q[n] =
+		q[n] = new BigNumber(1);
 		return q[n];
 	}
 	if(n === 1){
