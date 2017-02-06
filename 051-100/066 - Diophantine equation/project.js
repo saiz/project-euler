@@ -56,6 +56,7 @@ function Q_n(n,d,a,p,q,P,Q){
 }
 
 function P_n(n,d,a,p,q,P,Q){
+	console.log(P,n);
 	if(P[n] !== undefined){
 		return P[n];
 	}
