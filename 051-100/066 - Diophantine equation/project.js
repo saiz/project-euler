@@ -80,7 +80,11 @@ function main(m) {
 		q = [],
 		d =5;
 		while(true){
-			P_n()
+			P_n(n,d,a,P,Q);
+			Q_n(n,d,a,P,Q);
+			a_n(n,d,a,P,Q);
+			p_n(n,a,p);
+			q_n(n,a,q);
 
 			console.log(p);
 			console.log('--');
