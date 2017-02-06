@@ -88,8 +88,8 @@ function main(m) {
 		q_n(n,d,a,p,q,P,Q);
 		P_n(n,d,a,p,q,P,Q);
 		Q_n(n,d,a,p,q,P,Q);
-		//console.log(a);
-		//console.log('--');
+		console.log(a);
+		console.log('--');
 		n+=1;
 	}
 	console.log('--');
