@@ -79,8 +79,7 @@ function diophantine (x,y,d){
 function main(m) {
 	'use strict';
 	m =parseInt(m,10);
-	var n = 0,
-		a = [],
+	var a = [],
 		p = [],
 		q = [],
 		P = [],
@@ -89,8 +88,8 @@ function main(m) {
 		x,y;
 
 	while(d <=m){
-			P_n(0,d,a,P,Q);
-			Q_n(0,d,a,P,Q);
+			P_n(n,d,a,P,Q);
+			Q_n(n,d,a,P,Q);
 			a_n(n,d,a,P,Q);
 			x = p_n(n,a,p);
 			y = q_n(n,a,q);
