@@ -56,7 +56,8 @@ function Q_n(n,d,a,P,Q){
 		return Q[n];
 	}
 	if(n === 1){
-		Q[n] = d - Math.pow(a[0],2);
+		//Q[n] = d - Math.pow(a[0],2);
+		Q[]
 		return Q[n];
 	}
 	Q[n] = (d - Math.pow(P[n],2))/Q[n-1];
