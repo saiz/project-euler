@@ -40,8 +40,16 @@ function q_n(n,d,a,q){
 	return q[n];
 }
 function Q_n(n,d,a,P,Q){
-	if(P[n] !== undefined){
-		return P[n];
+	if(Q[n] !== undefined){
+		return Q[n];
+	}
+	if(n === 0){
+		Q[n] = 1;
+		return Q[n];
+	}
+	if(n === 1){
+		Q[n] = d - P_n(n,d,a,P,Q)
+		return Q[n];
 	}
 }
 
