@@ -6,7 +6,7 @@ function a_n(n,d,a,P,Q){
 		a[n] = Math.floor(Math.sqrt(d));
 		return a[n];
 	}
-	a[n] = Math.floor((a_n(0,d,a)+P_n(n,d,a,P,Q))/Q_n(n,d,a,P,Q));
+	a[n] = Math.floor((a_n(0,d,a,P,Q)+P_n(n,d,a,P,Q))/Q_n(n,d,a,P,Q));
 	return a[n];
 }
 function p_n(n,d,a,p,P,Q){
