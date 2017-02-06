@@ -48,7 +48,7 @@ function Q_n(n,d,a,P,Q){
 		return Q[n];
 	}
 	if(n === 1){
-		Q[n] = d - P_n(n,d,a,P,Q)
+		Q[n] = d - a_n(n,d,a)
 		return Q[n];
 	}
 }
