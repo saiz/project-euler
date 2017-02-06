@@ -71,7 +71,7 @@ function P_n(n,d,a,P,Q){
 	return P[n];
 }
 function diophantine (x,y,d){
-	if(Math.pow(x,2) - d*Math.pow(y,2) !== 1){
+	if(x*x - d*y*y !== 1){
 		return false;
 	}
 	return true;
