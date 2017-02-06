@@ -100,7 +100,7 @@ function main(m) {
 	m =parseInt(m,10);
 	var a, p, q, P, Q,
 		x, y, n,
-		d = 2,
+		d = 4,
 		max = {
 			x:0,
 			d:0
