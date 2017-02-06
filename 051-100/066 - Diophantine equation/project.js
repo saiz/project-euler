@@ -87,7 +87,7 @@ function main(m) {
 		d = 2,
 		x, y, n;
 	while(d <=m){
-n = 0,
+			n = 0;
 			P_n(n,d,a,P,Q);
 			Q_n(n,d,a,P,Q);
 			a_n(n,d,a,P,Q);
