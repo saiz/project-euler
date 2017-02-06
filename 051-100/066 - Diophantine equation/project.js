@@ -82,16 +82,7 @@ function main(m) {
 		P = [],
 		Q = [],
 		d =5;
-	while(true){
-		a_n(n,d,a,p,q,P,Q);
-		p_n(n,d,a,p,q,P,Q);
-		q_n(n,d,a,p,q,P,Q);
-		P_n(n,d,a,p,q,P,Q);
-		Q_n(n,d,a,p,q,P,Q);
-//		console.log(p);
-		console.log('--');
-		n+=1;
-	}
+	a_n(3,d,a,p,q,P,Q);
 	console.log('--');
 	return max; //{x:x,d:d};
 }
