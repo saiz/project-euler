@@ -94,7 +94,7 @@ function diophantine (x,y,d){
 	b = d;
 	b.times(y).times(y);
 	//if(x*x - d*y*y === 1){
-	if(new BigNumber(1).comparedTo(a.minus(b)) == 0){
+	if(new BigNumber(1).comparedTo(a.minus(b)) == 1){
 		return true;
 	}
 	return false;
