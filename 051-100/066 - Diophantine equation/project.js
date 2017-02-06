@@ -1,5 +1,4 @@
 function a_n(n,d,a,P,Q){
-	// console.log(a);
 	if(a[n] !== undefined){
 		return a[n];
 	}
@@ -87,6 +86,7 @@ function main(m) {
 			d:0
 		};
 	while(d <= m){
+		console.log(d);
 		if(Math.sqrt(d)%1!==0){
 				n = 0;
 				a = [];
