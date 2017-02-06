@@ -85,9 +85,9 @@ function main(m) {
 		P = [],
 		Q = [],
 		d = 2,
-		x,y;
-
+		x, y, n;
 	while(d <=m){
+n = 0,
 			P_n(n,d,a,P,Q);
 			Q_n(n,d,a,P,Q);
 			a_n(n,d,a,P,Q);
