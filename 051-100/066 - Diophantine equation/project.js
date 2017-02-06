@@ -74,7 +74,7 @@ function P_n(n,d,a,P,Q){
 	}
 	if(n === 0){
 		//P[n] = 0;
-		P[n] = new
+		P[n] =  new BigNumber(d)
 		return P[n];
 	}
 	if(n === 1){
