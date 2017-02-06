@@ -68,7 +68,7 @@ function P_n(n,d,a,p,q,P,Q){
 		P[n] = a_n(n,d,a,p,q,P,Q);
 		return P[n];
 	}
-	P[n] = a_n(n-1,d,a,p,q,P,Q)*Q_n(n-1,d,a,p,q,P,Q) - P_n(n-1,d,a,p,q,P,Q);
+	P[n] = a_n(n,d,a,p,q,P,Q)*Q_n(n-1,d,a,p,q,P,Q) - P_n(n-1,d,a,p,q,P,Q);
 	return P[n];
 }
 
