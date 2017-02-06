@@ -67,7 +67,7 @@ function Q_n(n,d,a,P,Q){
 	temp.pow(2);
 	temp2 = d;
 	temp2.minus(temp);
-	Q[n] = temp2;
+	Q[n] = nbew Btemp2;
 	return Q[n].dividedBy(temp2);
 }
 function P_n(n,d,a,P,Q){
