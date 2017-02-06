@@ -5,12 +5,12 @@ function a_n(n,d,a,P,Q){
 	}
 	if(n === 0){
 		//a[n] = Math.floor(Math.sqrt(d));
-		a[n] =  d.sqrt().floor();
-		return a[n];
+		a[n] =  d;
+		return a[n].sqrt().floor();
 	}
 	//a[n] = Math.floor((a[0]+P[n])/Q[n]);
-	a[n] = a[n].plus(P[n]).dividedBy(Q[n]).floor();
-	return a[n];
+	a[n] = a[n];
+	return a[n].plus(P[n]).dividedBy(Q[n]).floor();
 }
 function p_n(n,a,p){
 	if(p[n] !== undefined){
@@ -22,12 +22,12 @@ function p_n(n,a,p){
 	}
 	if(n === 1){
 		//p[n] = a[0]*a[1] +1;
-		p[n] = a[0].times(a[1]).plus(1);
-		return p[n];
+		p[n] = a[0];
+		return p[n].times(a[1]).plus(1);
 	}
 	//p[n] = a[n]*p[n-1] +p[n-2];
-	p[n] = a[n].times(p[n-1]).plus(p[n-2]);
-	return p[n];
+	p[n] = a[n];
+	return p[n].times(p[n-1]).plus(p[n-2]);
 }
 function q_n(n,a,q){
 	if(q[n] !== undefined){
@@ -43,8 +43,8 @@ function q_n(n,a,q){
 		return q[n];
 	}
 	//q[n] = a[n]*q[n-1] +q[n-2];
-	q[n] = a[n].times(q[n-1]).plus(q[n-2]);
-	return q[n];
+	q[n] = a[n];
+	return q[n].times(q[n-1]).plus(q[n-2]);
 }
 function Q_n(n,d,a,P,Q){
 	var temp, temp2;
@@ -59,14 +59,14 @@ function Q_n(n,d,a,P,Q){
 	if(n === 1){
 		//Q[n] = d - Math.pow(a[0],2);
 		temp = a[0].pow(2);
-		Q[n] = d.minus(temp);
-		return Q[n];
+		Q[n] = d;
+		return Q[n].minus(temp);
 	}
 	//Q[n] = (d - Math.pow(P[n],2))/Q[n-1];
 	temp = P[n].pow(2);
 	temp2 = d.minus(temp);
-	Q[n] = temp2.dividedBy(temp2);
-	return Q[n];
+	Q[n] = temp2;
+	return Q[n].dividedBy(temp2);
 }
 function P_n(n,d,a,P,Q){
 	if(P[n] !== undefined){
@@ -82,8 +82,8 @@ function P_n(n,d,a,P,Q){
 		return P[n];
 	}
 	//P[n] = a[n-1]*Q[n-1] - P[n-1];
-	P[n] = a[n-1].times(Q[n-1]).minus(P[n-1]);
-	return P[n];
+	P[n] = a[n-1];
+	return P[n].times(Q[n-1]).minus(P[n-1]);
 }
 function diophantine (x,y,d){
 	var a,b;
