@@ -90,8 +90,7 @@ function diophantine (x,y,d){
 	a = x.toPower(2);
 	b = new BigNumber(d).times(y).times(y);
 	//if(x*x - d*y*y === 1){
-		console.log(new BigNumber(1).comparedTo(a.minus(b)));
-	if(new BigNumber(1).comparedTo(a.minus(b))){
+	if(new BigNumber(1).comparedTo(a.minus(b)) == 1){
 		return true;
 	}
 	return false;
