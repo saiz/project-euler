@@ -1,22 +1,45 @@
-function b(i){
-	if(i ===1){
-		return 0;
-	} else if( (i-1)%3 !== 0){
-		return 1;
+function a_n(n,d,a){
+	if(a[n] !== undefined){
+		return a[n];
 	}
-	return 2*((i-1)/3);
-}
-function A(n,arr){
-	if(n===0){
-		return new BigNumber(b(0));
-	} else if(n===1){
-		return new BigNumber(b(1)*b(0) +1);
-	} else if( arr[n] !== undefined){
-		return new BigNumber(arr[n]);
+	if(n === 0){
+		a[n] = Math.floor(Math.sqrt(d));
+		return a[n];
 	}
-	arr[n] = new BigNumber(b(n)).times(A(n-1,arr)).plus(A(n-2,arr));
-	return arr[n];
+	a[n] = 2*a_n(0);
+	return a[n];
 }
+function p_n(n,d,a,p){
+	if(p[n] !== undefined){
+		return p[n];
+	}
+	if(n === 0 ){
+		p[n] = a_n(n,d,a);
+		return p[n];
+	}
+	if(n === 1){
+		p[n] = a_n(n-1,d,a)*a_n(n,d,a) +1;
+		return p[n];
+	}
+	p[n] = a_n(n,d,a)*p_n(n-1,d,a,p) +p_n(n-2,d,a,p);
+	return p[n];
+}
+function q_n(n,d,a,q){
+	if(q[n] !== undefined){
+		return q[n];
+	}
+	if(n === 0){
+		q[n] = 1;
+		return q[n];
+	}
+	if(n === 1){
+		q[n] = a_n(n,d,a);
+		return q[n];
+	}
+	q[n] = a_n(n,d,a)*q_n(n-1,d,a,q) +q_n(n-2,d,a,q);
+	return q[n];
+}
+
 function main(n) {
 	'use strict';
 	n =parseInt(n,10);
