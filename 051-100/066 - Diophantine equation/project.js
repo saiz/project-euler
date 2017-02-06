@@ -80,18 +80,24 @@ function main(m) {
 		q = [],
 		P = [],
 		Q = [],
-		d =5;
+		d = 2,
+		x,y;
+
+	while(d <=m){
 		while(true){
 			P_n(n,d,a,P,Q);
 			Q_n(n,d,a,P,Q);
 			a_n(n,d,a,P,Q);
-			p_n(n,a,p);
-			q_n(n,a,q);
+			x = p_n(n,a,p);
+			y = q_n(n,a,q);
+			if
 
 			console.log(p[n],q[n]);
 			console.log('--');
 			n+=1;
 		}
+		d+=1;
+	}
 	return; //{x:x,d:d};
 }
 
