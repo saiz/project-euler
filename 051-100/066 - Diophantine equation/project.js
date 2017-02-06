@@ -40,21 +40,6 @@ function q_n(n,d,a,p,q){
 	q[n] = a_n(n,d,a,p,q)*q_n(n-1,d,a,p,q) +q_n(n-2,d,a,p,q);
 	return q[n];
 }
-function Q_n(n,d,a,p,q,P,Q){
-	if(Q[n] !== undefined){
-		return Q[n];
-	}
-	if(n === 0){
-		Q[n] = 1;
-		return Q[n];
-	}
-	if(n === 1){
-		Q[n] = d - Math.pow(a_n(0,d,a,p,q),2);
-		return Q[n];
-	}
-	Q[n] = (d - Math.pow(P_n(n,d,a,p,q),2))/Q_n(n-1,d,a,p,q);
-	return Q[n];
-}
 
 function main(m) {
 	'use strict';
@@ -68,7 +53,7 @@ function main(m) {
 			a_n(n,d,a,p,q);
 			p_n(n,d,a,p,q);
 			q_n(n,d,a,p,q);
-			console.log(P);
+			console.log(p);
 			console.log('--');
 			n+=1;
 		}
