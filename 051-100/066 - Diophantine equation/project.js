@@ -86,10 +86,10 @@ function P_n(n,d,a,P,Q){
 	return P[n];
 }
 function diophantine (x,y,d){
-	var a,b,c
-a =x.toPower(2);
-b =y.toPower(2);
-c =new BigNumber(d).times(b);
+	var a,b,c;
+	a = x.toPower(2);
+	b = y.toPower(2);
+	c = new BigNumber(d).times(b);
 	//if(x*x - d*y*y === 1){
 		return true;
 	}
