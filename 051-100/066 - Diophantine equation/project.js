@@ -58,12 +58,12 @@ function Q_n(n,d,a,P,Q){
 	}
 	if(n === 1){
 		//Q[n] = d - Math.pow(a[0],2);
-		temp = a[0].toPower(2);
+		temp = a[0].pow(2);
 		Q[n] = new BigNumber(d).minus(temp);
 		return Q[n];
 	}
 	//Q[n] = (d - Math.pow(P[n],2))/Q[n-1];
-	temp = P[n].toPower(2);
+	temp = P[n].pow(2);
 	temp2 = new BigNumber(d).minus(temp);
 	Q[n] = temp2.dividedBy(temp2);
 	return Q[n];
@@ -87,7 +87,7 @@ function P_n(n,d,a,P,Q){
 }
 function diophantine (x,y,d){
 	var a,b;
-	a = x.toPower(2);
+	a = x.pow(2);
 	b = new BigNumber(d).times(y).times(y);
 	//if(x*x - d*y*y === 1){
 	if(new BigNumber(1).comparedTo(a.minus(b)) == 1){
