@@ -70,9 +70,9 @@ def diophantine (x,y,d):
 	a.pow(2);
 	b = d;
 	b.times(y).times(y);
-	if(x*x - d*y*y == 1){
+	if(x*x - d*y*y == 1)
 		return true;
-	}
+
 	return false;
 
 def main() :
