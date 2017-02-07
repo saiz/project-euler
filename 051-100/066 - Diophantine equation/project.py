@@ -52,7 +52,7 @@ def main(m) :
 				a1 = a_n(a(d),P1,Q1)
 				temp =a1*p1 - p0
 				p0 = p1
-p1 = tem
+				p1 = temp
 
 
 
