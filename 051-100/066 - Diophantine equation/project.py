@@ -36,7 +36,7 @@ def main(m) :
 		Q1 = d - int(a(d),2)
 		a1 = a_n(a(d),P1,Q1)
 		p1  =a0*a1 + 1
-
+q
 		d+=1;
 	return max
 
