@@ -38,7 +38,7 @@ def q_n(n,a,q):
 	q[n] = a[n]*q[n-1] +q[n-2]
 	return q[n]
 
-function Q_n(n,d,a,P,Q){
+def Q_n(n,d,a,P,Q){
 	var temp, temp2;
 	if(Q[n] !== undefined){
 		return Q[n];
