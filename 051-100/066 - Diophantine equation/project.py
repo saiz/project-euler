@@ -27,7 +27,7 @@ def main(m) :
 		if math.sqrt(d)%1 == 0:
 			d+=1
 			continue
-		a0 = a_0(d)
+		a0 = a(d)
 		p0 = a0
 		p0 =
 		d+=1;
