@@ -29,7 +29,7 @@ def main(m) :
 			continue
 		a0 = a(d)
 		p0 = a0
-		p0 =
+		q0 = 1
 		d+=1;
 	return max
 
