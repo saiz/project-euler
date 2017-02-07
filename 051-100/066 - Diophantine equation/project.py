@@ -61,6 +61,7 @@ def diophantine (x,y,d):
 	return False
 
 def main(m) :
+	m = int(m)
 	d =2
 	max = {
 		'x':0,
