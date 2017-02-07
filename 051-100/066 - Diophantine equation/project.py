@@ -15,4 +15,5 @@ for d in range(1, 1001):
 		a, b = r, p
 	if maxX < hn:
 		maxX, maxD = hn, d
+
 print maxX, maxD
