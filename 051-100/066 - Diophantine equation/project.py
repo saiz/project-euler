@@ -57,11 +57,7 @@ def main(m) :
 				q0 = q1
 				q1 = temp
 				x = p1
-			y = q1
-
-
-
-
+				y = q1
 		d+=1;
 	return max
 
