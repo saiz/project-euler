@@ -2,7 +2,9 @@ import math
 import sys
 def a_n(a,P,Q):
 	return int(math.floor((a + P)/Q))
-def p_n(a,Q,P):
+def P_n(a,Q,P):
+	return a*Q-P;
+def A_n(a,Q,P):
 	return a*Q-P;
 def diophantine (x,y,d):
 	if x*x - d*y*y == 1:
