@@ -51,7 +51,7 @@ def main(m) :
 			temp = a_n(a_0,P['n'],Q['n'])
 			a['m'] = a['n']
 			a['n'] = temp
-			temp = p_n(a_0,P['n'],Q['n'])
+			temp = p_n(a,P['n'],Q['n'])
 			a['m'] = a['n']
 			a['n'] = temp
 		}
