@@ -18,10 +18,10 @@ def main(m) :
 			d+=1
 			continue
 		a = {}
-		a_0 = int(math.floor(math.sqrt(d)))
-		p_0 = a_0;
-		q_0= 1
-		print(a_0)
+		q = {}
+		p = {}
+		P = {}
+		Q = {}
 		d+=1
 	return max
 
