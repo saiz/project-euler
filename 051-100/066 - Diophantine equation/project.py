@@ -26,7 +26,7 @@ def main(m) :
 		# m = n-1 , n
 		a_0 = int(math.floor(math.sqrt(d)))
 		P['m'] = 0
-		P['n'] = a['m']
+		P['n'] = a_0
 		Q['m'] = 1
 		Q['n'] = d - math.pow(a_0,2)
 		a['m'] = a_0
