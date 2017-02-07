@@ -44,16 +44,14 @@ def Q_n(n,d,a,P,Q):
 	except IndexError:
 		pass
 	if n == 0:
-		//Q[n] = 1;
+		Q[n] = 1;
 		return Q[n]
 
 	if n == 1:
-		Q[n] = d - math.pow(a[0],2);
+		Q[n] = d - math.pow(a[0],2)
 		return Q[n]
-	//Q[n] = (d - Math.pow(P[n],2))/Q[n-1];
-	Q[n] = new BigNumber(d.minus(P[n].pow(2)).dividedBy(Q[n-1]));
-	return Q[n];
-}
+	Q[n] = (d - math.pow(P[n],2))/Q[n-1]
+	return Q[n]
 
 def main() :
 	print("This line will be printed.")
