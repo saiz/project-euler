@@ -58,11 +58,10 @@ def main(m) :
 			q['n'] = temp
 			x = p['n']
 			y = q['n']
-			if(max['x'] < x){
+			if(max['x'] < x)
 				max['x'] = x
 				max['d'] = d
-				console.log(max)
-			}
+				print(d)
 		print(d)
 		d+=1;
 	return max
