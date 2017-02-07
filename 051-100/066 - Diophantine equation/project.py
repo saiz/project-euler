@@ -45,7 +45,7 @@ def main(m) :
 			y = q1
 			while not diophantine(x,y,d):
 				P0 = P1
-				P1 = a
+				P1 = a1*Q1
 
 		d+=1;
 	return max
