@@ -9,7 +9,6 @@ def diophantine (x,y,d):
 	if x*x - d*y*y == 1:
 		return True
 	return False
-
 def main(m) :
 	m = int(m)
 	d =2
