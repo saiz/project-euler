@@ -47,7 +47,6 @@ def main(m) :
 			P['m'] = P['n']
 			P['n'] = P_n(a['m'],Q['m'],P['m'])
 			temp = Q_n(d,P['n'],Q['n'])
-			Q['m'] = Q['n']
 			Q['n'] = Q_n(d,P['n'],Q['m'])
 			temp = a_n(a_0,P['n'],Q['n'])
 			a['m'] = a['n']
