@@ -43,11 +43,11 @@ def Q_n(n,d,a,P,Q):
 		return Q[n]
 	except IndexError:
 		pass
-	if(n === 0)
+	if n == 0:
 		//Q[n] = 1;
 		Q[n]= new BigNumber(1);
 		return Q[n];
-	}
+
 	if(n === 1){
 		//Q[n] = d - Math.pow(a[0],2);
 		temp = new BigNumber(a[0].pow(2));
