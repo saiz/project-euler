@@ -45,7 +45,7 @@ def main(m) :
 		y = q['n']
 		while not( diophantine(x,y,d)):
 			P['m'] = P['n']
-			P['n'] = P_n(a['n'],Q['n'],P['m'])
+			P['n'] = P_n(a['n'],Q['n'],P['n'])
 			Q['m'] = Q['n']
 			Q['n'] = Q_n(d,P['n'],Q['n'])
 			a['m'] = a['n']
