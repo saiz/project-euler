@@ -1,6 +1,6 @@
 import math
 import sys
-def a_0(d):
+def a(d):
 	return int(math.floor(math.sqrt(d)))
 def a_n(a,P,Q):
 	return int(math.floor((a + P)/Q))
