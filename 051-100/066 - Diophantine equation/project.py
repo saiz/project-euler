@@ -91,6 +91,6 @@ def main(m) :
 				max['x'] = x
 				max['d'] = d
 		d+=1
-	return m
+	return max
 
 print(main(sys.argv[1]))
