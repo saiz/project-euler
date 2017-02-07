@@ -50,7 +50,7 @@ def main(m) :
 				Q1 = (d - int(math.pow(P1,2)))/Q1
 				a0 = a1
 				a1 = a_n(a(d),P1,Q1)
-				temp =a
+				temp =a1*p1 - p0
 
 
 
