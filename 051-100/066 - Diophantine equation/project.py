@@ -59,7 +59,8 @@ def main(m) :
 				x = p1
 				y = q1
 		if max['x'] < x:
-
+			max['x'] = x
+			max['d'] =
 		d+=1;
 	return max
 
