@@ -1,6 +1,6 @@
 def a_n(n,d,a,P,Q):
 	try:
-		mylist[i] += 1
+		a[i] += 1
 	except IndexError:
 		print "No item at ", i
 
