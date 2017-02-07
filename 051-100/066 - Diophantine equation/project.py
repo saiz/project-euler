@@ -54,7 +54,7 @@ def Q_n(n,d,a,P,Q):
 	return Q[n]
 def P_n(n,d,a,P,Q):
 	try:
-		return Q[n]
+		return P[n]
 	except IndexError:
 		pass
 	if(n === 0){
