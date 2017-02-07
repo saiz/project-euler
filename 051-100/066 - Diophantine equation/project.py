@@ -38,6 +38,7 @@ def main(m) :
 		p1 = a0*a1 + 1
 		q1 = a1
 		if not(diophantine(p0,q0,d)):
+whi
 
 		d+=1;
 	return max
