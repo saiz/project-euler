@@ -28,7 +28,7 @@ def main(m) :
 		P['m'] = 0
 		P['n'] = a['m']
 		Q['m'] = 1
-		q['n'] = d math.
+		q['n'] = d math.pow(a_0,2)
 
 		d+=1
 	return max
