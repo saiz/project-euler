@@ -48,11 +48,8 @@ def Q_n(n,d,a,P,Q):
 		return Q[n]
 
 	if n == 1:
-		//Q[n] = d - Math.pow(a[0],2);
-		temp = new BigNumber(a[0].pow(2));
-		Q[n] = new BigNumber(d.minus(temp));
-		return Q[n];
-
+		Q[n] = d - m.pow(a[0],2);
+		return Q[n]
 	//Q[n] = (d - Math.pow(P[n],2))/Q[n-1];
 	Q[n] = new BigNumber(d.minus(P[n].pow(2)).dividedBy(Q[n-1]));
 	return Q[n];
