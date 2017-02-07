@@ -16,4 +16,4 @@ def main() :
 
 arr = [1]
 main()
-a_n(0,0,arr,0,0)
+print a_n(0,0,arr,0,0)
