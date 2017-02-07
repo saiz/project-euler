@@ -33,7 +33,7 @@ def main(m) :
 		P0 = 0
 		Q0 = 1
 		P1 = a(d)
-		Q1 = d - int(a(d),2)
+		Q1 = d - int(math.pow(a(d),2))
 		a1 = a_n(a(d),P1,Q1)
 		p1 = a0*a1 + 1
 		q1 = a1
