@@ -1,5 +1,4 @@
 import math
- 
 maxX, maxD = 0, 0
 for d in range(1, 1001):
 	k = int(d**0.5)
