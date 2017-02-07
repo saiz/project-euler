@@ -1,6 +1,9 @@
 def a_n(n,d,a,P,Q):
-	if a[n]:
-		print(a[n])
+	try:
+	mylist[i] += 1
+	except IndexError:
+	print "No item at ", i
+
 
 	return;
 
