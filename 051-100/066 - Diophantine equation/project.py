@@ -9,7 +9,7 @@ def Q_n(d,P,Q):
 def p_n(a,p1,p2):
 	return a*p1 + p2
 def q_n(a,q1,q2):
-	return a*p1 + p2
+	return a*
 def diophantine (x,y,d):
 	if x*x - d*y*y == 1:
 		return True
