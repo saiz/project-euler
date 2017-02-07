@@ -36,7 +36,7 @@ def main(m) :
 		p['n'] = a['m']*a['n'] + 1
 		q['m'] = 0
 		q['n'] = a['n']
-		print (a,p,q,P,Q)
+		print ('a',a,'p',p,'q',q,'P',P,'Q',Q)
 	return max
 
 print(main(sys.argv[1]))
