@@ -72,8 +72,7 @@ def diophantine (x,y,d):
 	b.times(y).times(y);
 	if(x*x - d*y*y == 1)
 		return true;
-
-	return false;
+	return false
 
 def main() :
 	print("This line will be printed.")
