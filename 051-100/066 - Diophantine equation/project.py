@@ -4,6 +4,7 @@ def a_n(n,d,a,P,Q):
 	except IndexError:
 		print("This line will be printed.")
 
+	print("This line will be printed.")
 	return;
 
 def main() :
