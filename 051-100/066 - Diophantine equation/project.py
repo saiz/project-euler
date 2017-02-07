@@ -75,13 +75,14 @@ def main(m) :
 			q = {}
 			P = {}
 			Q = {}
+			print('Q',len(Q))
 			P_n(n,d,a,P,Q)
 			Q_n(n,d,a,P,Q)
 			a_n(n,d,a,P,Q)
 			x = p_n(n,a,p)
 			y = q_n(n,a,q)
 			while(not diophantine(x,y,d)):
-				print(len(P))
+				# print(len(P))
 				P_n(n,d,a,P,Q)
 				Q_n(n,d,a,P,Q)
 				a_n(n,d,a,P,Q)
