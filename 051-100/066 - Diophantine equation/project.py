@@ -52,7 +52,7 @@ def main(m) :
 			Q['n'] = Q_n(d,P['n'],Q['n'])
 			a['m'] = a['n']
 			a['n'] = a_n(a_0,P['n'],Q['n'])
-			temp = p_n1s(a['n'],P['n'],P['m'])
+			temp = p_n1(a['n'],P['n'],P['m'])
 			p['m'] = p['n']
 			p['n'] = temp
 			temp = q_n1(a['n'],Q['n'],Q['m'])
