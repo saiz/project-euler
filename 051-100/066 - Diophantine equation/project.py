@@ -18,12 +18,13 @@ def main(m) :
 			d+=1
 			continue
 		a = {}
-		a['m'] = int(math.floor(math.sqrt(d)))
 		q = {}
 		p = {}
 		P = {}
 		Q = {}
 		# m = n-1 , n
+		a['m'] = int(math.floor(math.sqrt(d)))
+		P['m'] = 0
 		d+=1
 	return max
 
