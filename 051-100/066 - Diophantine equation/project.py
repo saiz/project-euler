@@ -1,8 +1,8 @@
 import math
 import sys
 def a_n(n,d,a,P,Q):
-	if n in a:
-		return a[n]
+	# if n in a:
+	# 	return a[n]
 	if n == 0:
 		a[n] = math.floor( math.sqrt( d ) )
 		return a[n]
@@ -10,8 +10,8 @@ def a_n(n,d,a,P,Q):
 	return a[n]
 
 def p_n(n,a,p):
-	if n in p:
-		return p[n]
+	# if n in p:
+	# 	return p[n]
 	if n == 0:
 		p[n] = a[0]
 		return p[n]
@@ -22,8 +22,8 @@ def p_n(n,a,p):
 	return p[n];
 
 def q_n(n,a,q):
-	if n in q:
-		return a[n]
+	# if n in q:
+	# 	return a[n]
 	if n == 0:
 		q[n] = 1
 		return q[n]
@@ -34,8 +34,8 @@ def q_n(n,a,q):
 	return q[n]
 
 def Q_n(n,d,a,P,Q):
-	if n in Q:
-		return Q[n]
+	# if n in Q:
+	# 	return Q[n]
 	if n == 0:
 		Q[n] = 1;
 		return Q[n]
@@ -45,8 +45,8 @@ def Q_n(n,d,a,P,Q):
 	Q[n] = (d - math.pow(P[n],2))/Q[n-1]
 	return Q[n]
 def P_n(n,d,a,P,Q):
-	if n in P:
-		return P[n]
+	# if n in P:
+	# 	return P[n]
 	if n == 0:
 		P[n] = 0
 		return P[n]
