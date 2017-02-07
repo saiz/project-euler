@@ -18,7 +18,7 @@ def main(m) :
 			d+=1
 			continue;
 		a_0 = math.floor((math.sqrt(d))
-		print a_0
+		print(a_0)
 		d+=1
 	return max
 
