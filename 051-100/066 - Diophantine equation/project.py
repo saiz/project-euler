@@ -46,6 +46,7 @@ def main(m) :
 			temp = Q_n(d,P['n'],Q['m'])
 			Q['m'] = Q['n']
 			Q['n'] = temp
+			temp = Q_n(d,P['n'],Q['m'])
 
 		}
 		print ('a',a)
