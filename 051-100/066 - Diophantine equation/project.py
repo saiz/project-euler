@@ -30,7 +30,7 @@ def q_n(n,a,q):
 	except IndexError:
 		pass
 	if n == 0:
-		q[n] = 1;
+		q[n] = 1
 		return q[n]
 	if n == 1:
 		q[n] = a[1]
