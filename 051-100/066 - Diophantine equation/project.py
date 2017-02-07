@@ -31,7 +31,8 @@ def main(m) :
 		p0 = a0
 		q0 = 1
 		P0 = 0
-		Q0 =
+		Q0 = 1
+
 		d+=1;
 	return max
 
