@@ -1,5 +1,5 @@
 def main() :
 	print("This line will be printed.")
-	return
+	return;
 
 main()
