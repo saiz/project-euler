@@ -62,7 +62,7 @@ def main(m) :
 		if max['x'] < x:
 			max['x'] = x
 			max['d'] = d
-			print(x,d)
+			# print(x,d)
 		d+=1;
 	return max
 
