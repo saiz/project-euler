@@ -34,11 +34,9 @@ def q_n(n,a,q):
 		return q[n]
 	if n == 1:
 		q[n] = a[1]
-		return q[n];
-	}
-	//q[n] = a[n]*q[n-1] +q[n-2];
-	q[n] = new BigNumber(a[n].times(q[n-1]).plus(q[n-2]));
-	return q[n];
+		return q[n]
+	q[n] = a[n]*q[n-1] +q[n-2];
+	return q[n]
 
 def main() :
 	print("This line will be printed.")
