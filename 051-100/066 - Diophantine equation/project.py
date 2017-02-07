@@ -47,7 +47,7 @@ def main(m) :
 				P0 = P1
 				P1 = a1*Q1 - P1
 				Q0 = Q1
-				Q
+				Q1
 
 
 		d+=1;
