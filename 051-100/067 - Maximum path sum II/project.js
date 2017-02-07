@@ -2,7 +2,7 @@
 var fs = require('fs');
 function generate_matrix(){
 	'use strict';
-	var array = fs.readFileSync('./input.txt').toString().split("\r\n"),
+	var array = fs.readFileSync('./triangle.txt').toString().split("\r\n"),
 	i, matrix = [];
 	for(i=0;i<array.length;i+=1){
 	    matrix.push(array[i].split(/\ /g).map(Number));
