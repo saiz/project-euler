@@ -27,6 +27,7 @@ def main(m) :
 			continue
 		a0 = int(math.floor(math.sqrt(d)))
 		p0 = a0
+			p
 		d+=1;
 	return max
 
