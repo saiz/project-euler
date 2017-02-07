@@ -1,6 +1,6 @@
 def a_n(n,d,a,P,Q):
 	try:
-		print a[n]
+		return a[n]
 	except IndexError:
 		print "No item at ", n
 
@@ -11,6 +11,6 @@ def main() :
 	print("This line will be printed.")
 	return;
 
-arr = []
+arr = [1]
 main()
 a_n(0,0,arr,0,0)
