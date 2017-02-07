@@ -23,7 +23,7 @@ def main(m) :
 		P = {}
 		Q = {}
 		# m = n-1 , n
-		a+
+		a_0
 		a['m'] = int(math.floor(math.sqrt(d)))
 		P['m'] = 0
 		P['n'] = a['m']
