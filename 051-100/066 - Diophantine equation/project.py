@@ -59,10 +59,9 @@ def P_n(n,d,a,P,Q):
 	if n == 0:
 		P[n] = 0
 		return P[n]
-	if(n === 1){
-		P[n] = a[0];
-		return P[n];
-	}
+	if n == 1:
+		P[n] = a[0]
+		return P[n]
 	//P[n] = a[n-1]*Q[n-1] - P[n-1];
 	P[n] = new BigNumber(a[n-1].times(Q[n-1]).minus(P[n-1]));
 	return P[n];
