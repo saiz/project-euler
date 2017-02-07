@@ -32,7 +32,7 @@ def main(m) :
 		q0 = 1
 		P0 = 0
 		Q0 = 1
-		P1
+		P1 =
 		d+=1;
 	return max
 
