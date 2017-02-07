@@ -13,6 +13,7 @@ for d in range(1, 1001):
 		hn, hp = q*hn + hp, hn
 		kn, kp = q*kn + kp, kn
 		a, b = r, p
+		print q
 	if maxX < hn:
 		maxX, maxD = hn, d
 		print maxX, maxD
