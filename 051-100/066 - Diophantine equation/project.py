@@ -37,7 +37,7 @@ def main(m) :
 		q['m'] = 0
 		q['n'] = a['n']
 		while(not diophantine(p['n'],q['n'],d)){
-
+temp =
 
 		}
 		print ('a',a)
