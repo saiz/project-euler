@@ -2,9 +2,7 @@ def a_n(n,d,a,P,Q):
 	try:
 		return a[n]
 	except IndexError:
-		print "No item at ", n
-
-
+	print("This line will be printed.")
 	return;
 
 def main() :
