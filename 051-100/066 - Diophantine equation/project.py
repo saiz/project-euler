@@ -62,9 +62,8 @@ def P_n(n,d,a,P,Q):
 	if n == 1:
 		P[n] = a[0]
 		return P[n]
-	//P[n] = a[n-1]*Q[n-1] - P[n-1];
-	return P[n];
-}
+	P[n] = a[n-1]*Q[n-1] - P[n-1]
+	return P[n]
 
 def main() :
 	print("This line will be printed.")
