@@ -32,7 +32,8 @@ def main(m) :
 		q['n'] = d math.pow(a_0,2)
 		a['m'] = a_0
 		a['n'] = a_n(a_0,P['n'],Q['n'])
-		p
+		P['m'] = 0
+		P['n'] = a['m']
 		while( not diophantine())
 	return max
 
