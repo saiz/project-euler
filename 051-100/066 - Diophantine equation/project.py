@@ -65,11 +65,6 @@ def P_n(n,d,a,P,Q):
 	P[n] = a[n-1]*Q[n-1] - P[n-1]
 	return P[n]
 def diophantine (x,y,d):
-	var a,b;
-	a = x;
-	a.pow(2);
-	b = d;
-	b.times(y).times(y);
 	if(x*x - d*y*y == 1)
 		return true;
 	return false
