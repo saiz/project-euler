@@ -18,7 +18,7 @@ def main(m) :
 			d+=1
 			continue
 		a = {}
-		a
+		a[]
 		q = {}
 		p = {}
 		P = {}
