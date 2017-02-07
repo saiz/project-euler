@@ -1,10 +1,8 @@
 import math
 import sys
 def a_n(n,d,a,P,Q):
-	try:
+	if n in a:
 		return a[n]
-	except IndexError:
-		pass
 	if n == 0:
 		a[n] = math.floor( math.sqrt( d ) )
 		return a[n]
@@ -12,10 +10,8 @@ def a_n(n,d,a,P,Q):
 	return a[n]
 
 def p_n(n,a,p):
-	try:
+	if n in p:
 		return p[n]
-	except IndexError:
-		pass
 	if n == 0:
 		p[n] = a[0]
 		return p[n]
@@ -26,10 +22,8 @@ def p_n(n,a,p):
 	return p[n];
 
 def q_n(n,a,q):
-	try:
-		return q[n]
-	except IndexError:
-		pass
+	if n in q:
+		return a[n]
 	if n == 0:
 		q[n] = 1
 		return q[n]
@@ -40,10 +34,8 @@ def q_n(n,a,q):
 	return q[n]
 
 def Q_n(n,d,a,P,Q):
-	try:
+	if n in Q:
 		return Q[n]
-	except IndexError:
-		pass
 	if n == 0:
 		Q[n] = 1;
 		return Q[n]
@@ -53,10 +45,8 @@ def Q_n(n,d,a,P,Q):
 	Q[n] = (d - math.pow(P[n],2))/Q[n-1]
 	return Q[n]
 def P_n(n,d,a,P,Q):
-	try:
+	if n in P:
 		return P[n]
-	except IndexError:
-		pass
 	if n == 0:
 		P[n] = 0
 		return P[n]
