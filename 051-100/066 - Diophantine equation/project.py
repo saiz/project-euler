@@ -60,6 +60,7 @@ def main(m) :
 			q['n'] = temp
 			x = p['n']
 			y = q['n']
+			print y
 		print(d)
 		d+=1;
 	return max
