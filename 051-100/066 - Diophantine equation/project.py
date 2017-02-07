@@ -10,7 +10,7 @@ def a_n(n,d,a,P,Q):
 	a[n] = math.floor((a[0]+P[n])/Q[n])
 	return a[n]
 
-def p_n(n,a,p)
+def p_n(n,a,p):
 	try:
 		return p[n]
 	except IndexError:
