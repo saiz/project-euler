@@ -1,7 +1,6 @@
 import math
 import sys
 def diophantine (x,y,d):
-	# print x*x - d*y*y
 	if x*x - d*y*y == 1:
 		return True
 	return False
