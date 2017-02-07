@@ -58,7 +58,7 @@ def P_n(n,d,a,P,Q):
 	except IndexError:
 		pass
 	if n == 0:
-		P[n] =  new BigNumber(0)
+		P[n] = 0
 		return P[n];
 	if(n === 1){
 		P[n] = a[0];
