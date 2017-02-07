@@ -29,11 +29,9 @@ def q_n(n,a,q):
 		return q[n]
 	except IndexError:
 		pass
-	if(n === 0){
-		//q[n] = 1;
-		q[n] = new BigNumber(1);
-		return q[n];
-	}
+	if n == 0:
+		q[n] = 1;
+		return q[n]
 	if(n === 1){
 		q[n] = new BigNumber(a[1]);
 		return q[n];
