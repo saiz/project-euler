@@ -77,8 +77,30 @@ def main(m) :
 		'd':0
 	}
 	while d <= m:
-		if math.sqrt(d)%1
-
+		if math.sqrt(d)%1 != 0:
+			n = 0
+			a = []
+			p = []
+			q = []
+			P = []
+			Q = []
+			P_n(n,d,a,P,Q)
+			Q_n(n,d,a,P,Q)
+			a_n(n,d,a,P,Q)
+			x = p_n(n,a,p)
+			y = q_n(n,a,q)
+			while(!diophantine(x,y,d)):
+				P_n(n,d,a,P,Q)
+				Q_n(n,d,a,P,Q)
+				a_n(n,d,a,P,Q)
+				x = p_n(n,a,p)
+				y = q_n(n,a,q)
+				n+=1;
+			if max.x < x:
+				max.x = x
+				max.d = d
+				print(max)
+		d+=1
 	return m
 
 print(main(sys.argv[1]))
