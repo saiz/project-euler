@@ -16,7 +16,7 @@ def main(m) :
 	while d <= m:
 		if math.sqrt(d)%1 == 0:
 			d+=1
-			continue;
+			continue
 		b = math.floor((math.sqrt(d))
 		print(b)
 		d+=1
