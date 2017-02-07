@@ -24,12 +24,11 @@ def main(m) :
 		Q = {}
 		# m = n-1 , n
 		a_0 = int(math.floor(math.sqrt(d)))
-		a['m'] = a_0
 		P['m'] = 0
 		P['n'] = a['m']
 		Q['m'] = 1
 		q['n'] = d math.pow(a_0,2)
-		a
+		a['m'] = a_0
 		d+=1
 	return max
 
