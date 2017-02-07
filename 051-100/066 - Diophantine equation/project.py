@@ -18,7 +18,6 @@ def main(m) :
 			d+=1
 			continue;
 		n = 0
-		print (d)
 
 		d+=1
 	return max
