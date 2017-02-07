@@ -41,6 +41,7 @@ def main(m) :
 		print ('q',q)
 		print ('P',P)
 		print ('Q',Q)
+		d+=1;
 	return max
 
 print(main(sys.argv[1]))
