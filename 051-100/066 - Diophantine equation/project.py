@@ -32,7 +32,7 @@ def q_n(n,a,q):
 	if n == 0:
 		q[n] = 1;
 		return q[n]
-	if(n === 1){
+	if n == 1:
 		q[n] = new BigNumber(a[1]);
 		return q[n];
 	}
