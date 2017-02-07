@@ -1,6 +1,17 @@
 import math
 import sys
+def a(d):
+	return int(math.floor(math.sqrt(d)))
+def a_n(a,P,Q):
+	return int(math.floor((a + P)/Q))
+def P_n(a,Q,P):
+	return a*Q-P;
+def Q_n(d,P,Q):
+	return (d - int(math.pow(P,2)))/Q
+def D(a,p1,p2):
+	return a*p1 + p2
 def diophantine (x,y,d):
+	# print x*x - d*y*y
 	if x*x - d*y*y == 1:
 		return True
 	return False
