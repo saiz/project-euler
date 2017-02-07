@@ -9,3 +9,4 @@ def main() :
 	return;
 
 main()
+a_n(0,[],0,0,0)
