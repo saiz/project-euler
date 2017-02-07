@@ -28,7 +28,7 @@ def main(m) :
 		P['m'] = 0
 		P['n'] = a['m']
 		Q['m'] = 1
-		q['n'] = d
+		q['n'] = d math.
 
 		d+=1
 	return max
