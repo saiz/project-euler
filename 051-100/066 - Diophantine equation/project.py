@@ -37,7 +37,7 @@ def main(m) :
 		a1 = a_n(a(d),P1,Q1)
 		p1 = a0*a1 + 1
 		q1 = a1
-		if()
+		if(diophantine(q))
 		d+=1;
 	return max
 
