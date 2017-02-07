@@ -1,7 +1,7 @@
 def a_n(n,d,a,P,Q):
 	try:
 		return a[n]
-	pri
+	print("here")
 	return;
 
 def main() :
