@@ -1,7 +1,7 @@
 import math
 import sys
 def a_n(a,P,Q):
-	return int(Math.floor((a + p)/Q['n']))
+	return int(Math.floor((a + p)/Q))
 
 def diophantine (x,y,d):
 	if x*x - d*y*y == 1:
