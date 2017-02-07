@@ -57,8 +57,8 @@ def P_n(n,d,a,P,Q):
 	return P[n]
 def diophantine (x,y,d):
 	if x*x - d*y*y == 1:
-		return true
-	return false
+		return True
+	return False
 
 def main(m) :
 	d =2
