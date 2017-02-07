@@ -65,7 +65,7 @@ def P_n(n,d,a,P,Q):
 	P[n] = a[n-1]*Q[n-1] - P[n-1]
 	return P[n]
 def diophantine (x,y,d):
-	ifx*x - d*y*y == 1):s
+	if x*x - d*y*y == 1:
 		return true
 	return false
 
