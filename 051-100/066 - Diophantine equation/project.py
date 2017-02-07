@@ -70,8 +70,7 @@ def diophantine (x,y,d):
 		return true
 	return false
 
-def main(,) :
-	m = sys.argv[0]
+def main(m) :
 	print(m)
 	return;
 
