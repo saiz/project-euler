@@ -1,4 +1,4 @@
-def main(m) :
+def main() :
 	print("This line will be printed.")
 	return
 
