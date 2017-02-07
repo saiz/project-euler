@@ -18,7 +18,7 @@ def p_n(n,a,p):
 	if n == 1:
 		p[n] = a[0]*a[1] +1;
 		return p[n]
-	p[n] = a[n]*p[n-1] +p[n-2];
+	p[n] = a[n]*p[n-1] + p[n-2];
 	return p[n];
 
 def q_n(n,a,q):
@@ -30,7 +30,7 @@ def q_n(n,a,q):
 	if n == 1:
 		q[n] = a[1]
 		return q[n]
-	q[n] = a[n]*q[n-1] +q[n-2]
+	q[n] = a[n]*q[n-1] + q[n-2]
 	return q[n]
 
 def Q_n(n,d,a,P,Q):
