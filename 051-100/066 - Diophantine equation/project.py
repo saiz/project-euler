@@ -14,7 +14,8 @@ def main(m) :
 		'd':0
 	}
 	while d <= m:
-		if math.sqrt(d)%1 != 0:
+		if math.sqrt(d)%1 == 0:
+			continue;
 			n = 0
 			a = {}
 			p = {}
