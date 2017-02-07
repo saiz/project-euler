@@ -52,6 +52,24 @@ def Q_n(n,d,a,P,Q):
 		return Q[n]
 	Q[n] = (d - math.pow(P[n],2))/Q[n-1]
 	return Q[n]
+def P_n(n,d,a,P,Q){
+	try:
+		return Q[n]
+	except IndexError:
+		pass
+	if(n === 0){
+		//P[n] = 0;
+		P[n] =  new BigNumber(0);
+		return P[n];
+	}
+	if(n === 1){
+		P[n] = a[0];
+		return P[n];
+	}
+	//P[n] = a[n-1]*Q[n-1] - P[n-1];
+	P[n] = new BigNumber(a[n-1].times(Q[n-1]).minus(P[n-1]));
+	return P[n];
+}
 
 def main() :
 	print("This line will be printed.")
