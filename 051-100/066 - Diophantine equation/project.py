@@ -8,6 +8,6 @@ def main() :
 	print("This line will be printed.")
 	return;
 
-arr = []
+arr = [1]
 main()
 a_n(0,arr,0,0,0)
