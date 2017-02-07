@@ -40,7 +40,7 @@ def main(m) :
 		if diophantine(p0,q0,d):
 			x = p0
 			y = q0
-el
+		else
 
 		d+=1;
 	return max
