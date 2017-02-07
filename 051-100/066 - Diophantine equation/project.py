@@ -1,6 +1,6 @@
 def a_n(n,d,a,P,Q):
 	if a[n]:
-		continue.log(a[n])
+		print(a[n])
 
 	return;
 
