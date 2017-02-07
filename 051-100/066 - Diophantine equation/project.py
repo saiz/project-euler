@@ -44,21 +44,22 @@ def main(m) :
 		q['n'] = a['n']
 		x = p['n']
 		y = q['n']
-		while not( diophantine(x,y,d)):
-			P['m'] = P['n']
-			P['n'] = P_n(a['n'],Q['n'],P['n'])
-			Q['m'] = Q['n']
-			Q['n'] = Q_n(d,P['n'],Q['n'])
-			a['m'] = a['n']
-			a['n'] = a_n(a_0,P['n'],Q['n'])
-			temp = D(a['n'],p['n'],p['m'])
-			p['m'] = p['n']
-			p['n'] = temp
-			temp = D(a['n'],q['n'],q['m'])
-			q['m'] = q['n']
-			q['n'] = temp
-			x = p['n']
-			y = q['n']
+		if not(diophantine(p['m'],p['m'],d)):
+			while not( diophantine(x,y,d)):
+				P['m'] = P['n']
+				P['n'] = P_n(a['n'],Q['n'],P['n'])
+				Q['m'] = Q['n']
+				Q['n'] = Q_n(d,P['n'],Q['n'])
+				a['m'] = a['n']
+				a['n'] = a_n(a_0,P['n'],Q['n'])
+				temp = D(a['n'],p['n'],p['m'])
+				p['m'] = p['n']
+				p['n'] = temp
+				temp = D(a['n'],q['n'],q['m'])
+				q['m'] = q['n']
+				q['n'] = temp
+				x = p['n']
+				y = q['n']
 		if max['x'] < x:
 			max['x'] = x
 			max['d'] = d
