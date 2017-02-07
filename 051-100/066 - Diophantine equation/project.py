@@ -46,7 +46,6 @@ def Q_n(n,d,a,P,Q):
 	if n == 0:
 		Q[n] = 1;
 		return Q[n]
-
 	if n == 1:
 		Q[n] = d - math.pow(a[0],2)
 		return Q[n]
@@ -59,7 +58,7 @@ def P_n(n,d,a,P,Q):
 		pass
 	if n == 0:
 		P[n] = 0
-		return P[n];
+		return P[n]
 	if(n === 1){
 		P[n] = a[0];
 		return P[n];
