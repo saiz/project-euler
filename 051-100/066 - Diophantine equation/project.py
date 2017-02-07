@@ -25,7 +25,8 @@ def main(m) :
 		# m = n-1 , n
 		a['m'] = int(math.floor(math.sqrt(d)))
 		P['m'] = 0
-		P['m'] =a
+		P['n'] = a['m']
+
 		d+=1
 	return max
 
