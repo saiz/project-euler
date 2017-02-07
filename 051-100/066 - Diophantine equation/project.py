@@ -54,8 +54,8 @@ def main(m) :
 				p0 = p1
 				p1 = temp
 				temp =a1*q1 + q0
-				p0 = q1
-				p1 = temp
+				q0 = q1
+				q1 = temp
 
 
 
