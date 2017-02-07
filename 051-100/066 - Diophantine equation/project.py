@@ -25,9 +25,10 @@ def p_n(n,a,p):
 	return p[n];
 
 def q_n(n,a,q):
-	if(q[n] != undefined){
-		return q[n];
-	}
+	try:
+		return q[n]
+	except IndexError:
+		pass
 	if(n === 0){
 		//q[n] = 1;
 		q[n] = new BigNumber(1);
