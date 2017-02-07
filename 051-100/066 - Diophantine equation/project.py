@@ -5,8 +5,7 @@ def a_n(n,d,a,P,Q):
 	except IndexError:
 		pass
 	if n == 0:
-		a[n] = math.floor( math.sqrt( d ) )
-		return a[n]
+		return a[n] = math.floor( math.sqrt( d ) )
 	a[n] = math.floor((a[0]+P[n])/Q[n])
 	return a[n]
 
