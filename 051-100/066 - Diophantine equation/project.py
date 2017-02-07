@@ -76,7 +76,8 @@ def main(m) :
 		'x':0,
 		'd':0
 	}
-	print(max)
+	while d <= m:
+		if math.sqrt(d)%1
 
 	return m
 
