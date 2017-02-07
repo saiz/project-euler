@@ -34,7 +34,7 @@ def main(m) :
 		a['n'] = a_n(a_0,P['n'],Q['n'])
 		p['m'] = a_0
 		p['n'] = a['m']*a['n'] + 1
-
+		q['m']
 		while( not diophantine())
 	return max
 
