@@ -43,26 +43,21 @@ def main(m) :
 		p['n'] = a['m']*a['n'] + 1
 		q['m'] = 0
 		q['n'] = a['n']
-		while(not diophantine(p['n'],q['n'],d)){
+		x
+		while not diophantine(p['n'],q['n'],d):
 			P['m'] = P['n']
-			P['n'] = P_n(a[''],Q['m'],P['m'])
+			P['n'] = P_n(a['n'],Q['n'],P['m'])
 			Q['m'] = Q['n']
-			Q['n'] = Q_n(d,P['n'],Q['m'])
-			temp = a_n(a_0,P['n'],Q['n'])
+			Q['n'] = Q_n(d,P['n'],Q['n'])
 			a['m'] = a['n']
-			a['n'] = temp
+			a['n'] = a_n(a_0,P['n'],Q['n'])
 			temp = p_n(a['n'],P['n'],P['m'])
 			p['m'] = p['n']
 			p['n'] = temp
 			temp = q_n(a['n'],Q['n'],Q['m'])
 			q['m'] = q['n']
 			q['n'] = temp
-		}
-		print ('a',a)
-		print ('p',p)
-		print ('q',q)
-		print ('P',P)
-		print ('Q',Q)
+		print(d)
 		d+=1;
 	return max
 
