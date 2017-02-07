@@ -48,6 +48,7 @@ def main(m) :
 				P1 = a1*Q1 - P1
 				Q0 = Q1
 				Q1 = (d - int(math.pow(P1,2)))/Q1
+				a1 = a_n(a(d),P1,Q1)
 
 
 
