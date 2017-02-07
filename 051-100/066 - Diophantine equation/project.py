@@ -74,3 +74,5 @@ def main() :
 	m = sys.argv[0]
 	print(m)
 	return;
+
+main()
