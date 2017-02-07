@@ -31,8 +31,7 @@ def main(m) :
 		Q['m'] = 1
 		q['n'] = d math.pow(a_0,2)
 		a['m'] = a_0
-		a['n'] = a_n(a_0,P['n'],Q['n']) int(Math.floor((a_0 + P['n'])/Q['n']))
-		d+=1
+		a['n'] = a_n(a_0,P['n'],Q['n'])
 	return max
 
 print(main(sys.argv[1]))
