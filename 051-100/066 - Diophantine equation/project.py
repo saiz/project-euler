@@ -52,8 +52,8 @@ def main(m) :
 			a['m'] = a['n']
 			a['n'] = temp
 			temp = p_n(a['n'],P['n'],P['m'])
-			a['m'] = a['n']
-			a['n'] = temp
+			p['m'] = p['n']
+			p['n'] = temp
 		}
 		print ('a',a)
 		print ('p',p)
