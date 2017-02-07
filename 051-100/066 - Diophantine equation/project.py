@@ -97,6 +97,7 @@ def main(m) :
 				a_n(n,d,a,P,Q)
 				x = p_n(n,a,p)
 				y = q_n(n,a,q)
+				print(x,y)
 				n+=1;
 			if max['x'] < x:
 				max['x'] = x
