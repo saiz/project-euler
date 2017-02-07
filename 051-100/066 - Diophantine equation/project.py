@@ -1,6 +1,6 @@
 def a_n(n,d,a,P,Q):
 	try:
-		co
+		print
 	except IndexError:
 		print "No item at ", i
 
