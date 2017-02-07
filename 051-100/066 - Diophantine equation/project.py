@@ -72,6 +72,11 @@ def diophantine (x,y,d):
 
 def main(m) :
 	d =2
+	max = {
+		x:0,
+		d:0
+	}
+	print(max)
 
 	return m
 
