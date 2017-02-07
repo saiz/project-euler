@@ -57,6 +57,7 @@ def P_n(n,d,a,P,Q):
 		return P[n]
 	except IndexError:
 		pass
+	print P, n
 	if n == 0:
 		P[n] = 0
 		return P[n]
