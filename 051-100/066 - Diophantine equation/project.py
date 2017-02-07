@@ -75,7 +75,6 @@ def main(m) :
 			q = {}
 			P = {}
 			Q = {}
-			print('Q',len(Q))
 			P_n(n,d,a,P,Q)
 			Q_n(n,d,a,P,Q)
 			a_n(n,d,a,P,Q)
@@ -89,6 +88,7 @@ def main(m) :
 				x = p_n(n,a,p)
 				y = q_n(n,a,q)
 				n+=1;
+			print('Q',len(Q))
 			if max['x'] < x:
 				max['x'] = x
 				max['d'] = d
