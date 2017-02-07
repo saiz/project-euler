@@ -56,11 +56,7 @@ def main(m) :
 			temp = q_n(a['n'],Q['n'],Q['m'])
 			q['m'] = q['n']
 			q['n'] = temp
-		print ('a',a)
-		print ('p',p)
-		print ('q',q)
-		print ('P',P)
-		print ('Q',Q)
+		print(d)
 		d+=1;
 	return max
 
