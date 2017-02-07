@@ -18,7 +18,7 @@ def main(m) :
 			d+=1
 			continue
 		a = {}
-		a['m'] =
+		a['m'] = int(math.floor(math.sqrt(d)))
 		q = {}
 		p = {}
 		P = {}
