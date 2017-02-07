@@ -60,7 +60,8 @@ def main(m) :
 				y = q1
 		if max['x'] < x:
 			max['x'] = x
-			max['d'] =
+			max['d'] = d
+			print max
 		d+=1;
 	return max
 
