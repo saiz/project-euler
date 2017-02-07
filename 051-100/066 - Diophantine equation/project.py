@@ -38,7 +38,7 @@ def main(m) :
 		p1 = a0*a1 + 1
 		q1 = a1
 		if diophantine(p0,q0,d):
-
+			x
 			while
 
 		d+=1;
