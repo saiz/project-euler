@@ -41,7 +41,7 @@ def main(m) :
 			x = p0
 			y = q0
 		else:
-			while not d
+			while not diophantine(x,y,d):
 
 		d+=1;
 	return max
