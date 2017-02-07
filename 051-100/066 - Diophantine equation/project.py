@@ -43,7 +43,7 @@ def main(m) :
 		p['n'] = a['m']*a['n'] + 1
 		q['m'] = 0
 		q['n'] = a['n']
-		x
+		x =
 		while not diophantine(p['n'],q['n'],d):
 			P['m'] = P['n']
 			P['n'] = P_n(a['n'],Q['n'],P['m'])
