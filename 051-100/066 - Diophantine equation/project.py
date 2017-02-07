@@ -3,6 +3,7 @@ def a_n(n,d,a,P,Q):
 		return a[n]
 	except IndexError:
 		print("This line will be printed.")
+
 	return;
 
 def main() :
