@@ -24,8 +24,8 @@ def p_n(n,a,p):
 	p[n] = a[n]*p[n-1] +p[n-2];
 	return p[n];
 
-function q_n(n,a,q){
-	if(q[n] !== undefined){
+def q_n(n,a,q):
+	if(q[n] != undefined){
 		return q[n];
 	}
 	if(n === 0){
@@ -40,10 +40,6 @@ function q_n(n,a,q){
 	//q[n] = a[n]*q[n-1] +q[n-2];
 	q[n] = new BigNumber(a[n].times(q[n-1]).plus(q[n-2]));
 	return q[n];
-}
-
-
-
 
 def main() :
 	print("This line will be printed.")
