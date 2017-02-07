@@ -1,2 +1,5 @@
-print("This line will be printed.")
-def aa_n(n,d,a,P,Q):
+def main(m) :
+	print("This line will be printed.")
+	return
+
+main()
