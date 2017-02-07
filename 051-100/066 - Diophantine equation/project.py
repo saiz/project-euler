@@ -3,7 +3,7 @@ import sys
 def a_n(a,P,Q):
 	return int(math.floor((a + P)/Q))
 def p_n(a,Q,P):
-	return a*Q
+	return a*Q-P;
 def diophantine (x,y,d):
 	if x*x - d*y*y == 1:
 		return True
@@ -38,7 +38,7 @@ def main(m) :
 		q['m'] = 0
 		q['n'] = a['n']
 		while(not diophantine(p['n'],q['n'],d)){
-temp =
+			temp =p
 
 		}
 		print ('a',a)
