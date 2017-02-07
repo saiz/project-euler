@@ -23,11 +23,12 @@ def main(m) :
 		P = {}
 		Q = {}
 		# m = n-1 , n
+		a+
 		a['m'] = int(math.floor(math.sqrt(d)))
 		P['m'] = 0
 		P['n'] = a['m']
 		Q['m'] = 1
-		q['n'] = a['m']
+		q['n'] = d =
 
 		d+=1
 	return max
