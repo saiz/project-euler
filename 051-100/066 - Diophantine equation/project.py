@@ -50,10 +50,10 @@ def main(m) :
 			Q['n'] = Q_n(d,P['n'],Q['n'])
 			a['m'] = a['n']
 			a['n'] = a_n(a_0,P['n'],Q['n'])
-			temp = D(a['n'],P['n'],P['m'])
+			temp = D(a['n'],p['n'],p['m'])
 			p['m'] = p['n']
 			p['n'] = temp
-			temp = D(a['n'],Q['n'],Q['m'])
+			temp = D(a['n'],q['n'],q['m'])
 			q['m'] = q['n']
 			q['n'] = temp
 			x = p['n']
