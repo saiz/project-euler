@@ -39,8 +39,8 @@ def main(m) :
 		q1 = a1
 		if diophantine(p0,q0,d):
 			x = p0
-			y=
-			while
+			y = q0
+el
 
 		d+=1;
 	return max
