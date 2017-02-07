@@ -32,7 +32,7 @@ def main(m) :
 		q['n'] = d math.pow(a_0,2)
 		a['m'] = a_0
 		a['n'] = a_n(a_0,P['n'],Q['n'])
-		while( not dia)
+		while( not diophantine())
 	return max
 
 print(main(sys.argv[1]))
