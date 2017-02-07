@@ -6,7 +6,7 @@ def a_n(n,d,a,P,Q):
 		pass
 	if n == 0:
 		a[n] = math.floor( math.sqrt( d ) )
-	return;
+	return math.floor((a[0]+P[n])/Q[n]);
 
 def main() :
 	print("This line will be printed.")
