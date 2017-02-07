@@ -17,6 +17,7 @@ def main(m) :
 		if math.sqrt(d)%1 == 0:
 			d+=1
 			continue
+		a = {}
 		a_0 = int(math.floor(math.sqrt(d)))
 		p_0 = a_0;
 		q_0= 1
