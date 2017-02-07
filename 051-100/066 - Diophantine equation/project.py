@@ -46,7 +46,7 @@ def main(m) :
 			while not diophantine(x,y,d):
 				P0 = P1
 				P1 = a1*Q1 - P1
-				Q0
+				Q0 =
 
 
 		d+=1;
