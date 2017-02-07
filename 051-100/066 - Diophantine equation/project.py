@@ -25,7 +25,7 @@ def main(m) :
 		if math.sqrt(d)%1 == 0:
 			d+=1
 			continue
-
+		a
 		d+=1;
 	return max
 
