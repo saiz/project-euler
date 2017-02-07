@@ -41,6 +41,7 @@ def main(m) :
 			x = p0
 			y = q0
 		else:
+x =
 			while not diophantine(x,y,d):
 
 		d+=1;
