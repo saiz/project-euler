@@ -17,7 +17,7 @@ def main(m) :
 		if math.sqrt(d)%1 == 0:
 			d+=1
 			continue
-		a_0 = math.floor(math.sqrt(d))
+		a_0 = int(math.floor(math.sqrt(d)))
 		print(a_0)
 		d+=1
 	return max
