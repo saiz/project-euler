@@ -60,6 +60,9 @@ def main(m) :
 				q['n'] = temp
 				x = p['n']
 				y = q['n']
+		else:
+			x = p['m']
+			y = q['m']
 		if max['x'] < x:
 			max['x'] = x
 			max['d'] = d
