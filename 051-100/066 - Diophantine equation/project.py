@@ -48,6 +48,7 @@ def main(m) :
 				P1 = a1*Q1 - P1
 
 
+
 		d+=1;
 	return max
 
