@@ -45,7 +45,7 @@ def main(m) :
 		q['n'] = a['n']
 		x = p['n']
 		y = q['n']
-		while not diophantine(x,q['n'],d):
+		while not diophantine(x,y,d):
 			P['m'] = P['n']
 			P['n'] = P_n(a['n'],Q['n'],P['m'])
 			Q['m'] = Q['n']
@@ -58,6 +58,8 @@ def main(m) :
 			temp = q_n(a['n'],Q['n'],Q['m'])
 			q['m'] = q['n']
 			q['n'] = temp
+			x = p['n']
+			y = q['n']
 		print(d)
 		d+=1;
 	return max
