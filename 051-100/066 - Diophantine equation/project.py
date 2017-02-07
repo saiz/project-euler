@@ -99,9 +99,9 @@ def main(m) :
 				y = q_n(n,a,q)
 				n+=1;
 			if max['x'] < x:
-
 				max['x'] = x
 				max['d'] = d
+				print(max)
 		d+=1
 	return max
 
