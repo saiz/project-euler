@@ -1,6 +1,6 @@
 import math
 import sys
-a_n
+def a_n:(a,P,Q)
 
 def diophantine (x,y,d):
 	if x*x - d*y*y == 1:
