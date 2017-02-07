@@ -1,7 +1,7 @@
 import math
 import sys
 def a_0(a,P,Q):
-
+ret
 def a_n(a,P,Q):
 	return int(math.floor((a + P)/Q))
 def P_n(a,Q,P):
