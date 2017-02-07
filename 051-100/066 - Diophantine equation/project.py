@@ -1,4 +1,5 @@
 import math
+import sys
 def a_n(n,d,a,P,Q):
 	try:
 		return a[n]
@@ -70,5 +71,5 @@ def diophantine (x,y,d):
 	return false
 
 def main() :
-	print("This line will be printed.")
+	m = sys.argv[0]
 	return;
