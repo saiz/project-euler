@@ -28,7 +28,7 @@ def main(m) :
 		P['m'] = 0
 		P['n'] = a['m']
 		Q['m'] = 1
-		q['n'] = d math.pow(a_0,2)
+		Q['n'] = d - math.pow(a_0,2)
 		a['m'] = a_0
 		a['n'] = a_n(a_0,P['n'],Q['n'])
 		p['m'] = a_0
