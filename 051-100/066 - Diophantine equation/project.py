@@ -19,7 +19,7 @@ def main(m) :
 		n = 0
 		print (d)
 
-	d+=1
+		d+=1
 	return max
 
 print(main(sys.argv[1]))
