@@ -1,8 +1,11 @@
+import math
 def a_n(n,d,a,P,Q):
 	try:
 		return a[n]
 	except IndexError:
 		pass
+	if n == 0:
+		a[n] = math.floor( math.sqrt( d ) )
 
 	print("This line will be printed.")
 	return;
