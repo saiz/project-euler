@@ -24,8 +24,6 @@ def main(m) :
 		P = {}
 		Q = {}
 		# m = n-1 , n
-		a[0] = int(math.floor(math.sqrt(d)))
-
 		d+=1
 	return max
 
