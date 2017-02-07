@@ -74,4 +74,4 @@ def main(m) :
 	print(m)
 	return;
 
-main(sys.argv[0])
+main(sys.argv[1])
