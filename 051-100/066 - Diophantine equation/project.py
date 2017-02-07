@@ -40,10 +40,10 @@ def q_n(n,a,q):
 
 def Q_n(n,d,a,P,Q):
 	try:
-		return A[n]
+		return Q[n]
 	except IndexError:
 		pass
-	if(n === 0){
+	if(n === 0)
 		//Q[n] = 1;
 		Q[n]= new BigNumber(1);
 		return Q[n];
