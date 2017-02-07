@@ -15,6 +15,7 @@ def main(m) :
 	}
 	while d <= m:
 		if math.sqrt(d)%1 == 0:
+			d+=1
 			continue;
 		n = 0
 		print (d)
