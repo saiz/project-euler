@@ -35,7 +35,7 @@ def q_n(n,a,q):
 	if n == 1:
 		q[n] = a[1]
 		return q[n]
-	q[n] = a[n]*q[n-1] +q[n-2];
+	q[n] = a[n]*q[n-1] +q[n-2]
 	return q[n]
 
 def main() :
