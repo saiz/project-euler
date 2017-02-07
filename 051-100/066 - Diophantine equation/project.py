@@ -38,11 +38,11 @@ def q_n(n,a,q):
 	q[n] = a[n]*q[n-1] +q[n-2]
 	return q[n]
 
-def Q_n(n,d,a,P,Q){
-	var temp, temp2;
-	if(Q[n] !== undefined){
-		return Q[n];
-	}
+def Q_n(n,d,a,P,Q):
+	try:
+		return A[n]
+	except IndexError:
+		pass
 	if(n === 0){
 		//Q[n] = 1;
 		Q[n]= new BigNumber(1);
