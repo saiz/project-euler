@@ -1,4 +1,6 @@
-def function a_n(n,d,a,P,Q):
+def a_n(n,d,a,P,Q):
+	if a[n];
+		continue.log(a[n])
 
 	return;
 
