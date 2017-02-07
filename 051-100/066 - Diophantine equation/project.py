@@ -52,7 +52,7 @@ def Q_n(n,d,a,P,Q):
 		return Q[n]
 	Q[n] = (d - math.pow(P[n],2))/Q[n-1]
 	return Q[n]
-def P_n(n,d,a,P,Q){
+def P_n(n,d,a,P,Q):
 	try:
 		return Q[n]
 	except IndexError:
