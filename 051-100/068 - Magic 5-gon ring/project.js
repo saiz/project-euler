@@ -63,7 +63,7 @@ function check(arr) {
 	if(val(arr[1])!==n){
 		return false;
 	}
-	return
+	return true;
 }
 function main() {
 	'use strict';
