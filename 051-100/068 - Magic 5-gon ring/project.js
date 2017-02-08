@@ -41,7 +41,7 @@ function create_matrix(arr,matrix,n){
 }
 function main() {
 	'use strict';
-	var arr = create_array(1,9),
+	var arr = create_array(1,10),
 		matrix;
 	while(nextPerm(arr)){
 		matrix = [];
