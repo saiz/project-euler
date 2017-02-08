@@ -56,18 +56,10 @@ function val(str){
 function check(arr, n) {
 	var i = 0;
 	while( i<arr.length){
-		if(val(arr[0])!==n){
-						return false;
-					}
-	}
-	if(val(arr[0])!==n){
-		return false;
-	}
-	if(val(arr[1])!==n){
-		return false;
-	}
-	if(val(arr[2])!==n){
-		return false;
+		if(val(arr[i])!==n){
+			return false;
+		}
+		i+=1;
 	}
 	return true;
 }
