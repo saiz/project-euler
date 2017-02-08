@@ -47,7 +47,7 @@ function len(n){
 }
 function main() {
 	'use strict';
-	var n = 9,
+	var n = 10,
 		m = 5,
 		d = 3,
 		min = len(d) + m,
