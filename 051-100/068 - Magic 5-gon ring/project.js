@@ -29,10 +29,10 @@ function main() {
 		d = 3, // length of comb
 		min = len(d) + m,
 		max = len2(n,3),
-		i = min;
+		i = min, arr;
 		while(i <= max){
-			//console.log(i);
 			arr = comb(i);
+
 			i+=1;
 		}
 
