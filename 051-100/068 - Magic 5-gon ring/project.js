@@ -45,7 +45,7 @@ function sort(arr,n){
 		matrix=[];
 	while(i<arr.length){
 		if(matrix[arr[i][0]]){
-			matrix[arr[i][0]] = [];
+			matrix[n -arr[i][0]] = [];
 		}
 		c
 		matrix[arr[i][0]].push(arr[i][0]);
