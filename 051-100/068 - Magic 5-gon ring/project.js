@@ -60,8 +60,17 @@ function gen_n(n) {
 	}
 	return parseInt(str,10);
 }
-function check_dup(n){
+function noDups( s ) {
+  var chars = {}, rv = '';
 
+  for (var i = 0; i < s.length; ++i) {
+    if (!(s[i] in chars)) {
+      chars[s[i]] = 1;
+      rv += s[i];
+    }
+  }
+
+  return rv;
 }
 function main() {
 	'use strict';
