@@ -43,10 +43,13 @@ function hashmap(m,n){
 	return hash;
 }
 function limit(hash,){
-	var key;
-	for( key in hash){
-		console.log(hash[key])
+	var key,
+	copy = hash.slice(0)
+	for( key in copy){
+		i
+		console.log(copy[key])
 	}
+	return copy
 }
 function main() {
 	'use strict';
