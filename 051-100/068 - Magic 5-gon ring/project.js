@@ -28,6 +28,7 @@ function main() {
 		min = len(d) + m,
 		max = len2(n,3),
 		i = min;
+		comb(i)
 		while(i <= max){
 			console.log(i);
 			i+=1;
