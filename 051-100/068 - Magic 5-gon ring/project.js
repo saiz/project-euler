@@ -41,13 +41,8 @@ function create_matrix(arr,matrix,n){
 }
 function main() {
 	'use strict';
-	var arr = create_array(1,6),
-		matrix;
-	while(nextPerm(arr)){
-		matrix = [];
-		create_matrix(arr,matrix,3);
-		console.log(matrix);
-	}
+	var max = 9,
+		min = 1;
 
 	return;
 }
