@@ -30,6 +30,7 @@ function hashmap(m){
 		for(j=0;j<m[i].length;j+=1){
 			for(k=0;k<m[i].length;k+=1){
 				if(m[i][j] !== m[i][k]){
+
 					console.log(m[i][j], m[i][k]);
 				}
 			}
