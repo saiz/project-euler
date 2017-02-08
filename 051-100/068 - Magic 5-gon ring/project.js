@@ -24,7 +24,6 @@ function comb (m, n){
 	}
 	i=0;
 	while(i < arr.length){
-
 		arr[i].sort();
 		i+=1;
 	}
