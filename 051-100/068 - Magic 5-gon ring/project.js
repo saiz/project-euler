@@ -47,7 +47,7 @@ function limit(hash,n){
 	copy = hash.slice(0)
 	for( key in copy){
 			if (key > n/2){
-
+			delete copy[key]
 			}
 		console.log(copy[key])
 	}
