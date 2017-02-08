@@ -10,7 +10,7 @@ function len2(n,m){
 	}
 	return  n + len2(n-1, m-1);
 }
-function comb (n){
+function comb (n, m){
 	var arr = [],
 		i,j;
 	for(i=1;i<n-3;i+=1){
