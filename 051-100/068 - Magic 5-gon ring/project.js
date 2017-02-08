@@ -30,7 +30,7 @@ function hashmap(m){
 		for(j=0;j<m[i].length;j+=1){
 			for(k=0;k<m[i].length;k+=1){
 				console.log(m[i][j], m[i][k]);
-				hash[m[i][j]].p
+				hash[m[i][j]].push
 			}
 			console.log("--")
 
