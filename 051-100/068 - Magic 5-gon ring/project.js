@@ -47,8 +47,8 @@ function len(n){
 }
 function main() {
 	'use strict';
-	var n =9,
-		m = 3,
+	var n = 10,
+		m = 5,
 		d = 3,
 		min = len(d),
 		max = m*(n-d) - len(d);
