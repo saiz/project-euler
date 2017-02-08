@@ -47,10 +47,10 @@ function len(n){
 }
 function main() {
 	'use strict';
-	var n = 10,
-		m = 5,
+	var n = 9, //
+		m = 3,
 		d = 3,
-		min = len(d) + m,
+		min = len(d) +m,
 		max = m*(n-d) - len(d);
 		console.log(min, max);
 
