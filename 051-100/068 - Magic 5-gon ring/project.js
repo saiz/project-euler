@@ -11,12 +11,12 @@ function comb (m, n){
 		}
 	}
 	i=0;
-	while(i < arr.length){
-		arr[i].sort(function(a, b) {
-			return b - a;
-		});
-		i+=1;
-	}
+	// while(i < arr.length){
+	// 	arr[i].sort(function(a, b) {
+	// 		return b - a;
+	// 	});
+	// 	i+=1;
+	// }
 	return arr;
 }
 
