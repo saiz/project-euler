@@ -47,7 +47,7 @@ function sort(arr,n){
 		if(matrix[n - arr[i][0]] === undefined){
 			matrix[n - arr[i][0]] = [];
 		}
-		matrix[n - arr[i][0]].push(arr[i][0]);
+		matrix[n - arr[i][0]].push(arr[i]);
 		i+=1;
 	}
 	return matrix;
