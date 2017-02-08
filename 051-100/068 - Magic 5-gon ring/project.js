@@ -42,6 +42,12 @@ function hashmap(m,n){
 	}
 	return hash;
 }
+function limit(hash){
+	var key;
+	for( key in hash){
+		console.log(has[key])
+	}
+}
 function main() {
 	'use strict';
 	var n = 10, // number 1 - n
@@ -50,7 +56,8 @@ function main() {
 		len = 16,
 		matrix = comb(n, len),
 		dict = hashmap(matrix,n);
-		console.log(dict);
+		limit(dict);
+	//	console.log(dict);
 
 	return;
 }
