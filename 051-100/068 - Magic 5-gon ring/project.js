@@ -32,7 +32,6 @@ function hashmap(m){
 				console.log(m[i][j], m[i][k]);
 			}
 			console.log("--")
-
 		}
 	}
 
