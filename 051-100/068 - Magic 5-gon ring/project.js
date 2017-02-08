@@ -13,10 +13,10 @@ function len2(n,m){
 function comb (n, m){
 	var arr = [],
 		i,j;
-	for(i=1;i<=m;i+=1){
+	for(i=1;i<=n;i+=1){
 		for(j=1;j<i;j+=1){
-			if(m-i-j > 0){
-				arr.push([i,j,m-i-j]);
+			if(n-i-j > 0){
+				arr.push([i,j,n-i-j]);
 			}
 		}
 	}
