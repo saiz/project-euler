@@ -53,7 +53,7 @@ function limit(hash){
 function val(str){
 	return parseInt(str[0],10) +parseInt(str[1],10)+parseInt(str[2],10);
 }
-function check(arr) {
+function check(arr, n) {
 	if(val(arr[0])!==n){
 		return false;
 	}
@@ -80,6 +80,7 @@ function main() {
 			str =String(i);
 			arr  = [str.slice(0,3),str.slice(3,6),str.slice(6,9)];
 		//	console.log(arr);
+		if(check)
 			console.log([val(arr[0]),val(arr[1]),val(arr[2])])
 			i+=1;
 		}
