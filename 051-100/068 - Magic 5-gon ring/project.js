@@ -24,7 +24,7 @@ function comb (m, n){
 	}
 	return arr;
 }
-function hashmap(m){
+function hashmap(m,){
 	var i, j, k,hash={};
 	for(i=0;i<m.length;i+=1){
 		for(j=0;j<m[i].length;j+=1){
@@ -33,7 +33,9 @@ function hashmap(m){
 					if(hash[m[i][j]] === undefined	){
 						hash[m[i][j]] = [];
 					}
-					hash[m[i][j]].push(m[i][k]);
+					if(m[i][j]] > n/2 ){
+						hash[m[i][j]].push(m[i][k]);
+					}
 				}
 			}
 			console.log("--")
@@ -49,7 +51,7 @@ function main() {
 		len = 17,
 		matrix = comb(n, len),
 		dict = {};
-		dict = hashmap(matrix);
+		dict = hashmap(matrix,n);
 		console.log(matrix);
 		console.log(dict);
 		console.log(n,len);
