@@ -25,10 +25,11 @@ function comb (m, n){
 	return arr;
 }
 function hashmap(m){
-	var i, j,hash;
+	var i, j, k,hash;
 	for(i=0;i<m.length;i+=1){
 		for(j=0;j<m[i].length;j+=1){
-			console.log(m[i][j]);
+			for(k=0;k<m[i].length;k+=1){
+				console.log(m[i][j], m[i][k]);
 		}
 	}
 }
