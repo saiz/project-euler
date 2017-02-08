@@ -36,7 +36,7 @@ function create_matrix(arr,matrix,n){
 	var i = 0;
 	while(i <arr.length){
 		matrix.push(arr.slice(i,i+n));
-		i+=n
+		i+=n;
 	}
 }
 function main() {
