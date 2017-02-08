@@ -14,8 +14,8 @@ function comb (n){
 	var arr = [],
 		i,j;
 	for(i=1;i<n-3;i+=1){
-		for(j=1;j<i-1;j+=1){
-			console.log(i,j,n-i-j)
+		for(j=1;j<i;j+=1){
+			console.log(i,j,n-i-j);
 		}
 	}
 }
