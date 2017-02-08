@@ -54,12 +54,13 @@ function sort(arr,n){
 }
 function gen_n(n) {
 	var i , str = '';
-	while(i <n ){
+	while(i < n ){
 		str += String(i);
 		i+=1;
 	}
 	return parseInt(str,10);
 }
+
 function main() {
 	'use strict';
 	var n = 10, // number 1 - n
@@ -72,7 +73,7 @@ function main() {
 		arr = sort(matrix,n);
 		// dict = hashmap(matrix,n);
 		// limit(dict);
-		var j = 1234;
+		var j = gen_n(m);
 		for()
 
 		console.log(arr);
