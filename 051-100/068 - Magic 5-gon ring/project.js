@@ -54,6 +54,7 @@ function main() {
 		console.log(min)
 
 	return;
+}
 
 
 console.log(main(process.argv[2]));
