@@ -47,10 +47,10 @@ function limit(hash,n){
 	copy = hash;
 	for( key in copy){
 		if (parseInt(key,10) < n/2){
-			delete copy[key]
+			delete copy[key];
 		}
 	}
-	return copy
+	return copy;
 }
 function main() {
 	'use strict';
