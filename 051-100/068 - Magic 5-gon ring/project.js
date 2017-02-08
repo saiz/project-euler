@@ -18,7 +18,6 @@ function comb (n){
 				console.log(i,j,n-i-j)
 			}
 		}
-
 	}
 }
 function main() {
