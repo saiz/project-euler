@@ -51,7 +51,7 @@ function limit(hash){
 	return copy;
 }
 function val(str){
-	return
+	return p
 }
 function main() {
 	'use strict';
