@@ -63,7 +63,7 @@ function main() {
 		// limit(dict);
 		while(i < Math.pow(10,9)){
 			str =String(i);
-			arr  = []
+			arr  = [str]
 			console.log(i);
 			i+=1;
 		}
