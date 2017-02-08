@@ -105,7 +105,7 @@ function nextPerm(array){
 function main() {
 	'use strict';
 	var n = 10, // number 1 - n
-		m = 3, // number of pairs
+		m = 5, // number of pairs
 		d = 3, // length of comb
 		len = 16,
 		i =Math.pow(10,9),
