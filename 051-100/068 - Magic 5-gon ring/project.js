@@ -49,6 +49,7 @@ function len2(n,m){
 	if(m === 1){
 		return n;
 	}
+	console.log(n)
 	return  n + len(n-1, m-1);
 }
 function comb (n){
