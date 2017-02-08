@@ -42,11 +42,11 @@ function create_matrix(arr,matrix,n){
 function main() {
 	'use strict';
 	var n =9,
-	len
+		len = 3,
 		min = 1,
-		max = 3*n - 3;
+		max = len*n - 3;
 
 	return;
-}
+
 
 console.log(main(process.argv[2]));
