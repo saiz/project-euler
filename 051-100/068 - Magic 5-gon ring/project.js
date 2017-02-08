@@ -50,7 +50,9 @@ function limit(hash){
 	}
 	return copy;
 }
+function val(str){
 
+}
 function main() {
 	'use strict';
 	var n = 10, // number 1 - n
