@@ -63,7 +63,7 @@ function main() {
 		// limit(dict);
 		while(i < Math.pow(10,9)){
 			str =String(i);
-			arr  = [str]
+			arr  = [str.slice(03),str.slice(3)]
 			console.log(i);
 			i+=1;
 		}
