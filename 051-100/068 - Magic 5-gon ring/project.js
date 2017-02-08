@@ -32,8 +32,9 @@ function create_array(start,end){
 	}
 	return array;
 }
-function create_matrix(arr,n);
+function create_matrix(arr,n){
 
+}
 function main() {
 	'use strict';
 	var arr = create_array(1,9),
