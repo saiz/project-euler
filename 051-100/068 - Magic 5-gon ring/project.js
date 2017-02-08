@@ -26,8 +26,8 @@ function comb (m, n){
 }
 function main() {
 	'use strict';
-	var n = 10, // number 1 - n
-		m = 5, // number of pairs
+	var n = 6, // number 1 - n
+		m = 3, // number of pairs
 		d = 3, // length of comb
 		min = len(d) + m,
 		max = len2(n,3),
