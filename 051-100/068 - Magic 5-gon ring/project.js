@@ -44,12 +44,13 @@ function sort(arr,n){
 	var i =0,
 		matrix=[];
 	while(i<arr.length){
-		if(matrix[arr[i][0]]){
+		if(matrix[arr[i][0]]){;
 			matrix[arr[i][0]] = []
 		}
-		matrix[arr[i][0]].push(arr[i][0])
+		matrix[arr[i][0]].push(arr[i][0]);
 		i+=1;
 	}
+	return matrix;
 }
 
 function main() {
