@@ -35,12 +35,14 @@ function create_array(start,end){
 
 function main() {
 	'use strict';
-	var arr = create_array(1,9);
+	var arr = create_array(1,9),
+		matrix =[];
 	while(nextPerm(arr)){
+
 		console.log(arr);
 	}
 
-	return i;
+	return;
 }
 
 console.log(main(process.argv[2]));
