@@ -46,7 +46,7 @@ function limit(hash){
 	var key,
 	copy = hash;
 	for( key in copy){
-		console.log(key,copy[key].length,);
+		console.log(key,copy[key].length,copy[key]);
 	}
 	return copy;
 }
