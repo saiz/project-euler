@@ -102,22 +102,22 @@ function main() {
 		d = 3, // length of comb
 		len = 16,
 		i =Math.pow(10,9),
-		str, arr;
-		// matrix = comb(n, len),
+		str, arr,
+		matrix = comb(n, len),
 		// dict = hashmap(matrix,n);
 		// limit(dict);
-		while(i > 0){
-			str =String(i);
-			arr  = [str.slice(0,3),str.slice(3,6),str.slice(6,9)];
-			//console.log(arr);
-			if(check(arr,len)){
-				console.log([val(arr[0]),val(arr[1]),val(arr[2])]);
-				console.log(arr);
-				console.log("--")
-			}
-			i-=1;
+		// while(i > 0){
+		// 	str =String(i);
+		// 	arr  = [str.slice(0,3),str.slice(3,6),str.slice(6,9)];
+		// 	//console.log(arr);
+		// 	if(check(arr,len)){
+		// 		console.log([val(arr[0]),val(arr[1]),val(arr[2])]);
+		// 		console.log(arr);
+		// 		console.log("--")
+		// 	}
+		// 	i-=1;
 
-		}
+		// }
 		//console.log(dict);
 
 	return;
