@@ -47,6 +47,9 @@ function sort(arr,n){
 		if(matrix[arr[i][0]]){
 			matrix[arr[i][0]] = [];
 		}
+		config([.function() {
+
+		}])
 		matrix[arr[i][0]].push(arr[i][0]);
 		i+=1;
 	}
