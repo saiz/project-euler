@@ -34,7 +34,7 @@ function create_array(start,end){
 }
 function create_matrix(arr,matrix,n){
 	var i = 0;
-	while(i <arr.lenm)
+	while(i <arr.len)
 }
 function main() {
 	'use strict';
