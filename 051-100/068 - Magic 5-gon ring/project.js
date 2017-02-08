@@ -15,7 +15,7 @@ function comb (n){
 		i,j
 		for(i=1;i<n-3;i+=1){
 			for(j=1;j<i;j+=1){
-				console.log(i,.)
+				console.log(i,j,)
 			}
 		}
 
