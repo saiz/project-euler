@@ -16,7 +16,6 @@ function comb (n){
 	while( i < n){
 
 	}
-
 }
 function main() {
 	'use strict';
