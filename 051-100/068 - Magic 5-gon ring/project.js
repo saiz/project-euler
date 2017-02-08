@@ -46,7 +46,7 @@ function limit(hash,){
 	var key,
 	copy = hash.slice(0)
 	for( key in copy){
-		i
+			if
 		console.log(copy[key])
 	}
 	return copy
