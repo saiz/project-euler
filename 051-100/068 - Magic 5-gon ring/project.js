@@ -49,7 +49,6 @@ function main() {
 		d = 3, // length of comb
 		len = 9,
 		matrix = comb(n, len),
-		dict = {};
 		dict = hashmap(matrix,n);
 		console.log(dict);
 
