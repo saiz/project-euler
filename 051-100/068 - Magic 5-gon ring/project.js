@@ -56,9 +56,11 @@ function main() {
 		m = 3, // number of pairs
 		d = 3, // length of comb
 		len = 16,
-		matrix = comb(n, len),
-		dict = hashmap(matrix,n);
-		limit(dict);
+		i =Math.pow(10,9)
+		// matrix = comb(n, len),
+		// dict = hashmap(matrix,n);
+		// limit(dict);
+		while(i < Math	)
 		//console.log(dict);
 
 	return;
