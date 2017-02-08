@@ -40,7 +40,7 @@ function main() {
 		len = 9,
 		matrix = comb(n, len),
 		dict = {};
-
+	dict = hashmap(matrix);
 		console.log(matrix);
 		console.log(n,len);
 		console.log("---");
