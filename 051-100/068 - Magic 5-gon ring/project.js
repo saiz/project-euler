@@ -33,7 +33,7 @@ function hashmap(m){
 					if(hash[m[i][j]] === undefined	){
 						hash[m[i][j]] = [];
 					}
-					console.log(m[i][j], m[i][k]);
+					hash[m[i][j]].push(m[i][k]);
 				}
 			}
 			console.log("--")
