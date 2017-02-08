@@ -44,8 +44,6 @@ function main() {
 	var arr = create_array(1,9),
 		matrix =[];
 	while(nextPerm(arr)){
-
-		console.log(arr);
 		create_matrix(arr,matrix,3)
 	}
 
