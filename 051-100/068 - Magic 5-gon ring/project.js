@@ -65,8 +65,12 @@ function main() {
 		m = 3, // number of pairs
 		d = 3, // length of comb
 		min = len(d) + m,
-		max = len2(n,3);
-		console.log(min, max);
+		max = len2(n,3),
+		i = min;
+		while(i <= max){
+			console.log(i);
+			i+=1;
+		}
 
 	return;
 }
