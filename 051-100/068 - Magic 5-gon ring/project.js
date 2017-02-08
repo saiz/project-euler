@@ -60,7 +60,7 @@ function main() {
 		len = 16,
 		matrix = comb(n, len),
 		dict = hashmap(matrix,n),
-		obj = limit(dict,n);
+		//obj = limit(dict,n);
 		console.log(dict);
 
 	return;
