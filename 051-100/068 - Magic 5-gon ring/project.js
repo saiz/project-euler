@@ -60,7 +60,7 @@ function check(arr, n) {
 	if(val(arr[1])!==n){
 		return false;
 	}
-	if(val(arr[1])!==n){
+	if(val(arr[2])!==n){
 		return false;
 	}
 	return true;
