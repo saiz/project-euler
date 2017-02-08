@@ -42,7 +42,7 @@ function create_matrix(arr,matrix,n){
 function main() {
 	'use strict';
 	var arr = create_array(1,9),
-		matrix =[];
+		matrix;
 	while(nextPerm(arr)){
 		matrix = [];
 		create_matrix(arr,matrix,3);
