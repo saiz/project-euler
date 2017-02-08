@@ -33,6 +33,7 @@ function main() {
 		while(i <= max){
 			arr = comb(i, n);
 			console.log(arr);
+			console.log("---");
 			i+=1;
 		}
 
