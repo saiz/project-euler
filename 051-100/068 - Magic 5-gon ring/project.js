@@ -45,6 +45,7 @@ function len(n){
 	}
 	return  n + len(n-1);
 }
+function comb
 function main() {
 	'use strict';
 	var n = 9, // number 1 - n
