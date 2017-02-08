@@ -42,7 +42,7 @@ function hashmap(m,n){
 	}
 	return hash;
 }
-function limit(hash){
+function limit(hash,){
 	var key;
 	for( key in hash){
 		console.log(hash[key])
