@@ -55,7 +55,15 @@ function val(str){
 }
 function check(arr) {
 	if(val(arr[0])!==n){
-		}
+		return false;
+	}
+	if(val(arr[1])!==n){
+		return false;
+	}
+	if(val(arr[1])!==n){
+		return false;
+	}
+	return
 }
 function main() {
 	'use strict';
