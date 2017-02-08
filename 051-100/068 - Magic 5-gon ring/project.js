@@ -54,7 +54,7 @@ function val(str){
 	return parseInt(str[0],10) +parseInt(str[1],10)+parseInt(str[2],10);
 }
 function check(arr, n) {
-	var i;
+	var i = 0;
 	while()
 	if(val(arr[0])!==n){
 		return false;
