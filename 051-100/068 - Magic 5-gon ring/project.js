@@ -29,17 +29,12 @@ function main() {
 	var n = 10, // number 1 - n
 		m = 5, // number of pairs
 		d = 3, // length of comb
-		min = len(d) + m,
-		max = len2(n,3),
-		i = min, matrix;
-		while(i <= max){
-			matrix = comb(n, i);
-			if(matrix.length >= m){
-				console.log(matrix);
-				console.log(n,i);
-				console.log("---");
-			}
-			i+=1;
+		len = 16
+		matrix = comb(n, 16);
+		if(matrix.length >= m){
+			console.log(matrix);
+			console.log(n,i);
+			console.log("---");
 		}
 
 	return;
