@@ -48,7 +48,7 @@ function len(n){
 function main() {
 	'use strict';
 	var n = 9, // number 1 - n
-		m = 3, //
+		m = 3, //number of
 		d = 3,
 		min = len(d) +m,
 		max = m*(n-d) - len(d);
