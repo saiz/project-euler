@@ -37,7 +37,7 @@ function main() {
 	'use strict';
 	var arr = create_array(1,9);
 	while(nextPerm(arr)){
-console.log(arr)
+		console.log(arr);
 	}
 
 	return i;
