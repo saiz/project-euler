@@ -45,6 +45,12 @@ function len(n){
 	}
 	return  n + len(n-1);
 }
+function len2(n,m){
+	if(m === 0){
+		return n;
+	}
+	return  n + len(n-1, m-1);
+}
 function comb (n){
 	var arr = [],
 		i = 1;
