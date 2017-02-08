@@ -39,7 +39,7 @@ function hashmap(m){
 			console.log("--")
 		}
 	}
-//hash[m[i][j]].push(m[i][k]);
+	re
 }
 function main() {
 	'use strict';
