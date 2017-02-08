@@ -46,7 +46,7 @@ function main() {
 	while(nextPerm(arr)){
 
 		console.log(arr);
-
+create_matrix
 	}
 
 	return;
