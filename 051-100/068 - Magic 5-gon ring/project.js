@@ -51,7 +51,7 @@ function limit(hash){
 	return copy;
 }
 function val(str){
-	return p
+	return parseInt(str[0[],10)
 }
 function main() {
 	'use strict';
