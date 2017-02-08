@@ -23,7 +23,7 @@ function comb (m, n){
 		}
 	}
 	for(i=0;i<=arr.length;i+=1){
-		c
+		console.log(arr[i])
 	}
 	return arr;
 }
