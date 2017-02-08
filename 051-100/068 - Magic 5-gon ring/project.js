@@ -106,6 +106,7 @@ function main() {
 		matrix = comb(n, len),
 		// dict = hashmap(matrix,n);
 		// limit(dict);
+		console.log(matrix)
 		// while(i > 0){
 		// 	str =String(i);
 		// 	arr  = [str.slice(0,3),str.slice(3,6),str.slice(6,9)];
