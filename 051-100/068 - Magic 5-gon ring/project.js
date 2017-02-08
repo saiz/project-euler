@@ -60,7 +60,9 @@ function gen_n(n) {
 	}
 	return parseInt(str,10);
 }
-check_dup(n)
+functicheck_dup(n){
+
+}
 function main() {
 	'use strict';
 	var n = 10, // number 1 - n
