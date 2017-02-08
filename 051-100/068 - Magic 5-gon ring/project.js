@@ -70,6 +70,7 @@ function main() {
 	            for (  k = j + 1; k < n; k+=1 ) {
 	                for ( l = k + 1; l < n; l+=1 {
 	                    for ( m = l + 1; m < n; m+=1) {
+							for ( m = l + 1; m < n; m+=1) {
 
 	                    }
 	                }
