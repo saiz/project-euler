@@ -56,11 +56,14 @@ function main() {
 		m = 3, // number of pairs
 		d = 3, // length of comb
 		len = 16,
-		i =Math.pow(10,8)
+		i =Math.pow(10,8),
+		str
 		// matrix = comb(n, len),
 		// dict = hashmap(matrix,n);
 		// limit(dict);
 		while(i < Math.pow(10,9)){
+			stre
+			arr  = []
 			console.log(i);
 			i+=1;
 		}
