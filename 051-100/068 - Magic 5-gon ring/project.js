@@ -32,7 +32,7 @@ function create_array(start,end){
 	}
 	return array;
 }
-function create_matrix(arr,n){
+function create_matrix(arr,matrix,n){
 
 }
 function main() {
