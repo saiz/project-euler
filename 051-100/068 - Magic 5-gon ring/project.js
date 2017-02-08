@@ -61,7 +61,7 @@ function main() {
 		matrix = comb(n, len),
 		dict = hashmap(matrix,n),
 		obj = limit(dict,n);
-		console.log(obj);
+		console.log(matrix);
 
 	return;
 }
