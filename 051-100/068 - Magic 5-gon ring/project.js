@@ -83,6 +83,7 @@ function main() {
 			if(check(arr,len)){
 				console.log([val(arr[0]),val(arr[1]),val(arr[2])]);
 				console.log(arr);
+				console.log("--")
 			}
 			i+=1;
 
