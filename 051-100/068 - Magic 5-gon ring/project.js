@@ -45,7 +45,14 @@ function len(n){
 	}
 	return  n + len(n-1);
 }
-function comb
+function comb (n){
+	var arr = [],
+		i = 1;
+	while( i < n){
+
+	}
+
+}
 function main() {
 	'use strict';
 	var n = 9, // number 1 - n
