@@ -42,6 +42,7 @@ function create_matrix(arr,matrix,n){
 function main() {
 	'use strict';
 	var n =9,
+		min = 1;
 		max = n +,
 		min = 1;
 
