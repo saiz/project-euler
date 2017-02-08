@@ -60,7 +60,7 @@ function gen_n(n) {
 	}
 	return parseInt(str,10);
 }
-functicheck_dup(n){
+function check_dup(n){
 
 }
 function main() {
