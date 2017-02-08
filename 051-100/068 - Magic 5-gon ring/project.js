@@ -16,7 +16,9 @@ function comb (n, m){
 	for(i=1;i<=n;i+=1){
 		for(j=1;j<i;j+=1){
 			for(k=1;k<j;k+=1){
-				arr.push([i,j,k]);
+				if(i+j+k === m){
+					arr.push([i,j,k]);
+				}
 			}
 		}
 	}
