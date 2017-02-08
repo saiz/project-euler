@@ -18,7 +18,7 @@ function comb (n){
 				console.log(i,j,n-i-j)
 			}
 		}
-	}}
+}
 function main() {
 	'use strict';
 	var n = 6, // number 1 - n
