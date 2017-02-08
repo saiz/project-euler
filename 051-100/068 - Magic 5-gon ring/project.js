@@ -60,7 +60,10 @@ function main() {
 		// matrix = comb(n, len),
 		// dict = hashmap(matrix,n);
 		// limit(dict);
-		while(i < Math	)
+		while(i < Math.pow(10,10)){
+			console.log(i);
+			i+=1;
+		}
 		//console.log(dict);
 
 	return;
