@@ -50,6 +50,7 @@ function limit(hash){
 	}
 	return copy;
 }
+
 function val(str){
 	return parseInt(str[0],10) +parseInt(str[1],10)+parseInt(str[2],10);
 }
