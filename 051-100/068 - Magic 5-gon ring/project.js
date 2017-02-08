@@ -65,6 +65,7 @@ function main() {
 		arr = sort(matrix,n);
 		// dict = hashmap(matrix,n);
 		// limit(dict);
+		for
 		console.log(arr);
 
 
