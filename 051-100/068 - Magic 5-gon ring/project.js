@@ -34,7 +34,7 @@ function main() {
 		i = min, matrix;
 		while(i <= max){
 			matrix = comb(n, i);
-			if(matrix.length === d){
+			if(matrix.length === m){
 				console.log(matrix);
 				console.log(n,i);
 				console.log("---");
