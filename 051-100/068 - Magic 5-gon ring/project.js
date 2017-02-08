@@ -45,7 +45,7 @@ function hashmap(m,n){
 function limit(hash){
 	var key;
 	for( key in hash){
-		console.log(has[key])
+		console.log(hash[key])
 	}
 }
 function main() {
