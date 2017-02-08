@@ -40,7 +40,7 @@ function create_matrix(arr,matrix,n){
 	}
 }
 function len(n){
-	if(n == 1){
+	if(n === 1){
 		return n;
 	}
 	return  n + len(n-1);
@@ -50,7 +50,7 @@ function main() {
 	var n = 9,
 		m = 3,
 		d = 3,
-		min = len(d) +m,
+		min = len(d) + m,
 		max = m*(n-d) - len(d);
 		console.log(min, max);
 
