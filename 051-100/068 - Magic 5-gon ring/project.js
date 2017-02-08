@@ -31,11 +31,9 @@ function main() {
 		d = 3, // length of comb
 		len = 16,
 		matrix = comb(n, len);
-		if(matrix.length >= m){
-			console.log(matrix);
-			console.log(n,len);
-			console.log("---");
-		}
+		console.log(matrix);
+		console.log(n,len);
+		console.log("---");
 
 	return;
 }
