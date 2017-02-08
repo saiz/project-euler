@@ -55,7 +55,7 @@ function val(str){
 }
 function check(arr, n) {
 	var i = 0;
-	while()
+	while( i<arr.length){}
 	if(val(arr[0])!==n){
 		return false;
 	}
