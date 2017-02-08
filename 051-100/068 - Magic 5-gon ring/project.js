@@ -46,7 +46,9 @@ function limit(hash,n){
 	var key,
 	copy = hash.slice(0)
 	for( key in copy){
-			if (key > )
+			if (key > n/2){
+
+			}
 		console.log(copy[key])
 	}
 	return copy
