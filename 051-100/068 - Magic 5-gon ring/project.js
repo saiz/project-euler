@@ -31,12 +31,14 @@ function main() {
 		d = 3, // length of comb
 		min = len(d) + m,
 		max = len2(n,3),
-		i = min, arr;
+		i = min, matrix;
 		while(i <= max){
-			arr = comb(n, i);
-			console.log(arr);
-			console.log(n,i);
-			console.log("---");
+			matrix = comb(n, i);
+			if(matrix.length === d){
+				console.log(matrix);
+				console.log(n,i);
+				console.log("---");
+			}
 			i+=1;
 		}
 
