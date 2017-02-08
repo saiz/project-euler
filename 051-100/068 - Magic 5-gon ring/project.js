@@ -32,7 +32,7 @@ function main() {
 		i = min, arr;
 		while(i <= max){
 			arr = comb(i);
-			//console.log(i);
+			console.log(arr);
 			i+=1;
 		}
 
