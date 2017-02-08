@@ -53,7 +53,7 @@ function sort(arr,n){
 	return matrix;
 }
 function gen_n(n) {
-	var i , str = '';
+	var i=0, str = '';
 	while(i < n ){
 		str += String(i);
 		i+=1;
