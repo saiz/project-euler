@@ -43,7 +43,7 @@ function main() {
 	'use strict';
 	var n =9,
 		min = 1,
-		max = 3*n
+		max = 3*n-
 
 	return;
 }
