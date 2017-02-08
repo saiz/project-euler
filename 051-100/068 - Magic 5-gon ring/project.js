@@ -22,6 +22,9 @@ function comb (m, n){
 			}
 		}
 	}
+	for(i=0;i<=arr.length;i+=1){
+		arr[i].sort();
+	}
 	return arr;
 }
 function hashmap(m,n){
