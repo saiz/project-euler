@@ -44,7 +44,7 @@ function hashmap(m,n){
 }
 function limit(hash,n){
 	var key,
-	copy = hash.slice(0)
+	copy = hash;
 	for( key in copy){
 		if (key > n/2){
 			delete copy[key]
