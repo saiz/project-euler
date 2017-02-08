@@ -44,11 +44,10 @@ function sort(arr,n){
 	var i =0,
 		matrix=[];
 	while(i<arr.length){
-		if(matrix[arr[i][0]] ==){
+		if(matrix[n - arr[i][0]] === undefined){
 			matrix[n - arr[i][0]] = [];
 		}
-		c
-		matrix[arr[i][0]].push(arr[i][0]);
+		matrix[n - arr[i][0]].push(arr[i][0]);
 		i+=1;
 	}
 	return matrix;
