@@ -42,11 +42,11 @@ function hashmap(m,n){
 	}
 	return hash;
 }
-function limit(hash,){
+function limit(hash,n){
 	var key,
 	copy = hash.slice(0)
 	for( key in copy){
-			if
+			if (key > )
 		console.log(copy[key])
 	}
 	return copy
