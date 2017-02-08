@@ -36,7 +36,7 @@ function create_array(start,end){
 function main() {
 	'use strict';
 	var arr = create_array(1,9);
-	whilke
+	while(n)
 
 	return i;
 }
