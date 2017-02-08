@@ -29,7 +29,7 @@ function main() {
 	var n = 10, // number 1 - n
 		m = 5, // number of pairs
 		d = 3, // length of comb
-		len = 16
+		len = 16,
 		matrix = comb(n, 16);
 		if(matrix.length >= m){
 			console.log(matrix);
