@@ -29,7 +29,7 @@ function main() {
 	var n = 6, // number 1 - n
 		m = 3, // number of pairs
 		d = 3, // length of comb
-		len = 16,
+		len = 9,
 		matrix = comb(n, len);
 		console.log(matrix);
 		console.log(n,len);
