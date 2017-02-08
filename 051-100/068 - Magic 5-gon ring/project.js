@@ -22,11 +22,11 @@ function comb (m, n){
 			}
 		}
 	}
-	for(i=0;i<=arr.length;i+=1){
+	i=0;
+	while(i < arr.length){
 		console.log(arr[i]);
-		arr[i].sort(function(a, b) {
-		  return a - b;
-		});
+		arr[i].sort();
+		i+=1;
 	}
 	return arr;
 }
