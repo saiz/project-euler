@@ -50,7 +50,7 @@ function main() {
 	var n =9,
 		d = 3,
 		min = 1,
-		max = len(d)*n - 3;
+		max = d*n - en(d);
 		console.log(min);
 
 	return;
