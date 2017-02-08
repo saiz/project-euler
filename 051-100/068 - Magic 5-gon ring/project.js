@@ -40,7 +40,7 @@ function create_matrix(arr,matrix,n){
 	}
 }
 function len(n){
-	return
+	return len(n)
 }
 function main() {
 	'use strict';
