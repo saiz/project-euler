@@ -32,7 +32,7 @@ function create_array(start,end){
 	}
 	return array;
 }
-
+fu
 function main() {
 	'use strict';
 	var arr = create_array(1,9),
