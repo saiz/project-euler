@@ -35,11 +35,13 @@ function hashmap(m,n){
 					}
 					if(m[i][j] < n/2 && hash[m[i][j]].length < 2){
 						hash[m[i][j]].push(m[i][k]);
+					} else{
+hash[m[i][j]].push(m[i][k]);
 					}
 				}
 			}
 			console.log("--")
-		}
+			}
 	}
 	return hash;
 }
