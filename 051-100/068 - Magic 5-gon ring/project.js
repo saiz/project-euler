@@ -31,7 +31,7 @@ function main() {
 		max = len2(n,3),
 		i = min, arr;
 		while(i <= max){
-			arr = comb(i);
+			arr = comb(i, n);
 			console.log(arr);
 			i+=1;
 		}
