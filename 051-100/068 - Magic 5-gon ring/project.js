@@ -24,7 +24,7 @@ function comb (m, n){
 	}
 	return arr;
 }
-function hashmap(m,){
+function hashmap(m,n){
 	var i, j, k,hash={};
 	for(i=0;i<m.length;i+=1){
 		for(j=0;j<m[i].length;j+=1){
