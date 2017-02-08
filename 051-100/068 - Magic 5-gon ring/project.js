@@ -35,7 +35,7 @@ function hashmap(m){
 			console.log("--")
 		}
 	}
-
+//
 }
 function main() {
 	'use strict';
