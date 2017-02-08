@@ -24,13 +24,23 @@ function comb (m, n){
 	}
 	return arr;
 }
+function has(matrix){
+	var i, j;
+	for(i=0;i<matrix.length;i+=1){
+		for(j=0;j<matrix[i].length;j+=1){
+			console.log()
+		}
+	}
+}
 function main() {
 	'use strict';
 	var n = 6, // number 1 - n
 		m = 3, // number of pairs
 		d = 3, // length of comb
 		len = 9,
-		matrix = comb(n, len);
+		matrix = comb(n, len),
+		dict = {};
+		for()
 		console.log(matrix);
 		console.log(n,len);
 		console.log("---");
