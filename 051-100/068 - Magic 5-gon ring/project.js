@@ -62,7 +62,7 @@ function main() {
 		// dict = hashmap(matrix,n);
 		// limit(dict);
 		while(i < Math.pow(10,9)){
-			stre
+			str =
 			arr  = []
 			console.log(i);
 			i+=1;
