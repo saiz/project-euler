@@ -46,7 +46,7 @@ function len(n){
 	return  n + len(n-1);
 }
 function len2(n,m){
-	if(m === 0){
+	if(m === 1){
 		return n;
 	}
 	return  n + len(n-1, m-1);
