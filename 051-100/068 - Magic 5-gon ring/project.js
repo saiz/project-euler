@@ -52,9 +52,9 @@ function limit(hash){
 }
 function parse(n){
 		if(n === '0'){
-			return 10
+			return 10;
 		}
-		return parseInt(n,10)
+		return parseInt(n,10);
 }
 function val(str){
 	return parseInt(str[0],10) +parseInt(str[1],10)+parseInt(str[2],10);
