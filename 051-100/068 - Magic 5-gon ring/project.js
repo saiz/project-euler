@@ -80,7 +80,9 @@ function main() {
 			str =String(i);
 			arr  = [str.slice(0,3),str.slice(3,6),str.slice(6,9)];
 		//	console.log(arr);
-		if(check)
+		if(check(arr,len)){
+
+		}
 			console.log([val(arr[0]),val(arr[1]),val(arr[2])])
 			i+=1;
 		}
