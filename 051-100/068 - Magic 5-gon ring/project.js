@@ -38,7 +38,7 @@ function hashmap(m,n){
 				}
 			}
 			hash[m[i][j]].push(arr);
-			}
+		}
 	}
 	return hash;
 }
