@@ -80,7 +80,7 @@ function main() {
 		// matrix = comb(n, len),
 		// dict = hashmap(matrix,n);
 		// limit(dict);
-		while(i < Math.pow(10,9)){
+		while(i > 0){
 			str =String(i);
 			arr  = [str.slice(0,3),str.slice(3,6),str.slice(6,9)];
 			//console.log(arr);
@@ -89,7 +89,7 @@ function main() {
 				console.log(arr);
 				console.log("--")
 			}
-			i+=1;
+			i-=1;
 
 		}
 		//console.log(dict);
