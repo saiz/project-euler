@@ -49,7 +49,7 @@ function main() {
 	'use strict';
 	var n =9,
 		d = 3,
-		min = 1,
+		min = len(d),
 		max = d*n - len(d);
 		console.log(min, max);
 
