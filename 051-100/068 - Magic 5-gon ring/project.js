@@ -51,9 +51,7 @@ function main() {
 		matrix = comb(n, len),
 		dict = {};
 		dict = hashmap(matrix,n);
-		console.log(matrix);
 		console.log(dict);
-		console.log(n,len);
 		console.log("---");
 
 	return;
