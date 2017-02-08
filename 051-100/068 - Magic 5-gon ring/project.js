@@ -39,6 +39,7 @@ function create_matrix(arr,matrix,n){
 		i+=n;
 	}
 }
+function
 function main() {
 	'use strict';
 	var n =9,
