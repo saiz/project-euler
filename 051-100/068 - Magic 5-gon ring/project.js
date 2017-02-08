@@ -30,6 +30,7 @@ function hashmap(m){
 		for(j=0;j<m[i].length;j+=1){
 			hash[m[i][j]] =[];
 			for(k=0;k<m[i].length;k+=1){
+if()
 				hash[m[i][j]].push(m[i][k]);
 			}
 		}
@@ -46,7 +47,7 @@ function main() {
 		matrix = comb(n, len),
 		dict = {};
 		dict = hashmap(matrix);
-		console.log(matrix);
+		console.log(dict);
 		console.log(n,len);
 		console.log("---");
 
