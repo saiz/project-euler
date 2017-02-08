@@ -61,6 +61,7 @@ function main() {
 		i =Math.pow(10,9),
 		str, arr,
 		matrix = comb(n, len);
+		sort
 		// dict = hashmap(matrix,n);
 		// limit(dict);
 		console.log(matrix)
