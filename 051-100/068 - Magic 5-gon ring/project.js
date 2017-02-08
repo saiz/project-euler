@@ -60,7 +60,7 @@ function main() {
 		d = 3, // length of comb
 		len = 16,
 		i =Math.pow(10,9),
-		str, arr,
+		str, arr;
 		matrix = comb(n, len);
 		arr= sort(matrix,n)
 		// dict = hashmap(matrix,n);
