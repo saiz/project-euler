@@ -12,8 +12,13 @@ function len2(n,m){
 }
 function comb (n){
 	var arr = [],
-		i = 1;
-	while( i < n){
+		i,j
+		for(i=1;i<n-3;i+=1){
+			for(j=1;j<i;j+=1){
+
+			}
+
+		}
 
 	}
 }
