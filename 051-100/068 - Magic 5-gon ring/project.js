@@ -57,7 +57,7 @@ function parse(n){
 	return parseInt(n,10);
 }
 function val(str){
-	return parse(str[0]) +parseInt(str[1],10)+parseInt(str[2],10);
+	return parse(str[0]) +parse(str[1])+parse(str[2]);
 }
 function check(arr, n) {
 	var i = 0;
