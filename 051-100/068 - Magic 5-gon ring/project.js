@@ -46,6 +46,7 @@ function limit(hash,n){
 	var key,
 	copy = hash;
 	for( key in copy){
+		console.log(parseInt(key,10))
 		if (parseInt(key,10) > n/2){
 			console.log('here')
 			delete copy[key]
