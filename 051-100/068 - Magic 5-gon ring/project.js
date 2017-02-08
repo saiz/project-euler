@@ -81,7 +81,7 @@ function main() {
 		// dict = hashmap(matrix,n);
 		// limit(dict);
 		var j;
-		console.log(j)
+		console.log(gen_n(m), Math.pow(10,6))
 		for(j = gen_n(m);j<Math.pow(10,6); j+=1){
 			if(is_unique(String(j))){
 				console.log(j)
