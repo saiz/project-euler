@@ -30,10 +30,10 @@ function main() {
 		m = 5, // number of pairs
 		d = 3, // length of comb
 		len = 16,
-		matrix = comb(n, 16);
+		matrix = comb(n, len);
 		if(matrix.length >= m){
 			console.log(matrix);
-			console.log(n,i);
+			console.log(n,len);
 			console.log("---");
 		}
 
