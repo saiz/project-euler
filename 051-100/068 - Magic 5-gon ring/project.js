@@ -32,3 +32,11 @@ function create_array(start,end){
 	}
 	return array;
 }
+
+function main() {
+	'use strict';
+	var i = create_array(1,9);
+	return i;
+}
+
+console.log(main(process.argv[2]));
