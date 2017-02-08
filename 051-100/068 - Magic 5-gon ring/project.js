@@ -51,7 +51,7 @@ function main() {
 		d = 3,
 		min = 1,
 		max = d*n - len(d);
-		console.log(min,);
+		console.log(min, max);
 
 	return;
 }
