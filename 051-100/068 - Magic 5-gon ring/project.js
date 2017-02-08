@@ -46,6 +46,7 @@ function main() {
 	while(nextPerm(arr)){
 
 		console.log(arr);
+
 	}
 
 	return;
