@@ -59,8 +59,8 @@ function main() {
 		d = 3, // length of comb
 		len = 16,
 		matrix = comb(n, len),
-		dict = hashmap(matrix,n);
-		limit(dict);
+		dict = hashmap(matrix,n),
+		objlimit(dict);
 	//	console.log(dict);
 
 	return;
