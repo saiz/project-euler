@@ -20,6 +20,7 @@ function comb (n){
 			}
 		}
 	}
+	return arr;
 }
 function main() {
 	'use strict';
@@ -29,9 +30,9 @@ function main() {
 		min = len(d) + m,
 		max = len2(n,3),
 		i = min;
-		comb(i)
 		while(i <= max){
 			//console.log(i);
+			arr = comb(i);
 			i+=1;
 		}
 
