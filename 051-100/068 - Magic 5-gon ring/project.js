@@ -36,7 +36,7 @@ function hashmap(m,n){
 					if(m[i][j] > n/2 && hash[m[i][j]].length < 2){
 						hash[m[i][j]].push(m[i][k]);
 					}
-					if(m[i][j] < n/2 && hash[m[i][j]].length < 2){
+					if(m[i][j] < n/2){
 						hash[m[i][j]].push(m[i][k]);
 					}
 				}
