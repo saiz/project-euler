@@ -80,6 +80,7 @@ function main() {
 		arr = sort(matrix,n);
 		// dict = hashmap(matrix,n);
 		// limit(dict);
+
 		var j = gen_n(m);
 		for(j = gen_n(m);j<Math.pow(10,6); j+=1){
 			if(is_unique(String(j))){
