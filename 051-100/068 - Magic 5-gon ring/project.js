@@ -10,7 +10,7 @@ function len2(n,m){
 	}
 	return  n + len2(n-1, m-1);
 }
-function comb (n, m){
+function comb (m, n){
 	var arr = [],
 		i,j,k;
 	for(i=1;i<=m;i+=1){
@@ -33,7 +33,7 @@ function main() {
 		max = len2(n,3),
 		i = min, arr;
 		while(i <= max){
-			arr = comb(i, n);
+			arr = comb(n, i);
 			console.log(arr);
 			console.log("---");
 			i+=1;
