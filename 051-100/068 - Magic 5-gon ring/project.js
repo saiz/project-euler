@@ -24,11 +24,11 @@ function comb (m, n){
 	}
 	return arr;
 }
-function has(matrix){
+function has(m){
 	var i, j;
-	for(i=0;i<matrix.length;i+=1){
-		for(j=0;j<matrix[i].length;j+=1){
-			console.log()
+	for(i=0;i<m.length;i+=1){
+		for(j=0;j<m[i].length;j+=1){
+			console.log(m[i][j]);
 		}
 	}
 }
