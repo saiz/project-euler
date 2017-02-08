@@ -53,6 +53,9 @@ function limit(hash){
 function val(str){
 	return parseInt(str[0],10) +parseInt(str[1],10)+parseInt(str[2],10);
 }
+function check(arr) {
+	// body...
+}
 function main() {
 	'use strict';
 	var n = 10, // number 1 - n
