@@ -30,10 +30,11 @@ function hashmap(m){
 		for(j=0;j<m[i].length;j+=1){
 			hash[m[i][j]] =[];
 			for(k=0;k<m[i].length;k+=1){
-				hash[m[i][j]].push(m[i][k])
+				hash[m[i][j]].push(m[i][k]);
 			}
 		}
 	}
+	return hash;
 
 }
 function main() {
