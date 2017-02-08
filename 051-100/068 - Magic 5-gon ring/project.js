@@ -58,7 +58,7 @@ function main() {
 		len = 16,
 		matrix = comb(n, len),
 		dict = hashmap(matrix,n);
-		obj = limit(dict);
+		limit(dict);
 		//console.log(dict);
 
 	return;
