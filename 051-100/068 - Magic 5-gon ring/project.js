@@ -52,7 +52,6 @@ function main() {
 		dict = {};
 		dict = hashmap(matrix,n);
 		console.log(dict);
-		console.log("---");
 
 	return;
 }
