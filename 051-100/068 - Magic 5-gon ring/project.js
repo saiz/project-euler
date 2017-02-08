@@ -25,23 +25,19 @@ function comb (m, n){
 	return arr;
 }
 function hashmap(m,n){
-	var i, j, k,hash={};
+	var i, j, k,hash={}, arr;
 	for(i=0;i<m.length;i+=1){
 		for(j=0;j<m[i].length;j+=1){
+			if(hash[m[i][j]] === undefined	){
+				hash[m[i][j]] = [];
+			}
+			arr = [];
 			for(k=0;k<m[i].length;k+=1){
 				if(m[i][j] !== m[i][k]){
-					if(hash[m[i][j]] === undefined	){
-						hash[m[i][j]] = [];
-					}
-					if(m[i][j] >= n/2 && hash[m[i][j]].length < 2){
-						hash[m[i][j]].push(m[i][k]);
-					}
-					if(m[i][j] < n/2){
-						hash[m[i][j]].push(m[i][k]);
-					}
+					arr.push(m[i][k]);
 				}
 			}
-			console.log("--")
+			hash[m[i][j]].push(arr);
 			}
 	}
 	return hash;
