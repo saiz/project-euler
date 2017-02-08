@@ -42,7 +42,7 @@ function hashmap(m,n){
 	}
 	return hash;
 }
-function limit(hash,n){
+function limit(hash){
 	var key,
 	copy = hash;
 	for( key in copy){
@@ -58,7 +58,7 @@ function main() {
 		len = 16,
 		matrix = comb(n, len),
 		dict = hashmap(matrix,n);
-		//obj = limit(dict,n);
+		obj = limit(dict);
 		console.log(dict);
 
 	return;
