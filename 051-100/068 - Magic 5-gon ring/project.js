@@ -30,7 +30,7 @@ function main() {
 		i = min;
 		comb(i)
 		while(i <= max){
-			console.log(i);
+			//console.log(i);
 			i+=1;
 		}
 
