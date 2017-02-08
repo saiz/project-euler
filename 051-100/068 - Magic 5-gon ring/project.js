@@ -52,7 +52,14 @@ function sort(arr,n){
 	}
 	return matrix;
 }
-
+function gen_n(n) {
+	var i , str = '';
+	while(i <n ){
+		str += String(i);
+		i+=1;
+	}
+	return parseInt(str,10);
+}
 function main() {
 	'use strict';
 	var n = 10, // number 1 - n
@@ -65,18 +72,8 @@ function main() {
 		arr = sort(matrix,n);
 		// dict = hashmap(matrix,n);
 		// limit(dict);
-		for (  i = 0; i < n; i+=1 ) {
-	        for (  j = i + 1; j < n; j+=1 ) {
-	            for (  k = j + 1; k < n; k+=1 ) {
-	                for ( l = k + 1; l < n; l+=1 {
-	                    for ( m = l + 1; m < n; m+=1) {
-							for ( m = l + 1; m < n; m+=1) {
-
-	                    }
-	                }
-	            }
-	        }
-	    }
+		var j = 1234;
+		for()
 
 		console.log(arr);
 
