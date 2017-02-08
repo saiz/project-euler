@@ -16,7 +16,7 @@ function comb (n){
 	for(i=1;i<n-3;i+=1){
 		for(j=1;j<i;j+=1){
 			if(n-i-j > 0){
-				arr.pusH([i,j,n-i-j]);
+				arr.push([i,j,n-i-j]);
 			}
 		}
 	}
@@ -24,8 +24,8 @@ function comb (n){
 }
 function main() {
 	'use strict';
-	var n = 9, // number 1 - n
-		m = 5, // number of pairs
+	var n = 6, // number 1 - n
+		m = 3, // number of pairs
 		d = 3, // length of comb
 		min = len(d) + m,
 		max = len2(n,3),
