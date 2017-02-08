@@ -60,17 +60,13 @@ function gen_n(n) {
 	}
 	return parseInt(str,10);
 }
-function noDups( s ) {
-  var chars = {}, rv = '';
-
-  for (var i = 0; i < s.length; ++i) {
-    if (!(s[i] in chars)) {
-      chars[s[i]] = 1;
-      rv += s[i];
-    }
+function is_unique(str) {
+  var obj = {};
+  for(var z=0;z<str.length;++z) {
+    var ch = str[z];
+    if(obj[ch]) return false; else obj[ch] = true;
   }
-
-  return rv;
+  return true;
 }
 function main() {
 	'use strict';
@@ -85,9 +81,11 @@ function main() {
 		// dict = hashmap(matrix,n);
 		// limit(dict);
 		var j = gen_n(m);
-		for()
-
-		console.log(arr);
+		for(j = gen_n(m);j<Math.pow(10,5); j+=1){
+			if(is_unique(String(j))){
+				console.log(j)
+			}
+		}
 
 
 	return;
