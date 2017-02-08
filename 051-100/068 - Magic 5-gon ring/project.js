@@ -50,7 +50,7 @@ function len2(n,m){
 		return n;
 	}
 	console.log(n)
-	return  n + len(n-1, m-1);
+	return  n + len2(n-1, m-1);
 }
 function comb (n){
 	var arr = [],
