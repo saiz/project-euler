@@ -24,7 +24,9 @@ function comb (m, n){
 	}
 	for(i=0;i<=arr.length;i+=1){
 		console.log(arr[i]);
-		arr[i].sort();
+		arr[i].sort(function(a, b) {
+		  return a - b;
+		});
 	}
 	return arr;
 }
