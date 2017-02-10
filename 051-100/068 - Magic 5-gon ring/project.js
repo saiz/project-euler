@@ -112,6 +112,7 @@ function main() {
 					if(temp > res){
 						res = temp;
 						//console.log('winner');
+						str.match(new RegExp(pattern1+'|'+pattern2, 'gi'));
 						console.log(String(temp).match(/.{1,m}/g));
 					}
 				}
