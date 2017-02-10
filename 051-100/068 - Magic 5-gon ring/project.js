@@ -62,7 +62,7 @@ function main() {
 	var n = 9, // number 1 - n
 		m = 3, // number of pairs
 		d = 3, // length of comb
-		min,max, len,
+		min,max, len, j,
 		arr, h, l,bool = true,bool2,side,index;
 		arr = create_array(n);
 		max = high(n,d) - m*d;
