@@ -40,18 +40,18 @@ function create_array(n){
 	return arr;
 }
 function low(n,m){
-	var arr = [];
+	var arr = 0;
 	while(m > 0){
-		arr.push(n);
+		arr +=n;
 		n+=1;
 		m-=1;
 	}
 	return arr;
 }
 function high(n,m){
-	var arr = [];
+	var arr = 0;
 	while(m > 0){
-		arr.push(n);
+		arr +=n;
 		n-=1;
 		m-=1;
 	}
