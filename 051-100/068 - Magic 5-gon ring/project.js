@@ -88,7 +88,7 @@ function main() {
 		while(min < max && bool){
 			arr = create_array(n);
 			while(nextPerm(arr) && bool){
-				te
+				temp = parseInt(arr.join(''),10);
 				if(test(arr, m, min) ){
 					if
 					console.log('winner');
