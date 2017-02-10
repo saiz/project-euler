@@ -57,6 +57,20 @@ function high(n,m){
 	}
 	return arr;
 }
+function test(arr){
+	var bool2 = true,
+	l = arr.slice(0,m);
+	h = arr.slice(Math.max(arr.length - m, 1)).sort(),
+	j,index,side;
+	for(j=0;j<h.length;j+=1){
+		side = next(h,j);
+		index = l.indexOf(len - (side+h[j]));
+		if (index > -1) {
+		    l.splice(index, 1);
+		}
+	}
+
+}
 function main() {
 	'use strict';
 	var n = 10, // number 1 - n
