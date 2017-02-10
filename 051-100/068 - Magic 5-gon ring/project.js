@@ -1,7 +1,7 @@
 function comb (m, n){
 	var arr = [],
 		i,j,k;
-	for(i=1;i<m;i+=1){
+	for(i=1;i<=m;i+=1){
 		for(j=1;j<i;j+=1){
 			for(k=1;k<j;k+=1){
 				if(i+j+k === n){
