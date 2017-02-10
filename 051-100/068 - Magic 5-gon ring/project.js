@@ -84,10 +84,10 @@ function main() {
 		matrix = comb(n, len);
 		h = arr.slice(0,m).sort();
 		console.log(h);
-		console.log(l);
 		while(nextPerm(h) && bool){
 			bool2 = true;
 			l = arr.slice(Math.max(arr.length - m, 1));
+			console.log(l);
 			for(j=0;j<h.length;j+=1){
 				side =next(h,j);
 				console.log(side+h[j],side,h[j])
