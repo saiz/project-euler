@@ -81,14 +81,13 @@ function main() {
 		d = 3, // length of comb
 		len = 16,
 		i =Math.pow(10,9), j,
-		str, arr, h, l,
+		str, arr, h, l,bool,
 		matrix = comb(n, len);
 		arr = high_array(matrix);
 		matrix = comb(n, len);
 		h = arr.slice(0,m);
 		l = arr.slice(Math.max(arr.length - m, 1));
 		while(nextPerm(h)){
-var
 			for(j=0;j<h.length;j+=1){
 				console.log(h[j],side(h,j));
 			}
