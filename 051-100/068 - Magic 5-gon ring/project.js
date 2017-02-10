@@ -79,12 +79,13 @@ function gen_str(arr){
 	var bool2 = true,
 	l = arr.slice(0,m),
 	h = arr.slice(Math.max(arr.length - m, 1)),
-	j, index, side;
+	j, index, side, str;
 	//console.log(l,h)
 
 	for(j=0;j<h.length;j+=1){
 		side = next(h,j);
 		index = l.indexOf(len - (side+h[j]) );
+		str +=
 	}
 }
 function main() {
