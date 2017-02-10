@@ -91,7 +91,6 @@ function main() {
 		// matrix = comb(n, len);
 		// arr = high_array(matrix);
 		// matrix = comb(n, len);
-		h = arr.slice(Math.max(arr.length - m, 1)).sort();
 		while(nextPerm(create_array) && bool){
 			bool2 = true;
 			l = arr.slice(0,m);
