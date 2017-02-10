@@ -82,13 +82,13 @@ function main() {
 		d = 3, // length of comb
 		min,max, len, j,
 		arr, h, l,bool = true,bool2,side,index;
-		arr = create_array(n);
 		max = high(n,d);
 		min = low(1,d);
 		len = min;
 		console.log(min,max);
 		while(len < max && bool){
 			console.log(len);
+			arr = create_array(n);
 			while(nextPerm(arr) && bool){
 				if(test(arr, m, len)){
 					console.log('winner');
