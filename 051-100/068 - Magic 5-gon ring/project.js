@@ -25,9 +25,9 @@ function high(dict){
 		}
 	for (key in dict){
 		if(dict[key] > max.k){
-
+			max.k = dicrsd
 		}
-		}
+	}
 }
 function main() {
 	'use strict';
