@@ -67,9 +67,10 @@ function high_array(dict){
 }
 function side(arr,i){
 	if (i === arr.length -1){
-		return arr[0]
+		return arr[0];
 	}
 	return arr[i+1];
+}
 function main() {
 	'use strict';
 	var n = 6, // number 1 - n
