@@ -24,7 +24,7 @@ function high(dict){
 			k:0
 		}
 	for (key in dict){
-
+if(dict[key] )
 	}
 }
 function main() {
