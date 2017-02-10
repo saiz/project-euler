@@ -90,7 +90,7 @@ function main() {
 			while(nextPerm(arr) && bool){
 				if(test(arr)){
 					console.log('winner');
-					c
+					console.log(arr);
 				}
 			}
 			len+=1;
