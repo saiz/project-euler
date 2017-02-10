@@ -93,6 +93,7 @@ function main() {
 				    l.splice(index, 1);
 				}
 			}
+			console.l
 			if(l.length === 0){
 				console.log(h);
 				bool = false;
