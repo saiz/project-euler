@@ -83,7 +83,8 @@ function main() {
 		arr = high_array(matrix);
 		matrix = comb(n, len);
 		h = arr.slice(0,m).sort();
-		console.log(h)
+		console.log(h);
+		console.log(l);
 		while(nextPerm(h) && bool){
 			bool2 = true;
 			l = arr.slice(Math.max(arr.length - m, 1));
