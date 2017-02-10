@@ -88,7 +88,10 @@ function main() {
 		console.log(min,max);
 		while(len < max && bool){
 			while(nextPerm(arr) && bool){
-				if(test(arr))
+				if(test(arr)){
+					console.log('winner');
+					c
+				}
 			}
 			len+=1;
 		}
