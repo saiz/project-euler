@@ -93,7 +93,6 @@ function gen_str(arr,m,len){
 	}
 	return str;
 }
-fi
 function main() {
 	'use strict';
 	var n = 6, // number 1 - n
