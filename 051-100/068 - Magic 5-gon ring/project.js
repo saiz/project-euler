@@ -4,7 +4,9 @@ function comb (m, n){
 	for(i=1;i<=m;i+=1){
 		for(j=1;j<=m;j+=1){
 			k = n - i - j;
-			console.log(k)
+			if(k){
+				arr.push([i,j,k]);
+			}
 		}
 	}
 	i=0;
