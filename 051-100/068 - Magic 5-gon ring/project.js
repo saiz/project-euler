@@ -87,8 +87,9 @@ function gen_str(arr){
 		index = l.indexOf(len - (side+h[j]) );
 		str +=h[j];
 		str +=side;
-		str +=side;
+		str +=index;
 	}
+	return str;
 }
 function main() {
 	'use strict';
