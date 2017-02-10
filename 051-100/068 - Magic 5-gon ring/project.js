@@ -90,6 +90,7 @@ function main() {
 		while(nextPerm(h) && bool){
 			bool2 = true;
 			for(j=0;j<h.length;j+=1){
+				if()
 				console.log(h[j],side(h,j));
 			}
 
