@@ -82,10 +82,10 @@ function main() {
 		matrix = comb(n, len);
 		arr = high_array(matrix);
 		matrix = comb(n, len);
-		h = arr.slice(0,m).sort();
-		while(nextPerm(h) && bool){
+		h = arr.slice(Math.max(arr.length - m, 1)).sort();
+		while(nextPerm(l) && bool){
 			bool2 = true;
-			l = arr.slice(Math.max(arr.length - m, 1));
+			l = arr.slice(0,m);
 			for(j=0;j<h.length;j+=1){
 				side =next(h,j);
 				index = l.indexOf(len - (side+h[j]));
