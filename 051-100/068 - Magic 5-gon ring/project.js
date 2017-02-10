@@ -76,6 +76,7 @@ function create_array(n){
 		arr = [];
 	while(i<=n){
 		arr.push(i);
+		i+=1;
 	}
 	return arr;
 }
