@@ -57,7 +57,7 @@ function high(n,m){
 	}
 	return arr;
 }
-function test(arr){
+function test(arr,m){
 	var bool2 = true,
 	l = arr.slice(0,m),
 	h = arr.slice(Math.max(arr.length - m, 1)).sort(),
@@ -88,7 +88,7 @@ function main() {
 		console.log(min,max);
 		while(len < max && bool){
 			while(nextPerm(arr) && bool){
-				if(test(arr)){
+				if(test(arr, m)){
 					console.log('winner');
 					console.log(arr);
 				}
