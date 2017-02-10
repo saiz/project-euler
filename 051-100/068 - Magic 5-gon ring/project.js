@@ -75,7 +75,9 @@ function test(arr,m, len){
 	}
 	return false;
 }
-function gen_str(arr)
+function gen_str(arr){
+
+}
 function main() {
 	'use strict';
 	var n = 6, // number 1 - n
