@@ -29,7 +29,7 @@ function high(dict){
 			max.v = dict[key];
 		}
 	}
-
+	return
 }
 function main() {
 	'use strict';
