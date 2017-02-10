@@ -64,7 +64,7 @@ function test(arr,m, len){
 	j, index, side;
 	for(j=0;j<h.length;j+=1){
 		side = next(h,j);
-		index = l.indexOf(len - (side+h[j]));
+		index = l.indexOf(len - (side+h[j]) );
 		if (index > -1) {
 		    l.splice(index, 1);
 		}
