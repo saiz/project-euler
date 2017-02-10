@@ -54,7 +54,7 @@ function main() {
 		m = 5, // number of pairs
 		d = 3, // length of comb
 		len = 16,
-		i =Math.pow(10,9),
+		i =Math.pow(10,9), j,
 		str, arr, h, l,
 		matrix = comb(n, len);
 		arr = high_array(matrix);
@@ -63,6 +63,7 @@ function main() {
 		l = arr.slice(Math.max(arr.length - m, 1));
 		console.log(h,l);
 		console.log(matrix);
+		for(j=)
 
 
 
