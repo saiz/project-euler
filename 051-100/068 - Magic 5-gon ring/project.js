@@ -97,8 +97,8 @@ function main() {
 			bool2 = true;
 			l = arr.slice(0,m);
 			h = arr.slice(Math.max(arr.length - m, 1)).sort();
-			console..log(h);
-			co
+			console.log(h);
+			console.log(l);
 			for(j=0;j<h.length;j+=1){
 				side =next(h,j);
 				index = l.indexOf(len - (side+h[j]));
