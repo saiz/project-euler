@@ -48,7 +48,7 @@ function main() {
 		i =Math.pow(10,9),
 		str, arr, h, l,
 		matrix = comb(n, len);
-		arr = high_array(arr);
+		arr = high_array(matrix);
 		h = arr.slice(m);
 		l = arr.slice(Math.max(arr.length - m, 1));
 		console.log(h,l);
