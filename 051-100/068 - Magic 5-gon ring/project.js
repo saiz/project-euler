@@ -3,9 +3,11 @@ function comb (m, n){
 		i,j,k;
 	for(i=m;i>0;i-=1){
 		for(j=m;j>0;j-=1){
-			k = n - i - j;
-			if(k>0 && k<=m){
-				arr.push([i,j,k]);
+			if(j !== m){
+				k = n - i - j;
+				if(k>0 && k<=m){
+					arr.push([i,j,k]);
+				}
 			}
 		}
 	}
