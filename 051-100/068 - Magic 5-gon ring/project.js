@@ -97,7 +97,7 @@ function main() {
 					}
 				}
 			}
-			len+=1;
+			min+=1;
 		}
 
 
