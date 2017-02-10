@@ -100,7 +100,7 @@ function main() {
 			console.log(l);
 			console.log(h);
 			for(j=0;j<h.length;j+=1){
-				side =next(h,j);
+				side = next(h,j);
 				index = l.indexOf(len - (side+h[j]));
 				if (index > -1) {
 				    l.splice(index, 1);
