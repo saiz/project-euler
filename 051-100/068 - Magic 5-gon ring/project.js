@@ -81,7 +81,7 @@ function main() {
 					    l.splice(index, 1);
 					}
 				}
-				//console.log(l);
+				console.log(l);
 				if(l.length === 0){
 					l = arr.slice(0,m);
 					console.log('winner');
