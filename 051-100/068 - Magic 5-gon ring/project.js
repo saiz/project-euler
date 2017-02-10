@@ -52,7 +52,6 @@ function main() {
 		h = arr.slice(m);
 		l = arr.slice(Math.max(arr.length - m, 1));
 		console.log(h,l);
-		console.log(matrix);
 
 
 
