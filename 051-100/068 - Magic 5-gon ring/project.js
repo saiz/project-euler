@@ -20,7 +20,8 @@ function comb (m, n){
 function high(dict){
 	var key,
 		max = {
-			v:
+			v:0,
+
 		}
 	for (key in dict){
 
