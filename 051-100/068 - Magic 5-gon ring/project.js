@@ -24,9 +24,9 @@ function high(dict){
 			k:0
 		};
 	for (key in dict){
-		if(dict[key] > max.k){
+		if(parseInt(dict[key],10) > max.k){
 			max.k = parseInt(key,10);
-			max.v =  parseInt(dict[key],10);
+			max.v =  parseInt(dict[key],10) ;
 		}
 	}
 	delete dict[max.k];
