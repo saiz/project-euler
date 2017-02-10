@@ -69,7 +69,9 @@ function test(arr){
 		    l.splice(index, 1);
 		}
 	}
-	if(l.length === 0 )
+	if(l.length === 0 ){
+		return true;
+	}
 
 }
 function main() {
