@@ -104,10 +104,10 @@ function main() {
 				if (index > -1) {
 				    l.splice(index, 1);
 				}
-			}
-			l = arr.slice(0,m);
+
 			//console.log(l);
 			if(l.length === 0){
+				l = arr.slice(0,m);
 				console.log('winner');
 				console.log('h',h);
 				console.log('l',l);
