@@ -88,7 +88,7 @@ function main() {
 			bool2 = true;
 			for(j=0;j<h.length;j+=1){
 				side =next(h,j);
-				index=
+				index= l.indexOf(side,h[j]);
 				if (index > -1) {
 				    array.splice(index, 1);
 				}
