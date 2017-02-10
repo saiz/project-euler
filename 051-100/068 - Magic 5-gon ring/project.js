@@ -97,6 +97,7 @@ function main() {
 			console.log('--')
 			//console.log(l)
 			if(l.length === 0){
+				console.log('winner');
 				console.log(h);
 				bool = false;
 			}
