@@ -105,6 +105,7 @@ function main() {
 				    l.splice(index, 1);
 				}
 			}
+			l = arr.slice(0,m);
 			//console.log(l);
 			if(l.length === 0){
 				console.log('winner');
