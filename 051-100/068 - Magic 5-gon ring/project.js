@@ -87,7 +87,7 @@ function main() {
 		matrix = comb(n, len);
 		h = arr.slice(0,m);
 		l = arr.slice(Math.max(arr.length - m, 1));
-		while(nextPerm(h)){
+		while(nextPerm(h) && nb){
 			for(j=0;j<h.length;j+=1){
 				console.log(h[j],side(h,j));
 			}
