@@ -89,6 +89,7 @@ function main() {
 			arr = create_array(n);
 			while(nextPerm(arr) && bool){
 				if(test(arr, m, min) ){
+
 					console.log('winner');
 					console.log(arr);
 				}
