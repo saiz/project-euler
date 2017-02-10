@@ -37,6 +37,7 @@ function high_array(dict){
 	while(Object.keys(matrix).length > 0){
 		arr.push(high(dict));
 	}
+	return arr;
 
 }
 function main() {
