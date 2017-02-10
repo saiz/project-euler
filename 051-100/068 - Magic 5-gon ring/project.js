@@ -87,7 +87,7 @@ function main() {
 		while(nextPerm(h) && bool){
 			bool2 = true;
 			l = arr.slice(Math.max(arr.length - m, 1));
-			console.log(l);
+			console.log(h);
 			for(j=0;j<h.length;j+=1){
 				side =next(h,j);
 				index = l.indexOf(side-h[j]);
