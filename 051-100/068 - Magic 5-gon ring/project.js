@@ -89,7 +89,7 @@ function main() {
 		i =Math.pow(10,9), j,
 		str, arr, h, l,bool = true,bool2,side,index;
 		arr = create_array(n);
-		console.log(arr);
+		//console.log(arr);
 		// matrix = comb(n, len);
 		// arr = high_array(matrix);
 		// matrix = comb(n, len);
@@ -97,6 +97,7 @@ function main() {
 			bool2 = true;
 			l = arr.slice(0,m);
 			h = arr.slice(Math.max(arr.length - m, 1)).sort();
+o
 			for(j=0;j<h.length;j+=1){
 				side =next(h,j);
 				index = l.indexOf(len - (side+h[j]));
