@@ -88,7 +88,7 @@ function main() {
 			l = arr.slice(Math.max(arr.length - m, 1));
 			for(j=0;j<h.length;j+=1){
 				side =next(h,j);
-				console.log(side+h[j])
+				console.log(side+h[j] , )
 				index = l.indexOf(side+h[j]);
 				if (index > -1) {
 				    l.splice(index, 1);
