@@ -93,7 +93,7 @@ function main() {
 				    l.splice(index, 1);
 				}
 			}
-			console.log(l);
+			//console.log(l);
 			if(l.length === 0){
 				console.log('winner');
 				console.log(h);
