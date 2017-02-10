@@ -41,6 +41,7 @@ function main() {
 		i =Math.pow(10,9),
 		str, arr,
 		matrix = comb(n, len);
+		console.log(high(maxtrix))
 		console.log(matrix);
 
 
