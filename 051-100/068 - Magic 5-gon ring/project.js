@@ -81,12 +81,10 @@ function gen_str(arr){
 	h = arr.slice(Math.max(arr.length - m, 1)),
 	j, index, side;
 	//console.log(l,h)
+
 	for(j=0;j<h.length;j+=1){
 		side = next(h,j);
 		index = l.indexOf(len - (side+h[j]) );
-		if (index > -1) {
-		    l.splice(index, 1);
-		}
 	}
 }
 function main() {
