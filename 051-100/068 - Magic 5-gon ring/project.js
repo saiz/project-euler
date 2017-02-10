@@ -93,6 +93,7 @@ function main() {
 				index = l.indexOf(side-h[j]);
 				if(side+h[j] <= len){
 					index = l.indexOf(side+h[j]);
+					console.log(1)
 				}
 				if (index > -1) {
 				    l.splice(index, 1);
