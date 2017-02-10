@@ -93,6 +93,7 @@ function gen_str(arr,m,len){
 	}
 	return str;
 }
+fi
 function main() {
 	'use strict';
 	var n = 6, // number 1 - n
@@ -112,7 +113,7 @@ function main() {
 					if(temp > res){
 						res = temp;
 						//console.log('winner');
-						console.log(temp);
+						console.log(temp.);
 					}
 				}
 			}
