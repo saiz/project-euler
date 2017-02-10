@@ -104,8 +104,8 @@ function main() {
 		while(min < max && bool){
 			arr = create_array(n);
 			while(nextPerm(arr) && bool){
-				temp = gen_str(arr);
 				if(test(arr, m, min) ){
+					temp = gen_str(arr);
 					if(temp > res){
 						res = temp;
 						//console.log('winner');
