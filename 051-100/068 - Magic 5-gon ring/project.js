@@ -5,7 +5,7 @@ function comb (m, n){
 		for(j=m;j>0;j-=1){
 			if(j !== m){
 				k = n - i - j;
-				if(k>0 && k<=m){
+				if(k>0 && k<=m && k!==i && k!==j){
 					arr.push([i,j,k]);
 				}
 			}
