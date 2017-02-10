@@ -80,17 +80,16 @@ function main() {
 	var n = 6, // number 1 - n
 		m = 3, // number of pairs
 		d = 3, // length of comb
-		min,max, len, j,
+		min,max, j,
 		arr, h, l,bool = true,bool2,side,index;
 		max = high(n,d);
 		min = low(1,d);
-		len = min;
 		console.log(min,max);
-		while(len < max && bool){
+		while(min < max && bool){
 			console.log(len);
 			arr = create_array(n);
 			while(nextPerm(arr) && bool){
-				if(test(arr, m, len)){
+				if(test(arr, m, min)){
 					console.log('winner');
 					console.log(arr);
 				}
