@@ -85,6 +85,7 @@ function gen_str(arr,m,len){
 	for(j=0;j<h.length;j+=1){
 		side = next(h,j);
 		index = l.indexOf(len - (side+h[j]) );
+		console.log(h[j],side,index)
 		str +=h[j] +'' + side + '' +index;
 	}
 	return str;
