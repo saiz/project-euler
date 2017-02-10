@@ -88,7 +88,7 @@ function main() {
 		console.log(min,max);
 		while(len < max && bool){
 			while(nextPerm(arr) && bool){
-				if(test)
+				if(test(arr))
 			}
 			len+=1;
 		}
