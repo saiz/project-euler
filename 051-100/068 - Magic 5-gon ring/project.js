@@ -67,7 +67,7 @@ function high_array(dict){
 }
 function side(arr,i){
 	if (i === arr.length -1){
-		return arr[i-1]
+		return arr[0]
 	}
 	if (i === 0){
 		return [arr[arr.length-1],arr[i+1]];
