@@ -60,7 +60,7 @@ function high(n,m){
 function test(arr,m, len){
 	var bool2 = true,
 	l = arr.slice(0,m),
-	h = arr.slice(Math.max(arr.length - m, 1)).sort(),
+	h = arr.slice(Math.max(arr.length - m, 1)),
 	j, index, side;
 	for(j=0;j<h.length;j+=1){
 		side = next(h,j);
@@ -69,7 +69,6 @@ function test(arr,m, len){
 		    l.splice(index, 1);
 		}
 	}
-	console.log(l)
 	if(l.length === 0 ){
 		return true;
 	}
