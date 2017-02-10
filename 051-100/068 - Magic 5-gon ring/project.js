@@ -78,7 +78,7 @@ function main() {
 		d = 3, // length of comb
 		len = 9,
 		i =Math.pow(10,9), j,
-		str, arr, h, l,bool = true,bool2,side,
+		str, arr, h, l,bool = true,bool2,side,index,
 		matrix = comb(n, len);
 		arr = high_array(matrix);
 		matrix = comb(n, len);
@@ -88,7 +88,7 @@ function main() {
 			bool2 = true;
 			for(j=0;j<h.length;j+=1){
 				side =next(h,j);
-				inde
+				index=
 				if (index > -1) {
 				    array.splice(index, 1);
 				}
