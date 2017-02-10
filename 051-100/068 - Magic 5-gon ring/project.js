@@ -64,6 +64,7 @@ function main() {
 		for(j=0;j<h.length;j+=1){
 			console.log(h[j],side(h,j));
 		}
+		while()
 
 
 
