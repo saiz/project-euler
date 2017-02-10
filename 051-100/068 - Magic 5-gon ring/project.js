@@ -97,7 +97,7 @@ function main() {
 			}
 			if(bool2){
 				console.log(h);
-				voo
+				bool = false;
 			}
 
 		}
