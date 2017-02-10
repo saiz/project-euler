@@ -75,7 +75,7 @@ function test(arr,m, len){
 	}
 	return false;
 }
-function gen_str(arr,m){
+function gen_str(arr,m,len){
 	var bool2 = true,
 	l = arr.slice(0,m),
 	h = arr.slice(Math.max(arr.length - m, 1)),
