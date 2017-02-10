@@ -65,7 +65,7 @@ function high_array(dict){
 	}
 	return arr;
 }
-function side(arr,i){
+function next(arr,i){
 	if (i === arr.length -1){
 		return arr[0];
 	}
@@ -78,7 +78,7 @@ function main() {
 		d = 3, // length of comb
 		len = 9,
 		i =Math.pow(10,9), j,
-		str, arr, h, l,bool = true,bool2,temp,
+		str, arr, h, l,bool = true,bool2,side,
 		matrix = comb(n, len);
 		arr = high_array(matrix);
 		matrix = comb(n, len);
@@ -87,9 +87,9 @@ function main() {
 		while(nextPerm(h) && bool){
 			bool2 = true;
 			for(j=0;j<h.length;j+=1){
-				temp =side(h,j);
-				console.log(temp[0],temp[1],h[j]);
-				if(temp[0] +temp[1] +h[j] !== len){
+				side =next(h,j);
+				console.log(side[0],side[1],h[j]);
+				if(side[0] +side[1] +h[j] !== len){
 					bool2= false;
 				}
 			}
