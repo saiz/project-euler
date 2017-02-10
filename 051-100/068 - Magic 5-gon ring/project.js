@@ -112,7 +112,7 @@ function main() {
 					if(temp > res){
 						res = temp;
 						//console.log('winner');
-						console.log(String(temp).match(/.{1,3}/g));
+						console.log(String(temp).match(/.{1,m}/g));
 					}
 				}
 			}
