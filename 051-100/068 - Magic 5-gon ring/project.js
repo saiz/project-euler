@@ -87,6 +87,7 @@ function main() {
 		len = min;
 		console.log(min,max);
 		while(len < max && bool){
+			console.log(len);
 			while(nextPerm(arr) && bool){
 				if(test(arr, m, len)){
 					console.log('winner');
