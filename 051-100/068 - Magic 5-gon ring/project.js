@@ -81,16 +81,8 @@ function main() {
 		i =Math.pow(10,9),
 		str, arr,
 		matrix = comb(n, len);
-		// arr = sort(matrix,n);
-		// dict = hashmap(matrix,n);
-		// limit(dict);
-		console.log(matrix)
-		// var j;
-		// for(j = gen_n(m);j<Math.pow(10,m); j+=1){
-		// 	if(is_unique(String(j))){
-		// 		console.log(j)
-		// 	}
-		// }
+		console.log(matrix);
+
 
 
 	return;
