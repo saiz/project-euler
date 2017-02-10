@@ -69,7 +69,7 @@ function main() {
 		min = low(n,d);
 		len = min;
 		console.log(min,max);
-		while(min <max && bool){
+		while(min < max && bool){
 			while(nextPerm(arr) && bool){
 				bool2 = true;
 				l = arr.slice(0,m);
