@@ -104,7 +104,7 @@ function main() {
 				if (index > -1) {
 				    l.splice(index, 1);
 				}
-
+			}
 			//console.log(l);
 			if(l.length === 0){
 				l = arr.slice(0,m);
