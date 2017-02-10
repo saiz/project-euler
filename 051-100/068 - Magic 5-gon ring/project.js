@@ -49,8 +49,7 @@ function main() {
 		str, arr,
 		matrix = comb(n, len);
 		arr = high_array(comb(n, len));
-		console.log(Object.keys(matrix).length);
-		console.log(arr)
+		console.log(arr);
 		console.log(matrix);
 
 
