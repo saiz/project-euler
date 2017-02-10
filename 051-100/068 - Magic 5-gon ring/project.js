@@ -1,3 +1,29 @@
+function nextPerm(array){
+	'use strict';
+	var i = array.length -1;
+	while(i>0 && (array[i-1] >= array[i])){
+		i-=1;
+	}
+	if(i<=0){
+		return false;
+	}
+	var j = array.length -1;
+	while(array[j] <= array[i-1]){
+		j-=1;
+	}
+	var temp = array[i-1];
+	array[i-1] = array[j];
+	array[j] = temp;
+	j = array.length - 1;
+	while (i < j) {
+        temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+        i+=1;
+        j-=1;
+    }
+    return true;
+}
 function comb (m, n){
 	var arr = {},
 		i,j,k;
@@ -61,10 +87,13 @@ function main() {
 		matrix = comb(n, len);
 		h = arr.slice(0,m);
 		l = arr.slice(Math.max(arr.length - m, 1));
-		for(j=0;j<h.length;j+=1){
-			console.log(h[j],side(h,j));
+		while(nextPerm(h)){
+var
+			for(j=0;j<h.length;j+=1){
+				console.log(h[j],side(h,j));
+			}
+
 		}
-		while()
 
 
 
