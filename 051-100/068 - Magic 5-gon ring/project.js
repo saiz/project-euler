@@ -91,7 +91,8 @@ function main() {
 				temp = parseInt(arr.join(''),10);
 				if(test(arr, m, min) ){
 					if(temp > res){
-						console.log('winner');
+						res = temp;
+						//console.log('winner');
 						console.log(arr);
 					}
 				}
