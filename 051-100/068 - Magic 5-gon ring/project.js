@@ -87,9 +87,9 @@ function main() {
 		len = 16,
 		i =Math.pow(10,9), j,
 		str, arr, h, l,bool = true,bool2,side,index,
-		matrix = comb(n, len);
-		arr = high_array(matrix);
-		matrix = comb(n, len);
+		// matrix = comb(n, len);
+		// arr = high_array(matrix);
+		// matrix = comb(n, len);
 		h = arr.slice(Math.max(arr.length - m, 1)).sort();
 		while(nextPerm(h) && bool){
 			bool2 = true;
