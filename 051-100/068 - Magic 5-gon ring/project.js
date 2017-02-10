@@ -96,7 +96,8 @@ function main() {
 				}
 			}
 			if(bool2){
-				console.log(h)
+				console.log(h);
+
 			}
 
 		}
