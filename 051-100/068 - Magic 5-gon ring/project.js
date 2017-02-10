@@ -73,7 +73,7 @@ function next(arr,i){
 }
 function main() {
 	'use strict';
-	var n = 6, // number 1 - n
+	var n = 10, // number 1 - n
 		m = 3, // number of pairs
 		d = 3, // length of comb
 		len = 9,
@@ -93,8 +93,6 @@ function main() {
 				    l.splice(index, 1);
 				}
 			}
-			console.log(l);
-			console.log('--')
 			//console.log(l)
 			if(l.length === 0){
 				console.log('winner');
