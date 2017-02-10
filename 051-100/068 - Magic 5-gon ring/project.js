@@ -33,7 +33,9 @@ function high(dict){
 	return max.k;
 }
 function high_array(dict){
-	while(Object.keys(matrix).length )
+	while(Object.keys(matrix).length > 0){
+
+	}
 
 }
 function main() {
