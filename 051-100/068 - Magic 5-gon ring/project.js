@@ -25,7 +25,7 @@ function high(dict){
 		};
 	for (key in dict){
 		console.log(key,dict[key])
-		if(parseInt(dict[key],10) > max.k){
+		if(dict[key] > max.k){
 			max.k = parseInt(key,10);
 			max.v =  parseInt(dict[key],10) ;
 		}
