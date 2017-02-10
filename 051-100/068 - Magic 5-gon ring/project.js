@@ -87,7 +87,6 @@ function main() {
 					console.log('winner');
 					console.log('h',h);
 					console.log('l',l);
-					bool = false;
 				}
 			}
 			len+=1;
