@@ -22,14 +22,14 @@ function high(dict){
 		max = {
 			v:0,
 			k:0
-		}
+		};
 	for (key in dict){
 		if(dict[key] > max.k){
 			max.k = key;
 			max.v = dict[key];
 		}
 	}
-	delete dict
+	delete dict[max.k];
 	return max;
 }
 function main() {
