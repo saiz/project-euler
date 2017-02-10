@@ -82,14 +82,14 @@ function gen_str(arr,m,len){
 	var bool2 = true,
 	l = arr.slice(0,m),
 	h = arr.slice(Math.max(arr.length - m, 1)),
-	j, index, side, str = '';
+	j, index, side, str = [];
 	//console.log(l,h)
 
 	for(j=0;j<h.length;j+=1){
 		side = next(h,j);
 		index = len - (side+h[j]);
 		//console.log(h[j],side,index)
-		str +=index +'' + h[j] + '' +side;
+		str.push[index, h[j],side];
 	}
 	return str;
 }
