@@ -96,7 +96,7 @@ function gen_str(arr,m,len){
 function main() {
 	'use strict';
 	var n = 9, // number 1 - n
-		m = 5, // number of pairs
+		m = 3, // number of pairs
 		d = 3, // length of comb
 		min,max, j,
 		arr, h, l,bool = true,bool2,side,index, temp,
