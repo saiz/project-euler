@@ -112,7 +112,7 @@ function main() {
 					if(temp > res){
 						res = temp;
 						//console.log('winner');
-						console.log(len,String(temp).match(new RegExp('.{1,'+m + '}', 'g')));
+						console.log(min,String(temp).match(new RegExp('.{1,'+m + '}', 'g')));
 					}
 				}
 			}
