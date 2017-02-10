@@ -24,47 +24,6 @@ function nextPerm(array){
     }
     return true;
 }
-function comb (m, n){
-	var arr = {},
-		i,j,k;
-	for(i=m;i>0;i-=1){
-		for(j=m;j>0;j-=1){
-			if(j !== m){
-				k = n - i - j;
-				if(k>0 && k<=m && k!==i && k!==j){
-					if(arr[i] === undefined){
-						arr[i] = 0;
-					}
-					arr[i]+=1;
-				}
-			}
-		}
-	}
-	i=0;
-	return arr;
-}
-function high(dict){
-	var key,
-		max = {
-			v:0,
-			k:0
-		};
-	for (key in dict){
-		if(dict[key] > max.v){
-			max.k = parseInt(key,10);
-			max.v =  parseInt(dict[key],10) ;
-		}
-	}
-	delete dict[max.k];
-	return max.k;
-}
-function high_array(dict){
-	var arr = [];
-	while(Object.keys(dict).length > 0){
-		arr.push(high(dict));
-	}
-	return arr;
-}
 function next(arr,i){
 	if (i === arr.length -1){
 		return arr[0];
@@ -80,6 +39,24 @@ function create_array(n){
 	}
 	return arr;
 }
+function low(n,m){
+	var arr = [];
+	while(m > 0){
+		arr.push(n);
+		n+=1;
+		m-=1;
+	}
+	return arr;
+}
+function high(n,m){
+	var arr = [];
+	while(m > 0){
+		arr.push(n);
+		n-=1;
+		m-=1;
+	}
+	return arr;
+}
 function main() {
 	'use strict';
 	var n = 10, // number 1 - n
@@ -87,18 +64,15 @@ function main() {
 		d = 3, // length of comb
 		len = 17,
 		i =Math.pow(10,9), j,
-		str, arr, h, l,bool = true,bool2,side,index;
+		min,max,
+		arr, h, l,bool = true,bool2,side,index;
 		arr = create_array(n);
-		//console.log(arr);
-		// matrix = comb(n, len);
-		// arr = high_array(matrix);
-		// matrix = comb(n, len);
+		max = high(n,d);
+		lin = low(1,d);
 		while(nextPerm(arr) && bool){
 			bool2 = true;
 			l = arr.slice(0,m);
 			h = arr.slice(Math.max(arr.length - m, 1)).sort();
-			// console.log(l);
-			// console.log(h);
 			for(j=0;j<h.length;j+=1){
 				side = next(h,j);
 				index = l.indexOf(len - (side+h[j]));
