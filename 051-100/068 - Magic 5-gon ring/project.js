@@ -81,7 +81,7 @@ function main() {
 		d = 3, // length of comb
 		len = 16,
 		i =Math.pow(10,9), j,
-		str, arr, h, l,bool = true,bool2,,
+		str, arr, h, l,bool = true,bool2,temp,
 		matrix = comb(n, len);
 		arr = high_array(matrix);
 		matrix = comb(n, len);
@@ -90,6 +90,7 @@ function main() {
 		while(nextPerm(h) && bool){
 			bool2 = true;
 			for(j=0;j<h.length;j+=1){
+temp =side(h,j);
 				if()
 				console.log(h[j],side(h,j));
 			}
