@@ -75,6 +75,7 @@ function test(arr,m, len){
 	}
 	return false;
 }
+function
 function main() {
 	'use strict';
 	var n = 6, // number 1 - n
