@@ -84,9 +84,8 @@ function main() {
 		arr, h, l,bool = true,bool2,side,index;
 		max = high(n,d);
 		min = low(1,d);
-		console.log(min,max);
+
 		while(min < max && bool){
-			console.log(len);
 			arr = create_array(n);
 			while(nextPerm(arr) && bool){
 				if(test(arr, m, min)){
