@@ -89,13 +89,13 @@ function gen_str(arr,m,len){
 		side = next(h,j);
 		index = len - (side+h[j]);
 		//console.log(h[j],side,index)
-		str.push([index, h[j],side]);
+		str.push(index, h[j],side);
 	}
 	return str;
 }
 function main() {
 	'use strict';
-	var n = 10, // number 1 - n
+	var n = 9, // number 1 - n
 		m = 5, // number of pairs
 		d = 3, // length of comb
 		min,max, j,
