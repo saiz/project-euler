@@ -2,7 +2,7 @@ function comb (m, n){
 	var arr = [],
 		i,j,k;
 	for(i=1;i<=m;i+=1){
-		for(j=i+1;j<=m;j+=1){
+		for(j=i;j<=m;j+=1){
 			k = n - i - j;
 			if(k>0 && k<m  && k!==j && k!==i){
 				arr.push([i,j,k]);
