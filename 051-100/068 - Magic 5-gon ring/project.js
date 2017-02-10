@@ -92,7 +92,7 @@ function main() {
 		// arr = high_array(matrix);
 		// matrix = comb(n, len);
 		h = arr.slice(Math.max(arr.length - m, 1)).sort();
-		while(nextPerm(h) && bool){
+		while(nextPerm(create_array) && bool){
 			bool2 = true;
 			l = arr.slice(0,m);
 			for(j=0;j<h.length;j+=1){
