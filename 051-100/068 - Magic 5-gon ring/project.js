@@ -90,7 +90,7 @@ function main() {
 			while(nextPerm(arr) && bool){
 				temp = parseInt(arr.join(''),10);
 				if(test(arr, m, min) ){
-					if
+					if()
 					console.log('winner');
 					console.log(arr);
 				}
