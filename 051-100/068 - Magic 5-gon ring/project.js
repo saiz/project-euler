@@ -17,7 +17,9 @@ function comb (m, n){
 	i=0;
 	return arr;
 }
-function high
+function high(dict){
+
+}
 function main() {
 	'use strict';
 	var n = 10, // number 1 - n
