@@ -30,7 +30,7 @@ function high(dict){
 			max.v =  parseInt(dict[key],10) ;
 		}
 	}
-	delete dict[max.k];
+	// /delete dict[max.k];
 	return max;
 }
 function main() {
