@@ -90,8 +90,10 @@ function main() {
 			console.log(l);
 			for(j=0;j<h.length;j+=1){
 				side =next(h,j);
-				console.log(side+h[j],side,h[j], len)
-				index = l.indexOf(side+h[j]);
+				index = l.indexOf(side-h[j]);
+				if(side+h[j] <= len){
+					index = l.indexOf(side+h[j]);
+				}
 				if (index > -1) {
 				    l.splice(index, 1);
 				}
