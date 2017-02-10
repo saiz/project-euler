@@ -39,6 +39,15 @@ function high_array(dict){
 	}
 	return arr;
 }
+function side(arr,i){
+	if (i === arr.length -1){
+		return [arr[i-1],arr[0]];
+	}
+	if (i === 0){
+		return [arr[arr.length-1],arr[i+1]];
+	}
+	return [arr[i-1],arr[i+1]];
+}
 function main() {
 	'use strict';
 	var n = 10, // number 1 - n
