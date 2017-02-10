@@ -64,7 +64,7 @@ function main() {
 		console.log(h,l);
 		console.log(matrix);
 		for(j=0;j<h.length;j+=1){
-			c
+			console.log(side)
 		}
 
 
