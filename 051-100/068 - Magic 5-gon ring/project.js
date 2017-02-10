@@ -91,7 +91,7 @@ function main() {
 			bool2 = true;
 			for(j=0;j<h.length;j+=1){
 				temp =side(h,j);
-				console.log(temp[0] +temp[1] +h[j]);
+				console.log(temp[0],temp[1],h[j]);
 				if(temp[0] +temp[1] +h[j] !== len){
 					bool2= false;
 				}
