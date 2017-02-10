@@ -19,7 +19,9 @@ function comb (m, n){
 }
 function high(dict){
 	var key;
-	for (key in dict){}
+	for (key in dict){
+
+	}
 }
 function main() {
 	'use strict';
