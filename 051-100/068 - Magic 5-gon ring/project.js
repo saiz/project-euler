@@ -44,7 +44,7 @@ function main() {
 	var n = 6, // number 1 - n
 		m = 3, // number of pairs
 		d = 3, // length of comb
-		len = 9,
+		len = 16,
 		i =Math.pow(10,9),
 		str, arr, h, l,
 		matrix = comb(n, len);
