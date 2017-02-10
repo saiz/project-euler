@@ -1,12 +1,15 @@
 function comb (m, n){
-	var arr = [],
+	var arr = {},
 		i,j,k;
 	for(i=m;i>0;i-=1){
 		for(j=m;j>0;j-=1){
 			if(j !== m){
 				k = n - i - j;
 				if(k>0 && k<=m && k!==i && k!==j){
-					arr.push([i,j,k]);
+					if(arr[i] === undefined){
+						arr[i] = 0;
+					}
+					arr[i]+=1;
 				}
 			}
 		}
@@ -78,7 +81,7 @@ function main() {
 		i =Math.pow(10,9),
 		str, arr,
 		matrix = comb(n, len);
-		arr = sort(matrix,n);
+		// arr = sort(matrix,n);
 		// dict = hashmap(matrix,n);
 		// limit(dict);
 		console.log(arr)
