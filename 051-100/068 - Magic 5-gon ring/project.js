@@ -50,7 +50,7 @@ function main() {
 		matrix = comb(n, len);
 		h = high_array(comb(n, len)).slice(m);
 		l = high_array(comb(n, len)).slice(m);
-		console.log(arr);
+		console.log(h,l);
 		console.log(matrix);
 
 
