@@ -109,7 +109,7 @@ function main() {
 					if(temp > res){
 						res = temp;
 						//console.log('winner');
-						console.log(arr);
+						console.log(temp);
 					}
 				}
 			}
