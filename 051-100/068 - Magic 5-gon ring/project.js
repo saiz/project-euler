@@ -68,7 +68,8 @@ function main() {
 		arr, h, l,bool = true,bool2,side,index;
 		arr = create_array(n);
 		max = high(n,d);
-		lin = low(1,d);
+		min = low(1,d);
+		console.l0g
 		while(nextPerm(arr) && bool){
 			bool2 = true;
 			l = arr.slice(0,m);
