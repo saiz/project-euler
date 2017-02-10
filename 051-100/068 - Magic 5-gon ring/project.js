@@ -76,8 +76,8 @@ function test(arr){
 }
 function main() {
 	'use strict';
-	var n = 10, // number 1 - n
-		m = 5, // number of pairs
+	var n = 9, // number 1 - n
+		m = 3, // number of pairs
 		d = 3, // length of comb
 		min,max, len, j,
 		arr, h, l,bool = true,bool2,side,index;
