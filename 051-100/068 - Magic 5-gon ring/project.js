@@ -94,6 +94,7 @@ function main() {
 				    l.splice(index, 1);
 				}
 			}
+			console.log('--')
 			//console.log(l)
 			if(l.length === 0){
 				console.log(h);
