@@ -25,7 +25,8 @@ function high(dict){
 		}
 	for (key in dict){
 		if(dict[key] > max.k){
-			max.k = dicrsd
+			max.k = dict[key];
+			max.v = di
 		}
 	}
 }
