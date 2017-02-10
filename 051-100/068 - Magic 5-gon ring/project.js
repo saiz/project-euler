@@ -71,6 +71,14 @@ function next(arr,i){
 	}
 	return arr[i+1];
 }
+function create_array(n){
+	var i  = 1,
+		arr = [];
+	while(i<=n){
+		arr.push(i);
+	}
+	return arr;
+}
 function main() {
 	'use strict';
 	var n = 10, // number 1 - n
