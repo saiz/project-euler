@@ -41,7 +41,7 @@ function main() {
 		i =Math.pow(10,9),
 		str, arr,
 		matrix = comb(n, len);
-		console.log(matrix.length);
+		console.log(Object.keys(matrix).length);
 		console.log(high(matrix))
 		console.log(matrix);
 
