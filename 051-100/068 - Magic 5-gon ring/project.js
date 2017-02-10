@@ -66,7 +66,7 @@ function main() {
 		arr, h, l,bool = true,bool2,side,index;
 		arr = create_array(n);
 		max = high(n,d);
-		min = low(n,d);
+		min = low(0,d);
 		len = min;
 		console.log(min,max);
 		while(min < max && bool){
