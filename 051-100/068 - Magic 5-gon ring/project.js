@@ -107,11 +107,11 @@ function main() {
 			while(nextPerm(arr) && bool){
 				if(test(arr, m, min) ){
 					temp = parseInt(gen_str(arr, m, min),10);
-					console.log(temp)
+					//console.log(temp)
 					if(temp > res){
 						res = temp;
 						//console.log('winner');
-						console.log(temp);
+						//console.log(temp);
 					}
 				}
 			}
