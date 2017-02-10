@@ -89,7 +89,7 @@ function gen_str(arr,m,len){
 		side = next(h,j);
 		index = len - (side+h[j]);
 		//console.log(h[j],side,index)
-		str +=side +'' + index + '' +h[j];
+		str +=h[j] +'' + index + '' +side;
 	}
 	return str;
 }
