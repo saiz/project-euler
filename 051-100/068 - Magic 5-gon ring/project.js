@@ -90,7 +90,7 @@ function main() {
 				side =next(h,j);
 				index = l.indexOf(side+h[j]);
 				if (index > -1) {
-				    array.splice(index, 1);
+				    l.splice(index, 1);
 				}
 			}
 			if(l.length === 0){
