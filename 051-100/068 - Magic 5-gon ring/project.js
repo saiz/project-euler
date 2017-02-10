@@ -89,6 +89,7 @@ function main() {
 		l = arr.slice(Math.max(arr.length - m, 1));
 		while(nextPerm(h) && bool){
 			bool2 = true;
+			console.log(h)
 			for(j=0;j<h.length;j+=1){
 				temp =side(h,j);
 				if(temp[0] +temp[1] +j[h] !== len){
