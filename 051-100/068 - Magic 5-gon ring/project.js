@@ -88,23 +88,7 @@ function main() {
 		console.log(min,max);
 		while(len < max && bool){
 			while(nextPerm(arr) && bool){
-				bool2 = true;
-				l = arr.slice(0,m);
-				h = arr.slice(Math.max(arr.length - m, 1)).sort();
-				for(j=0;j<h.length;j+=1){
-					side = next(h,j);
-					index = l.indexOf(len - (side+h[j]));
-					if (index > -1) {
-					    l.splice(index, 1);
-					}
-				}
-				console.log(l);
-				if(l.length === 0){
-					l = arr.slice(0,m);
-					console.log('winner');
-					console.log('h',h);
-					console.log('l',l);
-				}
+				if(test)
 			}
 			len+=1;
 		}
