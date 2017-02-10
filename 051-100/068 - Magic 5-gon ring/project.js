@@ -95,7 +95,7 @@ function main() {
 		while(nextPerm(create_array) && bool){
 			bool2 = true;
 			l = arr.slice(0,m);
-			h = arr.slice(0,m);
+			 = arr.slice(0,m);
 			for(j=0;j<h.length;j+=1){
 				side =next(h,j);
 				index = l.indexOf(len - (side+h[j]));
