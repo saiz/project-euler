@@ -46,7 +46,7 @@ function main() {
 		d = 3, // length of comb
 		len = 9,
 		i =Math.pow(10,9),
-		str, arr,
+		str, h,
 		matrix = comb(n, len);
 		arr = high_array(comb(n, len)).slice(m);
 		console.log(arr);
