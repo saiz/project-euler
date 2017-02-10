@@ -69,7 +69,7 @@ function test(arr){
 		    l.splice(index, 1);
 		}
 	}
-	if()
+	if(l.length === 0 )
 
 }
 function main() {
