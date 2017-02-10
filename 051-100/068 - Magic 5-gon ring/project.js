@@ -61,8 +61,6 @@ function main() {
 		matrix = comb(n, len);
 		h = arr.slice(0,m);
 		l = arr.slice(Math.max(arr.length - m, 1));
-		console.log(h,l);
-		console.log(matrix);
 		for(j=0;j<h.length;j+=1){
 			console.log(h[j],side(h,j));
 		}
