@@ -89,7 +89,7 @@ function main() {
 			arr = create_array(n);
 			while(nextPerm(arr) && bool){
 				if(test(arr, m, min) ){
-					if(arr.)
+					if(arr.join(''))
 					console.log('winner');
 					console.log(arr);
 				}
