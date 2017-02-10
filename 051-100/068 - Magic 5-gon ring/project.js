@@ -73,7 +73,7 @@ function test(arr,m, len){
 	}
 	if(l.length === 0 ){
 		l = arr.slice(0,m)
-		console.log(h,l);
+		//console.log(h,l);
 		return true;
 	}
 	return false;
