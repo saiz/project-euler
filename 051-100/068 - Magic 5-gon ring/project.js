@@ -86,7 +86,7 @@ function main() {
 		d = 3, // length of comb
 		len = 16,
 		i =Math.pow(10,9), j,
-		str, arr, h, l,bool = true,bool2,side,index,
+		str, arr, h, l,bool = true,bool2,side,index;
 		arr = create_array(n);
 		// matrix = comb(n, len);
 		// arr = high_array(matrix);
