@@ -105,7 +105,7 @@ function main() {
 			arr = create_array(n);
 			while(nextPerm(arr) && bool){
 				if(test(arr, m, min) ){
-					temp = gen_st(arr, m, min) )
+					temp = gen_st(arr, m, min);
 					if(temp > res){
 						res = temp;
 						//console.log('winner');
