@@ -91,7 +91,9 @@ function main() {
 			bool2 = true;
 			for(j=0;j<h.length;j+=1){
 				temp =side(h,j);
-				if(temp[0] +temp[1] +j[h] !== len)
+				if(temp[0] +temp[1] +j[h] !== len){
+bool2
+				}
 			}
 
 		}
