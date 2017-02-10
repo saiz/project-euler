@@ -92,7 +92,7 @@ function main() {
 			for(j=0;j<h.length;j+=1){
 				temp =side(h,j);
 				console.log(temp[0] +temp[1] +h[j]);
-				if(temp[0] +temp[1] +j[h] !== len){
+				if(temp[0] +temp[1] +h[j] !== len){
 					bool2= false;
 				}
 			}
