@@ -69,7 +69,7 @@ function main() {
 		arr = create_array(n);
 		max = high(n,d);
 		min = low(1,d);
-		console.l0g
+		console.log()
 		while(nextPerm(arr) && bool){
 			bool2 = true;
 			l = arr.slice(0,m);
