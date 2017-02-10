@@ -32,7 +32,10 @@ function high(dict){
 	delete dict[max.k];
 	return max.k;
 }
-function
+function high_array(dict){
+	while(Object.keys(matrix).length )
+
+}
 function main() {
 	'use strict';
 	var n = 10, // number 1 - n
