@@ -71,7 +71,8 @@ function test(arr,m, len){
 		}
 	}
 	if(l.length === 0 ){
-console.log(h,l);
+		l = arr.slice(0,m)
+		console.log(h,l);
 		return true;
 	}
 	return false;
