@@ -21,7 +21,7 @@ function high(dict){
 	var key,
 		max = {
 			v:0,
-
+			k:0
 		}
 	for (key in dict){
 
