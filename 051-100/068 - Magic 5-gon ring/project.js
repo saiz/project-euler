@@ -86,8 +86,6 @@ function main() {
 		while(nextPerm(h) && bool){
 			bool2 = true;
 			l = arr.slice(Math.max(arr.length - m, 1));
-			console.log(h);
-			console.log(l);
 			for(j=0;j<h.length;j+=1){
 				side =next(h,j);
 				index = l.indexOf(len - side+h[j]);
@@ -95,6 +93,7 @@ function main() {
 				    l.splice(index, 1);
 				}
 			}
+			console.log(l);
 			console.log('--')
 			//console.log(l)
 			if(l.length === 0){
