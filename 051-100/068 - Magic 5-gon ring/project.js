@@ -38,7 +38,6 @@ function high_array(dict){
 		arr.push(high(dict));
 	}
 	return arr;
-
 }
 function main() {
 	'use strict';
@@ -49,6 +48,7 @@ function main() {
 		i =Math.pow(10,9),
 		str, arr,
 		matrix = comb(n, len);
+arr= high_array
 		console.log(Object.keys(matrix).length);
 		console.log(high(matrix))
 		console.log(matrix);
