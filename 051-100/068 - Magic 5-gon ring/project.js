@@ -108,7 +108,8 @@ function main() {
 			//console.log(l);
 			if(l.length === 0){
 				console.log('winner');
-				console.log(h);
+				console.log('h',h);
+				console.log('l',l);
 				bool = false;
 			}
 
