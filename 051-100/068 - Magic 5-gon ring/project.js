@@ -18,7 +18,8 @@ function comb (m, n){
 	return arr;
 }
 function high(dict){
-	var key;
+	var key,
+		max = 0;
 	for (key in dict){
 
 	}
