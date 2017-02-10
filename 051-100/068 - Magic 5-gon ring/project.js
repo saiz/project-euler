@@ -69,6 +69,7 @@ function test(arr){
 		    l.splice(index, 1);
 		}
 	}
+	if()
 
 }
 function main() {
