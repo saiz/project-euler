@@ -66,7 +66,7 @@ function test(arr,m, len){
 	for(j=0;j<h.length;j+=1){
 		side = next(h,j);
 		index = l.indexOf(len - (side+h[j]) );
-		console.log(index)
+		//console.log(index)
 		if (index > -1) {
 		    l.splice(index, 1);
 		}
