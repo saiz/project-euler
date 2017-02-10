@@ -33,9 +33,9 @@ function high(dict){
 	return max.k;
 }
 function high_array(dict){
-	var
+	var arr = [];
 	while(Object.keys(matrix).length > 0){
-
+		arr.push(high(dict));
 	}
 
 }
