@@ -75,7 +75,7 @@ function test(arr,m, len){
 	}
 	return false;
 }
-function gen_str(arr){
+function gen_str(arr,m){
 	var bool2 = true,
 	l = arr.slice(0,m),
 	h = arr.slice(Math.max(arr.length - m, 1)),
@@ -104,7 +104,7 @@ function main() {
 		while(min < max && bool){
 			arr = create_array(n);
 			while(nextPerm(arr) && bool){
-				temp = parseInt(arr.join(''),10);
+				temp = gen_str(arr);
 				if(test(arr, m, min) ){
 					if(temp > res){
 						res = temp;
