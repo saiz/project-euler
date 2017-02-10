@@ -69,27 +69,30 @@ function main() {
 		arr = create_array(n);
 		max = high(n,d) - m*d;
 		min = m*d;
+		len = min;
 		console.log(min,max);
-		while(nextPerm(arr) && bool){
-			bool2 = true;
-			l = arr.slice(0,m);
-			h = arr.slice(Math.max(arr.length - m, 1)).sort();
-			for(j=0;j<h.length;j+=1){
-				side = next(h,j);
-				index = l.indexOf(len - (side+h[j]));
-				if (index > -1) {
-				    l.splice(index, 1);
+		while(min <max){
+			while(nextPerm(arr) && bool){
+				bool2 = true;
+				l = arr.slice(0,m);
+				h = arr.slice(Math.max(arr.length - m, 1)).sort();
+				for(j=0;j<h.length;j+=1){
+					side = next(h,j);
+					index = l.indexOf(len - (side+h[j]));
+					if (index > -1) {
+					    l.splice(index, 1);
+					}
+				}
+				//console.log(l);
+				if(l.length === 0){
+					l = arr.slice(0,m);
+					console.log('winner');
+					console.log('h',h);
+					console.log('l',l);
+					bool = false;
 				}
 			}
-			//console.log(l);
-			if(l.length === 0){
-				l = arr.slice(0,m);
-				console.log('winner');
-				console.log('h',h);
-				console.log('l',l);
-				bool = false;
-			}
-
+			len+=1;
 		}
 
 
