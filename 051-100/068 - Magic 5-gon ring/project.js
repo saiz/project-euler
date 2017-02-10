@@ -31,7 +31,7 @@ function high(dict){
 		}
 	}
 	// /delete dict[max.k];
-	return max;
+	return max.;
 }
 function main() {
 	'use strict';
