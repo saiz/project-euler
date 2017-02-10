@@ -105,8 +105,8 @@ function main() {
 			arr = create_array(n);
 			while(nextPerm(arr) && bool){
 				if(test(arr, m, min) ){
-					console.log(arr)
 					temp = parseInt(gen_str(arr, m, min),10);
+					console.log(temp)
 					if(temp > res){
 						res = temp;
 						//console.log('winner');
