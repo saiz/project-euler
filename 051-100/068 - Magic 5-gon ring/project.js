@@ -83,9 +83,9 @@ function create_array(n){
 function main() {
 	'use strict';
 	var n = 10, // number 1 - n
-		m = 3, // number of pairs
+		m = 5, // number of pairs
 		d = 3, // length of comb
-		len = 9,
+		len = 16,
 		i =Math.pow(10,9), j,
 		str, arr, h, l,bool = true,bool2,side,index;
 		arr = create_array(n);
