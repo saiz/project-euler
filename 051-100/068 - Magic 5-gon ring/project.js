@@ -88,6 +88,7 @@ function main() {
 		i =Math.pow(10,9), j,
 		str, arr, h, l,bool = true,bool2,side,index;
 		arr = create_array(n);
+		console.log(arr);
 		// matrix = comb(n, len);
 		// arr = high_array(matrix);
 		// matrix = comb(n, len);
