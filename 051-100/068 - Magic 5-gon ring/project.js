@@ -72,7 +72,7 @@ function test(arr){
 	if(l.length === 0 ){
 		return true;
 	}
-
+	return false;
 }
 function main() {
 	'use strict';
