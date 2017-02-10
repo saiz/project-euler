@@ -62,7 +62,6 @@ function main() {
 	var n = 9, // number 1 - n
 		m = 3, // number of pairs
 		d = 3, // length of comb
-		len = 17,
 		i =Math.pow(10,9), j,
 		min,max,
 		arr, h, l,bool = true,bool2,side,index;
@@ -71,7 +70,7 @@ function main() {
 		min = m*d;
 		len = min;
 		console.log(min,max);
-		while(min <max){
+		while(min <max && bool){
 			while(nextPerm(arr) && bool){
 				bool2 = true;
 				l = arr.slice(0,m);
