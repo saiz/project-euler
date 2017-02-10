@@ -41,7 +41,7 @@ function high_array(dict){
 }
 function main() {
 	'use strict';
-	var n = 6 // number 1 - n
+	var n = 6, // number 1 - n
 		m = 3, // number of pairs
 		d = 3, // length of comb
 		len = 9,
