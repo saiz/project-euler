@@ -124,8 +124,8 @@ function main() {
 			while(nextPerm(arr) && bool){
 				if(test(arr, m, min) ){
 					temp = gen_str(arr, m, min);
-					console.log(temp.length)
-					if(temp > res && temp.length === len){
+					console.log(String(temp).length)
+					if(temp > res && String(temp).length === len){
 						res = temp;
 					}
 				}
