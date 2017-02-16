@@ -10,11 +10,11 @@ function relative_prime(n){
 	i=1;
 	while(i < n){
 		//console.log((n/i)%1)
-		console.log(gcd(i,n))
-		// if(isPrime3(i)){
-		// 	//console.log(n,i)
-		// 	total +=1;
-		// }
+		//console.log(gcd(i,n))
+		if(gcd(i,n)>1){
+			//console.log(n,i)
+			total +=1;
+		}
 		i+=1;
 	}
 	return total;
