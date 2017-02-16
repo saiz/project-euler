@@ -8,10 +8,10 @@ var gcd = function(a, b) {
 function relative_prime(n){
 	var total = 1,
 		i=2;
-		console.log(i)
+		//console.log(i)
 	while(i < n){
 		//console.log((n/i)%1)
-		console.log(n,i,gcd(i,n))
+		//console.log(n,i,gcd(i,n))
 		 if(gcd(i,n)>1 && (n/i)%1!==0){
 		// 	console.log(n,i)
 			total +=1;
@@ -27,7 +27,7 @@ function main() {
 		temp;
 	while(i<=n){
 		temp =relative_prime(i);
-		//console.log(i,temp, i/temp);
+		console.log(i,temp, i/temp);
 		i+=1;
 	}
 	return;
