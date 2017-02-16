@@ -24,7 +24,8 @@ function relative_prime(n){
 function main() {
 	'use strict';
 	var i =2,
-		n = 10;
+		n = 10,
+		temp;
 	while(i<=n){
 		console.log(i,relative_prime(i));
 		i+=1;
