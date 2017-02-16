@@ -94,6 +94,7 @@ function gen_str(arr,m,len){
 		}
 		str.push([index, h[j],side]);
 	}
+	console.log(low);
 	while(str[0][0] !== low){
 		str.push(str[0]);
 		str.slice(0,1);
