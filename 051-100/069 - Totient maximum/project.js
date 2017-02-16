@@ -10,10 +10,25 @@ function isPrime3(n) {
     }
     return true;
 }
-
+function relative_prime(n){
+	var total = 0,
+	i=1;
+	while(i < n){
+		if(n%i !== 0){
+			total +=1;
+		}
+		i+=1;
+	}
+	return total
+}
 function main() {
 	'use strict';
-	var i ='test';
+	var i =2,
+		n = 10;
+	while(i<=n){
+		console.log(i,relative_prime(i));
+		i+=1;
+	}
 	return i;
 }
 
