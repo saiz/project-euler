@@ -96,7 +96,7 @@ function gen_str(arr,m,len){
 	}
 	console.log(low);
 	while(str[0][0] !== low){
-		str.push(str[str.length -1]);
+		str.push(str[0]);
 		str.shift();
 		console.log(str)
 	}
