@@ -98,9 +98,7 @@ function gen_str(arr,m,len){
 		str.push(str[0]);
 		str.shift();
 	}
-	// str.sort(function(a, b) {
-	//     return parseFloat(a[0]) - parseFloat(b[0]);
-	// });
+
 	for(j=0;j<str.length;j+=1){
 		for(k=0;k<str[j].length;k+=1){
 			str2 += str[j][k];
