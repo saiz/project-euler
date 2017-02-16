@@ -112,6 +112,7 @@ function main() {
 	var n = 10, // number 1 - n
 		m = 5, // number of pairs
 		d = 3, // length of comb
+		len = 16,
 		min,max, j,
 		arr, h, l,bool = true,bool2,side,index, temp,
 		res = 0;
@@ -124,7 +125,7 @@ function main() {
 				if(test(arr, m, min) ){
 					temp = gen_str(arr, m, min);
 					console.log(temp);
-					if(temp > res){
+					if(temp > res && temp.length = len){
 						res = temp;
 					}
 				}
