@@ -8,6 +8,7 @@ var gcd = function(a, b) {
 function relative_prime(n){
 	var total = 1,
 		i=2;
+		console.log(i)
 	while(i < n){
 		//console.log((n/i)%1)
 		console.log(n,i,gcd(i,n))
