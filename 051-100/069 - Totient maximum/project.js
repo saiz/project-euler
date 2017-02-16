@@ -27,7 +27,7 @@ function main() {
 		n = 10,
 		temp;
 	while(i<=n){
-		temp =
+		temp =relative_prime(i);
 		console.log(i,relative_prime(i));
 		i+=1;
 	}
