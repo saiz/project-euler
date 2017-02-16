@@ -117,7 +117,7 @@ function main() {
 		res = 0;
 		max = high(n,d);
 		min = low(1,d);
-		console.log(min,max);
+		//console.log(min,max);
 		while(min < max && bool){
 			arr = create_array(n);
 			while(nextPerm(arr) && bool){
