@@ -94,6 +94,7 @@ function gen_str(arr,m,len){
 	str.sort(function(a, b) {
 	    return parseFloat(a[0]) - parseFloat(b[0]);
 	});
+
 	return str;
 }
 function main() {
