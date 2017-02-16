@@ -1,24 +1,20 @@
-function isPrime3(n) {
-    'use strict';
-    if (isNaN(n) || !isFinite(n) || n%1 || n<2){ return false;}
-    if (n%2===0) {return (n===2);}
-    if (n%3===0) {return (n===3);}
-    var m=Math.sqrt(n), i;
-    for (i=5;i<=m;i+=6) {
-        if (n%i===0)     {return false;}
-        if (n%(i+2)===0) {return false;}
+var gcd = function(a, b) {
+    if ( ! b) {
+        return a;
     }
-    return true;
-}
+
+    return gcd(b, a % b);
+};
 function relative_prime(n){
 	var total = 1,
 	i=1;
 	while(i < n){
 		//console.log((n/i)%1)
-		if(isPrime3(i)){
-			//console.log(n,i)
-			total +=1;
-		}
+		console.log(gcd(i,n))
+		// if(isPrime3(i)){
+		// 	//console.log(n,i)
+		// 	total +=1;
+		// }
 		i+=1;
 	}
 	return total;
