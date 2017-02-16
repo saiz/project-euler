@@ -91,6 +91,9 @@ function gen_str(arr,m,len){
 		//console.log(h[j],side,index)
 		str.push([index, h[j],side]);
 	}
+	str.sort(function(a, b) {
+	    return parseFloat(a[0]) - parseFloat(b[0]);
+	});
 	return str;
 }
 function main() {
