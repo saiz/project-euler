@@ -82,7 +82,7 @@ function gen_str(arr,m,len){
 	var bool2 = true,
 	l = arr.slice(0,m),
 	h = arr.slice(Math.max(arr.length - m, 1)),
-	j,k, index, side, str = [], arr = '', low = Math.pow(2,52), temp;
+	j,k, index, side, str = [], arr = '', low = Math.pow(2,52);
 	//console.log(l,h)
 
 	for(j=0;j<h.length;j+=1){
