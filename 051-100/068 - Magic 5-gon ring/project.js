@@ -98,7 +98,6 @@ function gen_str(arr,m,len){
 	while(str[0][0] !== low){
 		str.push(str[0]);
 		str.shift();
-		console.log(str)
 	}
 	// str.sort(function(a, b) {
 	//     return parseFloat(a[0]) - parseFloat(b[0]);
