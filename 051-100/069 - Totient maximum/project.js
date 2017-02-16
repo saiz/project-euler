@@ -15,7 +15,7 @@ function relative_prime(n){
 	i=1;
 	while(i < n){
 		console.log((n/i)%1)
-		if((n/i)%1 !== 1){
+		if((n/i)%1 !== 0){
 			total +=1;
 		}
 		i+=1;
