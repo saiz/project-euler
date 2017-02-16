@@ -118,6 +118,7 @@ function main() {
 			while(nextPerm(arr) && bool){
 				if(test(arr, m, min) ){
 					temp = gen_str(arr, m, min);
+					console.log(temp)
 					if(temp > res){
 						res = temp;
 					}
