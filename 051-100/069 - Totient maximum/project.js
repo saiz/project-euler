@@ -19,17 +19,17 @@ function relative_prime(n){
 		}
 		i+=1;
 	}
-	return total
+	return total;
 }
 function main() {
 	'use strict';
 	var i =2,
 		n = 10;
 	while(i<=n){
-		console.log(i,relative_prime(i));
+		console.log(i,relative_prime(i),i);
 		i+=1;
 	}
-	return i;
+	return;
 }
 
 console.log(main(process.argv[2]));
