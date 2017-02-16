@@ -82,7 +82,7 @@ function gen_str(arr,m,len){
 	var bool2 = true,
 	l = arr.slice(0,m),
 	h = arr.slice(Math.max(arr.length - m, 1)),
-	j,k, index, side, str = [], arr = '', low = Math.pow(2,52);
+	j,k, index, side, str = [], str2 = '', low = Math.pow(2,52);
 	//console.log(l,h)
 
 	for(j=0;j<h.length;j+=1){
@@ -104,11 +104,11 @@ function gen_str(arr,m,len){
 	// });
 	for(j=0;j<str.length;j+=1){
 		for(k=0;k<str[j].length;k+=1){
-			arr += str[j][k];
+			str2 += str[j][k];
 		}
 	}
 
-	return parseInt(arr,10);
+	return parseInt(str2,10);
 }
 function main() {
 	'use strict';
