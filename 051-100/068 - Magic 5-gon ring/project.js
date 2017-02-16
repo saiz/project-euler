@@ -82,14 +82,21 @@ function gen_str(arr,m,len){
 	var bool2 = true,
 	l = arr.slice(0,m),
 	h = arr.slice(Math.max(arr.length - m, 1)),
-	j,k, index, side, str = [], arr = '';
+	j,k, index, side, str = [], arr = '', low = Math.pow(2,52);
 	//console.log(l,h)
 
 	for(j=0;j<h.length;j+=1){
 		side = next(h,j);
 		index = len - (side+h[j]);
 		//console.log(h[j],side,index)
+		if(index < low){
+			low = index;
+		}
 		str.push([index, h[j],side]);
+	}
+	while(str[0][0] !== low){
+		str.push(str[0]);
+		str.slice(0,1);
 	}
 	// str.sort(function(a, b) {
 	//     return parseFloat(a[0]) - parseFloat(b[0]);
