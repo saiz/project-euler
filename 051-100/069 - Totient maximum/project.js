@@ -11,7 +11,7 @@ function isPrime3(n) {
     return true;
 }
 function relative_prime(n){
-	var total = 0,
+	var total = 1,
 	i=1;
 	while(i < n){
 		//console.log((n/i)%1)
