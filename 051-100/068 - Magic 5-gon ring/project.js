@@ -100,7 +100,7 @@ function gen_str(arr,m,len){
 		}
 	}
 
-	return arr;
+	return parseInt(arr,10);
 }
 function main() {
 	'use strict';
