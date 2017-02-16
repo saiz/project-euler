@@ -97,7 +97,7 @@ function gen_str(arr,m,len){
 	console.log(low);
 	while(str[0][0] !== low){
 		str.push(str[str.length -1]);
-		str.slice(0,1);
+		str.shift();
 		console.log(str)
 	}
 	// str.sort(function(a, b) {
