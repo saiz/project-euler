@@ -82,7 +82,7 @@ function gen_str(arr,m,len){
 	var bool2 = true,
 	l = arr.slice(0,m),
 	h = arr.slice(Math.max(arr.length - m, 1)),
-	j, index, side, str = [];
+	j,k, index, side, str = [], arr = '';
 	//console.log(l,h)
 
 	for(j=0;j<h.length;j+=1){
@@ -94,8 +94,13 @@ function gen_str(arr,m,len){
 	str.sort(function(a, b) {
 	    return parseFloat(a[0]) - parseFloat(b[0]);
 	});
+	for(j=0;j<str.length;j+=1){
+		for(k=0;k<str[j].length;k+=1){
+			arr += str[j][k];
+		}
+	}
 
-	return str;
+	return arr;
 }
 function main() {
 	'use strict';
