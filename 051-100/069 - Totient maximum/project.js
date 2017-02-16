@@ -12,7 +12,7 @@ function relative_prime(n){
 	while(i < n){
 		//console.log((n/i)%1)
 		console.log(n,i,gcd(i,n))
-		// if(gcd(i,n)>1){
+		 if(gcd(i,n)>1){
 		// 	console.log(n,i)
 		// 	total +=1;
 		// }
