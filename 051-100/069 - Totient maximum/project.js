@@ -25,7 +25,9 @@ function main() {
 		temp;
 	while(i<=n){
 		temp =relative_prime(i);
+		console.log("---");
 		console.log(i,temp, i/temp);
+		console.log("---");
 		i+=1;
 	}
 	return;
