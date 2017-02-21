@@ -51,7 +51,7 @@ function main() {
 		},
 		slieve = eratosthenes(n);
 		temp;
-
+		console.log(slieve);
 	// while(i<=n){
 	// 	temp = relative_prime(i);
 	// 	if(i/temp > max.v){
