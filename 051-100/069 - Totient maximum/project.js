@@ -21,7 +21,7 @@ function eratosthenes(n) {
     }
     return output;
 }
-function Not_
+function n
 function gcd(a, b) {
     if ( ! b) {
         return a;
