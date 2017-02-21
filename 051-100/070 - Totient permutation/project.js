@@ -22,9 +22,10 @@ function eratosthenes(n) {
     return output;
 }
 function perm(n,m){
+	var i =0, bool = true;
 	if(n.length !== m.length){
-		return false;
-
+		bool = false;
+	}
 	while(i < n.length && bool){
 		if(m.indexOf(n[i]) === -1){
 			bool= false;
