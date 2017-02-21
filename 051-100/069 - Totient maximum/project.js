@@ -21,18 +21,28 @@ function eratosthenes(n) {
     }
     return output;
 }
-function inverse_eratosthenes(n){
-	var slieve = eratosthenes(n),
-	array= [],
-	i = 2;
-	while(i < n){
-		if(slieve.indexOf(i) === -1){
-			array.push(i);
-		}
-		console.log(i);
-		i+=1;
-	}
-	return array;
+function inverse_function eratosthenes(n) {
+    // Eratosthenes algorithm to find all primes under n
+    var array = [], upperLimit = Math.sqrt(n), output = [], i, j;
+    // Make an array from 2 to (n - 1)
+    for (i = 0; i < n; i++) {
+        array.push(true);
+    }
+    // Remove multiples of primes starting from 2, 3, 5,...
+    for (i = 2; i <= upperLimit; i++) {
+        if (array[i]) {
+            for (j = i * i; j < n; j += i) {
+                array[j] = false;
+            }
+        }
+    }
+    // All array[i] set to true are primes
+    for (i = 2; i < n; i++) {
+        if(array[i]) {
+            output.push(i);
+        }
+    }
+    return output;
 }
 function gcd(a, b) {
     if ( ! b) {
