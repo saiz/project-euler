@@ -56,7 +56,7 @@ function main() {
 				console.log(i)
 			}
 		}
-
+i+=1;
 	}
 	return min;
 }
