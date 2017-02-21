@@ -25,6 +25,9 @@ function inverse_eratosthenes(n){
 	var slieve =eratosthenes(n),
 	arrary= [],
 	i = 2;
+	while(i <n){
+if()
+	}
 }
 function gcd(a, b) {
     if ( ! b) {
