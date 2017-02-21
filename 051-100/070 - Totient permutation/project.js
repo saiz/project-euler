@@ -53,10 +53,10 @@ function main() {
 		if(perm(i,phi(i))){
 			if(i < min){
 				min = i;
-				console.log(i)
+				console.log(i);
 			}
 		}
-i+=1;
+		i+=1;
 	}
 	return min;
 }
