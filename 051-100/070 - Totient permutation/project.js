@@ -50,7 +50,8 @@ function main() {
 	var n = Math.pow(10,7),
 		i = 2, min = Math.pow(2,52);
 	while(i<n){
-		if(perm(i,phi(i)) && i < min){
+		if(perm(i,phi(i))){
+
 
 		}
 	}
