@@ -24,15 +24,14 @@ function eratosthenes(n) {
 function perm(n,m){
 	if(n.length !== m.length){
 		return false;
-	}
-	var i =0, bool = true;
+
 	while(i < n.length && bool){
 		if(m.indexOf(n[i]) === -1){
 			bool= false;
 		}
 		i+=1;
 	}
-	return bool
+	return bool;
 }
 function phi(n) {
 	var res = 1,
