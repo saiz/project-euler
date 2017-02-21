@@ -52,11 +52,12 @@ function main() {
 	while(i<n){
 		if(perm(i,phi(i))){
 			if(i < min){
-
+				min = i;
+				console.log(i)
 			}
 		}
 	}
-	return i;
+	return min;
 }
 
 console.log(main(process.argv[2]));
