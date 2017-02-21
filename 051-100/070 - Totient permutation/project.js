@@ -22,7 +22,7 @@ function eratosthenes(n) {
     return output;
 }
 function perm(n,m){
-	if(n.lengt)
+	if(n.length !== m.length)
 }
 function phi(n) {
 	var res = 1,
