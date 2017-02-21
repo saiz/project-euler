@@ -7,7 +7,7 @@ var gcd = function(a, b) {
 };
 function relative_prime(n){
 	var total = 1,
-		i=2;
+		i=1;
 		//console.log(i);
 	while(i < n){
 		if(gcd(n,i) > 1){
