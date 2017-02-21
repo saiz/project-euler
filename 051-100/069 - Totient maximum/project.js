@@ -50,16 +50,17 @@ function main() {
 			k:0
 		},
 		temp;
-	while(i<=n){
-		temp = relative_prime(i);
-		if(i/temp > max.v){
-			//console.log(i,temp, i/temp);
-			max.v = i/temp;
-			max.k = i;
-		}
-		console.log(i);
-		i+=1;
-	}
+
+	// while(i<=n){
+	// 	temp = relative_prime(i);
+	// 	if(i/temp > max.v){
+	// 		//console.log(i,temp, i/temp);
+	// 		max.v = i/temp;
+	// 		max.k = i;
+	// 	}
+	// 	console.log(i);
+	// 	i+=1;
+	// }
 	return max;
 }
 
