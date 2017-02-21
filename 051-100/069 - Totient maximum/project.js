@@ -72,7 +72,7 @@ function main() {
 			max.v = j/temp;
 			max.k = j;
 		}
-		console.log(i);
+		//console.log(j);
 		i+=1;
 	}
 	return max;
