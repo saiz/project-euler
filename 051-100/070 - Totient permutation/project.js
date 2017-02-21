@@ -51,8 +51,9 @@ function main() {
 		i = 2, min = Math.pow(2,52);
 	while(i<n){
 		if(perm(i,phi(i))){
+			if(i < min){
 
-
+			}
 		}
 	}
 	return i;
