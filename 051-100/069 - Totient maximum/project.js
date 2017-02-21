@@ -84,7 +84,7 @@ function main() {
 			if(gcd(n,k) === 1){
 				total+=1;
 			}
-			if(j/total > max.v){
+			if(j/total < max.v){
 				bool = false;
 			}
 			k+=1;
