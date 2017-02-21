@@ -23,11 +23,11 @@ function eratosthenes(n) {
 }
 function inverse_eratosthenes(n){
 	var slieve =eratosthenes(n),
-	arrary= [],
+	array= [],
 	i = 2;
 	while(i <n){
 if(slieve.indexOf(i) === -1){
-	arra
+	array
 	}
 }
 }
