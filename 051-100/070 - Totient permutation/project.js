@@ -27,7 +27,7 @@ function perm(n,m){
 	}
 	var i =0;
 while(i < n.length){
- if(m)
+ if(m.)
 }
 }
 function phi(n) {
