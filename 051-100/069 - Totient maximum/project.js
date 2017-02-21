@@ -25,10 +25,11 @@ function inverse_eratosthenes(n){
 	var slieve = eratosthenes(n),
 	array= [],
 	i = 2;
-	while(i <n){
+	while(i < n){
 		if(slieve.indexOf(i) === -1){
 			array.push(i);
 		}
+console.log(slieve.length);
 		i+=1;
 	}
 	return array;
