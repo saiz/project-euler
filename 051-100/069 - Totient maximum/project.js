@@ -49,6 +49,7 @@ function main() {
 			v:0,
 			k:0
 		},
+		slieve = eratosthenes(n);
 		temp;
 
 	// while(i<=n){
