@@ -84,6 +84,7 @@ function main() {
 				total+=1;
 				max.v = j/total;
 				max.k = j;
+				console.log(j);
 			}
 			k+=1;
 		}
