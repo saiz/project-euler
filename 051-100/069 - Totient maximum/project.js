@@ -26,8 +26,10 @@ function inverse_eratosthenes(n){
 	arrary= [],
 	i = 2;
 	while(i <n){
-if(slieve.indexOf(i) !==)
+if(slieve.indexOf(i) === -1){
+	arra
 	}
+}
 }
 function gcd(a, b) {
     if ( ! b) {
