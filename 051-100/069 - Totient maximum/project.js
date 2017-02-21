@@ -72,10 +72,10 @@ function main() {
 			k:0
 		},
 		slieve = inverse_eratosthenes(n),
-		i = slieve.length -1,
+		i = 0,
 		j, k,total, bool;
 		console.log(slieve.length);
-	while(i >= 0){
+	while(i < slieve.length){
 		j = slieve[i];
 		k = 2;
 		total = 1;
@@ -95,7 +95,7 @@ function main() {
 			console.log(max);
 		}
 		//console.log(j);
-		i-=1;
+		i+=1;
 	}
 	return max;
 }
