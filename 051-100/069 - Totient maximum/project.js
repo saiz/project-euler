@@ -65,6 +65,7 @@ function main() {
 		temp;
 		console.log(slieve.length);
 	while(i < slieve.length){
+
 		temp = relative_prime(slieve[i]);
 		if(i/temp > max.v){
 			//console.log(i,temp, i/temp);
