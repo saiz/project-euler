@@ -22,7 +22,7 @@ function eratosthenes(n) {
     return output;
 }
 function inverse_eratosthenes(n){
-	var slieve =eratosthenes(n),
+	var slieve = eratosthenes(n),
 	array= [],
 	i = 2;
 	while(i <n){
