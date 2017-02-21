@@ -27,7 +27,7 @@ function gcd(a, b) {
     }
 
     return gcd(b, a % b);
-};
+}
 function relative_prime(n){
 	var total = 1,
 		i=2;
