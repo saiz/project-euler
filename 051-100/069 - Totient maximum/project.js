@@ -29,10 +29,10 @@ function main() {
 		temp;
 	while(i<=n){
 		temp =relative_prime(i);
-if(temp/i > max.v){
-max.v = temp/i
-max.k = temp
-}
+		if(temp/i > max.v){
+			max.v = temp/i;
+			max.k = i;
+		}
 		console.log(i,temp, i/temp);
 		//console.log("- - -");
 		i+=1;
