@@ -89,7 +89,7 @@ function main() {
 			}
 			k+=1;
 		}
-		if(j/total > max.v && bool){
+		if(bool){
 			max.v = j/total;
 			max.k = j;
 			console.log(max);
