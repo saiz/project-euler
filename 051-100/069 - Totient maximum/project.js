@@ -21,7 +21,7 @@ function eratosthenes(n) {
     }
     return output;
 }
-function inverse_
+function inverse_eratosthenes-(n)
 function gcd(a, b) {
     if ( ! b) {
         return a;
