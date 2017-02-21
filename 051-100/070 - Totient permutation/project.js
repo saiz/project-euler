@@ -50,7 +50,7 @@ function main() {
 	var n = Math.pow(10,7),
 		i = 2;
 	while(i<n){
-		if(i === phi(i)){
+		if(i === phi(i) ){
 
 		}
 	}
