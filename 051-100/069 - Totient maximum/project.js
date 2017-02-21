@@ -34,7 +34,7 @@ function main() {
 			max.v = i/temp;
 			max.k = i;
 		}
-		//console.log("- - -");
+		console.log(i);
 		i+=1;
 	}
 	return max;
