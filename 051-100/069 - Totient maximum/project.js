@@ -31,7 +31,7 @@ function main() {
 		temp = relative_prime(i);
 		if(i/temp > max.v){
 			console.log(i,temp, i/temp);
-			max.v = temp/i;
+			max.v = i/temp;
 			max.k = i;
 		}
 		//console.log("- - -");
