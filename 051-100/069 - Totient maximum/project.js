@@ -88,6 +88,7 @@ function main() {
 		if(j/total > max.v){
 			max.v = j/total;
 			max.k = j;
+			console.log(max);
 		}
 		//console.log(j);
 		i-=1;
