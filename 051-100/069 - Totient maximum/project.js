@@ -73,15 +73,19 @@ function main() {
 			k:0
 		},
 		slieve = inverse_eratosthenes(n),
-		j, temp;
+		j, temp, k;
 		console.log(slieve.length);
 	while(i < slieve.length){
 		j = slieve[i];
-		temp = relative_prime(j);
-		if(j/temp > max.v){
-			//console.log(i,temp, i/temp);
-			max.v = j/temp;
-			max.k = j;
+		k = 2;
+		total = 1;
+		while(k < j && j/total > max.v ){
+			if(gcd(n,k) === 1){
+				total+=1;
+				max.v = j/total;
+				max.k = j;
+			}
+			k+=1;
 		}
 		//console.log(j);
 		i+=1;
