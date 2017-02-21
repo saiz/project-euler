@@ -25,12 +25,12 @@ function perm(n,m){
 	if(n.length !== m.length){
 		return false;
 	}
-	var i =0;
-while(i < n.length){
-	if(m.indexOf(n[i]) === -1){
+	var i =0, bool = true;
+	while(i < n.length ){
+		if(m.indexOf(n[i]) === -1){
 
+		}
 	}
-}
 }
 function phi(n) {
 	var res = 1,
