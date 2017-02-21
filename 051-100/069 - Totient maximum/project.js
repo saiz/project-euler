@@ -73,7 +73,7 @@ function main() {
 			k:0
 		},
 		slieve = inverse_eratosthenes(n),
-		j, temp, k;
+		j, k,total;
 		console.log(slieve.length);
 	while(i < slieve.length){
 		j = slieve[i];
