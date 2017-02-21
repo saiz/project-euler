@@ -33,7 +33,7 @@ function main() {
 			max.v = temp/i;
 			max.k = i;
 		}
-		//console.log(i,temp, i/temp);
+		console.log(i,temp, i/temp);
 		//console.log("- - -");
 		i+=1;
 	}
