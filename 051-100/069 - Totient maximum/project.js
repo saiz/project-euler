@@ -28,7 +28,7 @@ function main() {
 		},
 		temp;
 	while(i<=n){
-		temp =relative_prime(i);
+		temp = relative_prime(i);
 		if(temp/i > max.v){
 			max.v = temp/i;
 			max.k = i;
