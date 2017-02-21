@@ -33,11 +33,11 @@ function main() {
 			max.v = temp/i;
 			max.k = i;
 		}
-		console.log(i,temp, i/temp);
+		//console.log(i,temp, i/temp);
 		//console.log("- - -");
 		i+=1;
 	}
-	return;
+	return max;
 }
 
 console.log(main(process.argv[2]));
