@@ -22,9 +22,14 @@ function main() {
 	'use strict';
 	var i =2,
 		n = 10,
+		max = {
+			v:0,
+			k:0
+		},
 		temp;
 	while(i<=n){
 		temp =relative_prime(i);
+
 		console.log(i,temp, i/temp);
 		//console.log("- - -");
 		i+=1;
