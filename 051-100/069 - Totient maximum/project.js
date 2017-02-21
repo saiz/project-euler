@@ -29,7 +29,7 @@ function inverse_eratosthenes(n){
 		if(slieve.indexOf(i) === -1){
 			array.push(i);
 		}
-console.log(slieve.length);
+		console.log(i);
 		i+=1;
 	}
 	return array;
