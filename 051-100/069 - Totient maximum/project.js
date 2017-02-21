@@ -30,10 +30,10 @@ function main() {
 	while(i<=n){
 		temp = relative_prime(i);
 		if(temp/i > max.v){
+			console.log(i,temp, i/temp);
 			max.v = temp/i;
 			max.k = i;
 		}
-		console.log(i,temp, i/temp);
 		//console.log("- - -");
 		i+=1;
 	}
