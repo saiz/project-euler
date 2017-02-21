@@ -56,6 +56,7 @@ function relative_prime(n){
 		i=2;
 		//console.log(i);
 	while(i < n){
+		//console.log(n,i,gcd(n,i));
 		if(gcd(n,i) === 1){
 			total+=1;
 		}
@@ -65,33 +66,25 @@ function relative_prime(n){
 }
 function main() {
 	'use strict';
-	var n = Math.pow(10,6),
+	var i =0,
+		n = Math.pow(10,6),
 		max = {
 			v:0,
 			k:0
 		},
 		slieve = inverse_eratosthenes(n),
-		i =slieve.length -1,
-		j, temp, total, k;
-		//console.log(slieve.length);
-	while(i >=0){
+		j, temp;
+		console.log(slieve.length);
+	while(i < slieve.length){
 		j = slieve[i];
-		total = 1;
-		k=2;
-		while(k < n ){
-			if(gcd(n,k) === 1){
-				total+=1;
-			}
-			k+=1;
-		}
 		temp = relative_prime(j);
 		if(j/temp > max.v){
-			console.log(i,temp, i/temp);
+			//console.log(i,temp, i/temp);
 			max.v = j/temp;
 			max.k = j;
 		}
 		//console.log(j);
-		i-=1;
+		i+=1;
 	}
 	return max;
 }
