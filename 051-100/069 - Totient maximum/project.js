@@ -78,7 +78,7 @@ function main() {
 		j = slieve[i];
 		total = 1;
 		k=2;
-		while(k < n){
+		while(k < n ){
 			if(gcd(n,k) === 1){
 				total+=1;
 			}
