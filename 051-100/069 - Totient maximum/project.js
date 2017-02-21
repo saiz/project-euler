@@ -62,8 +62,7 @@ function main() {
 			k:0
 		},
 		slieve = inverse_eratosthenes(n),
-		temp;
-		console.log(slieve.length);
+		j, temp;
 	while(i < slieve.length){
 		j = slieve[i];
 		temp = relative_prime(j);
