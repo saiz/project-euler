@@ -31,7 +31,7 @@ function inverse_eratosthenes(n){
 		}
 		i+=1;
 	}
-
+	return array;
 }
 function gcd(a, b) {
     if ( ! b) {
