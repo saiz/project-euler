@@ -82,11 +82,12 @@ function main() {
 		while(k < j && j/total > max.v ){
 			if(gcd(n,k) === 1){
 				total+=1;
-				max.v = j/total;
-				max.k = j;
-				console.log(max);
 			}
 			k+=1;
+		}
+		if(j/total > max.v){
+			max.v = j/total;
+			max.k = j;
 		}
 		//console.log(j);
 		i-=1;
