@@ -26,7 +26,7 @@ function main() {
 	'use strict';
 	var n = Math.pow(10,6),
 	res = 1,
-	sieve = eratosthenes(n);
+	sieve = eratosthenes(n),
 	i = 0;
 
 	while(res * sieve[i] < n){
