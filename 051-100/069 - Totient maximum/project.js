@@ -55,7 +55,7 @@ function relative_prime(n){
 }
 function main() {
 	'use strict';
-	var i =2,
+	var i =0,
 		n = Math.pow(10,6),
 		max = {
 			v:0,
@@ -64,7 +64,7 @@ function main() {
 		slieve = inverse_eratosthenes(n),
 		temp;
 		console.log(slieve.length);
-	while(i<=n){
+	while(i<=){
 		temp = relative_prime(i);
 		if(i/temp > max.v){
 			//console.log(i,temp, i/temp);
