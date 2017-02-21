@@ -64,7 +64,7 @@ function main() {
 		slieve = inverse_eratosthenes(n),
 		temp;
 		console.log(slieve.length);
-	while(i<=){
+	while(i<){
 		temp = relative_prime(i);
 		if(i/temp > max.v){
 			//console.log(i,temp, i/temp);
