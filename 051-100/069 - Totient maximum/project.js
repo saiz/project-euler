@@ -21,7 +21,7 @@ function eratosthenes(n) {
     }
     return output;
 }
-function inverse_function eratosthenes(n) {
+function inverse_eratosthenes(n) {
     // Eratosthenes algorithm to find all primes under n
     var array = [], upperLimit = Math.sqrt(n), output = [], i, j;
     // Make an array from 2 to (n - 1)
@@ -38,7 +38,7 @@ function inverse_function eratosthenes(n) {
     }
     // All array[i] set to true are primes
     for (i = 2; i < n; i++) {
-        if(array[i]) {
+        if(!array[i]) {
             output.push(i);
         }
     }
