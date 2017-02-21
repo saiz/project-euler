@@ -29,7 +29,7 @@ function main() {
 		temp;
 	while(i<=n){
 		temp =relative_prime(i);
-
+if(temp > max.v)
 		console.log(i,temp, i/temp);
 		//console.log("- - -");
 		i+=1;
