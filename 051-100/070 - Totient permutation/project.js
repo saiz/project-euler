@@ -48,7 +48,7 @@ function phi(n) {
 function main() {
 	'use strict';
 	var n = Math.pow(10,7),
-		i = 2, max =0;
+		i = 2, min = Make;
 	while(i<n){
 		if(i === phi(i) && i > max){
 
