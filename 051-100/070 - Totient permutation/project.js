@@ -21,7 +21,7 @@ function eratosthenes(n) {
     }
     return output;
 }
-function perm(n)
+function perm(n,m)
 function phi(n) {
 	var res = 1,
 	sieve = eratosthenes(n),
