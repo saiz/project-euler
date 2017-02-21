@@ -30,7 +30,7 @@ function main() {
 	while(i<=n){
 		temp = relative_prime(i);
 		if(i/temp > max.v){
-			console.log(i,temp, i/temp);
+			//console.log(i,temp, i/temp);
 			max.v = i/temp;
 			max.k = i;
 		}
