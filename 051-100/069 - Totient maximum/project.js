@@ -21,7 +21,7 @@ function relative_prime(n){
 function main() {
 	'use strict';
 	var i =2,
-		n = 10,
+		n = Math.pow(10,6),
 		max = {
 			v:0,
 			k:0
