@@ -23,8 +23,9 @@ function eratosthenes(n) {
 }
 function perm(n,m){
 	if(n.length !== m.length){
-
+		return false;
 	}
+	var
 }
 function phi(n) {
 	var res = 1,
