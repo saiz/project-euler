@@ -49,7 +49,9 @@ function main() {
 	'use strict';
 	var n = Math.pow(10,7),
 		i = 2;
-	whil
+	while(i<n){
+
+	}
 	return i;
 }
 
