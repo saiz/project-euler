@@ -56,6 +56,7 @@ function main() {
 				console.log(i)
 			}
 		}
+
 	}
 	return min;
 }
