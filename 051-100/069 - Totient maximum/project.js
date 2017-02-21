@@ -29,8 +29,9 @@ function inverse_eratosthenes(n){
 		if(slieve.indexOf(i) === -1){
 			array.push(i);
 		}
-i+=1;
+		i+=1;
 	}
+
 }
 function gcd(a, b) {
     if ( ! b) {
