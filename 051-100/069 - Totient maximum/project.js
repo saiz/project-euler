@@ -8,7 +8,7 @@ var gcd = function(a, b) {
 function relative_prime(n){
 	var total = 1,
 		i=2;
-		console.log(i);
+		//console.log(i);
 	while(i < n){
 		console.log(n,i);
 		i+=1;
