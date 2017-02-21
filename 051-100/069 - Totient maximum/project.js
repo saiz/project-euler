@@ -79,7 +79,7 @@ function main() {
 		j = slieve[i];
 		temp = relative_prime(j);
 		if(j/temp > max.v){
-			//console.log(i,temp, i/temp);
+			console.log(i,temp, i/temp);
 			max.v = j/temp;
 			max.k = j;
 		}
