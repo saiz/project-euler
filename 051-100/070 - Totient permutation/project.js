@@ -26,9 +26,9 @@ function perm(n,m){
 		return false;
 	}
 	var i =0, bool = true;
-	while(i < n.length ){
+	while(i < n.length && bool){
 		if(m.indexOf(n[i]) === -1){
-
+			bool
 		}
 	}
 }
