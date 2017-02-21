@@ -10,6 +10,7 @@ function relative_prime(n){
 		i=2;
 		//console.log(i);
 	while(i < n){
+		console.log(n,i,gcd(n,i));
 		if(gcd(n,i) > 1){
 			total+=1;
 		}
