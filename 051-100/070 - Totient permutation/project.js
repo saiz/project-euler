@@ -28,9 +28,11 @@ function perm(n,m){
 	var i =0, bool = true;
 	while(i < n.length && bool){
 		if(m.indexOf(n[i]) === -1){
-			bool
+			bool= false;
 		}
+		i+=1;
 	}
+	return bool
 }
 function phi(n) {
 	var res = 1,
