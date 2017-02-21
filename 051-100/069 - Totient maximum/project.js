@@ -76,6 +76,8 @@ function main() {
 		//console.log(slieve.length);
 	while(i >=0){
 		j = slieve[i];
+		total = 1,
+		k=2;
 		while(k < n){
 			if(gcd(n,k) === 1){
 				total+=1;
