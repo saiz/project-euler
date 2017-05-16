@@ -24,14 +24,14 @@ function eratosthenes(n) {
 function phi(n) {
 	i = 0,
 		//slieve = eratosthenes(n),
-		factors = getAllFactorsFor(n),
-		sum = 1;
-		while(i <factors.length){
-			sum *= (factors[i] -1);
-			i+=1;
-		}
+	factors = getAllFactorsFor(n),
+	sum = 1;
+	while(i <factors.length){
+		sum *= (factors[i] -1);
+		i+=1;
+	}
 
-		console.log(sum);
+	console.log(sum);
 }
 function getAllFactorsFor(remainder) {
     var factors = [], i;
