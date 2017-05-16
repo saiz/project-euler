@@ -61,12 +61,14 @@ function phi(n) {
 function main() {
 	'use strict';
 	var n = Math.pow(10,7),
-	i=1;
-	while(i<n){
-		if(perm(phi(i))){
+	min = Infinity,
+	i=n-1;
+	while(i>1){
+		if(perm(phi(i),i)){
+			if(m)
 
 		}
-		i+=1;
+		i-=1;
 	}
 	return ;
 }
