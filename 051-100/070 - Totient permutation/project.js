@@ -65,7 +65,7 @@ function main() {
 	min = Math.pow(2,52),
 	j, k,
 	i=n-1;
-	console.log(phi(79180))
+	console.log(phi(87109))
 	// while(i>1){
 	// 	if(i < min*phi(i)){
 	// 		j = String(i);
