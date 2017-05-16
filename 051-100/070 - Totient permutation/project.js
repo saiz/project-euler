@@ -65,7 +65,8 @@ function main() {
 	temp1, temp2,
 	i=n-1;
 	while(i>1){
-		temp1 = i
+		temp1 = i;
+		temp2
 		if(perm(phi(i),i)){
 			if(min > i/phi(i)){
 				min = i/phi(i);
