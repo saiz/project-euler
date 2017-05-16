@@ -61,12 +61,12 @@ function phi(n) {
 function main() {
 	'use strict';
 	var n = Math.pow(10,7),
-	temp = null,
-	i=1;
+		temp = null,
+		i=1;
 	while(i<n){
-
-		if(perm(phi(i))){
-console.log(phi(i))
+		temp = phi(i);
+		if(perm(temp)){
+			console.log(temp);
 		}
 		i+=1;
 	}
