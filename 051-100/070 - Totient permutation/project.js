@@ -22,14 +22,16 @@ function eratosthenes(n) {
     return output;
 }
 function phi(n) {
-	var res = 1,
-	sieve = eratosthenes(n),
-	i = 0;
-	while(res * sieve[i] < n){
-	    res *= sieve[i];
-	    i++;
-	}
-	return res;
+	i = 0,
+		//slieve = eratosthenes(n),
+		factors = getAllFactorsFor(n),
+		sum = 1;
+		while(i <factors.length){
+			sum *= (factors[i] -1);
+			i+=1;
+		}
+
+		console.log(sum);
 }
 function getAllFactorsFor(remainder) {
     var factors = [], i;
