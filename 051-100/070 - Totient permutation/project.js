@@ -33,7 +33,7 @@ function getAllFactorsFor(remainder) {
 }
 function phi(n) {
 	if(n === 1){
-		return 1;
+
 	}
 	var i = 0,
 	factors = getAllFactorsFor(n),
@@ -48,12 +48,7 @@ function phi(n) {
 function main() {
 	'use strict';
 	var n = Math.pow(10,7),
-	i=1;
-	while(i <n){
-		console.log(i);
-		i+=1;
-	}
-
+	return ;
 }
 
 console.log(main(process.argv[2]));
