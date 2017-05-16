@@ -51,6 +51,7 @@ function main() {
 		sum = 1;
 		while(i <factors.length){
 			sum *= (factors[i] -1);
+			i+=1;
 		}
 
 		console.log(sum);
