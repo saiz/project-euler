@@ -63,7 +63,7 @@ function main() {
 	var n = Math.pow(10,7),
 	i=1;
 	while(i<n){
-		console.log(i);
+		console.log(phi(i));
 		i+=1;
 	}
 	return ;
