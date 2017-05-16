@@ -33,7 +33,7 @@ function getAllFactorsFor(remainder) {
 }
 function phi(n) {
 	if(n === 1){
-return1;
+		return 1;
 	}
 	var i = 0,
 	factors = getAllFactorsFor(n),
