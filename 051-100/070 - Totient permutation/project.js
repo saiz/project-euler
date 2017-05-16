@@ -80,7 +80,7 @@ function main() {
 	while(i>1){
 		j = String(i);
 		k = String(phi(i));
-		if(perm(j,k) === true){
+		if(perm(j,k)){
 			console.log(j,k);
 			// if(min > j/k){
 			// 	min = j/k;
