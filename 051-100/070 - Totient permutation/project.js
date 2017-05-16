@@ -69,8 +69,9 @@ function main() {
 		i=1;
 	while(i<n){
 		temp = phi(i);
-		if(is_permutation(i,temp) && (min > i/temp)
+		if(is_permutation(i,temp) && (min > i/temp){
 			min = i/temp;
+			console.log(min, i, temp);
 		}
 		i+=1;
 	}
