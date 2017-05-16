@@ -63,7 +63,7 @@ function main() {
 	j, k,
 	i=2;
 	while(i<n){
-		if(phi(i) < min*i){
+		if(i < min*phi(i)){
 			j = String(i);
 			k = String(phi(i));
 			if(perm(j,k)){
