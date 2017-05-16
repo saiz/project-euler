@@ -66,7 +66,6 @@ function main() {
 	j, k,
 	i=n-1;
 	while(i>1){
-		console.log(i);
 		if(i < min*phi(i)){
 			j = String(i);
 			k = String(phi(i));
