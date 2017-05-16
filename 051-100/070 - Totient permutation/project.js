@@ -73,6 +73,7 @@ function main() {
 		}
 		i-=1;
 	}
+	console.log(i);
 	return ;
 }
 
