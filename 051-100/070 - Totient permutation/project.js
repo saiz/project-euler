@@ -54,12 +54,10 @@ function phi(n) {
 	sum = 1;
 	factors.shift()
 	factors.pop();
-	console.log(factors)
 	while(i <factors.length){
 		sum *= (factors[i] -1);
 		i+=1;
 	}
-	console.log()
 	return sum;
 }
 
