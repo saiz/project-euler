@@ -72,7 +72,7 @@ function main() {
 		// 	}
 		// }
 		console.log(phi(i))
-		i+-=1;
+		i-=1;
 	}
 	return ;
 }
