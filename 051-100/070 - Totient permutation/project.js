@@ -66,7 +66,7 @@ function main() {
 	var n = Math.pow(10,7),
 		temp = null,
 		min = Infinity,
-		i=1;
+		i=2;
 	while(i<n){
 		temp = phi(i);
 		if(is_permutation(i,temp) && (min > i/temp)){
