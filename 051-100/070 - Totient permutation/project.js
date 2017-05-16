@@ -21,34 +21,45 @@ function eratosthenes(n) {
     }
     return output;
 }
-function getAllFactorsFor(remainder) {
-    var factors = [], i;
-    for (i = 2; i <= remainder; i++) {
-        while ((remainder % i) === 0) {
-            factors.push(i);
-            remainder /= i;
-        }
-    }
-    return factors;
-}
-function phi(n) {
-	if(n === 1){
-
+function perm(n,m){
+	var i =0, bool = true;
+	if(n.length !== m.length){
+		bool = false;
 	}
-	var i = 0,
-	factors = getAllFactorsFor(n),
-	sum = 1;
-	while(i <factors.length){
-		sum *= (factors[i] -1);
+	while(i < n.length && bool){
+		if(m.indexOf(n[i]) === -1){
+			bool= false;
+		}
 		i+=1;
 	}
-	return sum;
+	return bool;
+}
+function phi(n) {
+	var res = 1,
+	sieve = eratosthenes(n),
+	i = 0;
+	while(res * sieve[i] < n){
+	    res *= sieve[i];
+	    i++;
+	}
+	return res;
 }
 
 function main() {
 	'use strict';
 	var n = Math.pow(10,7),
-	return ;
+		i = 2, min = Math.pow(2,52);
+	while(i<n){
+		if(perm(i,phi(i))){
+			if(i < min){
+				min = i;
+				console.log(i)
+			}
+			console.log(i);
+		}
+		i+=1;
+	}
+	return min;
 }
 
 console.log(main(process.argv[2]));
