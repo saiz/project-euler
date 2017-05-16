@@ -61,8 +61,8 @@ function main() {
 	var n = Math.pow(10,7),
 	min = Math.pow(2,52),
 	j, k,
-	i=n-1;
-	while(i>1){
+	i=2;
+	while(i<n){
 		if(phi(i) < min*i){
 			j = String(i);
 			k = String(phi(i));
