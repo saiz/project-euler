@@ -75,7 +75,7 @@ function main() {
 				console.log(min, i, temp);
 			}
 		}
-		i+=1;
+		i-=1;
 	}
 	return min;
 }
