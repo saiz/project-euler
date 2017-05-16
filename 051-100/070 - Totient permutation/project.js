@@ -31,17 +31,23 @@ function phi(n) {
 	}
 	return res;
 }
+function getAllFactorsFor(remainder) {
+    var factors = [], i;
+    for (i = 2; i <= remainder; i++) {
+        while ((remainder % i) === 0) {
+            factors.push(i);
+            remainder /= i;
+        }
+    }
+    return factors;
+}
 
 function main() {
 	'use strict';
 	var n = Math.pow(10,7),
 		i = 2, min = Math.pow(2,52),
 		slieve = eratosthenes(n);
-	while(i<n){
-
-		i+=1;
-	}
-	console.log(slieve.length)
+	console.log(getAllFactorsFor(n))
 	return ;
 }
 
