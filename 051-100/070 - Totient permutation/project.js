@@ -62,7 +62,7 @@ function main() {
 	'use strict';
 	var n = Math.pow(10,7),
 	i=1;
-	whi
+	whil
 	return ;
 }
 
