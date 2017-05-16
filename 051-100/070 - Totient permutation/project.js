@@ -32,6 +32,9 @@ function getAllFactorsFor(remainder) {
     return factors;
 }
 function phi(n) {
+	if(n === 1){
+		return2
+	}
 	var i = 0,
 	factors = getAllFactorsFor(n),
 	sum = 1;
@@ -39,7 +42,7 @@ function phi(n) {
 		sum *= (factors[i] -1);
 		i+=1;
 	}
-return sum;
+	return sum;
 }
 
 function main() {
