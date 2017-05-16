@@ -63,7 +63,9 @@ function main() {
 	var n = Math.pow(10,7),
 	i=1;
 	while(i<n){
-		if()
+		if(perm(phi(i))){
+
+		}
 		i+=1;
 	}
 	return ;
