@@ -71,9 +71,8 @@ function main() {
 		temp = phi(i);
 		if(is_permutation(i,temp){
 			if(min > i/temp){
-
+				min = i/temp;
 			}
-			min = i/temp;
 		}
 		i+=1;
 	}
