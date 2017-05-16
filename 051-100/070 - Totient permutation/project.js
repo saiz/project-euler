@@ -44,7 +44,7 @@ function getAllFactorsFor(remainder) {
 
 function main() {
 	'use strict';
-	var n = Math.pow(10,7),
+	var n = 87109,
 		i = 0,
 		//slieve = eratosthenes(n),
 		factors = getAllFactorsFor(n),
