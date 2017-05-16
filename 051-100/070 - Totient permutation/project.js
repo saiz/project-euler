@@ -52,7 +52,7 @@ function phi(n) {
 	var i = 0,
 	factors = getAllFactorsFor(n),
 	sum = 1;
-	factors.shift();  // Removes the first element from an array and returns only that element.
+	factors.shift()
 	factors.pop();
 	console.log(factors)
 	while(i <factors.length){
