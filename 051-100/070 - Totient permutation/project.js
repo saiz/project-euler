@@ -58,8 +58,8 @@ function main() {
 	j, k,
 	i=n-1;
 	while(i>1){
-		j = tr(i);
-		k = phi(i);
+		j = i.toString();
+		k = phi(i).toString();
 		if(perm(j,k) === true){
 			console.log(j,k)
 			// if(min > j/k){
