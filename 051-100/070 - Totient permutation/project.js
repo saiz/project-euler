@@ -25,7 +25,26 @@ function perm(a,b){
     if (a.length !== b.length) {
         return false;
     }
-    return a.split("").sort().join() === b.split("").sort().join();
+
+    var letters = {},
+        length = a.length;
+
+    for (var x = 0; x < length; x++) {
+        var l = a.charAt(x);
+        letters[l] = (isNaN(letters[l]) ? 1 : letters[l] + 1);
+    }
+
+    for (var y = 0; y < length; y++) {
+        var m = b.charAt(y);
+        letters[m]--;
+    }
+
+    for (var z in letters) {
+        if (letters[z] !== 0) {
+            return false;
+        }
+    }
+
 }
 function getAllFactorsFor(remainder) {
     var factors = [], i;
