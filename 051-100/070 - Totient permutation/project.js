@@ -67,7 +67,7 @@ function main() {
 	while(i>1){
 		j = i;
 		k = phi(i);
-		if(perm(j,k)){
+		if(perm(j,k) === true){
 			if(min > j/k){
 				min = j/k;
 				console.log(j, k,min);
