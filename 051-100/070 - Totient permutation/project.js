@@ -65,7 +65,7 @@ function main() {
 	while(i>1){
 		j = String(i);
 		k = String(phi(i));
-		if(i/k ){
+		if(i/k < min){
 			console.log(j,k);
 			// if(min > j/k){
 			// 	min = j/k;
