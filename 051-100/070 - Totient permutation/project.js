@@ -21,19 +21,6 @@ function eratosthenes(n) {
     }
     return output;
 }
-function perm(n,m){
-	var i =0, bool = true;
-	if(n.length !== m.length){
-		bool = false;
-	}
-	while(i < n.length && bool){
-		if(m.indexOf(n[i]) === -1){
-			bool= false;
-		}
-		i+=1;
-	}
-	return bool;
-}
 function phi(n) {
 	var res = 1,
 	sieve = eratosthenes(n),
@@ -50,13 +37,7 @@ function main() {
 	var n = Math.pow(10,7),
 		i = 2, min = Math.pow(2,52);
 	while(i<n){
-		if(perm(i,phi(i))){
-			if(i < min){
-				min = i;
-				console.log(i)
-			}
-			console.log(i);
-		}
+		console.log(i);
 		i+=1;
 	}
 	return min;
