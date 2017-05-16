@@ -57,6 +57,7 @@ function phi(n) {
 		sum *= (factors[i] -1);
 		i+=1;
 	}
+	console.log(sum)
 	return sum;
 }
 
