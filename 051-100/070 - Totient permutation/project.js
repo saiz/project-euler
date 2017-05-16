@@ -71,11 +71,10 @@ function main() {
 		temp = phi(i);
 		if(is_permutation(i,temp) && (min > i/temp)){
 			min = i/temp;
-			console.log(min, i, temp);
 		}
 		i+=1;
 	}
-	return ;
+	return min;
 }
 
 console.log(main(process.argv[2]));
