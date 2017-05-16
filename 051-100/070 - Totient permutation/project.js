@@ -48,7 +48,9 @@ function phi(n) {
 function main() {
 	'use strict';
 	var n = Math.pow(10,7),
-	return ;
+	i=1;
+	while(i <n)
+
 }
 
 console.log(main(process.argv[2]));
