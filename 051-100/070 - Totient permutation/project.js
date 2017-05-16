@@ -50,8 +50,8 @@ function main() {
 	var n = Math.pow(10,7),
 	i=1;
 	while(i <n){
-console.log(i);
-i+
+		console.log(i);
+		i+=1;
 	}
 
 }
