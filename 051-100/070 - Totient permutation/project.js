@@ -21,17 +21,6 @@ function eratosthenes(n) {
     }
     return output;
 }
-function phi(n) {
-	ci = 0,
-	factors = getAllFactorsFor(n),
-	sum = 1;
-	while(i <factors.length){
-		sum *= (factors[i] -1);
-		i+=1;
-	}
-
-	console.log(sum);
-}
 function getAllFactorsFor(remainder) {
     var factors = [], i;
     for (i = 2; i <= remainder; i++) {
@@ -41,6 +30,16 @@ function getAllFactorsFor(remainder) {
         }
     }
     return factors;
+}
+function phi(n) {
+	var i = 0,
+	factors = getAllFactorsFor(n),
+	sum = 1;
+	while(i <factors.length){
+		sum *= (factors[i] -1);
+		i+=1;
+	}
+
 }
 
 function main() {
