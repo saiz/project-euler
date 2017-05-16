@@ -38,10 +38,11 @@ function main() {
 		i = 2, min = Math.pow(2,52),
 		slieve = eratosthenes(n);
 	while(i<n){
-		console.log(i);
+		//console.log(i);
 		i+=1;
 	}
-	return min;
+	console.log(slieve.length)
+	return ;
 }
 
 console.log(main(process.argv[2]));
