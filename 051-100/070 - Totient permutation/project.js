@@ -33,7 +33,7 @@ function perm(str1, str2) {
     return a === b;
 }
 function getAllFactorsFor(integer) {
-	 var factors = [],
+	var factors = [],
 	quotient = 0;
 
 	for(var i = 1; i <= integer; i++){
