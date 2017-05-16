@@ -21,10 +21,10 @@ function eratosthenes(n) {
     }
     return output;
 }
-function checkAnagram(str1, tr2) {
+function perm(str1, str2) {
 
     if (str1.length !== str2.length){
-	return false;
+		return false;
     }
 
     var a = String(str1.split("").sort());
