@@ -66,7 +66,8 @@ function main() {
 	while(i>1){
 		if(perm(phi(i),i)){
 			if(min > i/phi(i)){
-min
+				min = i/phi(i);
+				console.log
 			}
 
 		}
