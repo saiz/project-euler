@@ -67,7 +67,7 @@ function main() {
 		temp = null,
 		min = Infinity,
 		i=2;
-	while(i<){
+	while(i){
 		temp = phi(i);
 		if(is_permutation(i,temp)){
 			if(min > i/temp){
