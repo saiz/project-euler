@@ -45,9 +45,15 @@ function getAllFactorsFor(remainder) {
 function main() {
 	'use strict';
 	var n = Math.pow(10,7),
-		i = 2, min = Math.pow(2,52),
-		slieve = eratosthenes(n);
-	console.log(getAllFactorsFor(n))
+		i = 0,
+		slieve = eratosthenes(n),
+		factors = getAllFactorsFor(n),
+		sum = 1;
+		while(i <factors.length){
+			sum *= (factors[i] -1);
+		}
+
+		console.log(sum);
 	return ;
 }
 
