@@ -71,7 +71,7 @@ function main() {
 				console.log(j, k,min);
 			}
 		}
-		i-=1;
+		i+=1;
 	}
 	return ;
 }
