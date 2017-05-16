@@ -65,17 +65,18 @@ function main() {
 	min = Math.pow(2,52),
 	j, k,
 	i=n-1;
-	while(i>1){
-		if(i < min*phi(i)){
-			j = String(i);
-			k = String(phi(i));
-			if(perm(j,k)){
-				min = i/phi(i);
-				console.log(j, k,min);
-			}
-		}
-		i-=1;
-	}
+	console.log(phi(79180))
+	// while(i>1){
+	// 	if(i < min*phi(i)){
+	// 		j = String(i);
+	// 		k = String(phi(i));
+	// 		if(perm(j,k)){
+	// 			min = i/phi(i);
+	// 			console.log(j, k,min);
+	// 		}
+	// 	}
+	// 	i-=1;
+	// }
 	return ;
 }
 
