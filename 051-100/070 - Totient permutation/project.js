@@ -59,7 +59,7 @@ function phi(n) {
 function main() {
 	'use strict';
 	var n = Math.pow(10,7),
-	min = Infinity,
+	min = Math.pow(2,52),
 	j, k,
 	i=n-1;
 	while(i>1){
