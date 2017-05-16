@@ -65,7 +65,7 @@ function main() {
 	'use strict';
 	var n = Math.pow(10,7),
 		temp = null,
-		min
+		min = Infinity,
 		i=1;
 	while(i<n){
 		temp = phi(i);
