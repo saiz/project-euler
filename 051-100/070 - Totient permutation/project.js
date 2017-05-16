@@ -65,7 +65,9 @@ function main() {
 	i=n-1;
 	while(i>1){
 		if(perm(phi(i),i)){
-			if(min > i)
+			if(min > i/phi(i)){
+min
+			}
 
 		}
 		i-=1;
