@@ -23,6 +23,7 @@ function eratosthenes(n) {
 }
 function perm(n,m){
 	var i =0, bool = true;
+
 	if(n.length !== m.length){
 		bool = false;
 	}
