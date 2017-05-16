@@ -78,6 +78,7 @@ function main() {
 		// 		console.log(j, k,min);
 		// 	}
 		// }
+console.log(phi(i)
 		i-=1;
 	}
 	return ;
