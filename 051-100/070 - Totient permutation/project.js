@@ -44,6 +44,7 @@ function perm(a,b){
             return false;
         }
     }
+    return true;
 
 }
 function getAllFactorsFor(remainder) {
