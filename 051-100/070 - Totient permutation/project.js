@@ -68,7 +68,7 @@ function main() {
 		i=1;
 	while(i<n){
 		temp = phi(i);
-		if(perm(temp)){
+		if(is_permutation(temp)){
 			console.log(temp);
 		}
 		i+=1;
