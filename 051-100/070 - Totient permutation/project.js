@@ -71,6 +71,7 @@ function main() {
 		temp = phi(i);
 		if(is_permutation(i,temp) && (min > i/temp){
 			console.log(temp);
+			min =
 		}
 		i+=1;
 	}
