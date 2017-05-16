@@ -69,7 +69,10 @@ function main() {
 		i=2;
 	while(i<n){
 		temp = phi(i);
-		if(is_permutation(i,temp) && (min > i/temp)){
+		if(is_permutation(i,temp){
+			if(min > i/temp){
+
+			}
 			min = i/temp;
 		}
 		i+=1;
