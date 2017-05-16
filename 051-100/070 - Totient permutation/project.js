@@ -62,7 +62,10 @@ function main() {
 	'use strict';
 	var n = Math.pow(10,7),
 	i=1;
-	whil
+	while(i<n){
+		console.log(i);
+		i+=1
+	}
 	return ;
 }
 
