@@ -21,15 +21,17 @@ function eratosthenes(n) {
     }
     return output;
 }
-function perm(n,m){
-	var i =0, bool = true;
-
-	if(n.length !== m.length){
-		bool = false;
+function is_permutation(first,second){
+	first = String(first);
+	second = String(second);
+	if(first.length !== second.length){
+		return false;
 	}
-	while(i < n.length && bool){
-		if(m.indexOf(n[i]) === -1){
-			bool= false;
+	var bool = true,
+		i=0;
+	while(i<first.length && bool){
+		if(second.indexOf(first[i]) < 0){
+			bool = false;
 		}
 		i+=1;
 	}
