@@ -70,7 +70,7 @@ function main() {
 		if(perm(j,k)){
 			if(min > j/k){
 				min = j/k;
-				console.log(, phi(i),min);
+				console.log(j, k,min);
 			}
 
 		}
