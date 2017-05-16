@@ -61,8 +61,8 @@ function main() {
 	var n = Math.pow(10,7),
 	min = Math.pow(2,52),
 	j, k,
-	i=2;
-	while(i<n){
+	i=n-1;
+	while(i>1){
 		// if(i < min*phi(i)){
 		// 	j = String(i);
 		// 	k = String(phi(i));
@@ -72,7 +72,7 @@ function main() {
 		// 	}
 		// }
 		console.log(phi(i))
-		i+=1;
+		i+-=1;
 	}
 	return ;
 }
