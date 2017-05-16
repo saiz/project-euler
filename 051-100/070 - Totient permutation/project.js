@@ -38,7 +38,7 @@ function main() {
 		i = 2, min = Math.pow(2,52),
 		slieve = eratosthenes(n);
 	while(i<n){
-		//console.log(i);
+
 		i+=1;
 	}
 	console.log(slieve.length)
