@@ -52,7 +52,7 @@ function phi(n) {
 	var i = 0,
 	factors = getAllFactorsFor(n),
 	sum = 1;
-	factors.shift()
+	factors.shift();
 	factors.pop();
 	while(i <factors.length){
 		sum *= (factors[i] -1);
