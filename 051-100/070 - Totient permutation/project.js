@@ -21,18 +21,11 @@ function eratosthenes(n) {
     }
     return output;
 }
-function perm(n,m){
-	var i =0, bool = true;
-	if(n.length !== m.length){
-		bool = false;
-	}
-	while(i < n.length && bool){
-		if(m.indexOf(n[i]) === -1){
-			bool= false;
-		}
-		i+=1;
-	}
-	return bool;
+function isPermutation(a, b) {
+    if (a.length !== b.length) {
+        return false;
+    }
+    return a.split("").sort().join() === b.split("").sort().join();
 }
 function getAllFactorsFor(remainder) {
     var factors = [], i;
@@ -67,7 +60,7 @@ function main() {
 	while(i>1){
 		j = i;
 		k = phi(i);
-		if(perm(j,k) === true){
+		if(isPermutation(j,k) === true){
 			console.log(j,k)
 			// if(min > j/k){
 			// 	min = j/k;
