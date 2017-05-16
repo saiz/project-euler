@@ -67,7 +67,7 @@ function main() {
 		if(perm(phi(i),i)){
 			if(min > i/phi(i)){
 				min = i/phi(i);
-				console.log
+				console.log(i, phi(i),min);
 			}
 
 		}
