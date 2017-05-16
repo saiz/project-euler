@@ -66,18 +66,15 @@ function main() {
 	var n = Math.pow(10,7),
 		temp = null,
 		min = Infinity,
-		i=n-1;
-	while(i > 1){
+		i=1;
+	while(i<n){
 		temp = phi(i);
-		if(is_permutation(i,temp)){
-			if(min > i/temp){
-				min = i/temp;
-				console.log(min, i, temp);
-			}
+		if(is_permutation(i,temp) && (min > i/){
+			console.log(temp);
 		}
-		i-=1;
+		i+=1;
 	}
-	return min;
+	return ;
 }
 
 console.log(main(process.argv[2]));
