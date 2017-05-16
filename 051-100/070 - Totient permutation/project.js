@@ -32,15 +32,18 @@ function perm(str1, str2) {
 
     return a === b;
 }
-function getAllFactorsFor(remainder) {
-    var factors = [], i;
-    for (i = 2; i <= remainder; i++) {
-        while ((remainder % i) === 0) {
-            factors.push(i);
-            remainder /= i;
-        }
-    }
-    return factors;
+function getAllFactorsFor(integer) {
+	 var factors = [],
+	quotient = 0;
+
+	for(var i = 1; i <= integer; i++){
+		quotient = integer/i;
+
+		if(quotient === Math.floor(quotient)){
+			factors.push(i);
+		}
+	}
+	return factors;
 }
 function phi(n) {
 	if(n === 1){
