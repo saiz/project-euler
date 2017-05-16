@@ -26,13 +26,10 @@ function checkAnagram(str1, tr2) {
     if (str1.length !== str2.length
       return false;
 
-    var a = str1.split("");
-    var b = str2.split("");
+    var a = String(str1.split("").sort());
+    var b = String(str2.split("").sort());
 
-    Arrays.sort(a);
-    Arrays.sort(b);
-
-    return Arrays.equals(a, b);
+    return a === b;
 }
 function getAllFactorsFor(remainder) {
     var factors = [], i;
