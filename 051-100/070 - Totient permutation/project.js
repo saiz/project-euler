@@ -63,7 +63,7 @@ function main() {
 	j, k,
 	i=n-1;
 	while(i>1){
-		if(i/phi(i) < min){
+		if(phi(i) < min*i){
 			j = String(i);
 			k = String(phi(i));
 			if(perm(j,k)){
@@ -71,7 +71,6 @@ function main() {
 				console.log(j, k,min);
 			}
 		}
-		console.log(phi(i) < m)
 		i-=1;
 	}
 	return ;
