@@ -35,7 +35,8 @@ function phi(n) {
 function main() {
 	'use strict';
 	var n = Math.pow(10,7),
-		i = 2, min = Math.pow(2,52);
+		i = 2, min = Math.pow(2,52),
+		slieve = eratosthenes(n);
 	while(i<n){
 		console.log(i);
 		i+=1;
