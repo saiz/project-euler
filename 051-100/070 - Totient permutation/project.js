@@ -21,17 +21,14 @@ function eratosthenes(n) {
     }
     return output;
 }
-function is_permutation(first,second){
-	first = String(first);
-	second = String(second);
-	if(first.length !== second.length){
-		return false;
+function perm(n,m){
+	var i =0, bool = true;
+	if(n.length !== m.length){
+		bool = false;
 	}
-	var bool = true,
-		i=0;
-	while(i<first.length && bool){
-		if(second.indexOf(first[i]) < 0){
-			bool = false;
+	while(i < n.length && bool){
+		if(m.indexOf(n[i]) === -1){
+			bool= false;
 		}
 		i+=1;
 	}
@@ -64,13 +61,12 @@ function phi(n) {
 function main() {
 	'use strict';
 	var n = Math.pow(10,7),
-		temp = null,
-		min = Infinity,
-		i=1;
+temp
+	i=1;
 	while(i<n){
-		temp = phi(i);
-		if(is_permutation(i,temp) && (min > i/){
-			console.log(temp);
+
+		if(perm(phi(i))){
+console.log(phi(i))
 		}
 		i+=1;
 	}
