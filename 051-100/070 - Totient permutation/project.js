@@ -68,7 +68,7 @@ function main() {
 		j = String(i);
 		k = String(phi(i));
 		if(perm(j,k) === true){
-			console.log(j,k)
+			console.log(j,k);
 			// if(min > j/k){
 			// 	min = j/k;
 			// 	console.log(j, k,min);
