@@ -62,10 +62,10 @@ function main() {
 	'use strict';
 	var n = Math.pow(10,7),
 	min = Infinity,
-	temp1
+	temp1, temp2,
 	i=n-1;
 	while(i>1){
-		j  =
+		temp1 = i
 		if(perm(phi(i),i)){
 			if(min > i/phi(i)){
 				min = i/phi(i);
