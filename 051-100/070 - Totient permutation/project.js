@@ -58,7 +58,7 @@ function main() {
 	j, k,
 	i=n-1;
 	while(i>1){
-		j = Str(i);
+		j = str(i);
 		k = phi(i);
 		if(perm(j,k) === true){
 			console.log(j,k)
