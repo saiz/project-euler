@@ -21,6 +21,19 @@ function eratosthenes(n) {
     }
     return output;
 }
+function perm(n,m){
+	var i =0, bool = true;
+	if(n.length !== m.length){
+		bool = false;
+	}
+	while(i < n.length && bool){
+		if(m.indexOf(n[i]) === -1){
+			bool= false;
+		}
+		i+=1;
+	}
+	return bool;
+}
 function getAllFactorsFor(remainder) {
     var factors = [], i;
     for (i = 2; i <= remainder; i++) {
@@ -48,6 +61,8 @@ function phi(n) {
 function main() {
 	'use strict';
 	var n = Math.pow(10,7),
+	i=1;
+	whi
 	return ;
 }
 
