@@ -46,7 +46,7 @@ function main() {
 	'use strict';
 	var n = Math.pow(10,7),
 		i = 0,
-		slieve = eratosthenes(n),
+		//slieve = eratosthenes(n),
 		factors = getAllFactorsFor(n),
 		sum = 1;
 		while(i <factors.length){
