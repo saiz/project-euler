@@ -71,7 +71,7 @@ function main() {
 				console.log(j, k,min);
 			}
 		}
-console.log(i)
+		console.log(phi(i))
 		i-=1;
 	}
 	return ;
