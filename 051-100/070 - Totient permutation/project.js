@@ -24,7 +24,7 @@ function eratosthenes(n) {
 function checkAnagram(str1, tr2) {
 
     if (str1.length !== str2.length){
-      return false;
+	return false;
     }
 
     var a = String(str1.split("").sort());
