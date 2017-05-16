@@ -22,8 +22,7 @@ function eratosthenes(n) {
     return output;
 }
 function phi(n) {
-	i = 0,
-		//slieve = eratosthenes(n),
+	ci = 0,
 	factors = getAllFactorsFor(n),
 	sum = 1;
 	while(i <factors.length){
