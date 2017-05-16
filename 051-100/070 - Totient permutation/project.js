@@ -63,11 +63,11 @@ function main() {
 	j, k,
 	i=n-1;
 	while(i>1){
-		j = String(i);
-		k = String(phi(i));
 		if(i/phi(i) < min){
+			j = String(i);
+			k = String(phi(i));
 			if(perm(j,k)){
-				min = j/k;
+				min = i/phi(i);
 				console.log(j, k,min);
 			}
 		}
