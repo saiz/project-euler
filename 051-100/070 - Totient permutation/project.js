@@ -64,7 +64,7 @@ function main() {
 	i=1;
 	while(i<n){
 		if(perm(phi(i))){
-
+console.log(phi(i))
 		}
 		i+=1;
 	}
