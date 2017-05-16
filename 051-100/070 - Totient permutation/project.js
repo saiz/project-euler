@@ -70,7 +70,7 @@ function main() {
 	while(i<n){
 		temp = phi(i);
 		if(is_permutation(i,temp)){
-			if(min < i/temp){
+			if(min > i/temp){
 				min = i/temp;
 				console.log(min, i, temp);
 			}
