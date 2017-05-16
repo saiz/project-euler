@@ -68,15 +68,15 @@ function main() {
 	j, k,
 	i=n-1;
 	while(i>1){
-		// if(i < min*phi(i)){
-		// 	j = String(i);
-		// 	k = String(phi(i));
-		// 	if(perm(j,k)){
-		// 		min = i/phi(i);
-		// 		console.log(j, k,min);
-		// 	}
-		// }
-		console.log(phi(i));
+		if(i < min*phi(i)){
+			j = String(i);
+			k = String(phi(i));
+			if(perm(j,k)){
+				min = i/phi(i);
+				console.log(j, k,min);
+			}
+		}
+		// console.log(phi(i));
 		i-=1;
 	}
 	return ;
