@@ -39,7 +39,7 @@ function phi(n) {
 		sum *= (factors[i] -1);
 		i+=1;
 	}
-
+return sum;
 }
 
 function main() {
