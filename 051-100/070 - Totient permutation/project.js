@@ -54,7 +54,9 @@ function phi(n) {
 	sum = 1;
 	console.log(factors)
 	while(i <factors.length){
-		sum *= (factors[i] -1);
+		if(factors[i] !== 1){
+			sum *= (factors[i] -1);
+		}
 		i+=1;
 	}
 	console.log(sum)
