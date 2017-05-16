@@ -68,10 +68,11 @@ function main() {
 		j = i;
 		k = phi(i);
 		if(perm(j,k) === true){
-			if(min > j/k){
-				min = j/k;
-				console.log(j, k,min);
-			}
+			console.log(j,k)
+			// if(min > j/k){
+			// 	min = j/k;
+			// 	console.log(j, k,min);
+			// }
 
 		}
 		i-=1;
