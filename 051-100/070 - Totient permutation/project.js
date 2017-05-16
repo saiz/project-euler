@@ -49,7 +49,10 @@ function main() {
 	'use strict';
 	var n = Math.pow(10,7),
 	i=1;
-	while(i <n)
+	while(i <n){
+console.log(i);
+i+
+	}
 
 }
 
