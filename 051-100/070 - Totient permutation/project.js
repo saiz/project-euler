@@ -59,6 +59,7 @@ function main() {
 				minratio = ratio;
 				min =num;
 				minphi = phi;
+				console.log(min, minphi,minratio,primes[i],primes[j]);
 			}
 
 			j+=1;
