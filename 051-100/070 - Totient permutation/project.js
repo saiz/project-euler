@@ -50,6 +50,7 @@ function main() {
 	var primes = eratosthenes(upperbound);
 
 	for (var i = 0; i < primes.Length; i++) {
+
 	    for (var j = i+1; j < primes.Length; j++) {
 	        var n = primes[i] * primes[j];
 	        if (n > limit) break;
