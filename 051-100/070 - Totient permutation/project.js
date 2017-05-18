@@ -30,7 +30,7 @@ function main() {
 		j;
 	while(i<primes.length){
 		j=i+1;
-		while(j<primes.length){
+		while(j<primes.length ){
 			console.log(primes[i]*primes[j]);
 			j+=1;
 		}
