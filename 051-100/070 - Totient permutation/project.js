@@ -32,7 +32,8 @@ function main() {
 		j=i+1;
 		while(j<primes.length ){
 			if (primes[i]*primes[j] > max) {
-				console.log(primes[i]*primes[j]);
+				break;
+
 			}
 			j+=1;
 		}
