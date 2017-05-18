@@ -55,7 +55,7 @@ function main() {
 			var num = primes[i]*primes[j],
 				phi = (primes[i] - 1) * (primes[j] - 1),
 				ratio = num/phi;
-console.log(is_permutation(String(num),String(phi))
+console.log(is_permutation(String(num),String(phi)))
 			if((ratio < minratio) && is_permutation(String(num),String(phi))){
 				minratio = ratio;
 				min =num;
