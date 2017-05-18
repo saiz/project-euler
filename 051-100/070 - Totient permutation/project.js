@@ -20,35 +20,12 @@ function eratosthenes(n) {
         }
     }
     return output;
-}
+
 
 function main() {
 	'use strict';
-	var max = Math.pow(10,6),
-		minratio = Infinity,
-		minphi = Infinity,
-		min = Infinity,
-		primes = eratosthenes(Math.sqrt(max)),
-		i=0,
-		j;
-	while(i<primes.length){
-		j=i+1;
-		while(j<primes.length ){
-			if (primes[i]*primes[j] > max) {
-				break;
-			}
-			var phi =(primes[i] -1)*(primes[j] -1),
-				ratio = primes[i]*primes[j] /phi;
-			if(ratio < minratio){
-				minratio = ratio;
-				min = primes[i]*primes[j];
-				minphi = phi;
-			}
-			j+=1;
-		}
-		i+=1;
-	}
-		console.log(min,minphi,minratio)
+	var max = Math.pow(10lprimes = eratosthenes(Math.sqrt(9))
+	i=2;
 	// while(i<n){
 	// 	if(i < min*phi(i)){
 	// 		j = String(i);
