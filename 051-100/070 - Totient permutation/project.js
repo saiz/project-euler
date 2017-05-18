@@ -20,71 +20,13 @@ function eratosthenes(n) {
         }
     }
     return output;
-}
-function perm(str1, str2) {
 
-    if (str1.length !== str2.length){
-		return false;
-    }
-
-    var a = String(str1.split("").sort());
-    var b = String(str2.split("").sort());
-
-    return a === b;
-}
-function isPrime3(n) {
-	'use strict';
-	if (isNaN(n) || !isFinite(n) || n%1 || n<2){ return false;}
-	if (n%2===0) {return (n===2);}
-	if (n%3===0) {return (n===3);}
-	var m=Math.sqrt(n), i;
-	for (i=5;i<=m;i+=6) {
-		if (n%i===0)     {return false;}
-		if (n%(i+2)===0) {return false;}
-	}
-	return true;
-}
-function getAllFactorsFor(integer) {
-	if(integer ===1){
-		return [];
-	}
-	if(isPrime3(integer)){
-		return [1, integer];
-	}
-	var factors = [],
-	quotient = 0;
-
-	for(var i = 1; i <= integer; i++){
-		quotient = integer/i;
-
-		if(quotient === Math.floor(quotient)){
-			factors.push(i);
-		}
-	}
-	return factors;
-}
-function phi(n) {
-	if(n === 1){
-		return 1;
-	}
-	var i = 0,
-	factors = getAllFactorsFor(n),
-	sum = 1;
-	factors.shift();
-	factors.pop();
-	while(i <factors.length){
-		sum *= (factors[i] -1);
-		i+=1;
-	}
-	return sum;
-}
 
 function main() {
 	'use strict';
-	var n = Math.pow(10,7),
-	min = Math.pow(2,52),
-	j, k,
-	i=2;
+	var max = Math.pow(10,7),
+		primes = eratosthenes(Math.sqrt(max)),
+		i=2;
 	// while(i<n){
 	// 	if(i < min*phi(i)){
 	// 		j = String(i);
