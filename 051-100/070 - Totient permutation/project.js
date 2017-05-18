@@ -41,7 +41,7 @@ function main() {
 			if(ratio < minratio){
 				minratio = ratio;
 				min =primes[i]*primes[j];
-
+				minphi = phi;
 			}
 
 			j+=1;
