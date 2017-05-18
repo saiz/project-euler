@@ -31,7 +31,7 @@ function main() {
 		primes = eratosthenes(Math.sqrt(max)),
 		i,j;
 	while(i<primes.length){
-j=i+1
+		j=i+1;
 		while(j<primes.length){
 
 			j+=1;
