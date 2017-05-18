@@ -44,7 +44,7 @@ function main() {
 		minratio = Infinity,
 		minphi = Infinity,
 		min = Infinity,
-		primes = eratosthenes(Math.sqrt(max)),
+		primes = eratosthenes(max/),
 		i=0,j;
 		console.log(Math.sqrt(max))
 	while(i<primes.length){
