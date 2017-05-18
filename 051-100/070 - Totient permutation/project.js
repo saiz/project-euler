@@ -26,8 +26,8 @@ function main() {
 	'use strict';
 	var max = Math.pow(10,7),
 		primes = eratosthenes(Math.sqrt(max)),
-		i=2;
-	for()
+		i,j;
+while()
 		console.log(primes.length)
 	// while(i<n){
 	// 	if(i < min*phi(i)){
