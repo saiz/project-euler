@@ -42,7 +42,8 @@ function main() {
 				console.log(ratio);
 			if(ratio < minratio){
 				minratio = ratio;
-				min =primes[i]*primes[j]
+				min = primes[i]*primes[j];
+				min
 			}
 			j+=1;
 		}
