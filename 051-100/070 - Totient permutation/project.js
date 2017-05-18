@@ -37,7 +37,8 @@ function main() {
 				break;
 			}
 			var phi =(primes[i] - 1) * (primes[j] - 1),
-				ratio =primes[i]*primes[j]
+				ratio =primes[i]*primes[j]/phi;
+			if
 
 			j+=1;
 		}
