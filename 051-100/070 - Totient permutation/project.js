@@ -40,7 +40,7 @@ function main() {
 				ratio =primes[i]*primes[j]/phi;
 			if(ratio < minratio){
 				ratio = minratio
-				min =
+				min =primes[i]*p
 			}
 
 			j+=1;
