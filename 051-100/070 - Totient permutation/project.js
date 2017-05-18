@@ -39,7 +39,7 @@ function main() {
 				ratio = primes[i]*primes[j] /phi;
 				console.log(ratio);
 			if(ratio < min){
-				v
+				min = ratio
 			}
 			j+=1;
 		}
