@@ -22,6 +22,22 @@ function eratosthenes(n) {
     return output;
 }
 
+function is_permutation(first,second){
+	first = String(first);
+	second = String(second);
+	if(first.length !== second.length){
+		return false;
+	}
+	var bool = true,
+		i=0;
+	while(i<first.length && bool){
+		if(second.indexOf(first[i]) < 0){
+			bool = false;
+		}
+		i+=1;
+	}
+	return bool;
+}
 function main() {
 	'use strict';
 	var max = Math.pow(10,7),
@@ -38,6 +54,7 @@ function main() {
 			}
 			var phi =(primes[i] - 1) * (primes[j] - 1),
 				ratio =primes[i]*primes[j]/phi;
+
 			if(ratio < minratio){
 				minratio = ratio;
 				min =primes[i]*primes[j];
