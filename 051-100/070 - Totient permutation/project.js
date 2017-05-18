@@ -40,33 +40,29 @@ function is_permutation(first,second){
 }
 function main() {
 	'use strict';
-	var max = Math.pow(10,7),
-		minratio = Infinity,
-		minphi = Infinity,
-		min = Infinity,
-		primes = eratosthenes(5000),
-		i=0,j;
-		console.log(Math.sqrt(max))
-	while(i<primes.length){
-		j=i+1;
-		while(j<primes.length){
-			var num = primes[i]*primes[j];
-			if(num > max){
-				break;
-			}
-			var phi = (primes[i] - 1) * (primes[j] - 1),
-				ratio = num/phi;
-			if((ratio < minratio) && is_permutation(String(num),String(phi))){
-				minratio = ratio;
-				min =num;
-				minphi = phi;
-				//console.log(min, minphi,minratio,primes[i],primes[j]);
-			}
+	var best = 1;
+	var phiBest = 1;
+	var bestRatio = double.PositiveInfinity;
 
-			j+=1;
-		}
+	var limit = 10000000;
+	var lowerbound = 2000;
+	var upperbound = 5000;
+	var primes = eratosthenes(upperbound);
 
-		i+=1;
+	for (var i = 0; i < primes.Length; i++) {
+	    for (var j = i+1; j < primes.Length; j++) {
+	        var n = primes[i] * primes[j];
+	        if (n > limit) break;
+
+	        var phi = (primes[i] - 1) * (primes[j] - 1);
+	        var ratio = ( n) / phi;
+
+	        if (isPerm(n, phi) && bestRatio > ratio) {
+	            best = n;
+	            phiBest = phi;
+	            bestRatio = ratio;
+	        }
+	    }
 	}
 	console.log(min, minphi,minratio);
 	return ;
