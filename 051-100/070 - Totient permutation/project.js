@@ -28,9 +28,11 @@ function main() {
 		primes = eratosthenes(Math.sqrt(max)),
 		i,j;
 	while(i<primes.length){
+		while(i<primes.length){
 
-		i_
-
+				i+=11;
+			}
+		i+=11;
 	}
 		console.log(primes.length)
 	// while(i<n){
