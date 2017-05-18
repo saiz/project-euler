@@ -65,7 +65,7 @@ function main() {
 	        }
 	    }
 	}
-	console.log(min, minphi,minratio);
+	console.log(best, phiBest,bestRatio);
 	return ;
 }
 
