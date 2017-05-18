@@ -36,6 +36,7 @@ function main() {
 			if(primes[i]*primes[j]> max){
 				break;
 			}
+			var
 
 			j+=1;
 		}
