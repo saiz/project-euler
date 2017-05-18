@@ -54,7 +54,7 @@ function main() {
 			}
 			var num = primes[i]*primes[j];,
 				phi =(primes[i] - 1) * (primes[j] - 1),
-				ratio =primes[i]*primes[j]/phi;
+				ratio = n/phi;
 			if(is_permutation())
 			if(ratio < minratio){
 				minratio = ratio;
