@@ -45,7 +45,7 @@ function main() {
 		minphi = Infinity,
 		min = Infinity,
 		primes = eratosthenes(Math.sqrt(max)),
-		i,j;
+		i=0,j;
 	while(i<primes.length){
 		j=i+1;
 		while(j<primes.length){
