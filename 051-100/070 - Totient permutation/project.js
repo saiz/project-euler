@@ -49,7 +49,7 @@ function main() {
 		}
 		i+=1;
 	}
-		console.log(min,min)
+		console.log(min,minphi,)
 	// while(i<n){
 	// 	if(i < min*phi(i)){
 	// 		j = String(i);
