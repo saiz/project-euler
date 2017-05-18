@@ -40,7 +40,7 @@ function is_permutation(first,second){
 }
 function main() {
 	'use strict';
-	var max = Math.pow(10,6),
+	var max = Math.pow(10,7),
 		minratio = Infinity,
 		minphi = Infinity,
 		min = Infinity,
