@@ -49,11 +49,11 @@ function main() {
 	while(i<primes.length){
 		j=i+1;
 		while(j<primes.length){
-			if(primes[i]*primes[j]> max){
+			var num = primes[i]*primes[j];
+			if(num> max){
 				break;
 			}
-			var num = primes[i]*primes[j],
-				phi = (primes[i] - 1) * (primes[j] - 1),
+			var phi = (primes[i] - 1) * (primes[j] - 1),
 				ratio = num/phi;
 			if((ratio < minratio) && is_permutation(String(num),String(phi))){
 				minratio = ratio;
