@@ -30,9 +30,9 @@ function main() {
 	while(i<primes.length){
 		while(i<primes.length){
 
-				i+=11;
-			}
-		i+=11;
+			j+=1;
+		}
+		i+=1;
 	}
 		console.log(primes.length)
 	// while(i<n){
