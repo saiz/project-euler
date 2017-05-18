@@ -36,7 +36,8 @@ function main() {
 			if(primes[i]*primes[j]> max){
 				break;
 			}
-			var phi =(primes[i] - 1) * (primes[j] - 1)''
+			var phi =(primes[i] - 1) * (primes[j] - 1),
+				ratio =
 
 			j+=1;
 		}
