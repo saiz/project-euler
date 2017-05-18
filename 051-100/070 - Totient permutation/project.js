@@ -58,7 +58,7 @@ function main() {
 			if(is_permutation())
 			if(ratio < minratio){
 				minratio = ratio;
-				min =primes[i]*primes[j];
+				min =num;
 				minphi = phi;
 			}
 
