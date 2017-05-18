@@ -52,7 +52,8 @@ function main() {
 			if(primes[i]*primes[j]> max){
 				break;
 			}
-			var num = phi =(primes[i] - 1) * (primes[j] - 1),
+			var num = primes[i]*primes[j];,
+				phi =(primes[i] - 1) * (primes[j] - 1),
 				ratio =primes[i]*primes[j]/phi;
 			if(is_permutation())
 			if(ratio < minratio){
