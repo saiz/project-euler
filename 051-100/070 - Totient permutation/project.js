@@ -49,7 +49,7 @@ function main() {
 		}
 		i+=1;
 	}
-		console.log(primes.length)
+		console.log(min,min)
 	// while(i<n){
 	// 	if(i < min*phi(i)){
 	// 		j = String(i);
