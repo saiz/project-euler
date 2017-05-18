@@ -39,8 +39,9 @@ function main() {
 			var phi =(primes[i] - 1) * (primes[j] - 1),
 				ratio =primes[i]*primes[j]/phi;
 			if(ratio < minratio){
-				minratio = minratio;
+				minratio = ratio;
 				min =primes[i]*primes[j];
+
 			}
 
 			j+=1;
