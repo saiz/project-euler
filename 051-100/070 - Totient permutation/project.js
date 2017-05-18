@@ -29,7 +29,7 @@ function main() {
 		i,j;
 	while(i<primes.length){
 		j=i;
-		while(i<primes.length){
+		while(j<primes.length){
 
 			j+=1;
 		}
