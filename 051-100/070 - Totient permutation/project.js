@@ -20,7 +20,7 @@ function eratosthenes(n) {
         }
     }
     return output;
-
+}
 
 function main() {
 	'use strict';
