@@ -34,8 +34,8 @@ function main() {
 			if (primes[i]*primes[j] > max) {
 				break;
 			}
-			var phi =(primes[i] -1)*(primes[j] -1);
-var
+			var phi =(primes[i] -1)*(primes[j] -1),
+ratio =
 			console.log(primes[i]*primes[j]);
 			j+=1;
 		}
