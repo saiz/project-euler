@@ -50,7 +50,7 @@ function main() {
 		j=i+1;
 		while(j<primes.length){
 			var num = primes[i]*primes[j];
-			if(num> max){
+			if(num > max){
 				break;
 			}
 			var phi = (primes[i] - 1) * (primes[j] - 1),
