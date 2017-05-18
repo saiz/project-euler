@@ -49,9 +49,9 @@ function main() {
 	var upperbound = 5000;
 	var primes = eratosthenes(upperbound);
 
-	for (var i = 0; i < primes.Length; i++) {
+	for (var i = 0; i < primes.length; i++) {
 
-	    for (var j = i+1; j < primes.Length; j++) {
+	    for (var j = i+1; j < primes.length; j++) {
 	        var n = primes[i] * primes[j];
 	        if (n > limit) break;
 
