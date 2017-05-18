@@ -58,7 +58,7 @@ function main() {
 	        var phi = (primes[i] - 1) * (primes[j] - 1);
 	        var ratio = ( n) / phi;
 
-	        if (isPerm(n, phi) && bestRatio > ratio) {
+	        if (is_permutation(n, phi) && bestRatio > ratio) {
 	            best = n;
 	            phiBest = phi;
 	            bestRatio = ratio;
