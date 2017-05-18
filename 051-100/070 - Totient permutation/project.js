@@ -42,7 +42,7 @@ function main() {
 	'use strict';
 	var best = 1;
 	var phiBest = 1;
-	var bestRatio = double.PositiveInfinity;
+	var bestRatio = Infinity;
 
 	var limit = 10000000;
 	var lowerbound = 2000;
