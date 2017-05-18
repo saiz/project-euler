@@ -33,6 +33,7 @@ function main() {
 	while(i<primes.length){
 		j=i+1;
 		while(j<primes.length){
+			if(primes[i]*)
 
 			j+=1;
 		}
