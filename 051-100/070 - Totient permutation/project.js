@@ -24,7 +24,7 @@ function eratosthenes(n) {
 
 function main() {
 	'use strict';
-	var max = Math.pow(10,7),
+	var max = Math.pow(10,6),
 		minratio = Infinity,
 		minphi = Infinity,
 		min = Infinity,
