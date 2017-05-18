@@ -38,6 +38,7 @@ function main() {
 			var phi =(primes[i] -1)*(primes[j] -1),
 				ratio = primes[i]*primes[j] /phi;
 				console.log(ratio);
+			if(ratio <)
 			j+=1;
 		}
 		i+=1;
