@@ -26,7 +26,8 @@ function main() {
 	'use strict';
 	var max = Math.pow(10,7),
 		min = Infinity,
-minphi
+minphi = Infinity,
+minphi = Infinity,
 		primes = eratosthenes(Math.sqrt(max)),
 		i=0,
 		j;
