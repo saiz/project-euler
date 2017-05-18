@@ -26,8 +26,8 @@ function main() {
 	'use strict';
 	var max = Math.pow(10,7),
 		minratio = Infinity,
-minphi = Infinity,
-minphi = Infinity,
+		minphi = Infinity,
+		min = Infinity,
 		primes = eratosthenes(Math.sqrt(max)),
 		i=0,
 		j;
@@ -40,8 +40,9 @@ minphi = Infinity,
 			var phi =(primes[i] -1)*(primes[j] -1),
 				ratio = primes[i]*primes[j] /phi;
 				console.log(ratio);
-			if(ratio < min){
-				min = ratio;
+			if(ratio < minratio){
+				minratio = ratio;
+min =primes[i]*primes[j]
 			}
 			j+=1;
 		}
