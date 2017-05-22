@@ -45,7 +45,7 @@ while i< len(primes):
 			min = n
 			min_ratio = ratio
 			min_phi = phi
-			print min , min_phi, min_ratio
+			# print min , min_phi, min_ratio
 		j+=1;
 	i+=1;
 
