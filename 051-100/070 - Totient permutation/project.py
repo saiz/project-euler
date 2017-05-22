@@ -39,7 +39,7 @@ while i< len(primes):
 		if n > limit:
 			break;
 		phi =  (primes[i] -1 ) * (primes[j] -1 )
-		ratio = n / phi
+		ratio = long(n) / phi
 		if isperm(str(n),str(phi)) and ratio < min_ratio:
 			min = n
 			min_ratio = ratio
