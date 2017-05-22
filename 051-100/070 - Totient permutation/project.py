@@ -5,7 +5,7 @@ def isperm( str1, str2 ):
 	bool = true
 	while( i < len(str1) and bool):
 		print str1[i]
-		if !(str1[i] in str2):
+		if not(str1[i] in str2):
 			bool = false
 		i+=1;
 	return bool
