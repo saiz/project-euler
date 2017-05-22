@@ -40,7 +40,7 @@ while i< len(primes):
 		if n > limit:
 			break;
 		phi =  (primes[i] -1 ) * (primes[j] -1 )
-		ratio = n / phi
+		ratio = (n * 1.0) / (phi * 1.0)
 		if  ratio < min_ratio:
 			min = n
 			min_ratio = ratio
