@@ -30,5 +30,5 @@ def primes_sieve(limit):
 
 limit =  10 ** 7
 print limit
-primes = primes_sieve(limit))
+primes = math.squ
 print len(primes)
