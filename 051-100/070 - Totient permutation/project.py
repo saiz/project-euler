@@ -35,8 +35,10 @@ i=0
 while i< len(primes):
 	j = i+1
 	while j< len(primes):
-		if primes[i]*primes[j] > limit:
+		n = primes[i]*primes[j]
+		if n > limit:
 			break;
+		phi =  (primes[i] -1 ) * (primes[j] -1 )
 		print primes[i]*primes[j]
 		j+=1;
 	i+=1;
