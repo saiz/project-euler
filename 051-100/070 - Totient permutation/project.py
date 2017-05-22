@@ -1,6 +1,6 @@
 def isperm( str1, str2 ):
-   if()
-   print str + man
-   return
+	if len(str1) != len(str2)
+		return False
+	return True
 
 printme('adsad')
