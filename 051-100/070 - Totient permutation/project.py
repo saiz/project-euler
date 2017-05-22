@@ -4,7 +4,7 @@ def isperm( str1, str2 ):
 	i = 0
 	bool = True
 	while( i < len(str1) and bool):
-		print str1[i]
+		print str1[i] , str2
 		if not(str1[i] in str2):
 			bool = False
 		str2.replace(str1[i],"",1)
