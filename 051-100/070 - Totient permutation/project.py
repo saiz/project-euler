@@ -8,7 +8,7 @@ def isperm( str1, str2 ):
 		print str1[i] , _str
 		if not(str1[i] in _str):
 			bool = False
-		_str.replace(str1[i],"",1)
+		_str = _str.replace(str1[i],"",1)
 		i+=1;
 	return bool
 
