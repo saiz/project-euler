@@ -26,6 +26,6 @@ def primes_sieve(limit):
     return primes
 
 limit =  10 ** 7
-primes = primes_sieve(sqrt(limit))
+primes = primes_sieve(math.sqrt(limit))
 print isperm('sadsa', 'sasad')
 print len(primes)
