@@ -40,7 +40,7 @@ while i< len(primes):
 		if n > limit:
 			break;
 		phi =  (primes[i] -1 ) * (primes[j] -1 )
-		print n,phi
+		# print n,phi
 		ratio = n / phi
 		if isperm(str(n),str(phi)):
 			print True
