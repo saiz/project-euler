@@ -29,4 +29,6 @@ def primes_sieve(limit):
 limit =  10 ** 7
 primes = primes_sieve(int(round(math.sqrt(limit))))
 min =  float('inf')
+min_phi = float('inf')
+min_ratio = float('inf')
 print min
