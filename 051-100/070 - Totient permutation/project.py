@@ -12,4 +12,4 @@ def isperm( str1, str2 ):
 		i+=1;
 	return bool
 
-print isperm('adsad', 'sasad')
+print isperm('sadsa', 'sasad')
