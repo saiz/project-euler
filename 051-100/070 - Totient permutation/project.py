@@ -26,4 +26,4 @@ def primes_sieve(limit):
     return primes
 
 print isperm('sadsa', 'sasad')
-print len(primes_sieve(100))
+print primes_sieve(100)
