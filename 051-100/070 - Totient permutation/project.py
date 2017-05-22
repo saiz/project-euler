@@ -3,4 +3,4 @@ def printme( str ):
    print str + man
    return
 
-printme()
+printme('adsad')
