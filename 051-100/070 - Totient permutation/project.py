@@ -45,7 +45,7 @@ while i< len(primes):
 			min = n
 			min_ratio = ratio
 			min_phi = phi
-			print True , min
+			print True , min_ratio
 		# if isperm(str(n),str(phi)) and ratio < min_ratio:
 		# 	min = n
 		# 	min_ratio = ratio
