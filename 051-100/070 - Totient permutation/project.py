@@ -39,7 +39,8 @@ while i< len(primes):
 		if n > limit:
 			break;
 		phi =  (primes[i] -1 ) * (primes[j] -1 )
-		ratio =n
+		ratio =n /phi
+if
 		print primes[i]*primes[j]
 		j+=1;
 	i+=1;
