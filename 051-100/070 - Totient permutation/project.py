@@ -3,4 +3,4 @@ def isperm( str1, str2 ):
 		return False
 	return True
 
-printme('adsad')
+printme('adsad', 'adsad')
