@@ -39,8 +39,8 @@ while i< len(primes):
 		if n > limit:
 			break;
 		phi =  (primes[i] -1 ) * (primes[j] -1 )
-		ratio =n /phi
-		if isperm(n,phi) and ratio < min_ratio
+		ratio =n / phi
+		if  ratio < min_ratio
 			min = n
 			min_ratio = ratio
 			min_phi = phi
