@@ -3,7 +3,7 @@ def isperm( str1, str2 ):
 		return False
 	i = 0
 	while( i < len(str)):
-		if
+		printstr
 	return True
 
 print isperm('adsad', 'sasad')
