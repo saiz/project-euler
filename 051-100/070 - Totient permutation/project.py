@@ -3,11 +3,12 @@ def isperm( str1, str2 ):
 		return False
 	i = 0
 	bool = True
+	_str = str2
 	while( i < len(str1) and bool):
-		print str1[i] , str2
-		if not(str1[i] in str2):
+		print str1[i] , _str
+		if not(str1[i] in _str):
 			bool = False
-		str2.replace(str1[i],"",1)
+		_str.replace(str1[i],"",1)
 		i+=1;
 	return bool
 
