@@ -30,5 +30,5 @@ def primes_sieve(limit):
 
 limit =  10 ** 7
 print limit
-primes = int(round(math.sqrt(limit)))
+primes = primes_sieve(int(round(math.sqrt(limit))))
 print primes
