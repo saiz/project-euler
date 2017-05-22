@@ -47,4 +47,4 @@ while i< len(primes):
 		j+=1;
 	i+=1;
 
-print min, min_phi
+print min, min_phi, min_ratio
