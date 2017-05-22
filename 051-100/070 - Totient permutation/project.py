@@ -40,7 +40,7 @@ while i< len(primes):
 			break;
 		phi =  (primes[i] -1 ) * (primes[j] -1 )
 		ratio =n /phi
-		if isperm(n,phi)and
+		if isperm(n,phi)andr
 		print primes[i]*primes[j]
 		j+=1;
 	i+=1;
