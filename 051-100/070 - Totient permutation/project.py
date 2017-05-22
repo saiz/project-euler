@@ -37,7 +37,6 @@ while i< len(primes):
 	j = i+1
 	while j< len(primes):
 		n = primes[i]*primes[j]
-		print i,j
 		if n > limit:
 			break;
 		phi =  (primes[i] -1 ) * (primes[j] -1 )
