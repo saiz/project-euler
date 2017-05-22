@@ -43,7 +43,7 @@ while i< len(primes):
 		print n,phi
 		ratio = n / phi
 		if isperm(str(n),str(phi)):
-			print true
+			print True
 		# if isperm(str(n),str(phi)) and ratio < min_ratio:
 		# 	min = n
 		# 	min_ratio = ratio
