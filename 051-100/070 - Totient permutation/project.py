@@ -10,15 +10,20 @@ def isperm( str1, str2 ):
 		_str = _str.replace(str1[i],"",1)
 		i+=1;
 	return bool
-def primes_sieve2(limit):
-    a = [True] * limit                          # Initialize the primality list
-    a[0] = a[1] = False
+def primes_sieve(limit):
+    limitn = limit+1
+    not_prime = [False] * limitn
+    primes = []
 
-    for (i, isprime) in enumerate(a):
-        if isprime:
-            yield i
-            for n in xrange(i*i, limit, i):     # Mark factors non-prime
-                a[n] = False
+    for i in range(2, limitn):
+        if not_prime[i]:
+            continue
+        for f in xrange(i*2, limitn, i):
+            not_prime[f] = True
+
+        primes.append(i)
+
+    return primes
 
 print isperm('sadsa', 'sasad')
-print len(primes_sieve2(100))
+print len(primes_sieve(100))
