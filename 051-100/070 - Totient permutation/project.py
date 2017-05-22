@@ -15,7 +15,6 @@ def primes_sieve(limit):
     limitn = limit+1
     not_prime = set()
     primes = []
-
     for i in range(2, limitn):
         if i in not_prime:
             continue
