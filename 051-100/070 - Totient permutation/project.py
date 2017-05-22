@@ -43,7 +43,7 @@ while i< len(primes):
 		if isperm(n,phi)and ratio < min_ratio
 			min = n
 			min_ratio = ratio
-
+			min_phi
 		print primes[i]*primes[j]
 		j+=1;
 	i+=1;
