@@ -21,4 +21,4 @@ def primes_sieve2(limit):
                 a[n] = False
 
 print isperm('sadsa', 'sasad')
-print primes_sieve2(100)
+print len(primes_sieve2(100))
