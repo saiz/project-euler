@@ -32,11 +32,13 @@ min =  float('inf')
 min_phi = float('inf')
 min_ratio = float('inf')
 i=0
-j=0
 while i< len(primes):
+	j = i+1
 	while j< len(primes):
 		j+=1;
-		if
+		if primes[i]*primes[j] > limit:
+			break;
+		print primes[i]*primes[j]
 	i+=1;
 
 print min
