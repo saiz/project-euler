@@ -35,6 +35,7 @@ i=0
 j = 0
 while i< len(primes):
 	j = i+1
+	print i,j
 	while j< len(primes):
 		n = primes[i]*primes[j]
 		if n > limit:
@@ -48,5 +49,5 @@ while i< len(primes):
 			print min , min_phi, min_ratio
 		j+=1;
 	i+=1;
-	print i,j
+
 print min , min_phi, min_ratio
