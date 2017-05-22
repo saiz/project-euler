@@ -33,5 +33,10 @@ min_phi = float('inf')
 min_ratio = float('inf')
 i=0
 j=0
+while i< len(primes):
+	while j< len(primes):
+		j+=1;
+		if
+	i+=1;
 
 print min
