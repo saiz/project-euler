@@ -31,4 +31,5 @@ primes = primes_sieve(int(round(math.sqrt(limit))))
 min =  float('inf')
 min_phi = float('inf')
 min_ratio = float('inf')
+
 print min
