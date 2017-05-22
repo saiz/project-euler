@@ -34,11 +34,11 @@ i = 0
 while i< len(primes):
 	j = i+1
 	while j< len(primes):
-		n = primes[i]*primes[j] * 1.0
+		n = primes[i]*primes[j]
 		if n > limit:
 			break;
-		phi =  (primes[i] -1 ) * (primes[j] -1 )  * 1.0
-		ratio = n / phi
+		phi =  (primes[i] -1 ) * (primes[j] -1 )
+		ratio = (n * 1.0) / (phi * 1.0)
 		if isperm(str(n),str(phi)) and ratio < min_ratio:
 			min = n
 			min_ratio = ratio
