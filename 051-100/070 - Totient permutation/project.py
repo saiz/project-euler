@@ -7,6 +7,7 @@ def isperm( str1, str2 ):
 		print str1[i]
 		if not(str1[i] in str2):
 			bool = False
+
 		i+=1;
 	return bool
 
