@@ -4,6 +4,7 @@ def isperm( str1, str2 ):
 	i = 0
 	while( i < len(str)):
 		print str[i]
+		i+=1;
 	return True
 
 print isperm('adsad', 'sasad')
