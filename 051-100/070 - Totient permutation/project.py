@@ -41,16 +41,11 @@ while i< len(primes):
 			break;
 		phi =  (primes[i] -1 ) * (primes[j] -1 )
 		ratio = (n * 1.0) / (phi * 1.0)
-		if  ratio < min_ratio:
+		if isperm(str(n),str(phi)) and ratio < min_ratio:
 			min = n
 			min_ratio = ratio
 			min_phi = phi
-			print True , min_ratio
-		# if isperm(str(n),str(phi)) and ratio < min_ratio:
-		# 	min = n
-		# 	min_ratio = ratio
-		# 	min_phi = phi
-		# 	print min , min_phi, min_ratio
+			print min , min_phi, min_ratio
 		j+=1;
 	i+=1;
 
