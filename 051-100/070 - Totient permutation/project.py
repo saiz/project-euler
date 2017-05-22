@@ -3,4 +3,4 @@ def printme( str ):
    print str
    return
 
-printme('ad')
+functionname('ad')
