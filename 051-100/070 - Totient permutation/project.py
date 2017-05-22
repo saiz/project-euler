@@ -5,7 +5,6 @@ def isperm( str1, str2 ):
 	bool = True
 	_str = str2
 	while( i < len(str1) and bool):
-		print str1[i] , _str
 		if not(str1[i] in _str):
 			bool = False
 		_str = _str.replace(str1[i],"",1)
