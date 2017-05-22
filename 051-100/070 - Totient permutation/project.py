@@ -1,4 +1,4 @@
-def printme( str ):
+def isperm( str ):
    man = "This prints a passed string into this function"
    print str + man
    return
